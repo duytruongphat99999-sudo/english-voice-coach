@@ -1,0 +1,206 @@
+{
+ "id": "fr_nganhang",
+ "order": 7,
+ "emoji": "🏦",
+ "name_vi": "Ngân hàng",
+ "vocab": [
+  {
+   "word": "ouvrir un compte",
+   "gender": "",
+   "ipa": "/uvʁiʁ œ̃ kɔ̃t/",
+   "meaning_vi": "mở tài khoản",
+   "example_fr": "Il faut combien de temps pour ouvrir un compte ?",
+   "example_vi": "Mở tài khoản mất bao lâu vậy?",
+   "note_vi": "Chữ p trong compte câm: đọc /kɔ̃t/."
+  },
+  {
+   "word": "la carte bancaire",
+   "gender": "f",
+   "ipa": "/la kaʁt bɑ̃kɛʁ/",
+   "meaning_vi": "thẻ ngân hàng",
+   "example_fr": "J'ai reçu ma carte bancaire par la poste.",
+   "example_vi": "Tôi đã nhận thẻ ngân hàng qua bưu điện.",
+   "note_vi": "Giống cái. Ở Québec hay nói: la carte de débit."
+  },
+  {
+   "word": "le code secret",
+   "gender": "m",
+   "ipa": "/lə kɔd səkʁɛ/",
+   "meaning_vi": "mã PIN",
+   "example_fr": "Tapez votre code secret, s'il vous plaît.",
+   "example_vi": "Anh/chị vui lòng nhập mã PIN.",
+   "note_vi": "Chữ t cuối của secret câm. Ở Québec hay nói: le NIP."
+  },
+  {
+   "word": "déposer",
+   "gender": "",
+   "ipa": "/depoze/",
+   "meaning_vi": "nộp (tiền) vào tài khoản",
+   "example_fr": "Je voudrais déposer deux cents dollars.",
+   "example_vi": "Tôi muốn nộp hai trăm đô vào tài khoản.",
+   "note_vi": "déposer de l'argent = nộp tiền vào tài khoản."
+  },
+  {
+   "word": "retirer",
+   "gender": "",
+   "ipa": "/ʁətiʁe/",
+   "meaning_vi": "rút (tiền)",
+   "example_fr": "Je veux retirer cinquante dollars.",
+   "example_vi": "Tôi muốn rút năm mươi đô.",
+   "note_vi": "Đừng nhầm với 'retire' (nghỉ hưu) trong tiếng Anh; ở đây là rút tiền."
+  },
+  {
+   "word": "faire un virement",
+   "gender": "",
+   "ipa": "/fɛʁ œ̃ viʁmɑ̃/",
+   "meaning_vi": "chuyển khoản",
+   "example_fr": "Je fais un virement à ma famille au Vietnam.",
+   "example_vi": "Tôi chuyển tiền về cho gia đình ở Việt Nam.",
+   "note_vi": "Chữ e trong virement gần như câm: /viʁmɑ̃/."
+  },
+  {
+   "word": "le solde",
+   "gender": "m",
+   "ipa": "/lə sɔld/",
+   "meaning_vi": "số dư tài khoản",
+   "example_fr": "Je voudrais connaître mon solde.",
+   "example_vi": "Tôi muốn biết số dư tài khoản.",
+   "note_vi": "Cẩn thận: les soldes (số nhiều) là mùa giảm giá."
+  },
+  {
+   "word": "les frais",
+   "gender": "mpl",
+   "ipa": "/le fʁɛ/",
+   "meaning_vi": "phí, lệ phí",
+   "example_fr": "Est-ce qu'il y a des frais sur ce compte ?",
+   "example_vi": "Tài khoản này có mất phí không?",
+   "note_vi": "Giống đực số nhiều; chữ s cuối câm."
+  },
+  {
+   "word": "le justificatif de domicile",
+   "gender": "m",
+   "ipa": "/lə ʒystifikatif də dɔmisil/",
+   "meaning_vi": "giấy tờ chứng minh địa chỉ",
+   "example_fr": "J'apporte un justificatif de domicile demain.",
+   "example_vi": "Mai tôi mang giấy tờ chứng minh địa chỉ tới.",
+   "note_vi": "Ở Québec hay nói: la preuve d'adresse."
+  },
+  {
+   "word": "le conseiller",
+   "gender": "m",
+   "ipa": "/lə kɔ̃seje/",
+   "meaning_vi": "nhân viên tư vấn",
+   "example_fr": "Je voudrais parler à un conseiller.",
+   "example_vi": "Tôi muốn nói chuyện với nhân viên tư vấn.",
+   "note_vi": "Nữ là la conseillère. 'ill' đọc /j/."
+  },
+  {
+   "word": "le guichet automatique",
+   "gender": "m",
+   "ipa": "/lə ɡiʃɛ otɔmatik/",
+   "meaning_vi": "máy rút tiền (ATM)",
+   "example_fr": "Le guichet automatique est à côté de la porte.",
+   "example_vi": "Máy ATM nằm cạnh cửa ra vào.",
+   "note_vi": "Ở Pháp hay nói: le distributeur."
+  },
+  {
+   "word": "l'argent",
+   "gender": "m",
+   "ipa": "/laʁʒɑ̃/",
+   "meaning_vi": "tiền",
+   "example_fr": "Je n'ai pas d'argent sur moi.",
+   "example_vi": "Tôi không mang theo tiền.",
+   "note_vi": "Giống đực. Chữ t cuối câm; cũng có nghĩa là bạc (kim loại)."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Je voudrais ouvrir un compte à la banque.",
+   "vi": "Tôi muốn mở tài khoản ở ngân hàng.",
+   "focus_vi": "Hai âm mũi khác nhau: 'om' trong 'compte' /kɔ̃t/ thì tròn môi, 'an' trong 'banque' /bɑ̃k/ thì mở miệng; không bật âm m, n hay ng ở cuối."
+  },
+  {
+   "fr": "Ma carte bancaire ne marche pas.",
+   "vi": "Thẻ ngân hàng của tôi không dùng được.",
+   "focus_vi": "Chữ r trong 'carte' và 'marche': r Pháp phát ra ở cuối họng, gần như 'gh' nhẹ, không rung đầu lưỡi như r tiếng Việt."
+  },
+  {
+   "fr": "Ne donnez jamais votre code secret.",
+   "vi": "Đừng bao giờ đưa mã PIN cho ai.",
+   "focus_vi": "'secret' đọc /səkʁɛ/: chữ t cuối câm, chữ e đầu đọc nhẹ như 'ơ'."
+  },
+  {
+   "fr": "Avez-vous un justificatif de domicile ?",
+   "vi": "Anh/chị có giấy tờ chứng minh địa chỉ không?",
+   "focus_vi": "Chữ u trong 'justificatif' là /y/: chu môi như nói 'u' nhưng lưỡi đặt như 'i'. Không đọc thành 'u' tiếng Việt (đó là 'ou')."
+  },
+  {
+   "fr": "Je voudrais déposer ce chèque sur mon compte.",
+   "vi": "Tôi muốn nộp tấm séc này vào tài khoản.",
+   "focus_vi": "'é' trong 'déposer' đọc /e/ như 'ê' (miệng hẹp); 'è' trong 'chèque' đọc /ɛ/ như 'e' (miệng mở)."
+  },
+  {
+   "fr": "Le conseiller va vous aider tout de suite.",
+   "vi": "Nhân viên tư vấn sẽ giúp anh/chị ngay.",
+   "focus_vi": "Nối âm 'vous aider': chữ s câm của 'vous' đọc thành /z/ và nối sang 'aider': /vuzede/."
+  },
+  {
+   "fr": "Signez ici pour ouvrir votre compte.",
+   "vi": "Anh/chị ký vào đây để mở tài khoản.",
+   "focus_vi": "'gn' trong 'signez' đọc như 'nh' tiếng Việt: /siɲe/, không đọc tách 'g' rồi 'n'."
+  },
+  {
+   "fr": "Il y a des frais au guichet automatique ?",
+   "vi": "Rút tiền ở máy ATM có mất phí không?",
+   "focus_vi": "'guichet' đọc /ɡiʃɛ/: chữ u câm, 'gui' là /ɡi/ với g bật gọn như trong tiếng Anh 'give', đừng kéo hơi như 'gh' tiếng Việt (dễ nghe thành r Pháp). '-et' cuối đọc như 'e', chữ t câm."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Tôi muốn mở tài khoản ngân hàng.",
+   "fr_ref": "Je voudrais ouvrir un compte bancaire.",
+   "hint_fr": "ouvrir un compte"
+  },
+  {
+   "vi": "Máy ATM nuốt thẻ của tôi rồi.",
+   "fr_ref": "Le guichet automatique a gardé ma carte.",
+   "hint_fr": "le guichet automatique"
+  },
+  {
+   "vi": "Tôi quên mã PIN rồi.",
+   "fr_ref": "J'ai oublié mon code secret.",
+   "hint_fr": "le code secret"
+  },
+  {
+   "vi": "Tôi muốn nộp tiền vào tài khoản.",
+   "fr_ref": "Je voudrais déposer de l'argent sur mon compte.",
+   "hint_fr": "déposer"
+  },
+  {
+   "vi": "Mỗi tháng tài khoản này mất bao nhiêu phí?",
+   "fr_ref": "Quels sont les frais par mois pour ce compte ?",
+   "hint_fr": "les frais"
+  },
+  {
+   "vi": "Tôi muốn chuyển khoản cho chủ nhà.",
+   "fr_ref": "Je voudrais faire un virement à mon propriétaire.",
+   "hint_fr": "faire un virement"
+  },
+  {
+   "vi": "Tôi mới sang, chưa có giấy tờ chứng minh địa chỉ.",
+   "fr_ref": "Je viens d'arriver, je n'ai pas de justificatif de domicile.",
+   "hint_fr": "le justificatif de domicile"
+  },
+  {
+   "vi": "Tôi rút hai trăm đô được không?",
+   "fr_ref": "Je peux retirer deux cents dollars ?",
+   "hint_fr": "retirer"
+  }
+ ],
+ "scenario": {
+  "role": "A friendly bank advisor (conseiller) at a bank branch in Montréal.",
+  "context": "The learner is a newcomer to Canada who wants to open a bank account. Guide him step by step: ask which account he wants (chequing or savings), ask for a piece of ID and a proof of address, offer a bank card and explain that he will choose a PIN code. Answer questions about fees only in general terms, without quoting real prices or real bank names. Speak slow, simple A1 French, always use 'vous', one short question at a time.",
+  "opener_fr": "Bonjour, monsieur. Comment est-ce que je peux vous aider aujourd'hui ?",
+  "opener_vi": "Chào anh. Hôm nay tôi có thể giúp gì cho anh?"
+ }
+}

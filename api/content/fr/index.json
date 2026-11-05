@@ -1,0 +1,50 @@
+[
+ {
+  "id": "fr_gioithieu",
+  "name_vi": "Tự giới thiệu & giấy tờ",
+  "emoji": "🪪",
+  "order": 1
+ },
+ {
+  "id": "fr_thoigian",
+  "name_vi": "Số, ngày, giờ, hẹn gặp",
+  "emoji": "🕒",
+  "order": 2
+ },
+ {
+  "id": "fr_thuenha",
+  "name_vi": "Thuê nhà",
+  "emoji": "🏠",
+  "order": 3
+ },
+ {
+  "id": "fr_dilai",
+  "name_vi": "Đi lại",
+  "emoji": "🚌",
+  "order": 4
+ },
+ {
+  "id": "fr_muasam",
+  "name_vi": "Mua sắm",
+  "emoji": "🛒",
+  "order": 5
+ },
+ {
+  "id": "fr_khambenh",
+  "name_vi": "Khám bệnh & nhà thuốc",
+  "emoji": "💊",
+  "order": 6
+ },
+ {
+  "id": "fr_nganhang",
+  "name_vi": "Ngân hàng",
+  "emoji": "🏦",
+  "order": 7
+ },
+ {
+  "id": "fr_dienthoai",
+  "name_vi": "Điện thoại & chăm sóc khách hàng",
+  "emoji": "📞",
+  "order": 8
+ }
+]

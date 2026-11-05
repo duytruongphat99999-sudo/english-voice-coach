@@ -1,0 +1,183 @@
+{
+  "id": "di_lai",
+  "name_vi": "Đi lại",
+  "emoji": "🛵",
+  "track": "everyday",
+  "order": 6,
+  "vocab": [
+    {
+      "word": "stuck in traffic",
+      "ipa": "/ˈstʌk ɪn ˈtræf.ɪk/",
+      "meaning_vi": "bị kẹt xe",
+      "example_en": "I'm stuck in traffic, so please start the clinic without me.",
+      "example_vi": "Tôi đang bị kẹt xe, nên mọi người cứ bắt đầu phòng khám mà không có tôi nhé."
+    },
+    {
+      "word": "hail a ride",
+      "ipa": "/ˈheɪl ə ˈraɪd/",
+      "meaning_vi": "đặt xe công nghệ hoặc gọi taxi",
+      "example_en": "Let me hail a ride on my phone because it's raining heavily.",
+      "example_vi": "Để tôi đặt xe trên điện thoại vì trời đang mưa to quá."
+    },
+    {
+      "word": "run late",
+      "ipa": "/ˈrʌn ˈleɪt/",
+      "meaning_vi": "bị trễ, đi muộn",
+      "example_en": "I'm running late for my presentation at the medical conference.",
+      "example_vi": "Tôi đang bị trễ giờ làm bài thuyết trình tại hội nghị y khoa."
+    },
+    {
+      "word": "flat tire",
+      "ipa": "/ˈflæt ˈtaɪ.ɚ/",
+      "meaning_vi": "bể bánh xe, xẹp lốp",
+      "example_en": "My motorbike got a flat tire on the way to the farm.",
+      "example_vi": "Xe máy của tôi bị bể bánh trên đường đi đến trang trại."
+    },
+    {
+      "word": "parking space",
+      "ipa": "/ˈpɑːr.kɪŋ ˈspeɪs/",
+      "meaning_vi": "chỗ đậu xe",
+      "example_en": "It is really hard to find a parking space near the hospital.",
+      "example_vi": "Thực sự rất khó để tìm được một chỗ đậu xe gần bệnh viện."
+    },
+    {
+      "word": "miss a connection",
+      "ipa": "/ˈmɪs ə kəˈnek.ʃən/",
+      "meaning_vi": "lỡ chuyến bay chuyển tiếp",
+      "example_en": "If this flight is delayed, we will miss our connection in Singapore.",
+      "example_vi": "Nếu chuyến bay này bị hoãn, chúng ta sẽ lỡ chuyến bay chuyển tiếp ở Singapore."
+    },
+    {
+      "word": "fill up the tank",
+      "ipa": "/ˈfɪl ˈʌp ðə ˈtæŋk/",
+      "meaning_vi": "đổ đầy bình xăng",
+      "example_en": "I need to fill up the tank before we drive to the clinic.",
+      "example_vi": "Tôi cần đổ đầy bình xăng trước khi chúng ta lái xe đến phòng khám."
+    },
+    {
+      "word": "terminal",
+      "ipa": "/ˈtɝː.mɪ.nəl/",
+      "meaning_vi": "nhà ga sân bay",
+      "example_en": "Which terminal does the international flight to Bangkok depart from?",
+      "example_vi": "Chuyến bay quốc tế đi Bangkok khởi hành từ nhà ga nào vậy?"
+    },
+    {
+      "word": "rush hour",
+      "ipa": "/ˈrʌʃ ˈaʊ.ɚ/",
+      "meaning_vi": "giờ cao điểm",
+      "example_en": "Avoid driving on this bridge during rush hour because it gets blocked.",
+      "example_vi": "Tránh lái xe qua cây cầu này vào giờ cao điểm vì nó hay bị tắc nghẽn."
+    },
+    {
+      "word": "pull over",
+      "ipa": "/ˈpʊl ˈoʊ.vɚ/",
+      "meaning_vi": "tấp xe vào lề",
+      "example_en": "The taxi driver had to pull over to check the engine.",
+      "example_vi": "Tài xế taxi đã phải tấp vào lề để kiểm tra động cơ."
+    },
+    {
+      "word": "drop-off zone",
+      "ipa": "/ˈdrɑːp.ɑːf ˈzoʊn/",
+      "meaning_vi": "khu vực trả khách",
+      "example_en": "You can only stop for one minute in the airport drop-off zone.",
+      "example_vi": "Bạn chỉ được dừng một phút ở khu vực trả khách của sân bay."
+    },
+    {
+      "word": "get lost",
+      "ipa": "/ˈɡet ˈlɔːst/",
+      "meaning_vi": "bị lạc đường",
+      "example_en": "I always get lost when I try to find that new medical center.",
+      "example_vi": "Tôi luôn bị lạc đường khi cố gắng tìm trung tâm y tế mới đó."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The dermatologist rushed through the rain to catch the last train.",
+      "vi": "Bác sĩ da liễu đã vội vã đi trong mưa để kịp chuyến tàu cuối cùng.",
+      "focus_vi": "Phát âm rõ âm /ʃ/ trong rushed và /θ/ trong through"
+    },
+    {
+      "en": "Please park your motorbike near the street and lock the wheels.",
+      "vi": "Vui lòng đỗ xe máy của bạn gần đường và khóa bánh xe lại.",
+      "focus_vi": "Chú ý âm đuôi /k/ trong park, lock và /z/ trong wheels"
+    },
+    {
+      "en": "He got three flat tires while driving to the rural farm.",
+      "vi": "Anh ấy bị xẹp ba bánh xe khi đang lái xe đến trang trại ở nông thôn.",
+      "focus_vi": "Phát âm rõ /θ/ trong three và âm /r/ trong rural"
+    },
+    {
+      "en": "She asks for directions because she missed the airport bus.",
+      "vi": "Cô ấy hỏi đường vì cô ấy đã bỏ lỡ chuyến xe buýt ra sân bay.",
+      "focus_vi": "Cụm phụ âm /sks/ trong asks và đuôi /t/ trong missed"
+    },
+    {
+      "en": "The taxi driver took a short cut through the crowded streets.",
+      "vi": "Tài xế taxi đã đi đường tắt qua những con phố đông đúc.",
+      "focus_vi": "Phát âm đúng âm /ð/ trong the và cụm /str/ trong streets"
+    },
+    {
+      "en": "We must check in our bags before the desk closes.",
+      "vi": "Chúng ta phải ký gửi hành lý trước khi quầy đóng cửa.",
+      "focus_vi": "Bật rõ âm đuôi /st/ trong must, desk và /z/ trong closes"
+    },
+    {
+      "en": "I was late because my car broke down on the bridge.",
+      "vi": "Tôi đã đến trễ vì xe của tôi bị hỏng trên cầu.",
+      "focus_vi": "Phát âm đúng âm đuôi /s/ trong was, because và /dʒ/ trong bridge"
+    },
+    {
+      "en": "They scheduled a ride to avoid the rush hour traffic.",
+      "vi": "Họ đã lên lịch đặt xe để tránh tình trạng kẹt xe giờ cao điểm.",
+      "focus_vi": "Phát âm đúng âm /dʒ/ trong scheduled và /ʃ/ trong rush"
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Em đang bị kẹt xe ở cầu Sài Gòn, chắc trễ 15 phút nha.",
+      "en_ref": "I'm stuck in traffic on Saigon Bridge, so I'll probably be fifteen minutes late.",
+      "hint_en": "stuck in traffic"
+    },
+    {
+      "vi": "Anh đặt Grab giùm tôi được không? Điện thoại tôi hết pin rồi.",
+      "en_ref": "Can you hail a Grab for me? My phone is dead.",
+      "hint_en": "hail a Grab"
+    },
+    {
+      "vi": "Xe máy của tôi bị xẹp lốp rồi, có tiệm sửa xe nào gần đây không?",
+      "en_ref": "My motorbike has a flat tire, is there a repair shop nearby?",
+      "hint_en": "flat tire"
+    },
+    {
+      "vi": "Để tôi đổ đầy bình xăng rồi mình đi, sắp hết xăng rồi.",
+      "en_ref": "Let me fill up the tank before we go, we're almost out of gas.",
+      "hint_en": "fill up the tank"
+    },
+    {
+      "vi": "Ga đi quốc tế ở nhà ga số mấy vậy bạn?",
+      "en_ref": "Which terminal is the international departures in?",
+      "hint_en": "terminal"
+    },
+    {
+      "vi": "Đừng đi đường đó giờ này, kẹt xe giờ cao điểm kinh khủng lắm.",
+      "en_ref": "Don't go that way right now, rush hour traffic is terrible.",
+      "hint_en": "rush hour"
+    },
+    {
+      "vi": "Anh tài xế ơi, tấp vô lề chỗ nhà thuốc kia giùm tôi nha.",
+      "en_ref": "Driver, please pull over near that pharmacy over there.",
+      "hint_en": "pull over"
+    },
+    {
+      "vi": "Đi lối này nè, nếu không mình sẽ bị lạc đường đó.",
+      "en_ref": "Go this way, otherwise we will get lost.",
+      "hint_en": "get lost"
+    }
+  ],
+  "scenario": {
+    "role": "A local taxi driver at the airport",
+    "context": "You just landed at Bangkok airport for a dermatology conference. You need to get to your hotel quickly because your presentation starts in two hours, but the traffic looks heavy. You are talking to your taxi driver.",
+    "opener_en": "Welcome to Bangkok! Where can I take you today? The city center is very busy right now, are you in a hurry?",
+    "opener_vi": "Chào mừng đến Bangkok! Tôi có thể đưa bạn đi đâu hôm nay? Trung tâm thành phố đang rất đông, bạn có đang vội không?"
+  }
+}

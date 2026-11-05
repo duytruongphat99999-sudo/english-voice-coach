@@ -1,0 +1,206 @@
+{
+ "id": "fr_muasam",
+ "order": 5,
+ "emoji": "🛒",
+ "name_vi": "Mua sắm",
+ "vocab": [
+  {
+   "word": "l'épicerie",
+   "gender": "f",
+   "ipa": "/lepisʁi/",
+   "meaning_vi": "cửa hàng thực phẩm, tiệm tạp hóa",
+   "example_fr": "Je vais à l'épicerie ce soir.",
+   "example_vi": "Tối nay tôi ra tiệm tạp hóa.",
+   "note_vi": "Giống cái. Ở Québec, 'l'épicerie' là cả siêu thị thực phẩm; 'faire l'épicerie' nghĩa là đi chợ."
+  },
+  {
+   "word": "le prix",
+   "gender": "m",
+   "ipa": "/lə pʁi/",
+   "meaning_vi": "giá, giá tiền",
+   "example_fr": "Le prix est écrit sur l'étiquette.",
+   "example_vi": "Giá có ghi trên nhãn.",
+   "note_vi": "Chữ x cuối không đọc. Số nhiều vẫn viết 'les prix'."
+  },
+  {
+   "word": "c'est combien",
+   "gender": "",
+   "ipa": "/sɛ kɔ̃bjɛ̃/",
+   "meaning_vi": "bao nhiêu tiền?",
+   "example_fr": "Pardon, c'est combien, ce sac ?",
+   "example_vi": "Xin lỗi, cái túi này bao nhiêu tiền?",
+   "note_vi": "Ở quầy tính tiền người ta hay nói 'Ça fait combien ?' = tổng cộng bao nhiêu?"
+  },
+  {
+   "word": "la caisse",
+   "gender": "f",
+   "ipa": "/la kɛs/",
+   "meaning_vi": "quầy tính tiền",
+   "example_fr": "Payez à la caisse, s'il vous plaît.",
+   "example_vi": "Anh/chị vui lòng thanh toán ở quầy.",
+   "note_vi": "Giống cái. Nhân viên thu ngân: le caissier / la caissière."
+  },
+  {
+   "word": "payer",
+   "gender": "",
+   "ipa": "/peje/",
+   "meaning_vi": "trả tiền, thanh toán",
+   "example_fr": "Je vais payer par carte.",
+   "example_vi": "Tôi sẽ trả bằng thẻ.",
+   "note_vi": "Bằng thẻ: 'par carte'; tiền mặt: 'en espèces'. Chia: je paie, vous payez."
+  },
+  {
+   "word": "en espèces",
+   "gender": "",
+   "ipa": "/ɑ̃nɛspɛs/",
+   "meaning_vi": "bằng tiền mặt",
+   "example_fr": "Je préfère payer en espèces.",
+   "example_vi": "Tôi thích trả tiền mặt hơn.",
+   "note_vi": "Nối âm: n của 'en' dính sang 'espèces'. Ở Québec hay nói: 'comptant' (payer comptant)."
+  },
+  {
+   "word": "le reçu",
+   "gender": "m",
+   "ipa": "/lə ʁəsy/",
+   "meaning_vi": "biên lai, hóa đơn mua hàng",
+   "example_fr": "Gardez le reçu pour un échange.",
+   "example_vi": "Nhớ giữ biên lai để còn đổi hàng.",
+   "note_vi": "Chữ ç đọc [s]. 'u' đọc [y]: chu tròn môi nhưng lưỡi đặt như khi nói 'i'."
+  },
+  {
+   "word": "la taille",
+   "gender": "f",
+   "ipa": "/la taj/",
+   "meaning_vi": "cỡ (quần áo)",
+   "example_fr": "Quelle taille faites-vous, monsieur ?",
+   "example_vi": "Anh mặc cỡ nào ạ?",
+   "note_vi": "Giống cái. Đọc [taj] như 'tai', không có âm l. Cỡ giày thì dùng 'la pointure'."
+  },
+  {
+   "word": "essayer",
+   "gender": "",
+   "ipa": "/eseje/",
+   "meaning_vi": "thử (quần áo, giày)",
+   "example_fr": "Je peux essayer cette robe ?",
+   "example_vi": "Tôi mặc thử cái đầm này được không?",
+   "note_vi": "Phòng thử đồ: 'la cabine d'essayage'. 'essayer de' + động từ = cố gắng làm gì."
+  },
+  {
+   "word": "trop grand",
+   "gender": "",
+   "ipa": "/tʁo ɡʁɑ̃/",
+   "meaning_vi": "rộng quá, to quá",
+   "example_fr": "Ce pantalon est un peu trop grand.",
+   "example_vi": "Cái quần này hơi rộng một chút.",
+   "note_vi": "Ngược lại: 'trop petit' = chật, nhỏ quá. Đồ giống cái thì thêm e: 'trop grande'."
+  },
+  {
+   "word": "cher",
+   "gender": "",
+   "ipa": "/ʃɛʁ/",
+   "meaning_vi": "đắt",
+   "example_fr": "Ces bottes sont un peu chères.",
+   "example_vi": "Đôi bốt này hơi đắt.",
+   "note_vi": "Rẻ là 'pas cher'. Chữ r cuối có đọc; 'chère' (giống cái) đọc y hệt."
+  },
+  {
+   "word": "échanger",
+   "gender": "",
+   "ipa": "/eʃɑ̃ʒe/",
+   "meaning_vi": "đổi (hàng)",
+   "example_fr": "Je voudrais échanger ce manteau, s'il vous plaît.",
+   "example_vi": "Tôi muốn đổi cái áo khoác này.",
+   "note_vi": "Muốn lấy lại tiền thì dùng 'rembourser' (hoàn tiền)."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Je voudrais un reçu, s'il vous plaît.",
+   "vi": "Cho tôi xin tờ biên lai với.",
+   "focus_vi": "reçu: âm 'u' của Pháp là [y] — chu tròn môi như nói 'u' nhưng lưỡi để như nói 'i'. Khác 'ou' trong 'voudrais', đọc như 'u' tiếng Việt."
+  },
+  {
+   "fr": "C'est combien, ce pantalon noir ?",
+   "vi": "Cái quần đen này bao nhiêu tiền?",
+   "focus_vi": "pantalon: 'an' đọc [ɑ̃] miệng mở rộng, 'on' đọc [ɔ̃] môi tròn; cả hai là âm mũi, không đọc chữ n."
+  },
+  {
+   "fr": "Non merci, je regarde seulement les prix.",
+   "vi": "Cảm ơn, tôi chỉ xem giá thôi.",
+   "focus_vi": "regarde: chữ r của Pháp phát ra ở cuống họng, gần giống 'g' trong 'gà' nhưng đẩy sâu hơn; không rung đầu lưỡi."
+  },
+  {
+   "fr": "Ce manteau est trop grand pour moi.",
+   "vi": "Áo khoác này tôi mặc rộng quá.",
+   "focus_vi": "grand: chữ d cuối câm, từ dừng ở âm mũi [ɑ̃]; 'trop' cũng không đọc chữ p."
+  },
+  {
+   "fr": "Vous payez en espèces ou par carte ?",
+   "vi": "Anh/chị trả tiền mặt hay quẹt thẻ?",
+   "focus_vi": "en espèces: nối âm, chữ n của 'en' dính sang 'espèces' thành [ɑ̃nɛspɛs]; chữ s cuối 'espèces' câm."
+  },
+  {
+   "fr": "Je cherche une chemise de taille moyenne.",
+   "vi": "Tôi đang tìm một cái áo sơ mi cỡ vừa.",
+   "focus_vi": "taille: 'aille' đọc [aj] giống 'ai' tiếng Việt, tuyệt đối không đọc âm l."
+  },
+  {
+   "fr": "C'est trop cher, je préfère l'autre.",
+   "vi": "Đắt quá, tôi thích cái kia hơn.",
+   "focus_vi": "préfère: 'é' đầu đọc hẹp như 'ê', 'è' sau đọc mở như 'e' tiếng Việt: [pʁefɛʁ]."
+  },
+  {
+   "fr": "Je vais acheter du lait à l'épicerie.",
+   "vi": "Tôi sẽ ra tiệm tạp hóa mua sữa.",
+   "focus_vi": "épicerie: chữ e thứ hai gần như câm, đọc gọn [episʁi], không đọc thành 'ê-pi-xơ-ri'."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Cái áo khoác này bao nhiêu tiền vậy chị?",
+   "fr_ref": "C'est combien, ce manteau ?",
+   "hint_fr": "c'est combien"
+  },
+  {
+   "vi": "Tôi trả tiền mặt được không?",
+   "fr_ref": "Je peux payer en espèces ?",
+   "hint_fr": "en espèces"
+  },
+  {
+   "vi": "Cho tôi xin cái biên lai nhé.",
+   "fr_ref": "Je voudrais le reçu, s'il vous plaît.",
+   "hint_fr": "le reçu"
+  },
+  {
+   "vi": "Tôi mặc thử cái quần này được không?",
+   "fr_ref": "Est-ce que je peux essayer ce pantalon ?",
+   "hint_fr": "essayer"
+  },
+  {
+   "vi": "Cái này rộng quá, chị có cỡ nhỏ hơn không?",
+   "fr_ref": "C'est trop grand. Vous avez une taille plus petite ?",
+   "hint_fr": "la taille"
+  },
+  {
+   "vi": "Đắt quá, có cái nào rẻ hơn không?",
+   "fr_ref": "C'est trop cher. Vous avez quelque chose de moins cher ?",
+   "hint_fr": "cher"
+  },
+  {
+   "vi": "Tôi muốn đổi cái áo sơ mi này, nó chật quá.",
+   "fr_ref": "Je voudrais échanger cette chemise, elle est trop petite.",
+   "hint_fr": "échanger"
+  },
+  {
+   "vi": "Gần đây có tiệm tạp hóa nào không anh?",
+   "fr_ref": "Il y a une épicerie près d'ici ?",
+   "hint_fr": "l'épicerie"
+  }
+ ],
+ "scenario": {
+  "role": "A friendly sales clerk in a clothing store in Montréal.",
+  "context": "The learner is a newcomer who needs a warm winter coat. Let them ask the price, say their size, and try a coat on (the first one is too big, so offer a smaller size). Then let them pay by card or cash, and offer a receipt and a bag. Speak slowly in simple A1 French, always use 'vous', and ask one short question at a time. Keep prices simple and generic; do not state real store policies or tax rules.",
+  "opener_fr": "Bonjour ! Je peux vous aider ?",
+  "opener_vi": "Xin chào! Tôi có thể giúp gì cho anh/chị?"
+ }
+}

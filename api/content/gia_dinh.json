@@ -1,0 +1,183 @@
+{
+  "id": "gia_dinh",
+  "name_vi": "Gia đình, bạn bè",
+  "emoji": "👨‍👩‍👧",
+  "track": "everyday",
+  "order": 4,
+  "vocab": [
+    {
+      "word": "catch up",
+      "ipa": "/kætʃ ʌp/",
+      "meaning_vi": "hàn huyên, nói chuyện sau thời gian dài không gặp",
+      "example_en": "We should grab some coffee and catch up on everything.",
+      "example_vi": "Chúng mình nên đi uống cà phê rồi hàn huyên lại mọi chuyện đi."
+    },
+    {
+      "word": "spitting image",
+      "ipa": "/ˈspɪt.ɪŋ ˈɪm.ɪdʒ/",
+      "meaning_vi": "giống hệt ai đó, bản sao hoàn hảo",
+      "example_en": "Your little boy is the spitting image of his dad.",
+      "example_vi": "Cậu con trai nhỏ của bạn giống hệt bố nó luôn."
+    },
+    {
+      "word": "grow up so fast",
+      "ipa": "/ɡroʊ ʌp soʊ fæst/",
+      "meaning_vi": "lớn nhanh như thổi",
+      "example_en": "I can't believe your kids are growing up so fast.",
+      "example_vi": "Tôi không thể tin được là các con của bạn lại lớn nhanh như vậy."
+    },
+    {
+      "word": "keep in touch",
+      "ipa": "/kiːp ɪn tʌtʃ/",
+      "meaning_vi": "giữ liên lạc",
+      "example_en": "It is hard to keep in touch when everyone is busy.",
+      "example_vi": "Thật khó để giữ liên lạc khi ai cũng bận rộn."
+    },
+    {
+      "word": "sorry for your loss",
+      "ipa": "/ˈsɑːr.i fɚ jɔːr lɔːs/",
+      "meaning_vi": "chia buồn với mất mát của ai đó",
+      "example_en": "I was so sad to hear about your grandfather, sorry for your loss.",
+      "example_vi": "Tôi rất buồn khi nghe tin về ông của bạn, xin chia buồn với bạn nhé."
+    },
+    {
+      "word": "congratulations on",
+      "ipa": "/kənˌɡrætʃ.əˈleɪ.ʃənz ɑːn/",
+      "meaning_vi": "chúc mừng về việc gì",
+      "example_en": "Congratulations on your new clinic, I am so proud of you!",
+      "example_vi": "Chúc mừng phòng khám mới của bạn nhé, tôi rất tự hào về bạn!"
+    },
+    {
+      "word": "hands are full",
+      "ipa": "/hændz ɚ fʊl/",
+      "meaning_vi": "rất bận rộn (thường do chăm con hoặc nhiều việc)",
+      "example_en": "With three kids and the business, my hands are full.",
+      "example_vi": "Với ba đứa con và việc kinh doanh, tôi bận tối tăm mặt mũi."
+    },
+    {
+      "word": "get along",
+      "ipa": "/ɡet əˈlɔːŋ/",
+      "meaning_vi": "hòa hợp, hòa thuận",
+      "example_en": "Do your children get along or do they fight a lot?",
+      "example_vi": "Các con của bạn có hòa thuận không hay là chúng hay chí chóe?"
+    },
+    {
+      "word": "tie the knot",
+      "ipa": "/taɪ ðə nɑːt/",
+      "meaning_vi": "kết hôn, lập gia đình",
+      "example_en": "They finally decided to tie the knot after five years.",
+      "example_vi": "Họ cuối cùng đã quyết định kết hôn sau năm năm bên nhau."
+    },
+    {
+      "word": "expecting",
+      "ipa": "/ɪkˈspek.tɪŋ/",
+      "meaning_vi": "đang mang thai, sắp có em bé",
+      "example_en": "My sister is expecting her second child this December.",
+      "example_vi": "Em gái tôi đang mang thai đứa con thứ hai vào tháng Mười Hai này."
+    },
+    {
+      "word": "make time",
+      "ipa": "/meɪk taɪm/",
+      "meaning_vi": "dành thời gian, thu xếp thời gian",
+      "example_en": "We must make time for family dinners on weekends.",
+      "example_vi": "Chúng ta phải dành thời gian cho bữa tối gia đình vào cuối tuần."
+    },
+    {
+      "word": "go through a rough patch",
+      "ipa": "/ɡoʊ θruː ə rʌf pætʃ/",
+      "meaning_vi": "trải qua giai đoạn khó khăn",
+      "example_en": "They are going through a rough patch but trying to work it out.",
+      "example_vi": "Họ đang trải qua một giai đoạn khó khăn nhưng đang cố gắng giải quyết."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "My oldest son looks just like his grandfather with those big ears.",
+      "vi": "Con trai lớn của tôi trông giống hệt ông nội với đôi tai to đó.",
+      "focus_vi": "Phát âm đuôi 's' trong 'looks' và âm 'th' trong 'with'."
+    },
+    {
+      "en": "She works long hours but still makes time to play with her kids.",
+      "vi": "Cô ấy làm việc nhiều giờ liền nhưng vẫn dành thời gian chơi với con.",
+      "focus_vi": "Phát âm đúng âm đuôi 's' trong 'works', 'makes' và 'kids'."
+    },
+    {
+      "en": "Congratulations on the new baby, she is absolutely beautiful and sweet.",
+      "vi": "Chúc mừng gia đình có em bé mới nhé, con bé thực sự rất xinh xắn và đáng yêu.",
+      "focus_vi": "Phát âm rõ âm cuối 's' trong 'congratulations' và 'is'."
+    },
+    {
+      "en": "They had to cancel the wedding because his father got very sick.",
+      "vi": "Họ đã phải hủy đám cưới vì bố anh ấy bị bệnh nặng.",
+      "focus_vi": "Cụm phụ âm 'cl' trong 'cancel' và âm cuối 't' trong 'got'."
+    },
+    {
+      "en": "We should grab some drinks this Friday to catch up on life.",
+      "vi": "Chúng ta nên đi uống nước thứ Sáu này để hàn huyên về cuộc sống đi.",
+      "focus_vi": "Phát âm rõ âm đuôi 's' trong 'drinks' và âm 'tch' trong 'catch'."
+    },
+    {
+      "en": "My brother is going through a rough patch after his pet died.",
+      "vi": "Em trai tôi đang trải qua một giai đoạn khó khăn sau khi thú cưng của nó mất.",
+      "focus_vi": "Phát âm âm 'th' trong 'through' và âm 't' trong 'pet'."
+    },
+    {
+      "en": "Your daughter has grown so much since the last time I saw her.",
+      "vi": "Con gái bạn đã lớn thế này kể từ lần cuối tôi gặp cháu.",
+      "focus_vi": "Phát âm đúng âm 's' trong 'has' và 'since'."
+    },
+    {
+      "en": "He travels for business constantly so he rarely sees his close friends.",
+      "vi": "Anh ấy đi công tác liên tục nên hiếm khi gặp được bạn bè thân thiết.",
+      "focus_vi": "Phát âm cụm phụ âm 'st' trong 'constantly' và âm 'z' trong 'sees'."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Lâu lắm rồi không gặp! Dạo này gia đình cậu thế nào rồi?",
+      "en_ref": "Long time no see! How is your family doing these days?",
+      "hint_en": "Long time, family"
+    },
+    {
+      "vi": "Nghe nói cậu mới có em bé, chúc mừng hai vợ chồng nhé!",
+      "en_ref": "I heard you had a baby, congratulations to both of you!",
+      "hint_en": "had a baby, congratulations"
+    },
+    {
+      "vi": "Tôi xin chia buồn với gia đình cậu về sự ra đi của bác ấy.",
+      "en_ref": "I am so sorry for your loss, my thoughts are with your family.",
+      "hint_en": "sorry for your loss"
+    },
+    {
+      "vi": "Hai đứa con của tôi nghịch lắm, tôi bận tối tăm mặt mũi cả ngày.",
+      "en_ref": "My two kids are so active, my hands are full all day.",
+      "hint_en": "hands are full"
+    },
+    {
+      "vi": "Con gái cậu trông giống hệt cậu hồi nhỏ luôn ấy.",
+      "en_ref": "Your daughter is the spitting image of you when you were young.",
+      "hint_en": "spitting image"
+    },
+    {
+      "vi": "Cuối tuần này cậu có rảnh không? Đi cà phê tám chuyện tí đi.",
+      "en_ref": "Are you free this weekend? Let's grab coffee and catch up.",
+      "hint_en": "free, catch up"
+    },
+    {
+      "vi": "Công việc bận rộn nhưng mình vẫn cố gắng dành thời gian cho con cái.",
+      "en_ref": "Work is busy but I still try to make time for my kids.",
+      "hint_en": "make time"
+    },
+    {
+      "vi": "Dạo này bận quá nên chúng tôi cũng ít khi liên lạc với nhau.",
+      "en_ref": "We have been so busy lately that we rarely keep in touch.",
+      "hint_en": "keep in touch"
+    }
+  ],
+  "scenario": {
+    "role": "An old university classmate",
+    "context": "You run into an old classmate at a coffee shop. You haven't seen each other in five years. They notice your wedding ring and ask about your life, career, and family.",
+    "opener_en": "Oh my god, is that you? It has been ages! How have you been, and what is new with your family?",
+    "opener_vi": "Ôi trời ơi, cậu đấy à? Lâu lắm rồi không gặp! Dạo này cậu thế nào, gia đình có gì mới không?"
+  }
+}

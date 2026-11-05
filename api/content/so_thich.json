@@ -1,0 +1,183 @@
+{
+  "id": "so_thich",
+  "name_vi": "Sở thích, giải trí",
+  "emoji": "🎬",
+  "track": "everyday",
+  "order": 3,
+  "vocab": [
+    {
+      "word": "binge-watch",
+      "ipa": "/ˈbɪndʒ.wɑːtʃ/",
+      "meaning_vi": "cày phim (xem liên tục nhiều tập)",
+      "example_en": "I often binge-watch a whole series on Sunday nights to relax.",
+      "example_vi": "Tôi thường cày cả bộ phim vào tối Chủ Nhật để thư giãn."
+    },
+    {
+      "word": "grab a coffee",
+      "ipa": "/ˈɡræb ə ˈkɑː.fi/",
+      "meaning_vi": "đi cà phê, uống nước",
+      "example_en": "Let's grab a coffee this weekend and catch up on everything.",
+      "example_vi": "Cuối tuần này đi cà phê đi, để buôn chuyện xem dạo này thế nào rồi."
+    },
+    {
+      "word": "be really into",
+      "ipa": "/bi ˈriː.li ˈɪn.tuː/",
+      "meaning_vi": "rất thích, mê cái gì",
+      "example_en": "My husband is really into soccer, but I prefer tennis.",
+      "example_vi": "Chồng tôi rất thích bóng đá, nhưng tôi lại thích tennis hơn."
+    },
+    {
+      "word": "lose interest",
+      "ipa": "/ˈluːz ˈɪn.trɪst/",
+      "meaning_vi": "mất hứng thú, nhanh chán",
+      "example_en": "I started that book last week, but I quickly lost interest.",
+      "example_vi": "Tôi bắt đầu đọc cuốn sách đó tuần trước, nhưng nhanh chóng bị mất hứng."
+    },
+    {
+      "word": "squeeze in",
+      "ipa": "/ˈskwiːz ˈɪn/",
+      "meaning_vi": "tranh thủ xếp lịch (dù rất bận)",
+      "example_en": "I am busy, but I can squeeze in a quick workout.",
+      "example_vi": "Tôi bận lắm, nhưng vẫn có thể tranh thủ tập thể dục một chút."
+    },
+    {
+      "word": "catch up",
+      "ipa": "/ˈkætʃ ˈʌp/",
+      "meaning_vi": "hàn huyên, cập nhật tình hình của nhau",
+      "example_en": "We should meet up to catch up after your business trip.",
+      "example_vi": "Chúng ta nên gặp nhau để hàn huyên sau chuyến công tác của cậu."
+    },
+    {
+      "word": "can't stand",
+      "ipa": "/kænt stænd/",
+      "meaning_vi": "cực kỳ ghét, không chịu nổi",
+      "example_en": "I can't stand loud action movies with no real plot.",
+      "example_vi": "Tôi không chịu nổi mấy phim hành động ồn ào mà chẳng có nội dung gì."
+    },
+    {
+      "word": "wind down",
+      "ipa": "/ˈwaɪnd ˈdaʊn/",
+      "meaning_vi": "thư giãn, xả hơi sau giờ làm",
+      "example_en": "Listening to jazz is how I wind down after a long day.",
+      "example_vi": "Nghe nhạc jazz là cách tôi xả hơi sau một ngày dài."
+    },
+    {
+      "word": "sci-fi series",
+      "ipa": "/ˈsaɪ.faɪ ˈsɪr.iːz/",
+      "meaning_vi": "phim truyền hình khoa học viễn tưởng",
+      "example_en": "He recommended a great sci-fi series about space travel.",
+      "example_vi": "Anh ấy đã giới thiệu một bộ phim viễn tưởng rất hay về du hành vũ trụ."
+    },
+    {
+      "word": "work out",
+      "ipa": "/ˈwɝːk ˈaʊt/",
+      "meaning_vi": "tập thể dục, tập gym",
+      "example_en": "I try to work out at least three times a week.",
+      "example_vi": "Tôi cố gắng tập thể dục ít nhất ba lần một tuần."
+    },
+    {
+      "word": "be a big fan of",
+      "ipa": "/bi ə bɪɡ fæn ʌv/",
+      "meaning_vi": "là người rất hâm mộ cái gì",
+      "example_en": "I am a big fan of acoustic music and live shows.",
+      "example_vi": "Tôi là một fan bự của nhạc acoustic và các buổi diễn trực tiếp."
+    },
+    {
+      "word": "play a round of",
+      "ipa": "/ˈpleɪ ə ˈraʊnd ʌv/",
+      "meaning_vi": "chơi một ván (gôn, game, bài...)",
+      "example_en": "Do you want to play a round of golf this Saturday?",
+      "example_vi": "Thứ Bảy này cậu có muốn chơi một trận gôn không?"
+    }
+  ],
+  "sentences": [
+    {
+      "en": "He always watches three sci-fi series on Netflix every single weekend.",
+      "vi": "Anh ấy luôn xem ba bộ phim viễn tưởng trên Netflix mỗi cuối tuần.",
+      "focus_vi": "Phát âm đuôi /z/ ở từ \"watches\", \"series\", \"weekends\"."
+    },
+    {
+      "en": "I can't stand playing fast-paced video games on my phone anymore.",
+      "vi": "Tôi không thể chịu nổi việc chơi game tốc độ cao trên điện thoại nữa.",
+      "focus_vi": "Phát âm cụm phụ âm /st/ trong \"can't stand\"."
+    },
+    {
+      "en": "Let's grab a hot coffee and talk about our crazy work schedules.",
+      "vi": "Đi uống cà phê nóng và nói chuyện về lịch làm việc điên rồ của tụi mình đi.",
+      "focus_vi": "Phát âm đúng âm /sk/ và đuôi /z/ của \"schedules\"."
+    },
+    {
+      "en": "She prefers reading medical journals to watching boring action movies.",
+      "vi": "Cô ấy thích đọc tạp chí y khoa hơn là xem phim hành động nhàm chán.",
+      "focus_vi": "Luyện âm /r/ và /l/ trong \"prefers\", \"reading\", \"journals\"."
+    },
+    {
+      "en": "We tried to squeeze in a quick workout last Thursday night.",
+      "vi": "Chúng tôi đã cố gắng tranh thủ tập thể dục một chút vào tối thứ Năm tuần trước.",
+      "focus_vi": "Phát âm chuẩn âm /θ/ trong từ \"Thursday\"."
+    },
+    {
+      "en": "The new historical drama series is extremely slow and boring.",
+      "vi": "Bộ phim truyền hình lịch sử mới này cực kỳ chậm và tẻ nhạt.",
+      "focus_vi": "Phát âm cụm phụ âm /str/ trong từ \"extremely\"."
+    },
+    {
+      "en": "They usually play a few rounds of golf on sunny Saturdays.",
+      "vi": "Họ thường chơi vài ván gôn vào những ngày thứ Bảy đầy nắng.",
+      "focus_vi": "Phát âm âm /z/ ở cuối các từ \"rounds\" và \"Saturdays\"."
+    },
+    {
+      "en": "I'm not really into listening to classical music anymore.",
+      "vi": "Tôi không thực sự còn thích nghe nhạc cổ điển nữa.",
+      "focus_vi": "Phân biệt rõ âm /r/ và /l/ trong \"really\" và \"classical\"."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Cuối tuần này cậu có rảnh đi cà phê một chút không?",
+      "en_ref": "Are you free to grab a quick coffee this weekend?",
+      "hint_en": "grab a quick coffee"
+    },
+    {
+      "vi": "Tôi không thích mấy phim lãng mạn, xem buồn ngủ lắm.",
+      "en_ref": "I'm not really into romantic movies, they make me sleepy.",
+      "hint_en": "not really into"
+    },
+    {
+      "vi": "Tôi hay cày hết cả bộ phim truyền hình dài tập khi có thời gian rảnh.",
+      "en_ref": "I usually binge-watch an entire series when I have free time.",
+      "hint_en": "binge-watch"
+    },
+    {
+      "vi": "Chúng ta lên lịch hẹn vào tối thứ Sáu tuần sau đi.",
+      "en_ref": "Let's make plans for next Friday night.",
+      "hint_en": "make plans"
+    },
+    {
+      "vi": "Tôi cực kỳ ghét chơi game online vì nó tốn thời gian.",
+      "en_ref": "I can't stand playing online games because it wastes time.",
+      "hint_en": "can't stand"
+    },
+    {
+      "vi": "Để giải tỏa căng thẳng sau giờ làm, tôi thường đi chạy bộ.",
+      "en_ref": "To wind down after work, I usually go for a run.",
+      "hint_en": "wind down"
+    },
+    {
+      "vi": "Cậu có muốn xếp lịch đi ăn trưa nhanh vào ngày mai không?",
+      "en_ref": "Do you want to squeeze in a quick lunch tomorrow?",
+      "hint_en": "squeeze in"
+    },
+    {
+      "vi": "Tôi là fan cứng của dòng nhạc pop Âu Mỹ cổ điển.",
+      "en_ref": "I'm a big fan of classic Western pop music.",
+      "hint_en": "a big fan of"
+    }
+  ],
+  "scenario": {
+    "role": "A busy close friend",
+    "context": "You and your friend both have very demanding jobs (one is a clinic doctor, the other runs a business). You are trying to find a time to meet up this weekend, talk about what you do to relax, and recommend some good series or music.",
+    "opener_en": "Hey! It's been ages. I finally have a free Saturday afternoon. Do you want to grab a coffee and catch up?",
+    "opener_vi": "Ê! Lâu quá rồi không gặp. Cuối cùng tớ cũng rảnh chiều thứ Bảy này. Cậu có muốn đi cà phê buôn chuyện chút không?"
+  }
+}

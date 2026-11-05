@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import Lesson from '../islands/Lesson';
+---
+
+<!-- bare: dang hoc thi khong co thanh dieu huong duoi cho vuong -->
+<Base title="Học · English Voice Coach" bare>
+  <Lesson client:only="preact" />
+</Base>

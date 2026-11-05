@@ -1,0 +1,183 @@
+{
+ "version": 1,
+ "source": "PTE Academic Test Taker Score Guide (07/2025), pearsonpte.com — trich nguyen van phan Traits scored, lam sach tieu de trang",
+ "checked_at": "2026-09-12",
+ "note": "who: ai = Gemini gop y theo DUNG mo ta nay (KHONG phai diem Pearson); app = app tu cham chinh xac (dem tu/cau); none = app KHONG cham duoc (phat am, do troi chay can may cham cua Pearson). Luat: Content = 0 hoac Form = 0 thi cac tieu chi khac khong duoc cham (Score Guide: \"The score equals 0 -> No further scoring\").",
+ "types": {
+  "swt": {
+   "traits": [
+    {
+     "name": "Content",
+     "max": 4,
+     "who": "ai"
+    },
+    {
+     "name": "Form",
+     "max": 1,
+     "who": "app"
+    },
+    {
+     "name": "Grammar",
+     "max": 2,
+     "who": "ai"
+    },
+    {
+     "name": "Vocabulary",
+     "max": 2,
+     "who": "ai"
+    }
+   ],
+   "rubric": "Content:4 • The source text is summarised comprehensively, demonstrating full comprehension of the source text. • Paraphrasing is used effectively to communicate a clear and accurate summary, and extraneous details are removed. All main ideas are correctly identified and synthesized in a concise and coherent manner. • Summary flows smoothly and makes skilled use of appropriate and varied connective devices.3 • The source text is summarised adequately, demonstrating good comprehension of the source text. • Paraphrasing is used, but not consistently well, and extraneous details may interfere with the clarity of the summary. Main ideas are correctly identified, with some minor omissions. Ideas are connected, but not synthesized efficiently. • Summary can be followed logically and makes effective use of simple or repetitive connective devices.2 • The source text is summarised partially, demonstrating basic comprehension of the source text. • There is no discernment between main points and peripheral detail. Ideas are identified, but the response relies heavily on repeating excerpts from the source text without synthesizing ideas and reformulating in own words. • Repetitive or inappropriate connective devices are used to join ideas. Response can be followed with effort. Content:1 • The response is relevant but not meaningfully summarised, demonstrating limited comprehension of the source text. • The response is composed of disconnected ideas or excerpts from the source text without any context or attempt at synthesis. Main ideas are omitted or misrepresented. • The response lacks coherence and is difficult to follow.0Response is too limited to assign a higher score and demonstrates no comprehension of the source text.Form:1Is written in one, single, complete sentence0 Not written in one single, complete sentence or contains fewer than 5 or more than 75 words. Summary is written in capital letters.Grammar:2Has correct grammatical structure1Contains grammatical errors but with no hindrance to communication0Has defective grammatical structure which could hinder communicationVocabulary:2Has appropriate choice of words1Contains lexical errors but with no hindrances to communication0Has defective word choice which could hinder communication"
+  },
+  "we": {
+   "traits": [
+    {
+     "name": "Content",
+     "max": 6,
+     "who": "ai"
+    },
+    {
+     "name": "Form",
+     "max": 2,
+     "who": "app"
+    },
+    {
+     "name": "Development, Structure and Coherence",
+     "max": 6,
+     "who": "ai"
+    },
+    {
+     "name": "Grammar",
+     "max": 2,
+     "who": "ai"
+    },
+    {
+     "name": "General Linguistic Range",
+     "max": 6,
+     "who": "ai"
+    },
+    {
+     "name": "Vocabulary Range",
+     "max": 2,
+     "who": "ai"
+    },
+    {
+     "name": "Spelling",
+     "max": 2,
+     "who": "ai"
+    }
+   ],
+   "rubric": "Content:6 • The essay fully addresses the prompt in depth, demonstrating full command of the argument by reformulating the issue seamlessly in own words and expanding on important points with specificity. • The argument is supported convincingly with subsidiary points and relevant examples throughout the response.5 • The essay adequately addresses the prompt, presenting a persuasive argument with relevant ideas. • Main points are highlighted, and relevant supporting detail is given to support the response effectively, with minor exceptions.4 • The essay adequately addresses the main point of the prompt. The argument is generally convincing, though lacks depth or nuance. • Supporting detail is inconsistent throughout the response. It is present for some points but weaker or missing for others.3 • The essay is relevant to the prompt but does not address the main points adequately. • Supporting detail is often missing or inappropriate.2 • The essay attempts to address the prompt, but does so superficially, with little relevant information and largely generic statements or over reliance on repeating language from the prompt. • Few supporting details are included. Ideas that are present lack relevance, with only tangential links to the topic. Content:1 • The essay attempts to address the prompt, but demonstrates an incomplete understanding of the prompt with communication limited to generic or repetitive phrasing, or repeating language from the prompt. • Supporting details, if present, are used in a disjointed or haphazard manner, with no clear links to the topic.0The essay does not properly deal with the prompt.Form:2Length is between 200 and 300 words1Length is between 120 and 199 or between 301 and 380 words0Length is less than 120 or more than 380 words. Essay is written in capital letters, contains no punctuation or only consists of bullet points or very short sentencesDevelopment, Structure and Coherence:6 • The essay has an effective logical structure, flows smoothly, and can be followedwith ease. • An argument is clear and cohesive, developed systematically at length. A well-developed introduction and conclusion are present. Ideas are organised cohesively into paragraphs, and paragraphs are clear and logically sequenced. • The essay uses a variety of connective devices effectively and consistently toconvey relationships between ideas. Development, Structure and Coherence:5 • The essay has a conventional and appropriate structure that follows logically, ifnot always smoothly. • An argument is clear, with some points developed at length. Introduction,conclusion and logical paragraphs are present. • The essay uses connective devices to link utterances into clear, coherentdiscourse, though there may be some gaps or abrupt transitions between one idea to the next.4 • Conventional structure is mostly present, but some elements may be missing,requiring some effort to follow. • An argument is present but lacks development of some elements or may bedifficult to follow. Simple paragraph breaks are present, but they are not always effective, and some elements or paragraphs are poorly linked. • The ideas in the response are not well connected. The lack of connection mightcome from an ordering of the ideas which is difficult to grasp, or a lack of language establishing coherence among ideas.3 • Traces of the conventional structure are present, but the essay is composed ofsimple points or disconnected ideas. • A position/opinion is present, although it is not sufficiently developed into alogical argument and often lacks clarity. Essay does not make effective use of paragraphs or lacks paragraphs but presents ideas with some coherence and logical sequencing. • The response consists mainly of unconnected ideas, with little organizationalstructure evident, and requires significant effort to follow. The most frequently occurring connective devices link simple sentences and larger elements linearly, but more complex relationships are not expressed clearly or appropriately. Development, Structure and Coherence:2 • There is little recognisable structure. Ideas are presented in a disorganisedmanner and are difficult to follow. • A position/opinion may be present but lacks development or clarity. The essaylacks coherence, and mainly consists of disconnected elements. • Can link groups of words with simple connective devices (e.g., \\223and\\224, \\223but\\224 and\\223because\\224).1 • Response consists of disconnected ideas. There is no hierarchy of ideas orcoherence among points. • No clear position/opinion can be identified. • Words and short statements are linked with very basic linear connective devices(e.g., \\223and\\224 or \\223then\\224).0There is no recognisable structure.Grammar:2Shows consistent grammatical control of complex language. Errors are rare and difficult to spot.1Shows a relatively high degree of grammatical control. No mistakes which would lead to misunderstandings0Contains mainly simple structures and/or several basic mistakes General Linguistic Range:6 • A variety of expressions and vocabulary are used appropriately to formulate ideas with ease and precision throughout the response. • No signs of limitations restricting what can be communicated. • Errors in language use, if present, are rare and minor, and meaning is completely clear.5 • A variety of expressions and vocabulary are used appropriately throughout the response. • Ideas are expressed clearly without much sign of restriction. • Occasional errors in language use are present, but the meaning is clear.4 • The range of expression and vocabulary is sufficient to articulate basic ideas. • Most ideas are clear, but limitations are evident when conveying complex/abstract ideas, causing repetition, circumlocution, and difficulty with formulation at times. • Errors in language use cause occasional lapses in clarity, but the main idea can still be followed.3 • The range of expression and vocabulary is narrow and simple expressions are used repeatedly. • Communication is restricted to simple ideas that can be articulated through basic language. • Errors in language use cause some disruptions for the reader. General Linguistic Range:2 • Limited vocabulary and simple expressions dominate the response. • Communication is compromised and some ideas are unclear. • Basic errors in language use are common, causing frequent breakdowns and misunderstanding.1 • Vocabulary and linguistic expression are highly restricted. • There are significant limitations in communication and ideas are generally unclear. • Errors in language use are pervasive and impede meaning.0Meaning is not accessible.Vocabulary Range:2Good command of a broad lexical repertoire, idiomatic expressions and colloquialisms1Shows a good range of vocabulary for matters connected to general academic topics. Lexical shortcomings lead to circumlocution or some imprecision0Contains mainly basic vocabulary insufficient to deal with the topic at the required levelSpelling:2Correct spelling1One spelling error0More than one spelling error"
+  },
+  "sst": {
+   "traits": [
+    {
+     "name": "Content",
+     "max": 4,
+     "who": "ai"
+    },
+    {
+     "name": "Form",
+     "max": 2,
+     "who": "app"
+    },
+    {
+     "name": "Grammar",
+     "max": 2,
+     "who": "ai"
+    },
+    {
+     "name": "Vocabulary",
+     "max": 2,
+     "who": "ai"
+    },
+    {
+     "name": "Spelling",
+     "max": 2,
+     "who": "ai"
+    }
+   ],
+   "rubric": "Content:4 • The source text is summarised comprehensively, demonstrating full comprehension of the source text. • Paraphrasing is used effectively to communicate a clear and accurate summary, and extraneous details are removed. All main ideas are correctly identified and synthesized in a concise and coherent manner. • Summary flows smoothly and makes skilled use of appropriate and varied connective devices.3 • The source text is summarised adequately, demonstrating good comprehension of the source text. • Paraphrasing is used, but not consistently well, and extraneous details may interfere with the clarity of the summary. Main ideas are correctly identified, with some minor omissions. Ideas are connected, but not synthesized efficiently. • Summary can be followed logically and makes effective use of simple or repetitive connective devices.2 • The source text is summarised partially, demonstrating basic comprehension of the source text. • There is no discernment between main points and peripheral detail. Ideas are identified, but the response relies heavily on repeating excerpts from the source text without synthesizing ideas and reformulating in own words. • Repetitive or inappropriate connective devices are used to join ideas. Response can be followed with effort. Content:1 • The response is relevant but not meaningfully summarised, demonstrating limited comprehension of the source text. • The response is composed of disconnected ideas or excerpts from the source text without any context or attempt at synthesis. Main ideas are omitted or misrepresented. • The response lacks coherence and is difficult to follow.0Response is too limited to assign a higher score and demonstrates no comprehension of the source text.Form:2Contains 50-70 words1Contains 40-49 words or 71-100 words0Contains less than 40 words or more than 100 words. Summary is written in capital letters, contains no punctuation or consists only of bullet points or very short sentences.Grammar:2Correct grammatical structures1Contains grammatical errors with no hindrance to communication0 Vocabulary:2Appropriate choice of words1Some lexical errors but with no hindrance to communication0Defective word choice which could hinder communicationSpelling:2Correct spelling1One spelling error0More than one spelling errors"
+  },
+  "di": {
+   "traits": [
+    {
+     "name": "Content",
+     "max": 6,
+     "who": "ai"
+    },
+    {
+     "name": "Pronunciation",
+     "max": 5,
+     "who": "none"
+    },
+    {
+     "name": "Oral Fluency",
+     "max": 5,
+     "who": "none"
+    }
+   ],
+   "rubric": "Content:6 • The response describes the image fully and accurately and expands on the relationships between features of the image to provide a nuanced interpretation. • A variety of expressions and vocabulary are used appropriately and with ease and precision throughout the response. • A listener could build a complete mental picture of the image from the response.5 • The response describes the main features of the image accurately and identifies some relationships without expanding on these in detail. • A variety of expressions and vocabulary are used appropriately throughout the response. • A listener could build an accurate mental picture from the response, with minor details missing or misrepresented.4 • The response includes some accurate simple descriptions and basic relationships,but they may not adequately cover all the main features of the image. • The range of linguistic expression and vocabulary is sufficient to give basic descriptions with some repetition. • A listener could build a basic mental picture from the response. Content:3 • The response includes mainly superficial descriptions of the image, with minor inaccuracies. • The range of expression and vocabulary is narrow and simple expressions are used repeatedly. • A listener could visualize elements of the image from the response, but not a cohesive whole.2 • The response includes minimal, superficial descriptions of the image with some in accuracies. • Limited vocabulary and simple expressions dominate the response. • A listener could visualize some elements of the image from the response with effort.1 • The response is composed of disconnected elements, or a list of points identified on the image, without description or elaboration. • Vocabulary and expressions are highly restricted. • A listener would struggle to visualise the image.0Response is relevant to the prompt but too limited to assign a higher score. Pronunciation:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Intrusive0Non-EnglishOral Fluency:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Limited0Disfluent"
+  },
+  "rl": {
+   "traits": [
+    {
+     "name": "Content",
+     "max": 6,
+     "who": "ai"
+    },
+    {
+     "name": "Pronunciation",
+     "max": 5,
+     "who": "none"
+    },
+    {
+     "name": "Oral Fluency",
+     "max": 5,
+     "who": "none"
+    }
+   ],
+   "rubric": "Content:6 • Response is clear, accurate, and demonstrates full comprehension of the lecture by paraphrasing the main ideas seamlessly in own words and expanding on important points with specificity. • A variety of expressions and vocabulary are used appropriately and with ease and precision throughout the response. • The ideas in the response are well connected and organized in a logical sequence using connective devices effectively and consistently. The response flows well and is easy to follow.5 • The response is clear and accurately captures main ideas as well as some important details, reflecting good comprehension. Ideas are formulated successfully in own words, with minor inconsistencies that do not detract from the overall meaning. • A variety of expressions and vocabulary are used appropriately throughout the response. • The ideas in the response are connected and connective devices are used appropriately to present ideas in a coherent order. The response flows generally smoothly and can be followed with little effort. Content:4 • The response captures some main ideas of the lecture and some details, but may include a few inaccurate ideas, or focus on less important details, showing sufficient comprehension. There is an attempt to formulate ideas in own words, with some success. • The range of expression and vocabulary is sufficient to give basic descriptions but may rely on repetition. • The ideas in the response are not well connected, requiring listeners some effort to follow. The lack of connection might come from an ordering of the ideas which is difficult to grasp, or a lack of language establishing coherence among ideas.3 • Response captures some ideas from lecture but may not capture them fully accurately or be able to differentiate between important points and details, reflecting only adequate comprehension. Response may include irrelevant information or repetition of language from lecture without reformulation or context. • The range of expression and vocabulary is narrow and simple expressions are used repeatedly. • The response consists mainly of unconnected ideas, with little organizational structure evident, and requires significant effort to follow. Content:2 • The response is mostly inaccurate, incomplete, or focuses on non-essential information from the lecture while missing main ideas. Response may rely heavily on repeating language from lecture without reformulation or context, indicating limited comprehension. • Limited vocabulary and simple expressions dominate the response. • The response lacks coherence and is difficult to follow.1 • The response repeats isolated words and phrases from the lecture but does not provide adequate context or meaning. The content appears on topic and but does not communicate in any meaningful way. • Vocabulary and linguistic expression are highly restricted. • There is no hierarchy of ideas or coherence among points.0The response is related to the lecture but is too limited to assign a higher score. Pronunciation:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Intrusive0Non-EnglishOral Fluency:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Limited0Disfluent"
+  },
+  "rts": {
+   "traits": [
+    {
+     "name": "Content",
+     "max": 6,
+     "who": "ai"
+    },
+    {
+     "name": "Pronunciation",
+     "max": 5,
+     "who": "none"
+    },
+    {
+     "name": "Oral Fluency",
+     "max": 5,
+     "who": "none"
+    }
+   ],
+   "rubric": "Content:6 • Response deals with the situation effectively. Successfully accomplishes the primary communication goal with full consideration of the context given in the prompt. • Communicates with ease, flexibility, and precision throughout the response. Response is situationally appropriate and fully developed, expanding beyond the prompt language to provide a persuasive response.5 • Response deals with the situation adequately. Successfully accomplishes the primary communication goal with some consideration of the context given in the prompt, with only minor omissions or misinterpretations. • Communicates clearly and accurately with little restriction. Limitations only evident for difficult elements. A variety of situationally appropriate expressions are used to meet the demands of the situation adequately, with minimal inaccuracies.4 • Response partially accomplishes the primary communication goal with some consideration of the context given in the prompt, with some omissions or misinterpretations. • Communicates adequately, with some limitations of expression and minor inaccuracies. The range of expression is situationally appropriate and sufficient to meet most of the demands of the situation, with minimal inaccuracies. Content:3 • Response partially accomplishes the most basic aspect of the communication goal with some limited consideration of the context given in the prompt. • Communication is functional, but range of expression is limited and contains some inaccuracies or situationally inappropriate elements. Response may include repetition of language from prompt without reformulation or context.2 • Response contains some content relevant to the situation but does not achieve the primary communication goal or address the specifics of the context given in the prompt. • Communication contains restrictions and inaccuracies that compromise meaning or is heavily reliant on using language from the prompt without reformulation or context.1 • Response contains content relevant to the situation but does not achieve the primary communication goal or address the specifics of the context given in the prompt, showing a lack of understanding of the situation given in the prompt. • Communication is significantly restricted, containing limitations and inaccuracies that impede meaning. The response repeats isolated words and phrases from the prompt but does not provide adequate context or meaning.OR • Minimally addresses the prompt by providing a situationally appropriate response that accomplishes primary goal of communication, but with no elaboration or support.0Response is relevant to the prompt but too limited to assign a higher score. Pronunciation:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Intrusive0Non-EnglishOral Fluency:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Limited0Disfluent"
+  },
+  "sgd": {
+   "traits": [
+    {
+     "name": "Content",
+     "max": 6,
+     "who": "ai"
+    },
+    {
+     "name": "Pronunciation",
+     "max": 5,
+     "who": "none"
+    },
+    {
+     "name": "Oral Fluency",
+     "max": 5,
+     "who": "none"
+    }
+   ],
+   "rubric": "Content:6 • Response is clear, accurate, and demonstrates full comprehension of the discussion by paraphrasing the main ideas seamlessly in own words and expanding on details of each speaker's contribution with specificity. • Response explores relationships between different points of view and synthesizes different perspectives effectively. • A variety of expressions and vocabulary are used appropriately and with ease and precision throughout the response. • The ideas in the response are well connected and organized in a logical sequence using connective devices effectively and consistently. The response flows well and is easy to follow.5 • Response is clear and accurately captures main ideas as well as some important details of different speakers' contributions, reflecting good comprehension. Ideas are formulated successfully in own words, with minor inconsistencies that do not detract from the overall meaning. • Response notes some relationships between points of view and synthesizes perspectives partially, with some ideas missing or underrepresented. • A variety of expressions and vocabulary are used appropriately throughout the response. • The ideas in the response are connected and connective devices are used appropriately to present ideas in a coherent order. The response flows generally smoothly and can be followed with little effort. Content:4 • Response captures the main ideas of the discussion and some details of individual speakers' contributions, but may include a few inaccurate ideas, or focus on less important details, showing sufficient comprehension. There is an attempt to formulate ideas in own words, with some success. • Response focuses more on individual perspectives than relationships between perspectives and may include some basic attempts at comparison. • The range of expression and vocabulary is sufficient to give basic descriptions but may rely on repetition. • The ideas in the response are not well connected, requiring listeners some effort to follow. The lack of connection might come from an ordering of the ideas which is difficult to grasp, or a lack of language establishing coherence among ideas.3 • Response captures some ideas from discussion but may not capture them fully accurately or be able to differentiate between important points and details, reflecting only adequate comprehension. Response may include irrelevant information or repetition of language from discussion without reformulation or context. • Response includes some accurate information but misses the substance and general direction of the full conversation. • The range of expression and vocabulary is narrow and simple expressions are used repeatedly. • The response consists mainly of unconnected ideas, with little organizational structure evident, and requires effort to follow. Content:2 • Response is mostly inaccurate, incomplete, or focuses on non-essential information from the discussion while missing main ideas. Response may rely heavily irrelevant information or on repeating language from lecture without reformulation or context, indicating limited comprehension. • Limited vocabulary and simple expressions dominate the response. • The response lacks coherence and is difficult to follow.1 • The response repeats isolated words and phrases from the discussion but does not provide adequate context or meaning. The content appears on topic and but does not communicate in any meaningful way. • Vocabulary and expressions are highly restricted. • There is no hierarchy of ideas or coherence among points.0Response is relevant to the prompt but too limited to assign a higher score. Pronunciation:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Intrusive0Non-EnglishOral Fluency:5Highly proficient (See detailed criteria on pages 45-46)4Advanced3Good2Intermediate1Limited0Disfluent"
+  }
+ }
+}

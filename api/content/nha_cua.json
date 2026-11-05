@@ -1,0 +1,183 @@
+{
+  "id": "nha_cua",
+  "name_vi": "Nhà cửa",
+  "emoji": "🏠",
+  "track": "everyday",
+  "order": 9,
+  "vocab": [
+    {
+      "word": "landlord",
+      "ipa": "/ˈlænd.lɔːrd/",
+      "meaning_vi": "chủ nhà (cho thuê)",
+      "example_en": "I need to call my landlord because the water heater is broken.",
+      "example_vi": "Tôi cần gọi cho chủ nhà vì máy nước nóng bị hỏng rồi."
+    },
+    {
+      "word": "security deposit",
+      "ipa": "/sɪˈkjʊr.ə.t̬i dɪˈpɑː.zɪt/",
+      "meaning_vi": "tiền đặt cọc giữ nhà",
+      "example_en": "The landlord kept half of my security deposit to pay for the broken door.",
+      "example_vi": "Chủ nhà giữ lại một nửa tiền cọc của tôi để trả cho cái cửa bị hỏng."
+    },
+    {
+      "word": "utility bills",
+      "ipa": "/juːˈtɪl.ə.t̬i bɪlz/",
+      "meaning_vi": "hóa đơn điện nước, dịch vụ",
+      "example_en": "Our utility bills are always higher during the hot summer months.",
+      "example_vi": "Hóa đơn điện nước của chúng tôi luôn cao hơn vào những tháng hè nóng nực."
+    },
+    {
+      "word": "leaky faucet",
+      "ipa": "/ˈliː.ki ˈfɑː.sət/",
+      "meaning_vi": "vòi nước bị rò rỉ",
+      "example_en": "That leaky faucet in the bathroom kept me awake all night.",
+      "example_vi": "Cái vòi nước rỉ trong nhà tắm làm tôi mất ngủ cả đêm."
+    },
+    {
+      "word": "clogged drain",
+      "ipa": "/klɑːɡd dreɪn/",
+      "meaning_vi": "cống bị tắc",
+      "example_en": "Don't pour cooking oil down the sink or you'll get a clogged drain.",
+      "example_vi": "Đừng đổ dầu ăn xuống bồn rửa, nếu không cống sẽ bị tắc đấy."
+    },
+    {
+      "word": "run-down",
+      "ipa": "/ˈrʌn.daʊn/",
+      "meaning_vi": "xuống cấp, cũ nát",
+      "example_en": "The apartment building looks a bit run-down, but the inside is very clean.",
+      "example_vi": "Tòa nhà chung cư trông hơi xuống cấp một chút, nhưng bên trong rất sạch sẽ."
+    },
+    {
+      "word": "noisy neighbors",
+      "ipa": "/ˈnɔɪ.zi ˈneɪ.bɚz/",
+      "meaning_vi": "hàng xóm ồn ào",
+      "example_en": "We had to move out because of our noisy neighbors upstairs.",
+      "example_vi": "Chúng tôi đã phải dọn đi vì mấy người hàng xóm ồn ào ở tầng trên."
+    },
+    {
+      "word": "move-in date",
+      "ipa": "/ˈmuːv.ɪn deɪt/",
+      "meaning_vi": "ngày dọn vào",
+      "example_en": "We need to confirm our move-in date with the owner this week.",
+      "example_vi": "Chúng tôi cần xác nhận ngày dọn vào với chủ nhà trong tuần này."
+    },
+    {
+      "word": "split the cost",
+      "ipa": "/splɪt ðə kɑːst/",
+      "meaning_vi": "chia đôi chi phí",
+      "example_en": "My roommate and I always split the cost of internet and cleaning supplies.",
+      "example_vi": "Tôi và bạn cùng phòng luôn chia đôi tiền mạng và đồ dùng dọn dẹp."
+    },
+    {
+      "word": "get something fixed",
+      "ipa": "/ɡet ˈsʌm.θɪŋ fɪkst/",
+      "meaning_vi": "sửa cái gì đó",
+      "example_en": "I need to get the washing machine fixed before the weekend.",
+      "example_vi": "Tôi cần đem máy giặt đi sửa trước cuối tuần."
+    },
+    {
+      "word": "wear and tear",
+      "ipa": "/wer ən ter/",
+      "meaning_vi": "hao mòn tự nhiên qua thời gian",
+      "example_en": "The scratches on the wooden floor are just normal wear and tear.",
+      "example_vi": "Mấy vết xước trên sàn gỗ chỉ là hao mòn tự nhiên bình thường thôi."
+    },
+    {
+      "word": "clean up after",
+      "ipa": "/kliːn ʌp ˈæf.tɚ/",
+      "meaning_vi": "dọn dẹp sau khi ai đó bày bừa",
+      "example_en": "I am tired of always having to clean up after my messy roommates.",
+      "example_vi": "Tôi mệt mỏi vì lúc nào cũng phải dọn dẹp sau mấy đứa bạn cùng phòng bừa bộn."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The landlord refused to fix the clogged kitchen sink.",
+      "vi": "Chủ nhà đã từ chối sửa cái bồn rửa bát bị tắc.",
+      "focus_vi": "Phát âm đuôi -d trong refused, clogged và âm k cuối sink"
+    },
+    {
+      "en": "These three electricity bills are much higher than last month's.",
+      "vi": "Ba hóa đơn tiền điện này cao hơn nhiều so với tháng trước.",
+      "focus_vi": "Phát âm âm /θ/ trong three và âm xì cuối month's"
+    },
+    {
+      "en": "She scrubbed the dirty floor until her arms felt completely sore.",
+      "vi": "Cô ấy đã cọ sạch sàn nhà bẩn cho đến khi hai tay mỏi nhừ.",
+      "focus_vi": "Phát âm cụm /skr/ trong scrubbed và âm /l/ trong feel"
+    },
+    {
+      "en": "My neighbors always play extremely loud music on Thursday nights.",
+      "vi": "Hàng xóm của tôi luôn mở nhạc cực kỳ to vào các tối thứ Năm.",
+      "focus_vi": "Phát âm âm /z/ của neighbors và /θ/ trong Thursday"
+    },
+    {
+      "en": "We need to sign the lease before the moving truck arrives.",
+      "vi": "Chúng ta cần ký hợp đồng thuê trước khi xe tải chuyển nhà đến.",
+      "focus_vi": "Phát âm âm đuôi /s/ của lease và /z/ của arrives"
+    },
+    {
+      "en": "He packed the fragile glass plates into three plastic boxes.",
+      "vi": "Anh ấy đã xếp những chiếc đĩa thủy tinh dễ vỡ vào ba chiếc hộp nhựa.",
+      "focus_vi": "Phát âm cụm phụ âm /gl/ trong glass và đuôi boxes"
+    },
+    {
+      "en": "The plumber fixed the leaky faucet and the broken shower head.",
+      "vi": "Thợ sửa ống nước đã sửa vòi nước bị rỉ và vòi hoa sen bị hỏng.",
+      "focus_vi": "Phát âm âm câm b trong plumber và đuôi -t trong faucet"
+    },
+    {
+      "en": "Dust and pet hair gathered under the old leather sofa.",
+      "vi": "Bụi và lông thú cưng tích tụ dưới chiếc ghế sofa da cũ.",
+      "focus_vi": "Phát âm âm /ð/ trong gathered và leather"
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Chủ nhà vừa mới tăng tiền thuê nhà thêm hai triệu một tháng.",
+      "en_ref": "The landlord just raised the rent by two million a month.",
+      "hint_en": "raised the rent"
+    },
+    {
+      "vi": "Vòi sen trong phòng tắm của tôi bị rỉ nước suốt cả tuần rồi.",
+      "en_ref": "The shower in my bathroom has been leaking all week.",
+      "hint_en": "leaking all week"
+    },
+    {
+      "vi": "Chúng ta có cần phải đặt cọc trước hai tháng tiền nhà không?",
+      "en_ref": "Do we need to pay a two-month security deposit?",
+      "hint_en": "security deposit"
+    },
+    {
+      "vi": "Hàng xóm nhà bên cạnh tối qua lại làm ồn nữa rồi.",
+      "en_ref": "The next-door neighbors made a lot of noise again last night.",
+      "hint_en": "next-door neighbors"
+    },
+    {
+      "vi": "Tôi phải dọn dẹp nhà cửa sạch sẽ trước khi chủ nhà đến kiểm tra.",
+      "en_ref": "I have to clean the house thoroughly before the landlord inspects it.",
+      "hint_en": "clean thoroughly"
+    },
+    {
+      "vi": "Hóa đơn tiền điện tháng này tăng vọt vì chúng ta bật điều hòa suốt.",
+      "en_ref": "The electricity bill skyrocketed this month because we ran the AC constantly.",
+      "hint_en": "electricity bill skyrocketed"
+    },
+    {
+      "vi": "Tôi đang tìm một căn hộ có sẵn nội thất gần phòng khám của tôi.",
+      "en_ref": "I'm looking for a fully furnished apartment near my clinic.",
+      "hint_en": "fully furnished"
+    },
+    {
+      "vi": "Bao giờ thì cậu định chuyển nhà sang chỗ mới thế?",
+      "en_ref": "When are you planning to move to your new place?",
+      "hint_en": "move to your new place"
+    }
+  ],
+  "scenario": {
+    "role": "The landlord of a rented apartment",
+    "context": "You are renting an apartment from me. The air conditioner in your bedroom stopped working yesterday, and you also noticed that the water bill this month is twice as high as usual. You are calling me to report these issues.",
+    "opener_en": "Hi there! I got your message about the apartment. Is everything okay with the bedroom AC and this month's bill?",
+    "opener_vi": "Chào bạn! Tôi nhận được tin nhắn của bạn về căn hộ rồi. Máy lạnh phòng ngủ với hóa đơn tháng này có vấn đề gì hả bạn?"
+  }
+}

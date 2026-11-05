@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import FrSession from '../islands/FrSession';
+---
+
+<!-- bare: dang hoi thoai thi khong co thanh dieu huong duoi (spec §6.1) -->
+<Base title="Trò chuyện · Tiếng Pháp" bare lang="fr">
+  <FrSession client:only="preact" />
+</Base>

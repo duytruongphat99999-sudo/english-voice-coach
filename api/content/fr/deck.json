@@ -1,0 +1,5108 @@
+{
+ "version": 1,
+ "note": "Kho ~500 tu tieng Phap A1 (dot B, 12/09/2026). Claude soan, 2 agent kiem doc lap (chinh ta/giong/IPA va nghia tieng Viet/su pham) + 1 bien tap gop sua. Nap vao hang doi bang scripts/seed-fr-deck.sh; app mo 15 tu/ngay.",
+ "groups": [
+  {
+   "id": "fr_gioithieu",
+   "name_vi": "Tự giới thiệu & giấy tờ",
+   "emoji": "🪪"
+  },
+  {
+   "id": "fr_thoigian",
+   "name_vi": "Số, ngày, giờ, hẹn gặp",
+   "emoji": "🕒"
+  },
+  {
+   "id": "fr_thuenha",
+   "name_vi": "Thuê nhà",
+   "emoji": "🏠"
+  },
+  {
+   "id": "fr_dilai",
+   "name_vi": "Đi lại",
+   "emoji": "🚌"
+  },
+  {
+   "id": "fr_muasam",
+   "name_vi": "Mua sắm",
+   "emoji": "🛒"
+  },
+  {
+   "id": "fr_khambenh",
+   "name_vi": "Khám bệnh & nhà thuốc",
+   "emoji": "💊"
+  },
+  {
+   "id": "fr_nganhang",
+   "name_vi": "Ngân hàng",
+   "emoji": "🏦"
+  },
+  {
+   "id": "fr_dienthoai",
+   "name_vi": "Điện thoại & chăm sóc khách hàng",
+   "emoji": "📞"
+  },
+  {
+   "id": "fr_core_dongtu",
+   "name_vi": "Động từ cơ bản",
+   "emoji": "🏃"
+  },
+  {
+   "id": "fr_core_tinhtu",
+   "name_vi": "Tính từ & màu sắc",
+   "emoji": "🎨"
+  },
+  {
+   "id": "fr_core_tunho",
+   "name_vi": "Từ để hỏi, giới từ, từ nối",
+   "emoji": "🔗"
+  },
+  {
+   "id": "fr_core_doisong",
+   "name_vi": "Gia đình, cơ thể, ăn uống, thời tiết",
+   "emoji": "🏡"
+  }
+ ],
+ "words": [
+  {
+   "word": "l'âge",
+   "gender": "m",
+   "ipa": "/laʒ/",
+   "meaning_vi": "tuổi",
+   "example_fr": "Quel âge avez-vous, monsieur ?",
+   "example_vi": "Anh bao nhiêu tuổi?",
+   "note_vi": "Giống đực. Nói tuổi dùng avoir: j'ai trente ans.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le pays",
+   "gender": "m",
+   "ipa": "/lə pei/",
+   "meaning_vi": "đất nước",
+   "example_fr": "Le Canada est un grand pays.",
+   "example_vi": "Canada là một đất nước rộng lớn.",
+   "note_vi": "Chữ s cuối câm, đọc 'pê-i'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "la ville",
+   "gender": "f",
+   "ipa": "/la vil/",
+   "meaning_vi": "thành phố",
+   "example_fr": "Montréal est une grande ville.",
+   "example_vi": "Montréal là một thành phố lớn.",
+   "note_vi": "Ở từ này 'll' đọc là l: /vil/.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "habiter",
+   "gender": "",
+   "ipa": "/abite/",
+   "meaning_vi": "sống, ở",
+   "example_fr": "J'habite à Montréal depuis deux mois.",
+   "example_vi": "Tôi sống ở Montréal được hai tháng rồi.",
+   "note_vi": "Chữ h câm nên viết j'habite.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "la rue",
+   "gender": "f",
+   "ipa": "/la ʁy/",
+   "meaning_vi": "đường phố",
+   "example_fr": "J'habite dans cette rue.",
+   "example_vi": "Tôi sống ở con đường này.",
+   "note_vi": "u đọc /y/; đừng nhầm với 'la roue' (bánh xe).",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le code postal",
+   "gender": "m",
+   "ipa": "/lə kɔd pɔstal/",
+   "meaning_vi": "mã bưu chính",
+   "example_fr": "Quel est votre code postal ?",
+   "example_vi": "Mã bưu chính của anh là gì?",
+   "note_vi": "Mã bưu chính Canada gồm cả chữ lẫn số.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le numéro de téléphone",
+   "gender": "m",
+   "ipa": "/lə nymeʁo də telefɔn/",
+   "meaning_vi": "số điện thoại",
+   "example_fr": "Voici mon numéro de téléphone.",
+   "example_vi": "Đây là số điện thoại của tôi.",
+   "note_vi": "Ở Québec hay nói 'le cellulaire' cho điện thoại di động.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le courriel",
+   "gender": "m",
+   "ipa": "/lə kuʁjɛl/",
+   "meaning_vi": "email",
+   "example_fr": "Je vous envoie un courriel ce soir.",
+   "example_vi": "Tối nay tôi gửi email cho anh.",
+   "note_vi": "Từ quen dùng ở Canada; ở Pháp hay nói 'le mail'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le passeport",
+   "gender": "m",
+   "ipa": "/lə paspɔʁ/",
+   "meaning_vi": "hộ chiếu",
+   "example_fr": "Voici mon passeport vietnamien.",
+   "example_vi": "Đây là hộ chiếu Việt Nam của tôi.",
+   "note_vi": "Chữ t cuối câm.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le permis de conduire",
+   "gender": "m",
+   "ipa": "/lə pɛʁmi də kɔ̃dɥiʁ/",
+   "meaning_vi": "bằng lái xe",
+   "example_fr": "Avez-vous un permis de conduire ?",
+   "example_vi": "Anh có bằng lái xe không?",
+   "note_vi": "Chữ s trong permis câm.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "la pièce d'identité",
+   "gender": "f",
+   "ipa": "/la pjɛs didɑ̃tite/",
+   "meaning_vi": "giấy tờ tùy thân",
+   "example_fr": "Avez-vous une pièce d'identité avec photo ?",
+   "example_vi": "Anh có giấy tờ tùy thân có ảnh không?",
+   "note_vi": "Chỉ chung mọi giấy tờ chứng minh bạn là ai, như hộ chiếu, bằng lái. 'Avec photo' = loại có ảnh.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le document",
+   "gender": "m",
+   "ipa": "/lə dɔkymɑ̃/",
+   "meaning_vi": "giấy tờ, tài liệu",
+   "example_fr": "Il manque un document dans votre dossier.",
+   "example_vi": "Hồ sơ của anh còn thiếu một giấy tờ.",
+   "note_vi": "Chữ t cuối câm; u đọc /y/.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le dossier",
+   "gender": "m",
+   "ipa": "/lə dosje/",
+   "meaning_vi": "hồ sơ",
+   "example_fr": "Votre dossier est complet, merci.",
+   "example_vi": "Hồ sơ của anh đủ rồi, cảm ơn.",
+   "note_vi": "Chữ r cuối câm: 'đô-xiê'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "marié",
+   "gender": "",
+   "ipa": "/maʁje/",
+   "meaning_vi": "đã kết hôn",
+   "example_fr": "Je suis marié et j'ai deux enfants.",
+   "example_vi": "Tôi đã có vợ và hai con.",
+   "note_vi": "Nữ viết mariée, đọc như nhau.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "célibataire",
+   "gender": "",
+   "ipa": "/selibatɛʁ/",
+   "meaning_vi": "độc thân",
+   "example_fr": "Non, je ne suis pas marié, je suis célibataire.",
+   "example_vi": "Không, tôi chưa kết hôn, tôi độc thân.",
+   "note_vi": "Nam và nữ viết giống nhau.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "divorcé",
+   "gender": "",
+   "ipa": "/divɔʁse/",
+   "meaning_vi": "đã ly hôn",
+   "example_fr": "Ma sœur est divorcée.",
+   "example_vi": "Chị tôi đã ly hôn.",
+   "note_vi": "Nữ thêm e: divorcée, đọc như nhau.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le conjoint",
+   "gender": "m",
+   "ipa": "/lə kɔ̃ʒwɛ̃/",
+   "meaning_vi": "vợ/chồng, bạn đời",
+   "example_fr": "Mon conjoint travaille aussi à Montréal.",
+   "example_vi": "Bạn đời của tôi cũng làm việc ở Montréal.",
+   "note_vi": "Nữ: la conjointe. Giấy tờ hay ghi 'conjoint de fait' (sống chung như vợ chồng).",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "la femme",
+   "gender": "f",
+   "ipa": "/la fam/",
+   "meaning_vi": "vợ; phụ nữ",
+   "example_fr": "Je vous présente ma femme, Lan.",
+   "example_vi": "Xin giới thiệu với anh, đây là vợ tôi, Lan.",
+   "note_vi": "Đọc /fam/ như 'pham', không đọc 'phem'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le mari",
+   "gender": "m",
+   "ipa": "/lə maʁi/",
+   "meaning_vi": "chồng",
+   "example_fr": "Son mari est cuisinier.",
+   "example_vi": "Chồng chị ấy làm đầu bếp.",
+   "note_vi": "",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "l'enfant",
+   "gender": "m",
+   "ipa": "/lɑ̃fɑ̃/",
+   "meaning_vi": "đứa con, đứa trẻ",
+   "example_fr": "Nous avons un enfant de cinq ans.",
+   "example_vi": "Chúng tôi có một đứa con năm tuổi.",
+   "note_vi": "Giống đực khi nói chung; chữ t cuối câm.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "né",
+   "gender": "",
+   "ipa": "/ne/",
+   "meaning_vi": "được sinh ra",
+   "example_fr": "Je suis né à Hanoï.",
+   "example_vi": "Tôi sinh ra ở Hà Nội.",
+   "note_vi": "Dùng với être: je suis né. Nữ viết née.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le lieu de naissance",
+   "gender": "m",
+   "ipa": "/lə ljø də nɛsɑ̃s/",
+   "meaning_vi": "nơi sinh",
+   "example_fr": "Quel est votre lieu de naissance ?",
+   "example_vi": "Anh sinh ra ở đâu?",
+   "note_vi": "",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "vietnamien",
+   "gender": "",
+   "ipa": "/vjɛtnamjɛ̃/",
+   "meaning_vi": "thuộc Việt Nam, người Việt",
+   "example_fr": "Je suis vietnamien, et vous ?",
+   "example_vi": "Tôi là người Việt, còn anh?",
+   "note_vi": "Nữ: vietnamienne. Danh từ chỉ người viết hoa: un Vietnamien.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "canadien",
+   "gender": "",
+   "ipa": "/kanadjɛ̃/",
+   "meaning_vi": "thuộc Canada, người Canada",
+   "example_fr": "Ma voisine est canadienne.",
+   "example_vi": "Chị hàng xóm của tôi là người Canada.",
+   "note_vi": "Nữ: canadienne, đọc rõ âm n ở cuối.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le travail",
+   "gender": "m",
+   "ipa": "/lə tʁavaj/",
+   "meaning_vi": "công việc",
+   "example_fr": "Je cherche du travail à Montréal.",
+   "example_vi": "Tôi đang tìm việc ở Montréal.",
+   "note_vi": "'ail' đọc /aj/ như 'ai'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "travailler",
+   "gender": "",
+   "ipa": "/tʁavaje/",
+   "meaning_vi": "làm việc",
+   "example_fr": "Je travaille dans un restaurant.",
+   "example_vi": "Tôi làm việc ở một nhà hàng.",
+   "note_vi": "'ill' đọc như 'y': 'tra-va-yê'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "l'étudiant",
+   "gender": "m",
+   "ipa": "/letydjɑ̃/",
+   "meaning_vi": "sinh viên, học viên",
+   "example_fr": "Mon frère est étudiant à l'université.",
+   "example_vi": "Em trai tôi là sinh viên đại học.",
+   "note_vi": "Giống đực; nữ là l'étudiante. Học sinh phổ thông thường gọi là l'élève.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le métier",
+   "gender": "m",
+   "ipa": "/lə metje/",
+   "meaning_vi": "nghề",
+   "example_fr": "Quel est votre métier, madame ?",
+   "example_vi": "Chị làm nghề gì ạ?",
+   "note_vi": "Gần nghĩa 'la profession', hay dùng hơn khi nói chuyện hằng ngày.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "l'employeur",
+   "gender": "m",
+   "ipa": "/lɑ̃plwajœʁ/",
+   "meaning_vi": "chủ lao động",
+   "example_fr": "Quel est le nom de votre employeur ?",
+   "example_vi": "Chủ lao động của anh tên là gì?",
+   "note_vi": "Giống đực; người làm thuê là l'employé. Từ này hay gặp trên giấy tờ; nói chuyện hằng ngày thì gọi ông chủ là 'le patron'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "signer",
+   "gender": "",
+   "ipa": "/siɲe/",
+   "meaning_vi": "ký tên",
+   "example_fr": "Signez ici, s'il vous plaît.",
+   "example_vi": "Anh ký vào đây giúp tôi.",
+   "note_vi": "'gn' đọc như 'nh': 'xi-nhê'.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "écrire",
+   "gender": "",
+   "ipa": "/ekʁiʁ/",
+   "meaning_vi": "viết",
+   "example_fr": "Écrivez votre nom en majuscules.",
+   "example_vi": "Anh viết họ bằng chữ in hoa.",
+   "note_vi": "",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "la case",
+   "gender": "f",
+   "ipa": "/la kaz/",
+   "meaning_vi": "ô (trên mẫu đơn)",
+   "example_fr": "Cochez la bonne case.",
+   "example_vi": "Anh đánh dấu vào ô đúng.",
+   "note_vi": "Chữ s giữa hai nguyên âm đọc /z/.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "cocher",
+   "gender": "",
+   "ipa": "/kɔʃe/",
+   "meaning_vi": "đánh dấu (vào ô)",
+   "example_fr": "Cochez oui ou non, s'il vous plaît.",
+   "example_vi": "Anh đánh dấu có hoặc không.",
+   "note_vi": "",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "la photo",
+   "gender": "f",
+   "ipa": "/la fɔto/",
+   "meaning_vi": "ảnh",
+   "example_fr": "Voici une photo récente de moi.",
+   "example_vi": "Đây là một tấm ảnh mới chụp của tôi.",
+   "note_vi": "",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "se présenter",
+   "gender": "",
+   "ipa": "/sə pʁezɑ̃te/",
+   "meaning_vi": "tự giới thiệu",
+   "example_fr": "Je me présente : je m'appelle Minh.",
+   "example_vi": "Tôi xin tự giới thiệu: tôi tên Minh.",
+   "note_vi": "",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "enchanté",
+   "gender": "",
+   "ipa": "/ɑ̃ʃɑ̃te/",
+   "meaning_vi": "rất vui được gặp",
+   "example_fr": "Enchanté, madame, je suis Minh.",
+   "example_vi": "Rất vui được gặp chị, tôi là Minh.",
+   "note_vi": "Nữ viết enchantée, đọc như nhau.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le résident permanent",
+   "gender": "m",
+   "ipa": "/lə ʁezidɑ̃ pɛʁmanɑ̃/",
+   "meaning_vi": "thường trú nhân",
+   "example_fr": "Je suis résident permanent au Canada.",
+   "example_vi": "Tôi là thường trú nhân ở Canada.",
+   "note_vi": "Nữ: résidente permanente.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "l'appartement",
+   "gender": "m",
+   "ipa": "/lapaʁtəmɑ̃/",
+   "meaning_vi": "căn hộ",
+   "example_fr": "J'habite dans un petit appartement.",
+   "example_vi": "Tôi ở trong một căn hộ nhỏ.",
+   "note_vi": "Giống đực; chữ t cuối câm.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le lundi",
+   "gender": "m",
+   "ipa": "/lə lœ̃di/",
+   "meaning_vi": "thứ Hai",
+   "example_fr": "Lundi, je commence mon nouveau travail.",
+   "example_vi": "Thứ Hai này tôi bắt đầu công việc mới.",
+   "note_vi": "Thứ không viết hoa. 'Lundi' = thứ Hai này; 'le lundi' = mọi thứ Hai.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le mardi",
+   "gender": "m",
+   "ipa": "/lə maʁdi/",
+   "meaning_vi": "thứ Ba",
+   "example_fr": "Le mardi, j'ai un cours de français.",
+   "example_vi": "Thứ Ba nào tôi cũng có lớp tiếng Pháp.",
+   "note_vi": "Có 'le' nghĩa là lặp lại mỗi tuần.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le mercredi",
+   "gender": "m",
+   "ipa": "/lə mɛʁkʁədi/",
+   "meaning_vi": "thứ Tư",
+   "example_fr": "Le rendez-vous est mercredi à dix heures.",
+   "example_vi": "Cuộc hẹn vào thứ Tư lúc mười giờ.",
+   "note_vi": "Viết không dấu, nhưng chữ e đầu đọc như è (mở miệng như 'e').",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le jeudi",
+   "gender": "m",
+   "ipa": "/lə ʒødi/",
+   "meaning_vi": "thứ Năm",
+   "example_fr": "Je suis libre jeudi après-midi.",
+   "example_vi": "Chiều thứ Năm tôi rảnh.",
+   "note_vi": "'eu' đọc /ø/: đặt miệng nói 'ê' rồi chu tròn môi.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le vendredi",
+   "gender": "m",
+   "ipa": "/lə vɑ̃dʁədi/",
+   "meaning_vi": "thứ Sáu",
+   "example_fr": "Vendredi soir, je mange chez des amis.",
+   "example_vi": "Tối thứ Sáu này tôi ăn ở nhà bạn.",
+   "note_vi": "",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le samedi",
+   "gender": "m",
+   "ipa": "/lə samdi/",
+   "meaning_vi": "thứ Bảy",
+   "example_fr": "Le samedi, je fais les courses.",
+   "example_vi": "Thứ Bảy nào tôi cũng đi chợ.",
+   "note_vi": "Chữ e giữa câm: đọc 'sam-đi'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le dimanche",
+   "gender": "m",
+   "ipa": "/lə dimɑ̃ʃ/",
+   "meaning_vi": "Chủ nhật",
+   "example_fr": "Dimanche, je reste à la maison.",
+   "example_vi": "Chủ nhật này tôi ở nhà.",
+   "note_vi": "'an' là âm mũi /ɑ̃/; chữ e cuối câm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en janvier",
+   "gender": "",
+   "ipa": "/ɑ̃ ʒɑ̃vje/",
+   "meaning_vi": "vào tháng Một",
+   "example_fr": "En janvier, il fait très froid à Montréal.",
+   "example_vi": "Tháng Một ở Montréal rất lạnh.",
+   "note_vi": "Tên tháng không viết hoa.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en février",
+   "gender": "",
+   "ipa": "/ɑ̃ fevʁije/",
+   "meaning_vi": "vào tháng Hai",
+   "example_fr": "Mon anniversaire est en février.",
+   "example_vi": "Sinh nhật tôi vào tháng Hai.",
+   "note_vi": "",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en mars",
+   "gender": "",
+   "ipa": "/ɑ̃ maʁs/",
+   "meaning_vi": "vào tháng Ba",
+   "example_fr": "Je suis arrivé au Canada en mars.",
+   "example_vi": "Tôi sang Canada vào tháng Ba.",
+   "note_vi": "Chữ s cuối được đọc: /maʁs/.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en avril",
+   "gender": "",
+   "ipa": "/ɑ̃navʁil/",
+   "meaning_vi": "vào tháng Tư",
+   "example_fr": "Les cours commencent en avril.",
+   "example_vi": "Khóa học bắt đầu vào tháng Tư.",
+   "note_vi": "Nối âm 'en avril': đọc 'ăng-na-vril'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en mai",
+   "gender": "",
+   "ipa": "/ɑ̃ mɛ/",
+   "meaning_vi": "vào tháng Năm",
+   "example_fr": "En mai, il fait beau.",
+   "example_vi": "Tháng Năm trời đẹp.",
+   "note_vi": "",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en juin",
+   "gender": "",
+   "ipa": "/ɑ̃ ʒɥɛ̃/",
+   "meaning_vi": "vào tháng Sáu",
+   "example_fr": "Mes parents viennent en juin.",
+   "example_vi": "Bố mẹ tôi sang vào tháng Sáu.",
+   "note_vi": "'juin' có âm mũi /ɛ̃/, không đọc chữ n.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en juillet",
+   "gender": "",
+   "ipa": "/ɑ̃ ʒɥijɛ/",
+   "meaning_vi": "vào tháng Bảy",
+   "example_fr": "En juillet, je prends des vacances.",
+   "example_vi": "Tháng Bảy tôi đi nghỉ.",
+   "note_vi": "'ill' đọc như 'y'; chữ t cuối câm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en août",
+   "gender": "",
+   "ipa": "/ɑ̃nut/",
+   "meaning_vi": "vào tháng Tám",
+   "example_fr": "Mon fils commence l'école en août.",
+   "example_vi": "Con trai tôi đi học từ tháng Tám.",
+   "note_vi": "Đọc 'út' hoặc 'u'; chữ a không đọc.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en septembre",
+   "gender": "",
+   "ipa": "/ɑ̃ sɛptɑ̃bʁ/",
+   "meaning_vi": "vào tháng Chín",
+   "example_fr": "Je commence mes cours de français en septembre.",
+   "example_vi": "Tháng Chín tôi bắt đầu học lớp tiếng Pháp.",
+   "note_vi": "Chữ p được đọc: 'sép-tăm-brơ'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en octobre",
+   "gender": "",
+   "ipa": "/ɑ̃nɔktɔbʁ/",
+   "meaning_vi": "vào tháng Mười",
+   "example_fr": "Je déménage en octobre.",
+   "example_vi": "Tôi chuyển nhà vào tháng Mười.",
+   "note_vi": "Nối âm: 'ăng-noc-to-brơ'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en novembre",
+   "gender": "",
+   "ipa": "/ɑ̃ nɔvɑ̃bʁ/",
+   "meaning_vi": "vào tháng Mười Một",
+   "example_fr": "Mon contrat finit en novembre.",
+   "example_vi": "Hợp đồng của tôi hết vào tháng Mười Một.",
+   "note_vi": "",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en décembre",
+   "gender": "",
+   "ipa": "/ɑ̃ desɑ̃bʁ/",
+   "meaning_vi": "vào tháng Mười Hai",
+   "example_fr": "Nous fêtons Noël en décembre.",
+   "example_vi": "Chúng tôi đón Giáng sinh vào tháng Mười Hai.",
+   "note_vi": "",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le jour",
+   "gender": "m",
+   "ipa": "/lə ʒuʁ/",
+   "meaning_vi": "ngày",
+   "example_fr": "Je travaille huit heures par jour.",
+   "example_vi": "Tôi làm tám tiếng mỗi ngày.",
+   "note_vi": "'ou' đọc như 'u' tiếng Việt.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le mois",
+   "gender": "m",
+   "ipa": "/lə mwa/",
+   "meaning_vi": "tháng",
+   "example_fr": "Je paie le loyer chaque mois.",
+   "example_vi": "Tôi trả tiền nhà mỗi tháng.",
+   "note_vi": "Chữ s cuối câm: đọc 'moa'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "l'année",
+   "gender": "f",
+   "ipa": "/lane/",
+   "meaning_vi": "năm",
+   "example_fr": "Bonne année à toute la famille !",
+   "example_vi": "Chúc mừng năm mới cả nhà!",
+   "note_vi": "Giống cái. Khi nói tuổi thì dùng 'ans': j'ai trente ans.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "la date",
+   "gender": "f",
+   "ipa": "/la dat/",
+   "meaning_vi": "ngày tháng",
+   "example_fr": "Quelle est la date aujourd'hui ?",
+   "example_vi": "Hôm nay là ngày mấy?",
+   "note_vi": "Nói ngày dùng 'le': le deux mai; ngày mùng một là 'le premier'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "la minute",
+   "gender": "f",
+   "ipa": "/la minyt/",
+   "meaning_vi": "phút",
+   "example_fr": "Attendez une minute, s'il vous plaît.",
+   "example_vi": "Anh đợi một phút nhé.",
+   "note_vi": "u đọc /y/; chữ e cuối câm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "et quart",
+   "gender": "",
+   "ipa": "/e kaʁ/",
+   "meaning_vi": "và mười lăm phút",
+   "example_fr": "Le cours commence à neuf heures et quart.",
+   "example_vi": "Lớp học bắt đầu lúc chín giờ mười lăm.",
+   "note_vi": "Chữ t cuối câm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "et demie",
+   "gender": "",
+   "ipa": "/e dəmi/",
+   "meaning_vi": "rưỡi (ba mươi phút)",
+   "example_fr": "Je finis à cinq heures et demie.",
+   "example_vi": "Tôi xong việc lúc năm giờ rưỡi.",
+   "note_vi": "Sau 'heures' viết 'demie' có e; sau midi, minuit viết 'et demi'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "moins le quart",
+   "gender": "",
+   "ipa": "/mwɛ̃ lə kaʁ/",
+   "meaning_vi": "kém mười lăm",
+   "example_fr": "Il est sept heures moins le quart.",
+   "example_vi": "Bây giờ là bảy giờ kém mười lăm.",
+   "note_vi": "Tức là sáu giờ bốn mươi lăm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "à midi",
+   "gender": "",
+   "ipa": "/a midi/",
+   "meaning_vi": "lúc mười hai giờ trưa",
+   "example_fr": "Je mange à midi avec mes collègues.",
+   "example_vi": "Tôi ăn trưa lúc mười hai giờ với đồng nghiệp.",
+   "note_vi": "Bữa trưa là 'le déjeuner', bữa tối là 'le dîner'. Ở Québec thì khác: 'le dîner' là bữa trưa, 'le déjeuner' là bữa sáng.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "hier",
+   "gender": "",
+   "ipa": "/jɛʁ/",
+   "meaning_vi": "hôm qua",
+   "example_fr": "Hier, j'ai appelé la clinique.",
+   "example_vi": "Hôm qua tôi đã gọi cho phòng khám.",
+   "note_vi": "Chữ h câm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "maintenant",
+   "gender": "",
+   "ipa": "/mɛ̃tnɑ̃/",
+   "meaning_vi": "bây giờ",
+   "example_fr": "Je suis disponible maintenant.",
+   "example_vi": "Bây giờ tôi rảnh.",
+   "note_vi": "Chữ t cuối câm; e giữa gần như không đọc.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "tôt",
+   "gender": "",
+   "ipa": "/to/",
+   "meaning_vi": "sớm (dậy sớm, về sớm)",
+   "example_fr": "Je me lève tôt le matin.",
+   "example_vi": "Buổi sáng tôi dậy sớm.",
+   "note_vi": "Chữ t cuối câm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "tard",
+   "gender": "",
+   "ipa": "/taʁ/",
+   "meaning_vi": "muộn",
+   "example_fr": "Il est tard, je rentre.",
+   "example_vi": "Muộn rồi, tôi về đây.",
+   "note_vi": "Chữ d cuối câm.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "en avance",
+   "gender": "",
+   "ipa": "/ɑ̃navɑ̃s/",
+   "meaning_vi": "đến sớm, trước giờ hẹn",
+   "example_fr": "Je suis en avance de cinq minutes.",
+   "example_vi": "Tôi đến sớm năm phút.",
+   "note_vi": "Nối âm 'en avance'. Trái nghĩa: en retard.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "le week-end",
+   "gender": "m",
+   "ipa": "/lə wikɛnd/",
+   "meaning_vi": "cuối tuần",
+   "example_fr": "Ce week-end, je suis libre.",
+   "example_vi": "Cuối tuần này tôi rảnh.",
+   "note_vi": "Ở Québec hay nói 'la fin de semaine'.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "prochain",
+   "gender": "",
+   "ipa": "/pʁɔʃɛ̃/",
+   "meaning_vi": "tới, sau (next)",
+   "example_fr": "Je reviens la semaine prochaine.",
+   "example_vi": "Tuần sau tôi quay lại.",
+   "note_vi": "Nữ: prochaine. Thường đứng sau: lundi prochain.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "confirmer",
+   "gender": "",
+   "ipa": "/kɔ̃fiʁme/",
+   "meaning_vi": "xác nhận",
+   "example_fr": "Je vous appelle pour confirmer le rendez-vous.",
+   "example_vi": "Tôi gọi để xác nhận lịch hẹn.",
+   "note_vi": "",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "attendre",
+   "gender": "",
+   "ipa": "/atɑ̃dʁ/",
+   "meaning_vi": "đợi, chờ",
+   "example_fr": "Vous pouvez attendre ici, s'il vous plaît.",
+   "example_vi": "Anh vui lòng đợi ở đây.",
+   "note_vi": "Bẫy tiếng Anh: attendre là đợi, không phải 'attend' (tham dự).",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "soixante-dix",
+   "gender": "",
+   "ipa": "/swasɑ̃tdis/",
+   "meaning_vi": "bảy mươi",
+   "example_fr": "Mon grand-père a soixante-dix ans.",
+   "example_vi": "Ông tôi bảy mươi tuổi.",
+   "note_vi": "Bảy mươi = sáu mươi + mười. Chữ x trong soixante đọc /s/.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "quatre-vingts",
+   "gender": "",
+   "ipa": "/katʁəvɛ̃/",
+   "meaning_vi": "tám mươi",
+   "example_fr": "Ma grand-mère a quatre-vingts ans.",
+   "example_vi": "Bà tôi tám mươi tuổi.",
+   "note_vi": "Tám mươi = bốn lần hai mươi. Chữ s cuối thường câm, nhưng khi từ sau bắt đầu bằng nguyên âm thì nối thành /z/: quatre-vingts ans /katʁəvɛ̃zɑ̃/.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "cent",
+   "gender": "",
+   "ipa": "/sɑ̃/",
+   "meaning_vi": "một trăm",
+   "example_fr": "Il y a cent personnes dans la salle.",
+   "example_vi": "Trong phòng có một trăm người.",
+   "note_vi": "Chữ t cuối câm; 'deux cents' có s.",
+   "group": "fr_thoigian"
+  },
+  {
+   "word": "l'immeuble",
+   "gender": "m",
+   "ipa": "/limœbl/",
+   "meaning_vi": "tòa nhà, chung cư",
+   "example_fr": "L'immeuble a un ascenseur.",
+   "example_vi": "Tòa nhà có thang máy.",
+   "note_vi": "Giống đực: un immeuble.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le locataire",
+   "gender": "m",
+   "ipa": "/lə lɔkatɛʁ/",
+   "meaning_vi": "người thuê nhà",
+   "example_fr": "Le locataire paie le loyer chaque mois.",
+   "example_vi": "Người thuê trả tiền nhà mỗi tháng.",
+   "note_vi": "Người thuê = locataire; chủ nhà = propriétaire.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "louer",
+   "gender": "",
+   "ipa": "/lwe/",
+   "meaning_vi": "thuê; cho thuê",
+   "example_fr": "Je voudrais louer un appartement.",
+   "example_vi": "Tôi muốn thuê một căn hộ.",
+   "note_vi": "Vừa là thuê vừa là cho thuê. Bảng 'À louer' = cho thuê.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la cuisine",
+   "gender": "f",
+   "ipa": "/la kɥizin/",
+   "meaning_vi": "nhà bếp",
+   "example_fr": "Je fais à manger dans la cuisine.",
+   "example_vi": "Tôi nấu ăn trong bếp.",
+   "note_vi": "Còn nghĩa 'ẩm thực, nấu nướng': la cuisine vietnamienne. Một món ăn là un plat.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la salle de bain",
+   "gender": "f",
+   "ipa": "/la sal də bɛ̃/",
+   "meaning_vi": "phòng tắm",
+   "example_fr": "La salle de bain est à côté de la chambre.",
+   "example_vi": "Phòng tắm ở cạnh phòng ngủ.",
+   "note_vi": "Cũng viết la salle de bains. ain là âm mũi.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le salon",
+   "gender": "m",
+   "ipa": "/lə salɔ̃/",
+   "meaning_vi": "phòng khách",
+   "example_fr": "Le salon est grand et lumineux.",
+   "example_vi": "Phòng khách rộng và sáng.",
+   "note_vi": "on cuối là âm mũi /ɔ̃/, không đọc n.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la pièce",
+   "gender": "f",
+   "ipa": "/la pjɛs/",
+   "meaning_vi": "phòng (nói chung)",
+   "example_fr": "L'appartement a trois pièces.",
+   "example_vi": "Căn hộ có ba phòng.",
+   "note_vi": "pièce = phòng bất kỳ; chambre chỉ là phòng ngủ.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "l'étage",
+   "gender": "m",
+   "ipa": "/letaʒ/",
+   "meaning_vi": "tầng (lầu)",
+   "example_fr": "L'appartement est à quel étage ?",
+   "example_vi": "Căn hộ ở tầng mấy?",
+   "note_vi": "Giống đực: un étage. Cách đếm tầng có thể khác Việt Nam, nên hỏi kỹ.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "l'ascenseur",
+   "gender": "m",
+   "ipa": "/lasɑ̃sœʁ/",
+   "meaning_vi": "thang máy",
+   "example_fr": "L'ascenseur ne marche pas aujourd'hui.",
+   "example_vi": "Hôm nay thang máy bị hỏng.",
+   "note_vi": "Giống đực: un ascenseur. sc đọc như một chữ s.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "l'escalier",
+   "gender": "m",
+   "ipa": "/lɛskalje/",
+   "meaning_vi": "cầu thang",
+   "example_fr": "Je prends l'escalier tous les jours.",
+   "example_vi": "Ngày nào tôi cũng đi thang bộ.",
+   "note_vi": "Giống đực: un escalier. r cuối câm.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la porte",
+   "gender": "f",
+   "ipa": "/la pɔʁt/",
+   "meaning_vi": "cửa ra vào",
+   "example_fr": "Fermez la porte, s'il vous plaît.",
+   "example_vi": "Làm ơn đóng cửa lại.",
+   "note_vi": "Cửa ra vào; cửa sổ là la fenêtre.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la fenêtre",
+   "gender": "f",
+   "ipa": "/la fənɛtʁ/",
+   "meaning_vi": "cửa sổ",
+   "example_fr": "La fenêtre de la chambre est cassée.",
+   "example_vi": "Cửa sổ phòng ngủ bị vỡ.",
+   "note_vi": "ê đọc mở như 'e'; e sau f đọc rất nhẹ.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le mur",
+   "gender": "m",
+   "ipa": "/lə myʁ/",
+   "meaning_vi": "bức tường",
+   "example_fr": "Il y a un trou dans le mur.",
+   "example_vi": "Trên tường có một cái lỗ.",
+   "note_vi": "u Pháp: chu môi như 'u' nhưng lưỡi để như 'i'.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le lit",
+   "gender": "m",
+   "ipa": "/lə li/",
+   "meaning_vi": "cái giường",
+   "example_fr": "Le lit est grand et confortable.",
+   "example_vi": "Giường rộng và êm.",
+   "note_vi": "t cuối câm: đọc là 'li'.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le réfrigérateur",
+   "gender": "m",
+   "ipa": "/lə ʁefʁiʒeʁatœʁ/",
+   "meaning_vi": "tủ lạnh",
+   "example_fr": "Le réfrigérateur est dans la cuisine.",
+   "example_vi": "Tủ lạnh ở trong bếp.",
+   "note_vi": "Nói tắt: le frigo. Ở Québec hay nói le frigidaire.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le four",
+   "gender": "m",
+   "ipa": "/lə fuʁ/",
+   "meaning_vi": "lò nướng",
+   "example_fr": "Le four de la cuisine est vieux.",
+   "example_vi": "Lò nướng trong bếp cũ rồi.",
+   "note_vi": "four = lò nướng, không phải số bốn tiếng Anh.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la machine à laver",
+   "gender": "f",
+   "ipa": "/la maʃin a lave/",
+   "meaning_vi": "máy giặt",
+   "example_fr": "Il y a une machine à laver ?",
+   "example_vi": "Có máy giặt không ạ?",
+   "note_vi": "Ở Québec hay nói la laveuse; máy sấy là la sécheuse.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "l'électricité",
+   "gender": "f",
+   "ipa": "/lelɛktʁisite/",
+   "meaning_vi": "điện, tiền điện",
+   "example_fr": "L'électricité n'est pas comprise.",
+   "example_vi": "Tiền điện chưa tính vào.",
+   "note_vi": "Giống cái (từ đuôi -té thường là giống cái), nên dùng comprise (đọc có âm z), không phải compris.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "l'eau chaude",
+   "gender": "f",
+   "ipa": "/lo ʃod/",
+   "meaning_vi": "nước nóng",
+   "example_fr": "Il n'y a pas d'eau chaude.",
+   "example_vi": "Không có nước nóng.",
+   "note_vi": "Giống cái: l'eau. eau và au đều đọc 'ô'.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le robinet",
+   "gender": "m",
+   "ipa": "/lə ʁɔbinɛ/",
+   "meaning_vi": "vòi nước",
+   "example_fr": "Le robinet de la cuisine fuit.",
+   "example_vi": "Vòi nước trong bếp bị rỉ.",
+   "note_vi": "t cuối câm: /ʁɔbinɛ/.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la fuite",
+   "gender": "f",
+   "ipa": "/la fɥit/",
+   "meaning_vi": "chỗ rò rỉ (nước, khí)",
+   "example_fr": "Il y a une fuite sous l'évier.",
+   "example_vi": "Dưới bồn rửa bị rò nước.",
+   "note_vi": "ui đọc lướt thành một âm: /fɥit/.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le voisin",
+   "gender": "m",
+   "ipa": "/lə vwazɛ̃/",
+   "meaning_vi": "hàng xóm",
+   "example_fr": "Mon voisin est très gentil.",
+   "example_vi": "Người hàng xóm của tôi rất tốt bụng.",
+   "note_vi": "Hàng xóm nữ: la voisine (đọc rõ n).",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le bruit",
+   "gender": "m",
+   "ipa": "/lə bʁɥi/",
+   "meaning_vi": "tiếng ồn",
+   "example_fr": "Il y a trop de bruit la nuit.",
+   "example_vi": "Ban đêm ồn quá.",
+   "note_vi": "t cuối câm; ui đọc lướt: /bʁɥi/.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "déménager",
+   "gender": "",
+   "ipa": "/demenaʒe/",
+   "meaning_vi": "chuyển nhà, dọn đi",
+   "example_fr": "Nous déménageons en juillet.",
+   "example_vi": "Chúng tôi chuyển nhà vào tháng bảy.",
+   "note_vi": "déménager = dọn đi; emménager = dọn vào nhà mới.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "visiter",
+   "gender": "",
+   "ipa": "/vizite/",
+   "meaning_vi": "đi xem (nhà, nơi chốn)",
+   "example_fr": "Je peux visiter l'appartement demain ?",
+   "example_vi": "Mai tôi đi xem căn hộ được không?",
+   "note_vi": "Dùng cho nơi chốn; thăm người thì nói rendre visite à.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le studio",
+   "gender": "m",
+   "ipa": "/lə stydjo/",
+   "meaning_vi": "căn hộ một phòng",
+   "example_fr": "Le studio est petit mais pas cher.",
+   "example_vi": "Căn studio nhỏ nhưng rẻ.",
+   "note_vi": "u đọc kiểu Pháp /y/: 'stu' chu môi, lưỡi như 'i'.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le balcon",
+   "gender": "m",
+   "ipa": "/lə balkɔ̃/",
+   "meaning_vi": "ban công",
+   "example_fr": "L'appartement a un petit balcon.",
+   "example_vi": "Căn hộ có một ban công nhỏ.",
+   "note_vi": "on cuối là âm mũi /ɔ̃/.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le parking",
+   "gender": "m",
+   "ipa": "/lə paʁkiŋ/",
+   "meaning_vi": "chỗ đậu xe",
+   "example_fr": "Est-ce qu'il y a un parking ?",
+   "example_vi": "Có chỗ đậu xe không ạ?",
+   "note_vi": "Ở Québec hay nói le stationnement.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la buanderie",
+   "gender": "f",
+   "ipa": "/la bɥɑ̃dʁi/",
+   "meaning_vi": "phòng giặt đồ",
+   "example_fr": "La buanderie est au sous-sol.",
+   "example_vi": "Phòng giặt ở dưới tầng hầm.",
+   "note_vi": "Ở Québec, la buanderie còn là tiệm giặt tự động.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "les meubles",
+   "gender": "mpl",
+   "ipa": "/le mœbl/",
+   "meaning_vi": "đồ đạc (bàn, ghế, giường)",
+   "example_fr": "Les meubles sont neufs.",
+   "example_vi": "Đồ đạc còn mới.",
+   "note_vi": "Giống đực số nhiều (un meuble). Có sẵn đồ = meublé.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la boîte aux lettres",
+   "gender": "f",
+   "ipa": "/la bwat o lɛtʁ/",
+   "meaning_vi": "hộp thư",
+   "example_fr": "Votre nom est sur la boîte aux lettres.",
+   "example_vi": "Tên anh/chị có trên hộp thư.",
+   "note_vi": "oî đọc 'oa'; aux đọc 'ô'.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le concierge",
+   "gender": "m",
+   "ipa": "/lə kɔ̃sjɛʁʒ/",
+   "meaning_vi": "người trông coi tòa nhà",
+   "example_fr": "Le concierge répare la porte.",
+   "example_vi": "Người trông coi tòa nhà đang sửa cửa.",
+   "note_vi": "Người trông coi, sửa vặt trong tòa nhà.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "propre",
+   "gender": "",
+   "ipa": "/pʁɔpʁ/",
+   "meaning_vi": "sạch sẽ",
+   "example_fr": "L'appartement est très propre.",
+   "example_vi": "Căn hộ rất sạch sẽ.",
+   "note_vi": "Trái nghĩa: sale (bẩn), đừng nhầm với 'sale' tiếng Anh.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "calme",
+   "gender": "",
+   "ipa": "/kalm/",
+   "meaning_vi": "yên tĩnh",
+   "example_fr": "Le quartier est calme le soir.",
+   "example_vi": "Buổi tối khu này yên tĩnh.",
+   "note_vi": "Giống 'calm' tiếng Anh nhưng chữ l có đọc: /kalm/.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "chauffé",
+   "gender": "",
+   "ipa": "/ʃofe/",
+   "meaning_vi": "có sưởi, được sưởi ấm",
+   "example_fr": "L'appartement est bien chauffé en hiver.",
+   "example_vi": "Mùa đông căn hộ được sưởi ấm tốt.",
+   "note_vi": "Ở Québec, quảng cáo thuê nhà ghi 'chauffé, éclairé' = giá thuê đã gồm tiền sưởi và tiền điện.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le quartier",
+   "gender": "m",
+   "ipa": "/lə kaʁtje/",
+   "meaning_vi": "khu phố",
+   "example_fr": "J'aime bien ce quartier.",
+   "example_vi": "Tôi khá thích khu này.",
+   "note_vi": "qu đọc 'k'; r cuối câm: /kaʁtje/.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "la poubelle",
+   "gender": "f",
+   "ipa": "/la pubɛl/",
+   "meaning_vi": "thùng rác",
+   "example_fr": "Les poubelles sont derrière l'immeuble.",
+   "example_vi": "Thùng rác ở phía sau tòa nhà.",
+   "note_vi": "ou đọc như 'u' tiếng Việt.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "libre",
+   "gender": "",
+   "ipa": "/libʁ/",
+   "meaning_vi": "còn trống, rảnh",
+   "example_fr": "L'appartement est libre en juillet ?",
+   "example_vi": "Tháng bảy căn hộ còn trống không?",
+   "note_vi": "libre = còn trống/rảnh, không phải 'miễn phí' (gratuit).",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "le taxi",
+   "gender": "m",
+   "ipa": "/lə taksi/",
+   "meaning_vi": "xe taxi",
+   "example_fr": "Je prends un taxi pour l'aéroport.",
+   "example_vi": "Tôi đi taxi ra sân bay.",
+   "note_vi": "x đọc là 'ks': /taksi/.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le vélo",
+   "gender": "m",
+   "ipa": "/lə velo/",
+   "meaning_vi": "xe đạp",
+   "example_fr": "Je vais au travail à vélo.",
+   "example_vi": "Tôi đạp xe đi làm.",
+   "note_vi": "Đi bằng xe đạp thường nói à vélo.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la station",
+   "gender": "f",
+   "ipa": "/la stasjɔ̃/",
+   "meaning_vi": "ga (metro)",
+   "example_fr": "La station de métro est près d'ici.",
+   "example_vi": "Ga metro ở gần đây.",
+   "note_vi": "Ga metro = la station; trạm xe buýt = l'arrêt. tion đọc /sjɔ̃/: gần 'xi-ông' nhưng hơi ra mũi, không ngậm môi ở cuối.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la gare",
+   "gender": "f",
+   "ipa": "/la ɡaʁ/",
+   "meaning_vi": "nhà ga (tàu hỏa)",
+   "example_fr": "Je vais à la gare en taxi.",
+   "example_vi": "Tôi đi taxi ra ga.",
+   "note_vi": "Ga tàu hỏa; r cuối có đọc.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le train",
+   "gender": "m",
+   "ipa": "/lə tʁɛ̃/",
+   "meaning_vi": "tàu hỏa",
+   "example_fr": "Le train arrive à dix heures.",
+   "example_vi": "Tàu tới lúc mười giờ.",
+   "note_vi": "ain là âm mũi /ɛ̃/, không đọc n.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la voiture",
+   "gender": "f",
+   "ipa": "/la vwatyʁ/",
+   "meaning_vi": "xe hơi",
+   "example_fr": "Je n'ai pas de voiture.",
+   "example_vi": "Tôi không có xe hơi.",
+   "note_vi": "Ở Québec nói thân mật: le char.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la ligne",
+   "gender": "f",
+   "ipa": "/la liɲ/",
+   "meaning_vi": "tuyến (metro, xe buýt)",
+   "example_fr": "Prenez la ligne verte.",
+   "example_vi": "Anh/chị đi tuyến màu xanh lá.",
+   "note_vi": "gn đọc như 'nh': /liɲ/.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le trajet",
+   "gender": "m",
+   "ipa": "/lə tʁaʒɛ/",
+   "meaning_vi": "quãng đường, chuyến đi",
+   "example_fr": "Le trajet dure vingt minutes.",
+   "example_vi": "Đi mất hai mươi phút.",
+   "note_vi": "j đọc /ʒ/, gần 'gi' nhẹ; t cuối câm.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le quai",
+   "gender": "m",
+   "ipa": "/lə ke/",
+   "meaning_vi": "sân ga",
+   "example_fr": "Attendez sur le quai, s'il vous plaît.",
+   "example_vi": "Anh/chị đợi trên sân ga nhé.",
+   "note_vi": "qu đọc 'k', ai đọc 'ê': /ke/.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la sortie",
+   "gender": "f",
+   "ipa": "/la sɔʁti/",
+   "meaning_vi": "lối ra",
+   "example_fr": "Où est la sortie, s'il vous plaît ?",
+   "example_vi": "Cho hỏi lối ra ở đâu ạ?",
+   "note_vi": "Lối vào: l'entrée.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "l'entrée",
+   "gender": "f",
+   "ipa": "/lɑ̃tʁe/",
+   "meaning_vi": "lối vào",
+   "example_fr": "L'entrée du métro est en face.",
+   "example_vi": "Lối vào metro ở phía đối diện.",
+   "note_vi": "Giống cái: une entrée.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le chauffeur",
+   "gender": "m",
+   "ipa": "/lə ʃofœʁ/",
+   "meaning_vi": "tài xế",
+   "example_fr": "Le chauffeur est très sympathique.",
+   "example_vi": "Bác tài rất dễ mến.",
+   "note_vi": "au đọc 'ô', eu đọc gần 'ơ': /ʃofœʁ/.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le coin",
+   "gender": "m",
+   "ipa": "/lə kwɛ̃/",
+   "meaning_vi": "góc đường",
+   "example_fr": "La pharmacie est au coin de la rue.",
+   "example_vi": "Nhà thuốc ở góc đường.",
+   "note_vi": "oin đọc /wɛ̃/, âm mũi.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le feu",
+   "gender": "m",
+   "ipa": "/lə fø/",
+   "meaning_vi": "đèn giao thông",
+   "example_fr": "Tournez à droite au feu.",
+   "example_vi": "Tới đèn giao thông thì rẽ phải.",
+   "note_vi": "Đèn đỏ: le feu rouge. Nghĩa gốc là lửa.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le carrefour",
+   "gender": "m",
+   "ipa": "/lə kaʁfuʁ/",
+   "meaning_vi": "ngã tư",
+   "example_fr": "Traversez la rue au carrefour.",
+   "example_vi": "Băng qua đường ở ngã tư.",
+   "note_vi": "Ở Québec hay nói l'intersection.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le plan",
+   "gender": "m",
+   "ipa": "/lə plɑ̃/",
+   "meaning_vi": "bản đồ (thành phố, metro)",
+   "example_fr": "Vous avez un plan du métro ?",
+   "example_vi": "Anh/chị có bản đồ metro không?",
+   "note_vi": "an là âm mũi; n cuối không đọc.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le centre-ville",
+   "gender": "m",
+   "ipa": "/lə sɑ̃tʁəvil/",
+   "meaning_vi": "trung tâm thành phố",
+   "example_fr": "Je vais au centre-ville en bus.",
+   "example_vi": "Tôi đi xe buýt vào trung tâm.",
+   "note_vi": "Giống đực dù ville là giống cái. ill ở đây đọc 'il'.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le pont",
+   "gender": "m",
+   "ipa": "/lə pɔ̃/",
+   "meaning_vi": "cây cầu",
+   "example_fr": "Le bus traverse le pont.",
+   "example_vi": "Xe buýt chạy qua cầu.",
+   "note_vi": "t cuối câm, on là âm mũi: /pɔ̃/.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la neige",
+   "gender": "f",
+   "ipa": "/la nɛʒ/",
+   "meaning_vi": "tuyết",
+   "example_fr": "Avec la neige, le bus est lent.",
+   "example_vi": "Có tuyết nên xe buýt chạy chậm.",
+   "note_vi": "ei đọc 'e' mở /ɛ/.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la tempête",
+   "gender": "f",
+   "ipa": "/la tɑ̃pɛt/",
+   "meaning_vi": "cơn bão",
+   "example_fr": "Demain, il va y avoir une tempête de neige.",
+   "example_vi": "Mai sẽ có bão tuyết.",
+   "note_vi": "Bão tuyết: une tempête de neige.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le trottoir",
+   "gender": "m",
+   "ipa": "/lə tʁɔtwaʁ/",
+   "meaning_vi": "vỉa hè",
+   "example_fr": "Le trottoir est glissant ce matin.",
+   "example_vi": "Sáng nay vỉa hè trơn.",
+   "note_vi": "oir đọc 'oa' + r: /tʁɔtwaʁ/.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "prendre",
+   "gender": "",
+   "ipa": "/pʁɑ̃dʁ/",
+   "meaning_vi": "đi (xe), bắt (xe), lấy",
+   "example_fr": "Vous prenez quel bus ?",
+   "example_vi": "Anh/chị đi xe buýt số mấy?",
+   "note_vi": "Đi xe = prendre le bus, prendre le métro.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "monter",
+   "gender": "",
+   "ipa": "/mɔ̃te/",
+   "meaning_vi": "lên (xe)",
+   "example_fr": "Montez par la porte avant.",
+   "example_vi": "Lên xe bằng cửa trước.",
+   "note_vi": "Lên xe = monter; xuống xe = descendre.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "changer",
+   "gender": "",
+   "ipa": "/ʃɑ̃ʒe/",
+   "meaning_vi": "đổi (tuyến, xe)",
+   "example_fr": "Je dois changer de ligne ici ?",
+   "example_vi": "Tôi phải đổi tuyến ở đây hả?",
+   "note_vi": "Đổi tuyến: changer de ligne (có 'de').",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "tourner",
+   "gender": "",
+   "ipa": "/tuʁne/",
+   "meaning_vi": "rẽ, quẹo",
+   "example_fr": "Tournez à gauche après le pont.",
+   "example_vi": "Qua cầu thì rẽ trái.",
+   "note_vi": "ou đọc như 'u' tiếng Việt.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "traverser",
+   "gender": "",
+   "ipa": "/tʁavɛʁse/",
+   "meaning_vi": "băng qua",
+   "example_fr": "Je traverse le parc à pied.",
+   "example_vi": "Tôi đi bộ băng qua công viên.",
+   "note_vi": "Đuôi -er đọc 'ê', r cuối câm.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "marcher",
+   "gender": "",
+   "ipa": "/maʁʃe/",
+   "meaning_vi": "đi bộ",
+   "example_fr": "Je marche jusqu'à l'arrêt.",
+   "example_vi": "Tôi đi bộ ra trạm.",
+   "note_vi": "Còn nghĩa 'chạy' (máy móc): ça marche.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "arriver",
+   "gender": "",
+   "ipa": "/aʁive/",
+   "meaning_vi": "đến nơi, tới nơi",
+   "example_fr": "J'arrive au travail à neuf heures.",
+   "example_vi": "Tôi tới chỗ làm lúc chín giờ.",
+   "note_vi": "Đuôi -er đọc 'ê', r cuối câm.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "partir",
+   "gender": "",
+   "ipa": "/paʁtiʁ/",
+   "meaning_vi": "rời đi, khởi hành",
+   "example_fr": "Le train part à midi.",
+   "example_vi": "Tàu chạy lúc mười hai giờ trưa.",
+   "note_vi": "il part: t cuối câm.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "conduire",
+   "gender": "",
+   "ipa": "/kɔ̃dɥiʁ/",
+   "meaning_vi": "lái xe",
+   "example_fr": "Je ne conduis pas en hiver.",
+   "example_vi": "Mùa đông tôi không lái xe.",
+   "note_vi": "ui đọc lướt /ɥi/; je conduis: s cuối câm.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "loin",
+   "gender": "",
+   "ipa": "/lwɛ̃/",
+   "meaning_vi": "xa",
+   "example_fr": "La gare, c'est loin d'ici ?",
+   "example_vi": "Ga có xa đây không?",
+   "note_vi": "oin là âm mũi /wɛ̃/. Trái nghĩa: près (gần).",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "près de",
+   "gender": "",
+   "ipa": "/pʁɛ də/",
+   "meaning_vi": "gần",
+   "example_fr": "J'habite près de la gare.",
+   "example_vi": "Tôi ở gần ga.",
+   "note_vi": "s cuối câm. Gần đây: près d'ici.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "à pied",
+   "gender": "",
+   "ipa": "/a pje/",
+   "meaning_vi": "bằng cách đi bộ",
+   "example_fr": "Je vais à la station à pied.",
+   "example_vi": "Tôi đi bộ ra ga.",
+   "note_vi": "d cuối câm. Động từ 'đi bộ' là marcher; à pied chỉ cách đi: aller à pied.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "à l'heure",
+   "gender": "",
+   "ipa": "/a lœʁ/",
+   "meaning_vi": "đúng giờ",
+   "example_fr": "Le métro est à l'heure aujourd'hui.",
+   "example_vi": "Hôm nay metro chạy đúng giờ.",
+   "note_vi": "h câm. Trái nghĩa: en retard.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "l'abonnement",
+   "gender": "m",
+   "ipa": "/labɔnmɑ̃/",
+   "meaning_vi": "vé tháng, thuê bao",
+   "example_fr": "J'achète un abonnement pour le mois.",
+   "example_vi": "Tôi mua vé tháng.",
+   "note_vi": "Giống đực: un abonnement. Chính tả: một b, hai n.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "glissant",
+   "gender": "",
+   "ipa": "/ɡlisɑ̃/",
+   "meaning_vi": "trơn trượt",
+   "example_fr": "Attention, c'est glissant devant l'arrêt !",
+   "example_vi": "Coi chừng, trước trạm xe trơn lắm!",
+   "note_vi": "ss đọc 's'; an là âm mũi, t cuối câm.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le magasin",
+   "gender": "m",
+   "ipa": "/lə maɡazɛ̃/",
+   "meaning_vi": "cửa hàng",
+   "example_fr": "Le magasin ouvre à dix heures.",
+   "example_vi": "Cửa hàng mở cửa lúc mười giờ.",
+   "note_vi": "Bẫy tiếng Anh: 'magasin' là cửa hàng, không phải tạp chí (tạp chí là 'le magazine').",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le supermarché",
+   "gender": "m",
+   "ipa": "/lə sypɛʁmaʁʃe/",
+   "meaning_vi": "siêu thị",
+   "example_fr": "Le supermarché est près de chez moi.",
+   "example_vi": "Siêu thị ở gần nhà tôi.",
+   "note_vi": "Ở Québec người ta hay gọi siêu thị thực phẩm là 'l'épicerie'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "les fruits",
+   "gender": "mpl",
+   "ipa": "/le fʁɥi/",
+   "meaning_vi": "trái cây",
+   "example_fr": "J'achète des fruits pour la semaine.",
+   "example_vi": "Tôi mua trái cây cho cả tuần.",
+   "note_vi": "Giống đực, số nhiều. 'ui' đọc [ɥi] lướt nhanh; t và s cuối câm.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "faire les courses",
+   "gender": "",
+   "ipa": "/fɛʁ le kuʁs/",
+   "meaning_vi": "đi chợ, đi mua đồ",
+   "example_fr": "Je fais les courses après le travail.",
+   "example_vi": "Tôi đi chợ sau giờ làm.",
+   "note_vi": "'Les courses' ở đây là đồ cần mua. Ở Québec hay nói: 'faire l'épicerie'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "acheter",
+   "gender": "",
+   "ipa": "/aʃte/",
+   "meaning_vi": "mua",
+   "example_fr": "Je vais acheter du riz.",
+   "example_vi": "Tôi đi mua gạo.",
+   "note_vi": "Chữ e giữa gần như câm: [aʃte]. Chia: j'achète (có dấu è).",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "vendre",
+   "gender": "",
+   "ipa": "/vɑ̃dʁ/",
+   "meaning_vi": "bán",
+   "example_fr": "Ce magasin vend des chaussures.",
+   "example_vi": "Cửa hàng này bán giày.",
+   "note_vi": "Chia: il vend [vɑ̃], chữ d câm.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "coûter",
+   "gender": "",
+   "ipa": "/kute/",
+   "meaning_vi": "có giá, tốn (bao nhiêu tiền)",
+   "example_fr": "Ce pull coûte trente dollars.",
+   "example_vi": "Cái áo len này giá ba mươi đô.",
+   "note_vi": "Hỏi giá: 'Ça coûte combien ?'. 'oû' đọc như 'u' tiếng Việt.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "chercher",
+   "gender": "",
+   "ipa": "/ʃɛʁʃe/",
+   "meaning_vi": "tìm",
+   "example_fr": "Je cherche un cadeau pour ma fille.",
+   "example_vi": "Tôi đang tìm quà cho con gái.",
+   "note_vi": "'ch' đọc [ʃ] như 'sh' tiếng Anh. 'Je cherche...' rất hay dùng khi hỏi nhân viên.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "je voudrais",
+   "gender": "",
+   "ipa": "/ʒə vudʁɛ/",
+   "meaning_vi": "tôi muốn (lịch sự)",
+   "example_fr": "Je voudrais un sac, s'il vous plaît.",
+   "example_vi": "Cho tôi một cái túi.",
+   "note_vi": "Lịch sự hơn 'je veux'. Chữ s cuối câm.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le dollar",
+   "gender": "m",
+   "ipa": "/lə dɔlaʁ/",
+   "meaning_vi": "đô la",
+   "example_fr": "Ça fait vingt dollars, madame.",
+   "example_vi": "Tổng cộng hai mươi đô, thưa chị.",
+   "note_vi": "Chữ r cuối có đọc: [dɔlaʁ].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la monnaie",
+   "gender": "f",
+   "ipa": "/la mɔnɛ/",
+   "meaning_vi": "tiền lẻ, tiền thối lại",
+   "example_fr": "Voici votre monnaie, monsieur.",
+   "example_vi": "Tiền thối của anh đây.",
+   "note_vi": "Giống cái. Bẫy tiếng Anh: không phải 'money' nói chung; 'tiền' là 'l'argent'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la carte de crédit",
+   "gender": "f",
+   "ipa": "/la kaʁt də kʁedi/",
+   "meaning_vi": "thẻ tín dụng",
+   "example_fr": "Vous acceptez la carte de crédit ?",
+   "example_vi": "Chỗ mình có nhận thẻ tín dụng không?",
+   "note_vi": "Giống cái. Chữ t cuối 'crédit' câm.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la carte de débit",
+   "gender": "f",
+   "ipa": "/la kaʁt də debi/",
+   "meaning_vi": "thẻ ghi nợ (thẻ ngân hàng)",
+   "example_fr": "J'ai oublié ma carte de débit.",
+   "example_vi": "Tôi quên thẻ ghi nợ rồi.",
+   "note_vi": "Giống cái. Chữ t cuối 'débit' câm: [debi].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le sac",
+   "gender": "m",
+   "ipa": "/lə sak/",
+   "meaning_vi": "cái túi",
+   "example_fr": "Vous voulez un sac ?",
+   "example_vi": "Anh/chị có lấy túi không?",
+   "note_vi": "Chữ c cuối có đọc: [sak]. Túi giấy: 'un sac en papier'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "rembourser",
+   "gender": "",
+   "ipa": "/ʁɑ̃buʁse/",
+   "meaning_vi": "hoàn tiền",
+   "example_fr": "Vous pouvez me rembourser, s'il vous plaît ?",
+   "example_vi": "Chị hoàn tiền cho tôi được không?",
+   "note_vi": "Danh từ: 'le remboursement' (sự hoàn tiền). 'em' đọc âm mũi [ɑ̃].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la cabine d'essayage",
+   "gender": "f",
+   "ipa": "/la kabin desɛjaʒ/",
+   "meaning_vi": "phòng thử đồ",
+   "example_fr": "La cabine d'essayage est au fond.",
+   "example_vi": "Phòng thử đồ ở cuối cửa hàng.",
+   "note_vi": "Giống cái. Cùng họ với 'essayer' (thử).",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "les vêtements",
+   "gender": "mpl",
+   "ipa": "/le vɛtmɑ̃/",
+   "meaning_vi": "quần áo",
+   "example_fr": "J'achète des vêtements pour l'hiver.",
+   "example_vi": "Tôi mua quần áo cho mùa đông.",
+   "note_vi": "Giống đực, số nhiều. Chữ e giữa câm: [vɛtmɑ̃].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la chemise",
+   "gender": "f",
+   "ipa": "/la ʃəmiz/",
+   "meaning_vi": "áo sơ mi",
+   "example_fr": "Cette chemise blanche est très jolie.",
+   "example_vi": "Cái áo sơ mi trắng này đẹp quá.",
+   "note_vi": "Giống cái. Áo thun là 'le t-shirt'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le pantalon",
+   "gender": "m",
+   "ipa": "/lə pɑ̃talɔ̃/",
+   "meaning_vi": "quần dài",
+   "example_fr": "Ce pantalon est en solde.",
+   "example_vi": "Cái quần này đang giảm giá.",
+   "note_vi": "Tiếng Pháp dùng số ít: 'un pantalon' = một cái quần (tiếng Anh lại dùng số nhiều 'pants').",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la robe",
+   "gender": "f",
+   "ipa": "/la ʁɔb/",
+   "meaning_vi": "váy liền, đầm",
+   "example_fr": "Cette robe est parfaite pour la fête.",
+   "example_vi": "Cái đầm này hợp để đi tiệc lắm.",
+   "note_vi": "Giống cái. Chân váy là 'la jupe'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le manteau",
+   "gender": "m",
+   "ipa": "/lə mɑ̃to/",
+   "meaning_vi": "áo khoác ngoài (loại dày, ấm)",
+   "example_fr": "Mon manteau d'hiver est très chaud.",
+   "example_vi": "Áo khoác mùa đông của tôi rất ấm.",
+   "note_vi": "'eau' đọc [o]. Số nhiều: 'les manteaux'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le pull",
+   "gender": "m",
+   "ipa": "/lə pyl/",
+   "meaning_vi": "áo len",
+   "example_fr": "Je porte un pull gris aujourd'hui.",
+   "example_vi": "Hôm nay tôi mặc áo len xám.",
+   "note_vi": "Ở Québec hay nói: 'le chandail'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "les bottes",
+   "gender": "fpl",
+   "ipa": "/le bɔt/",
+   "meaning_vi": "đôi bốt, ủng",
+   "example_fr": "Il faut des bottes chaudes en hiver.",
+   "example_vi": "Mùa đông phải có bốt ấm.",
+   "note_vi": "Giống cái, số nhiều. Chữ s cuối câm.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "les chaussures",
+   "gender": "fpl",
+   "ipa": "/le ʃosyʁ/",
+   "meaning_vi": "giày",
+   "example_fr": "J'ai besoin de nouvelles chaussures.",
+   "example_vi": "Tôi cần giày mới.",
+   "note_vi": "Giống cái, số nhiều. 'au' đọc [o], 'u' đọc [y].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la pointure",
+   "gender": "f",
+   "ipa": "/la pwɛ̃tyʁ/",
+   "meaning_vi": "cỡ giày",
+   "example_fr": "Quelle est votre pointure ?",
+   "example_vi": "Anh/chị mang giày cỡ bao nhiêu?",
+   "note_vi": "Giống cái. Cỡ giày dùng 'la pointure'; cỡ quần áo thì dùng 'la taille'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la couleur",
+   "gender": "f",
+   "ipa": "/la kulœʁ/",
+   "meaning_vi": "màu sắc",
+   "example_fr": "Vous avez ce modèle dans une autre couleur ?",
+   "example_vi": "Mẫu này có màu khác không chị?",
+   "note_vi": "Giống cái dù tận cùng -eur. 'eu' đọc [œ], chu môi.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "bon marché",
+   "gender": "",
+   "ipa": "/bɔ̃ maʁʃe/",
+   "meaning_vi": "rẻ",
+   "example_fr": "Ce magasin est bon marché.",
+   "example_vi": "Cửa hàng này bán rẻ.",
+   "note_vi": "Không đổi theo giống, số. Nói thường ngày hay dùng 'pas cher'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "les soldes",
+   "gender": "mpl",
+   "ipa": "/le sɔld/",
+   "meaning_vi": "đợt giảm giá, đồ sale",
+   "example_fr": "Les soldes commencent demain.",
+   "example_vi": "Ngày mai bắt đầu đợt giảm giá.",
+   "note_vi": "Giống đực, số nhiều. Ở Québec hay thấy: 'en spécial' (đang giảm giá).",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la taxe",
+   "gender": "f",
+   "ipa": "/la taks/",
+   "meaning_vi": "thuế cộng vào giá hàng",
+   "example_fr": "Est-ce que les taxes sont incluses ?",
+   "example_vi": "Giá đó đã gồm thuế chưa?",
+   "note_vi": "Giống cái. Khi mua hàng, 'les taxes' là thuế tính trên món hàng; còn thuế thu nhập thì gọi là 'les impôts'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "l'étiquette",
+   "gender": "f",
+   "ipa": "/letikɛt/",
+   "meaning_vi": "nhãn (giá, mác)",
+   "example_fr": "Je ne vois pas l'étiquette sur cette chemise.",
+   "example_vi": "Tôi không thấy nhãn giá trên cái áo sơ mi này.",
+   "note_vi": "Giống cái. 'qu' đọc [k]; 'ette' đọc [ɛt].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le vendeur",
+   "gender": "m",
+   "ipa": "/lə vɑ̃dœʁ/",
+   "meaning_vi": "người bán hàng (nam)",
+   "example_fr": "Le vendeur est très gentil.",
+   "example_vi": "Anh bán hàng rất dễ thương.",
+   "note_vi": "Nữ: 'la vendeuse' [vɑ̃døz].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le panier",
+   "gender": "m",
+   "ipa": "/lə panje/",
+   "meaning_vi": "giỏ (đi chợ)",
+   "example_fr": "Je prends un panier à l'entrée.",
+   "example_vi": "Tôi lấy một cái giỏ ở cửa vào.",
+   "note_vi": "Chữ r cuối câm: [panje]. Xe đẩy hàng: 'le chariot'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le lait",
+   "gender": "m",
+   "ipa": "/lə lɛ/",
+   "meaning_vi": "sữa",
+   "example_fr": "Il n'y a plus de lait.",
+   "example_vi": "Hết sữa rồi.",
+   "note_vi": "Chữ t cuối câm: [lɛ].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "le pain",
+   "gender": "m",
+   "ipa": "/lə pɛ̃/",
+   "meaning_vi": "bánh mì",
+   "example_fr": "Le pain est encore chaud.",
+   "example_vi": "Bánh mì còn nóng.",
+   "note_vi": "'ain' là âm mũi [ɛ̃], không đọc n.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "les œufs",
+   "gender": "mpl",
+   "ipa": "/lezø/",
+   "meaning_vi": "trứng",
+   "example_fr": "J'achète une douzaine d'œufs.",
+   "example_vi": "Tôi mua một tá trứng.",
+   "note_vi": "Giống đực. Số ít 'un œuf' đọc [œf], số nhiều 'des œufs' đọc [dezø], không đọc f.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la viande",
+   "gender": "f",
+   "ipa": "/la vjɑ̃d/",
+   "meaning_vi": "thịt",
+   "example_fr": "Je cherche la viande hachée.",
+   "example_vi": "Tôi đang tìm thịt xay.",
+   "note_vi": "Giống cái. Thịt gà: 'le poulet'; thịt bò: 'le bœuf'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "les légumes",
+   "gender": "mpl",
+   "ipa": "/le leɡym/",
+   "meaning_vi": "rau củ",
+   "example_fr": "Les légumes sont frais ici.",
+   "example_vi": "Rau củ ở đây tươi.",
+   "note_vi": "Giống đực, số nhiều (dù tận cùng -e). 'u' đọc [y].",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "ouvert",
+   "gender": "",
+   "ipa": "/uvɛʁ/",
+   "meaning_vi": "mở cửa",
+   "example_fr": "Le magasin est ouvert le dimanche ?",
+   "example_vi": "Cửa hàng có mở cửa chủ nhật không?",
+   "note_vi": "Chữ t cuối câm. Giống cái 'ouverte' thì đọc t.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "fermé",
+   "gender": "",
+   "ipa": "/fɛʁme/",
+   "meaning_vi": "đóng cửa",
+   "example_fr": "La boutique est fermée aujourd'hui.",
+   "example_vi": "Hôm nay tiệm đóng cửa.",
+   "note_vi": "Ngược với 'ouvert'. 'é' cuối đọc [e] như 'ê'.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "la pharmacie",
+   "gender": "f",
+   "ipa": "/la faʁmasi/",
+   "meaning_vi": "nhà thuốc",
+   "example_fr": "La pharmacie est ouverte jusqu'à minuit.",
+   "example_vi": "Nhà thuốc mở cửa đến nửa đêm.",
+   "note_vi": "Giống cái. 'ph' đọc [f]; 'cie' cuối đọc [si].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la clinique",
+   "gender": "f",
+   "ipa": "/la klinik/",
+   "meaning_vi": "phòng khám",
+   "example_fr": "Je vais à la clinique sans rendez-vous.",
+   "example_vi": "Tôi đến phòng khám không cần hẹn trước.",
+   "note_vi": "Giống cái. Ở Québec, 'clinique sans rendez-vous' = phòng khám không cần đặt lịch; ở Pháp, 'clinique' thường là bệnh viện tư.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "l'hôpital",
+   "gender": "m",
+   "ipa": "/lɔpital/",
+   "meaning_vi": "bệnh viện",
+   "example_fr": "L'hôpital est loin d'ici ?",
+   "example_vi": "Bệnh viện có xa đây không?",
+   "note_vi": "Giống đực. Chữ h câm nên viết 'l'hôpital' và không đọc h.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "malade",
+   "gender": "",
+   "ipa": "/malad/",
+   "meaning_vi": "ốm, bệnh",
+   "example_fr": "Je suis malade depuis lundi.",
+   "example_vi": "Tôi bị ốm từ thứ hai.",
+   "note_vi": "Nam hay nữ đều viết 'malade'. 'Tomber malade' = bị ốm.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la santé",
+   "gender": "f",
+   "ipa": "/la sɑ̃te/",
+   "meaning_vi": "sức khỏe",
+   "example_fr": "La santé, c'est très important.",
+   "example_vi": "Sức khỏe rất quan trọng.",
+   "note_vi": "Giống cái. 'À votre santé !' = Chúc sức khỏe! (khi cụng ly).",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la douleur",
+   "gender": "f",
+   "ipa": "/la dulœʁ/",
+   "meaning_vi": "cơn đau",
+   "example_fr": "La douleur est très forte ce matin.",
+   "example_vi": "Sáng nay đau dữ dội lắm.",
+   "note_vi": "Giống cái dù tận cùng -eur. 'ou' đọc như 'u' tiếng Việt.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la tête",
+   "gender": "f",
+   "ipa": "/la tɛt/",
+   "meaning_vi": "đầu",
+   "example_fr": "J'ai la tête qui tourne.",
+   "example_vi": "Tôi thấy chóng mặt.",
+   "note_vi": "Giống cái. 'ê' đọc mở như 'e' tiếng Việt: [tɛt].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le ventre",
+   "gender": "m",
+   "ipa": "/lə vɑ̃tʁ/",
+   "meaning_vi": "bụng",
+   "example_fr": "Mon fils a mal au ventre.",
+   "example_vi": "Con trai tôi bị đau bụng.",
+   "note_vi": "Giống đực: à + le = au, nên nói 'mal au ventre'.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la gorge",
+   "gender": "f",
+   "ipa": "/la ɡɔʁʒ/",
+   "meaning_vi": "họng, cổ họng",
+   "example_fr": "Ce sirop est bon pour la gorge.",
+   "example_vi": "Siro này tốt cho họng.",
+   "note_vi": "Giống cái. g đầu đọc [ɡ], g cuối (trước e) đọc [ʒ].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le dos",
+   "gender": "m",
+   "ipa": "/lə do/",
+   "meaning_vi": "lưng",
+   "example_fr": "J'ai mal au dos après le travail.",
+   "example_vi": "Tôi bị đau lưng sau giờ làm.",
+   "note_vi": "Chữ s cuối câm: [do].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la dent",
+   "gender": "f",
+   "ipa": "/la dɑ̃/",
+   "meaning_vi": "răng",
+   "example_fr": "Je me brosse les dents chaque soir.",
+   "example_vi": "Tối nào tôi cũng đánh răng.",
+   "note_vi": "Giống cái. Chữ t cuối câm: [dɑ̃].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "l'oreille",
+   "gender": "f",
+   "ipa": "/lɔʁɛj/",
+   "meaning_vi": "tai",
+   "example_fr": "Mon enfant a mal à l'oreille.",
+   "example_vi": "Con tôi bị đau tai.",
+   "note_vi": "Giống cái. 'eille' đọc [ɛj], không có âm l.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "les yeux",
+   "gender": "mpl",
+   "ipa": "/lezjø/",
+   "meaning_vi": "mắt (hai mắt)",
+   "example_fr": "J'ai les yeux rouges ce matin.",
+   "example_vi": "Sáng nay mắt tôi bị đỏ.",
+   "note_vi": "Giống đực, số nhiều. Số ít rất khác: 'un œil' [œj].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le bras",
+   "gender": "m",
+   "ipa": "/lə bʁa/",
+   "meaning_vi": "cánh tay",
+   "example_fr": "J'ai mal au bras droit.",
+   "example_vi": "Tôi bị đau tay phải.",
+   "note_vi": "Chữ s cuối câm: [bʁa].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la jambe",
+   "gender": "f",
+   "ipa": "/la ʒɑ̃b/",
+   "meaning_vi": "chân (cả chân, không gồm bàn chân)",
+   "example_fr": "Il a mal à la jambe gauche.",
+   "example_vi": "Anh ấy bị đau chân trái.",
+   "note_vi": "Giống cái. Bàn chân là 'le pied'.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le cœur",
+   "gender": "m",
+   "ipa": "/lə kœʁ/",
+   "meaning_vi": "tim",
+   "example_fr": "Le médecin écoute mon cœur.",
+   "example_vi": "Bác sĩ nghe tim tôi.",
+   "note_vi": "Cẩn thận: 'avoir mal au cœur' nghĩa là buồn nôn, không phải đau tim.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le nez",
+   "gender": "m",
+   "ipa": "/lə ne/",
+   "meaning_vi": "mũi",
+   "example_fr": "J'ai le nez qui coule.",
+   "example_vi": "Tôi bị sổ mũi.",
+   "note_vi": "Chữ z cuối câm: [ne].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la bouche",
+   "gender": "f",
+   "ipa": "/la buʃ/",
+   "meaning_vi": "miệng",
+   "example_fr": "Ouvrez la bouche, s'il vous plaît.",
+   "example_vi": "Anh/chị há miệng ra nhé.",
+   "note_vi": "Giống cái. 'ou' đọc [u], 'ch' đọc [ʃ].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le rhume",
+   "gender": "m",
+   "ipa": "/lə ʁym/",
+   "meaning_vi": "cảm lạnh",
+   "example_fr": "J'ai un rhume depuis trois jours.",
+   "example_vi": "Tôi bị cảm ba ngày nay.",
+   "note_vi": "Chữ h câm, 'u' đọc [y]. Đừng nhầm với 'le rhum' (rượu rum).",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la grippe",
+   "gender": "f",
+   "ipa": "/la ɡʁip/",
+   "meaning_vi": "bệnh cúm",
+   "example_fr": "Toute la famille a la grippe.",
+   "example_vi": "Cả nhà bị cúm.",
+   "note_vi": "Giống cái. Nặng hơn 'le rhume' (cảm thường).",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "fatigué",
+   "gender": "",
+   "ipa": "/fatiɡe/",
+   "meaning_vi": "mệt",
+   "example_fr": "Je suis très fatigué depuis une semaine.",
+   "example_vi": "Cả tuần nay tôi thấy rất mệt.",
+   "note_vi": "Nữ viết 'fatiguée', đọc y hệt. 'gu' đọc [ɡ], không đọc u.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le comprimé",
+   "gender": "m",
+   "ipa": "/lə kɔ̃pʁime/",
+   "meaning_vi": "viên thuốc",
+   "example_fr": "Prenez un comprimé avant de dormir.",
+   "example_vi": "Uống một viên trước khi đi ngủ.",
+   "note_vi": "'om' là âm mũi [ɔ̃]; chữ é cuối đọc [e].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le sirop",
+   "gender": "m",
+   "ipa": "/lə siʁo/",
+   "meaning_vi": "siro (thuốc nước)",
+   "example_fr": "Donnez ce sirop à votre enfant le soir.",
+   "example_vi": "Buổi tối cho bé uống siro này.",
+   "note_vi": "Chữ p cuối câm: [siʁo].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "l'infirmière",
+   "gender": "f",
+   "ipa": "/lɛ̃fiʁmjɛʁ/",
+   "meaning_vi": "y tá (nữ)",
+   "example_fr": "L'infirmière prend ma température.",
+   "example_vi": "Cô y tá đo nhiệt độ cho tôi.",
+   "note_vi": "Giống cái. Y tá nam: 'l'infirmier'.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le patient",
+   "gender": "m",
+   "ipa": "/lə pasjɑ̃/",
+   "meaning_vi": "bệnh nhân",
+   "example_fr": "Il y a beaucoup de patients aujourd'hui.",
+   "example_vi": "Hôm nay có nhiều bệnh nhân.",
+   "note_vi": "'ti' đọc [sj]: [pasjɑ̃]. Nữ: 'la patiente'.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la salle d'attente",
+   "gender": "f",
+   "ipa": "/la sal datɑ̃t/",
+   "meaning_vi": "phòng chờ",
+   "example_fr": "Asseyez-vous dans la salle d'attente.",
+   "example_vi": "Mời anh/chị ngồi ở phòng chờ.",
+   "note_vi": "Giống cái. Cùng họ với 'attendre' (chờ).",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le formulaire",
+   "gender": "m",
+   "ipa": "/lə fɔʁmylɛʁ/",
+   "meaning_vi": "mẫu đơn",
+   "example_fr": "Remplissez ce formulaire, s'il vous plaît.",
+   "example_vi": "Anh/chị điền vào mẫu đơn này nhé.",
+   "note_vi": "Giống đực dù tận cùng -e. Điền đơn: 'remplir un formulaire'.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le vaccin",
+   "gender": "m",
+   "ipa": "/lə vaksɛ̃/",
+   "meaning_vi": "vắc-xin, mũi tiêm ngừa",
+   "example_fr": "Mon fils a besoin d'un vaccin.",
+   "example_vi": "Con trai tôi cần tiêm một mũi vắc-xin.",
+   "note_vi": "'cc' trước i đọc [ks]; 'in' là âm mũi [ɛ̃].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "l'ambulance",
+   "gender": "f",
+   "ipa": "/lɑ̃bylɑ̃s/",
+   "meaning_vi": "xe cứu thương",
+   "example_fr": "Appelez une ambulance, vite !",
+   "example_vi": "Gọi xe cứu thương, nhanh lên!",
+   "note_vi": "Giống cái. 'am' và 'an' đều là âm mũi [ɑ̃].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "enceinte",
+   "gender": "",
+   "ipa": "/ɑ̃sɛ̃t/",
+   "meaning_vi": "có thai",
+   "example_fr": "Ma femme est enceinte de trois mois.",
+   "example_vi": "Vợ tôi đang có thai ba tháng.",
+   "note_vi": "Chỉ có dạng giống cái. Chữ t có đọc: [ɑ̃sɛ̃t]; 'en' và 'ein' đều là âm mũi.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le sang",
+   "gender": "m",
+   "ipa": "/lə sɑ̃/",
+   "meaning_vi": "máu",
+   "example_fr": "Je dois faire une prise de sang.",
+   "example_vi": "Tôi phải đi lấy máu xét nghiệm.",
+   "note_vi": "Chữ g cuối câm: [sɑ̃]. 'Une prise de sang' = lấy máu xét nghiệm.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "vomir",
+   "gender": "",
+   "ipa": "/vɔmiʁ/",
+   "meaning_vi": "nôn, ói",
+   "example_fr": "Mon enfant vomit depuis ce matin.",
+   "example_vi": "Con tôi bị ói từ sáng.",
+   "note_vi": "Chữ r cuối có đọc; nhưng 'il vomit' đọc [vɔmi], t câm.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "le dentiste",
+   "gender": "m",
+   "ipa": "/lə dɑ̃tist/",
+   "meaning_vi": "nha sĩ",
+   "example_fr": "J'ai rendez-vous chez le dentiste demain.",
+   "example_vi": "Mai tôi có hẹn với nha sĩ.",
+   "note_vi": "Đi nha sĩ: 'aller chez le dentiste' (dùng 'chez').",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "respirer",
+   "gender": "",
+   "ipa": "/ʁɛspiʁe/",
+   "meaning_vi": "thở",
+   "example_fr": "Respirez profondément, s'il vous plaît.",
+   "example_vi": "Anh/chị hít thở sâu nhé.",
+   "note_vi": "Từ có ba chữ r: hai chữ đầu đọc ở cuống họng, chữ r cuối câm vì đuôi -er đọc [e].",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "mieux",
+   "gender": "",
+   "ipa": "/mjø/",
+   "meaning_vi": "khỏe hơn, tốt hơn",
+   "example_fr": "Je vais mieux aujourd'hui, merci.",
+   "example_vi": "Hôm nay tôi đỡ hơn rồi, cảm ơn.",
+   "note_vi": "'ieu' đọc [jø], chu môi; chữ x cuối câm.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "grave",
+   "gender": "",
+   "ipa": "/ɡʁav/",
+   "meaning_vi": "nặng, nghiêm trọng",
+   "example_fr": "Ce n'est pas grave, ne vous inquiétez pas.",
+   "example_vi": "Không nghiêm trọng đâu, anh/chị đừng lo.",
+   "note_vi": "Giống tính từ 'grave' (nghiêm trọng) trong tiếng Anh. 'Ce n'est pas grave' = không sao đâu, câu rất hay dùng.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "se reposer",
+   "gender": "",
+   "ipa": "/sə ʁəpoze/",
+   "meaning_vi": "nghỉ ngơi",
+   "example_fr": "Vous devez vous reposer deux jours.",
+   "example_vi": "Anh/chị cần nghỉ ngơi hai ngày.",
+   "note_vi": "Động từ phản thân: je me repose, vous vous reposez.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la banque",
+   "gender": "f",
+   "ipa": "/la bɑ̃k/",
+   "meaning_vi": "ngân hàng",
+   "example_fr": "Où est la banque la plus proche ?",
+   "example_vi": "Ngân hàng gần nhất ở đâu?",
+   "note_vi": "'que' cuối đọc /k/, chữ u câm.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le compte chèques",
+   "gender": "m",
+   "ipa": "/lə kɔ̃t ʃɛk/",
+   "meaning_vi": "tài khoản thanh toán (dùng hằng ngày)",
+   "example_fr": "Je voudrais ouvrir un compte chèques.",
+   "example_vi": "Tôi muốn mở một tài khoản thanh toán.",
+   "note_vi": "Ở Pháp hay nói: le compte courant.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le compte d'épargne",
+   "gender": "m",
+   "ipa": "/lə kɔ̃t depaʁɲ/",
+   "meaning_vi": "tài khoản tiết kiệm",
+   "example_fr": "J'ai un compte d'épargne pour les vacances.",
+   "example_vi": "Tôi có tài khoản tiết kiệm để dành đi du lịch.",
+   "note_vi": "'gn' đọc như 'nh': /depaʁɲ/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le chèque",
+   "gender": "m",
+   "ipa": "/lə ʃɛk/",
+   "meaning_vi": "tấm séc",
+   "example_fr": "Je paie le loyer par chèque.",
+   "example_vi": "Tôi trả tiền nhà bằng séc.",
+   "note_vi": "'è' đọc /ɛ/; 'que' cuối đọc /k/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "les espèces",
+   "gender": "fpl",
+   "ipa": "/lezɛspɛs/",
+   "meaning_vi": "tiền mặt",
+   "example_fr": "Vous payez en espèces ou par carte ?",
+   "example_vi": "Anh/chị trả tiền mặt hay quẹt thẻ?",
+   "note_vi": "Giống cái số nhiều; nối âm /lezɛspɛs/. Ở Québec cũng nói: l'argent comptant.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le paiement",
+   "gender": "m",
+   "ipa": "/lə pɛmɑ̃/",
+   "meaning_vi": "khoản thanh toán",
+   "example_fr": "Votre paiement est accepté, merci.",
+   "example_vi": "Thanh toán của anh/chị đã được chấp nhận, cảm ơn.",
+   "note_vi": "Chữ e ở giữa câm: /pɛmɑ̃/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "remplir",
+   "gender": "",
+   "ipa": "/ʁɑ̃pliʁ/",
+   "meaning_vi": "điền (đơn)",
+   "example_fr": "Je dois remplir ce papier ?",
+   "example_vi": "Tôi phải điền tờ giấy này à?",
+   "note_vi": "remplir un formulaire = điền đơn.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "la succursale",
+   "gender": "f",
+   "ipa": "/la sykyʁsal/",
+   "meaning_vi": "chi nhánh (ngân hàng)",
+   "example_fr": "La succursale est près du métro.",
+   "example_vi": "Chi nhánh ở gần ga tàu điện ngầm.",
+   "note_vi": "Ở Pháp hay nói: l'agence.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le caissier",
+   "gender": "m",
+   "ipa": "/lə kesje/",
+   "meaning_vi": "giao dịch viên, thu ngân",
+   "example_fr": "Le caissier compte les billets.",
+   "example_vi": "Giao dịch viên đếm tiền.",
+   "note_vi": "Nữ là la caissière.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le relevé bancaire",
+   "gender": "m",
+   "ipa": "/lə ʁəlve bɑ̃kɛʁ/",
+   "meaning_vi": "bảng sao kê ngân hàng",
+   "example_fr": "Je reçois mon relevé bancaire chaque mois.",
+   "example_vi": "Tháng nào tôi cũng nhận sao kê ngân hàng.",
+   "note_vi": "Cũng hay nói: le relevé de compte.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le prêt",
+   "gender": "m",
+   "ipa": "/lə pʁɛ/",
+   "meaning_vi": "khoản vay",
+   "example_fr": "Je voudrais demander un prêt.",
+   "example_vi": "Tôi muốn xin vay tiền.",
+   "note_vi": "Chữ t cuối câm; 'ê' đọc /ɛ/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "emprunter",
+   "gender": "",
+   "ipa": "/ɑ̃pʁœ̃te/",
+   "meaning_vi": "vay, mượn",
+   "example_fr": "Je veux emprunter de l'argent pour une voiture.",
+   "example_vi": "Tôi muốn vay tiền để mua xe.",
+   "note_vi": "Hai âm mũi: 'em' /ɑ̃/ và 'un' /œ̃/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "économiser",
+   "gender": "",
+   "ipa": "/ekɔnɔmize/",
+   "meaning_vi": "tiết kiệm (tiền)",
+   "example_fr": "J'économise un peu chaque mois.",
+   "example_vi": "Mỗi tháng tôi để dành một ít.",
+   "note_vi": "Chữ s giữa hai nguyên âm đọc /z/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le taux d'intérêt",
+   "gender": "m",
+   "ipa": "/lə to dɛ̃teʁɛ/",
+   "meaning_vi": "lãi suất",
+   "example_fr": "Quel est le taux d'intérêt ?",
+   "example_vi": "Lãi suất là bao nhiêu?",
+   "note_vi": "Chữ x trong taux câm: /to/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le mot de passe",
+   "gender": "m",
+   "ipa": "/lə mo də pas/",
+   "meaning_vi": "mật khẩu",
+   "example_fr": "J'ai oublié mon mot de passe.",
+   "example_vi": "Tôi quên mật khẩu rồi.",
+   "note_vi": "Chữ t trong mot câm: /mo/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "vérifier",
+   "gender": "",
+   "ipa": "/veʁifje/",
+   "meaning_vi": "kiểm tra",
+   "example_fr": "Je vais vérifier votre compte.",
+   "example_vi": "Tôi sẽ kiểm tra tài khoản của anh/chị.",
+   "note_vi": "'-ier' cuối đọc /je/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le numéro de compte",
+   "gender": "m",
+   "ipa": "/lə nymeʁo də kɔ̃t/",
+   "meaning_vi": "số tài khoản",
+   "example_fr": "Quel est votre numéro de compte ?",
+   "example_vi": "Số tài khoản của anh/chị là gì?",
+   "note_vi": "'nu' đọc /ny/ (chu môi), không phải 'nu' tiếng Việt.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le salaire",
+   "gender": "m",
+   "ipa": "/lə salɛʁ/",
+   "meaning_vi": "tiền lương",
+   "example_fr": "Mon salaire arrive le quinze du mois.",
+   "example_vi": "Lương của tôi về vào ngày mười lăm.",
+   "note_vi": "Giống đực dù tận cùng bằng -e.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "dépenser",
+   "gender": "",
+   "ipa": "/depɑ̃se/",
+   "meaning_vi": "tiêu (tiền)",
+   "example_fr": "Je dépense trop pour le téléphone.",
+   "example_vi": "Tôi tiêu quá nhiều tiền cho điện thoại.",
+   "note_vi": "'en' đọc âm mũi /ɑ̃/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "recevoir",
+   "gender": "",
+   "ipa": "/ʁəsəvwaʁ/",
+   "meaning_vi": "nhận",
+   "example_fr": "Je reçois de l'argent de ma famille.",
+   "example_vi": "Tôi nhận tiền gia đình gửi sang.",
+   "note_vi": "Chia: je reçois (có ç).",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le montant",
+   "gender": "m",
+   "ipa": "/lə mɔ̃tɑ̃/",
+   "meaning_vi": "số tiền",
+   "example_fr": "Quel est le montant total ?",
+   "example_vi": "Tổng số tiền là bao nhiêu?",
+   "note_vi": "Hai âm mũi 'on' /ɔ̃/ và 'an' /ɑ̃/; chữ t cuối câm.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "gratuit",
+   "gender": "",
+   "ipa": "/ɡʁatɥi/",
+   "meaning_vi": "miễn phí",
+   "example_fr": "Ce compte est gratuit pour les étudiants ?",
+   "example_vi": "Tài khoản này sinh viên dùng miễn phí phải không?",
+   "note_vi": "Chữ t cuối câm; giống cái: gratuite /ɡʁatɥit/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "perdre",
+   "gender": "",
+   "ipa": "/pɛʁdʁ/",
+   "meaning_vi": "làm mất",
+   "example_fr": "J'ai perdu ma carte hier soir.",
+   "example_vi": "Tối qua tôi làm mất thẻ.",
+   "note_vi": "Quá khứ: j'ai perdu.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "bloquer",
+   "gender": "",
+   "ipa": "/blɔke/",
+   "meaning_vi": "khóa (thẻ)",
+   "example_fr": "Pouvez-vous bloquer ma carte, s'il vous plaît ?",
+   "example_vi": "Anh/chị khóa thẻ giúp tôi được không?",
+   "note_vi": "'qu' đọc /k/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le dépôt",
+   "gender": "m",
+   "ipa": "/lə depo/",
+   "meaning_vi": "khoản nộp tiền",
+   "example_fr": "Je voudrais faire un dépôt.",
+   "example_vi": "Tôi muốn nộp tiền vào tài khoản.",
+   "note_vi": "Chữ t cuối câm; 'ô' đọc /o/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le retrait",
+   "gender": "m",
+   "ipa": "/lə ʁətʁɛ/",
+   "meaning_vi": "lần rút tiền",
+   "example_fr": "J'ai fait un retrait ce matin.",
+   "example_vi": "Sáng nay tôi đã rút tiền.",
+   "note_vi": "Chữ t cuối câm; 'ai' đọc /ɛ/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le taux de change",
+   "gender": "m",
+   "ipa": "/lə to də ʃɑ̃ʒ/",
+   "meaning_vi": "tỷ giá",
+   "example_fr": "Quel est le taux de change aujourd'hui ?",
+   "example_vi": "Tỷ giá hôm nay là bao nhiêu?",
+   "note_vi": "change đọc /ʃɑ̃ʒ/, không giống tiếng Anh.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le client",
+   "gender": "m",
+   "ipa": "/lə klijɑ̃/",
+   "meaning_vi": "khách hàng",
+   "example_fr": "Vous êtes déjà client chez nous ?",
+   "example_vi": "Anh/chị đã là khách hàng của chúng tôi chưa?",
+   "note_vi": "Chữ t cuối câm; nữ là la cliente.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "l'appel",
+   "gender": "m",
+   "ipa": "/lapɛl/",
+   "meaning_vi": "cuộc gọi",
+   "example_fr": "Merci pour votre appel.",
+   "example_vi": "Cảm ơn anh/chị đã gọi.",
+   "note_vi": "Giống đực: un appel.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le texto",
+   "gender": "m",
+   "ipa": "/lə tɛksto/",
+   "meaning_vi": "tin nhắn SMS",
+   "example_fr": "Je t'envoie un texto ce soir.",
+   "example_vi": "Tối nay mình nhắn tin cho cậu.",
+   "note_vi": "x đọc /ks/. Ở Québec cũng hay nói: un message texte.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "la messagerie vocale",
+   "gender": "f",
+   "ipa": "/la mesaʒʁi vɔkal/",
+   "meaning_vi": "hộp thư thoại",
+   "example_fr": "J'ai un message sur ma messagerie vocale.",
+   "example_vi": "Tôi có một tin nhắn trong hộp thư thoại.",
+   "note_vi": "Ở Québec hay nói: la boîte vocale.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "l'écran",
+   "gender": "m",
+   "ipa": "/lekʁɑ̃/",
+   "meaning_vi": "màn hình",
+   "example_fr": "L'écran de mon téléphone est cassé.",
+   "example_vi": "Màn hình điện thoại của tôi bị vỡ.",
+   "note_vi": "Giống đực; 'an' đọc âm mũi /ɑ̃/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "la batterie",
+   "gender": "f",
+   "ipa": "/la batʁi/",
+   "meaning_vi": "pin",
+   "example_fr": "Ma batterie est presque vide.",
+   "example_vi": "Điện thoại tôi sắp hết pin.",
+   "note_vi": "Chữ e ở giữa câm: /batʁi/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le chargeur",
+   "gender": "m",
+   "ipa": "/lə ʃaʁʒœʁ/",
+   "meaning_vi": "cục sạc",
+   "example_fr": "Tu peux me prêter ton chargeur ?",
+   "example_vi": "Cho mình mượn cục sạc được không?",
+   "note_vi": "'ch' đọc /ʃ/ như 'sh' tiếng Anh.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "recharger",
+   "gender": "",
+   "ipa": "/ʁəʃaʁʒe/",
+   "meaning_vi": "sạc (pin)",
+   "example_fr": "Je dois recharger mon téléphone.",
+   "example_vi": "Tôi phải sạc điện thoại.",
+   "note_vi": "'re' đọc nhẹ /ʁə/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le réseau",
+   "gender": "m",
+   "ipa": "/lə ʁezo/",
+   "meaning_vi": "mạng, sóng điện thoại",
+   "example_fr": "Il n'y a pas de réseau ici.",
+   "example_vi": "Ở đây không có sóng.",
+   "note_vi": "'eau' đọc /o/; s giữa hai nguyên âm đọc /z/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le wifi",
+   "gender": "m",
+   "ipa": "/lə wifi/",
+   "meaning_vi": "wifi",
+   "example_fr": "Quel est le mot de passe du wifi ?",
+   "example_vi": "Mật khẩu wifi là gì?",
+   "note_vi": "Viết wifi hay wi-fi đều gặp.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "l'application",
+   "gender": "f",
+   "ipa": "/laplikasjɔ̃/",
+   "meaning_vi": "ứng dụng (app)",
+   "example_fr": "Vous pouvez payer avec l'application.",
+   "example_vi": "Anh/chị có thể trả tiền bằng ứng dụng.",
+   "note_vi": "Giống cái; '-tion' đọc /sjɔ̃/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "télécharger",
+   "gender": "",
+   "ipa": "/teleʃaʁʒe/",
+   "meaning_vi": "tải về",
+   "example_fr": "Je télécharge l'application maintenant.",
+   "example_vi": "Tôi đang tải ứng dụng về.",
+   "note_vi": "Hai chữ 'é' đều đọc /e/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le modem",
+   "gender": "m",
+   "ipa": "/lə mɔdɛm/",
+   "meaning_vi": "modem",
+   "example_fr": "Le modem ne s'allume plus.",
+   "example_vi": "Modem không lên đèn nữa.",
+   "note_vi": "Chữ m cuối được đọc, không phải âm mũi.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "redémarrer",
+   "gender": "",
+   "ipa": "/ʁədemaʁe/",
+   "meaning_vi": "khởi động lại",
+   "example_fr": "Redémarrez le modem, s'il vous plaît.",
+   "example_vi": "Anh/chị khởi động lại modem giúp tôi.",
+   "note_vi": "Chỉ có hai âm r họng kiểu Pháp: chữ r ở 're-' đầu và 'rr' ở giữa; '-er' cuối đọc /e/, chữ r câm.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "brancher",
+   "gender": "",
+   "ipa": "/bʁɑ̃ʃe/",
+   "meaning_vi": "cắm (điện, dây)",
+   "example_fr": "Le câble est bien branché ?",
+   "example_vi": "Dây đã cắm chắc chưa?",
+   "note_vi": "'an' đọc âm mũi /ɑ̃/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "éteindre",
+   "gender": "",
+   "ipa": "/etɛ̃dʁ/",
+   "meaning_vi": "tắt",
+   "example_fr": "Éteignez le modem et attendez une minute.",
+   "example_vi": "Tắt modem rồi đợi một phút.",
+   "note_vi": "'ein' đọc âm mũi /ɛ̃/; chia: vous éteignez.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "allumer",
+   "gender": "",
+   "ipa": "/alyme/",
+   "meaning_vi": "bật",
+   "example_fr": "Allumez votre téléphone, s'il vous plaît.",
+   "example_vi": "Anh/chị bật điện thoại lên nhé.",
+   "note_vi": "Chữ u đọc /y/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le technicien",
+   "gender": "m",
+   "ipa": "/lə tɛknisjɛ̃/",
+   "meaning_vi": "kỹ thuật viên",
+   "example_fr": "Un technicien va venir chez vous.",
+   "example_vi": "Sẽ có kỹ thuật viên đến nhà anh/chị.",
+   "note_vi": "'ch' ở đây đọc /k/; '-ien' đọc /jɛ̃/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "l'agent",
+   "gender": "m",
+   "ipa": "/laʒɑ̃/",
+   "meaning_vi": "nhân viên (tổng đài)",
+   "example_fr": "L'agent va vous rappeler demain.",
+   "example_vi": "Nhân viên sẽ gọi lại cho anh/chị vào ngày mai.",
+   "note_vi": "Giống đực; g trước e đọc /ʒ/, chữ t cuối câm.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "patienter",
+   "gender": "",
+   "ipa": "/pasjɑ̃te/",
+   "meaning_vi": "chờ (máy)",
+   "example_fr": "Veuillez patienter, s'il vous plaît.",
+   "example_vi": "Xin vui lòng chờ máy.",
+   "note_vi": "'ti' ở đây đọc /sj/: /pasjɑ̃te/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "raccrocher",
+   "gender": "",
+   "ipa": "/ʁakʁɔʃe/",
+   "meaning_vi": "cúp máy",
+   "example_fr": "Ne raccrochez pas, s'il vous plaît.",
+   "example_vi": "Xin đừng cúp máy.",
+   "note_vi": "Ngược lại: décrocher (nhấc máy).",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "décrocher",
+   "gender": "",
+   "ipa": "/dekʁɔʃe/",
+   "meaning_vi": "nhấc máy, bắt máy",
+   "example_fr": "Personne ne décroche au bureau.",
+   "example_vi": "Ở văn phòng không ai bắt máy.",
+   "note_vi": "'é' đầu đọc /e/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "composer",
+   "gender": "",
+   "ipa": "/kɔ̃poze/",
+   "meaning_vi": "bấm (số điện thoại)",
+   "example_fr": "Composez le numéro, puis attendez.",
+   "example_vi": "Bấm số rồi chờ.",
+   "note_vi": "Nói về điện thoại thì là bấm số, không phải 'sáng tác'.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "la touche",
+   "gender": "f",
+   "ipa": "/la tuʃ/",
+   "meaning_vi": "phím bấm",
+   "example_fr": "Appuyez sur la touche étoile.",
+   "example_vi": "Nhấn phím sao.",
+   "note_vi": "'ou' đọc /u/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "appuyer",
+   "gender": "",
+   "ipa": "/apɥije/",
+   "meaning_vi": "nhấn (phím, nút)",
+   "example_fr": "Pour le français, appuyez sur le un.",
+   "example_vi": "Muốn nghe tiếng Pháp, nhấn phím một.",
+   "note_vi": "'uy' đọc /ɥi/: /apɥije/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le contrat",
+   "gender": "m",
+   "ipa": "/lə kɔ̃tʁa/",
+   "meaning_vi": "hợp đồng",
+   "example_fr": "Le contrat dure deux ans ?",
+   "example_vi": "Hợp đồng kéo dài hai năm à?",
+   "note_vi": "Chữ t cuối câm.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "illimité",
+   "gender": "",
+   "ipa": "/ilimite/",
+   "meaning_vi": "không giới hạn",
+   "example_fr": "Je voudrais un forfait illimité.",
+   "example_vi": "Tôi muốn gói cước không giới hạn.",
+   "note_vi": "'ill' ở đây đọc /il/, không phải /j/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "les données",
+   "gender": "fpl",
+   "ipa": "/le dɔne/",
+   "meaning_vi": "dữ liệu di động (data)",
+   "example_fr": "Je n'ai plus de données ce mois-ci.",
+   "example_vi": "Tháng này tôi hết data rồi.",
+   "note_vi": "Giống cái số nhiều; '-ées' đọc /e/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "la carte SIM",
+   "gender": "f",
+   "ipa": "/la kaʁt sim/",
+   "meaning_vi": "thẻ SIM",
+   "example_fr": "Je voudrais une nouvelle carte SIM.",
+   "example_vi": "Tôi muốn lấy thẻ SIM mới.",
+   "note_vi": "SIM đọc /sim/, không phải âm mũi.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "occupé",
+   "gender": "",
+   "ipa": "/ɔkype/",
+   "meaning_vi": "bận (máy bận)",
+   "example_fr": "La ligne est occupée, je rappelle plus tard.",
+   "example_vi": "Máy bận, lát tôi gọi lại.",
+   "note_vi": "Giống cái: occupée, đọc giống hệt.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "couper",
+   "gender": "",
+   "ipa": "/kupe/",
+   "meaning_vi": "ngắt, cắt",
+   "example_fr": "L'appel a été coupé.",
+   "example_vi": "Cuộc gọi bị ngắt.",
+   "note_vi": "'ou' đọc /u/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "entendre",
+   "gender": "",
+   "ipa": "/ɑ̃tɑ̃dʁ/",
+   "meaning_vi": "nghe thấy",
+   "example_fr": "Je ne vous entends pas bien.",
+   "example_vi": "Tôi nghe anh/chị không rõ.",
+   "note_vi": "Hai âm mũi 'en' /ɑ̃/; chữ d trong entends câm.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "répéter",
+   "gender": "",
+   "ipa": "/ʁepete/",
+   "meaning_vi": "nhắc lại",
+   "example_fr": "Pouvez-vous répéter, s'il vous plaît ?",
+   "example_vi": "Anh/chị nhắc lại giúp tôi được không?",
+   "note_vi": "Câu cứu cánh khi nghe không kịp.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "lentement",
+   "gender": "",
+   "ipa": "/lɑ̃tmɑ̃/",
+   "meaning_vi": "chậm rãi",
+   "example_fr": "Parlez plus lentement, s'il vous plaît.",
+   "example_vi": "Anh/chị nói chậm hơn giúp tôi.",
+   "note_vi": "Chữ e ở giữa câm: /lɑ̃tmɑ̃/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "l'indicatif",
+   "gender": "m",
+   "ipa": "/lɛ̃dikatif/",
+   "meaning_vi": "mã vùng",
+   "example_fr": "Quel est l'indicatif de Montréal ?",
+   "example_vi": "Mã vùng của Montréal là gì?",
+   "note_vi": "Giống đực; 'in' đọc âm mũi /ɛ̃/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "lent",
+   "gender": "",
+   "ipa": "/lɑ̃/",
+   "meaning_vi": "chậm",
+   "example_fr": "Internet est très lent aujourd'hui.",
+   "example_vi": "Hôm nay mạng chậm quá.",
+   "note_vi": "Chữ t cuối câm; giống cái: lente /lɑ̃t/.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "être",
+   "gender": "",
+   "ipa": "/ɛtʁ/",
+   "meaning_vi": "là, thì, ở",
+   "example_fr": "Je suis vietnamien, et vous ?",
+   "example_vi": "Tôi là người Việt Nam, còn anh/chị?",
+   "note_vi": "Bất quy tắc: je suis, tu es, il est, nous sommes, vous êtes, ils sont.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "avoir",
+   "gender": "",
+   "ipa": "/avwaʁ/",
+   "meaning_vi": "có",
+   "example_fr": "Nous avons deux enfants.",
+   "example_vi": "Chúng tôi có hai đứa con.",
+   "note_vi": "Nói tuổi cũng dùng avoir: j'ai trente ans = tôi ba mươi tuổi.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "aller",
+   "gender": "",
+   "ipa": "/ale/",
+   "meaning_vi": "đi (tới đâu đó)",
+   "example_fr": "Nous allons au parc ce soir.",
+   "example_vi": "Tối nay chúng tôi đi công viên.",
+   "note_vi": "Bất quy tắc: je vais, tu vas, il va. à + le = au.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "faire",
+   "gender": "",
+   "ipa": "/fɛʁ/",
+   "meaning_vi": "làm",
+   "example_fr": "Je fais les courses le samedi.",
+   "example_vi": "Thứ bảy tôi đi chợ.",
+   "note_vi": "Thời tiết cũng dùng faire: il fait froid = trời lạnh.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "vouloir",
+   "gender": "",
+   "ipa": "/vulwaʁ/",
+   "meaning_vi": "muốn",
+   "example_fr": "Mon fils veut un chien.",
+   "example_vi": "Con trai tôi muốn nuôi chó.",
+   "note_vi": "Khi gọi món, nói je voudrais (tôi muốn xin) cho lịch sự.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "pouvoir",
+   "gender": "",
+   "ipa": "/puvwaʁ/",
+   "meaning_vi": "có thể",
+   "example_fr": "Vous pouvez répéter, s'il vous plaît ?",
+   "example_vi": "Anh/chị nói lại được không ạ?",
+   "note_vi": "Câu cứu cánh cho người mới học: Vous pouvez répéter ?",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "devoir",
+   "gender": "",
+   "ipa": "/dəvwaʁ/",
+   "meaning_vi": "phải",
+   "example_fr": "Je dois partir maintenant.",
+   "example_vi": "Giờ tôi phải đi rồi.",
+   "note_vi": "Theo sau là động từ nguyên mẫu: je dois + partir.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "venir",
+   "gender": "",
+   "ipa": "/vəniʁ/",
+   "meaning_vi": "đến, tới (về phía người nói: đến đây, đến nhà tôi)",
+   "example_fr": "Je viens du Vietnam.",
+   "example_vi": "Tôi đến từ Việt Nam.",
+   "note_vi": "Nói quê quán: je viens de/du + tên nước.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "parler",
+   "gender": "",
+   "ipa": "/paʁle/",
+   "meaning_vi": "nói (một thứ tiếng), nói chuyện",
+   "example_fr": "Est-ce que vous parlez anglais ?",
+   "example_vi": "Anh/chị có nói tiếng Anh không?",
+   "note_vi": "Đuôi -er đọc là /e/, chữ r cuối câm.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "manger",
+   "gender": "",
+   "ipa": "/mɑ̃ʒe/",
+   "meaning_vi": "ăn",
+   "example_fr": "Nous mangeons à midi.",
+   "example_vi": "Chúng tôi ăn vào buổi trưa.",
+   "note_vi": "Chia với nous phải thêm e: nous mangeons.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "boire",
+   "gender": "",
+   "ipa": "/bwaʁ/",
+   "meaning_vi": "uống",
+   "example_fr": "Vous buvez quelque chose ?",
+   "example_vi": "Anh/chị uống gì không?",
+   "note_vi": "Bất quy tắc: je bois, nous buvons, vous buvez.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "aimer",
+   "gender": "",
+   "ipa": "/eme/",
+   "meaning_vi": "thích, yêu",
+   "example_fr": "J'aime beaucoup Montréal.",
+   "example_vi": "Tôi rất thích Montréal.",
+   "note_vi": "Với người, aimer = yêu; aimer bien = chỉ quý, thích.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "comprendre",
+   "gender": "",
+   "ipa": "/kɔ̃pʁɑ̃dʁ/",
+   "meaning_vi": "hiểu",
+   "example_fr": "Je ne comprends pas.",
+   "example_vi": "Tôi không hiểu.",
+   "note_vi": "Phủ định: ne + động từ + pas.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "savoir",
+   "gender": "",
+   "ipa": "/savwaʁ/",
+   "meaning_vi": "biết (thông tin, cách làm)",
+   "example_fr": "Je ne sais pas.",
+   "example_vi": "Tôi không biết.",
+   "note_vi": "savoir = biết một điều; connaître = quen biết người, nơi chốn.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "connaître",
+   "gender": "",
+   "ipa": "/kɔnɛtʁ/",
+   "meaning_vi": "biết, quen (người, nơi)",
+   "example_fr": "Tu connais ma sœur Marie ?",
+   "example_vi": "Bạn có quen Marie, chị tôi không?",
+   "note_vi": "Dùng cho người và nơi chốn: connaître Montréal.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "dire",
+   "gender": "",
+   "ipa": "/diʁ/",
+   "meaning_vi": "nói (một điều gì), bảo",
+   "example_fr": "Qu'est-ce que vous dites ?",
+   "example_vi": "Anh/chị nói gì ạ?",
+   "note_vi": "Chia bất quy tắc: vous dites (không phải 'disez').",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "voir",
+   "gender": "",
+   "ipa": "/vwaʁ/",
+   "meaning_vi": "thấy, xem; gặp",
+   "example_fr": "Je vois mes amis ce soir.",
+   "example_vi": "Tối nay tôi gặp bạn bè.",
+   "note_vi": "Cũng có nghĩa 'gặp': voir un ami.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "mettre",
+   "gender": "",
+   "ipa": "/mɛtʁ/",
+   "meaning_vi": "đặt, để; mặc",
+   "example_fr": "Je mets les clés sur la table.",
+   "example_vi": "Tôi để chìa khóa lên bàn.",
+   "note_vi": "Mặc đồ cũng dùng mettre: mettre un manteau.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "sortir",
+   "gender": "",
+   "ipa": "/sɔʁtiʁ/",
+   "meaning_vi": "ra ngoài, đi chơi",
+   "example_fr": "On sort ce soir ?",
+   "example_vi": "Tối nay mình đi chơi không?",
+   "note_vi": "Biển 'Sortie' = lối ra.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "trouver",
+   "gender": "",
+   "ipa": "/tʁuve/",
+   "meaning_vi": "tìm thấy",
+   "example_fr": "Je ne trouve pas mes clés.",
+   "example_vi": "Tôi không tìm thấy chìa khóa.",
+   "note_vi": "Je trouve que... = tôi thấy rằng...",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "donner",
+   "gender": "",
+   "ipa": "/dɔne/",
+   "meaning_vi": "đưa, cho (ai cái gì)",
+   "example_fr": "Je donne un livre à mon fils.",
+   "example_vi": "Tôi đưa cho con trai một cuốn sách.",
+   "note_vi": "Cấu trúc: donner quelque chose à quelqu'un.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "lire",
+   "gender": "",
+   "ipa": "/liʁ/",
+   "meaning_vi": "đọc",
+   "example_fr": "Je lis un livre en français.",
+   "example_vi": "Tôi đọc một cuốn sách tiếng Pháp.",
+   "note_vi": "Chia: je lis, nous lisons.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "écouter",
+   "gender": "",
+   "ipa": "/ekute/",
+   "meaning_vi": "nghe",
+   "example_fr": "J'écoute la radio le soir.",
+   "example_vi": "Buổi tối tôi nghe radio.",
+   "note_vi": "Không cần giới từ như 'listen to': écouter la radio.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "regarder",
+   "gender": "",
+   "ipa": "/ʁəɡaʁde/",
+   "meaning_vi": "nhìn, xem",
+   "example_fr": "Nous regardons un film ce soir.",
+   "example_vi": "Tối nay chúng tôi xem phim.",
+   "note_vi": "regarder = chủ động nhìn, xem; voir = thấy.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "demander",
+   "gender": "",
+   "ipa": "/dəmɑ̃de/",
+   "meaning_vi": "hỏi, xin",
+   "example_fr": "Je demande de l'aide à mon voisin.",
+   "example_vi": "Tôi nhờ hàng xóm giúp.",
+   "note_vi": "Bẫy: không mạnh như 'demand' tiếng Anh, chỉ là hỏi, xin.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "répondre",
+   "gender": "",
+   "ipa": "/ʁepɔ̃dʁ/",
+   "meaning_vi": "trả lời",
+   "example_fr": "Il ne répond pas au téléphone.",
+   "example_vi": "Anh ấy không nghe máy.",
+   "note_vi": "Cấu trúc: répondre à quelqu'un.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "dormir",
+   "gender": "",
+   "ipa": "/dɔʁmiʁ/",
+   "meaning_vi": "ngủ",
+   "example_fr": "Je dors huit heures par nuit.",
+   "example_vi": "Mỗi đêm tôi ngủ tám tiếng.",
+   "note_vi": "Chia: je dors, nous dormons.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "rester",
+   "gender": "",
+   "ipa": "/ʁɛste/",
+   "meaning_vi": "ở lại",
+   "example_fr": "Je reste à la maison aujourd'hui.",
+   "example_vi": "Hôm nay tôi ở nhà.",
+   "note_vi": "Bẫy: không có nghĩa 'nghỉ ngơi' như rest tiếng Anh.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "entrer",
+   "gender": "",
+   "ipa": "/ɑ̃tʁe/",
+   "meaning_vi": "vào",
+   "example_fr": "Nous entrons dans le magasin.",
+   "example_vi": "Chúng tôi bước vào cửa hàng.",
+   "note_vi": "Biển 'Entrée' = lối vào.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "finir",
+   "gender": "",
+   "ipa": "/finiʁ/",
+   "meaning_vi": "xong, kết thúc",
+   "example_fr": "Je finis le travail à cinq heures.",
+   "example_vi": "Tôi tan làm lúc năm giờ.",
+   "note_vi": "Chia có -iss-: nous finissons. Không phải động từ -ir nào cũng thế: dormir chia nous dormons.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "commencer",
+   "gender": "",
+   "ipa": "/kɔmɑ̃se/",
+   "meaning_vi": "bắt đầu",
+   "example_fr": "Le cours commence à neuf heures.",
+   "example_vi": "Lớp học bắt đầu lúc chín giờ.",
+   "note_vi": "Chia với nous có ç: nous commençons.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "apprendre",
+   "gender": "",
+   "ipa": "/apʁɑ̃dʁ/",
+   "meaning_vi": "học (một điều mới), học được",
+   "example_fr": "J'apprends le français tous les jours.",
+   "example_vi": "Ngày nào tôi cũng học tiếng Pháp.",
+   "note_vi": "Chia giống prendre: j'apprends, nous apprenons.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "aider",
+   "gender": "",
+   "ipa": "/ede/",
+   "meaning_vi": "giúp",
+   "example_fr": "Je peux vous aider ?",
+   "example_vi": "Tôi giúp gì được cho anh/chị?",
+   "note_vi": "Không cần giới từ: aider quelqu'un.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "ouvrir",
+   "gender": "",
+   "ipa": "/uvʁiʁ/",
+   "meaning_vi": "mở",
+   "example_fr": "La pharmacie ouvre à neuf heures.",
+   "example_vi": "Hiệu thuốc mở cửa lúc chín giờ.",
+   "note_vi": "Tuy đuôi -ir nhưng chia như -er: j'ouvre, il ouvre.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "fermer",
+   "gender": "",
+   "ipa": "/fɛʁme/",
+   "meaning_vi": "đóng",
+   "example_fr": "Le magasin ferme à neuf heures du soir.",
+   "example_vi": "Cửa hàng đóng cửa lúc chín giờ tối.",
+   "note_vi": "Biển 'Fermé' = đóng cửa.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "penser",
+   "gender": "",
+   "ipa": "/pɑ̃se/",
+   "meaning_vi": "nghĩ",
+   "example_fr": "Je pense que c'est une bonne idée.",
+   "example_vi": "Tôi nghĩ đó là ý hay.",
+   "note_vi": "penser à = nghĩ về: je pense à ma famille.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "grand",
+   "gender": "",
+   "ipa": "/ɡʁɑ̃/",
+   "meaning_vi": "to, lớn; cao",
+   "example_fr": "Mon fils est très grand.",
+   "example_vi": "Con trai tôi rất cao.",
+   "note_vi": "giống cái: grande (đọc chữ d).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "petit",
+   "gender": "",
+   "ipa": "/pəti/",
+   "meaning_vi": "nhỏ, bé",
+   "example_fr": "J'ai un petit appartement.",
+   "example_vi": "Tôi có một căn hộ nhỏ.",
+   "note_vi": "giống cái: petite (đọc chữ t).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "bon",
+   "gender": "",
+   "ipa": "/bɔ̃/",
+   "meaning_vi": "tốt, ngon (tính từ, đi với danh từ)",
+   "example_fr": "C'est un bon restaurant.",
+   "example_vi": "Đây là một nhà hàng ngon.",
+   "note_vi": "giống cái: bonne. Thường đứng trước danh từ.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "mauvais",
+   "gender": "",
+   "ipa": "/movɛ/",
+   "meaning_vi": "tệ, dở",
+   "example_fr": "Ce café est mauvais.",
+   "example_vi": "Cà phê này dở quá.",
+   "note_vi": "giống cái: mauvaise.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "nouveau",
+   "gender": "",
+   "ipa": "/nuvo/",
+   "meaning_vi": "mới",
+   "example_fr": "J'ai un nouveau travail.",
+   "example_vi": "Tôi có công việc mới.",
+   "note_vi": "giống cái: nouvelle; trước nguyên âm: nouvel (un nouvel ami).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "vieux",
+   "gender": "",
+   "ipa": "/vjø/",
+   "meaning_vi": "già, cũ",
+   "example_fr": "Mon grand-père est vieux.",
+   "example_vi": "Ông tôi đã già.",
+   "note_vi": "giống cái: vieille; trước nguyên âm: vieil.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "jeune",
+   "gender": "",
+   "ipa": "/ʒœn/",
+   "meaning_vi": "trẻ",
+   "example_fr": "Ma sœur est encore jeune.",
+   "example_vi": "Em gái tôi còn trẻ.",
+   "note_vi": "Giống đực và giống cái viết như nhau.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "beau",
+   "gender": "",
+   "ipa": "/bo/",
+   "meaning_vi": "đẹp",
+   "example_fr": "Il fait beau aujourd'hui.",
+   "example_vi": "Hôm nay trời đẹp.",
+   "note_vi": "giống cái: belle; trước nguyên âm: bel (un bel homme).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "chaud",
+   "gender": "",
+   "ipa": "/ʃo/",
+   "meaning_vi": "nóng, ấm",
+   "example_fr": "Le café est trop chaud.",
+   "example_vi": "Cà phê nóng quá.",
+   "note_vi": "giống cái: chaude. Tôi thấy nóng: j'ai chaud.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "froid",
+   "gender": "",
+   "ipa": "/fʁwa/",
+   "meaning_vi": "lạnh",
+   "example_fr": "En hiver, il fait très froid.",
+   "example_vi": "Mùa đông trời rất lạnh.",
+   "note_vi": "giống cái: froide. Tôi lạnh: j'ai froid (không nói je suis froid).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "facile",
+   "gender": "",
+   "ipa": "/fasil/",
+   "meaning_vi": "dễ",
+   "example_fr": "Ce mot est facile.",
+   "example_vi": "Từ này dễ.",
+   "note_vi": "Giống đực và giống cái viết như nhau.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "difficile",
+   "gender": "",
+   "ipa": "/difisil/",
+   "meaning_vi": "khó",
+   "example_fr": "Le français est difficile, mais j'aime ça.",
+   "example_vi": "Tiếng Pháp khó nhưng tôi thích.",
+   "note_vi": "Giống đực và giống cái viết như nhau.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "triste",
+   "gender": "",
+   "ipa": "/tʁist/",
+   "meaning_vi": "buồn",
+   "example_fr": "Il est triste aujourd'hui.",
+   "example_vi": "Hôm nay anh ấy buồn.",
+   "note_vi": "Giống đực và giống cái viết như nhau.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "content",
+   "gender": "",
+   "ipa": "/kɔ̃tɑ̃/",
+   "meaning_vi": "vui, hài lòng",
+   "example_fr": "Je suis content d'être ici.",
+   "example_vi": "Tôi vui vì được ở đây.",
+   "note_vi": "giống cái: contente.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "long",
+   "gender": "",
+   "ipa": "/lɔ̃/",
+   "meaning_vi": "dài",
+   "example_fr": "Le voyage est long.",
+   "example_vi": "Chuyến đi dài.",
+   "note_vi": "giống cái: longue.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "court",
+   "gender": "",
+   "ipa": "/kuʁ/",
+   "meaning_vi": "ngắn",
+   "example_fr": "Mes cheveux sont courts.",
+   "example_vi": "Tóc tôi ngắn.",
+   "note_vi": "giống cái: courte (đọc chữ t).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "prêt",
+   "gender": "",
+   "ipa": "/pʁɛ/",
+   "meaning_vi": "sẵn sàng",
+   "example_fr": "Tu es prêt ? On part !",
+   "example_vi": "Xong chưa? Mình đi thôi!",
+   "note_vi": "giống cái: prête (đọc chữ t).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "rouge",
+   "gender": "",
+   "ipa": "/ʁuʒ/",
+   "meaning_vi": "màu đỏ",
+   "example_fr": "J'ai un manteau rouge.",
+   "example_vi": "Tôi có một chiếc áo khoác màu đỏ.",
+   "note_vi": "Màu đứng sau danh từ: un manteau rouge.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "bleu",
+   "gender": "",
+   "ipa": "/blø/",
+   "meaning_vi": "màu xanh dương",
+   "example_fr": "Le ciel est bleu.",
+   "example_vi": "Bầu trời xanh.",
+   "note_vi": "giống cái: bleue (đọc giống hệt).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "vert",
+   "gender": "",
+   "ipa": "/vɛʁ/",
+   "meaning_vi": "màu xanh lá",
+   "example_fr": "J'aime le thé vert.",
+   "example_vi": "Tôi thích trà xanh.",
+   "note_vi": "giống cái: verte (đọc chữ t).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "jaune",
+   "gender": "",
+   "ipa": "/ʒon/",
+   "meaning_vi": "màu vàng",
+   "example_fr": "J'aime les fleurs jaunes.",
+   "example_vi": "Tôi thích hoa màu vàng.",
+   "note_vi": "Giống đực và giống cái viết như nhau.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "noir",
+   "gender": "",
+   "ipa": "/nwaʁ/",
+   "meaning_vi": "màu đen",
+   "example_fr": "Je bois mon café noir.",
+   "example_vi": "Tôi uống cà phê đen.",
+   "note_vi": "giống cái: noire (đọc giống hệt).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "blanc",
+   "gender": "",
+   "ipa": "/blɑ̃/",
+   "meaning_vi": "màu trắng",
+   "example_fr": "Mon téléphone est blanc.",
+   "example_vi": "Điện thoại của tôi màu trắng.",
+   "note_vi": "giống cái: blanche. Chữ c câm.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "gris",
+   "gender": "",
+   "ipa": "/ɡʁi/",
+   "meaning_vi": "màu xám",
+   "example_fr": "Mon chat est gris.",
+   "example_vi": "Con mèo của tôi màu xám.",
+   "note_vi": "giống cái: grise (chữ s đọc thành z).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "marron",
+   "gender": "",
+   "ipa": "/maʁɔ̃/",
+   "meaning_vi": "màu nâu",
+   "example_fr": "J'ai des bottes marron.",
+   "example_vi": "Tôi có đôi bốt màu nâu.",
+   "note_vi": "Không đổi theo giống và số: des bottes marron. Ở Québec hay nói: brun (từ này có đổi: des bottes brunes).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "rose",
+   "gender": "",
+   "ipa": "/ʁoz/",
+   "meaning_vi": "màu hồng",
+   "example_fr": "Ma fille aime les robes roses.",
+   "example_vi": "Con gái tôi thích váy màu hồng.",
+   "note_vi": "Giống đực và giống cái viết như nhau.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "orange",
+   "gender": "",
+   "ipa": "/ɔʁɑ̃ʒ/",
+   "meaning_vi": "màu cam",
+   "example_fr": "J'ai un sac orange.",
+   "example_vi": "Tôi có một cái túi màu cam.",
+   "note_vi": "Thường không đổi: des sacs orange.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "sale",
+   "gender": "",
+   "ipa": "/sal/",
+   "meaning_vi": "bẩn",
+   "example_fr": "Mes chaussures sont sales.",
+   "example_vi": "Giày của tôi bẩn.",
+   "note_vi": "Bẫy: không phải 'sale' (giảm giá) như tiếng Anh.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "gentil",
+   "gender": "",
+   "ipa": "/ʒɑ̃ti/",
+   "meaning_vi": "tử tế, dễ thương",
+   "example_fr": "Merci, vous êtes très gentil.",
+   "example_vi": "Cảm ơn, anh thật tử tế.",
+   "note_vi": "giống cái: gentille. Chữ l câm ở giống đực.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "heureux",
+   "gender": "",
+   "ipa": "/øʁø/",
+   "meaning_vi": "hạnh phúc",
+   "example_fr": "Nous sommes heureux ici.",
+   "example_vi": "Chúng tôi sống hạnh phúc ở đây.",
+   "note_vi": "giống cái: heureuse. Chữ h câm.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "important",
+   "gender": "",
+   "ipa": "/ɛ̃pɔʁtɑ̃/",
+   "meaning_vi": "quan trọng",
+   "example_fr": "Ce rendez-vous est très important.",
+   "example_vi": "Cuộc hẹn này rất quan trọng.",
+   "note_vi": "giống cái: importante.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "qui",
+   "gender": "",
+   "ipa": "/ki/",
+   "meaning_vi": "ai",
+   "example_fr": "Qui est ce monsieur ?",
+   "example_vi": "Ông kia là ai vậy?",
+   "note_vi": "Hỏi nhanh: Qui est-ce ? = Ai đấy?",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "quoi",
+   "gender": "",
+   "ipa": "/kwa/",
+   "meaning_vi": "cái gì",
+   "example_fr": "Tu fais quoi ce soir ?",
+   "example_vi": "Tối nay bạn làm gì?",
+   "note_vi": "Văn nói thân mật; lịch sự hơn: Qu'est-ce que... ?",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "où",
+   "gender": "",
+   "ipa": "/u/",
+   "meaning_vi": "ở đâu",
+   "example_fr": "Où sont les toilettes ?",
+   "example_vi": "Nhà vệ sinh ở đâu ạ?",
+   "note_vi": "Có dấu huyền: où = ở đâu; ou = hoặc.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "quand",
+   "gender": "",
+   "ipa": "/kɑ̃/",
+   "meaning_vi": "khi nào",
+   "example_fr": "Quand est-ce que tu arrives ?",
+   "example_vi": "Khi nào bạn tới?",
+   "note_vi": "Chữ d câm; trước nguyên âm nối thành /t/.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "comment",
+   "gender": "",
+   "ipa": "/kɔmɑ̃/",
+   "meaning_vi": "thế nào, như thế nào",
+   "example_fr": "Bonjour, comment vous appelez-vous ?",
+   "example_vi": "Chào anh/chị, anh/chị tên là gì?",
+   "note_vi": "Comment ça va ? = Khỏe không?",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "pourquoi",
+   "gender": "",
+   "ipa": "/puʁkwa/",
+   "meaning_vi": "tại sao",
+   "example_fr": "Pourquoi tu apprends le français ?",
+   "example_vi": "Sao bạn học tiếng Pháp?",
+   "note_vi": "Trả lời bằng parce que (bởi vì).",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "combien",
+   "gender": "",
+   "ipa": "/kɔ̃bjɛ̃/",
+   "meaning_vi": "bao nhiêu",
+   "example_fr": "Ce manteau coûte combien ?",
+   "example_vi": "Cái áo khoác này giá bao nhiêu?",
+   "note_vi": "combien de + danh từ: combien d'enfants ?",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "quel",
+   "gender": "",
+   "ipa": "/kɛl/",
+   "meaning_vi": "nào, gì",
+   "example_fr": "Quelle heure est-il, s'il vous plaît ?",
+   "example_vi": "Làm ơn cho hỏi mấy giờ rồi ạ?",
+   "note_vi": "giống cái: quelle; số nhiều: quels, quelles (đều đọc /kɛl/).",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "avec",
+   "gender": "",
+   "ipa": "/avɛk/",
+   "meaning_vi": "với, cùng",
+   "example_fr": "J'habite avec ma famille.",
+   "example_vi": "Tôi sống cùng gia đình.",
+   "note_vi": "Chữ c cuối được đọc.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "sans",
+   "gender": "",
+   "ipa": "/sɑ̃/",
+   "meaning_vi": "không có",
+   "example_fr": "Un café sans sucre, s'il vous plaît.",
+   "example_vi": "Cho tôi một cà phê không đường.",
+   "note_vi": "Trái nghĩa với avec.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "pour",
+   "gender": "",
+   "ipa": "/puʁ/",
+   "meaning_vi": "để (làm gì); dành cho (ai)",
+   "example_fr": "Ce cadeau est pour toi.",
+   "example_vi": "Món quà này là cho bạn.",
+   "note_vi": "pour + động từ = để: pour apprendre.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "dans",
+   "gender": "",
+   "ipa": "/dɑ̃/",
+   "meaning_vi": "trong",
+   "example_fr": "Les clés sont dans mon sac.",
+   "example_vi": "Chìa khóa ở trong túi tôi.",
+   "note_vi": "dans deux jours = hai ngày nữa.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "sur",
+   "gender": "",
+   "ipa": "/syʁ/",
+   "meaning_vi": "trên",
+   "example_fr": "Le livre est sur la table.",
+   "example_vi": "Cuốn sách ở trên bàn.",
+   "note_vi": "Chữ u đọc tròn môi /y/; đừng lẫn với sous.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "sous",
+   "gender": "",
+   "ipa": "/su/",
+   "meaning_vi": "dưới",
+   "example_fr": "Le chat est sous le lit.",
+   "example_vi": "Con mèo ở dưới gầm giường.",
+   "note_vi": "Chữ s cuối câm.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "devant",
+   "gender": "",
+   "ipa": "/dəvɑ̃/",
+   "meaning_vi": "phía trước",
+   "example_fr": "Je t'attends devant la gare.",
+   "example_vi": "Tôi đợi bạn trước nhà ga.",
+   "note_vi": "Trái nghĩa: derrière.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "derrière",
+   "gender": "",
+   "ipa": "/dɛʁjɛʁ/",
+   "meaning_vi": "phía sau",
+   "example_fr": "Le parc est derrière l'école.",
+   "example_vi": "Công viên ở phía sau trường.",
+   "note_vi": "Trái nghĩa: devant.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "à côté de",
+   "gender": "",
+   "ipa": "/akotedə/",
+   "meaning_vi": "bên cạnh",
+   "example_fr": "La banque est à côté de la pharmacie.",
+   "example_vi": "Ngân hàng ở cạnh hiệu thuốc.",
+   "note_vi": "de + le = du: à côté du parc.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "chez",
+   "gender": "",
+   "ipa": "/ʃe/",
+   "meaning_vi": "ở nhà (ai), ở chỗ (ai)",
+   "example_fr": "Ce soir, je rentre chez moi.",
+   "example_vi": "Tối nay tôi về nhà.",
+   "note_vi": "chez le médecin = ở chỗ bác sĩ.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "entre",
+   "gender": "",
+   "ipa": "/ɑ̃tʁ/",
+   "meaning_vi": "giữa",
+   "example_fr": "Le café est entre la banque et la poste.",
+   "example_vi": "Quán cà phê nằm giữa ngân hàng và bưu điện.",
+   "note_vi": "Cấu trúc: entre A et B.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "et",
+   "gender": "",
+   "ipa": "/e/",
+   "meaning_vi": "và",
+   "example_fr": "J'ai un fils et une fille.",
+   "example_vi": "Tôi có một con trai và một con gái.",
+   "note_vi": "Chữ t câm, không bao giờ nối âm.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "mais",
+   "gender": "",
+   "ipa": "/mɛ/",
+   "meaning_vi": "nhưng",
+   "example_fr": "Il fait froid, mais il fait beau.",
+   "example_vi": "Trời lạnh nhưng nắng đẹp.",
+   "note_vi": "Chữ s cuối câm.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "ou",
+   "gender": "",
+   "ipa": "/u/",
+   "meaning_vi": "hoặc, hay",
+   "example_fr": "Du thé ou du café ?",
+   "example_vi": "Trà hay cà phê?",
+   "note_vi": "Không dấu: ou = hoặc; có dấu: où = ở đâu.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "parce que",
+   "gender": "",
+   "ipa": "/paʁskə/",
+   "meaning_vi": "bởi vì",
+   "example_fr": "Je mange parce que j'ai faim.",
+   "example_vi": "Tôi ăn vì đói bụng.",
+   "note_vi": "Trước nguyên âm viết gọn: parce qu'il pleut (vì trời mưa).",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "donc",
+   "gender": "",
+   "ipa": "/dɔ̃k/",
+   "meaning_vi": "vì vậy, nên",
+   "example_fr": "Il pleut, donc je prends le bus.",
+   "example_vi": "Trời mưa nên tôi đi xe buýt.",
+   "note_vi": "Chữ c cuối thường được đọc.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "alors",
+   "gender": "",
+   "ipa": "/alɔʁ/",
+   "meaning_vi": "vậy thì, thế thì",
+   "example_fr": "Alors, on commence la leçon ?",
+   "example_vi": "Vậy mình bắt đầu bài học nhé?",
+   "note_vi": "Hay dùng để mở đầu câu khi nói chuyện.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "aussi",
+   "gender": "",
+   "ipa": "/osi/",
+   "meaning_vi": "cũng",
+   "example_fr": "Moi aussi, j'aime le thé.",
+   "example_vi": "Tôi cũng thích trà.",
+   "note_vi": "Moi aussi = Tôi cũng vậy.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "très",
+   "gender": "",
+   "ipa": "/tʁɛ/",
+   "meaning_vi": "rất",
+   "example_fr": "Ma mère est très gentille.",
+   "example_vi": "Mẹ tôi rất hiền.",
+   "note_vi": "Đi với tính từ; với động từ dùng beaucoup.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "beaucoup",
+   "gender": "",
+   "ipa": "/boku/",
+   "meaning_vi": "nhiều, lắm",
+   "example_fr": "Merci beaucoup pour votre aide !",
+   "example_vi": "Cảm ơn anh/chị nhiều vì đã giúp đỡ!",
+   "note_vi": "Không nói 'très beaucoup'.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "un peu",
+   "gender": "",
+   "ipa": "/œ̃pø/",
+   "meaning_vi": "một chút",
+   "example_fr": "Je parle un peu français.",
+   "example_vi": "Tôi nói được chút ít tiếng Pháp.",
+   "note_vi": "Câu rất hữu ích khi mới sang.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "trop",
+   "gender": "",
+   "ipa": "/tʁo/",
+   "meaning_vi": "quá",
+   "example_fr": "Ce téléphone est trop cher.",
+   "example_vi": "Cái điện thoại này đắt quá.",
+   "note_vi": "trop = quá mức (ý chê); très = rất.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "bien",
+   "gender": "",
+   "ipa": "/bjɛ̃/",
+   "meaning_vi": "tốt, giỏi, khỏe (trạng từ, đi với động từ)",
+   "example_fr": "Ça va bien, merci.",
+   "example_vi": "Tôi khỏe, cảm ơn.",
+   "note_vi": "bien là trạng từ; bon là tính từ.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "toujours",
+   "gender": "",
+   "ipa": "/tuʒuʁ/",
+   "meaning_vi": "luôn luôn; vẫn còn",
+   "example_fr": "Il est toujours en retard.",
+   "example_vi": "Anh ấy lúc nào cũng trễ.",
+   "note_vi": "Cũng nghĩa 'vẫn': Tu habites toujours ici ?",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "jamais",
+   "gender": "",
+   "ipa": "/ʒamɛ/",
+   "meaning_vi": "không bao giờ",
+   "example_fr": "Je ne bois jamais d'alcool.",
+   "example_vi": "Tôi không bao giờ uống rượu.",
+   "note_vi": "Đi cặp với ne: ne... jamais.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "souvent",
+   "gender": "",
+   "ipa": "/suvɑ̃/",
+   "meaning_vi": "thường, hay",
+   "example_fr": "Je vais souvent au parc.",
+   "example_vi": "Tôi hay đi công viên.",
+   "note_vi": "Thường đứng ngay sau động từ.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "parfois",
+   "gender": "",
+   "ipa": "/paʁfwa/",
+   "meaning_vi": "đôi khi",
+   "example_fr": "Parfois, je mange au restaurant.",
+   "example_vi": "Đôi khi tôi ăn ở nhà hàng.",
+   "note_vi": "Chữ s cuối câm.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "déjà",
+   "gender": "",
+   "ipa": "/deʒa/",
+   "meaning_vi": "rồi, đã",
+   "example_fr": "Tu as déjà mangé ?",
+   "example_vi": "Bạn ăn chưa?",
+   "note_vi": "Đứng giữa trợ động từ và động từ: j'ai déjà mangé.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "encore",
+   "gender": "",
+   "ipa": "/ɑ̃kɔʁ/",
+   "meaning_vi": "nữa, thêm; vẫn còn",
+   "example_fr": "Tu veux encore du pain ?",
+   "example_vi": "Bạn muốn thêm bánh mì không?",
+   "note_vi": "pas encore = chưa.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "ici",
+   "gender": "",
+   "ipa": "/isi/",
+   "meaning_vi": "ở đây",
+   "example_fr": "Vous habitez ici depuis longtemps ?",
+   "example_vi": "Anh/chị sống ở đây lâu chưa?",
+   "note_vi": "Trái nghĩa: là-bas (đằng kia).",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "là-bas",
+   "gender": "",
+   "ipa": "/laba/",
+   "meaning_vi": "đằng kia, ở đó",
+   "example_fr": "L'arrêt de bus est là-bas.",
+   "example_vi": "Trạm xe buýt ở đằng kia.",
+   "note_vi": "Có gạch nối và dấu huyền trên chữ à.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "avant",
+   "gender": "",
+   "ipa": "/avɑ̃/",
+   "meaning_vi": "trước (thời gian)",
+   "example_fr": "Je fais du sport avant le travail.",
+   "example_vi": "Tôi tập thể thao trước giờ làm.",
+   "note_vi": "avant = trước về thời gian; devant = trước về vị trí.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "après",
+   "gender": "",
+   "ipa": "/apʁɛ/",
+   "meaning_vi": "sau (thời gian)",
+   "example_fr": "On se voit après le cours ?",
+   "example_vi": "Học xong mình gặp nhau nhé?",
+   "note_vi": "Trái nghĩa: avant.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "la famille",
+   "gender": "f",
+   "ipa": "/lafamij/",
+   "meaning_vi": "gia đình",
+   "example_fr": "Ma famille habite au Vietnam.",
+   "example_vi": "Gia đình tôi sống ở Việt Nam.",
+   "note_vi": "Giống cái. Cụm ille đọc như 'y'.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le père",
+   "gender": "m",
+   "ipa": "/ləpɛʁ/",
+   "meaning_vi": "bố, cha",
+   "example_fr": "Mon père a soixante ans.",
+   "example_vi": "Bố tôi sáu mươi tuổi.",
+   "note_vi": "Gọi thân mật: papa.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la mère",
+   "gender": "f",
+   "ipa": "/lamɛʁ/",
+   "meaning_vi": "mẹ",
+   "example_fr": "Ma mère cuisine très bien.",
+   "example_vi": "Mẹ tôi nấu ăn rất ngon.",
+   "note_vi": "Gọi thân mật: maman.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le frère",
+   "gender": "m",
+   "ipa": "/ləfʁɛʁ/",
+   "meaning_vi": "anh trai, em trai",
+   "example_fr": "J'ai un frère et deux sœurs.",
+   "example_vi": "Tôi có một anh trai và hai chị gái.",
+   "note_vi": "grand frère = anh trai; petit frère = em trai.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la sœur",
+   "gender": "f",
+   "ipa": "/lasœʁ/",
+   "meaning_vi": "chị gái, em gái",
+   "example_fr": "Ma sœur habite à Toronto.",
+   "example_vi": "Chị tôi sống ở Toronto.",
+   "note_vi": "Giống cái. grande sœur = chị; petite sœur = em gái.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le fils",
+   "gender": "m",
+   "ipa": "/ləfis/",
+   "meaning_vi": "con trai",
+   "example_fr": "Mon fils a dix ans.",
+   "example_vi": "Con trai tôi mười tuổi.",
+   "note_vi": "Chữ l câm, chữ s được đọc.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la fille",
+   "gender": "f",
+   "ipa": "/lafij/",
+   "meaning_vi": "con gái; cô gái",
+   "example_fr": "Ma fille va à l'école.",
+   "example_vi": "Con gái tôi đi học.",
+   "note_vi": "Giống cái. Hai nghĩa: con gái (của ai) và cô gái.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "les enfants",
+   "gender": "mpl",
+   "ipa": "/lezɑ̃fɑ̃/",
+   "meaning_vi": "trẻ con; con cái",
+   "example_fr": "Les enfants jouent dans la neige.",
+   "example_vi": "Bọn trẻ chơi trong tuyết.",
+   "note_vi": "Giống đực, số nhiều. Số ít: l'enfant. Nhớ nối âm /z/.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "les parents",
+   "gender": "mpl",
+   "ipa": "/lepaʁɑ̃/",
+   "meaning_vi": "bố mẹ; họ hàng",
+   "example_fr": "Mes parents viennent me voir en été.",
+   "example_vi": "Mùa hè bố mẹ sang thăm tôi.",
+   "note_vi": "Giống đực, số nhiều. Còn có nghĩa là họ hàng.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la main",
+   "gender": "f",
+   "ipa": "/lamɛ̃/",
+   "meaning_vi": "bàn tay",
+   "example_fr": "Je me lave les mains.",
+   "example_vi": "Tôi rửa tay.",
+   "note_vi": "Giống cái dù không tận cùng bằng e.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le pied",
+   "gender": "m",
+   "ipa": "/ləpje/",
+   "meaning_vi": "bàn chân",
+   "example_fr": "Je vais au travail à pied.",
+   "example_vi": "Tôi đi bộ đi làm.",
+   "note_vi": "à pied = đi bộ. Chữ d câm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "l'eau",
+   "gender": "f",
+   "ipa": "/lo/",
+   "meaning_vi": "nước",
+   "example_fr": "Un verre d'eau, s'il vous plaît.",
+   "example_vi": "Cho tôi một ly nước.",
+   "note_vi": "Giống cái. Nước máy: l'eau du robinet.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le café",
+   "gender": "m",
+   "ipa": "/ləkafe/",
+   "meaning_vi": "cà phê; quán cà phê",
+   "example_fr": "Je bois un café le matin.",
+   "example_vi": "Buổi sáng tôi uống một ly cà phê.",
+   "note_vi": "Cũng có nghĩa là quán cà phê.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le thé",
+   "gender": "m",
+   "ipa": "/ləte/",
+   "meaning_vi": "trà",
+   "example_fr": "Le soir, je bois du thé.",
+   "example_vi": "Buổi tối tôi uống trà.",
+   "note_vi": "Cụm th đọc như t.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le riz",
+   "gender": "m",
+   "ipa": "/ləʁi/",
+   "meaning_vi": "gạo, cơm",
+   "example_fr": "Nous mangeons du riz tous les jours.",
+   "example_vi": "Ngày nào chúng tôi cũng ăn cơm.",
+   "note_vi": "Chữ z câm. Một từ dùng cho cả gạo lẫn cơm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le poulet",
+   "gender": "m",
+   "ipa": "/ləpulɛ/",
+   "meaning_vi": "thịt gà; con gà",
+   "example_fr": "Le poulet avec du riz, c'est bon.",
+   "example_vi": "Gà ăn với cơm ngon lắm.",
+   "note_vi": "Chữ t câm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le poisson",
+   "gender": "m",
+   "ipa": "/ləpwasɔ̃/",
+   "meaning_vi": "cá",
+   "example_fr": "Le vendredi, on mange du poisson.",
+   "example_vi": "Thứ sáu nào nhà mình cũng ăn cá.",
+   "note_vi": "Hai chữ s đọc /s/; poison (một s) = thuốc độc!",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le fromage",
+   "gender": "m",
+   "ipa": "/ləfʁɔmaʒ/",
+   "meaning_vi": "phô mai",
+   "example_fr": "Tu aimes le fromage ?",
+   "example_vi": "Bạn có thích phô mai không?",
+   "note_vi": "Giống đực dù tận cùng bằng e.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la pomme",
+   "gender": "f",
+   "ipa": "/lapɔm/",
+   "meaning_vi": "quả táo",
+   "example_fr": "Je mange une pomme par jour.",
+   "example_vi": "Mỗi ngày tôi ăn một quả táo.",
+   "note_vi": "Giống cái. la pomme de terre = khoai tây.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le petit-déjeuner",
+   "gender": "m",
+   "ipa": "/ləpətideʒœne/",
+   "meaning_vi": "bữa sáng",
+   "example_fr": "Le petit-déjeuner est à sept heures.",
+   "example_vi": "Bữa sáng lúc bảy giờ.",
+   "note_vi": "Ở Québec hay nói: le déjeuner (bữa sáng).",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le déjeuner",
+   "gender": "m",
+   "ipa": "/lədeʒœne/",
+   "meaning_vi": "bữa trưa",
+   "example_fr": "Le déjeuner est prêt !",
+   "example_vi": "Cơm trưa xong rồi!",
+   "note_vi": "Ở Québec hay nói: le dîner (bữa trưa); le déjeuner là bữa sáng.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le dîner",
+   "gender": "m",
+   "ipa": "/lədine/",
+   "meaning_vi": "bữa tối",
+   "example_fr": "Nous prenons le dîner en famille.",
+   "example_vi": "Cả nhà cùng ăn tối.",
+   "note_vi": "Ở Québec hay nói: le souper (bữa tối); le dîner là bữa trưa.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le repas",
+   "gender": "m",
+   "ipa": "/ləʁəpa/",
+   "meaning_vi": "bữa ăn",
+   "example_fr": "Nous faisons trois repas par jour.",
+   "example_vi": "Chúng tôi ăn ba bữa mỗi ngày.",
+   "note_vi": "Chữ s câm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le temps",
+   "gender": "m",
+   "ipa": "/lətɑ̃/",
+   "meaning_vi": "thời tiết; thời gian",
+   "example_fr": "Quel temps fait-il aujourd'hui ?",
+   "example_vi": "Hôm nay thời tiết thế nào?",
+   "note_vi": "Hai nghĩa: thời tiết và thời gian. Chữ p, s câm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le soleil",
+   "gender": "m",
+   "ipa": "/ləsɔlɛj/",
+   "meaning_vi": "mặt trời, nắng",
+   "example_fr": "Il y a du soleil ce matin.",
+   "example_vi": "Sáng nay trời nắng.",
+   "note_vi": "Cụm eil đọc gần như 'ây'.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la pluie",
+   "gender": "f",
+   "ipa": "/laplɥi/",
+   "meaning_vi": "mưa",
+   "example_fr": "Je n'aime pas la pluie.",
+   "example_vi": "Tôi không thích mưa.",
+   "note_vi": "Giống cái. Trời mưa: il pleut.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le vent",
+   "gender": "m",
+   "ipa": "/ləvɑ̃/",
+   "meaning_vi": "gió",
+   "example_fr": "Il y a du vent aujourd'hui.",
+   "example_vi": "Hôm nay có gió.",
+   "note_vi": "Chữ t câm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "l'hiver",
+   "gender": "m",
+   "ipa": "/livɛʁ/",
+   "meaning_vi": "mùa đông",
+   "example_fr": "En hiver, je porte un gros manteau.",
+   "example_vi": "Mùa đông tôi mặc áo khoác dày.",
+   "note_vi": "Giống đực. Vào mùa đông: en hiver.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "l'été",
+   "gender": "m",
+   "ipa": "/lete/",
+   "meaning_vi": "mùa hè",
+   "example_fr": "En été, nous allons au parc.",
+   "example_vi": "Mùa hè chúng tôi đi công viên.",
+   "note_vi": "Giống đực. Vào mùa hè: en été.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le printemps",
+   "gender": "m",
+   "ipa": "/ləpʁɛ̃tɑ̃/",
+   "meaning_vi": "mùa xuân",
+   "example_fr": "Au printemps, il fait doux.",
+   "example_vi": "Mùa xuân trời dễ chịu.",
+   "note_vi": "Riêng mùa này dùng au: au printemps.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "l'automne",
+   "gender": "m",
+   "ipa": "/lotɔn/",
+   "meaning_vi": "mùa thu",
+   "example_fr": "En automne, les arbres changent de couleur.",
+   "example_vi": "Mùa thu cây đổi màu lá.",
+   "note_vi": "Giống đực. Chữ m câm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le bonnet",
+   "gender": "m",
+   "ipa": "/ləbɔnɛ/",
+   "meaning_vi": "mũ len",
+   "example_fr": "Mon fils porte un bonnet bleu.",
+   "example_vi": "Con trai tôi đội mũ len màu xanh dương.",
+   "note_vi": "Ở Québec hay nói: la tuque.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "les gants",
+   "gender": "mpl",
+   "ipa": "/leɡɑ̃/",
+   "meaning_vi": "găng tay",
+   "example_fr": "N'oublie pas tes gants !",
+   "example_vi": "Đừng quên găng tay nhé!",
+   "note_vi": "Giống đực, số nhiều. Chữ t câm.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la langue",
+   "gender": "f",
+   "ipa": "/la lɑ̃ɡ/",
+   "meaning_vi": "ngôn ngữ, tiếng",
+   "example_fr": "Je parle deux langues : le vietnamien et l'anglais.",
+   "example_vi": "Tôi nói được hai thứ tiếng: tiếng Việt và tiếng Anh.",
+   "note_vi": "la langue maternelle = tiếng mẹ đẻ.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "le français",
+   "gender": "m",
+   "ipa": "/lə fʁɑ̃sɛ/",
+   "meaning_vi": "tiếng Pháp",
+   "example_fr": "Le français est important pour mon travail.",
+   "example_vi": "Tiếng Pháp quan trọng cho công việc của tôi.",
+   "note_vi": "Tên ngôn ngữ viết thường. Sau parler hay bỏ mạo từ: je parle français.",
+   "group": "fr_gioithieu"
+  },
+  {
+   "word": "la maison",
+   "gender": "f",
+   "ipa": "/la mɛzɔ̃/",
+   "meaning_vi": "ngôi nhà; nhà (của mình)",
+   "example_fr": "Nous cherchons une maison avec trois chambres.",
+   "example_vi": "Chúng tôi đang tìm một căn nhà có ba phòng ngủ.",
+   "note_vi": "à la maison = ở nhà. Chữ s giữa hai nguyên âm đọc /z/.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "les toilettes",
+   "gender": "fpl",
+   "ipa": "/le twalɛt/",
+   "meaning_vi": "nhà vệ sinh",
+   "example_fr": "Les toilettes ne marchent pas depuis hier.",
+   "example_vi": "Nhà vệ sinh bị hỏng từ hôm qua.",
+   "note_vi": "Giống cái số nhiều; khi chỉ nhà vệ sinh luôn dùng số nhiều.",
+   "group": "fr_thuenha"
+  },
+  {
+   "word": "l'avion",
+   "gender": "m",
+   "ipa": "/lavjɔ̃/",
+   "meaning_vi": "máy bay",
+   "example_fr": "Nous arrivons à Montréal en avion.",
+   "example_vi": "Chúng tôi đến Montréal bằng máy bay.",
+   "note_vi": "Giống đực. Đi bằng máy bay: en avion.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "l'aéroport",
+   "gender": "m",
+   "ipa": "/laeʁɔpɔʁ/",
+   "meaning_vi": "sân bay",
+   "example_fr": "L'aéroport est loin du centre-ville ?",
+   "example_vi": "Sân bay có xa trung tâm thành phố không?",
+   "note_vi": "Giống đực. Viết aé, đọc tách /a-e/; t cuối câm.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "la route",
+   "gender": "f",
+   "ipa": "/la ʁut/",
+   "meaning_vi": "con đường, đường sá",
+   "example_fr": "En hiver, la route est souvent glissante.",
+   "example_vi": "Mùa đông, đường thường trơn trượt.",
+   "note_vi": "la rue = đường phố trong thành phố; la route = đường nối các nơi với nhau.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le chemin",
+   "gender": "m",
+   "ipa": "/lə ʃəmɛ̃/",
+   "meaning_vi": "đường đi, lối đi",
+   "example_fr": "Excusez-moi, je ne connais pas le chemin.",
+   "example_vi": "Xin lỗi, tôi không biết đường.",
+   "note_vi": "demander le chemin = hỏi đường.",
+   "group": "fr_dilai"
+  },
+  {
+   "word": "le centre commercial",
+   "gender": "m",
+   "ipa": "/lə sɑ̃tʁ kɔmɛʁsjal/",
+   "meaning_vi": "trung tâm mua sắm",
+   "example_fr": "On va au centre commercial samedi ?",
+   "example_vi": "Thứ Bảy mình đi trung tâm mua sắm nhé?",
+   "note_vi": "Số nhiều: les centres commerciaux.",
+   "group": "fr_muasam"
+  },
+  {
+   "word": "tomber",
+   "gender": "",
+   "ipa": "/tɔ̃be/",
+   "meaning_vi": "ngã, té; rơi",
+   "example_fr": "Attention, on peut tomber sur la glace !",
+   "example_vi": "Cẩn thận, dễ ngã trên băng lắm đấy!",
+   "note_vi": "tomber malade = bị ốm. Quá khứ dùng être: je suis tombé.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "la toux",
+   "gender": "f",
+   "ipa": "/la tu/",
+   "meaning_vi": "cơn ho, chứng ho",
+   "example_fr": "Vous avez un sirop pour la toux ?",
+   "example_vi": "Anh/chị có siro trị ho không?",
+   "note_vi": "Chữ x cuối câm. Động từ: tousser = ho.",
+   "group": "fr_khambenh"
+  },
+  {
+   "word": "par carte",
+   "gender": "",
+   "ipa": "/paʁ kaʁt/",
+   "meaning_vi": "bằng thẻ",
+   "example_fr": "Je paie toujours par carte à l'épicerie.",
+   "example_vi": "Ở tiệm tạp hóa tôi luôn trả bằng thẻ.",
+   "note_vi": "Đối lại: en espèces = bằng tiền mặt.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "en ligne",
+   "gender": "",
+   "ipa": "/ɑ̃ liɲ/",
+   "meaning_vi": "trực tuyến, qua mạng",
+   "example_fr": "Je paie mes factures en ligne.",
+   "example_vi": "Tôi thanh toán hóa đơn qua mạng.",
+   "note_vi": "'gn' đọc như 'nh' tiếng Việt: /liɲ/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "prêter",
+   "gender": "",
+   "ipa": "/pʁete/",
+   "meaning_vi": "cho vay, cho mượn",
+   "example_fr": "La banque peut vous prêter de l'argent.",
+   "example_vi": "Ngân hàng có thể cho anh/chị vay tiền.",
+   "note_vi": "Ngược nghĩa với emprunter (vay, mượn).",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "gagner",
+   "gender": "",
+   "ipa": "/ɡaɲe/",
+   "meaning_vi": "kiếm (tiền); thắng",
+   "example_fr": "Elle gagne un bon salaire.",
+   "example_vi": "Cô ấy kiếm được mức lương tốt.",
+   "note_vi": "gagner de l'argent = kiếm tiền. 'gn' đọc như 'nh'.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le portefeuille",
+   "gender": "m",
+   "ipa": "/lə pɔʁtəfœj/",
+   "meaning_vi": "cái ví",
+   "example_fr": "J'ai perdu mon portefeuille avec mes cartes.",
+   "example_vi": "Tôi làm mất cái ví, trong đó có mấy tấm thẻ.",
+   "note_vi": "Cụm 'euille' đọc /œj/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "insérer",
+   "gender": "",
+   "ipa": "/ɛ̃seʁe/",
+   "meaning_vi": "đưa vào, cắm (thẻ) vào",
+   "example_fr": "Insérez votre carte dans le guichet automatique.",
+   "example_vi": "Hãy đưa thẻ vào máy rút tiền.",
+   "note_vi": "Chia: j'insère, vous insérez (é thành è).",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "accepter",
+   "gender": "",
+   "ipa": "/aksɛpte/",
+   "meaning_vi": "chấp nhận, nhận",
+   "example_fr": "Désolé, nous n'acceptons pas les chèques.",
+   "example_vi": "Xin lỗi, chúng tôi không nhận séc.",
+   "note_vi": "'cc' đọc /ks/ như chữ x.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "les impôts",
+   "gender": "mpl",
+   "ipa": "/lezɛ̃po/",
+   "meaning_vi": "thuế nộp cho nhà nước (thuế thu nhập…)",
+   "example_fr": "Vous devez payer vos impôts chaque année.",
+   "example_vi": "Anh/chị phải đóng thuế mỗi năm.",
+   "note_vi": "Giống đực số nhiều; t cuối câm. Khi mua hàng, la taxe là thuế cộng vào giá.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "l'assurance",
+   "gender": "f",
+   "ipa": "/lasyʁɑ̃s/",
+   "meaning_vi": "bảo hiểm",
+   "example_fr": "Je voudrais une assurance pour mon appartement.",
+   "example_vi": "Tôi muốn mua bảo hiểm cho căn hộ của mình.",
+   "note_vi": "Giống cái: une assurance. 'ss' đọc /s/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "par mois",
+   "gender": "",
+   "ipa": "/paʁ mwa/",
+   "meaning_vi": "mỗi tháng",
+   "example_fr": "Je reçois mon salaire deux fois par mois.",
+   "example_vi": "Tôi nhận lương hai lần mỗi tháng.",
+   "note_vi": "Tương tự: par semaine = mỗi tuần, par an = mỗi năm.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "la date d'expiration",
+   "gender": "f",
+   "ipa": "/la dat dɛkspiʁasjɔ̃/",
+   "meaning_vi": "ngày hết hạn",
+   "example_fr": "Quelle est la date d'expiration de votre carte ?",
+   "example_vi": "Thẻ của anh/chị hết hạn ngày nào?",
+   "note_vi": "'tion' cuối đọc /sjɔ̃/.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le budget",
+   "gender": "m",
+   "ipa": "/lə bydʒɛ/",
+   "meaning_vi": "ngân sách, khoản tiền dự tính chi",
+   "example_fr": "Nous avons un petit budget pour les vacances.",
+   "example_vi": "Chúng tôi có một khoản tiền nhỏ dành cho kỳ nghỉ.",
+   "note_vi": "Đọc /bydʒɛ/: 'dg' như 'dj', t cuối câm.",
+   "group": "fr_nganhang"
+  },
+  {
+   "word": "le problème",
+   "gender": "m",
+   "ipa": "/lə pʁɔblɛm/",
+   "meaning_vi": "vấn đề, trục trặc",
+   "example_fr": "J'ai un problème avec mon forfait.",
+   "example_vi": "Tôi gặp vấn đề với gói cước của mình.",
+   "note_vi": "Giống đực dù tận cùng -e. Pas de problème = không sao đâu.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "l'ordinateur",
+   "gender": "m",
+   "ipa": "/lɔʁdinatœʁ/",
+   "meaning_vi": "máy tính",
+   "example_fr": "Mon ordinateur ne marche plus.",
+   "example_vi": "Máy tính của tôi không chạy nữa.",
+   "note_vi": "Giống đực. Máy tính xách tay: un ordinateur portable.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "se connecter",
+   "gender": "",
+   "ipa": "/sə kɔnɛkte/",
+   "meaning_vi": "đăng nhập; kết nối (mạng)",
+   "example_fr": "Je n'arrive pas à me connecter.",
+   "example_vi": "Tôi không đăng nhập được.",
+   "note_vi": "Đổi đại từ theo người: je me connecte, vous vous connectez.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "transférer",
+   "gender": "",
+   "ipa": "/tʁɑ̃sfeʁe/",
+   "meaning_vi": "chuyển (cuộc gọi, tiền, tài liệu)",
+   "example_fr": "Je vous transfère à un agent.",
+   "example_vi": "Tôi chuyển máy cho một nhân viên nhé.",
+   "note_vi": "Chia: je transfère (é thành è).",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "le lien",
+   "gender": "m",
+   "ipa": "/lə ljɛ̃/",
+   "meaning_vi": "đường link",
+   "example_fr": "Cliquez sur le lien dans le courriel.",
+   "example_vi": "Anh/chị bấm vào đường link trong email.",
+   "note_vi": "Cẩn thận với link lạ trong tin nhắn: có thể là lừa đảo.",
+   "group": "fr_dienthoai"
+  },
+  {
+   "word": "étudier",
+   "gender": "",
+   "ipa": "/etydje/",
+   "meaning_vi": "học (ở trường), học bài",
+   "example_fr": "Ma fille étudie à l'université.",
+   "example_vi": "Con gái tôi học đại học.",
+   "note_vi": "apprendre = học một thứ cụ thể; étudier = học ở trường, học bài.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "préférer",
+   "gender": "",
+   "ipa": "/pʁefeʁe/",
+   "meaning_vi": "thích hơn",
+   "example_fr": "Je préfère le thé au café.",
+   "example_vi": "Tôi thích trà hơn cà phê.",
+   "note_vi": "Chia: je préfère (é thứ hai thành è).",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "envoyer",
+   "gender": "",
+   "ipa": "/ɑ̃vwaje/",
+   "meaning_vi": "gửi",
+   "example_fr": "J'envoie de l'argent à ma famille chaque mois.",
+   "example_vi": "Tháng nào tôi cũng gửi tiền về cho gia đình.",
+   "note_vi": "Chia: j'envoie, vous envoyez (y thành i).",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "oublier",
+   "gender": "",
+   "ipa": "/ublije/",
+   "meaning_vi": "quên",
+   "example_fr": "J'oublie souvent le nom de mon voisin.",
+   "example_vi": "Tôi hay quên tên người hàng xóm.",
+   "note_vi": "N'oubliez pas ! = Đừng quên nhé!",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "se lever",
+   "gender": "",
+   "ipa": "/sə ləve/",
+   "meaning_vi": "thức dậy; đứng dậy",
+   "example_fr": "Mes enfants se lèvent à sept heures.",
+   "example_vi": "Các con tôi dậy lúc bảy giờ.",
+   "note_vi": "Chia: je me lève (e thành è). Đi ngủ: se coucher.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "rentrer",
+   "gender": "",
+   "ipa": "/ʁɑ̃tʁe/",
+   "meaning_vi": "về nhà, trở về",
+   "example_fr": "Mon mari rentre du travail vers dix-neuf heures.",
+   "example_vi": "Chồng tôi đi làm về khoảng bảy giờ tối.",
+   "note_vi": "rentrer = về (nhà); entrer = đi vào.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "porter",
+   "gender": "",
+   "ipa": "/pɔʁte/",
+   "meaning_vi": "mặc, đội, đeo; mang",
+   "example_fr": "Au travail, je porte une chemise blanche.",
+   "example_vi": "Đi làm tôi mặc áo sơ mi trắng.",
+   "note_vi": "Dùng cho quần áo, mũ, kính: porter des lunettes = đeo kính.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "expliquer",
+   "gender": "",
+   "ipa": "/ɛksplike/",
+   "meaning_vi": "giải thích",
+   "example_fr": "Vous pouvez m'expliquer encore une fois ?",
+   "example_vi": "Anh/chị giải thích lại một lần nữa được không?",
+   "note_vi": "'x' đọc /ks/; 'qu' đọc /k/.",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "jouer",
+   "gender": "",
+   "ipa": "/ʒwe/",
+   "meaning_vi": "chơi",
+   "example_fr": "Mon fils joue au hockey le samedi.",
+   "example_vi": "Thứ Bảy con trai tôi chơi khúc côn cầu.",
+   "note_vi": "jouer à + môn thể thao (jouer au hockey); jouer de + nhạc cụ (jouer du piano).",
+   "group": "fr_core_dongtu"
+  },
+  {
+   "word": "rapide",
+   "gender": "",
+   "ipa": "/ʁapid/",
+   "meaning_vi": "nhanh",
+   "example_fr": "Le métro est plus rapide que le bus.",
+   "example_vi": "Đi metro nhanh hơn xe buýt.",
+   "note_vi": "Giống đực và giống cái như nhau. Trạng từ: vite = nhanh.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "cassé",
+   "gender": "",
+   "ipa": "/kase/",
+   "meaning_vi": "bị vỡ, bị gãy, bị hỏng",
+   "example_fr": "Attention, cette chaise est cassée.",
+   "example_vi": "Cẩn thận, cái ghế này bị gãy.",
+   "note_vi": "giống cái: cassée (đọc giống hệt).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "vide",
+   "gender": "",
+   "ipa": "/vid/",
+   "meaning_vi": "trống, rỗng",
+   "example_fr": "Le réfrigérateur est vide, on fait les courses ?",
+   "example_vi": "Tủ lạnh trống rồi, mình đi chợ nhé?",
+   "note_vi": "Giống đực và giống cái như nhau. Trái nghĩa: plein.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "plein",
+   "gender": "",
+   "ipa": "/plɛ̃/",
+   "meaning_vi": "đầy",
+   "example_fr": "Le bus est plein, attendons le prochain.",
+   "example_vi": "Xe buýt đầy rồi, mình đợi chuyến sau đi.",
+   "note_vi": "giống cái: pleine /plɛn/.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "premier",
+   "gender": "",
+   "ipa": "/pʁəmje/",
+   "meaning_vi": "đầu tiên, thứ nhất",
+   "example_fr": "C'est ma première semaine au Canada.",
+   "example_vi": "Đây là tuần đầu tiên của tôi ở Canada.",
+   "note_vi": "giống cái: première. Ngày mùng một: le premier (le premier mai).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "dernier",
+   "gender": "",
+   "ipa": "/dɛʁnje/",
+   "meaning_vi": "cuối cùng; (tuần, tháng) trước",
+   "example_fr": "À quelle heure part le dernier bus ?",
+   "example_vi": "Chuyến xe buýt cuối cùng chạy lúc mấy giờ?",
+   "note_vi": "giống cái: dernière. la semaine dernière = tuần trước.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "seul",
+   "gender": "",
+   "ipa": "/sœl/",
+   "meaning_vi": "một mình; duy nhất",
+   "example_fr": "Vous voyagez seul ou en famille ?",
+   "example_vi": "Anh/chị đi một mình hay đi cùng gia đình?",
+   "note_vi": "giống cái: seule (đọc giống hệt).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "délicieux",
+   "gender": "",
+   "ipa": "/delisjø/",
+   "meaning_vi": "ngon",
+   "example_fr": "Ce gâteau est délicieux, merci !",
+   "example_vi": "Bánh này ngon quá, cảm ơn nhé!",
+   "note_vi": "giống cái: délicieuse.",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "violet",
+   "gender": "",
+   "ipa": "/vjɔlɛ/",
+   "meaning_vi": "màu tím",
+   "example_fr": "Elle porte une écharpe violette.",
+   "example_vi": "Cô ấy quàng một chiếc khăn màu tím.",
+   "note_vi": "giống cái: violette (đọc chữ t).",
+   "group": "fr_core_tinhtu"
+  },
+  {
+   "word": "depuis",
+   "gender": "",
+   "ipa": "/dəpɥi/",
+   "meaning_vi": "từ (khi); được (bao lâu) rồi",
+   "example_fr": "Je vous attends depuis vingt minutes.",
+   "example_vi": "Tôi đợi anh/chị hai mươi phút rồi.",
+   "note_vi": "Việc vẫn đang tiếp diễn thì dùng thì hiện tại + depuis, không dùng quá khứ.",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "peut-être",
+   "gender": "",
+   "ipa": "/pøtɛtʁ/",
+   "meaning_vi": "có lẽ, có thể",
+   "example_fr": "Elle est peut-être en retard.",
+   "example_vi": "Có lẽ cô ấy bị trễ.",
+   "note_vi": "Có gạch nối và dấu mũ ê; khác với peut être (có thể là).",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "est-ce que",
+   "gender": "",
+   "ipa": "/ɛskə/",
+   "meaning_vi": "có ... không? (đặt đầu câu hỏi)",
+   "example_fr": "Est-ce que la pharmacie est ouverte ce soir ?",
+   "example_vi": "Tối nay nhà thuốc có mở cửa không?",
+   "note_vi": "Đặt đầu câu kể để thành câu hỏi. Trước nguyên âm: est-ce qu'il...",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "ensuite",
+   "gender": "",
+   "ipa": "/ɑ̃sɥit/",
+   "meaning_vi": "sau đó, tiếp theo",
+   "example_fr": "Tournez à droite, ensuite continuez tout droit.",
+   "example_vi": "Rẽ phải, sau đó đi thẳng tiếp.",
+   "note_vi": "Hay dùng khi kể trình tự: d'abord..., ensuite..., enfin...",
+   "group": "fr_core_tunho"
+  },
+  {
+   "word": "le grand-père",
+   "gender": "m",
+   "ipa": "/lə ɡʁɑ̃pɛʁ/",
+   "meaning_vi": "ông (nội, ngoại)",
+   "example_fr": "Je téléphone à mon grand-père le dimanche.",
+   "example_vi": "Chủ nhật nào tôi cũng gọi điện cho ông.",
+   "note_vi": "Số nhiều: les grands-pères. Ông bà nói chung: les grands-parents.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la grand-mère",
+   "gender": "f",
+   "ipa": "/la ɡʁɑ̃mɛʁ/",
+   "meaning_vi": "bà (nội, ngoại)",
+   "example_fr": "Ma grand-mère ne parle pas français.",
+   "example_vi": "Bà tôi không nói được tiếng Pháp.",
+   "note_vi": "Viết grand, không thêm e: la grand-mère.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le bébé",
+   "gender": "m",
+   "ipa": "/lə bebe/",
+   "meaning_vi": "em bé",
+   "example_fr": "Le bébé dort dans sa chambre.",
+   "example_vi": "Em bé đang ngủ trong phòng.",
+   "note_vi": "Luôn giống đực, kể cả bé gái: un bébé.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "l'homme",
+   "gender": "m",
+   "ipa": "/lɔm/",
+   "meaning_vi": "đàn ông; con người",
+   "example_fr": "Cet homme est mon voisin.",
+   "example_vi": "Người đàn ông này là hàng xóm của tôi.",
+   "note_vi": "Giống đực; h câm nên viết l'homme, cet homme.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "les cheveux",
+   "gender": "mpl",
+   "ipa": "/le ʃəvø/",
+   "meaning_vi": "tóc",
+   "example_fr": "Ma fille a les cheveux longs.",
+   "example_vi": "Con gái tôi tóc dài.",
+   "note_vi": "Giống đực số nhiều; tính từ đi kèm cũng số nhiều: les cheveux noirs.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le doigt",
+   "gender": "m",
+   "ipa": "/lə dwa/",
+   "meaning_vi": "ngón tay",
+   "example_fr": "Montrez-moi votre doigt, s'il vous plaît.",
+   "example_vi": "Anh/chị cho tôi xem ngón tay nào.",
+   "note_vi": "Chữ g và t đều câm: /dwa/.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le genou",
+   "gender": "m",
+   "ipa": "/lə ʒənu/",
+   "meaning_vi": "đầu gối",
+   "example_fr": "J'ai mal au genou quand je marche.",
+   "example_vi": "Tôi bị đau đầu gối khi đi bộ.",
+   "note_vi": "Số nhiều thêm x: les genoux.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "l'épaule",
+   "gender": "f",
+   "ipa": "/lepol/",
+   "meaning_vi": "vai",
+   "example_fr": "Je porte mon sac sur l'épaule.",
+   "example_vi": "Tôi đeo túi trên vai.",
+   "note_vi": "Giống cái, nhưng nói mon épaule (vì bắt đầu bằng nguyên âm).",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le jus",
+   "gender": "m",
+   "ipa": "/lə ʒy/",
+   "meaning_vi": "nước ép",
+   "example_fr": "Un jus d'orange, s'il vous plaît.",
+   "example_vi": "Cho tôi một ly nước cam.",
+   "note_vi": "Chữ s cuối câm: /ʒy/.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le sucre",
+   "gender": "m",
+   "ipa": "/lə sykʁ/",
+   "meaning_vi": "đường (để ăn)",
+   "example_fr": "Vous prenez du sucre dans votre café ?",
+   "example_vi": "Anh/chị có dùng đường trong cà phê không?",
+   "note_vi": "'u' đọc /y/: tròn môi như 'u' nhưng lưỡi đặt như 'i'.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la soupe",
+   "gender": "f",
+   "ipa": "/la sup/",
+   "meaning_vi": "súp, canh",
+   "example_fr": "Ma mère fait une soupe aux légumes.",
+   "example_vi": "Mẹ tôi nấu súp rau.",
+   "note_vi": "'ou' đọc /u/ như 'u' tiếng Việt.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le porc",
+   "gender": "m",
+   "ipa": "/lə pɔʁ/",
+   "meaning_vi": "thịt heo",
+   "example_fr": "Je voudrais un kilo de porc, s'il vous plaît.",
+   "example_vi": "Cho tôi một ký thịt heo.",
+   "note_vi": "Chữ c cuối câm: /pɔʁ/.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le bœuf",
+   "gender": "m",
+   "ipa": "/lə bœf/",
+   "meaning_vi": "thịt bò; con bò",
+   "example_fr": "Ce soir, on mange du bœuf avec du riz.",
+   "example_vi": "Tối nay nhà mình ăn thịt bò với cơm.",
+   "note_vi": "Viết œ dính liền. Số ít đọc chữ f; số nhiều les bœufs đọc /bø/.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la pomme de terre",
+   "gender": "f",
+   "ipa": "/la pɔm də tɛʁ/",
+   "meaning_vi": "khoai tây",
+   "example_fr": "J'achète des pommes de terre au marché.",
+   "example_vi": "Tôi mua khoai tây ở chợ.",
+   "note_vi": "Số nhiều: les pommes de terre. Ở Québec hay nói: la patate.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "le restaurant",
+   "gender": "m",
+   "ipa": "/lə ʁɛstɔʁɑ̃/",
+   "meaning_vi": "nhà hàng",
+   "example_fr": "Ce restaurant vietnamien est toujours plein.",
+   "example_vi": "Nhà hàng Việt này lúc nào cũng đông khách.",
+   "note_vi": "Chữ t cuối câm. à + le = au: aller au restaurant.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "avoir faim",
+   "gender": "",
+   "ipa": "/avwaʁ fɛ̃/",
+   "meaning_vi": "đói",
+   "example_fr": "Les enfants ont faim après l'école.",
+   "example_vi": "Bọn trẻ đi học về là đói bụng.",
+   "note_vi": "Dùng avoir, không dùng être: j'ai faim. Khát: avoir soif.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la saison",
+   "gender": "f",
+   "ipa": "/la sɛzɔ̃/",
+   "meaning_vi": "mùa",
+   "example_fr": "L'été est ma saison préférée.",
+   "example_vi": "Mùa hè là mùa tôi thích nhất.",
+   "note_vi": "Nói vào mùa: en été, en automne, en hiver, nhưng au printemps.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la météo",
+   "gender": "f",
+   "ipa": "/la meteo/",
+   "meaning_vi": "dự báo thời tiết",
+   "example_fr": "Je regarde la météo chaque matin.",
+   "example_vi": "Sáng nào tôi cũng xem dự báo thời tiết.",
+   "note_vi": "Hỏi thời tiết: Quel temps fait-il ?",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "neiger",
+   "gender": "",
+   "ipa": "/neʒe/",
+   "meaning_vi": "(trời) có tuyết rơi",
+   "example_fr": "Il neige beaucoup en janvier.",
+   "example_vi": "Tháng Một tuyết rơi nhiều.",
+   "note_vi": "Chỉ dùng với il: il neige = trời có tuyết. Trời mưa: il pleut.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "la jupe",
+   "gender": "f",
+   "ipa": "/la ʒyp/",
+   "meaning_vi": "chân váy",
+   "example_fr": "Cette jupe noire coûte trente dollars.",
+   "example_vi": "Cái chân váy đen này giá ba mươi đô.",
+   "note_vi": "la robe = váy liền (đầm); la jupe = chân váy.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "les chaussettes",
+   "gender": "fpl",
+   "ipa": "/le ʃosɛt/",
+   "meaning_vi": "tất, vớ",
+   "example_fr": "Ces chaussettes sont très chaudes.",
+   "example_vi": "Đôi tất này rất ấm.",
+   "note_vi": "Giống cái số nhiều. Ở Québec hay nói: les bas.",
+   "group": "fr_core_doisong"
+  },
+  {
+   "word": "l'écharpe",
+   "gender": "f",
+   "ipa": "/leʃaʁp/",
+   "meaning_vi": "khăn quàng cổ",
+   "example_fr": "Mettez une écharpe, il fait moins vingt dehors !",
+   "example_vi": "Quàng khăn vào, ngoài trời âm hai mươi độ đấy!",
+   "note_vi": "Giống cái: une écharpe. Ở Québec hay nói: le foulard.",
+   "group": "fr_core_doisong"
+  }
+ ]
+}

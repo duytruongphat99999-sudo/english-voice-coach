@@ -1,0 +1,183 @@
+{
+  "id": "da_lieu_thuyet_trinh",
+  "name_vi": "Da liễu — thuyết trình ca lâm sàng",
+  "emoji": "🎤",
+  "track": "derm",
+  "order": 19,
+  "vocab": [
+    {
+      "word": "present with",
+      "ipa": "/ˈprez.ənt wɪð/",
+      "meaning_vi": "nhập viện hoặc khám với triệu chứng",
+      "example_en": "The patient presented with a sudden red rash on both arms.",
+      "example_vi": "Bệnh nhân đến khám với tình trạng phát ban đỏ đột ngột ở cả hai tay."
+    },
+    {
+      "word": "lesion",
+      "ipa": "/ˈliː.ʒən/",
+      "meaning_vi": "tổn thương da",
+      "example_en": "We noticed several small, itchy lesions on his lower back.",
+      "example_vi": "Chúng tôi nhận thấy vài tổn thương nhỏ, gây ngứa ở lưng dưới của anh ấy."
+    },
+    {
+      "word": "flare-up",
+      "ipa": "/ˈfler.ʌp/",
+      "meaning_vi": "đợt bùng phát bệnh",
+      "example_en": "Stress can often cause a severe flare-up of this skin condition.",
+      "example_vi": "Căng thẳng thường có thể gây ra đợt bùng phát nghiêm trọng của bệnh da liễu này."
+    },
+    {
+      "word": "differential diagnosis",
+      "ipa": "/ˌdɪf.əˈren.ʃəl ˌdaɪ.əɡˈnoʊ.sɪs/",
+      "meaning_vi": "chẩn đoán phân biệt",
+      "example_en": "Our differential diagnosis included eczema and a drug allergy.",
+      "example_vi": "Chẩn đoán phân biệt của chúng tôi bao gồm chàm và dị ứng thuốc."
+    },
+    {
+      "word": "biopsy",
+      "ipa": "/ˈbaɪ.ɑːp.si/",
+      "meaning_vi": "sinh thiết",
+      "example_en": "We performed a skin biopsy to confirm our initial diagnosis.",
+      "example_vi": "Chúng tôi đã tiến hành sinh thiết da để xác nhận chẩn đoán ban đầu."
+    },
+    {
+      "word": "steroid cream",
+      "ipa": "/ˈstɪr.ɔɪd kriːm/",
+      "meaning_vi": "kem bôi có chứa steroid",
+      "example_en": "Applying a mild steroid cream twice daily helped reduce the swelling.",
+      "example_vi": "Bôi kem steroid nhẹ hai lần một ngày đã giúp giảm sưng."
+    },
+    {
+      "word": "clear up",
+      "ipa": "/klɪr ʌp/",
+      "meaning_vi": "khỏi hẳn, sạch tổn thương",
+      "example_en": "The spots started to clear up after just three days of treatment.",
+      "example_vi": "Các nốt mụn bắt đầu lặn hẳn chỉ sau ba ngày điều trị."
+    },
+    {
+      "word": "slide",
+      "ipa": "/slaɪd/",
+      "meaning_vi": "hình chiếu, slide thuyết trình",
+      "example_en": "As you can see on this slide, the redness decreased significantly.",
+      "example_vi": "Như các bạn thấy trên slide này, vết đỏ đã giảm đi đáng kể."
+    },
+    {
+      "word": "rule out",
+      "ipa": "/ruːl aʊt/",
+      "meaning_vi": "loại trừ",
+      "example_en": "We need to run a few tests to rule out fungal infections.",
+      "example_vi": "Chúng tôi cần làm vài xét nghiệm để loại trừ nhiễm nấm."
+    },
+    {
+      "word": "onset",
+      "ipa": "/ˈɑːn.set/",
+      "meaning_vi": "sự khởi phát bệnh",
+      "example_en": "The onset of the symptoms was very rapid, starting overnight.",
+      "example_vi": "Sự khởi phát của các triệu chứng rất nhanh, bắt đầu chỉ sau một đêm."
+    },
+    {
+      "word": "itchy",
+      "ipa": "/ˈɪtʃ.i/",
+      "meaning_vi": "ngứa",
+      "example_en": "The patient complained that the rash was extremely itchy at night.",
+      "example_vi": "Bệnh nhân than phiền rằng vết phát ban cực kỳ ngứa vào ban đêm."
+    },
+    {
+      "word": "follow-up",
+      "ipa": "/ˈfɑːl.oʊ.ʌp/",
+      "meaning_vi": "tái khám, theo dõi",
+      "example_en": "During the follow-up visit, we saw no new lesions.",
+      "example_vi": "Trong buổi tái khám, chúng tôi không thấy có tổn thương mới nào."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Please take a close look at the red spots on this slide.",
+      "vi": "Xin vui lòng nhìn kỹ vào các nốt đỏ trên slide này.",
+      "focus_vi": "Phát âm đuôi /s/ trong spots và slide bắt đầu bằng /sl/."
+    },
+    {
+      "en": "The patient first noticed the itchy skin three weeks ago.",
+      "vi": "Bệnh nhân lần đầu tiên nhận thấy da bị ngứa ba tuần trước.",
+      "focus_vi": "Phát âm rõ âm /st/ trong first và âm /θ/ trong three."
+    },
+    {
+      "en": "We did a quick biopsy to rule out other diseases.",
+      "vi": "Chúng tôi đã làm sinh thiết nhanh để loại trừ các bệnh khác.",
+      "focus_vi": "Chú ý âm cuối /ks/ trong quick và /z/ trong diseases."
+    },
+    {
+      "en": "She applied the strong cream and the rash cleared up.",
+      "vi": "Cô ấy đã bôi loại kem mạnh và vết phát ban đã biến mất.",
+      "focus_vi": "Bật rõ cụm phụ âm /str/ trong strong và đuôi /d/ trong cleared."
+    },
+    {
+      "en": "Let's discuss the differential diagnosis for this specific case.",
+      "vi": "Hãy cùng thảo luận về chẩn đoán phân biệt cho trường hợp cụ thể này.",
+      "focus_vi": "Chú ý âm /s/ trong discuss và cụm /sp/ trong specific."
+    },
+    {
+      "en": "Does anyone in the audience have questions about the dose?",
+      "vi": "Có ai trong hội trường có câu hỏi về liều lượng không?",
+      "focus_vi": "Bật rõ âm cuối /z/ trong questions và âm /s/ trong dose."
+    },
+    {
+      "en": "The second slide shows the results after the first month.",
+      "vi": "Slide thứ hai cho thấy kết quả sau tháng đầu tiên.",
+      "focus_vi": "Phát âm rõ đuôi /nd/ trong second và cụm /ts/ trong results."
+    },
+    {
+      "en": "We scheduled a follow-up visit to check her progress.",
+      "vi": "Chúng tôi đã lên lịch một buổi tái khám để kiểm tra tiến trình của cô ấy.",
+      "focus_vi": "Phát âm đuôi /ld/ trong scheduled và /t/ trong visit."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Hôm nay tôi muốn chia sẻ một ca bệnh lâm sàng thú vị.",
+      "en_ref": "Today I'd like to share an interesting clinical case.",
+      "hint_en": "share, clinical case"
+    },
+    {
+      "vi": "Bệnh nhân là một phụ nữ ba mươi tuổi bị ngứa da nghiêm trọng.",
+      "en_ref": "The patient is a thirty-year-old woman with severe itchy skin.",
+      "hint_en": "with severe"
+    },
+    {
+      "vi": "Nhìn vào slide này, mọi người có thể thấy các nốt đỏ.",
+      "en_ref": "As you can see on this slide, there are red spots.",
+      "hint_en": "As you can see"
+    },
+    {
+      "vi": "Chúng tôi đã phải làm sinh thiết để chắc chắn về chẩn đoán.",
+      "en_ref": "We did a biopsy to be sure about the diagnosis.",
+      "hint_en": "did a biopsy"
+    },
+    {
+      "vi": "Ban đầu chúng tôi nghĩ là dị ứng nhưng thuốc không có tác dụng.",
+      "en_ref": "At first we thought it was an allergy, but the medicine didn't work.",
+      "hint_en": "At first, allergy"
+    },
+    {
+      "vi": "Sau hai tuần bôi kem, da cô ấy đã hoàn toàn bình thường trở lại.",
+      "en_ref": "After two weeks of using the cream, her skin went back to normal.",
+      "hint_en": "went back to normal"
+    },
+    {
+      "vi": "Tôi xin phép kết thúc bài thuyết trình ở đây, cảm ơn mọi người.",
+      "en_ref": "That brings me to the end of my presentation, thank you.",
+      "hint_en": "brings me to the end"
+    },
+    {
+      "vi": "Ai có câu hỏi hay góp ý gì cho ca này không ạ?",
+      "en_ref": "Does anyone have any questions or comments on this case?",
+      "hint_en": "questions or comments"
+    }
+  ],
+  "scenario": {
+    "role": "A doctor in the audience at the conference",
+    "context": "You have just finished presenting your clinical dermatology case at an international conference. A colleague in the audience stands up and asks a question about your treatment choice.",
+    "opener_en": "Thank you for the wonderful presentation. Why did you choose a mild steroid cream instead of a stronger one for this patient's flare-up?",
+    "opener_vi": "Cảm ơn bài trình bày rất tuyệt vời của bác sĩ. Tại sao bác sĩ lại chọn kem steroid nhẹ thay vì loại mạnh hơn cho đợt bùng phát của bệnh nhân này?"
+  }
+}

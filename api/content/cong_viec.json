@@ -1,0 +1,183 @@
+{
+  "id": "cong_viec",
+  "name_vi": "Công việc thường ngày",
+  "emoji": "💼",
+  "track": "everyday",
+  "order": 10,
+  "vocab": [
+    {
+      "word": "pull a double shift",
+      "ipa": "/pʊl ə ˈdʌb.əl ʃɪft/",
+      "meaning_vi": "làm hai ca liên tiếp",
+      "example_en": "I had to pull a double shift because my coworker called in sick.",
+      "example_vi": "Tôi phải làm hai ca liên tiếp vì đồng nghiệp xin nghỉ ốm."
+    },
+    {
+      "word": "run behind schedule",
+      "ipa": "/rʌn bɪˈhaɪnd ˈskɛdʒ.uːl/",
+      "meaning_vi": "bị trễ lịch, muộn giờ",
+      "example_en": "I'm running behind schedule today with all these back-to-back appointments.",
+      "example_vi": "Hôm nay tôi đang bị trễ lịch vì các cuộc hẹn diễn ra liên tiếp."
+    },
+    {
+      "word": "take a day off",
+      "ipa": "/teɪk ə deɪ ɔːf/",
+      "meaning_vi": "xin nghỉ một ngày",
+      "example_en": "I need to take a day off next week to rest a bit.",
+      "example_vi": "Tôi cần xin nghỉ một ngày vào tuần tới để nghỉ ngơi một chút."
+    },
+    {
+      "word": "swamped",
+      "ipa": "/swɑːmpt/",
+      "meaning_vi": "bận ngập đầu, quá tải",
+      "example_en": "The clinic is absolutely swamped with patients this morning.",
+      "example_vi": "Sáng nay phòng khám thực sự bận ngập đầu với bệnh nhân."
+    },
+    {
+      "word": "dead tired",
+      "ipa": "/dɛd ˈtaɪ.ərd/",
+      "meaning_vi": "mệt rã rời, mệt phờ",
+      "example_en": "After standing for eight hours, my legs are dead tired.",
+      "example_vi": "Sau khi đứng suốt tám tiếng, chân tôi mệt rã rời."
+    },
+    {
+      "word": "cover for me",
+      "ipa": "/ˈkʌv.ɚ fɚ miː/",
+      "meaning_vi": "làm thay tôi, trực thay tôi",
+      "example_en": "Can you cover for me for an hour while I run to the bank?",
+      "example_vi": "Bạn có thể trực thay tôi một tiếng trong khi tôi chạy ra ngân hàng không?"
+    },
+    {
+      "word": "slow day",
+      "ipa": "/sloʊ deɪ/",
+      "meaning_vi": "ngày vắng khách, ngày ít việc",
+      "example_en": "It is a slow day at the clinic, so we can clean up.",
+      "example_vi": "Hôm nay là một ngày ít khách ở phòng khám, nên chúng tôi có thể dọn dẹp."
+    },
+    {
+      "word": "call in sick",
+      "ipa": "/kɑːl ɪn sɪk/",
+      "meaning_vi": "gọi điện xin nghỉ ốm",
+      "example_en": "My assistant had to call in sick with a bad cough.",
+      "example_vi": "Trợ lý của tôi phải gọi điện xin nghỉ ốm vì bị ho nặng."
+    },
+    {
+      "word": "graveyard shift",
+      "ipa": "/ˈɡreɪv.jɑːrd ʃɪft/",
+      "meaning_vi": "ca đêm (thường từ nửa đêm đến sáng)",
+      "example_en": "I hate working the graveyard shift because it ruins my sleep.",
+      "example_vi": "Tôi ghét làm ca đêm vì nó làm hỏng giấc ngủ của tôi."
+    },
+    {
+      "word": "catch up on",
+      "ipa": "/kætʃ ʌp ɑːn/",
+      "meaning_vi": "làm bù, đọc bù, cập nhật",
+      "example_en": "I need to catch up on some paperwork before I go home.",
+      "example_vi": "Tôi cần làm bù một số giấy tờ trước khi về nhà."
+    },
+    {
+      "word": "head out",
+      "ipa": "/hɛd aʊt/",
+      "meaning_vi": "ra về, đi về",
+      "example_en": "I am about to head out, do you need anything else?",
+      "example_vi": "Tôi chuẩn bị ra về đây, bạn có cần gì nữa không?"
+    },
+    {
+      "word": "on my feet",
+      "ipa": "/ɑːn maɪ fiːt/",
+      "meaning_vi": "đứng suốt, không được ngồi",
+      "example_en": "I have been on my feet all day and my back hurts.",
+      "example_vi": "Tôi đã phải đứng suốt cả ngày và lưng tôi bị đau."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "She works six days a week and feels dead tired every night.",
+      "vi": "Cô ấy làm việc sáu ngày một tuần và cảm thấy mệt rã rời mỗi tối.",
+      "focus_vi": "Phát âm đúng đuôi s trong works, days và âm cuối trong night."
+    },
+    {
+      "en": "The skin clinic was swamped with patients after the long holiday.",
+      "vi": "Phòng khám da liễu đông nghịt bệnh nhân sau kỳ nghỉ dài.",
+      "focus_vi": "Phát âm đuôi -ed trong swamped thành âm /t/ rõ ràng."
+    },
+    {
+      "en": "Can you cover my shift on Friday so I can rest?",
+      "vi": "Bạn có thể trực thay ca của tôi vào thứ Sáu để tôi nghỉ ngơi không?",
+      "focus_vi": "Phát âm rõ cụm phụ âm /st/ trong từ rest."
+    },
+    {
+      "en": "He had to call in sick because of a terrible sore throat.",
+      "vi": "Anh ấy đã phải gọi điện xin nghỉ ốm vì bị đau họng kinh khủng.",
+      "focus_vi": "Phát âm đúng âm /θ/ trong từ throat."
+    },
+    {
+      "en": "I need to catch up on paperwork before the next shipment arrives.",
+      "vi": "Tôi cần giải quyết nốt đống giấy tờ trước khi lô hàng tiếp theo tới.",
+      "focus_vi": "Phát âm đúng âm cuối /t/ trong shipment."
+    },
+    {
+      "en": "The staff struggled to finish all the tasks on their schedule.",
+      "vi": "Nhân viên đã chật vật để hoàn thành tất cả các nhiệm vụ trong lịch trình.",
+      "focus_vi": "Phát âm đúng âm /f/ cuối trong staff và đuôi /z/ trong tasks."
+    },
+    {
+      "en": "We usually have a slow day on Tuesdays but not this week.",
+      "vi": "Chúng tôi thường có một ngày ít việc vào các thứ Ba nhưng tuần này thì không.",
+      "focus_vi": "Phát âm rõ âm /z/ ở cuối từ Tuesdays."
+    },
+    {
+      "en": "I was on my feet for twelve hours during the surgery.",
+      "vi": "Tôi đã phải đứng suốt mười hai tiếng đồng hồ trong suốt ca phẫu thuật.",
+      "focus_vi": "Phát âm đúng âm /ts/ ở cuối từ feet."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Hôm nay tôi mệt rã rời vì phòng khám đông khách kinh khủng.",
+      "en_ref": "I am dead tired today because the clinic was super busy.",
+      "hint_en": "dead tired"
+    },
+    {
+      "vi": "Thứ Sáu tới tôi xin nghỉ một ngày để đi khám răng được không?",
+      "en_ref": "Can I take a day off next Friday to see the dentist?",
+      "hint_en": "take a day off"
+    },
+    {
+      "vi": "Tôi đang bị trễ lịch nên không thể ăn trưa lâu được.",
+      "en_ref": "I am running behind schedule so I cannot have a long lunch.",
+      "hint_en": "running behind"
+    },
+    {
+      "vi": "Bạn làm ơn trực thay tôi khoảng ba mươi phút được không?",
+      "en_ref": "Could you please cover for me for about thirty minutes?",
+      "hint_en": "cover for me"
+    },
+    {
+      "vi": "Hôm nay là một ngày ít khách, chúng ta có thể về sớm một chút.",
+      "en_ref": "Today is a slow day, we can head out a bit early.",
+      "hint_en": "slow day"
+    },
+    {
+      "vi": "Tôi phải làm hai ca liên tiếp vì đồng nghiệp của tôi bị ốm đột xuất.",
+      "en_ref": "I had to pull a double shift because my colleague got sick suddenly.",
+      "hint_en": "pull a double shift"
+    },
+    {
+      "vi": "Tôi chuẩn bị ra về đây, gặp lại bạn vào ngày mai nhé.",
+      "en_ref": "I am about to head out, see you tomorrow.",
+      "hint_en": "head out"
+    },
+    {
+      "vi": "Cả ngày hôm nay tôi phải đứng suốt nên chân đau quá.",
+      "en_ref": "I have been on my feet all day so my legs really hurt.",
+      "hint_en": "on my feet"
+    }
+  ],
+  "scenario": {
+    "role": "Your coworker at the clinic",
+    "context": "You just finished a very long, busy day at work. Your coworker sees you sitting down, looking completely exhausted, and walks over to talk to you.",
+    "opener_en": "Hey, you look absolutely exhausted! Was your afternoon as crazy as mine, or did you have a chance to sit down?",
+    "opener_vi": "Này, trông bồ mệt lử mắt ra kìa! Chiều nay bên bồ cũng bận điên cuồng như bên tôi hả, hay là có lúc nào được ngồi nghỉ chút không?"
+  }
+}

@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+/*
+  Nguyen tac mau (spec §6.4): tieng Anh — thu phai NOI RA — dam, sang, co
+  accent. Tieng Viet — nhan, goi y, giai thich — mo, nho, xam. Nao phai phan
+  biet duoc "cai phai san xuat" voi "cai chi de doc".
+*/
+@theme {
+  --color-ink: #0b0c10;
+  --color-surface: #14161d;
+  --color-surface-2: #1c1f28;
+  --color-line: #262a35;
+
+  /* Tieng Anh */
+  --color-en: #f2f4f8;
+  --color-en-dim: #c8cdd8;
+  /* Tieng Viet */
+  --color-vi: #767d8e;
+
+  --color-accent: #4ade9b;
+  --color-accent-deep: #0f9e6b;
+  --color-warn: #f2b93b;
+  --color-bad: #f2765b;
+
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  background: var(--color-ink);
+  color: var(--color-en);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  /* Vung an toan tren iPhone: nut mic nam sat day. */
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Khong cho keo nay man hinh khi dang thu am. */
+body.recording {
+  overscroll-behavior: none;
+  touch-action: manipulation;
+}
+
+button {
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, a, [role='button'] { touch-action: manipulation; }
+button, [role='button'] { -webkit-user-select: none; user-select: none; }
+input, textarea, select { font-size: max(16px, 1em); }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.private-nav { padding-bottom: env(safe-area-inset-bottom, 0px); }
+body:not(.public-study) { padding-top: env(safe-area-inset-top, 0px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Thanh cuon mong, khong chiem cho tren man hep. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}

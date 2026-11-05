@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import PteHome from '../islands/PteHome';
+---
+
+<!--
+  11/09/2026: /pte thanh man TONG QUAN lo trinh (dem nguoc, giai doan, hom nay hoc gi).
+  Bai tap Nhai cau / Nghe-go chuyen sang /pte-drill. Link cu /pte?mode=rs|wfd van
+  chay — PteHome tu chuyen huong. KHONG de bare: day la man cua tab, can thanh dieu huong.
+-->
+<Base title="PTE · English Voice Coach">
+  <PteHome client:only="preact" />
+</Base>

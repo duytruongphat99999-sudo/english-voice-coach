@@ -1,0 +1,183 @@
+{
+  "id": "suc_khoe",
+  "name_vi": "Sức khoẻ",
+  "emoji": "🤒",
+  "track": "everyday",
+  "order": 7,
+  "vocab": [
+    {
+      "word": "come down with",
+      "ipa": "/ˈkʌm ˈdaʊn wɪð/",
+      "meaning_vi": "bị ốm, đổ bệnh (nhẹ)",
+      "example_en": "I think I'm coming down with a bad cold.",
+      "example_vi": "Tôi nghĩ tôi đang bị cảm lạnh nặng rồi."
+    },
+    {
+      "word": "run down",
+      "ipa": "/ˌrʌn ˈdaʊn/",
+      "meaning_vi": "mệt mỏi, kiệt sức",
+      "example_en": "I've been feeling really run down lately.",
+      "example_vi": "Dạo này tôi cảm thấy rất mệt mỏi, kiệt sức."
+    },
+    {
+      "word": "splitting headache",
+      "ipa": "/ˈsplɪt.ɪŋ ˈhed.eɪk/",
+      "meaning_vi": "đau đầu như búa bổ",
+      "example_en": "I woke up with a splitting headache this morning.",
+      "example_vi": "Sáng nay tôi thức dậy với một cơn đau đầu như búa bổ."
+    },
+    {
+      "word": "over-the-counter",
+      "ipa": "/ˌoʊ.vɚ.ðəˈkaʊn.tɚ/",
+      "meaning_vi": "thuốc tự mua không cần kê đơn",
+      "example_en": "You can buy this painkiller over-the-counter.",
+      "example_vi": "Bạn có thể mua thuốc giảm đau này mà không cần đơn."
+    },
+    {
+      "word": "call in sick",
+      "ipa": "/ˌkɑːl ɪn ˈsɪk/",
+      "meaning_vi": "gọi điện xin nghỉ ốm",
+      "example_en": "I had to call in sick to work today.",
+      "example_vi": "Hôm nay tôi đã phải gọi điện xin nghỉ ốm ở chỗ làm."
+    },
+    {
+      "word": "prescription",
+      "ipa": "/prɪˈskrɪp.ʃən/",
+      "meaning_vi": "đơn thuốc",
+      "example_en": "I need to pick up my prescription from the pharmacy.",
+      "example_vi": "Tôi cần đi lấy thuốc theo đơn ở nhà thuốc."
+    },
+    {
+      "word": "throw up",
+      "ipa": "/ˈθroʊ ˈʌp/",
+      "meaning_vi": "nôn, ói",
+      "example_en": "I felt like I was going to throw up.",
+      "example_vi": "Tôi cảm giác như mình sắp nôn ra đến nơi."
+    },
+    {
+      "word": "sleep like a log",
+      "ipa": "/sliːp laɪk ə lɔːɡ/",
+      "meaning_vi": "ngủ say như chết, ngủ rất ngon",
+      "example_en": "I usually sleep like a log after a long run.",
+      "example_vi": "Tôi thường ngủ rất ngon sau một buổi chạy dài."
+    },
+    {
+      "word": "clear up",
+      "ipa": "/ˈklɪr ˈʌp/",
+      "meaning_vi": "khỏi hẳn, biến mất (triệu chứng)",
+      "example_en": "My rash should clear up in a few days.",
+      "example_vi": "Vết phát ban của tôi chắc sẽ khỏi hẳn sau vài ngày."
+    },
+    {
+      "word": "under the weather",
+      "ipa": "/ˈʌn.dɚ ðə ˈweð.ɚ/",
+      "meaning_vi": "không được khỏe, hơi mệt",
+      "example_en": "I'm feeling a bit under the weather today.",
+      "example_vi": "Hôm nay tôi cảm thấy hơi mệt mỏi trong người."
+    },
+    {
+      "word": "side effect",
+      "ipa": "/ˈsaɪd ɪˌfekt/",
+      "meaning_vi": "tác dụng phụ",
+      "example_en": "Does this allergy medication have any side effects?",
+      "example_vi": "Thuốc dị ứng này có tác dụng phụ nào không?"
+    },
+    {
+      "word": "burn out",
+      "ipa": "/ˌbɝːn ˈaʊt/",
+      "meaning_vi": "kiệt sức, quá tải do căng thẳng",
+      "example_en": "If you work twelve hours a day, you will burn out.",
+      "example_vi": "Nếu bạn làm việc mười hai tiếng một ngày, bạn sẽ kiệt sức mất."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "She has a splitting headache and needs to rest.",
+      "vi": "Cô ấy bị đau đầu như búa bổ và cần được nghỉ ngơi.",
+      "focus_vi": "Phát âm cụm /spl/ trong từ \"splitting\" và âm /s/ cuối."
+    },
+    {
+      "en": "I called in sick because my throat was extremely sore.",
+      "vi": "Tôi xin nghỉ ốm vì họng tôi bị đau rát kinh khủng.",
+      "focus_vi": "Bật rõ âm đuôi /d/ ở \"called\" và âm /θ/ trong \"throat\"."
+    },
+    {
+      "en": "The pharmacist explained the side effects of these pills.",
+      "vi": "Dược sĩ đã giải thích các tác dụng phụ của những viên thuốc này.",
+      "focus_vi": "Phát âm đuôi /st/ ở \"pharmacist\" và âm /z/ ở \"pills\"."
+    },
+    {
+      "en": "He stretches every morning to reduce his stress levels.",
+      "vi": "Anh ấy giãn cơ mỗi sáng để giảm bớt mức độ căng thẳng.",
+      "focus_vi": "Phát âm đuôi /es/ của \"stretches\" và cụm /str/ trong \"stress\"."
+    },
+    {
+      "en": "I slept badly last night and feel completely exhausted.",
+      "vi": "Đêm qua tôi ngủ không ngon và giờ cảm thấy hoàn toàn kiệt sức.",
+      "focus_vi": "Phát âm đuôi /pt/ ở \"slept\" và đuôi /st/ ở \"exhausted\"."
+    },
+    {
+      "en": "Could you please pick up my prescription this afternoon?",
+      "vi": "Chiều nay bạn có thể lấy giúp tôi đơn thuốc được không?",
+      "focus_vi": "Phân biệt âm /r/ và /l/ trong \"prescription\" và \"please\"."
+    },
+    {
+      "en": "My skin feels very dry and itchy this week.",
+      "vi": "Da tôi cảm thấy rất khô và ngứa ngáy tuần này.",
+      "focus_vi": "Phát âm âm /s/ cuối của \"feels\" và âm /ð/ trong \"this\"."
+    },
+    {
+      "en": "She walks three miles daily to stay healthy.",
+      "vi": "Cô ấy đi bộ ba dặm mỗi ngày để giữ sức khỏe.",
+      "focus_vi": "Bật rõ âm /ks/ ở \"walks\" và âm /θ/ trong \"three\"."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Tôi nghĩ tôi bị cảm rồi, người cứ run bần bật.",
+      "en_ref": "I think I'm coming down with something, I'm shivering.",
+      "hint_en": "coming down with"
+    },
+    {
+      "vi": "Hôm nay tôi không đi làm được vì sốt cao quá.",
+      "en_ref": "I can't make it to work today because I have a high fever.",
+      "hint_en": "can't make it"
+    },
+    {
+      "vi": "Thuốc này có cần đơn của bác sĩ không ạ?",
+      "en_ref": "Do I need a prescription for this medicine?",
+      "hint_en": "prescription"
+    },
+    {
+      "vi": "Dạo này tôi bị mất ngủ vì áp lực công việc quá.",
+      "en_ref": "I've been having trouble sleeping lately due to work stress.",
+      "hint_en": "trouble sleeping"
+    },
+    {
+      "vi": "Uống thuốc này vào có bị buồn ngủ không?",
+      "en_ref": "Will this medication make me drowsy?",
+      "hint_en": "make me drowsy"
+    },
+    {
+      "vi": "Tôi xin lỗi nhưng tôi phải hủy hẹn tối nay vì thấy không khỏe.",
+      "en_ref": "I'm sorry but I have to cancel tonight because I'm feeling under the weather.",
+      "hint_en": "under the weather"
+    },
+    {
+      "vi": "Tôi bị đau cơ sau khi tập thể dục hôm qua.",
+      "en_ref": "My muscles are really sore after working out yesterday.",
+      "hint_en": "sore, working out"
+    },
+    {
+      "vi": "Anh nên nghỉ ngơi vài ngày cho khỏe hẳn đã.",
+      "en_ref": "You should rest for a few days to fully recover.",
+      "hint_en": "fully recover"
+    }
+  ],
+  "scenario": {
+    "role": "A pharmacist at a local pharmacy",
+    "context": "You are feeling unwell with a sudden sore throat and a mild fever. You walk into a pharmacy near your house to get some over-the-counter medicine before deciding if you need to see a doctor.",
+    "opener_en": "Hello! How can I help you today? You look a bit tired, are you looking for something specific?",
+    "opener_vi": "Xin chào! Tôi có thể giúp gì cho bạn hôm nay? Trông bạn hơi mệt, bạn đang tìm thuốc gì cụ thể à?"
+  }
+}

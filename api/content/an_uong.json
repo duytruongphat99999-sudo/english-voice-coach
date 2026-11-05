@@ -1,0 +1,183 @@
+{
+  "id": "an_uong",
+  "name_vi": "Ăn uống",
+  "emoji": "🍜",
+  "track": "everyday",
+  "order": 1,
+  "vocab": [
+    {
+      "word": "split the bill",
+      "ipa": "/splɪt ðə bɪl/",
+      "meaning_vi": "chia tiền hóa đơn",
+      "example_en": "Let's split the bill down the middle tonight.",
+      "example_vi": "Tối nay chúng ta chia đôi hóa đơn nhé."
+    },
+    {
+      "word": "break out in hives",
+      "ipa": "/breɪk aʊt ɪn haɪvz/",
+      "meaning_vi": "nổi mề đay",
+      "example_en": "I break out in hives if I eat peanuts.",
+      "example_vi": "Tôi sẽ bị nổi mề đay nếu ăn đậu phộng."
+    },
+    {
+      "word": "street food stall",
+      "ipa": "/striːt fuːd stɔːl/",
+      "meaning_vi": "quầy thức ăn đường phố",
+      "example_en": "This street food stall has the best grilled pork.",
+      "example_vi": "Quầy đồ ăn lề đường này có món thịt nướng ngon nhất."
+    },
+    {
+      "word": "treat someone to lunch",
+      "ipa": "/triːt ˈsʌm.wʌn tə lʌntʃ/",
+      "meaning_vi": "mời ai đó bữa trưa",
+      "example_en": "Let me treat you to lunch to say thanks.",
+      "example_vi": "Để tôi mời bạn ăn trưa để cảm ơn nhé."
+    },
+    {
+      "word": "have a sweet tooth",
+      "ipa": "/hæv ə swiːt tuːθ/",
+      "meaning_vi": "hảo ngọt, thích ăn đồ ngọt",
+      "example_en": "I have a sweet tooth so I need dessert.",
+      "example_vi": "Tôi hảo ngọt nên tôi cần ăn món tráng miệng."
+    },
+    {
+      "word": "grab a bite",
+      "ipa": "/ɡræb ə baɪt/",
+      "meaning_vi": "đi ăn cái gì đó nhanh gọn",
+      "example_en": "Do you want to grab a bite after work?",
+      "example_vi": "Bạn có muốn đi ăn chút gì đó sau giờ làm không?"
+    },
+    {
+      "word": "dairy-free",
+      "ipa": "/ˈder.i friː/",
+      "meaning_vi": "không chứa sữa hoặc chế phẩm từ sữa",
+      "example_en": "Is there a dairy-free option for this soup?",
+      "example_vi": "Món súp này có lựa chọn không chứa sữa không?"
+    },
+    {
+      "word": "mild",
+      "ipa": "/maɪld/",
+      "meaning_vi": "không cay, cay nhẹ",
+      "example_en": "Please make my noodles mild, I can't eat spicy.",
+      "example_vi": "Làm ơn làm mì của tôi ít cay thôi, tôi không ăn cay được."
+    },
+    {
+      "word": "greasy",
+      "ipa": "/ˈɡriː.si/",
+      "meaning_vi": "nhiều dầu mỡ",
+      "example_en": "This fried chicken is a bit too greasy for me.",
+      "example_vi": "Món gà rán này hơi bị nhiều dầu mỡ đối với tôi."
+    },
+    {
+      "word": "allergic to",
+      "ipa": "/əˈlɝː.dʒɪk tuː/",
+      "meaning_vi": "dị ứng với",
+      "example_en": "My colleague is highly allergic to shellfish.",
+      "example_vi": "Đồng nghiệp của tôi bị dị ứng rất nặng với hải sản có vỏ."
+    },
+    {
+      "word": "hit the spot",
+      "ipa": "/hɪt ðə spɑːt/",
+      "meaning_vi": "đúng thứ mình thèm, rất đã",
+      "example_en": "That cold beer really hit the spot after work.",
+      "example_vi": "Ly bia lạnh đó thực sự rất đã sau giờ làm việc."
+    },
+    {
+      "word": "pick up the tab",
+      "ipa": "/pɪk ʌp ðə tæb/",
+      "meaning_vi": "trả tiền hóa đơn (cho cả bàn)",
+      "example_en": "Don't worry, my boss will pick up the tab.",
+      "example_vi": "Đừng lo, sếp của tôi sẽ trả hóa đơn này."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "She ordered three plates of grilled pork with extra sauce.",
+      "vi": "Cô ấy đã gọi ba đĩa thịt lợn nướng kèm thêm nước sốt.",
+      "focus_vi": "Phát âm rõ âm cuối /ts/ trong từ plates."
+    },
+    {
+      "en": "The street vendor serves fresh spring rolls with peanut sauce.",
+      "vi": "Người bán hàng rong phục vụ món gỏi cuốn tươi với sốt đậu phộng.",
+      "focus_vi": "Nhấn rõ âm /s/ cuối của từ serves và rolls."
+    },
+    {
+      "en": "My throat feels scratchy after drinking that iced lemon tea.",
+      "vi": "Họng tôi cảm thấy ngứa ngáy sau khi uống ly trà chanh đá đó.",
+      "focus_vi": "Phát âm chuẩn âm /θ/ trong từ throat."
+    },
+    {
+      "en": "We should split the bill because the steak was expensive.",
+      "vi": "Chúng ta nên chia hóa đơn vì món bít tết khá đắt đỏ.",
+      "focus_vi": "Bật rõ cụm phụ âm /spl/ trong từ split."
+    },
+    {
+      "en": "He has a severe seafood allergy and starts to sneeze.",
+      "vi": "Anh ấy bị dị ứng hải sản nghiêm trọng và bắt đầu hắt hơi.",
+      "focus_vi": "Phát âm đúng âm /z/ ở cuối từ sneeze."
+    },
+    {
+      "en": "The crispy chicken breast was served with roasted garlic potatoes.",
+      "vi": "Món ức gà giòn được phục vụ kèm khoai tây tỏi đút lò.",
+      "focus_vi": "Chú ý âm đuôi /st/ trong breast và roasted."
+    },
+    {
+      "en": "They decided to try the local craft beer last night.",
+      "vi": "Họ đã quyết định thử bia thủ công địa phương vào tối qua.",
+      "focus_vi": "Phát âm rõ âm đuôi /t/ trong từ craft."
+    },
+    {
+      "en": "Please tell the chef that I cannot eat dairy products.",
+      "vi": "Làm ơn nói với đầu bếp là tôi không ăn được các sản phẩm từ sữa.",
+      "focus_vi": "Phát âm đúng âm /ʃ/ của từ chef."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Hôm nay tôi bao, bạn cứ gọi món gì bạn thích đi.",
+      "en_ref": "It's my treat today, so order whatever you like.",
+      "hint_en": "my treat"
+    },
+    {
+      "vi": "Tôi bị dị ứng hải sản nặng, nên món này có tôm không?",
+      "en_ref": "I have a severe seafood allergy, so does this have shrimp?",
+      "hint_en": "seafood allergy"
+    },
+    {
+      "vi": "Chúng ta chia đôi hóa đơn nhé, của bạn hết mười đô.",
+      "en_ref": "Let's split the bill, your share is ten dollars.",
+      "hint_en": "split the bill"
+    },
+    {
+      "vi": "Món súp này hơi nhạt, cho tôi xin tí muối được không?",
+      "en_ref": "This soup is a bit bland, can I get some salt?",
+      "hint_en": "bland"
+    },
+    {
+      "vi": "Bạn đã thử quán bánh mì vỉa hè gần khách sạn chưa?",
+      "en_ref": "Have you tried the roadside banh mi stall near the hotel?",
+      "hint_en": "stall near"
+    },
+    {
+      "vi": "Cho tôi một phần bò bít tết chín vừa kèm khoai tây chiên.",
+      "en_ref": "I'll have a medium steak with a side of fries.",
+      "hint_en": "medium steak"
+    },
+    {
+      "vi": "Tôi không ăn được cay, nên làm ơn đừng bỏ ớt nhé.",
+      "en_ref": "I can't handle spicy food, so please don't add chili.",
+      "hint_en": "handle spicy"
+    },
+    {
+      "vi": "Tối nay đi uống chút gì đó sau giờ làm không?",
+      "en_ref": "Do you want to grab a drink after work tonight?",
+      "hint_en": "grab a drink"
+    }
+  ],
+  "scenario": {
+    "role": "Foreign business partner",
+    "context": "You are hosting a foreign business partner for dinner in Ho Chi Minh City. They want to try authentic local street food but are worried about hygiene and spicy ingredients.",
+    "opener_en": "I really want to try some local street food tonight, but my stomach is quite sensitive. Where should we go?",
+    "opener_vi": "Tôi rất muốn thử vài món ăn đường phố tối nay, nhưng bụng tôi khá nhạy cảm. Chúng ta nên đi đâu đây?"
+  }
+}

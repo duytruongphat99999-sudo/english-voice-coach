@@ -1,0 +1,183 @@
+{
+  "id": "cuoi_tuan",
+  "name_vi": "Cuối tuần, du lịch",
+  "emoji": "✈️",
+  "track": "everyday",
+  "order": 11,
+  "vocab": [
+    {
+      "word": "book in advance",
+      "ipa": "/bʊk ɪn ædˈvæns/",
+      "meaning_vi": "đặt trước",
+      "example_en": "You should book in advance because the beach resort gets full quickly.",
+      "example_vi": "Bạn nên đặt trước vì khu nghỉ dưỡng sát biển rất nhanh hết phòng."
+    },
+    {
+      "word": "pack light",
+      "ipa": "/pæk laɪt/",
+      "meaning_vi": "mang đồ gọn nhẹ",
+      "example_en": "I always pack light when I go hiking in the mountains.",
+      "example_vi": "Tôi luôn mang đồ gọn nhẹ khi đi leo núi."
+    },
+    {
+      "word": "sightseeing",
+      "ipa": "/ˈsaɪtˌsiː.ɪŋ/",
+      "meaning_vi": "đi ngắm cảnh, tham quan",
+      "example_en": "We spent the whole Saturday sightseeing around the ancient town.",
+      "example_vi": "Chúng tôi đã dành cả ngày thứ Bảy để đi ngắm cảnh quanh phố cổ."
+    },
+    {
+      "word": "breathtaking view",
+      "ipa": "/ˈbreθˌteɪ.kɪŋ vjuː/",
+      "meaning_vi": "cảnh đẹp đến ngạt thở, cảnh đẹp xuất sắc",
+      "example_en": "Our hotel room had a breathtaking view of the ocean.",
+      "example_vi": "Phòng khách sạn của chúng tôi có tầm nhìn ra đại dương đẹp xuất sắc."
+    },
+    {
+      "word": "overrated",
+      "ipa": "/ˌoʊ.vɚˈreɪ.tɪd/",
+      "meaning_vi": "được đánh giá quá cao, không đẹp/tốt như lời đồn",
+      "example_en": "That tourist beach is overrated and too crowded nowadays.",
+      "example_vi": "Bãi biển du lịch đó bị đồn thổi quá lên chứ giờ đông đúc quá."
+    },
+    {
+      "word": "look-out point",
+      "ipa": "/ˈlʊk.aʊt pɔɪnt/",
+      "meaning_vi": "vị trí ngắm cảnh, đài quan sát",
+      "example_en": "Let's stop at the next look-out point to take some photos.",
+      "example_vi": "Hãy dừng ở điểm ngắm cảnh tiếp theo để chụp vài kiểu ảnh nhé."
+    },
+    {
+      "word": "fully booked",
+      "ipa": "/ˈfʊl.i bʊkt/",
+      "meaning_vi": "hết sạch phòng, kín lịch",
+      "example_en": "The hotel was fully booked, so we had to search online again.",
+      "example_vi": "Khách sạn đã hết sạch phòng nên chúng tôi phải tìm kiếm trực tuyến lại."
+    },
+    {
+      "word": "day trip",
+      "ipa": "/ˈdeɪ trɪp/",
+      "meaning_vi": "chuyến đi trong ngày",
+      "example_en": "We decided to take a quick day trip to the countryside.",
+      "example_vi": "Chúng tôi quyết định đi một chuyến đi ngắn trong ngày về vùng quê."
+    },
+    {
+      "word": "jet lag",
+      "ipa": "/ˈdʒet læɡ/",
+      "meaning_vi": "sự mệt mỏi sau chuyến bay dài, lệch múi giờ",
+      "example_en": "I need some coffee to fight this terrible jet lag.",
+      "example_vi": "Tôi cần chút cà phê để chống lại sự mệt mỏi do lệch múi giờ kinh khủng này."
+    },
+    {
+      "word": "itinerary",
+      "ipa": "/aɪˈtɪn.ə.rer.i/",
+      "meaning_vi": "lịch trình chuyến đi",
+      "example_en": "She sent me the weekend itinerary with all the hotel details.",
+      "example_vi": "Cô ấy đã gửi cho tôi lịch trình cuối tuần với đầy đủ chi tiết khách sạn."
+    },
+    {
+      "word": "local cuisine",
+      "ipa": "/ˈloʊ.kəl kwɪˈziːn/",
+      "meaning_vi": "ẩm thực địa phương",
+      "example_en": "Trying the local cuisine is my favorite part of any trip.",
+      "example_vi": "Thử ẩm thực địa phương là phần tôi thích nhất trong mỗi chuyến đi."
+    },
+    {
+      "word": "souvenir",
+      "ipa": "/ˌsuː.vəˈnɪr/",
+      "meaning_vi": "quà lưu niệm",
+      "example_en": "I bought this small wooden box as a souvenir from Da Lat.",
+      "example_vi": "Tôi đã mua chiếc hộp gỗ nhỏ này làm quà lưu niệm từ Đà Lạt."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "She packs three shirts and two swimsuits for the weekend beach trip.",
+      "vi": "Cô ấy xếp ba chiếc áo sơ mi và hai bộ đồ bơi cho chuyến đi biển cuối tuần.",
+      "focus_vi": "Phát âm rõ âm cuối s/z ở từ \"packs\", \"shirts\", \"swimsuits\"."
+    },
+    {
+      "en": "The street was crowded with tourists taking photos of the old bridge.",
+      "vi": "Con đường đông nghịt khách du lịch đang chụp ảnh cây cầu cổ.",
+      "focus_vi": "Nhấn rõ âm đuôi /t/ trong \"street\" và âm /st/ trong \"tourists\"."
+    },
+    {
+      "en": "We missed the flight because we stayed at the hotel bar too late.",
+      "vi": "Chúng tôi lỡ chuyến bay vì ở lại quầy bar khách sạn quá muộn.",
+      "focus_vi": "Phát âm rõ âm đuôi /t/ ở \"flight\" và /st/ ở \"missed\"."
+    },
+    {
+      "en": "This mountain resort has the most spectacular views in the whole province.",
+      "vi": "Khu nghỉ dưỡng trên núi này có những tầm nhìn ngoạn mục nhất trong cả tỉnh.",
+      "focus_vi": "Bật rõ âm đuôi /ts/ trong \"resorts\" và âm đuôi /z/ trong \"views\"."
+    },
+    {
+      "en": "Please ask the receptionist if they have any spare blankets left.",
+      "vi": "Làm ơn hỏi lễ tân xem họ còn chiếc chăn dự phòng nào không.",
+      "focus_vi": "Phát âm rõ cụm phụ âm /sk/ trong \"ask\" và âm /t/ trong \"blankets\"."
+    },
+    {
+      "en": "He hates traveling with heavy bags because his back always hurts.",
+      "vi": "Anh ấy ghét đi du lịch với túi nặng vì lưng anh ấy luôn bị đau.",
+      "focus_vi": "Chú ý phát âm rõ âm cuối /s/ trong \"hates\" và \"hurts\"."
+    },
+    {
+      "en": "They walked through the forest to reach the secret waterfall on Saturday.",
+      "vi": "Họ đã đi bộ xuyên rừng để đến được thác nước bí mật vào thứ Bảy.",
+      "focus_vi": "Phát âm rõ âm /θ/ trong \"through\" và /st/ trong \"forest\"."
+    },
+    {
+      "en": "She shared pictures of her expensive hotel room on social media.",
+      "vi": "Cô ấy đã chia sẻ những bức ảnh về phòng khách sạn đắt tiền của mình lên mạng xã hội.",
+      "focus_vi": "Phát âm rõ âm cuối /d/ trong \"shared\" và âm /z/ trong \"pictures\"."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Cuối tuần này cậu có kế hoạch gì chưa, hay chỉ ở nhà thôi?",
+      "en_ref": "Do you have any plans for this weekend, or are you just staying home?",
+      "hint_en": "plans for this weekend"
+    },
+    {
+      "vi": "Tôi thích đi leo núi hơn là đi nằm dài ngoài bãi biển.",
+      "en_ref": "I prefer hiking in the mountains to lying on the beach.",
+      "hint_en": "prefer hiking to"
+    },
+    {
+      "vi": "Khách sạn đó có gần các địa điểm tham quan nổi tiếng không?",
+      "en_ref": "Is that hotel close to the famous sightseeing spots?",
+      "hint_en": "close to famous"
+    },
+    {
+      "vi": "Nhớ mang theo kem chống nắng nhé, trên núi nắng gắt lắm đấy.",
+      "en_ref": "Remember to pack sunscreen, the sun is very strong in the mountains.",
+      "hint_en": "pack sunscreen"
+    },
+    {
+      "vi": "Bạn có thể chụp hộ chúng tôi một kiểu ảnh ở đây được không?",
+      "en_ref": "Could you please take a photo of us here?",
+      "hint_en": "take a photo"
+    },
+    {
+      "vi": "Khách sạn hết phòng rồi nên chúng tôi phải tìm chỗ khác.",
+      "en_ref": "The hotel was fully booked, so we had to find another place.",
+      "hint_en": "fully booked"
+    },
+    {
+      "vi": "Chuyến đi Phú Quốc của bạn thế nào? Kể cho tôi nghe đi!",
+      "en_ref": "How was your trip to Phu Quoc? Tell me all about it!",
+      "hint_en": "How was your trip"
+    },
+    {
+      "vi": "Chúng tôi quyết định không đặt tour mà tự đi khám phá.",
+      "en_ref": "We decided not to book a tour and just explore on our own.",
+      "hint_en": "on our own"
+    }
+  ],
+  "scenario": {
+    "role": "A receptionist at a cozy boutique hotel near a beautiful mountain trail.",
+    "context": "You are arriving at the hotel after a long day of travel. You want to check in, ask about the best local spots for taking photos tomorrow morning, and check if they have a map.",
+    "opener_en": "Welcome to Mountain Breeze Lodge! How was your journey here, and can I help you check in?",
+    "opener_vi": "Chào mừng quý khách đến với Mountain Breeze Lodge! Chuyến đi đến đây của quý khách thế nào ạ, tôi có thể hỗ trợ quý khách nhận phòng được không?"
+  }
+}

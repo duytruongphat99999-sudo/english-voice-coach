@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import DailyHome from '../islands/DailyHome';
+---
+<Base title="Huấn luyện cá nhân · English Voice Coach">
+  <div class="px-5 pt-4"><a href="/" class="text-accent">← Khu học miễn phí</a></div>
+  <DailyHome client:only="preact" />
+</Base>

@@ -1,0 +1,2103 @@
+{
+ "version": 1,
+ "note": "PTE Listening — bai nghe chuyen the tu nguon mo (Wikipedia / Simple English Wikipedia, CC BY-SA 4.0), doc bang TTS. Cau hoi, phuong an, tu bi thay (hiw) va cau hoi asq do Claude soan; MOI DE da duoc agent KIEM MU truoc khi nap (CONTEXT_SYNC 12/09). DINH DANG: fibl — o trong viet {{tu}} ngay trong script, answers_text theo thu tu. hiw — tu bi thay viet {{tren-man|doc-that}} (MOT tu, khong dau cach). smw — script la phan DOC TRUOC tieng bip, options + answers (chi so 0-based). mcsa_l/mcma_l/hcs — script + question + options + answers. asq — script la cau hoi, answers_text la moi cach tra loi chap nhan (thuong, co ca bien the Anh-My). LUAT: chi dua du kien co trong nguon; tu o trong fibl viet giong nhau Anh-My, khong ten rieng; tu thay hiw khong dong am, khong chi khac duoi -s/-ed.",
+ "items": [
+  {
+   "id": "fibl01",
+   "type": "fibl",
+   "level": 1,
+   "topic": "Honey bees",
+   "source": "https://simple.wikipedia.org/wiki/Honey_bee",
+   "license": "CC BY-SA 4.0",
+   "script": "Every honey bee {{belongs}} to a group called Apis, which is the Latin word for bee. There are only a few {{species}} of honey bee. Scientists {{believe}} these bees first came from South and Southeast Asia, because all of them except the European honey bee are native to that region.",
+   "answers_text": [
+    "belongs",
+    "species",
+    "believe"
+   ],
+   "why_vi": "Ba từ cần gõ là 'belongs', 'species', 'believe'. Bẫy: quên -s ở 'belongs' (chủ ngữ 'every honey bee' là số ít), viết nhầm 'beleive' thay vì 'believe' (i đứng trước e)."
+  },
+  {
+   "id": "fibl02",
+   "type": "fibl",
+   "level": 1,
+   "topic": "Printing press",
+   "source": "https://simple.wikipedia.org/wiki/Printing_press",
+   "license": "CC BY-SA 4.0",
+   "script": "A printing press is a machine that makes many {{copies}} of identical pages. It is still used to print books and newspapers, and over the centuries it has had a great {{influence}} on society. One early method was called letterpress. The raised letters were covered in ink and pressed onto the paper, much like a stamp, leaving the {{shape}} of each letter behind.",
+   "answers_text": [
+    "copies",
+    "influence",
+    "shape"
+   ],
+   "why_vi": "Ba từ là 'copies', 'influence', 'shape'. Bẫy: 'copy' sang số nhiều phải đổi y thành 'ies' (không viết 'copys'); 'influence' có đuôi -ence, không phải -ance."
+  },
+  {
+   "id": "fibl03",
+   "type": "fibl",
+   "level": 1,
+   "topic": "Black tea",
+   "source": "https://en.wikipedia.org/wiki/Black_tea",
+   "license": "CC BY-SA 4.0",
+   "script": "To make black tea, fresh leaves are first left to wither, and then they are rolled or broken into {{pieces}}. Next, they are left in a warm room to take in oxygen, which turns them dark and changes their taste. Finally, they are {{dried}} with hot air. Another name for black tea, {{especially}} in China, is red tea, because the drink is a deep red colour.",
+   "answers_text": [
+    "pieces",
+    "dried",
+    "especially"
+   ],
+   "why_vi": "Ba từ là 'pieces', 'dried', 'especially'. Bẫy chính tả: 'pieces' viết ie; 'dry' đổi y thành i thành 'dried'; 'especially' có hai chữ l."
+  },
+  {
+   "id": "fibl04",
+   "type": "fibl",
+   "level": 1,
+   "topic": "Stratovolcanoes",
+   "source": "https://simple.wikipedia.org/wiki/Volcano",
+   "license": "CC BY-SA 4.0",
+   "script": "A stratovolcano is a tall volcano shaped like a cone. It is built from many layers of hardened lava and volcanic ash, and its sides are {{steep}}. Its lava is {{sticky}}, so it cools and hardens before it can spread far. Two famous examples are Mount Fuji in Japan and Vesuvius, which {{destroyed}} the town of Pompeii.",
+   "answers_text": [
+    "steep",
+    "sticky",
+    "destroyed"
+   ],
+   "why_vi": "Ba từ là 'steep' (dốc), 'sticky' (dính, đặc quánh), 'destroyed' (phá hủy). Bẫy: khi nghe dễ bỏ sót đuôi -ed của 'destroyed'; 'steep' viết hai chữ e."
+  },
+  {
+   "id": "fibl05",
+   "type": "fibl",
+   "level": 1,
+   "topic": "Earthquake zones",
+   "source": "https://simple.wikipedia.org/wiki/Earthquake",
+   "license": "CC BY-SA 4.0",
+   "script": "Earthquake zones are found mainly in certain parts of the world. The biggest is the Pacific belt, which {{circles}} the Pacific Ocean. It has the most earthquakes and the most {{active}} volcanoes. The second is the Alpide belt, which runs from Sumatra, through the Himalayas, to the Atlantic Ocean. Both belts lie along the {{edges}} of tectonic plates.",
+   "answers_text": [
+    "circles",
+    "active",
+    "edges"
+   ],
+   "why_vi": "Ba từ là 'circles' (ở đây là động từ: bao quanh), 'active', 'edges'. Bẫy: âm -s cuối của 'circles' và 'edges' nghe rất nhẹ nên dễ bị quên."
+  },
+  {
+   "id": "fibl06",
+   "type": "fibl",
+   "level": 2,
+   "topic": "Sorting recyclables",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "script": "When mixed recyclables arrive at a sorting facility, they go through a series of {{stages}}. First, they are spread out on a conveyor belt, and large pieces of cardboard and plastic bags are {{removed}} by hand, because they can cause the machinery to jam. Next, automated machines separate the materials by {{weight}}, splitting lighter paper and plastic from heavier glass and metal. Then strong {{magnets}} pull out metals such as iron and steel.",
+   "answers_text": [
+    "stages",
+    "removed",
+    "weight",
+    "magnets"
+   ],
+   "why_vi": "Bốn từ là 'stages', 'removed', 'weight', 'magnets'. Bẫy: 'weight' (trọng lượng) phát âm giống 'wait' (chờ), nhưng câu 'separate by weight, lighter ... heavier' cho thấy phải là 'weight'; ngoài ra dễ quên đuôi -s và -ed."
+  },
+  {
+   "id": "fibl07",
+   "type": "fibl",
+   "level": 2,
+   "topic": "Naps",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "script": "Naps are short periods of daytime sleep, often taken to get the {{necessary}} amount of rest. Napping is commonly linked with {{childhood}}, but on any given day, around one third of American adults take a nap. The ideal nap lasts about ten to twenty minutes, since it takes at least thirty minutes to enter slow-wave sleep, the {{deepest}} stage. Napping for too long can leave people feeling unrested, and this period of {{drowsiness}} is called sleep inertia.",
+   "answers_text": [
+    "necessary",
+    "childhood",
+    "deepest",
+    "drowsiness"
+   ],
+   "why_vi": "Bốn từ là 'necessary', 'childhood', 'deepest', 'drowsiness' (trạng thái lơ mơ, buồn ngủ). Bẫy chính là chính tả: 'necessary' có một chữ c và hai chữ s; 'drowsy' thêm -ness thì đổi y thành i."
+  },
+  {
+   "id": "fibl08",
+   "type": "fibl",
+   "level": 2,
+   "topic": "Early solar power",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "script": "Early work on solar technology, which began in the eighteen sixties, was driven by the expectation that coal would soon become {{scarce}}. Development then stalled in the early twentieth century, as coal and petroleum became more {{available}}, economical and useful. By the nineteen seventies, solar panels were still too {{expensive}} for much other than satellites. However, an oil embargo and an energy crisis during that decade brought renewed {{attention}} to solar technology.",
+   "answers_text": [
+    "scarce",
+    "available",
+    "expensive",
+    "attention"
+   ],
+   "why_vi": "Bốn từ là 'scarce' (khan hiếm), 'available', 'expensive', 'attention'. Bẫy: 'scarce' dễ bị gõ nhầm thành 'scare' (làm sợ); 'attention' có hai chữ t và đuôi -tion."
+  },
+  {
+   "id": "fibl09",
+   "type": "fibl",
+   "level": 2,
+   "topic": "Antibiotic misuse",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "script": "It is possible that as many as one in three antibiotic prescriptions are {{unnecessary}}. Another problem is that many people stop taking antibiotics once they begin to feel {{better}}. When this happens, the microbes that are less susceptible to treatment may still {{remain}} in the body. If these microbes continue to {{reproduce}}, this can lead to an infection by bacteria that are less susceptible, or even resistant, to the antibiotic.",
+   "answers_text": [
+    "unnecessary",
+    "better",
+    "remain",
+    "reproduce"
+   ],
+   "why_vi": "Bốn từ là 'unnecessary', 'better', 'remain', 'reproduce' (sinh sôi). Bẫy: 'unnecessary' có hai chữ n ở đầu (un + necessary) nên rất dễ gõ thiếu; 'reproduce' khác 'produce'."
+  },
+  {
+   "id": "fibl10",
+   "type": "fibl",
+   "level": 2,
+   "topic": "Habitat fragmentation",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "script": "Urbanization can have a large effect on {{biodiversity}} by dividing habitats, a process known as habitat fragmentation. Unlike habitat loss, fragmentation does not {{destroy}} the habitat. Instead, it breaks it apart with things like roads and railways. This may separate a species from the environment where it can easily find food and hide from {{predators}}. With proper planning, however, fragmentation can be avoided by adding {{corridors}} that connect different areas.",
+   "answers_text": [
+    "biodiversity",
+    "destroy",
+    "predators",
+    "corridors"
+   ],
+   "why_vi": "Bốn từ là 'biodiversity', 'destroy', 'predators' (loài săn mồi), 'corridors' (hành lang nối các vùng sống). Bẫy: 'predators' và 'corridors' đều có đuôi -or, không phải -er."
+  },
+  {
+   "id": "fibl11",
+   "type": "fibl",
+   "level": 3,
+   "topic": "Ocean acidification",
+   "source": "https://en.wikipedia.org/wiki/Ocean_acidification",
+   "license": "CC BY-SA 4.0",
+   "script": "Ocean acidification has been called the evil twin of global warming, or the other carbon dioxide {{problem}}. Rising ocean temperatures and the loss of oxygen act {{concurrently}} with acidification, forming a deadly trio of pressures on the marine environment. Importantly, the rate of change is much higher than in the {{geological}} past, which prevents organisms from {{gradually}} adapting. Ocean chemistry is now changing faster than at any point in the last three hundred million years, and combined with other ocean changes, this could {{undermine}} the functioning of marine ecosystems.",
+   "answers_text": [
+    "problem",
+    "concurrently",
+    "geological|geologic",
+    "gradually",
+    "undermine"
+   ],
+   "why_vi": "Năm từ là 'problem', 'concurrently' (xảy ra cùng lúc), 'geological', 'gradually', 'undermine' (làm suy yếu). Bẫy chính: 'concurrently' có hai chữ c và hai chữ r; 'gradually' có hai chữ l."
+  },
+  {
+   "id": "fibl12",
+   "type": "fibl",
+   "level": 3,
+   "topic": "Measuring placebo effects",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "script": "Measuring the placebo effect is {{difficult}} because of confounding factors. It is especially hard to separate it from response bias, observer bias and other flaws in trial {{methodology}}, since a trial comparing a placebo with no treatment cannot be blinded. One way to measure placebo pain relief is through open and hidden studies. Some patients receive a painkiller and are {{informed}} that they are getting it, while others are given the same drug without their {{knowledge}}. Such studies have found that painkillers are {{considerably}} more effective when patients know they are receiving them.",
+   "answers_text": [
+    "difficult",
+    "methodology",
+    "informed",
+    "knowledge",
+    "considerably"
+   ],
+   "why_vi": "Năm từ là 'difficult', 'methodology', 'informed', 'knowledge', 'considerably'. Bẫy: 'knowledge' có chữ k câm và đuôi -dge; 'considerably' là trạng từ đuôi -ably, dễ gõ nhầm thành tính từ 'considerable'."
+  },
+  {
+   "id": "fibl13",
+   "type": "fibl",
+   "level": 3,
+   "topic": "Continental drift",
+   "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "license": "CC BY-SA 4.0",
+   "script": "In nineteen twelve, the meteorologist Alfred Wegener {{described}} what he called continental drift. Starting from the idea that the present continents had once formed a single land mass, he suggested that they later {{separated}} and drifted apart. Supporting evidence came from the way the coastlines of South America and Africa fit together, and from matching rock {{formations}} along these edges. However, his work was not widely accepted at first, mainly because it lacked a {{reasonable}}, physically supported mechanism. There seemed to be no way that parts of the {{crust}} could move around.",
+   "answers_text": [
+    "described",
+    "separated",
+    "formations",
+    "reasonable",
+    "crust"
+   ],
+   "why_vi": "Năm từ là 'described', 'separated', 'formations', 'reasonable', 'crust' (vỏ Trái Đất). Bẫy: 'separated' viết 'para' ở giữa, người học hay gõ sai thành 'seperated'; 'formations' có -s."
+  },
+  {
+   "id": "fibl14",
+   "type": "fibl",
+   "level": 3,
+   "topic": "Bounded rationality",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "script": "Bounded rationality is the idea that when people make decisions, their rationality is {{limited}} by the difficulty of the problem, by their cognitive limitations and by the time available. Herbert Simon, who proposed the idea, used the {{analogy}} of a pair of scissors, in which one blade represents human cognitive limits and the other represents the structure of the environment. Because people take shortcuts, their decisions may not be {{optimal}}. To save on the costs of searching and {{deliberating}}, they do not assess every available option, and instead settle for an {{acceptable}} solution.",
+   "answers_text": [
+    "limited",
+    "analogy",
+    "optimal",
+    "deliberating",
+    "acceptable"
+   ],
+   "why_vi": "Năm từ là 'limited', 'analogy' (phép so sánh), 'optimal' (tối ưu), 'deliberating' (cân nhắc kỹ), 'acceptable'. Bẫy: 'acceptable' đuôi -able chứ không phải -ible; 'limited' chỉ có một chữ t."
+  },
+  {
+   "id": "fibl15",
+   "type": "fibl",
+   "level": 3,
+   "topic": "Foreign language and decisions",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "script": "A study in twenty twelve found that using a {{foreign}} language reduces biases in decision-making. In particular, the framing effect seemed to {{disappear}} when choices were presented in a second language. Human reasoning is shaped by two distinct modes of thought: one that is {{systematic}} and analytical, and another that is fast, unconscious and emotionally charged. The researchers suggested that a second language provides a useful cognitive {{distance}} from automatic processes, promoting analytical thought and reducing {{unthinking}}, emotional reactions.",
+   "answers_text": [
+    "foreign",
+    "disappear",
+    "systematic",
+    "distance",
+    "unthinking"
+   ],
+   "why_vi": "Năm từ là 'foreign', 'disappear', 'systematic', 'distance', 'unthinking' (thiếu suy nghĩ). Bẫy chính tả: 'foreign' có cụm 'eig' khó nhớ; 'disappear' có một chữ s và hai chữ p."
+  },
+  {
+   "id": "hiw01",
+   "type": "hiw",
+   "level": 1,
+   "topic": "Penguin camouflage",
+   "source": "https://simple.wikipedia.org/wiki/Penguin",
+   "license": "CC BY-SA 4.0",
+   "script": "All penguins have a white belly and a black back. These colours help to keep them safe when they {{hunt|swim}}. A predator looking up from below cannot see the penguin well, because the light is coming from above. When seen from above, the black back blends in with the dark {{sea|water}} below.",
+   "why_vi": "Audio nói 'when they swim' (khi bơi) và 'the dark water below' (nước tối bên dưới), còn màn hình ghi 'hunt' (săn mồi) và 'sea' (đá). Bẫy: đọc thì hai từ sai vẫn hợp nghĩa, nên phải nghe từng từ chứ đừng đoán theo ý."
+  },
+  {
+   "id": "hiw02",
+   "type": "hiw",
+   "level": 1,
+   "topic": "Types of chocolate",
+   "source": "https://simple.wikipedia.org/wiki/Chocolate",
+   "license": "CC BY-SA 4.0",
+   "script": "Chocolate is a food made from cacao {{seeds|beans}}, and it can be solid, like a candy bar, or liquid, like hot chocolate. There are three main types. White chocolate is the sweetest, because it has more sweet ingredients. Milk chocolate is less sweet than white chocolate. Dark chocolate is the least sweet, and it has the strongest {{taste|flavour}}.",
+   "why_vi": "Audio nói 'cacao beans' (hạt ca cao) và 'the strongest flavour' (vị đậm nhất), còn màn hình ghi 'seeds' và 'taste'. Bẫy: 'seeds' đọc thấy hợp lý, nhưng người nói đọc 'beans'; các chữ 'sweet' lặp nhiều lần đều đúng."
+  },
+  {
+   "id": "hiw03",
+   "type": "hiw",
+   "level": 1,
+   "topic": "Growth of the Olympics",
+   "source": "https://simple.wikipedia.org/wiki/Olympic_Games",
+   "license": "CC BY-SA 4.0",
+   "script": "The Olympic Games are held every four years, and athletes take part to represent their {{nations|countries}}. Over time, the Games have become bigger. In the past, women were not allowed to compete, but now there are women's events. The Winter Games were created for ice and {{mountain|snow}} sports, and the Paralympic Games were created for athletes with physical disabilities.",
+   "why_vi": "Audio nói 'represent their countries' (đại diện cho nước mình) và 'ice and snow sports' (môn trên băng và tuyết), còn màn hình ghi 'nations' và 'mountain'. Bẫy: các từ 'Winter', 'women', 'Paralympic' đều đúng, đừng bấm nhầm."
+  },
+  {
+   "id": "hiw04",
+   "type": "hiw",
+   "level": 1,
+   "topic": "Gravity on the Moon",
+   "source": "https://simple.wikipedia.org/wiki/Moon",
+   "license": "CC BY-SA 4.0",
+   "script": "Because it is {{lighter|smaller}}, the Moon has only one sixth of the gravity on Earth. This means that an object on the Moon is only one sixth as heavy as it is on Earth. If you dropped a ball on the Moon, it would still fall down, but much more slowly. You could also jump {{further|higher}} than on Earth.",
+   "why_vi": "Audio nói 'Because it is smaller' (vì nó nhỏ hơn) và 'jump higher' (nhảy cao hơn), còn màn hình ghi 'lighter' và 'further'. Bẫy: từ sai và từ đúng cùng đuôi '-er' và đều hợp nghĩa, nên phải nghe phần đầu của từ."
+  },
+  {
+   "id": "hiw05",
+   "type": "hiw",
+   "level": 1,
+   "topic": "Rainforest air plants",
+   "source": "https://simple.wikipedia.org/wiki/Tropical_rainforest",
+   "license": "CC BY-SA 4.0",
+   "script": "Some plants in the rainforest do not need soil. These air plants live on tree {{trunks|branches}}, with their roots in the air. Some of them store water in small pools between their leaves. Frogs usually lay their eggs in {{rivers|ponds}}, but some tree frogs use these pools instead. That way, they never have to go down to the ground.",
+   "why_vi": "Audio nói 'tree branches' (cành cây) và 'lay their eggs in ponds' (đẻ trứng ở ao), còn màn hình ghi 'trunks' (thân cây) và 'rivers' (sông). Bẫy: chữ 'roots' xuất hiện hai lần và đều đúng, đừng bấm."
+  },
+  {
+   "id": "hiw06",
+   "type": "hiw",
+   "level": 2,
+   "topic": "Glacier crevasses",
+   "source": "https://en.wikipedia.org/wiki/Glacier",
+   "license": "CC BY-SA 4.0",
+   "script": "The top fifty metres of a glacier are rigid, because they are under low {{stress|pressure}}. This upper section, the fracture zone, moves mostly as one unit over the {{softer|flowing}} ice below. When a glacier moves across uneven ground, cracks called crevasses develop in this zone. They form when two rigid sections move at different speeds or directions. Crevasses make travel over glaciers {{risky|dangerous}}, especially when they are hidden by fragile snow bridges.",
+   "why_vi": "Audio nói 'low pressure' (áp lực thấp), 'flowing ice' (băng đang chảy) và 'dangerous' (nguy hiểm), còn màn hình ghi 'stress', 'softer', 'risky'. Bẫy: 'risky' gần nghĩa 'dangerous' nên đọc thấy xuôi, nhưng âm hoàn toàn khác."
+  },
+  {
+   "id": "hiw07",
+   "type": "hiw",
+   "level": 2,
+   "topic": "Pumped-storage hydropower",
+   "source": "https://en.wikipedia.org/wiki/Hydroelectricity",
+   "license": "CC BY-SA 4.0",
+   "script": "Pumped storage is a method of storing energy to meet high peak demand by moving water between two reservoirs at different {{levels|heights}}. When demand for electricity is low, extra generating capacity is used to {{lift|pump}} water up into the higher reservoir. When demand rises, the water is released back into the lower reservoir through a {{pipe|turbine}}. However, pumped storage is not an energy source in itself.",
+   "why_vi": "Audio nói 'different heights' (độ cao khác nhau), 'pump water up' (bơm nước lên) và 'through a turbine' (qua tua-bin), còn màn hình ghi 'levels', 'lift', 'pipe'. Bẫy: 'levels' và 'lift' gần nghĩa từ đúng; chữ 'Pumped' ở đầu và cuối bài vẫn đúng."
+  },
+  {
+   "id": "hiw08",
+   "type": "hiw",
+   "level": 2,
+   "topic": "Recent trends in tourism",
+   "source": "https://en.wikipedia.org/wiki/Tourism",
+   "license": "CC BY-SA 4.0",
+   "script": "In recent decades, tourism has been on the rise, especially in Europe, where international travel for short {{holidays|breaks}} is common. Developments in air transport, such as jumbo jets, low-cost airlines and more accessible airports, have made many types of tourism more {{popular|affordable}}. A major reason for the relatively low cost of flying is that aviation fuel is exempt from tax. Another crucial development has been the growth of online {{bookings|sales}} and customer reviews.",
+   "why_vi": "Audio nói 'short breaks' (kỳ nghỉ ngắn), 'more affordable' (rẻ hơn, dễ chi trả hơn) và 'online sales' (bán hàng trực tuyến), còn màn hình ghi 'holidays', 'popular', 'bookings'. Bẫy: cả ba từ sai đều hợp với chủ đề du lịch, chỉ nghe mới phát hiện được."
+  },
+  {
+   "id": "hiw09",
+   "type": "hiw",
+   "level": 2,
+   "topic": "Deforestation and the water cycle",
+   "source": "https://en.wikipedia.org/wiki/Deforestation",
+   "license": "CC BY-SA 4.0",
+   "script": "Deforestation also affects the water {{supply|cycle}}. Trees draw up groundwater through their roots and release it into the atmosphere. When part of a forest is removed, the trees no longer do this, and the climate becomes much {{harsher|drier}}. Instead of trapping rainfall, which then soaks down to the groundwater, cleared areas produce surface runoff. This water moves much faster than water underground, and it can lead to {{sudden|flash}} flooding.",
+   "why_vi": "Audio nói 'water cycle' (vòng tuần hoàn nước), 'much drier' (khô hơn nhiều) và 'flash flooding' (lũ quét), còn màn hình ghi 'supply', 'harsher', 'sudden'. Bẫy: chữ 'water' lặp nhiều lần và đều đúng; 'harsher' cùng đuôi '-er' với 'drier' nên phải nghe gốc từ."
+  },
+  {
+   "id": "hiw10",
+   "type": "hiw",
+   "level": 2,
+   "topic": "Thrifty gene hypothesis",
+   "source": "https://en.wikipedia.org/wiki/Obesity",
+   "license": "CC BY-SA 4.0",
+   "script": "The thrifty gene hypothesis suggests that people are prone to obesity because food was {{limited|scarce}} during human evolution. Storing energy as fat during rare periods of plenty would have been an advantage when food supplies varied, and people with larger fat reserves would have been more likely to survive {{hardship|famine}}. However, this tendency to store fat would be harmful in societies with {{modern|stable}} food supplies. The theory has also received various criticisms.",
+   "why_vi": "Audio nói 'food was scarce' (thức ăn khan hiếm), 'survive famine' (sống sót qua nạn đói) và 'stable food supplies' (nguồn thức ăn ổn định), còn màn hình ghi 'limited', 'hardship', 'modern'. Bẫy: 'limited' gần nghĩa 'scarce' nên đọc thấy hợp; chữ 'food' lặp nhiều lần đều đúng."
+  },
+  {
+   "id": "hiw11",
+   "type": "hiw",
+   "level": 3,
+   "topic": "Origin of circadian rhythms",
+   "source": "https://en.wikipedia.org/wiki/Circadian_rhythm",
+   "license": "CC BY-SA 4.0",
+   "script": "What drove circadian rhythms to evolve has been a {{central|puzzling}} question. Previous hypotheses suggested that they may have originated in the earliest cells, to protect replicating DNA from damaging ultraviolet radiation during the day, so replication was pushed into the {{night|dark}}. However, evidence for this is lacking. In fact, cyanobacteria, the {{oldest|simplest}} organisms with a circadian rhythm, do the opposite: they divide more in the daytime. The {{accepted|current}} view is that daily changes in oxygen levels, and the production of reactive oxygen species in daylight, are likely to have driven their evolution.",
+   "why_vi": "Audio nói 'puzzling question' (câu hỏi khó giải), 'into the dark' (vào bóng tối), 'the simplest organisms' (sinh vật đơn giản nhất) và 'current view' (quan điểm hiện nay), còn màn hình ghi 'central', 'night', 'oldest', 'accepted'. Bẫy: 'night' gần nghĩa 'dark', 'oldest' cùng đuôi '-est' với 'simplest', nên phải nghe gốc từ."
+  },
+  {
+   "id": "hiw12",
+   "type": "hiw",
+   "level": 3,
+   "topic": "Coin debasement and inflation",
+   "source": "https://en.wikipedia.org/wiki/Inflation",
+   "license": "CC BY-SA 4.0",
+   "script": "Rapid increases in the money supply have occurred in many {{countries|societies}} throughout history. When silver was used as currency, for instance, a government could {{gather|collect}} silver coins, melt them down, mix them with less valuable metals such as {{tin|copper}}, and reissue them at the same nominal value, a process known as debasement. This allowed the government to issue more coins without using more silver. However, the relative value of each coin fell, so {{traders|consumers}} had to give more coins for the same goods and services.",
+   "why_vi": "Audio nói 'many societies' (nhiều xã hội), 'collect silver coins' (thu gom đồng bạc), 'such as copper' (như đồng đỏ) và 'consumers' (người tiêu dùng), còn màn hình ghi 'countries', 'gather', 'tin', 'traders'. Bẫy: 'gather' đồng nghĩa 'collect' nên đọc không thấy sai; chữ 'silver' và 'coins' lặp nhiều lần đều đúng."
+  },
+  {
+   "id": "hiw13",
+   "type": "hiw",
+   "level": 3,
+   "topic": "Nativist view of language acquisition",
+   "source": "https://en.wikipedia.org/wiki/Language_acquisition",
+   "license": "CC BY-SA 4.0",
+   "script": "A major debate in language acquisition is how infants pick up language from the input around them. Nativists have focused on the hugely {{intricate|complex}} nature of human grammars, the finite and ambiguous input that children receive, and the relatively limited {{mental|cognitive}} abilities of an infant. They conclude that the process must be {{strongly|tightly}} guided by the biology of the human brain. Otherwise, they argue, it is extremely difficult to explain how children, within their first {{three|five}} years, routinely master the complex grammatical rules of their native language.",
+   "why_vi": "Audio nói 'hugely complex' (cực kỳ phức tạp), 'cognitive abilities' (khả năng nhận thức), 'tightly guided' (bị chi phối chặt) và 'first five years' (năm năm đầu), còn màn hình ghi 'intricate', 'mental', 'strongly', 'three'. Bẫy: chữ 'complex' ở câu cuối vẫn đúng, chỉ chữ ở câu hai bị đổi; 'mental' và 'strongly' gần nghĩa với từ gốc."
+  },
+  {
+   "id": "hiw14",
+   "type": "hiw",
+   "level": 3,
+   "topic": "Primary microplastics",
+   "source": "https://en.wikipedia.org/wiki/Microplastics",
+   "license": "CC BY-SA 4.0",
+   "script": "Primary microplastics are {{tiny|small}} pieces of plastic that are manufactured on purpose. Microplastic scrubbers, used in exfoliating hand cleansers and facial scrubs, have replaced traditional natural ingredients such as ground {{walnut|almond}} shells, oatmeal and pumice. Primary microplastics are also produced for air-blasting technology, in which acrylic or polyester scrubbers are blasted at machinery, engines and boat hulls to remove rust and {{dirt|paint}}. Because these scrubbers are used repeatedly until they shrink and lose their cutting {{edge|power}}, they often become contaminated with heavy metals such as cadmium and chromium.",
+   "why_vi": "Audio nói 'small pieces' (mảnh nhỏ), 'almond shells' (vỏ hạnh nhân), 'rust and paint' (gỉ và sơn) và 'cutting power' (khả năng mài cắt), còn màn hình ghi 'tiny', 'walnut', 'dirt', 'edge'. Bẫy: 'tiny' đồng nghĩa 'small', còn 'cutting edge' là cụm quen nên đọc rất xuôi."
+  },
+  {
+   "id": "hiw15",
+   "type": "hiw",
+   "level": 3,
+   "topic": "Game theory and war",
+   "source": "https://en.wikipedia.org/wiki/Game_theory",
+   "license": "CC BY-SA 4.0",
+   "script": "One game-theoretic explanation for the democratic peace is that open public debate in democracies sends clear and {{useful|reliable}} information about their intentions to other states. By contrast, it is difficult to know the intentions of non-democratic leaders, or whether their promises will be {{honoured|kept}}. However, game theory predicts that two countries may still go to war even when their leaders know the {{risks|costs}} of fighting. Each side may have incentives to misrepresent its military {{strength|resources}}, which can prevent a peaceful settlement.",
+   "why_vi": "Audio nói 'reliable information' (thông tin đáng tin), 'promises will be kept' (lời hứa được giữ), 'the costs of fighting' (cái giá của chiến tranh) và 'military resources' (nguồn lực quân sự), còn màn hình ghi 'useful', 'honoured', 'risks', 'strength'. Bẫy: 'honoured' cùng nghĩa với 'kept', 'risks' và 'costs' cùng đuôi '-s', nên phải nghe gốc từ."
+  },
+  {
+   "id": "smw01",
+   "type": "smw",
+   "level": 1,
+   "topic": "The first bicycle",
+   "source": "https://simple.wikipedia.org/wiki/Bicycle",
+   "license": "CC BY-SA 4.0",
+   "script": "In eighteen seventeen, a German inventor created the first two-wheeled riding machine. It was made of wood, and the rider could steer it with handlebars. However, it had no pedals, so to make it move, riders had to",
+   "options": [
+    "turn the pedals very quickly",
+    "steer without any handlebars",
+    "push along with their feet",
+    "ride on its metal wheels"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Xe đạp đầu tiên không có bàn đạp, nên muốn xe chạy người lái phải lấy chân đẩy xuống đất. Bẫy chính là 'turn the pedals': bài vừa nói 'no pedals'. Xe có tay lái và làm bằng gỗ, nên hai đáp án còn lại cũng sai."
+  },
+  {
+   "id": "smw02",
+   "type": "smw",
+   "level": 1,
+   "topic": "Roasting coffee",
+   "source": "https://simple.wikipedia.org/wiki/Coffee",
+   "license": "CC BY-SA 4.0",
+   "script": "Roasting makes coffee beans nearly twice as big and turns them from green to yellow to brown. After a short roast, the flavour shows where a coffee is from. But after a long roast, the different types are",
+   "options": [
+    "easier to tell apart",
+    "harder to tell apart",
+    "the same size as before",
+    "still green in colour"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Rang ngắn thì nếm là biết cà phê từ đâu tới; chữ 'But' báo hiệu điều ngược lại: rang lâu thì khó phân biệt các loại. Bẫy là 'easier', ngược với chữ 'But'. Hạt rang to gần gấp đôi và chuyển sang nâu, nên 'same size' và 'still green' đều sai."
+  },
+  {
+   "id": "smw03",
+   "type": "smw",
+   "level": 1,
+   "topic": "African elephants' ears",
+   "source": "https://simple.wikipedia.org/wiki/Elephant",
+   "license": "CC BY-SA 4.0",
+   "script": "African elephants have bigger ears than Asian elephants. These ears have many veins that carry blood. Biologists think blood moving through the ears helps the animals cool off. This matters more in Africa, because the weather there is",
+   "options": [
+    "hotter than in Asia",
+    "colder than in Asia",
+    "the same as in Asia",
+    "no problem for elephants"
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Tai giúp voi hạ nhiệt, mà việc này quan trọng hơn ở châu Phi, nên thời tiết ở đó phải nóng hơn châu Á. Bẫy là 'colder' và 'the same': nếu lạnh hơn hay giống nhau thì chuyện hạ nhiệt đã không quan trọng hơn."
+  },
+  {
+   "id": "smw04",
+   "type": "smw",
+   "level": 1,
+   "topic": "Dinosaur herds and nesting",
+   "source": "https://simple.wikipedia.org/wiki/Dinosaur",
+   "license": "CC BY-SA 4.0",
+   "script": "Some types of dinosaur almost certainly lived in groups and helped each other. Some places were also shared by many dinosaurs for laying their eggs. These places are easiest to understand if the adults",
+   "options": [
+    "always lived on their own",
+    "did not lay any eggs",
+    "hid their eggs from each other",
+    "travelled together in herds"
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Nhiều con khủng long dùng chung một chỗ để đẻ trứng, nên dễ giải thích nhất là con trưởng thành đi theo đàn. Bẫy: 'lived on their own' ngược với chuyện sống theo nhóm, 'hid their eggs' ngược với chuyện đẻ chung chỗ, còn 'did not lay any eggs' ngược với chuyện đẻ trứng."
+  },
+  {
+   "id": "smw05",
+   "type": "smw",
+   "level": 1,
+   "topic": "Spyware",
+   "source": "https://simple.wikipedia.org/wiki/Internet",
+   "license": "CC BY-SA 4.0",
+   "script": "The Internet makes communication easy, but it can also be dangerous. Some websites trick people into downloading harmful programs. One kind, called spyware, spies on its users. It looks at what they are doing and then",
+   "options": [
+    "protects them from viruses",
+    "makes the computer faster",
+    "tells someone else about it",
+    "warns them about the danger"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "'Spy' là do thám: phần mềm theo dõi người dùng làm gì rồi báo lại cho người khác. Bẫy: bài nói đây là chương trình có hại và lừa người dùng tải về, nên nó không bảo vệ, không làm máy nhanh hơn, cũng không cảnh báo gì cả."
+  },
+  {
+   "id": "smw06",
+   "type": "smw",
+   "level": 2,
+   "topic": "Wind and hydroelectric power",
+   "source": "https://en.wikipedia.org/wiki/Wind_power",
+   "license": "CC BY-SA 4.0",
+   "script": "Wind power is variable, so it needs storage or other energy sources to give a reliable supply. Hydroelectricity usually works very well alongside it. When the wind is blowing strongly, nearby hydroelectric stations can hold back their water for a while. Then, when the wind drops, these stations can",
+   "options": [
+    "hold back even more water",
+    "quickly increase their production",
+    "stop making electricity completely",
+    "wait for stronger winds"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Gió mạnh thì nhà máy thủy điện giữ nước lại; gió yếu thì xả ra, tăng sản lượng để bù phần điện gió bị hụt. Bẫy là 'hold back even more water': giữ nước là việc làm khi gió mạnh, còn lúc gió yếu mà giữ nước hay ngừng phát điện thì không bù được gì."
+  },
+  {
+   "id": "smw07",
+   "type": "smw",
+   "level": 2,
+   "topic": "The first American subway",
+   "source": "https://en.wikipedia.org/wiki/Public_transport",
+   "license": "CC BY-SA 4.0",
+   "script": "Electric streetcars paved the way for the first subway system in America. Before them, subways powered by steam had been considered. However, most people believed that passengers would avoid tunnels filled with smoke from steam engines. In eighteen ninety-seven, Boston opened the first subway in the United States, and it was",
+   "options": [
+    "a line for steam trains",
+    "full of engine smoke",
+    "pulled along by horses",
+    "an electric streetcar line"
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Câu đầu nói xe điện mở đường cho tàu điện ngầm đầu tiên, và người ta sợ đường hầm đầy khói của tàu hơi nước. Vậy tuyến đầu tiên ở Boston là tuyến xe điện. Bẫy: hai đáp án về hơi nước và khói trái với nỗi lo khói; ngựa thì không liên quan gì tới xe điện."
+  },
+  {
+   "id": "smw08",
+   "type": "smw",
+   "level": 2,
+   "topic": "Early British Museum visits",
+   "source": "https://en.wikipedia.org/wiki/Museum",
+   "license": "CC BY-SA 4.0",
+   "script": "When the British Museum opened to the public in seventeen fifty-nine, there was a concern that large crowds could damage the objects on display. People who wanted to visit had to apply in writing, and on each day, the galleries were open only to",
+   "options": [
+    "small groups of visitors",
+    "very large crowds",
+    "people who had not applied",
+    "members of the royal family"
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Người ta sợ đám đông làm hỏng hiện vật, nên mỗi ngày chỉ cho những nhóm nhỏ vào. Bẫy là 'very large crowds', trái ngược với nỗi lo đó. Khách phải nộp đơn bằng văn bản, và bảo tàng mở cho công chúng chứ không riêng hoàng gia."
+  },
+  {
+   "id": "smw09",
+   "type": "smw",
+   "level": 2,
+   "topic": "Stopping bees from swarming",
+   "source": "https://en.wikipedia.org/wiki/Honey",
+   "license": "CC BY-SA 4.0",
+   "script": "Bees swarm when there is no longer enough space for the colony to grow in its hive. The old queen then leads about half of the bees away. Commercial beekeepers work hard to stop this, usually by placing empty boxes on top of the hive, which gives the colony",
+   "options": [
+    "less space inside the hive",
+    "a new home far away",
+    "more room to expand",
+    "a reason to leave"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Ong chia đàn bỏ đi khi tổ hết chỗ, nên muốn giữ ong lại thì chồng thêm thùng rỗng để đàn có thêm chỗ phát triển. Bẫy: 'less space' ngược với việc thêm thùng rỗng; 'a new home far away' và 'a reason to leave' ngược với mục đích giữ đàn ong ở lại."
+  },
+  {
+   "id": "smw10",
+   "type": "smw",
+   "level": 2,
+   "topic": "Hot and cold composting",
+   "source": "https://en.wikipedia.org/wiki/Compost",
+   "license": "CC BY-SA 4.0",
+   "script": "Composting time depends partly on the size of the pile. Generally, larger piles reach higher temperatures and stay hot for days or weeks. This is called hot composting, and it is the usual method on farms and at large city facilities. Cold composting is slower, and it happens in",
+   "options": [
+    "large city facilities",
+    "much smaller compost piles",
+    "the biggest farm piles",
+    "piles that stay very hot"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Đống lớn thì nóng, gọi là ủ nóng; vậy ủ lạnh, loại chậm hơn, phải là ở đống nhỏ. Bẫy: bài vừa nói trang trại và cơ sở lớn của thành phố dùng ủ nóng, còn 'stay very hot' thì trái với chữ 'cold'."
+  },
+  {
+   "id": "smw11",
+   "type": "smw",
+   "level": 3,
+   "topic": "Extraneous cognitive load",
+   "source": "https://en.wikipedia.org/wiki/Cognitive_load",
+   "license": "CC BY-SA 4.0",
+   "script": "Cognitive load theory says that working memory is a single, limited resource. Extraneous load comes from the way information is presented, and it is under the control of the people who design learning materials. Any effort spent on this kind of load leaves less working memory for actual learning. Therefore, especially when a problem is difficult, materials should be designed to",
+   "options": [
+    "add more extraneous load",
+    "make the problem harder",
+    "ignore how information is presented",
+    "reduce the extraneous load"
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Trí nhớ làm việc có hạn, mà tải 'ngoại lai' (sinh ra do cách trình bày) chiếm mất phần dành cho việc học. Vì vậy khi bài khó thì tài liệu phải giảm loại tải này. Bẫy: 'add more' làm mất thêm trí nhớ, còn bỏ qua cách trình bày thì ngược với ý người thiết kế kiểm soát được nó."
+  },
+  {
+   "id": "smw12",
+   "type": "smw",
+   "level": 3,
+   "topic": "Gig worker regulations",
+   "source": "https://en.wikipedia.org/wiki/Gig_worker",
+   "license": "CC BY-SA 4.0",
+   "script": "Gig jobs generally come with few employer-provided benefits and workplace protections. To change this, lawmakers in some places have introduced rules that require employers to give gig workers the benefits normally reserved for traditional employees. Critics, however, claim that these rules have negative consequences. In their view, employers will almost inevitably make up for the cost of the extra benefits by",
+   "options": [
+    "cutting the wages they pay",
+    "raising the wages they pay",
+    "hiring many more gig workers",
+    "offering even more benefits"
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "'Make up for the cost' là bù lại khoản chi thêm, nên chủ sẽ cắt lương; đây cũng là 'hậu quả xấu' mà người phản đối nói tới. Bẫy: tăng lương, thuê thêm người hay cho thêm phúc lợi đều làm chi phí tăng thêm chứ không bù được."
+  },
+  {
+   "id": "smw13",
+   "type": "smw",
+   "level": 3,
+   "topic": "Biodiversity and national income",
+   "source": "https://en.wikipedia.org/wiki/Biodiversity",
+   "license": "CC BY-SA 4.0",
+   "script": "Biodiversity in high-income countries is reported to have risen by ten percent, but losses in low-income countries cancelled out that gain. This is despite the fact that high-income countries use five times the ecological resources of low-income ones. The pattern has been explained as the result of wealthy nations outsourcing the depletion of resources to poorer nations, which are",
+   "options": [
+    "gaining the most species",
+    "using the most resources",
+    "suffering the greatest losses",
+    "protected from any damage"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Nước giàu đẩy việc khai thác cạn tài nguyên sang nước nghèo, nên nước nghèo mới là nơi mất đa dạng sinh học nhiều nhất. Bẫy: 'using the most resources' sai vì nước giàu mới dùng gấp năm lần; 'gaining species' và 'protected' ngược với chuyện nước nghèo bị mất mát."
+  },
+  {
+   "id": "smw14",
+   "type": "smw",
+   "level": 3,
+   "topic": "Carbon capture energy penalty",
+   "source": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
+   "license": "CC BY-SA 4.0",
+   "script": "Carbon capture and storage separates carbon dioxide from the waste gases of industrial plants, so that it can be stored deep underground instead of entering the atmosphere. However, plants that use it need more energy to operate. As a result, they have to burn more fuel to produce the same amount of electricity, which in turn increases the pollution caused by",
+   "options": [
+    "burning less fuel than before",
+    "extracting and transporting fuel",
+    "producing less electricity",
+    "the plants' lower energy needs"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Đốt thêm nhiên liệu thì phải khai thác và chở thêm nhiên liệu, nên ô nhiễm ở khâu đó tăng lên. Bẫy: bài nói nhà máy đốt nhiều hơn, cần nhiều năng lượng hơn và vẫn ra cùng lượng điện, nên các đáp án 'less fuel', 'less electricity', 'lower energy' đều ngược lại."
+  },
+  {
+   "id": "smw15",
+   "type": "smw",
+   "level": 3,
+   "topic": "Tillage erosion on hilltops",
+   "source": "https://en.wikipedia.org/wiki/Soil_erosion",
+   "license": "CC BY-SA 4.0",
+   "script": "Tillage erosion happens in cultivated fields when soil is moved by tillage itself. There is growing evidence that, in many fields around the world, it removes more soil than water or wind erosion, especially on sloping and hilly land. Water erosion mainly causes soil loss in the middle and lower parts of a slope, not on the hilltops. So eroded hilltops are actually the result of",
+   "options": [
+    "water rather than tillage",
+    "rain running down the slope",
+    "a lack of farming activity",
+    "tillage rather than water"
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Xói mòn do nước chủ yếu xảy ra ở giữa và chân dốc, không phải trên đỉnh đồi. Vậy đỉnh đồi bị xói là do cày xới đất. Bẫy là hai đáp án về nước ('water', 'rain running down'), bị câu 'not on the hilltops' loại ngay; còn 'lack of farming' thì ngược với ý chính là việc canh tác gây xói mòn."
+  },
+  {
+   "id": "mcsal01",
+   "type": "mcsa_l",
+   "level": 1,
+   "topic": "Honey bees",
+   "source": "https://simple.wikipedia.org/wiki/Honey_bee",
+   "license": "CC BY-SA 4.0",
+   "script": "Honey bees are not the only social bees. Their close relatives, bumblebees and stingless bees, also live together in groups, but their colonies are smaller. Inside a honey bee hive, special bees called nurse bees look after the queen and feed the young bees. The queen herself is fed a special food called royal jelly. When the queen mates, her partners do not come from her own colony. They are drones, which are male bees, from other colonies.",
+   "question": "According to the speaker, which bees does a honey bee queen mate with?",
+   "options": [
+    "Drones from other colonies",
+    "Drones from her own colony",
+    "Nurse bees from her own hive",
+    "Bumblebees and stingless bees"
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Người nói nói rõ bạn tình của ong chúa không đến từ tổ của nó, mà là ong đực (drones) từ các tổ khác. Bẫy: nghe thấy 'her own colony' là chọn B, nhưng cụm này đi sau chữ 'do not'."
+  },
+  {
+   "id": "mcsal02",
+   "type": "mcsa_l",
+   "level": 1,
+   "topic": "Printing press",
+   "source": "https://simple.wikipedia.org/wiki/Printing_press",
+   "license": "CC BY-SA 4.0",
+   "script": "In the nineteenth century, new inventions changed printing in two important ways. The first was cheaper paper. People began to make paper from wood pulp instead of rags. The second was faster typesetting. Before this, workers set the type by hand, one letter at a time, which was slow. Later in the century, new machines speeded up this work. One machine, called the Linotype, turned melted lead into lines of type ready for printing.",
+   "question": "What is the talk mainly about?",
+   "options": [
+    "How steam power made printing presses bigger and faster",
+    "Two inventions that made paper cheaper and typesetting faster",
+    "Why setting type by hand was better than using machines",
+    "How people made paper from rags"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Cả bài chỉ nói hai thay đổi: giấy rẻ hơn nhờ làm từ bột gỗ, và sắp chữ nhanh hơn nhờ máy. Bẫy: bài có nhắc 'rags' (vải vụn) nhưng là để nói bột gỗ đã THAY vải vụn; còn máy hơi nước thì bài không hề nhắc."
+  },
+  {
+   "id": "mcsal03",
+   "type": "mcsa_l",
+   "level": 1,
+   "topic": "Tea",
+   "source": "https://simple.wikipedia.org/wiki/Tea",
+   "license": "CC BY-SA 4.0",
+   "script": "The best way to make tea depends on the type. Green tea is usually left in the water for two to three minutes. The water should be hot, but not boiling, at about seventy-nine degrees Celsius. Black tea needs longer, three to five minutes, in boiling water. There are also famous blends. Earl Grey is black tea with bergamot oil, and English breakfast tea is strong and full-bodied, made to go well with milk and sugar.",
+   "question": "What can be inferred about green tea compared with black tea?",
+   "options": [
+    "It needs more time and boiling water.",
+    "It is made to go well with milk and sugar.",
+    "It is brewed for less time and in cooler water.",
+    "It is usually mixed with bergamot oil."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Trà xanh ngâm 2–3 phút trong nước khoảng 79 độ (chưa sôi), trà đen ngâm 3–5 phút trong nước sôi, nên trà xanh ngâm ngắn hơn và nước nguội hơn. Bẫy: 'milk and sugar' là của trà English breakfast, 'bergamot' là của Earl Grey."
+  },
+  {
+   "id": "mcsal04",
+   "type": "mcsa_l",
+   "level": 1,
+   "topic": "Volcanoes",
+   "source": "https://simple.wikipedia.org/wiki/Volcano",
+   "license": "CC BY-SA 4.0",
+   "script": "One traditional way to sort volcanoes uses three groups. An active volcano is erupting now, or has erupted recently. Mount Saint Helens in the United States is one example. A dormant volcano is quiet. People say it is sleeping, but it could wake up in the future. Finally, an extinct volcano is a dead volcano. It has not erupted in the past ten thousand years. Edinburgh Castle in Scotland sits on top of one.",
+   "question": "According to the speaker, what is a dormant volcano?",
+   "options": [
+    "One that has not erupted in the past ten thousand years",
+    "One that is quiet now but could wake up in the future",
+    "One that has erupted within the last ten thousand years",
+    "One like the volcano under Edinburgh Castle"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Núi lửa 'dormant' là núi lửa đang yên, 'đang ngủ', nhưng có thể thức dậy sau này. Bẫy: 'không phun trong 10.000 năm' và núi lửa dưới lâu đài Edinburgh là núi lửa đã tắt; 'đã phun trong 10.000 năm qua' là núi lửa đang hoạt động."
+  },
+  {
+   "id": "mcsal05",
+   "type": "mcsa_l",
+   "level": 1,
+   "topic": "Earthquakes",
+   "source": "https://simple.wikipedia.org/wiki/Earthquake",
+   "license": "CC BY-SA 4.0",
+   "script": "How can we make buildings safer in an earthquake? The shape of a building and the way it is built both matter. Some buildings sit on rollers or rubber pads, which separate the base from the ground. Roofs are made from light materials, because this helps stop them from falling in. The outside walls are made from stronger materials, such as steel or reinforced concrete. And flexible window frames can stop the glass from shattering.",
+   "question": "What is the talk mainly about?",
+   "options": [
+    "Ways to make buildings better able to survive earthquakes",
+    "Why heavy roofs protect buildings during earthquakes",
+    "How scientists predict when earthquakes will happen",
+    "Why windows are the weakest part of a building"
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Cả bài liệt kê các cách làm nhà an toàn khi động đất: con lăn hoặc đệm cao su, mái nhẹ, tường chắc, cửa sổ dẻo. Bẫy: bài nói mái làm bằng vật liệu NHẸ, không phải nặng."
+  },
+  {
+   "id": "mcsal06",
+   "type": "mcsa_l",
+   "level": 2,
+   "topic": "Recycling",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "script": "What actually persuades people to recycle? The social psychologist Shawn Burn explored this in a neighbourhood study. She asked ten block leaders to talk to their neighbours in person and persuade them to recycle. A comparison group, meanwhile, was simply sent leaflets promoting recycling. The result was clear: the neighbours who had been personally contacted by their block leaders recycled much more than the group without personal contact. Another researcher, Stuart Oskamp, found a related pattern. People whose friends and neighbours recycled were much more likely to recycle themselves. Burn concluded that personal contact within a small group of people is an important factor in encouraging recycling.",
+   "question": "Why does the speaker mention the group that was sent leaflets?",
+   "options": [
+    "To show that leaflets were the best way to promote recycling",
+    "To explain how Stuart Oskamp carried out his research",
+    "To provide a comparison showing that personal contact worked better",
+    "To show that neighbours ignored their block leaders' advice"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Nhóm chỉ nhận tờ rơi là nhóm để so sánh: họ tái chế ít hơn hẳn nhóm được trưởng khu đến nói chuyện tận nơi, nên thấy rõ gặp trực tiếp hiệu quả hơn. Bẫy: thí nghiệm tờ rơi là của Shawn Burn, không phải của Stuart Oskamp."
+  },
+  {
+   "id": "mcsal07",
+   "type": "mcsa_l",
+   "level": 2,
+   "topic": "Sleep",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "script": "For a long time, sleep problems were seen mainly as a symptom of mental illness, rather than as something that could cause it. However, a growing body of evidence suggests that they are both a cause and a symptom. Take insomnia, which means difficulty falling asleep or staying asleep. Insomnia turns out to be a significant predictor of major depression. In one large analysis, people who had insomnia at the start of the study period had more than twice the risk of developing major depressive disorder. Some studies have also linked insomnia with anxiety. And sleep disorders can increase the risk of psychosis and make psychotic episodes more severe.",
+   "question": "What is the speaker's main point?",
+   "options": [
+    "Sleep problems are simply a symptom of existing mental illness.",
+    "Depression is the main cause of insomnia in most people.",
+    "Insomnia has little connection with depression or anxiety.",
+    "Sleep problems may help cause mental illness, not only result from it."
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Người nói nêu quan điểm cũ (vấn đề giấc ngủ chỉ là triệu chứng) rồi dùng 'However' để đưa ý chính: nó vừa là triệu chứng vừa có thể là nguyên nhân gây bệnh tâm thần. Bẫy: đáp án 'chỉ là triệu chứng' chính là quan điểm cũ ở câu đầu."
+  },
+  {
+   "id": "mcsal08",
+   "type": "mcsa_l",
+   "level": 2,
+   "topic": "Solar power",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "script": "Let's consider a household that uses its own solar power. The difficulty is that the times when the panels generate electricity and the times when the family uses it often don't coincide. So some energy is fed back into the grid and sold, and at other times, electricity is bought from the grid. Here's the catch: in many markets, the price paid for sold solar electricity is significantly lower than the price of bought electricity. A good match between generation and consumption is therefore key. Batteries can improve the match, but they're expensive. A cheaper option is a hot water tank heated by a heat pump, which offers low-cost storage.",
+   "question": "Why is a good match between generation and consumption important for a solar household?",
+   "options": [
+    "It earns less for the electricity it sells than it pays for the electricity it buys.",
+    "Selling electricity to the grid is not allowed in many markets.",
+    "Batteries are the cheapest way to store solar power.",
+    "The panels only work while the family is using electricity."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Điện thừa bán cho lưới được trả giá thấp hơn nhiều so với giá mua điện, nên càng tự dùng được điện mình làm ra thì càng lợi. Bẫy: pin bị nói là đắt; cách rẻ là bình nước nóng chạy bơm nhiệt."
+  },
+  {
+   "id": "mcsal09",
+   "type": "mcsa_l",
+   "level": 2,
+   "topic": "Antimicrobial resistance",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "script": "Resistance isn't only a problem with bacteria. Viruses can become resistant to drugs too, and HIV is a particularly difficult case. Many current HIV drugs target an enzyme called reverse transcriptase. However, this enzyme is highly error-prone, so mutations that make the virus resistant arise rapidly. In fact, if only one antiviral drug is used, resistant strains of the virus emerge very quickly. The answer has been to use three or more drugs together, an approach known as combination therapy. This has helped to control the problem. But new drugs are still needed, because drug-resistant strains of HIV continue to emerge.",
+   "question": "According to the speaker, what happens when only one antiviral drug is used against HIV?",
+   "options": [
+    "The virus is controlled as well as with combination therapy.",
+    "The enzyme reverse transcriptase stops making errors.",
+    "The virus quickly develops forms that the drug can no longer stop.",
+    "New drugs for HIV are no longer needed."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Người nói nói thẳng: chỉ dùng một thuốc kháng virus thì các chủng HIV kháng thuốc xuất hiện rất nhanh. Bẫy: 'giúp kiểm soát vấn đề' là nói về liệu pháp phối hợp từ ba thuốc trở lên, không phải một thuốc."
+  },
+  {
+   "id": "mcsal10",
+   "type": "mcsa_l",
+   "level": 2,
+   "topic": "Urbanization",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "script": "Does city life change the way people think? One theory says that cities tend to have more open, individualistic cultures. For example, American cities tend to have looser social norms than rural areas, and a study in Japan found that rural people were more likely to consider how their choices would affect others. However, some findings contradict this theory. In China, people in urban areas reported tighter social norms. And young people who moved from rural areas to big cities such as Beijing and Shanghai for college didn't show consistent changes in their thinking style. Instead, the regions' history of rice or wheat farming was a stronger predictor.",
+   "question": "What does the speaker imply about the theory that cities have more individualistic cultures?",
+   "options": [
+    "It has been confirmed by research across China.",
+    "It may not apply in the same way in every culture.",
+    "It explains why rural people in Japan ignore how their choices affect others.",
+    "It shows that farming history has no effect on how people think."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Ở Mỹ và Nhật kết quả hợp với giả thuyết, còn ở Trung Quốc thì ngược lại, nên suy ra giả thuyết có thể không đúng như nhau ở mọi nền văn hóa. Bẫy: nghiên cứu ở Nhật nói người nông thôn NGHĨ ĐẾN người khác nhiều hơn, không phải phớt lờ."
+  },
+  {
+   "id": "mcsal11",
+   "type": "mcsa_l",
+   "level": 3,
+   "topic": "Ocean acidification",
+   "source": "https://en.wikipedia.org/wiki/Ocean_acidification",
+   "license": "CC BY-SA 4.0",
+   "script": "Ocean acidification may also affect fish larvae, especially their sense of smell, which is crucial in early development. Orange clownfish larvae, for instance, use smell to distinguish reefs surrounded by vegetated islands from reefs that are not, so they can find a suitable place to grow. In one aquarium experiment, larvae were kept either at today's ocean pH or in more acidic water matching levels that climate models suggest are possible by twenty-one hundred. At that level, their reactions to environmental cues were drastically different, and at an even lower pH, they didn't react to any cue at all. However, a meta-analysis published in twenty twenty-two found that the effects reported in studies of acidification and fish behaviour have declined by an order of magnitude over the past decade, and have been negligible for the past five years.",
+   "question": "Why does the speaker mention the meta-analysis published in 2022?",
+   "options": [
+    "To confirm that clownfish larvae cannot detect any cues at today's ocean pH",
+    "To explain why clownfish larvae depend on smell to find a suitable reef",
+    "To argue that ocean acidification will pose no threat to fish by the year 2100",
+    "To suggest that acidification's effects on fish behaviour may be smaller than first reported"
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Kể xong thí nghiệm đáng lo, người nói dùng 'However' để đưa ra phân tích năm 2022: mức tác động được báo cáo đã giảm khoảng mười lần và gần như không đáng kể trong 5 năm qua, tức là tác động có thể nhỏ hơn ta tưởng. Bẫy: đáp án 'không còn đe dọa cá' nói quá xa so với bài."
+  },
+  {
+   "id": "mcsal12",
+   "type": "mcsa_l",
+   "level": 3,
+   "topic": "Placebos",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "script": "Psychology offers two main explanations for the placebo effect. The first is expectancy theory, proposed by Irving Kirsch in nineteen eighty-five. The idea is that expectations are self-fulfilling: if you believe you'll feel different, you actually do feel different. So simply believing you've received an active treatment can produce the subjective changes the real treatment is thought to cause. The second explanation is classical conditioning. Here, a placebo and a real stimulus are given together until the placebo becomes associated with the real effect. In one design, a neutral substance called saccharin is paired in a drink with a drug that suppresses the immune system. Once this pairing has been learned, the taste of saccharin by itself can suppress immunity. Both mechanisms seem to play a role, but they contribute differently: conditioning has a longer-lasting effect, and can affect earlier stages of information processing.",
+   "question": "Which of the following can be inferred from the lecture?",
+   "options": [
+    "Saccharin has a direct chemical effect on the immune system.",
+    "Expectations have a longer-lasting effect than conditioning.",
+    "Conditioning works only at the later stages of information processing.",
+    "A neutral substance can come to cause a real physical effect."
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Saccharin là chất trung tính, nhưng sau khi được ghép với thuốc ức chế miễn dịch, chỉ riêng vị của nó cũng làm giảm miễn dịch, tức là chất vô tác dụng vẫn gây ra phản ứng thật trong cơ thể. Bẫy: hai đáp án về 'lâu hơn' và 'giai đoạn sau' nói ngược, vì bài nói điều kiện hóa kéo dài hơn và tác động ở giai đoạn SỚM."
+  },
+  {
+   "id": "mcsal13",
+   "type": "mcsa_l",
+   "level": 3,
+   "topic": "Plate tectonics",
+   "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "license": "CC BY-SA 4.0",
+   "script": "In the decades before plate tectonics was accepted, a number of researchers outlined concepts that were close, or even nearly identical, to the modern theory. The English geologist Arthur Holmes, for example, proposed that the junctions between plates might lie beneath the sea, and that convection currents in the mantle might be the driving force. So why are contributions like these so often forgotten? There are several reasons. At the time, continental drift simply wasn't accepted. Some of the ideas were discussed in the context of abandoned theories, such as a deforming globe without continental drift. They were published during a period of extreme political and economic instability, which hampered scientific communication. And many came from European scientists, who at first received little or no credit in the American papers on seafloor spreading in the nineteen sixties.",
+   "question": "What is the lecture mainly about?",
+   "options": [
+    "How Arthur Holmes's ideas were quickly accepted by other geologists",
+    "Why American scientists rejected the idea of mantle convection",
+    "Why early ideas close to plate tectonics were often overlooked",
+    "How political instability led to the discovery of seafloor spreading"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Bài lấy ví dụ Arthur Holmes rồi hỏi 'vì sao những đóng góp này hay bị quên' và nêu bốn lý do, nên ý chính là vì sao các ý tưởng đi trước bị bỏ qua. Bẫy: bất ổn chính trị làm CẢN TRỞ việc trao đổi khoa học, không dẫn tới phát hiện nào."
+  },
+  {
+   "id": "mcsal14",
+   "type": "mcsa_l",
+   "level": 3,
+   "topic": "Behavioral economics",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "script": "Wage-setting in informal labour markets also reveals behavioural elements. Even though these markets lack formal institutions such as unions, wages there remain rigid. In Indian agriculture, for instance, wages rise after a positive productivity shock, but they're rarely cut after a negative one, because of concerns about fairness and social norms. Social pressure also affects which offers workers accept. Low-wage offers are accepted more often when they're made privately rather than publicly, since in public, workers face pressure to reject wages seen as unfair. And even small wage differences within a work team can reduce attendance and productivity, not only among the lower-paid workers, but also among those who are paid more. This suggests that inequality itself can demotivate workers, through social comparison.",
+   "question": "According to the speaker, what effect can small wage differences within a work team have?",
+   "options": [
+    "They motivate the higher-paid workers to work harder.",
+    "They reduce productivity only among the lower-paid workers.",
+    "They have little effect because the differences are small.",
+    "They can make both lower-paid and better-paid workers less productive."
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Người nói dùng 'not only... but also': chênh lệch lương nhỏ trong nhóm làm giảm chuyên cần và năng suất ở cả người lương thấp lẫn người lương cao hơn. Bẫy: chỉ nghe nửa đầu 'among the lower-paid workers' rồi chọn 'chỉ người lương thấp'."
+  },
+  {
+   "id": "mcsal15",
+   "type": "mcsa_l",
+   "level": 3,
+   "topic": "Multilingualism",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "script": "Some multilingual people use code-switching, which means swapping between languages. In many cases, this allows speakers to take part in more than one cultural group or environment. But code-switching can also be a strategy for when proficiency is lacking, for example when one language has a limited vocabulary in certain fields, as is often the case with immigrant languages. How much people switch depends partly on their attitude. A speaker who feels positive about both languages, and about code-switching itself, may switch many times, even within the same sentence. But a speaker who is reluctant to switch, perhaps because of gaps in proficiency, may try to hide these gaps by converting elements of one language into the other, a process called calquing. So, instead of the proper French word for blackmail, a speaker might use a French phrase that literally means mail that is black.",
+   "question": "Why does the speaker mention a French phrase that literally means 'mail that is black'?",
+   "options": [
+    "To show that French has no proper word for blackmail",
+    "To illustrate how a reluctant speaker may hide a gap by translating literally",
+    "To give an example of switching languages within the same sentence",
+    "To show how code-switching lets speakers join more than one cultural group"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Cụm 'thư màu đen' là ví dụ cho calquing: người ngại chuyển ngôn ngữ vì vốn từ còn thiếu sẽ dịch sát từng chữ để che chỗ hổng. Bẫy: bài nói 'thay vì dùng từ tiếng Pháp đúng cho blackmail', tức tiếng Pháp CÓ từ này; còn đổi ngôn ngữ nhiều lần trong một câu là kiểu người thích chuyển ngôn ngữ."
+  },
+  {
+   "id": "mcmal01",
+   "type": "mcma_l",
+   "level": 1,
+   "topic": "Penguin diet and nesting",
+   "source": "https://simple.wikipedia.org/wiki/Penguin",
+   "license": "CC BY-SA 4.0",
+   "script": "Penguins eat krill, fish, squid and other small sea animals. They come onto land or ice to lay their eggs and raise their chicks. In most kinds of penguin, the birds nest together in a huge group called a rookery. Their nests are usually made on the ground with rocks or mud. Penguins have a weak sense of taste. Scientists found that they are missing some important genes for taste. But this does not matter much, because they swallow their fish whole.",
+   "question": "According to the speaker, which of the following are true about penguins?",
+   "options": [
+    "A huge group of nesting penguins is called a rookery.",
+    "Penguins build their nests high up in trees.",
+    "Scientists found that penguins have extra genes for taste.",
+    "Penguins swallow their fish whole.",
+    "Penguins chew their fish slowly to enjoy the taste.",
+    "Penguins come onto land or ice to lay their eggs."
+   ],
+   "answers": [
+    0,
+    3,
+    5
+   ],
+   "why_vi": "Bài nói chim cánh cụt lên đất liền hoặc băng để đẻ trứng, cả bầy làm tổ chung gọi là 'rookery', và chúng nuốt chửng cá. Bẫy: nhà khoa học thấy chúng THIẾU gen vị giác chứ không phải có thêm, và tổ làm trên mặt đất bằng đá hoặc bùn, không phải trên cây."
+  },
+  {
+   "id": "mcmal02",
+   "type": "mcma_l",
+   "level": 1,
+   "topic": "How chocolate is made",
+   "source": "https://simple.wikipedia.org/wiki/Chocolate",
+   "license": "CC BY-SA 4.0",
+   "script": "Making chocolate takes many steps. First, the cocoa beans are collected and left in piles or containers to ferment. Then the beans are dried and cleaned. Next, chocolate makers cook the beans and crush them. After that, different ingredients are mixed together. Dark chocolate is made from sugar, cocoa butter and chocolate liquor. Milk chocolate uses the same things, plus milk and vanilla. White chocolate has no chocolate liquor at all. The last step is called tempering.",
+   "question": "According to the speaker, which of the following are true about how chocolate is made?",
+   "options": [
+    "White chocolate is made with chocolate liquor.",
+    "The beans are left to ferment before they are dried.",
+    "Milk chocolate contains milk and vanilla.",
+    "Tempering is the first step in making chocolate.",
+    "Dark chocolate contains milk and vanilla.",
+    "The beans are cooked and then crushed."
+   ],
+   "answers": [
+    1,
+    2,
+    5
+   ],
+   "why_vi": "Thứ tự trong bài: ủ lên men, phơi khô, nấu rồi nghiền, trộn nguyên liệu, cuối cùng là tempering; sô-cô-la sữa có thêm sữa và vani. Bẫy: sô-cô-la trắng KHÔNG có 'chocolate liquor', sô-cô-la đen không có sữa và vani, và tempering là bước CUỐI chứ không phải bước đầu."
+  },
+  {
+   "id": "mcmal03",
+   "type": "mcma_l",
+   "level": 1,
+   "topic": "Olympic ceremonies",
+   "source": "https://simple.wikipedia.org/wiki/Olympic_Games",
+   "license": "CC BY-SA 4.0",
+   "script": "At the opening ceremony of the Olympic Games, the athletes walk into the stadium in groups, by nation. Traditionally, Greece enters first, to honor the place where the Olympics began. The other nations then enter in alphabetical order, according to the host country's chosen language. The athletes of the host country are always the last to enter. At the closing ceremony, flag bearers from each country come in first. Then the athletes enter together, not grouped by country.",
+   "question": "According to the speaker, which of the following are true about the Olympic ceremonies?",
+   "options": [
+    "Greece traditionally enters first at the opening ceremony.",
+    "The host country's athletes are the first to enter at the opening ceremony.",
+    "At the closing ceremony, the athletes enter together, not grouped by country.",
+    "Nations enter in order of how many athletes they send.",
+    "At the closing ceremony, the athletes come in before the flag bearers.",
+    "The other nations enter in alphabetical order, using the host country's chosen language."
+   ],
+   "answers": [
+    0,
+    2,
+    5
+   ],
+   "why_vi": "Lễ khai mạc: Hy Lạp theo truyền thống vào đầu tiên, các nước khác vào theo thứ tự chữ cái bằng ngôn ngữ nước chủ nhà chọn; lễ bế mạc: vận động viên vào chung, không chia theo nước. Bẫy: vận động viên nước chủ nhà luôn vào CUỐI, và ở lễ bế mạc người cầm cờ vào TRƯỚC vận động viên."
+  },
+  {
+   "id": "mcmal04",
+   "type": "mcma_l",
+   "level": 1,
+   "topic": "Moon exploration",
+   "source": "https://simple.wikipedia.org/wiki/Moon",
+   "license": "CC BY-SA 4.0",
+   "script": "Before people stood on the Moon, the United States and the Soviet Union sent robots there. Some of these robots flew around the Moon, and others landed on it. Later, in nineteen sixty-nine, two astronauts, Neil Armstrong and Buzz Aldrin, landed on the Moon. Armstrong was the first human to touch it. Their footprints could stay there for millions of years, because the Moon has no wind or rain to smooth them out.",
+   "question": "According to the speaker, which of the following are true about Moon exploration?",
+   "options": [
+    "All of the robots sent to the Moon landed on its surface.",
+    "Robots were sent to the Moon before any people landed there.",
+    "Buzz Aldrin was the first human to touch the Moon.",
+    "Only the United States sent robots to the Moon.",
+    "The astronauts' footprints could last for millions of years."
+   ],
+   "answers": [
+    1,
+    4
+   ],
+   "why_vi": "Chỉ hai ý đúng: robot được gửi lên trước khi con người đặt chân lên Mặt Trăng, và dấu chân có thể còn đó hàng triệu năm. Bẫy: chỉ MỘT SỐ robot hạ cánh (số khác bay vòng quanh), cả Mỹ lẫn Liên Xô đều gửi robot, và người đầu tiên chạm Mặt Trăng là Armstrong chứ không phải Aldrin."
+  },
+  {
+   "id": "mcmal05",
+   "type": "mcma_l",
+   "level": 1,
+   "topic": "Slash-and-burn farming",
+   "source": "https://simple.wikipedia.org/wiki/Tropical_rainforest",
+   "license": "CC BY-SA 4.0",
+   "script": "Most rainforest people are slash-and-burn farmers. First, they cut down the trees and plants in a small area. They let the dead plants dry, and then they burn them. The ash makes the soil good for crops for a little while. After a few years, the family moves on and clears a new field, while the old one turns back into forest. This kind of farming does not harm the forest when only a few people do it.",
+   "question": "According to the speaker, which of the following are true about slash-and-burn farming?",
+   "options": [
+    "The ash makes the soil good for crops for a short time.",
+    "The farmers burn the plants while they are still green and wet.",
+    "This kind of farming does not harm the forest when only a few people do it.",
+    "A family farms the same field for many generations.",
+    "The farmers plant new trees when they leave a field.",
+    "The old field turns back into forest."
+   ],
+   "answers": [
+    0,
+    2,
+    5
+   ],
+   "why_vi": "Tro làm đất tốt trong một thời gian ngắn, ruộng cũ tự thành rừng lại, và kiểu canh tác này không hại rừng khi chỉ ít người làm. Bẫy: cây phải để khô rồi mới đốt, mỗi gia đình chỉ trồng vài năm rồi chuyển đi, và bài không hề nói nông dân trồng cây mới."
+  },
+  {
+   "id": "mcmal06",
+   "type": "mcma_l",
+   "level": 2,
+   "topic": "Glacial erosion",
+   "source": "https://en.wikipedia.org/wiki/Glacier",
+   "license": "CC BY-SA 4.0",
+   "script": "Glaciers wear away the land through two main processes, known as plucking and abrasion. Plucking happens when water under the glacier gets into cracks in the bedrock, then freezes and expands. The expanding ice acts like a lever, loosening blocks of rock and lifting them into the glacier. Abrasion is different. Here, the ice and the rock fragments it carries slide over the bedrock and work like sandpaper, smoothing and polishing the surface below. When a glacier holds large boulders, they can carve long scratches, called striations, into the rock. By mapping the direction of these scratches, researchers can work out which way the glacier moved.",
+   "question": "According to the lecture, which of the following statements about glacial erosion are true?",
+   "options": [
+    "Plucking is caused by water that freezes and expands in cracks in the bedrock.",
+    "Abrasion lifts blocks of rock up into the glacier.",
+    "Researchers use striations to work out how old a glacier is.",
+    "In abrasion, the ice and its rock fragments work like sandpaper on the bedrock.",
+    "Striations are long scratches carved into the rock by large boulders.",
+    "Plucking smooths and polishes the bedrock below the glacier."
+   ],
+   "answers": [
+    0,
+    3,
+    4
+   ],
+   "why_vi": "Plucking là nước lọt vào khe đá, đóng băng, nở ra rồi bẩy khối đá lên; abrasion là băng cùng đá vụn trượt trên nền đá như giấy nhám; vết xước (striations) do đá tảng lớn khắc ra. Bẫy chính là tráo hai quá trình: nhấc khối đá là plucking, làm nhẵn bóng là abrasion; còn vết xước cho biết HƯỚNG sông băng đi chứ không phải tuổi của nó."
+  },
+  {
+   "id": "mcmal07",
+   "type": "mcma_l",
+   "level": 2,
+   "topic": "Hydropower flexibility",
+   "source": "https://en.wikipedia.org/wiki/Hydroelectricity",
+   "license": "CC BY-SA 4.0",
+   "script": "One major advantage of hydropower is flexibility. Hydro stations can be ramped up and down very quickly as demand for electricity changes. Most hydro units can go from a cold start to full load in less than ten minutes, which is quicker than nuclear and almost all fossil fuel power. Battery power is quicker still, but its capacity is tiny compared with hydro. Output can also be reduced quickly when too much power is being generated. Hydro stations also have long economic lives, and operating labour costs are usually low, because the plants are automated and have few staff on site during normal operation.",
+   "question": "According to the speaker, which of the following statements about hydropower are true?",
+   "options": [
+    "Most hydro units can reach full load from a cold start in less than ten minutes.",
+    "Nuclear power can reach full load faster than most hydro units.",
+    "Battery power responds even more quickly than hydropower.",
+    "Once a hydro station is running, its output cannot be reduced.",
+    "Hydro stations tend to have short economic lives.",
+    "Labour costs are usually low because hydro plants are automated."
+   ],
+   "answers": [
+    0,
+    2,
+    5
+   ],
+   "why_vi": "Hầu hết tổ máy thủy điện lên đủ tải trong chưa tới 10 phút, pin còn nhanh hơn nữa, và chi phí nhân công thấp vì nhà máy tự động hóa. Bẫy: thủy điện nhanh hơn điện hạt nhân chứ không phải ngược lại, công suất giảm được nhanh khi dư điện, và nhà máy có tuổi thọ kinh tế DÀI."
+  },
+  {
+   "id": "mcmal08",
+   "type": "mcma_l",
+   "level": 2,
+   "topic": "Outdoor tourism types",
+   "source": "https://en.wikipedia.org/wiki/Tourism",
+   "license": "CC BY-SA 4.0",
+   "script": "Outdoor tourism is usually divided into three categories: nature, eco and adventure tourism. Nature tourism generally covers activities that take place outside. It has a low barrier to entry and is accessible to a large population. Ecotourism is more specific. It is responsible travel to fragile and usually protected areas, and it aims to be low-impact and often small-scale. It helps educate the traveller, provides funds for conservation and directly benefits local communities. Adventure tourism is the most extreme category. It involves activities that require skill, risk and physical effort, such as white water rafting and mountaineering, and it often appeals less to the general public than the other two.",
+   "question": "According to the lecture, which of the following statements about outdoor tourism are true?",
+   "options": [
+    "Nature tourism is the most extreme of the three categories.",
+    "Nature tourism has a low barrier to entry.",
+    "Ecotourism helps to provide funds for conservation.",
+    "Ecotourism usually takes place in large, crowded resort areas.",
+    "Adventure tourism often appeals more to the general public than the other two types.",
+    "Adventure tourism involves activities that require skill, risk and physical effort."
+   ],
+   "answers": [
+    1,
+    2,
+    5
+   ],
+   "why_vi": "Du lịch thiên nhiên dễ tham gia (rào cản thấp), du lịch sinh thái góp tiền cho bảo tồn, du lịch mạo hiểm cần kỹ năng, chịu rủi ro và tốn sức. Bẫy: loại 'cực đoan nhất' là mạo hiểm chứ không phải thiên nhiên; mạo hiểm KÉM hấp dẫn đại chúng hơn; sinh thái diễn ra ở vùng mong manh, được bảo vệ, quy mô nhỏ."
+  },
+  {
+   "id": "mcmal09",
+   "type": "mcma_l",
+   "level": 2,
+   "topic": "Steamboats and deforestation",
+   "source": "https://en.wikipedia.org/wiki/Deforestation",
+   "license": "CC BY-SA 4.0",
+   "script": "In the nineteenth century, steamboats were introduced in the United States, and they caused the deforestation of the banks of major rivers such as the Mississippi. The crews cut wood from the riverbanks every day to fuel the steam engines. Attempts to improve navigation also often meant clearing large trees far back from the banks. Between Saint Louis and the Ohio River, the Mississippi became broader and shallower and shifted its channel sideways. One environmental result of this deforestation was increased and more severe flooding. In the late nineteenth century, several French colonial towns in the Illinois Country were flooded and abandoned, and part of their archaeological record was lost.",
+   "question": "According to the lecture, which of the following statements are true?",
+   "options": [
+    "The Mississippi became narrower and deeper between Saint Louis and the Ohio River.",
+    "Steamboat crews cut wood from the riverbanks to fuel their engines.",
+    "Deforestation of the riverbanks led to more severe flooding.",
+    "Clearing trees to improve navigation was forbidden on the Mississippi.",
+    "Several French colonial towns in the Illinois Country were flooded and abandoned.",
+    "The French colonial towns were abandoned because their wood supplies ran out."
+   ],
+   "answers": [
+    1,
+    2,
+    4
+   ],
+   "why_vi": "Thủy thủ tàu hơi nước chặt gỗ ven sông mỗi ngày làm nhiên liệu, hậu quả là lũ nhiều và nặng hơn, và vài thị trấn thuộc địa Pháp ở vùng Illinois bị ngập rồi bỏ hoang. Bẫy: sông Mississippi RỘNG và NÔNG ra chứ không hẹp và sâu; chặt cây để dễ đi tàu là chuyện thường làm chứ không bị cấm; bài không nói thị trấn bị bỏ vì hết gỗ."
+  },
+  {
+   "id": "mcmal10",
+   "type": "mcma_l",
+   "level": 2,
+   "topic": "Obesity and public health policy",
+   "source": "https://en.wikipedia.org/wiki/Obesity",
+   "license": "CC BY-SA 4.0",
+   "script": "Obesity is a complex public health problem, and dealing with it requires effort from communities, local authorities and governments. Public health efforts try to change the factors that lead people to eat too much and that discourage physical activity. These efforts include meal programs in schools, limits on junk food marketing to children, and less access to sugary drinks in schools. The World Health Organization recommends taxing sugary drinks. When cities are developed, efforts have also been made to increase access to parks and to create pedestrian routes. Mass media campaigns, however, seem to have limited effect on behaviour, although they may raise awareness of diet and physical activity.",
+   "question": "According to the speaker, which of the following statements about obesity policy are true?",
+   "options": [
+    "Mass media campaigns are very effective at changing people's behaviour.",
+    "The World Health Organization recommends taxing sugary drinks.",
+    "Dealing with obesity is left mainly to individual doctors.",
+    "Public health efforts focus only on getting people to eat less.",
+    "Mass media campaigns may raise awareness of diet and physical activity.",
+    "The World Health Organization recommends banning fast food near schools."
+   ],
+   "answers": [
+    1,
+    4
+   ],
+   "why_vi": "Chỉ hai ý đúng: WHO khuyến nghị đánh thuế đồ uống có đường, và chiến dịch truyền thông có thể nâng nhận thức về ăn uống, vận động. Bẫy: bài nói các chiến dịch này ÍT tác dụng thay đổi hành vi; chống béo phì cần cộng đồng, chính quyền và chính phủ chứ không chỉ bác sĩ; các biện pháp nhắm cả ăn uống lẫn vận động."
+  },
+  {
+   "id": "mcmal11",
+   "type": "mcma_l",
+   "level": 3,
+   "topic": "Human circadian period",
+   "source": "https://en.wikipedia.org/wiki/Circadian_rhythm",
+   "license": "CC BY-SA 4.0",
+   "script": "Early research suggested that, when isolated from daylight and clocks, most people preferred a day closer to twenty-five hours. That research, however, was flawed. Although participants were shielded from daylight and time cues, the researchers were unaware of the phase-delaying effect of indoor electric light, and participants could switch lights on whenever they were awake. Evening light therefore delayed their circadian phase. A more stringent Harvard study in nineteen ninety-nine estimated the natural human rhythm at around twenty-four hours and eleven minutes, much closer to the solar day. A later study was consistent with this and also identified a sex difference: the circadian period was slightly shorter for women than for men. Women also tended to wake earlier and to prefer morning activities more than men did, although the biological mechanisms behind these differences are still unknown.",
+   "question": "According to the lecture, which of the following statements about the human circadian rhythm are true?",
+   "options": [
+    "Indoor electric light in the evening delayed the participants' circadian phase.",
+    "The early studies were flawed because participants were exposed to daylight.",
+    "The 1999 Harvard study estimated the natural human rhythm at about 25 hours.",
+    "A later study found that women's circadian period was slightly shorter than men's.",
+    "Women tended to wake earlier than men and preferred morning activities more.",
+    "The biological mechanisms behind the sex differences have now been identified."
+   ],
+   "answers": [
+    0,
+    3,
+    4
+   ],
+   "why_vi": "Nghiên cứu cũ sai vì người tham gia được bật đèn điện buổi tối, làm nhịp sinh học lùi muộn; nghiên cứu sau thấy chu kỳ của nữ hơi ngắn hơn nam, nữ dậy sớm hơn và thích hoạt động buổi sáng hơn. Bẫy: họ ĐÃ được che ánh sáng ban ngày (lỗi là đèn điện trong nhà); khoảng 25 giờ là con số của nghiên cứu cũ, còn Harvard 1999 ra khoảng 24 giờ 11 phút; cơ chế sinh học của khác biệt giới vẫn CHƯA rõ."
+  },
+  {
+   "id": "mcmal12",
+   "type": "mcma_l",
+   "level": 3,
+   "topic": "History of inflation control",
+   "source": "https://en.wikipedia.org/wiki/Inflation",
+   "license": "CC BY-SA 4.0",
+   "script": "Central banks and governments have used various anchors to keep inflation low. Before the First World War, the gold standard was prevalent, but it was eventually found to harm economic stability and employment, not least during the Great Depression. After the Second World War, the Bretton Woods system tied most developed countries' currencies to the United States dollar, which was itself convertible to gold. That system disintegrated in the nineteen seventies, and major currencies began to float against each other. Many central banks then adopted money supply targets, as monetarists such as Milton Friedman recommended, but these proved impractical, because the relationship between monetary aggregates and other macroeconomic variables was unstable, and every major economy eventually abandoned them. In nineteen ninety, New Zealand became the first country to adopt an official inflation target, a strategy most developed countries have since followed.",
+   "question": "According to the lecture, which of the following statements about the history of inflation control are true?",
+   "options": [
+    "Under Bretton Woods, currencies were tied directly to gold rather than to the dollar.",
+    "The gold standard was eventually found to harm economic stability and employment.",
+    "Some major economies still rely on money supply targets today.",
+    "Major currencies began to float against each other before Bretton Woods was created.",
+    "Money supply targets were abandoned because monetary aggregates had an unstable relationship with other macroeconomic variables.",
+    "New Zealand was the first country to adopt an official inflation target."
+   ],
+   "answers": [
+    1,
+    4,
+    5
+   ],
+   "why_vi": "Bản vị vàng bị thấy là gây hại cho ổn định kinh tế và việc làm, mục tiêu cung tiền bị bỏ vì quan hệ giữa khối tiền và các biến vĩ mô không ổn định, và New Zealand là nước đầu tiên đặt mục tiêu lạm phát chính thức. Bẫy: Bretton Woods gắn tiền với đồng đô la Mỹ (đô la mới đổi ra vàng); các đồng tiền lớn thả nổi SAU khi Bretton Woods sụp đổ; MỌI nền kinh tế lớn đều đã bỏ mục tiêu cung tiền."
+  },
+  {
+   "id": "mcmal13",
+   "type": "mcma_l",
+   "level": 3,
+   "topic": "Language learning before birth",
+   "source": "https://en.wikipedia.org/wiki/Language_acquisition",
+   "license": "CC BY-SA 4.0",
+   "script": "Research on language learning before birth took off when several researchers independently discovered that very young infants could tell their native language apart from other languages. In one study, infants just four days old could discriminate utterances in their native language from those in an unfamiliar language, but they could not distinguish between two languages when neither was native to them. These results point to mechanisms for auditory learning in the womb. Some researchers argue that this learning results solely from prosody, the property of speech that conveys emotion and signals a question, statement or command. Others argue that there is more to it than prosody. Newborns show knowledge of native-language vowels, and one study found that they encode the edges of multisyllabic sequences better than their internal parts. Together, these results suggest that some building blocks of later grammar may already be learned in the womb.",
+   "question": "According to the lecture, which of the following statements are true?",
+   "options": [
+    "Four-day-old infants could tell apart two languages even when neither was their native language.",
+    "Several researchers independently found that very young infants could tell their native language apart from other languages.",
+    "Some researchers attribute learning in the womb entirely to prosody.",
+    "Newborns encode the middle of multisyllabic sequences better than the edges.",
+    "Newborns show knowledge of the vowels of their native language.",
+    "The findings suggest that syntactic processing only begins to develop after birth."
+   ],
+   "answers": [
+    1,
+    2,
+    4
+   ],
+   "why_vi": "Nhiều nhà nghiên cứu độc lập phát hiện trẻ rất nhỏ phân biệt được tiếng mẹ đẻ; một số người cho rằng việc học trong bụng mẹ chỉ dựa vào ngữ điệu (prosody); trẻ sơ sinh đã biết nguyên âm của tiếng mẹ đẻ. Bẫy: trẻ 4 ngày tuổi KHÔNG phân biệt được hai thứ tiếng đều lạ; trẻ nắm phần ĐẦU và CUỐI chuỗi âm tiết tốt hơn phần giữa; kết luận là cú pháp được học ngay TRONG bụng mẹ."
+  },
+  {
+   "id": "mcmal14",
+   "type": "mcma_l",
+   "level": 3,
+   "topic": "Microplastics in food chains",
+   "source": "https://en.wikipedia.org/wiki/Microplastics",
+   "license": "CC BY-SA 4.0",
+   "script": "Once ingested, microplastics can take up to fourteen days to pass through an animal, compared with a normal digestion period of about two days, and particles that become enmeshed in the gills may never be eliminated at all. When animals carrying microplastics are eaten by predators, the particles are incorporated into the bodies of feeders higher up the food chain. Lantern fish, for instance, are small fish in whose stomachs plastic has been found, and they are an important prey of commercial fish such as tuna and swordfish. Interestingly, four species of sea cucumber, animals generally regarded as non-selective scavengers of the ocean floor, were shown to ingest far more plastic fragments than the ratio of plastic to sand grains in their sediment would predict. This suggests that they may be selecting plastic particles, which contradicts the accepted view of their feeding strategy.",
+   "question": "According to the lecture, which of the following statements are true?",
+   "options": [
+    "Microplastics can take up to 14 days to pass through an animal.",
+    "Particles caught in the gills are normally eliminated within two days.",
+    "Lantern fish are an important prey of commercial fish such as tuna and swordfish.",
+    "Microplastics stay in the animal that swallowed them and do not pass to its predators.",
+    "The sea cucumber findings confirm that these animals feed indiscriminately.",
+    "Sea cucumbers may be selectively ingesting plastic particles."
+   ],
+   "answers": [
+    0,
+    2,
+    5
+   ],
+   "why_vi": "Vi nhựa có thể mất tới 14 ngày mới đi hết qua cơ thể con vật, cá đèn lồng là mồi chính của cá ngừ và cá kiếm, và hải sâm có thể đang CHỌN ăn hạt nhựa. Bẫy: hạt kẹt ở mang có thể không bao giờ được thải ra; vi nhựa CÓ truyền sang kẻ săn mồi; phát hiện về hải sâm TRÁI với quan niệm chúng ăn không chọn lọc."
+  },
+  {
+   "id": "mcmal15",
+   "type": "mcma_l",
+   "level": 3,
+   "topic": "Ultimatum and trust games",
+   "source": "https://en.wikipedia.org/wiki/Game_theory",
+   "license": "CC BY-SA 4.0",
+   "script": "The ultimatum game has become a popular instrument in economic experiments. One player, the proposer, is given a sum of money and must decide how to split it with a second player, the responder, who knows the total. The responder may accept or reject the offer. If the offer is accepted, the money is divided as proposed; if it is rejected, neither player receives anything. A related variant, the dictator game, is almost identical, except that the responder has no power to reject the offer. In a different experiment, the trust game, an investor decides how much of a sum of money to give to a trustee; the experimenter triples that amount, and the trustee then decides how much to return. A completely self-interested trustee would return nothing, yet the results suggest that people are willing to place trust, risking money, in the belief that there will be reciprocity.",
+   "question": "According to the lecture, which of the following statements about these economic games are true?",
+   "options": [
+    "If the responder rejects the offer in the ultimatum game, neither player receives any money.",
+    "In the dictator game, the responder is allowed to reject the proposer's offer.",
+    "In the ultimatum game, the responder is not told the total sum of money.",
+    "In the trust game, the experimenter triples the amount that the investor gives.",
+    "The results of the trust game suggest that people are unwilling to risk money on trust.",
+    "In the trust game, the experimenter triples the amount that the trustee returns."
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why_vi": "Chỉ hai ý đúng: trong trò 'tối hậu thư', người nhận từ chối thì cả hai không được gì; trong trò 'niềm tin', người làm thí nghiệm nhân ba số tiền NHÀ ĐẦU TƯ đưa. Bẫy chính: tiền được nhân ba là tiền nhà đầu tư đưa, không phải tiền người được ủy thác trả lại; trong trò 'độc tài' người nhận KHÔNG được từ chối; kết quả cho thấy người ta SẴN SÀNG liều tiền để tin nhau."
+  },
+  {
+   "id": "hcs01",
+   "type": "hcs",
+   "level": 1,
+   "topic": "Bicycle safety",
+   "source": "https://simple.wikipedia.org/wiki/Bicycle",
+   "license": "CC BY-SA 4.0",
+   "script": "Many thousands of people are hurt in bicycle accidents every year, and many are killed. Careful riding helps to prevent this. On the street, it is safest to ride in the same direction as the traffic. Riders must obey stop signs and traffic lights. Lights and reflective clothing help when it is dark, and a helmet makes being hurt less likely. Bicycle paths also help, because they keep cyclists away from busy traffic.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Wearing a helmet completely protects cyclists from injury, so riders who wear one can safely ignore traffic lights and ride on either side of the road.",
+    "Bicycle accidents hurt many people every year, but careful riding, obeying traffic rules, using lights, reflective clothing and helmets, and riding on bicycle paths can all make cycling safer.",
+    "Most bicycle accidents happen because of busy roads, so the speaker says cyclists should only ride on bicycle paths and should never ride at night."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Đáp án đúng gom đủ ý: tai nạn xe đạp nhiều, nhưng đi cẩn thận, tuân luật, có đèn, áo phản quang, mũ bảo hiểm và đường riêng cho xe đạp thì an toàn hơn. Bẫy: bài chỉ nói mũ bảo hiểm làm 'ít bị thương hơn', không bảo vệ hoàn toàn. Bài cũng không cấm đi ban đêm, chỉ nói trời tối thì có đèn và áo phản quang sẽ an toàn hơn."
+  },
+  {
+   "id": "hcs02",
+   "type": "hcs",
+   "level": 1,
+   "topic": "Instant coffee",
+   "source": "https://simple.wikipedia.org/wiki/Coffee",
+   "license": "CC BY-SA 4.0",
+   "script": "Instant coffee is a very quick way to make a cup of coffee. It is made in a factory. First, strong coffee is made with ground coffee and boiling water, and the grounds are filtered out. Then the liquid is dried until only small granules or a fine powder is left. When you add a spoonful to boiling water, it dissolves. But it can taste very different from fresh coffee, partly because it is usually made from Robusta beans.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Instant coffee is made in a factory by brewing strong coffee, filtering out the grounds and drying the liquid into powder or granules. It can taste different from fresh coffee.",
+    "Instant coffee is made at home by drying fresh coffee beans into powder, and because it uses Arabica beans, it tastes exactly the same as fresh coffee.",
+    "The talk is mainly about Robusta beans, explaining that they grow best in hot countries and are the only beans used in coffee factories."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Đáp án đúng tóm đủ quy trình làm cà phê hòa tan trong nhà máy và ý vị của nó khác cà phê tươi. Bẫy: bài nói làm ở nhà máy và thường dùng hạt Robusta, không phải làm ở nhà hay dùng Arabica. Bài cũng không hề nói Robusta mọc ở đâu."
+  },
+  {
+   "id": "hcs03",
+   "type": "hcs",
+   "level": 1,
+   "topic": "Working elephants",
+   "source": "https://simple.wikipedia.org/wiki/Elephant",
+   "license": "CC BY-SA 4.0",
+   "script": "People have used elephants for many different jobs. The general Hannibal took elephants across the Alps when he fought the Romans. In South Asia, elephants fought in armies and did heavy work, like lifting trees and moving logs. But people have never domesticated elephants. Domesticated animals are tame and breed under human control. Adult male elephants sometimes become aggressive and very hard to control. Most elephants used by people are female, except those used in war.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Elephants became fully domesticated animals long ago, and because male elephants are calm and easy to control, most working elephants today are male.",
+    "The talk mainly tells the story of Hannibal, who crossed the Alps with elephants and won every battle against the Romans because of them.",
+    "Humans have used elephants in war and for heavy work, but elephants have never been domesticated, and most elephants used by people are female."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Ý chính: con người dùng voi vào chiến tranh và việc nặng, nhưng chưa bao giờ thuần hóa được voi, và voi được dùng phần lớn là voi cái. Bẫy: nói voi đã được thuần hóa hoặc voi đực hiền là sai. Chuyện Hannibal chỉ là chi tiết phụ, bài không nói ông thắng mọi trận."
+  },
+  {
+   "id": "hcs04",
+   "type": "hcs",
+   "level": 1,
+   "topic": "Warm-blooded dinosaurs",
+   "source": "https://simple.wikipedia.org/wiki/Dinosaur",
+   "license": "CC BY-SA 4.0",
+   "script": "In the nineteen sixties, scientists began to realise that small theropods, a group of dinosaurs, were probably warm-blooded. Warm-blooded animals use up food faster, and they can be active for longer. So scientists started to think these dinosaurs were more active, more intelligent and faster runners than people had believed. Later, fossils found in China showed that these small dinosaurs had feathers, which fits this idea. However, most experts do not think the same about the large plant-eaters.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Fossils from China prove that all dinosaurs, including the largest plant-eaters, were warm-blooded, very intelligent and could run faster than any animal alive today.",
+    "Scientists came to believe small feathered dinosaurs were probably warm-blooded, which suggested they were more active and faster than once thought, although this view is not applied to large plant-eaters.",
+    "The talk mainly explains that warm-blooded animals need more food, so small dinosaurs had to hunt all day and often died from hunger in winter."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Ý chính: khủng long nhỏ có lông vũ có lẽ là máu nóng, nên được cho là năng động, chạy nhanh hơn trước đây nghĩ, nhưng chuyên gia không nghĩ vậy về khủng long ăn cỏ lớn. Bẫy: bài nói 'probably' (có lẽ) và chỉ nói về khủng long nhỏ, không phải 'chứng minh tất cả khủng long'."
+  },
+  {
+   "id": "hcs05",
+   "type": "hcs",
+   "level": 1,
+   "topic": "The Internet as a network of networks",
+   "source": "https://simple.wikipedia.org/wiki/Internet",
+   "license": "CC BY-SA 4.0",
+   "script": "The Internet is a network of networks. It links millions of smaller networks from homes, schools, businesses and governments. Together, they carry many kinds of information and services. The Internet also relies on physical systems, such as cables, mobile phone towers, servers, data centres and individual computers. It is used for web hosting, online shopping, online auctions, internet calls, and even television. In almost all countries, the public is allowed to use it.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "The Internet is a network of networks that links many smaller networks, relies on physical systems such as cables and servers, and supports many services used in almost every country.",
+    "The Internet is one single computer owned by governments, and it works without cables or servers, although the public may only use it in a few countries.",
+    "The talk is mainly about online shopping, which it describes as the most popular Internet service, used by more people than web hosting or internet calls."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Ý chính: Internet là 'mạng của các mạng', dựa vào hạ tầng vật lý như cáp, máy chủ, và có nhiều dịch vụ mà người dân hầu hết các nước được dùng. Bẫy: mua sắm trực tuyến chỉ là một ví dụ trong danh sách dịch vụ, bài không nói nó phổ biến nhất."
+  },
+  {
+   "id": "hcs06",
+   "type": "hcs",
+   "level": 2,
+   "topic": "Public opinion on wind power",
+   "source": "https://en.wikipedia.org/wiki/Wind_power",
+   "license": "CC BY-SA 4.0",
+   "script": "Surveys across Europe and many other countries show strong public support for wind power. At the local level, however, opposition often exists, and it has delayed or stopped a number of projects. Wind farms are sometimes opposed because of their impact on the landscape and because of noise and the effect on tourism. Some people also fear that turbines lower property values, yet a study of fifty thousand home sales found no statistical evidence that prices were affected. And although some of this opposition is dismissed as a not in my back yard attitude, research has found little evidence that residents object only for that reason.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Wind power is unpopular across Europe and in many other countries, and a large study of home sales has confirmed that turbines significantly reduce nearby property prices, which explains why most wind projects are eventually cancelled.",
+    "Local people mostly oppose wind farms out of pure self-interest, since research shows that nearly all objections come from a not in my back yard attitude rather than from genuine concerns about noise, scenery or tourism.",
+    "Wind power has strong public support, but local opposition over landscape, noise and tourism has held back some projects, while evidence backs neither fears about house prices nor the view that objectors are driven only by a not in my back yard attitude.",
+    "Wind power enjoys wide public support, and governments now pay nearby residents compensation for noise and lost views, which has helped many wind farms become popular tourist attractions across Europe and the United States."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Ý chính: điện gió được ủng hộ rộng rãi, nhưng ở địa phương vẫn bị phản đối vì cảnh quan, tiếng ồn, du lịch; còn nỗi lo giảm giá nhà và việc đổ hết cho thái độ 'đừng xây gần nhà tôi' thì không có bằng chứng. Bẫy: nghiên cứu năm mươi nghìn vụ bán nhà KHÔNG thấy giá bị ảnh hưởng, và người dân KHÔNG chỉ phản đối vì lý do đó."
+  },
+  {
+   "id": "hcs07",
+   "type": "hcs",
+   "level": 2,
+   "topic": "Public transport subsidies",
+   "source": "https://en.wikipedia.org/wiki/Public_transport",
+   "license": "CC BY-SA 4.0",
+   "script": "Why do governments subsidise public transport? The reasons are social, environmental or economic. Governments want to provide transport for people who cannot use a car, and to reduce congestion, land use and car emissions. Support can be direct, such as payments for services that do not make a profit, or indirect, such as free or cheap use of state-owned railways and roads. Meanwhile, private transport is also subsidised indirectly, through free roads. Some supporters argue that funding mass transit saves taxpayers money, since a lack of it means more traffic, pollution and road building. Some research supports this view, but measuring the costs and benefits is complex and controversial.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Research has clearly proven that public transport subsidies save taxpayers money, and for this reason governments now pay only direct subsidies to profitable services rather than supporting railways and roads.",
+    "Public transport receives subsidies while private cars receive no support of any kind, which the speaker argues is unfair to drivers who pay for roads through their taxes.",
+    "The talk is mainly about Hong Kong, where the railway company earns profits from building on land near its stations, which completely covers the cost of the system.",
+    "Governments subsidise public transport, directly or indirectly, for social, environmental and economic reasons, and some supporters believe this saves taxpayers money overall, although measuring the costs and benefits remains complex and controversial."
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Ý chính: chính phủ trợ giá giao thông công cộng, trực tiếp hoặc gián tiếp, vì lý do xã hội, môi trường, kinh tế; một số người cho rằng việc này tiết kiệm tiền thuế, nhưng đo lường còn phức tạp và gây tranh cãi. Bẫy: bài nói 'some research supports', không phải 'đã chứng minh rõ'; và xe riêng CŨNG được trợ giá gián tiếp qua đường miễn phí."
+  },
+  {
+   "id": "hcs08",
+   "type": "hcs",
+   "level": 2,
+   "topic": "Museums and economic development",
+   "source": "https://en.wikipedia.org/wiki/Museum",
+   "license": "CC BY-SA 4.0",
+   "script": "Cities, especially in post-industrial regions, have used museums as tools for economic development. One example is the Guggenheim Museum in Bilbao, Spain. The regional government paid for it to renew the city's old port area, and the construction cost led to protests from local residents. After it opened, the museum attracted many foreign visitors, and the resulting tax revenue exceeded the original investment. But this strategy does not always succeed. The Taubman Museum of Art in the United States faced high construction costs and lower than expected attendance, which led to financial difficulties. So using museums as economic engines remains a subject of debate.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Museums built to boost local economies are always successful, as the examples of Bilbao and the Taubman Museum show, and local residents have welcomed public spending on such projects from the start.",
+    "Cities have used museums to boost their economies: Bilbao's publicly funded museum faced protests but drew enough foreign visitors to generate tax revenue above its cost, while a similar American project struggled financially, so the idea remains debated.",
+    "The Guggenheim Museum in Bilbao was paid for by private investors to renew the old port, and it failed to attract foreign visitors, so the city lost money on the project.",
+    "Museums in post-industrial cities mainly earn money from ticket sales and gift shops, and the speaker recommends that governments stop funding museums and leave them to private companies."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Ý chính: các thành phố dùng bảo tàng để kéo kinh tế; Bilbao lúc đầu bị phản đối nhưng tiền thuế thu về vượt vốn bỏ ra, còn bảo tàng Taubman ở Mỹ thì gặp khó tài chính, nên cách làm này vẫn gây tranh cãi. Bẫy: Bilbao do chính quyền vùng chi tiền, không phải nhà đầu tư tư nhân, và nó thành công chứ không lỗ."
+  },
+  {
+   "id": "hcs09",
+   "type": "hcs",
+   "level": 2,
+   "topic": "Honey in medicine",
+   "source": "https://en.wikipedia.org/wiki/Honey",
+   "license": "CC BY-SA 4.0",
+   "script": "Honey is a folk treatment for burns and other skin injuries, but what does the evidence say? Preliminary evidence suggests it helps certain burns heal faster than other dressings, and moderate evidence suggests that infected surgical wounds heal faster with honey than with antiseptic and gauze. For many other wounds, however, the evidence is of low quality. Honey also has antibacterial activity, and the spread of antibiotic-resistant bacteria has renewed interest in this. For coughs in children, reviews suggest honey helps more than no treatment. One warning, though: honey should not be given to babies under one year old, because of the risk of infant botulism.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Research gives honey some support as a treatment, mainly for certain burns, infected surgical wounds and children's coughs, and its antibacterial effects attract renewed interest, but evidence for other wounds is weak and it is unsafe for babies.",
+    "Strong scientific evidence now shows that honey heals all kinds of wounds better than modern treatments, and doctors recommend it for patients of every age, including young babies with coughs.",
+    "Although honey was once a folk remedy, research has found that it has no antibacterial activity, so scientists have lost interest in it, and it should be avoided for children's coughs.",
+    "Honey helps burns heal faster and can also treat cancer and seasonal allergies, which is why hospitals around the world have now replaced most antibiotics with medical honey-based products."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Ý chính: mật ong có bằng chứng hỗ trợ ở vài trường hợp (bỏng, nhiễm trùng sau mổ, ho ở trẻ em) và được quan tâm lại vì tính kháng khuẩn, nhưng với vết thương khác thì bằng chứng yếu, và không được cho em bé dùng. Bẫy: bài dùng 'preliminary', 'moderate', 'low quality', tức bằng chứng chưa mạnh, không phải 'chữa được mọi vết thương'."
+  },
+  {
+   "id": "hcs10",
+   "type": "hcs",
+   "level": 2,
+   "topic": "Compost tea",
+   "source": "https://en.wikipedia.org/wiki/Compost",
+   "license": "CC BY-SA 4.0",
+   "script": "Compost tea is a liquid extract leached from composted materials. It is usually made by adding compost to water and stirring occasionally to release microbes. There is some debate about whether the mixture should be aerated. Non-aerated tea is cheaper and needs less work, while aerated tea brews faster and generates more microbes. Field studies have shown that compost teas can benefit crops by adding organic matter, making nutrients more available and increasing microbial activity, and can suppress some plant diseases. However, how well they work depends on several factors, and adding extra nutrients may trigger the regrowth of harmful bacteria such as Salmonella.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Aerated compost tea is cheaper and easier to make than non-aerated tea, and because it contains no bacteria at all, it is completely safe to add extra nutrients to it.",
+    "Field studies have found that compost tea has no real benefit for crops, so the speaker concludes that farmers should use chemical fertilisers in their fields instead.",
+    "The talk mainly explains how to brew compost tea at home, describing the exact amount of compost and water to mix and how long the mixture should be stirred each day.",
+    "Compost tea, made by soaking compost in water, can improve crops and suppress plant diseases, but experts debate whether to aerate it, its results depend on several factors, and added nutrients can encourage harmful bacteria."
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Ý chính: trà phân ủ (nước ngâm phân compost) có lợi cho cây và chặn được một số bệnh, nhưng còn tranh cãi có nên sục khí không, hiệu quả tùy nhiều yếu tố, và thêm dinh dưỡng có thể làm vi khuẩn gây hại mọc lại. Bẫy: loại KHÔNG sục khí mới rẻ và ít công hơn; loại sục khí thì ủ nhanh và nhiều vi sinh hơn."
+  },
+  {
+   "id": "hcs11",
+   "type": "hcs",
+   "level": 3,
+   "topic": "The internet and cognitive load",
+   "source": "https://en.wikipedia.org/wiki/Cognitive_load",
+   "license": "CC BY-SA 4.0",
+   "script": "Consider the Google effect, sometimes called digital amnesia: the tendency to forget information that is readily available online. When people expect to be able to find something later through a search engine, they are less likely to encode it deeply. This reliance on external storage can free up working memory for complex problem solving, and well-designed digital environments can reduce extraneous cognitive load, that is, mental effort that does not contribute to learning. Yet the internet also imposes costs. Information overload can lead to decision fatigue, and heavy media multitasking is associated with reduced working memory efficiency and weaker attentional control. There is, moreover, an illusion of knowledge, whereby users mistake quick access to answers for genuine understanding. The challenge is to balance the efficiency that digital aids offer against their potential to undermine memory, critical thinking and attention, and the long-term consequences remain an active area of research.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Because search engines store information externally, people now encode online material more deeply than before, and research has confirmed that heavy media multitasking improves working memory, attentional control and long-term understanding for most users.",
+    "The lecture is essentially a definition of the Google effect, explaining that people tend to forget facts they can easily find online, and it concludes that students should therefore stop using search engines altogether.",
+    "The internet can ease cognitive load by letting people offload memory and cut unnecessary mental effort, but it is also linked to information overload, multitasking costs and an illusion of knowledge, so its benefits must be balanced against risks still under study.",
+    "Researchers have now established the long-term effects of internet use, showing that its drawbacks, such as information overload and decision fatigue, are minor and temporary compared with its lasting benefits for memory and critical thinking."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Ý chính: Internet vừa giảm tải cho trí nhớ (lưu thông tin ra ngoài, thiết kế tốt bớt công sức thừa) vừa gây hại (quá tải thông tin, làm nhiều việc cùng lúc, ảo tưởng là mình hiểu), nên phải cân bằng, và tác động lâu dài vẫn đang được nghiên cứu. Bẫy: 'Google effect' chỉ là ví dụ mở đầu; bài nói tác động lâu dài CHƯA rõ, không phải đã được xác định."
+  },
+  {
+   "id": "hcs12",
+   "type": "hcs",
+   "level": 3,
+   "topic": "Platform work in Europe",
+   "source": "https://en.wikipedia.org/wiki/Gig_worker",
+   "license": "CC BY-SA 4.0",
+   "script": "Platform work in Europe varies considerably from country to country, with one European survey finding the highest incidence in the United Kingdom. The typical European platform worker is a young man, and the majority are active on two or more platforms. Flexibility and autonomy are frequently cited as motivations, but so is a lack of alternatives. One controversial issue is employment status. Most people who provide labour through platforms are formally independent contractors rather than employees, and their status is unclear even to the workers themselves. Platform work can lower barriers to entering the labour market, yet conditions of employment, representation and social protection are often unfavourable. In most European Union states, social protection rules are still largely based on full-time, open-ended contracts with a single employer, so workers with non-standard arrangements often lack equivalent protection. Linking entitlements to individuals rather than to jobs may help.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Most European platform workers are legally recognised as full employees, and because social protection systems have already been redesigned around individuals, they enjoy the same security as workers on standard contracts.",
+    "Platform work in Europe varies by country; it can ease entry into the labour market, but most workers are independent contractors with unclear status and often weaker social protection, since protection rules still assume standard full-time jobs.",
+    "The typical European platform worker is an older woman who works on a single platform and chooses this work purely for its flexibility, since there are plenty of alternative jobs available.",
+    "The lecture mainly compares European countries, explaining that the United Kingdom has the most platform work because its government has banned independent contracts and forced platforms to hire staff directly."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Ý chính: làm việc qua nền tảng số ở châu Âu khác nhau theo từng nước; nó giúp dễ vào thị trường lao động, nhưng người làm chủ yếu là lao động tự do (independent contractor), tư cách không rõ, bảo trợ xã hội kém vì luật vẫn dựa trên hợp đồng toàn thời gian. Bẫy: người làm điển hình là nam giới trẻ, và lý do làm có cả việc không có lựa chọn khác."
+  },
+  {
+   "id": "hcs13",
+   "type": "hcs",
+   "level": 3,
+   "topic": "Invasive species",
+   "source": "https://en.wikipedia.org/wiki/Biodiversity",
+   "license": "CC BY-SA 4.0",
+   "script": "Natural barriers such as rivers, seas, mountains and deserts encourage diversity, because they allow populations on either side to evolve independently, a process known as allopatric speciation. Invasive species are able to breach these barriers. Once free of them, they occupy new territory, often displacing native species by taking over their niches or using resources that would normally sustain them. Increasingly, species are moved by humans, both deliberately and accidentally, over time scales far shorter than a species would historically have needed to extend its range. However, many studies report effects on native species rather than extinctions. Invaders seem to increase local diversity while making different places more alike. And even some of the most insidious invaders, such as chestnut blight in North America, have not driven their host species to extinction. Local disappearance, population decline and the homogenisation of regional biodiversity are far more common outcomes.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Invasive species have driven many native species to complete extinction, including chestnut trees in North America, which shows that barriers such as mountains and seas actually reduce biodiversity over time.",
+    "The lecture mainly defines allopatric speciation, the process by which rivers and mountains separate populations, and explains that it happens much faster today because humans move species around.",
+    "Because diverse ecosystems resist invaders, the speaker argues that invasive species pose little threat, and that governments should stop trying to remove them and let local diversity increase naturally.",
+    "Natural barriers promote diversity, and invasive species that cross them, increasingly with human help, often displace natives; however, rather than causing extinctions, invaders more commonly lead to local losses, population decline and more uniform regional biodiversity."
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Ý chính: rào cản tự nhiên tạo ra đa dạng sinh học; loài xâm lấn vượt rào (ngày càng do con người mang đi) thường chiếm chỗ loài bản địa, nhưng hậu quả thường là mất ở từng vùng, suy giảm và đồng nhất hóa, hiếm khi làm tuyệt chủng hẳn. Bẫy: bài nói ngay cả bệnh hại cây hạt dẻ ở Bắc Mỹ cũng KHÔNG làm cây chủ tuyệt chủng."
+  },
+  {
+   "id": "hcs14",
+   "type": "hcs",
+   "level": 3,
+   "topic": "Priority uses of carbon capture",
+   "source": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
+   "license": "CC BY-SA 4.0",
+   "script": "In the literature on climate change mitigation, carbon capture and storage is described as having a small but critical role. One estimate suggests forgoing it would make limiting warming to two degrees far more expensive, yet excessive reliance on it would be costly and technically unfeasible. Its priority uses are in niches where emissions are difficult or expensive to cut without it, such as heavy industry. There, it is one of the few technologies that can significantly reduce emissions from cement, chemicals and steel, where some emissions come from chemical reactions as well as from burning fuel. In cement making, roughly two thirds come from the chemical process. However, it can only be used with large, stationary sources, so it cannot directly capture emissions from vehicles or homes. To reach the Paris Agreement targets, it must be accompanied by a steep decline in the production and use of fossil fuels.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "Carbon capture and storage has a small but critical role, mainly where emissions are hard to cut, such as heavy industry, but over-reliance on it would be costly and it must go hand in hand with a steep decline in fossil fuel use.",
+    "Carbon capture is a cheap and universal solution that can remove emissions from factories, vehicles and homes alike, so countries can meet the Paris targets while continuing to increase their production and use of fossil fuels.",
+    "The lecture focuses on cement production, explaining that around two thirds of its emissions come from the chemical process, and argues that cement factories should be closed rather than fitted with carbon capture.",
+    "Experts now agree that carbon capture should be abandoned completely, because it is technically impossible and would make limiting global warming to two degrees far more expensive than relying on other methods."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Ý chính: thu giữ và lưu trữ carbon có vai trò nhỏ nhưng quan trọng, chủ yếu ở ngành khó giảm phát thải như công nghiệp nặng; dựa vào nó quá nhiều thì tốn kém, và phải đi kèm việc giảm mạnh nhiên liệu hóa thạch. Bẫy: công nghệ này KHÔNG dùng được cho xe cộ và nhà ở; bài cũng nói bỏ hẳn nó thì còn tốn hơn, không phải nên bỏ."
+  },
+  {
+   "id": "hcs15",
+   "type": "hcs",
+   "level": 3,
+   "topic": "Forests and soil erosion",
+   "source": "https://en.wikipedia.org/wiki/Soil_erosion",
+   "license": "CC BY-SA 4.0",
+   "script": "In an undisturbed forest, the mineral soil is protected by a layer of leaf litter and humus that covers the forest floor. Together, these layers form a protective mat that absorbs the impact of raindrops. Being porous, they allow rainwater to percolate slowly into the soil instead of flowing over the surface as runoff. The roots of trees and plants, along with forest fungi, also bind soil particles together. The vegetation above does slow raindrops down before they reach the ground. However, raindrops reach terminal velocity, their maximum falling speed, within about eight metres, and because canopies are usually higher than this, drops can regain that speed after striking the leaves. It is therefore the forest floor, more than the canopy, that prevents surface erosion. Deforestation increases erosion by stripping away these protective layers, removing the vegetation that binds the soil, and compacting it with heavy logging equipment.",
+   "question": "Which of the following best summarises the recording?",
+   "options": [
+    "The forest canopy is the main defence against erosion, because leaves stop raindrops from ever regaining their speed, so forests with tall trees protect soil far better than those with thick leaf litter.",
+    "The lecture mainly explains that raindrops reach their maximum falling speed within about eight metres, and uses this to argue that trees taller than eight metres should be cut down to reduce erosion.",
+    "The forest floor's leaf litter and humus, more than the canopy, protect soil by absorbing rain impact and letting water soak in, aided by roots and fungi; deforestation strips these away and compacts the soil, increasing erosion.",
+    "Deforestation has little effect on erosion as long as farmers replant quickly, and the speaker recommends slash-and-burn farming as the best way to rebuild leaf litter and humus on tropical forest floors."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Ý chính: lớp lá rụng và mùn trên nền rừng, hơn cả tán cây, mới là thứ chống xói mòn bề mặt; phá rừng làm mất các lớp này và nén chặt đất nên xói mòn tăng. Bẫy: tán cây chỉ làm chậm hạt mưa, nhưng hạt mưa lấy lại tốc độ tối đa sau khoảng tám mét rơi, nên tán cây không phải lớp bảo vệ chính."
+  },
+  {
+   "id": "asq01",
+   "type": "asq",
+   "level": 1,
+   "topic": "home",
+   "source": "authored",
+   "license": "",
+   "script": "What do you call the room in a house where people usually cook their meals?",
+   "answers_text": [
+    "kitchen",
+    "the kitchen",
+    "a kitchen"
+   ],
+   "why_vi": "kitchen = nhà bếp, phòng để nấu ăn trong nhà."
+  },
+  {
+   "id": "asq02",
+   "type": "asq",
+   "level": 1,
+   "topic": "the body",
+   "source": "authored",
+   "license": "",
+   "script": "Which part of your body do you use to smell things?",
+   "answers_text": [
+    "nose",
+    "the nose",
+    "my nose",
+    "your nose"
+   ],
+   "why_vi": "nose = cái mũi, bộ phận dùng để ngửi mùi."
+  },
+  {
+   "id": "asq03",
+   "type": "asq",
+   "level": 1,
+   "topic": "people and jobs",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a doctor who checks and treats your teeth?",
+   "answers_text": [
+    "dentist",
+    "a dentist",
+    "the dentist",
+    "dental surgeon"
+   ],
+   "why_vi": "dentist = nha sĩ, bác sĩ khám và chữa răng."
+  },
+  {
+   "id": "asq04",
+   "type": "asq",
+   "level": 1,
+   "topic": "daily routine",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call the meal that people eat in the morning?",
+   "answers_text": [
+    "breakfast"
+   ],
+   "why_vi": "breakfast = bữa sáng. Bữa trưa là lunch, bữa tối là dinner."
+  },
+  {
+   "id": "asq05",
+   "type": "asq",
+   "level": 1,
+   "topic": "everyday objects",
+   "source": "authored",
+   "license": "",
+   "script": "What do people wear on their wrist to tell the time?",
+   "answers_text": [
+    "watch",
+    "a watch",
+    "wristwatch",
+    "a wristwatch",
+    "smartwatch",
+    "a smartwatch"
+   ],
+   "why_vi": "watch = đồng hồ đeo tay. Đồng hồ treo tường hoặc để bàn thì gọi là clock."
+  },
+  {
+   "id": "asq06",
+   "type": "asq",
+   "level": 1,
+   "topic": "home",
+   "source": "authored",
+   "license": "",
+   "script": "What piece of furniture do people usually sleep on at night?",
+   "answers_text": [
+    "bed",
+    "a bed",
+    "the bed"
+   ],
+   "why_vi": "bed = cái giường, đồ nội thất dùng để ngủ."
+  },
+  {
+   "id": "asq07",
+   "type": "asq",
+   "level": 1,
+   "topic": "everyday objects",
+   "source": "authored",
+   "license": "",
+   "script": "What do you use to open a locked door?",
+   "answers_text": [
+    "key",
+    "a key",
+    "the key",
+    "keycard",
+    "key card",
+    "a key card"
+   ],
+   "why_vi": "key = chìa khóa. Đừng nhầm với lock là cái ổ khóa."
+  },
+  {
+   "id": "asq08",
+   "type": "asq",
+   "level": 1,
+   "topic": "the body",
+   "source": "authored",
+   "license": "",
+   "script": "Which organ in your chest pumps blood around your body?",
+   "answers_text": [
+    "heart",
+    "the heart",
+    "my heart",
+    "your heart"
+   ],
+   "why_vi": "heart = trái tim, cơ quan bơm máu đi khắp cơ thể."
+  },
+  {
+   "id": "asq09",
+   "type": "asq",
+   "level": 1,
+   "topic": "family",
+   "source": "authored",
+   "license": "",
+   "script": "What do you call the sister of your mother or father?",
+   "answers_text": [
+    "aunt",
+    "an aunt",
+    "my aunt",
+    "your aunt",
+    "auntie",
+    "aunty"
+   ],
+   "why_vi": "aunt = cô, dì, bác gái, tức là chị hoặc em gái của bố mẹ. Chú, bác trai, cậu thì gọi là uncle."
+  },
+  {
+   "id": "asq10",
+   "type": "asq",
+   "level": 1,
+   "topic": "time",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call the day before today?",
+   "answers_text": [
+    "yesterday"
+   ],
+   "why_vi": "yesterday = hôm qua. Ngày mai là tomorrow."
+  },
+  {
+   "id": "asq11",
+   "type": "asq",
+   "level": 2,
+   "topic": "nature",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call the natural place where a particular animal or plant usually lives?",
+   "answers_text": [
+    "habitat",
+    "a habitat",
+    "natural habitat",
+    "a natural habitat",
+    "its habitat"
+   ],
+   "why_vi": "habitat = môi trường sống tự nhiên của một loài động vật hoặc thực vật."
+  },
+  {
+   "id": "asq12",
+   "type": "asq",
+   "level": 2,
+   "topic": "weather",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call the curve of colours that sometimes appears in the sky after rain?",
+   "answers_text": [
+    "rainbow",
+    "a rainbow"
+   ],
+   "why_vi": "rainbow = cầu vồng, hiện ra trên trời sau cơn mưa."
+  },
+  {
+   "id": "asq13",
+   "type": "asq",
+   "level": 2,
+   "topic": "physics basics",
+   "source": "authored",
+   "license": "",
+   "script": "What force pulls objects toward the ground when you drop them?",
+   "answers_text": [
+    "gravity",
+    "the force of gravity",
+    "gravitational force",
+    "gravitation"
+   ],
+   "why_vi": "gravity = trọng lực, lực hút của Trái Đất kéo đồ vật rơi xuống."
+  },
+  {
+   "id": "asq14",
+   "type": "asq",
+   "level": 2,
+   "topic": "science basics",
+   "source": "authored",
+   "license": "",
+   "script": "What gas do humans need to breathe in to stay alive?",
+   "answers_text": [
+    "oxygen",
+    "o2"
+   ],
+   "why_vi": "oxygen = khí ô-xy, khí con người phải hít vào để sống. Nhấn âm đầu: OX-i-jen."
+  },
+  {
+   "id": "asq15",
+   "type": "asq",
+   "level": 2,
+   "topic": "geography",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a large dry area of land with very little rain and few plants?",
+   "answers_text": [
+    "desert",
+    "a desert",
+    "the desert"
+   ],
+   "why_vi": "desert = sa mạc. Nhấn âm đầu DE-sert; nếu nhấn âm sau thành dessert là món tráng miệng."
+  },
+  {
+   "id": "asq16",
+   "type": "asq",
+   "level": 2,
+   "topic": "geography",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call the imaginary line that goes around the middle of the Earth?",
+   "answers_text": [
+    "equator",
+    "the equator"
+   ],
+   "why_vi": "equator = đường xích đạo, đường tưởng tượng chạy quanh chính giữa Trái Đất."
+  },
+  {
+   "id": "asq17",
+   "type": "asq",
+   "level": 2,
+   "topic": "health",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a doctor who performs operations in a hospital?",
+   "answers_text": [
+    "surgeon",
+    "a surgeon"
+   ],
+   "why_vi": "surgeon = bác sĩ phẫu thuật. Ca mổ gọi là surgery hoặc operation."
+  },
+  {
+   "id": "asq18",
+   "type": "asq",
+   "level": 2,
+   "topic": "health",
+   "source": "authored",
+   "license": "",
+   "script": "What is the word for a body temperature that is higher than normal when you are ill?",
+   "answers_text": [
+    "fever",
+    "a fever",
+    "a temperature",
+    "temperature",
+    "high temperature",
+    "a high temperature"
+   ],
+   "why_vi": "fever = cơn sốt, khi nhiệt độ cơ thể cao hơn bình thường."
+  },
+  {
+   "id": "asq19",
+   "type": "asq",
+   "level": 2,
+   "topic": "study",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a book that lists words in alphabetical order and explains their meanings?",
+   "answers_text": [
+    "dictionary",
+    "a dictionary",
+    "lexicon"
+   ],
+   "why_vi": "dictionary = từ điển, sách giải nghĩa các từ theo thứ tự bảng chữ cái."
+  },
+  {
+   "id": "asq20",
+   "type": "asq",
+   "level": 2,
+   "topic": "study",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a person who has successfully completed a university degree?",
+   "answers_text": [
+    "graduate",
+    "a graduate",
+    "university graduate",
+    "a university graduate",
+    "college graduate",
+    "a college graduate"
+   ],
+   "why_vi": "graduate (danh từ) = người đã tốt nghiệp đại học. Danh từ đọc GRA-ju-ət, khác động từ GRA-ju-eit."
+  },
+  {
+   "id": "asq21",
+   "type": "asq",
+   "level": 3,
+   "topic": "research methods",
+   "source": "authored",
+   "license": "",
+   "script": "In research, what do we call a possible explanation that scientists test through experiments?",
+   "answers_text": [
+    "hypothesis",
+    "a hypothesis"
+   ],
+   "why_vi": "hypothesis = giả thuyết, một lời giải thích tạm thời cần được kiểm chứng bằng thí nghiệm. Nhấn âm thứ hai: hy-PO-the-sis."
+  },
+  {
+   "id": "asq22",
+   "type": "asq",
+   "level": 3,
+   "topic": "academic integrity",
+   "source": "authored",
+   "license": "",
+   "script": "What is the word for copying the work of another writer and presenting it as your own?",
+   "answers_text": [
+    "plagiarism",
+    "plagiarising",
+    "plagiarizing",
+    "plagiarise",
+    "plagiarize"
+   ],
+   "why_vi": "plagiarism = đạo văn, lấy bài hoặc ý của người khác rồi nhận là của mình."
+  },
+  {
+   "id": "asq23",
+   "type": "asq",
+   "level": 3,
+   "topic": "economics",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a general increase in prices across an economy over time?",
+   "answers_text": [
+    "inflation",
+    "price inflation"
+   ],
+   "why_vi": "inflation = lạm phát, giá cả nói chung tăng dần theo thời gian."
+  },
+  {
+   "id": "asq24",
+   "type": "asq",
+   "level": 3,
+   "topic": "economics",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a situation where only one company controls the whole market for a product?",
+   "answers_text": [
+    "monopoly",
+    "a monopoly"
+   ],
+   "why_vi": "monopoly = độc quyền, khi chỉ một công ty kiểm soát cả thị trường."
+  },
+  {
+   "id": "asq25",
+   "type": "asq",
+   "level": 3,
+   "topic": "statistics",
+   "source": "authored",
+   "license": "",
+   "script": "In statistics, what do we call the middle value when numbers are arranged from smallest to largest?",
+   "answers_text": [
+    "median",
+    "the median"
+   ],
+   "why_vi": "median = số trung vị, giá trị đứng giữa khi xếp dãy số từ nhỏ đến lớn. Số trung bình cộng là mean."
+  },
+  {
+   "id": "asq26",
+   "type": "asq",
+   "level": 3,
+   "topic": "statistics and graphs",
+   "source": "authored",
+   "license": "",
+   "script": "What type of chart uses a circle divided into slices to show parts of a whole?",
+   "answers_text": [
+    "pie chart",
+    "a pie chart",
+    "pie graph",
+    "a pie graph",
+    "circle graph",
+    "a circle graph"
+   ],
+   "why_vi": "pie chart = biểu đồ tròn, hình tròn chia thành nhiều phần để thể hiện tỉ lệ. Dạng này hay gặp trong Describe Image."
+  },
+  {
+   "id": "asq27",
+   "type": "asq",
+   "level": 3,
+   "topic": "medicine",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call a substance that is injected into people to protect them from a disease?",
+   "answers_text": [
+    "vaccine",
+    "a vaccine",
+    "vaccination",
+    "a vaccination",
+    "inoculation",
+    "jab",
+    "a jab",
+    "shot",
+    "a shot"
+   ],
+   "why_vi": "vaccine = vắc-xin, chất tiêm vào người để phòng bệnh."
+  },
+  {
+   "id": "asq28",
+   "type": "asq",
+   "level": 3,
+   "topic": "public health",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call an outbreak of disease that spreads across many countries around the world?",
+   "answers_text": [
+    "pandemic",
+    "a pandemic",
+    "global pandemic",
+    "a global pandemic"
+   ],
+   "why_vi": "pandemic = đại dịch lan ra nhiều nước trên thế giới. Epidemic chỉ là dịch trong một vùng hoặc một nước."
+  },
+  {
+   "id": "asq29",
+   "type": "asq",
+   "level": 3,
+   "topic": "technology",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call the process of changing information into a secret code so that others cannot read it?",
+   "answers_text": [
+    "encryption",
+    "data encryption",
+    "encrypting",
+    "enciphering"
+   ],
+   "why_vi": "encryption = mã hóa, biến thông tin thành mã bí mật để người khác không đọc được."
+  },
+  {
+   "id": "asq30",
+   "type": "asq",
+   "level": 3,
+   "topic": "technology",
+   "source": "authored",
+   "license": "",
+   "script": "What do we call the ability of computers to think and learn in a way similar to humans?",
+   "answers_text": [
+    "artificial intelligence",
+    "ai"
+   ],
+   "why_vi": "artificial intelligence (AI) = trí tuệ nhân tạo, khả năng máy tính suy nghĩ và học như con người."
+  }
+ ]
+}

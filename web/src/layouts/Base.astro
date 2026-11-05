@@ -1,0 +1,116 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  /** Man dang noi thi an het chrome (spec §6.1). */
+  bare?: boolean;
+  /**
+   * Trang nay thuoc khong gian ngon ngu nao. Mac dinh 'en' — moi trang cu deu
+   * la tieng Anh, khong phai sua trang nao.
+   *
+   * Duy chot 07/09/2026: tieng Anh va tieng Phap la HAI KHONG GIAN RIENG, khong
+   * dung nhau. Trang tieng Phap nam duoi /fr va truyen lang="fr".
+   */
+  lang?: 'en' | 'fr';
+}
+const { title, bare = false, lang = 'en' } = Astro.props;
+
+// Moi ngon ngu mot thanh dieu huong. So muc phai khop voi class grid-cols-*
+// o duoi — viet TINH ca hai class de Tailwind nhan ra luc build.
+//
+// Tieng Phap: dot B (12/09) them Bai hoc (8 chu de A1) va Chinh ta. Chua co
+// Tien do rieng — khong dat tab dan toi trang rong gia.
+//
+// ⚠️ Trang tieng Phap dat PHANG (/fr, /fr-review), KHONG long trong thu muc
+// /fr/. Voi build.format='file', de /fr/review.astro thi Astro sinh CA fr.html
+// LAN thu muc fr/, ma nginx try_files thu $uri/ TRUOC $uri.html — /fr se khop
+// vao thu muc khong co index va nhieu kha nang tra 403.
+const NAV = {
+  en: [
+    { href: '/coach', label: 'Hôm nay' },
+    { href: '/roadmap', label: 'Lộ trình' },
+    { href: '/review', label: 'Ôn từ' },
+    { href: '/pte', label: 'PTE' },
+    // Shadowing la PHUONG PHAP hoc, khong phai dang bai PTE — Duy chot 10/09
+    // tach thanh tab rieng, dung cho moi noi dung. Nhan "Shadow" chu khong phai
+    // "Shadowing": 6 tab tren man 360px moi tab con ~60px, chu dai hon se tran.
+    { href: '/shadowing', label: 'Shadow' },
+    { href: '/progress', label: 'Tiến độ' },
+  ],
+  fr: [
+    { href: '/fr', label: 'Hôm nay' },
+    { href: '/fr-roadmap', label: 'Bài học' },
+    { href: '/fr-review', label: 'Ôn từ' },
+    { href: '/fr-dictee', label: 'Chính tả' },
+  ],
+};
+const nav = NAV[lang];
+const gridCols = lang === 'fr' ? 'grid-cols-4' : 'grid-cols-6';
+// build.format='file' => Astro.url.pathname cua trang con la '/x.html', khong bao
+// gio bang href '/x' => tab dang mo khong duoc to sang (tru "Hom nay"). Go '.html'
+// cho CA HAI ngon ngu — Duy duyet 13/09 ("sua va toi uu het").
+const path = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/').replace(/\/$/, '') || '/';
+---
+
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
+    <meta name="theme-color" content="#0b0c10" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{title}</title>
+    {/*
+      CONG CHAN NGON NGU. Chay DONG BO trong <head>, truoc khi trinh duyet ve
+      bat ky thu gi — nen khong bao gio nhap nhay noi dung sai ngon ngu.
+
+      Truoc 10/09 chi co kho tu duoc tach; chon tieng Phap roi bam Lo trinh /
+      PTE / Tien do van ra tieng Anh. Duy bao: "vao tieng Phap ma hoc tieng Anh".
+
+      login.html la file tinh rieng, KHONG dung layout nay => cong khong chay
+      tren no => khong the co vong lap chuyen huong o man dang nhap.
+    */}
+    <script is:inline define:vars={{ pageLang: lang }}>
+      try {
+        var chon = localStorage.getItem('evc_lang');
+        if (pageLang === 'en' && chon === 'fr') location.replace('/fr');
+        else if (pageLang === 'fr' && chon === 'en') location.replace('/coach');
+      } catch (e) {
+        /* Trinh duyet chan luu tru: de nguyen, khong chan duoc gi. */
+      }
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%97%A3%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body class="bg-ink text-en antialiased">
+    <div class="mx-auto flex min-h-dvh w-full max-w-lg flex-col">
+      <main class="flex-1">
+        {!bare && <a href="/" class="block border-b border-line px-5 py-3 text-[12px] text-vi">← Học miễn phí · Khu cá nhân có đăng nhập</a>}
+        <slot />
+      </main>
+
+      {
+        !bare && (
+          <nav class="private-nav sticky bottom-0 z-20 border-t border-line bg-ink/95 backdrop-blur" aria-label="Điều hướng khu cá nhân">
+            <ul class:list={['grid', gridCols]}>
+              {nav.map((n) => (
+                <li>
+                  <a
+                    href={n.href}
+                    aria-current={path === n.href ? 'page' : undefined}
+                    class:list={[
+                      'flex h-14 items-center justify-center text-[13px] transition-colors',
+                      path === n.href ? 'text-accent font-semibold' : 'text-vi',
+                    ]}
+                  >
+                    {n.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )
+      }
+    </div>
+  </body>
+</html>

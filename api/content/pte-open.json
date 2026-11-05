@@ -1,0 +1,2587 @@
+{
+ "version": 1,
+ "note": "PTE Noi/Viet co nguoi cham noi dung (them 12/09). Bai doc/bai giang/bieu do/thao luan chuyen the tu Wikipedia (CC BY-SA 4.0), so lieu bieu do lay tu bai nguon; tinh huong (rts) va de luan (we) do Claude soan. key_points CHI de AI doi chieu khi gop y, KHONG gui xuong client. Moi de da qua mot agent kiem + mot agent sua theo gop y (CONTEXT_SYNC 12/09). Thang cham: api/content/pte-rubrics.json.",
+ "items": [
+  {
+   "id": "di01",
+   "type": "di",
+   "level": 1,
+   "topic": "Youth Olympic Games",
+   "source": "https://simple.wikipedia.org/wiki/Olympic_Games",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "table",
+    "title": "Athletes and officials allowed at the Youth Olympic Games",
+    "unit": "people",
+    "labels": [
+     "Summer Games",
+     "Winter Games"
+    ],
+    "series": [
+     {
+      "name": "Athletes",
+      "values": [
+       3500,
+       970
+      ]
+     },
+     {
+      "name": "Officials",
+      "values": [
+       875,
+       580
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart compares how many athletes and officials may take part in the Summer and Winter Youth Olympic Games.",
+    "Summer athletes are by far the largest group, at 3,500.",
+    "Winter officials are the smallest group, at 580.",
+    "The Summer Games are much bigger: 3,500 athletes compared with 970 in winter, and 875 officials compared with 580.",
+    "In both Games athletes outnumber officials; in summer there are four athletes for every official."
+   ]
+  },
+  {
+   "id": "di02",
+   "type": "di",
+   "level": 1,
+   "topic": "Museum funding",
+   "source": "https://en.wikipedia.org/wiki/Museum",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "pie",
+    "title": "Sources of museum funding in the United States, 2009",
+    "unit": "percent",
+    "labels": [
+     "Private (charitable) giving",
+     "Earned income",
+     "Government support",
+     "Investment income"
+    ],
+    "series": [
+     {
+      "name": "Share of funding",
+      "values": [
+       36.5,
+       27.6,
+       24.4,
+       11.5
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The pie chart shows the four sources of funding for US museums in 2009.",
+    "Private or charitable giving was the largest source, at 36.5 percent.",
+    "Earned income came second with 27.6 percent, just ahead of government support at 24.4 percent.",
+    "Investment income was the smallest source, at 11.5 percent.",
+    "Private giving was more than three times investment income, and government support paid for less than a quarter of the total."
+   ]
+  },
+  {
+   "id": "di03",
+   "type": "di",
+   "level": 1,
+   "topic": "Placebos in medical practice",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "pie",
+    "title": "Survey of over 10,000 US physicians: would they prescribe a placebo just because a patient wanted treatment?",
+    "unit": "percent",
+    "labels": [
+     "Would not prescribe",
+     "Would prescribe",
+     "Depends on circumstances"
+    ],
+    "series": [
+     {
+      "name": "Share of physicians",
+      "values": [
+       58,
+       24,
+       18
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart shows the results of a US survey of more than 10,000 physicians about prescribing a placebo simply because a patient wanted treatment.",
+    "Most doctors, 58 percent, said they would not do it.",
+    "24 percent said they would prescribe a placebo in this situation.",
+    "The remaining 18 percent, the smallest group, said it would depend on the circumstances.",
+    "Doctors who would not prescribe outnumbered those who would by more than two to one."
+   ]
+  },
+  {
+   "id": "di04",
+   "type": "di",
+   "level": 1,
+   "topic": "Urban expansion",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "bar",
+    "title": "Land taken over by urban expansion worldwide, 1992 to 2015",
+    "unit": "million hectares",
+    "labels": [
+     "Cropland",
+     "Shrubland",
+     "Forest land"
+    ],
+    "series": [
+     {
+      "name": "Land lost to urban areas",
+      "values": [
+       24,
+       4.6,
+       3.3
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart shows how much land of each type was taken over as urban areas grew worldwide between 1992 and 2015.",
+    "Cropland was by far the biggest loss, at 24 million hectares.",
+    "Much less shrubland (4.6 million hectares) and forest land (3.3 million hectares, the smallest) were lost.",
+    "The cropland lost was more than five times the shrubland and more than seven times the forest land.",
+    "Together, these three types of land add up to about 32 million hectares lost to urban areas."
+   ]
+  },
+  {
+   "id": "di05",
+   "type": "di",
+   "level": 1,
+   "topic": "Hygiene in health facilities",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "bar",
+    "title": "Health facilities lacking basic services, 2015 (WHO and UNICEF estimates)",
+    "unit": "percent of health facilities",
+    "labels": [
+     "Water source",
+     "Handwashing",
+     "Toilets"
+    ],
+    "series": [
+     {
+      "name": "Share of facilities",
+      "values": [
+       38,
+       35,
+       19
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart shows the share of health facilities missing basic water and hygiene services, according to WHO and UNICEF estimates for 2015.",
+    "The biggest gap was water: 38 percent of facilities had no source of water.",
+    "35 percent had no means of handwashing, such as soap and water or hand rub.",
+    "The smallest figure was toilets: nearly 19 percent had none, about half the share without water.",
+    "Overall, more than a third of facilities had no water or no way to wash hands, and about one in five had no toilets."
+   ]
+  },
+  {
+   "id": "di06",
+   "type": "di",
+   "level": 2,
+   "topic": "Hydroelectricity by country",
+   "source": "https://en.wikipedia.org/wiki/Hydroelectricity",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "bar",
+    "title": "Share of world hydroelectricity generated by leading countries, 2022",
+    "unit": "percent of world total",
+    "labels": [
+     "China",
+     "Brazil",
+     "Canada",
+     "USA",
+     "Russia"
+    ],
+    "series": [
+     {
+      "name": "Share of world hydro generation",
+      "values": [
+       30,
+       10,
+       9.2,
+       5.8,
+       4.6
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart shows the shares of world hydroelectricity produced by five leading countries in 2022.",
+    "China was far ahead, producing 30 percent of the world total.",
+    "Brazil was second with 10 percent, just ahead of Canada at 9.2 percent.",
+    "The United States produced 5.8 percent and Russia the lowest share shown, 4.6 percent.",
+    "China's share was three times Brazil's and about the same as the other four countries combined.",
+    "Together, the five countries produced about 60 percent of the world's hydroelectricity."
+   ]
+  },
+  {
+   "id": "di07",
+   "type": "di",
+   "level": 2,
+   "topic": "Adult obesity by country",
+   "source": "https://en.wikipedia.org/wiki/Obesity",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "bar",
+    "title": "Adult obesity rate in selected countries, 2022",
+    "unit": "percent of adults",
+    "labels": [
+     "Tonga",
+     "Nauru",
+     "Tuvalu",
+     "Samoa",
+     "USA"
+    ],
+    "series": [
+     {
+      "name": "Adults who are obese",
+      "values": [
+       71.7,
+       69.9,
+       64.2,
+       62.4,
+       42
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart compares adult obesity rates in five countries in 2022.",
+    "Tonga had the highest rate, 71.7 percent of adults.",
+    "The first four countries, Tonga, Nauru at 69.9, Tuvalu at 64.2 and Samoa at 62.4 percent, all had rates above 60 percent.",
+    "The United States had the lowest rate shown, 42 percent, almost 30 points below Tonga.",
+    "Even so, about two in five American adults are obese."
+   ]
+  },
+  {
+   "id": "di08",
+   "type": "di",
+   "level": 2,
+   "topic": "Energy use by transport mode",
+   "source": "https://en.wikipedia.org/wiki/Public_transport",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "bar",
+    "title": "Energy used per 100 passenger-kilometres by mode of transport, Japan, 1999",
+    "unit": "kilowatt-hours per 100 passenger-kilometres",
+    "labels": [
+     "Personal car",
+     "Sea",
+     "Air",
+     "Bus",
+     "Rail"
+    ],
+    "series": [
+     {
+      "name": "Energy use",
+      "values": [
+       68,
+       57,
+       51,
+       19,
+       6
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart compares the energy each mode of transport used per 100 passenger-kilometres in Japan in 1999.",
+    "Personal cars were the least efficient, using 68 kilowatt-hours.",
+    "Sea travel at 57 and air travel at 51 kilowatt-hours also used a lot of energy.",
+    "Public transport was far more efficient: buses used 19 and rail only 6 kilowatt-hours, the lowest.",
+    "A car used more than three times as much energy as a bus and more than eleven times as much as rail."
+   ]
+  },
+  {
+   "id": "di09",
+   "type": "di",
+   "level": 2,
+   "topic": "Waking during sleep",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "line",
+    "title": "Share of time spent awake in each 90-minute sleep cycle (one study of adults)",
+    "unit": "percent of time awake",
+    "labels": [
+     "Cycle 1",
+     "Cycle 2",
+     "Cycle 3",
+     "Cycle 4"
+    ],
+    "series": [
+     {
+      "name": "Time awake",
+      "values": [
+       3,
+       8,
+       10,
+       12
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The line shows the percentage of time adults spent awake in each ninety-minute sleep cycle, in one study.",
+    "Awake time rose in every cycle, from 3 percent in the first to 12 percent in the fourth, four times as much.",
+    "The biggest increase came between the first and second cycles, from 3 to 8 percent.",
+    "After that the rise slowed, to 10 percent in the third cycle and 12 percent in the fourth.",
+    "Even in the fourth cycle, people were asleep for most of the time, about 88 percent."
+   ]
+  },
+  {
+   "id": "di10",
+   "type": "di",
+   "level": 2,
+   "topic": "Platform economy",
+   "source": "https://en.wikipedia.org/wiki/Gig_worker",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "bar",
+    "title": "American adults who earned money in the platform economy, by activity, 2015",
+    "unit": "percent of adults",
+    "labels": [
+     "At least one",
+     "Sold online",
+     "Online gigs",
+     "Home-sharing"
+    ],
+    "series": [
+     {
+      "name": "Share of adults",
+      "values": [
+       24,
+       18,
+       8,
+       1
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart shows the percentage of American adults who earned money in the platform economy in 2015, by type of activity.",
+    "Overall, about 24 percent of adults earned money in at least one of the three ways.",
+    "Selling something online was the most common activity, at 18 percent, nearly one in five.",
+    "8 percent, nearly one in ten, took on jobs or tasks through digital platforms, less than half the share who sold things online.",
+    "Renting out property on a home-sharing site was the least common, at only 1 percent."
+   ]
+  },
+  {
+   "id": "di11",
+   "type": "di",
+   "level": 3,
+   "topic": "Forest loss",
+   "source": "https://en.wikipedia.org/wiki/Deforestation",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "line",
+    "title": "Global forest loss per year, 1990 to 2025",
+    "unit": "million hectares per year",
+    "labels": [
+     "1990-2000",
+     "2000-2015",
+     "2015-2025"
+    ],
+    "series": [
+     {
+      "name": "Deforestation (gross loss)",
+      "values": [
+       17.6,
+       13.6,
+       10.9
+      ]
+     },
+     {
+      "name": "Net forest loss",
+      "values": [
+       10.7,
+       3.68,
+       4.12
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart compares yearly gross deforestation and net forest loss worldwide over three periods from 1990 to 2025.",
+    "Deforestation fell steadily, from 17.6 million hectares a year in 1990 to 2000, to 13.6 in 2000 to 2015, and 10.9 in 2015 to 2025.",
+    "Net forest loss dropped sharply, from 10.7 to 3.68 million hectares a year.",
+    "It then rose slightly, to 4.12 million hectares a year in 2015 to 2025, the only increase shown.",
+    "Net loss is always below deforestation because new forest growth is subtracted; the gap widened from about 7 to about 10 million hectares a year, then narrowed to under 7."
+   ]
+  },
+  {
+   "id": "di12",
+   "type": "di",
+   "level": 3,
+   "topic": "Recycled material prices",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "table",
+    "title": "Prices of recyclable cardboard and PET plastic, 2004 to 2009",
+    "unit": "British pounds (£) per tonne",
+    "labels": [
+     "2004-08 avg",
+     "Low point",
+     "May 2009"
+    ],
+    "series": [
+     {
+      "name": "Cardboard",
+      "values": [
+       53,
+       19,
+       59
+      ]
+     },
+     {
+      "name": "PET plastic",
+      "values": [
+       156,
+       75,
+       195
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The chart shows the prices of recyclable cardboard and PET plastic before and after the price collapse of 2008.",
+    "Both prices plunged in 2008 and then recovered strongly by May 2009.",
+    "PET plastic was always much more valuable: it averaged about 156 pounds per tonne, fell to 75, then rose to 195.",
+    "Cardboard averaged about 53 pounds per tonne, dropped to 19, then rose to 59.",
+    "By May 2009 both were above their 2004 to 2008 averages; cardboard lost almost two-thirds of its value in the fall, while PET roughly halved."
+   ]
+  },
+  {
+   "id": "di13",
+   "type": "di",
+   "level": 3,
+   "topic": "Land for solar farms",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "table",
+    "title": "Share of land needed for solar farms to supply 25 to 80 percent of electricity by 2050 (2021 study)",
+    "unit": "percent of land area",
+    "labels": [
+     "European Union",
+     "India",
+     "Japan and South Korea"
+    ],
+    "series": [
+     {
+      "name": "Lower estimate",
+      "values": [
+       0.5,
+       0.3,
+       1.2
+      ]
+     },
+     {
+      "name": "Upper estimate",
+      "values": [
+       2.8,
+       1.4,
+       5.2
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The table shows how much land solar panels would need to cover to supply 25 to 80 percent of electricity from solar farms by 2050, based on a 2021 study.",
+    "Japan and South Korea would need the largest share of their land, between 1.2 and 5.2 percent.",
+    "India would need the smallest share, only 0.3 to 1.4 percent.",
+    "The European Union falls in between, at 0.5 to 2.8 percent.",
+    "The upper estimate for Japan and South Korea is almost double the EU's and nearly four times India's, but even the highest figure is only just over 5 percent of land."
+   ]
+  },
+  {
+   "id": "di14",
+   "type": "di",
+   "level": 3,
+   "topic": "Species estimates",
+   "source": "https://en.wikipedia.org/wiki/Biodiversity",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "table",
+    "title": "Estimated number of species in selected groups",
+    "unit": "million species",
+    "labels": [
+     "Insects",
+     "Bacteria",
+     "Fungi",
+     "Marine species"
+    ],
+    "series": [
+     {
+      "name": "Low estimate",
+      "values": [
+       10,
+       5,
+       1.5,
+       0.7
+      ]
+     },
+     {
+      "name": "High estimate",
+      "values": [
+       30,
+       10,
+       3,
+       1
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The table gives low and high estimates of the number of species in four groups.",
+    "Insects are by far the largest group, with 10 to 30 million species, and also have the widest range.",
+    "Bacteria come second, with 5 to 10 million species.",
+    "Fungi are estimated at 1.5 to 3 million species, and marine species at 0.7 to 1 million, the smallest estimate shown.",
+    "The high estimate is double the low one for bacteria and fungi and three times the low one for insects, which shows how uncertain these numbers are."
+   ]
+  },
+  {
+   "id": "di15",
+   "type": "di",
+   "level": 3,
+   "topic": "Cost of carbon capture",
+   "source": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
+   "license": "CC BY-SA 4.0",
+   "chart": {
+    "kind": "table",
+    "title": "Cost of capturing and transporting carbon dioxide",
+    "unit": "US dollars per tonne of carbon dioxide",
+    "labels": [
+     "Capture and compression: concentrated CO2 (natural gas processing)",
+     "Capture and compression: dilute CO2 (power, cement, iron and steel plants)",
+     "Onshore pipeline transport (United States)"
+    ],
+    "series": [
+     {
+      "name": "Low",
+      "values": [
+       15,
+       40,
+       2
+      ]
+     },
+     {
+      "name": "High",
+      "values": [
+       25,
+       120,
+       14
+      ]
+     }
+    ]
+   },
+   "key_points": [
+    "The table shows cost ranges, in US dollars per tonne of carbon dioxide, for capturing and transporting carbon dioxide from different sources.",
+    "Capture and compression is cheapest where the gas is highly concentrated, as in natural gas processing: 15 to 25 dollars per tonne.",
+    "It is most expensive for the dilute gas from power plants, cement plants and iron and steel plants: 40 to 120 dollars per tonne, also the widest range.",
+    "Onshore pipeline transport in the United States is the cheapest step, at 2 to 14 dollars per tonne.",
+    "The top cost for dilute sources is almost five times the top cost for natural gas processing."
+   ]
+  },
+  {
+   "id": "swt01",
+   "type": "swt",
+   "level": 1,
+   "topic": "Honey bee species and fossils",
+   "source": "https://simple.wikipedia.org/wiki/Honey_bee",
+   "license": "CC BY-SA 4.0",
+   "text": "Honey bees are not the only bees that produce and store honey, but they form a small, distinct group. All true honey bees belong to one genus, or scientific group, called Apis. Today, scientists recognise just seven species of honey bee, which are divided into 44 subspecies. In the past, however, experts have recognised anywhere from six to eleven species. The study of bees, including honey bees, even has its own name: melittology.\n\nFossils show part of the history of honey bees. The first Apis bees appear in the fossil record of Europe about 34 million years ago, which shows that they were living there by that time. Scientists suspect that honey bees first came from South Asia, but very few fossil deposits are known from that region. In the Americas, there were no honey bees at all during human times until Europeans brought a species called Apis mellifera. Only one fossil species is known from there: a single 14-million-year-old bee found in Nevada.",
+   "key_points": [
+    "Only members of the genus Apis are true honey bees, although some other bees also make and store honey.",
+    "There are just seven honey bee species (44 subspecies), though past counts ranged from six to eleven.",
+    "Apis bees first appear in Europe's fossil record about 34 million years ago.",
+    "Honey bees are thought to have come from South Asia, but few fossils are known from there.",
+    "There were no honey bees in the Americas in human times until Europeans brought Apis mellifera."
+   ]
+  },
+  {
+   "id": "swt02",
+   "type": "swt",
+   "level": 1,
+   "topic": "Elephant conservation",
+   "source": "https://simple.wikipedia.org/wiki/Elephant",
+   "license": "CC BY-SA 4.0",
+   "text": "Both African and Asian elephants are endangered species. Elephants kept in captivity do not have many babies, and some of them are abused and treated badly.\n\nAfrican elephants have some legal protection in every country where they live. However, 70% of the land where they are found lies outside protected areas. In some places, conservation work has led to more elephants. Local numbers can be controlled with contraception or by moving elephants to other places. Large-scale culling, or legal killing, stopped in 1988, when Zimbabwe ended the practice.\n\nIn 1989, trade in elephants and their products, such as ivory and meat, was made illegal. In 1997, however, elephants in Botswana, Namibia and Zimbabwe were given a status that allows restricted trade, and South Africa's elephants received the same status in 2000. In some countries, hunting elephants for sport is legal. The IUCN estimated a total of around 440,000 African elephants for 2012.\n\nThere are about 40,000 to 50,000 Asian elephants, although this is only a rough estimate, and around half of them live in India. Their numbers are falling overall, especially in Southeast Asia, but the population in the Western Ghats may be increasing.",
+   "key_points": [
+    "Both African and Asian elephants are endangered, and elephants in captivity have few babies and are sometimes mistreated.",
+    "African elephants have some legal protection in every country where they live, but 70% of their range is outside protected areas.",
+    "Conservation has increased elephant numbers in some areas; local numbers are controlled by contraception or moving elephants, and large-scale culling ended in 1988.",
+    "Trade in elephants and their products was banned in 1989, but restricted trade was later allowed in four countries, and sport hunting is legal in some countries.",
+    "About 440,000 African elephants were estimated for 2012; Asian elephants number roughly 40,000 to 50,000, about half of them in India, and are declining overall."
+   ]
+  },
+  {
+   "id": "swt03",
+   "type": "swt",
+   "level": 1,
+   "topic": "Types of tea",
+   "source": "https://simple.wikipedia.org/wiki/Tea",
+   "license": "CC BY-SA 4.0",
+   "text": "Tea is a caffeinated drink made by steeping the leaves of one plant, Camellia sinensis. Some other drinks, such as chamomile tea, are also called tea, but they are made by soaking herbs or fruit in hot water, and these are known as herbal teas. True tea comes in three main types: black tea, oolong and green tea. All three come from the same plant, but their leaves are treated in different ways.\n\nFor black tea, the leaves are broken into pieces and left in a room where they absorb oxygen. This is called oxidation, and the chemical reactions it causes change the taste and style of the tea. Oolong, a traditional Chinese tea, is only partly oxidized, and it is made by withering the leaves under strong sun. Green tea is different again. Freshly picked leaves are steamed, which keeps them green, and then they are crushed and dried in ovens.\n\nIn other words, the same leaves can become quite different teas, depending on how they are prepared.",
+   "key_points": [
+    "True tea is a caffeinated drink made from Camellia sinensis leaves; herbal teas are made from other herbs or fruit.",
+    "There are three main types of tea (black, oolong and green), all from the same plant.",
+    "The types differ because the leaves are processed in different ways.",
+    "Black tea leaves are broken up and oxidized, which changes the taste; oolong is partly oxidized and withered in strong sun; green tea is steamed to stay green, then crushed and dried in ovens."
+   ]
+  },
+  {
+   "id": "swt04",
+   "type": "swt",
+   "level": 1,
+   "topic": "Tamu Massif",
+   "source": "https://simple.wikipedia.org/wiki/Volcano",
+   "license": "CC BY-SA 4.0",
+   "text": "A team of scientists announced what they believed was the largest volcano on Earth. Called Tamu Massif, it lies about 2 kilometres below the sea on an underwater plateau known as the Shatsky Rise, around 1,600 kilometres east of Japan. The previous record-holder, Mauna Loa in Hawaii, was still the largest volcano on land.\n\nTamu Massif is enormous. It covers about 310,000 square kilometres, making it similar in size to Olympus Mons on Mars, the largest known volcano in the Solar System. It also extends about 30 kilometres into the Earth's crust.\n\nThe researchers concluded that it formed about 145 million years ago, when massive lava flows poured out from its centre and built a broad, shield-like shape. According to the researchers, this happened in a short time, geologically speaking: between one and several million years. They doubted that its peak ever rose above sea level, and they believed it had been extinct ever since, so it was unlikely to erupt again. Many ocean plateaus erupted between 145 and 65 million years ago, but none have appeared since, and scientists would like to know why.",
+   "key_points": [
+    "Researchers described Tamu Massif, deep under the sea east of Japan, as Earth's largest volcano; Mauna Loa remained the largest on land.",
+    "It is enormous: about 310,000 square kilometres, similar in size to Olympus Mons on Mars.",
+    "Researchers concluded that it formed about 145 million years ago from massive lava flows, in a geologically short time.",
+    "Its peak probably never rose above sea level, and it is extinct and unlikely to erupt again."
+   ]
+  },
+  {
+   "id": "swt05",
+   "type": "swt",
+   "level": 1,
+   "topic": "Earthquake sequences",
+   "source": "https://simple.wikipedia.org/wiki/Earthquake",
+   "license": "CC BY-SA 4.0",
+   "text": "Most earthquakes do not happen alone. Instead, they are part of a sequence of earthquakes that are linked to each other in place and time. Most of these groups, or clusters, are made up of small tremors that cause little or no damage.\n\nScientists give special names to the earthquakes in a sequence. A foreshock is an earthquake that happens before a larger one, called the mainshock. An aftershock comes after the mainshock, in the same place, and it is always smaller. Aftershocks happen because the Earth's crust is adjusting to the effects of the mainshock.\n\nSome sequences follow other patterns. An earthquake swarm is a series of earthquakes that hit one area within a short time, but no single earthquake is clearly the main one. One example is the activity at Yellowstone National Park in 2004. In an earthquake storm, each earthquake is triggered by the ones before it, on nearby parts of a fault. Such storms can last for years, and the later earthquakes can be as damaging as the early ones. This happened on the North Anatolian fault in Turkey in the 20th century.",
+   "key_points": [
+    "Most earthquakes happen in related sequences (clusters), usually made up of small, harmless tremors.",
+    "A foreshock comes before a larger mainshock; aftershocks follow in the same place, are always smaller and happen as the crust adjusts.",
+    "An earthquake swarm is a short burst of quakes in one area with no clear mainshock, such as Yellowstone in 2004.",
+    "In an earthquake storm, each quake triggers the next along a fault over years, as on Turkey's North Anatolian fault."
+   ]
+  },
+  {
+   "id": "swt06",
+   "type": "swt",
+   "level": 2,
+   "topic": "Recycling laws",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "text": "For a recycling programme to work, it needs a large and stable supply of recyclable material. Three kinds of legislation have been used to create such a supply: mandatory recycling collection, container deposit laws and bans on throwing away certain materials.\n\nMandatory collection laws set recycling targets for cities. Usually, they require a certain percentage of a material to be diverted from the city's waste stream by a target date, and the city itself is responsible for meeting this target.\n\nContainer deposit laws work in a different way. When people buy a product in certain containers, typically made of glass, plastic or metal, a small extra charge is added to the price. Consumers can get this money back by returning the container to a collection point. These programmes have achieved an average recycling rate of 80%. Despite such good results, they have faced strong opposition in some areas, because they shift the cost of collection away from local government and onto industry and consumers.\n\nThe third option is to ban the disposal of particular materials as waste, such as used oil, old batteries, tyres and garden waste. This can create a viable economy for disposing of these products properly. However, care must be taken to ensure that there are enough recycling services to handle the extra material; otherwise, such bans can lead to more illegal dumping.",
+   "key_points": [
+    "A recycling programme needs a large, stable supply of recyclable material, and three kinds of law are used to create it.",
+    "Mandatory collection laws require cities to divert a set percentage of a material from waste by a target date.",
+    "Container deposit laws add a refundable charge to containers and average about 80% recycling, but face opposition because they shift costs to industry and consumers.",
+    "Bans on disposing of materials such as oil, batteries and tyres can build a proper disposal economy, but may increase illegal dumping if recycling services are lacking."
+   ]
+  },
+  {
+   "id": "swt07",
+   "type": "swt",
+   "level": 2,
+   "topic": "Sleep debt",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "text": "The timing of sleep is controlled mainly by two systems: the body's internal clock and a second mechanism called Process S, although personal choice also plays some part. The idea behind Process S is simple: the longer a person stays awake, the more they feel the need to sleep. This build-up is often called sleep debt.\n\nOne chemical sign of sleep debt is adenosine, a chemical messenger in the brain that suppresses many of the body's processes linked to being awake. Adenosine levels rise in parts of the brain during long periods of wakefulness and fall again while a person sleeps and recovers, so adenosine may act as a natural regulator of sleep. Coffee, tea and other sources of caffeine temporarily block its effect. They also make people take longer to fall asleep and reduce both the amount and the quality of their sleep.\n\nNot getting enough sleep has clear costs. Sleep deprivation tends to shorten attention span, increase anxiety, weaken memory and put people in a grouchy mood. By contrast, a well-rested person tends to have better memory and mood.\n\nHowever, much about sleep debt is still uncertain. Researchers disagree about how much of it can build up, and about what it should be measured against. There is some evidence that it is cumulative, yet people seem to feel sleepiest about 30 hours after waking up.",
+   "key_points": [
+    "Process S means that the longer someone is awake, the stronger their need to sleep (sleep debt); it works with the body clock to time sleep.",
+    "Adenosine builds up in the brain during wakefulness and falls during sleep, so it may regulate sleep; caffeine blocks it and delays and worsens sleep.",
+    "Sleep deprivation shortens attention, raises anxiety and worsens memory and mood, while good rest improves memory and mood.",
+    "Much about sleep debt is still debated, such as how much can build up, though there is some evidence it is cumulative."
+   ]
+  },
+  {
+   "id": "swt08",
+   "type": "swt",
+   "level": 2,
+   "topic": "Solar variability",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "text": "Most of the electricity produced around the world is used as soon as it is generated. This is because traditional power stations can adjust their output to match demand, and storing electricity is generally more expensive. Solar power, however, works differently. Like wind power, it is a variable source of energy, which means that all the power available at any moment must be used locally, sent elsewhere to be used, or stored, for example in a battery.\n\nOne key difficulty is that solar power is intermittent: it depends on both daylight and the weather, and it is not available at night. Storing it so that electricity is always available could therefore become an important issue, especially for systems that are not connected to the grid and for a future based entirely on renewable energy. For this reason, countries on the path to net zero that rely heavily on solar energy usually need to combine it with large-scale battery storage, pumped hydroelectric storage or long-distance transmission to keep the grid reliable.\n\nOn the positive side, solar output can be predicted to some extent from the time of day, the location and the season, although short-term generation still depends on the weather. The challenge of integrating solar power also varies greatly from place to place. In regions with hot summers and mild winters, for instance, solar tends to match daytime demand for cooling well.",
+   "key_points": [
+    "Most electricity is used immediately, but solar is a variable source whose output must be used, transmitted or stored.",
+    "Solar is intermittent: it depends on daylight and weather and is unavailable at night, which makes storage important.",
+    "Countries relying heavily on solar for net zero need battery storage, pumped hydro or long-distance transmission to keep grids reliable.",
+    "Solar output is partly predictable, and the integration challenge varies by region; in places with hot summers and mild winters, solar matches daytime cooling demand well."
+   ]
+  },
+  {
+   "id": "swt09",
+   "type": "swt",
+   "level": 2,
+   "topic": "Vaccines and AMR",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "text": "Vaccines are an essential part of the response to antimicrobial resistance. By preventing infections before they occur, they reduce the use and overuse of antimicrobial drugs and slow the emergence and spread of drug-resistant pathogens.\n\nOne important advantage is that microorganisms usually do not develop resistance to vaccines. This is because vaccines reduce the spread of infection and target a pathogen in several ways within the same host, and possibly in different ways in different hosts. There is also evidence that as vaccine use increases, antibiotic-resistant strains of pathogens decrease, because fewer infections mean less need for antibiotics. Vaccinated people are also protected against complications from secondary infections, which might otherwise require antimicrobial medicines or a stay in hospital.\n\nThe potential benefits are large. A 2024 report by the World Health Organization found that vaccines against 24 pathogens could reduce the number of antibiotics needed each year by 22%. If vaccines were rolled out against all the pathogens evaluated, they could save a third of the hospital costs associated with antimicrobial resistance.\n\nVaccines are not a perfect solution, however. Cases of vaccine resistance are well documented, although they are usually much less of a problem than antimicrobial resistance. In addition, vaccines against Staphylococcus bacteria have so far shown limited effectiveness, and more effective ones are still being developed and tested.",
+   "key_points": [
+    "Vaccines are essential against AMR because preventing infections reduces antimicrobial use and slows the spread of resistant pathogens.",
+    "Microbes rarely become resistant to vaccines, since vaccines attack pathogens in several ways.",
+    "A 2024 WHO report found vaccines against 24 pathogens could cut antibiotic needs by 22% a year and could save a third of AMR-related hospital costs.",
+    "Vaccines have limits: vaccine resistance exists (though it is less serious), and anti-Staphylococcus vaccines have shown limited effectiveness."
+   ]
+  },
+  {
+   "id": "swt10",
+   "type": "swt",
+   "level": 2,
+   "topic": "Urban physical activity",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "text": "Although urbanization tends to have more negative effects, it appears to have one clear benefit: people in cities are generally more physically active than people in the countryside. In the United States, rural residents have higher rates of obesity, get a larger share of their calories from fat and are less likely to meet the guidelines for physical activity. By contrast, metropolitan and large urban areas in every region have the highest levels of physical activity.\n\nSeveral features of rural life help to explain this difference. Geographic isolation, busy and unsafe roads and social stigmas all reduce exercise. Because speed limits on rural roads are high, it is often impossible to have bike lanes, sidewalks or footpaths beside them, and there are fewer developed open spaces such as parks and trails. Many rural residents must also travel long distances to reach exercise facilities or their workplaces, which leaves less time for leisure activity and makes it harder to walk or cycle to work.\n\nUrban environments, on the other hand, make activity easier. Residents of neighbourhoods with nearby fitness venues, sidewalks, street lights and traffic signals are more active than those in areas without such features. When many destinations are close to home, people walk and cycle more, and easy access to public transport also encourages them to walk or bike to the stops. It has therefore been argued that rural communities need more convenient recreational features.",
+   "key_points": [
+    "One positive effect of urbanization is that city residents are more physically active than rural residents.",
+    "In the US, rural residents have more obesity, eat more fat and meet activity guidelines less often.",
+    "Rural barriers include isolation, unsafe roads, a lack of sidewalks, parks and trails, and long travel distances.",
+    "Urban features such as nearby fitness venues, sidewalks, close destinations and public transport encourage activity, so rural areas need more convenient recreational features."
+   ]
+  },
+  {
+   "id": "swt11",
+   "type": "swt",
+   "level": 3,
+   "topic": "Acidification in Earth's past",
+   "source": "https://en.wikipedia.org/wiki/Ocean_acidification",
+   "license": "CC BY-SA 4.0",
+   "text": "Ocean acidification is not a new phenomenon. It has occurred several times in Earth's history, and it appears to have played a part in some of the most severe crises for life on the planet. Episodes of acidification took place during the Capitanian mass extinction, at the end of the Permian and Triassic periods, and during the Cretaceous–Paleogene extinction event. Indeed, three of the 'big five' mass extinctions were associated with a rapid rise in atmospheric carbon dioxide, probably caused by volcanic activity, the heat-driven breakdown of marine gas hydrates, or both.\n\nThe end-Triassic crisis remains the best-established example of a marine mass extinction caused by acidification, for two reasons. First, carbon isotope records point to increased volcanic activity that lowered carbonate saturation, and a marine extinction coincides precisely with this in the rock record. Second, the extinction selectively affected organisms with thick aragonite skeletons, just as experimental studies predict. Nevertheless, past extinction events were probably caused by several climatic stressors acting together, with acidification as only one of them.\n\nThe most notable example of acidification, however, is the Paleocene–Eocene Thermal Maximum, about 56 million years ago, when massive amounts of carbon entered the ocean and atmosphere, causing carbonate sediments to dissolve across many ocean basins. New geochemical methods suggest that ocean pH fell by 0.3 units during this event. Yet one study indicates that carbonate saturation may have changed little, implying that carbon was released far more slowly then than it is by human activity today. Stronger methods are still needed to judge how much calcifying organisms were affected.",
+   "key_points": [
+    "Ocean acidification has happened before and is linked to several mass extinctions; three of the big five involved rapid CO2 rises, probably from volcanism or gas hydrates.",
+    "The end-Triassic extinction is the best-established case, supported by matching carbon isotope and extinction records and the selective loss of organisms with thick aragonite skeletons.",
+    "Past extinctions were most likely driven by several climatic stressors together, with acidification as one factor.",
+    "The PETM, about 56 million years ago, is the most notable example (pH fell by about 0.3 units), but one study suggests its carbon release was much slower than today's human emissions."
+   ]
+  },
+  {
+   "id": "swt12",
+   "type": "swt",
+   "level": 3,
+   "topic": "Placebo ethics",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "text": "The practice of doctors prescribing placebos disguised as real medication is controversial. The chief objection is that it is deceptive and could damage the relationship between doctor and patient in the long run. Some argue that blanket consent, a general agreement to unspecified treatment given by patients in advance, is ethically acceptable. Others insist that, out of respect for patient autonomy, people should always be told the name of the drug they are receiving, its side effects and the other treatment options available. Critics raise further concerns: doctors and pharmacists who use placebos could face charges of fraud or malpractice, and relying on placebos may delay the proper diagnosis and treatment of serious conditions.\n\nDespite these objections, surveys suggest that many health professionals are willing to use placebos. In an Israeli study, 60% of the physicians and head nurses surveyed reported using them, and only 5% believed their use should be strictly prohibited. In the United States, a survey of more than 10,000 physicians found that 24% would prescribe a placebo simply because a patient wanted treatment, while 58% would not and 18% said it would depend on the circumstances.\n\nInstead of deceiving patients, some writers propose a different approach. In his 2008 book Bad Science, Ben Goldacre argues that doctors should use the placebo effect to enhance medicines that actually work, and Edzard Ernst similarly suggests that a good doctor can transmit a placebo effect through the compassion shown to patients. Both, however, reject the idea that the placebo effect justifies alternative medicine, with Ernst warning that this would be deceitful and that the placebo effect is unreliable.",
+   "key_points": [
+    "Prescribing disguised placebos is controversial, mainly because it is deceptive and may harm the doctor-patient relationship.",
+    "The concerns include consent and patient autonomy, possible fraud or malpractice charges, and delayed diagnosis of serious conditions.",
+    "Surveys nevertheless show that many health professionals are willing to use placebos (60% in an Israeli study; 24% of US physicians would prescribe one just because a patient wanted treatment).",
+    "Instead of deception, Goldacre suggests using the placebo effect to boost effective medicines and Ernst suggests passing it on through compassion, but both reject it as a justification for alternative medicine."
+   ]
+  },
+  {
+   "id": "swt13",
+   "type": "swt",
+   "level": 3,
+   "topic": "Origins of plate tectonics",
+   "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "license": "CC BY-SA 4.0",
+   "text": "The question of when plate tectonics began on Earth has been the subject of considerable controversy. Estimates vary so widely between researchers that, taken together, they span about 85% of the planet's history.\n\nPart of the disagreement concerns conditions on the early Earth. Some authors argue that, for at least part of the Archean period, roughly 4 to 2.5 billion years ago, the mantle was between 100 and 250 °C hotter than it is today. Such temperatures are thought to be incompatible with modern-style plate tectonics, suggesting that Earth may instead have had a so-called stagnant lid or some other kind of regime.\n\nOther evidence, however, comes from ancient rocks. Rocks preserved from between 3 and 2.5 billion years ago become increasingly felsic in composition, which implies that subduction zones had emerged by then, and preserved zircons suggest that subduction may have begun as early as 3.8 billion years ago. Even so, these early subduction zones seem to have been temporary and localized, although how far this was true is itself debated.\n\nOpinions also differ widely over when modern plate tectonics appeared. One view holds that it had emerged by at least 2.2 billion years ago. Other researchers argue that modern-style plate tectonics did not appear until 800 million years ago, pointing to the late appearance of rock types such as blueschist, which require cold subducted material. At the other extreme, some suggest that plate tectonics was already operating in the Hadean, over 4 billion years ago.",
+   "key_points": [
+    "When plate tectonics began on Earth is highly controversial, with estimates spanning about 85% of Earth's history.",
+    "A much hotter Archean mantle may have been incompatible with modern-style plate tectonics, suggesting a stagnant lid or another regime.",
+    "Rock and zircon evidence suggests subduction had begun by 3 to 2.5 billion years ago, possibly by 3.8 billion, though early subduction zones seem to have been temporary and localized.",
+    "Estimates range from plate tectonics already working in the Hadean (over 4 billion years ago) to modern plate tectonics emerging by 2.2 billion years ago, or not until 800 million years ago (blueschist evidence)."
+   ]
+  },
+  {
+   "id": "swt14",
+   "type": "swt",
+   "level": 3,
+   "topic": "Prospect theory",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "text": "In 1979, Daniel Kahneman and Amos Tversky published a paper called 'Prospect Theory: An Analysis of Decision Under Risk', which used cognitive psychology to explain various ways in which economic decisions depart from neo-classical theory. From their work, they drew three general conclusions: people treat gains differently from losses, they give too much weight to outcomes that are certain compared with those that are uncertain, and the way a problem is structured can affect the choices they make.\n\nPart of the support for these claims came from a simple change to a survey question. When the question was reworded so that it was about avoiding losses rather than achieving gains, most respondents changed their answers. This suggested that emotions such as greed or the fear of loss can alter decisions, revealing an irrational element in the decision-making process.\n\nAccording to prospect theory, choices are made in two stages. In the first, the editing stage, risky situations are simplified using various mental shortcuts, or heuristics. In the second, the evaluation stage, the risky alternatives are judged according to several psychological principles. Decision makers compare each outcome with a reference point, classifying results above it as gains and those below it as losses. They are also loss averse: in a later paper, published in 1992, Kahneman and Tversky estimated that a loss feels about 2.25 times as bad as an equal gain feels good. In addition, people tend to overweight small probabilities and underweight large ones, and they become less sensitive to further gains and losses as these grow larger.",
+   "key_points": [
+    "Kahneman and Tversky's 1979 prospect theory used cognitive psychology to explain how real decisions under risk depart from neo-classical theory.",
+    "It holds that gains and losses are treated differently, certain outcomes are overweighted, and the way a problem is framed affects choices.",
+    "Rewording a survey question from gains to losses changed most answers, suggesting that emotions such as fear of loss can alter decisions.",
+    "Decisions involve an editing stage (simplifying with heuristics) and an evaluation stage based on reference points, loss aversion (losses hurt about 2.25 times more), probability weighting and diminishing sensitivity."
+   ]
+  },
+  {
+   "id": "swt15",
+   "type": "swt",
+   "level": 3,
+   "topic": "Receptive bilingualism",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "text": "Not all bilingual people can speak both of their languages. Receptive bilinguals are people who can understand a second language but cannot speak it, or whose ability to speak it is held back by psychological barriers.\n\nThis pattern is common among adult immigrants to the United States who do not speak English as a native language but whose children do, usually in part because the children have been educated in English. Although such parents understand both their native language and English, they speak only their native language to their children. If the children are themselves receptively bilingual but speak only English, the parents will use their native language throughout a conversation while the children reply in English. If the children can speak both languages, however, they may answer in their parents' language, in English or in a mixture of the two, depending on factors such as the content, context and emotional intensity of the conversation.\n\nReceptive bilingualism need not be permanent. Receptively bilingual people, especially children, may quickly become fluent speakers if they spend long periods in situations where they must speak the language they previously understood only passively. Even before both generations are fluent, the language differences between them often cause little or no difficulty for the way the family functions.\n\nFinally, receptive bilingualism should not be confused with mutual intelligibility. Mutual intelligibility, as between Norwegian and Swedish, is a property of a pair of languages that are objectively very similar in vocabulary and grammar. Receptive bilingualism, by contrast, is a property of individuals, shaped by how prominent each language has been in their upbringing, education and surrounding culture.",
+   "key_points": [
+    "Receptive bilinguals understand a second language but cannot speak it, or are held back by psychological barriers.",
+    "It is common in US immigrant families: the parents understand English but speak only their native language, while their English-educated children reply in English or, if they speak both languages, in either language or a mix.",
+    "Receptive bilinguals, especially children, can quickly gain fluency when they must speak the language, and the generational difference rarely harms family life.",
+    "It differs from mutual intelligibility: receptive bilingualism belongs to individuals, whereas mutual intelligibility belongs to similar languages such as Norwegian and Swedish."
+   ]
+  },
+  {
+   "id": "sst01",
+   "type": "sst",
+   "level": 1,
+   "topic": "How penguins are built",
+   "source": "https://simple.wikipedia.org/wiki/Penguin",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to talk about how a penguin's body suits its life. Penguins come in very different sizes. The biggest, the emperor penguin, can stand about one hundred and ten centimetres tall, while the smallest, the little penguin, is only about thirty-two centimetres tall. To stay warm, penguins have a thick layer of blubber, a kind of fat, and their feathers are packed very tightly. Under the outer feathers there is a layer of soft, woolly feathers, and the outer feathers are coated with oil that makes them waterproof. On land, penguins cannot walk well, so they waddle, and they cannot fly. Their wings have become small, stiff flippers. In the water, however, they use these flippers to swim very well. They also have webbed feet and good hearing, and they can see underwater.",
+   "key_points": [
+    "Penguins vary a lot in size, from the emperor penguin (about 110 cm) to the little penguin (about 32 cm).",
+    "A thick layer of blubber and tightly packed feathers keep them warm.",
+    "Soft woolly down lies under the outer feathers, which are coated with oil that makes them waterproof.",
+    "On land they cannot walk well (they waddle) and cannot fly; their wings have become small, stiff flippers.",
+    "In water they swim very well using their flippers; they also have webbed feet and good hearing, and can see underwater."
+   ]
+  },
+  {
+   "id": "sst02",
+   "type": "sst",
+   "level": 1,
+   "topic": "Chocolate and health",
+   "source": "https://simple.wikipedia.org/wiki/Chocolate",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to talk about chocolate and our health. Is chocolate good or bad for us? The answer is that it can be both. Chocolate is safe to eat, unless it is eaten in large amounts. But there are some exceptions. Some animals, such as dogs and cats, become sick even if they eat only a little chocolate. People with diabetes also need to be careful, because most chocolate has sugar added. On the other hand, chocolate can be good for us too. Dark chocolate contains ingredients that lower blood pressure and help to fight diseases. In fact, small amounts of dark chocolate have been found to lower the risk of heart disease, because of natural substances in chocolate called polyphenols. So the lesson is simple. We need to control how much chocolate we eat.",
+   "key_points": [
+    "Chocolate is safe to eat unless it is eaten in large amounts.",
+    "Some animals, such as dogs and cats, get sick from even a little chocolate.",
+    "People with diabetes also need to be careful with chocolate because of its added sugar.",
+    "Dark chocolate has benefits: it contains ingredients that lower blood pressure and fight disease, and small amounts lower the risk of heart disease because of polyphenols.",
+    "The overall message is that people should moderate how much chocolate they eat."
+   ]
+  },
+  {
+   "id": "sst03",
+   "type": "sst",
+   "level": 1,
+   "topic": "The ancient Olympic Games",
+   "source": "https://simple.wikipedia.org/wiki/Olympic_Games",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to talk about the Olympic Games of ancient Greece. Their origin is surrounded by mystery. According to legend, Heracles first called the Games Olympic and started the custom of holding them every four years. The most widely accepted starting date is seven hundred and seventy-six BC, based on records of the winners of a footrace. The Games featured running, boxing, wrestling, horse events and the pentathlon, as well as chariot races. During the Games, conflicts between the Greek city-states were put on hold. Historians do not agree on when the ancient Games ended, but many believe it was in three hundred and ninety-three AD, when a Christian Roman emperor ordered an end to pagan religious practices. The Games were not held again until the late nineteenth century.",
+   "key_points": [
+    "The origin of the ancient Olympics is uncertain and mixed with legend; Heracles is said to have named them and started the four-year custom.",
+    "The accepted starting date, 776 BC, is based on records of the winners of a footrace.",
+    "Events included running, boxing, wrestling, horse events, the pentathlon and chariot racing.",
+    "Conflicts between the Greek city-states were postponed while the Games took place.",
+    "The end date is disputed; many historians say 393 AD, when a Christian Roman emperor banned pagan practices, and the Games did not return until the late nineteenth century."
+   ]
+  },
+  {
+   "id": "sst04",
+   "type": "sst",
+   "level": 1,
+   "topic": "Phases of the Moon",
+   "source": "https://simple.wikipedia.org/wiki/Moon",
+   "license": "CC BY-SA 4.0",
+   "script": "Let's talk about the phases of the Moon. The Moon does not make its own light. Because it is round, half of it is lit by the Sun, and we only see the parts that are lit. As the Moon travels around the Earth, we see different amounts of this lit side, from all of it to just a small part. These stages are called the phases of the Moon. The cycle starts with the new Moon, when the Moon passes between the Earth and the Sun. After that, we see more and more of the lit side each night until the full Moon, when the Moon and the Sun are on opposite sides of the Earth. Then the lit part we can see gets smaller again. The whole cycle takes about a month, and people throughout history have used it to measure time.",
+   "key_points": [
+    "The Moon gives off no light of its own; the Sun lights half of it and we see only the lit parts.",
+    "As the Moon orbits the Earth, the amount of the lit side we can see changes; these stages are the phases.",
+    "The cycle begins with the new Moon, when the Moon passes between the Earth and the Sun.",
+    "After the new Moon, the lit part we can see grows until the full Moon (Moon and Sun on opposite sides of the Earth), then shrinks again.",
+    "A full cycle takes about a month, and people have used it throughout history to measure time."
+   ]
+  },
+  {
+   "id": "sst05",
+   "type": "sst",
+   "level": 1,
+   "topic": "Why rainforests are in danger",
+   "source": "https://simple.wikipedia.org/wiki/Tropical_rainforest",
+   "license": "CC BY-SA 4.0",
+   "script": "Let's look at why rainforests are in danger. Rainforests were once so large and thick that few people lived there, but that is changing. Millions of poor people live nearby, and many hope to find a better life in the forest. Roads built by logging and mining businesses, and by governments, now reach deep into the jungle. Settlers use these roads to move in and burn the trees to make fields. But the soil is poor, so crops grow for only a few years. Then they sell the land to cattle ranchers, or clear more forest. Because so many farmers do this, no forest is left to grow back. Forcing them to stop would not help, because they would starve. Instead, new ways must be found for people to live on the land without destroying it.",
+   "key_points": [
+    "Rainforests used to have few people, but millions of poor people nearby now move in hoping for a better life.",
+    "Roads built by businesses (cutting trees, digging minerals) and by governments let settlers into the forest.",
+    "Settlers burn the forest for fields, but the poor soil grows crops for only a few years; then the land goes to cattle ranchers or more forest is cleared.",
+    "Because so many farmers do the same, the forest cannot grow back.",
+    "Forcing farmers to stop would not work because they would starve; new ways are needed to live on the land without destroying it."
+   ]
+  },
+  {
+   "id": "sst06",
+   "type": "sst",
+   "level": 2,
+   "topic": "Glacier retreat and climate change",
+   "source": "https://en.wikipedia.org/wiki/Glacier",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to look at how climate change is affecting glaciers. Since the industrial era, human activities have added carbon dioxide and other heat-trapping gases to the air, causing global warming. Human influence is now the main driver of change in the frozen parts of our planet, including glaciers. One problem is that warming and melting feed each other. Melting glaciers expose more land and sea, which are darker than ice. So instead of being reflected back into space, sunlight warms these surfaces, and this leads to even more melting. The reference glaciers tracked by the World Glacier Monitoring Service have lost ice every year since nineteen eighty-eight. Water running off melting glaciers also raises sea levels, which threatens coastal towns, small islands and coastal ecosystems, and can make groundwater salty. Switzerland shows the cost. In twenty twenty-three, it lost four percent of its glacier volume, and it reportedly spends close to five hundred million dollars a year protecting Alpine settlements.",
+   "key_points": [
+    "Greenhouse gases from human activity since the industrial era cause global warming, and human influence is now the main driver of glacier change.",
+    "Melting and warming reinforce each other: exposed land and sea are darker than ice, absorb sunlight and cause more melting.",
+    "The reference glaciers tracked by the World Glacier Monitoring Service have lost ice every year since 1988.",
+    "Glacier meltwater raises sea levels, threatening coastal settlements, small islands, coastal ecosystems and groundwater (salinisation).",
+    "Switzerland shows the cost: it lost 4% of its glacier volume in 2023 and spends about 500 million US dollars a year protecting Alpine settlements."
+   ]
+  },
+  {
+   "id": "sst07",
+   "type": "sst",
+   "level": 2,
+   "topic": "Environmental damage from dams",
+   "source": "https://en.wikipedia.org/wiki/Hydroelectricity",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to talk about the damage that hydroelectric dams can do to the environment. The first problem is the loss of land. A large dam creates a large reservoir, which floods wide areas upstream and can destroy rich forests, marshes and grasslands. Building large dams also often means moving people and wildlife away, and the reservoir can break up the surrounding habitats, which makes the loss even worse. The second problem is the effect on the river itself. A dam interrupts the river's natural flow, and this can harm ecosystems both upstream and downstream. For example, the water that comes out of a turbine carries very little sediment, so it can wear away the river bed and the riverbanks. The turbines can also kill many of the animals that pass through them, such as eels. And because the turbine gates are often opened only from time to time, the river's flow can change quickly, sometimes every day.",
+   "key_points": [
+    "Large reservoirs flood wide areas upstream, destroying rich forests, marshes and grasslands.",
+    "Building large dams often displaces people and wildlife, and reservoirs break up surrounding habitats, worsening the loss of land.",
+    "Dams interrupt the natural flow of rivers and can harm ecosystems both upstream and downstream.",
+    "Water leaving turbines carries little sediment and erodes river beds and banks; turbines also kill many animals passing through, such as eels.",
+    "Because turbine gates open only intermittently, river flow can change rapidly, even daily."
+   ]
+  },
+  {
+   "id": "sst08",
+   "type": "sst",
+   "level": 2,
+   "topic": "The Grand Tour",
+   "source": "https://en.wikipedia.org/wiki/Tourism",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to talk about the Grand Tour, which is often seen as the beginning of modern tourism. The Grand Tour was a traditional trip around Europe, taken mainly by wealthy young men from the upper classes. It is most closely linked with the British nobility and rich landowning families, although young men from other northern European countries made similar trips. The custom flourished from about sixteen sixty until the eighteen forties, when large-scale rail travel arrived. The tour was seen as an educational opportunity and a rite of passage, and it became a status symbol for upper-class students. Because classical art was greatly admired at the time, the tour centred on France and especially Italy, where students could see rare examples of classical art and history. They could also mix with polite, aristocratic society on the continent. After that, railways and steamships made the journey easier, and the tradition spread to more of the middle class.",
+   "key_points": [
+    "Modern tourism can be traced to the Grand Tour, a traditional trip around Europe.",
+    "It was taken mainly by wealthy upper-class young men, especially British nobles and landed gentry, and flourished from about 1660 until large-scale rail travel in the 1840s.",
+    "It was an educational opportunity, a rite of passage and a status symbol for upper-class students.",
+    "Because classical culture was admired, the tour centred on France and especially Italy, offering classical art and history and contact with aristocratic continental society.",
+    "Rail and steamship travel later made the journey easier and extended the tradition to more of the middle class."
+   ]
+  },
+  {
+   "id": "sst09",
+   "type": "sst",
+   "level": 2,
+   "topic": "Deforestation and infectious disease",
+   "source": "https://en.wikipedia.org/wiki/Deforestation",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to talk about a less obvious effect of deforestation, its link to infectious disease. When forests are cleared, many species disappear, and people are often exposed to zoonotic diseases, which are diseases that pass from animals to humans. Several diseases are associated with forests, including malaria, Lyme disease and Ebola. In fact, most new infectious diseases in humans are zoonotic, including the virus behind the coronavirus pandemic. Their emergence may be linked to habitat loss and to people moving into forest areas, because both increase human contact with wildlife. A second pathway is called range expansion. When forests are cut down, animals that carry diseases are forced into neighbouring habitats, and their pathogens can find new hosts there, including people. Deforestation has also been linked to more disease outbreaks. In Malaysia, for example, forest was cleared for pig farms, and this increased the spread of the Nipah virus. According to the World Economic Forum, thirty-one percent of emerging diseases are linked to deforestation.",
+   "key_points": [
+    "Deforestation removes many species and exposes people to zoonotic diseases, which pass from animals to humans.",
+    "Many diseases are forest-associated (e.g. malaria, Lyme disease, Ebola), and most new human infectious diseases, including the virus behind COVID-19, are zoonotic.",
+    "Habitat loss and people moving into forests increase human contact with wildlife.",
+    "Through range expansion, displaced disease-carrying animals bring their pathogens to new areas where they find new hosts, including humans.",
+    "Deforestation is linked to outbreaks, e.g. clearing for pig farms in Malaysia spread the Nipah virus; the World Economic Forum links 31% of emerging diseases to deforestation."
+   ]
+  },
+  {
+   "id": "sst10",
+   "type": "sst",
+   "level": 2,
+   "topic": "Inactive lifestyles and obesity",
+   "source": "https://en.wikipedia.org/wiki/Obesity",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to talk about how an inactive lifestyle is linked to obesity. First, where people live matters. Obesity risk has been linked to community design and to our reliance on cars. In one study around Atlanta, people in the most walkable neighbourhoods were two point four times more likely to get the recommended amount of physical activity than people in the least walkable areas. Second, work and daily life have become less active. Around the world, there has been a large shift towards less physically demanding jobs, and at least thirty percent of the world's population gets too little exercise. This is mainly because of the growing use of mechanised transport and labour-saving technology at home. Children also seem to be less active than before, especially in walking and physical education, although this may not be a significant cause of obesity in children. Finally, in both children and adults, time spent watching television is associated with the risk of obesity.",
+   "key_points": [
+    "A sedentary lifestyle is linked to obesity risk.",
+    "Community design and car dependence matter: in an Atlanta study, people in the most walkable neighbourhoods were 2.4 times more likely to get enough physical activity.",
+    "A worldwide shift to less physically demanding work means at least 30% of people get too little exercise, mainly because of mechanised transport and labour-saving home technology.",
+    "Children appear less active than before (especially walking and physical education), though this may not be a significant contributor to obesity.",
+    "Time spent watching television is associated with obesity risk in both children and adults."
+   ]
+  },
+  {
+   "id": "sst11",
+   "type": "sst",
+   "level": 3,
+   "topic": "Health effects of circadian disruption",
+   "source": "https://en.wikipedia.org/wiki/Circadian_rhythm",
+   "license": "CC BY-SA 4.0",
+   "script": "Let's look at what happens when our circadian rhythms, our internal daily clocks, are disrupted. The most familiar example is jet lag, which can cause fatigue, insomnia, headaches and loss of appetite. In the longer term, however, disruption is believed to seriously affect organs outside the brain. Researchers study this partly through shift workers, whose body clocks can fall out of step with day and night. The first concern is the heart. In one early study, hamsters with a genetically faulty body clock developed serious heart and kidney disease on a twenty-four-hour light and dark cycle that did not match their own rhythm. Shift workers have shown higher blood pressure and markers linked to plaque building up in their arteries. The second concern is metabolism. Animals forced to eat during their normal resting period gain weight, and in humans, shift work with irregular mealtimes is linked to diabetes and higher body mass. Finally, there are effects on the mind. Long-term shift workers make more errors, and night shift workers face a higher risk of dementia, especially those over fifty. So keeping normal sleep and daily rhythms matters for both brain and body.",
+   "key_points": [
+    "Disrupting circadian rhythms generally harms health; jet lag is a short-term example (fatigue, insomnia, headaches, appetite loss).",
+    "Long-term disruption, studied partly in shift workers, is believed to harm organs outside the brain, especially the heart: clock-defective hamsters on a mismatched cycle developed heart and kidney disease, and shift workers show higher blood pressure and artery-plaque markers.",
+    "Misalignment affects metabolism: animals fed during their rest period gain weight, and irregular shift-work eating is linked to diabetes and higher body mass.",
+    "There are cognitive effects: chronic shift workers make more errors, and night shift workers have a higher dementia risk, especially over 50.",
+    "Maintaining normal sleep and circadian rhythms is important for brain and overall health."
+   ]
+  },
+  {
+   "id": "sst12",
+   "type": "sst",
+   "level": 3,
+   "topic": "The costs of inflation",
+   "source": "https://en.wikipedia.org/wiki/Inflation",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I'd like to discuss why high or unpredictable inflation is seen as harmful to an economy. To begin with, it creates inefficiencies and makes it hard for companies to budget or plan for the long term. Uncertainty about what money will be worth in the future also discourages investment and saving. Next, inflation shifts purchasing power between groups. People on fixed incomes, such as pensioners whose pensions are not adjusted for rising prices, lose out to people whose earnings can keep pace with inflation. Inflation can also act as a hidden tax, because rising earnings push taxpayers into higher tax brackets unless those brackets are adjusted. There are also practical costs. When prices keep rising, people may hoard goods that last as a store of wealth, which creates shortages. Firms must change their prices often, which costs time and money, and this is called the menu cost. Holding cash also becomes more costly, so people keep more money in interest-paying accounts and make more trips to the bank, the so-called shoe leather cost. In extreme cases, hyperinflation can even lead people to abandon their country's currency for foreign ones.",
+   "key_points": [
+    "High or unpredictable inflation is considered harmful: it creates inefficiency and makes long-term budgeting and planning difficult.",
+    "Uncertainty about the future value of money discourages investment and saving.",
+    "It redistributes purchasing power from people on fixed incomes (e.g. unindexed pensions) to those whose earnings keep pace, and can act as a hidden tax by pushing taxpayers into higher brackets.",
+    "It causes practical costs: hoarding and shortages, menu costs of frequent price changes, and shoe leather costs of extra trips to the bank.",
+    "In extreme cases, hyperinflation can make people abandon the national currency for foreign currencies."
+   ]
+  },
+  {
+   "id": "sst13",
+   "type": "sst",
+   "level": 3,
+   "topic": "How children learn word meanings",
+   "source": "https://en.wikipedia.org/wiki/Language_acquisition",
+   "license": "CC BY-SA 4.0",
+   "script": "Let's explore how young children work out what words mean. On average, children learn ten to fifteen new word meanings every day, but only about one of these comes from direct teaching. One proposal for the rest is that children rely on context. When they meet an unfamiliar word, they use the surrounding information to guess its rough meaning, and they usually guess correctly. Children also stretch words they already know to cover related things they have no word for. For instance, a child might use the word mummy for anything that belongs to their mother, or even for anyone who looks like their parents. A child might also say the word rain when they mean they don't want to go out. In addition, children seem to follow certain rules of thumb. They tend to assume that a word refers to objects with similar properties, so a cow and a pig can both be animals, rather than to things that go together, like a cow and milk. They also assume that a new label names a whole object, not one of its parts. These assumptions help, but they can sometimes lead to conflicting conclusions.",
+   "key_points": [
+    "Children learn about 10 to 15 new word meanings a day, but only about one comes from direct instruction.",
+    "One proposal is that they use context to guess the rough meaning of unfamiliar words, usually correctly.",
+    "Children extend words they already know to related things they have no word for (e.g. mummy for anything belonging to their mother).",
+    "They use heuristics: assuming words refer to objects with similar properties rather than thematically related things, and that a new label names the whole object, not a part.",
+    "These assumptions help word learning, but conclusions based on them can sometimes conflict."
+   ]
+  },
+  {
+   "id": "sst14",
+   "type": "sst",
+   "level": 3,
+   "topic": "Microplastics and sewage treatment",
+   "source": "https://en.wikipedia.org/wiki/Microplastics",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I want to look at the role of sewage treatment plants in microplastic pollution. These plants clean wastewater, mainly from homes, using physical, chemical and biological processes. In developed countries, most plants have two main stages. In the first, filters and settling tanks remove oils, sand and other large solids. In the second, bacteria and other tiny organisms break down organic matter. Some plants add a third stage, for example to disinfect the water. Microplastics have been found in both main stages, and the good news is that most are removed. One study estimated a removal rate of about ninety-nine point nine percent, with roughly one particle per litre released back into the environment. Another found that most particles are removed in the first stage. So when these plants work properly, they are not a disproportionately large source of microplastics. However, current technology cannot clean the water completely. There is also a second problem. In some countries, the leftover sludge is used to fertilise soil. There, weather and sunlight break the plastics into smaller pieces, and many end up in storm drains and eventually back in bodies of water.",
+   "key_points": [
+    "Sewage treatment plants clean mostly household wastewater in stages: physical removal of large solids, then biological breakdown of organic matter, sometimes a third stage such as disinfection.",
+    "Microplastics occur in both main stages, but removal is very efficient (about 99.9%, mostly in the first stage), leaving roughly one particle per litre.",
+    "When working properly, the plants are not a disproportionately large source of microplastics in oceans and surface waters.",
+    "Current technology still cannot remove all microplastics from the water.",
+    "Sludge used as fertiliser exposes plastics to weather and sunlight, which fragment them; the pieces reach storm drains and eventually bodies of water."
+   ]
+  },
+  {
+   "id": "sst15",
+   "type": "sst",
+   "level": 3,
+   "topic": "Game theory in economics and business",
+   "source": "https://en.wikipedia.org/wiki/Game_theory",
+   "license": "CC BY-SA 4.0",
+   "script": "Today I'd like to explain how game theory is used in economics and business. Game theory is a major method in mathematical economics for modelling the behaviour of agents who interact and compete. It has been applied to many economic questions, including auctions, bargaining, mergers and acquisitions, and markets with only a few competing firms. Research in this area usually focuses on sets of strategies known as equilibria, and it commonly assumes that players act rationally. In non-cooperative games, the most famous is the Nash equilibrium. A set of strategies is a Nash equilibrium if each player's strategy is the best response to the others. In that case, no player has a reason to change strategy alone, because they are already doing the best they can, given what everyone else is doing. Game theory is also widely used in managerial economics to analyse strategic interactions between firms. It can help managers understand how their decisions affect competitors and the whole market. It can also be used to study cooperation, such as strategic alliances or joint ventures. Finally, firms can use it to choose the best pricing strategy, based on how they expect competitors to respond.",
+   "key_points": [
+    "Game theory is a major method in mathematical economics and business for modelling interacting, competing agents, applied to auctions, bargaining, mergers and acquisitions, and oligopolies.",
+    "Research focuses on equilibria (solution concepts) and commonly assumes players act rationally.",
+    "In a Nash equilibrium, each player's strategy is a best response to the others', so no player gains by changing strategy alone.",
+    "In managerial economics it is used to analyse strategic interactions between firms, such as how decisions affect competitors and the market.",
+    "It also helps analyse cooperation between firms (strategic alliances, joint ventures) and pricing strategies based on expected competitor responses."
+   ]
+  },
+  {
+   "id": "rl01",
+   "type": "rl",
+   "level": 1,
+   "topic": "Types of bicycles",
+   "source": "https://simple.wikipedia.org/wiki/Bicycle",
+   "license": "CC BY-SA 4.0",
+   "script": "Different bicycles do different jobs. The city bicycle is made for errands and commuting in cities. It has a comfortable seat, lights, a bell and mudguards, but it is heavy. The rider sits upright, so steering in traffic is easy. The road bicycle has narrow wheels and a much lighter frame than a mountain bike, so it is efficient for longer distances. On a recumbent bicycle, the pedals are in front of the seat and the rider leans back. This is more comfortable for most people but costs more, and some types sit low to the ground, so they can be harder for other road users to see. The fastest bikes in the world are recumbents.",
+   "key_points": [
+    "Different types of bicycles are designed for different purposes.",
+    "City bicycles are made for errands and commuting: they are comfortable but heavy, and the rider sits upright for easy steering in traffic.",
+    "Road bicycles have narrow wheels and a much lighter frame than mountain bikes, so they are efficient over longer distances.",
+    "On recumbent bicycles the pedals are in front of the seat and the rider leans back; this is more comfortable for most people but costs more, and low types can be harder for other road users to see.",
+    "The fastest bikes in the world are recumbents."
+   ]
+  },
+  {
+   "id": "rl02",
+   "type": "rl",
+   "level": 1,
+   "topic": "Growing coffee",
+   "source": "https://simple.wikipedia.org/wiki/Coffee",
+   "license": "CC BY-SA 4.0",
+   "script": "How is coffee grown? The traditional way is to put twenty seeds in a hole at the start of the rainy season. But about half of the seeds are wasted, because they do not sprout. Farmers in Brazil use a better method. They grow young plants in nurseries and move them outside after six to twelve months. Coffee is often grown with other food crops, such as corn, beans or rice, for a few years. This helps farmers learn what coffee plants need to grow well. Coffee grows between the Tropic of Cancer and the Tropic of Capricorn, an area called the bean belt, or coffee belt.",
+   "key_points": [
+    "The traditional method is to plant twenty seeds in a hole at the start of the rainy season, but about half of the seeds do not sprout and are wasted.",
+    "Farmers in Brazil use a better method: they grow seedlings in nurseries and move them outside after six to twelve months.",
+    "Coffee is often grown alongside food crops such as corn, beans or rice for a few years, which helps farmers learn what coffee plants need to grow well.",
+    "Coffee plants grow between the Tropics of Cancer and Capricorn, an area called the bean belt or coffee belt."
+   ]
+  },
+  {
+   "id": "rl03",
+   "type": "rl",
+   "level": 1,
+   "topic": "Baby elephants",
+   "source": "https://simple.wikipedia.org/wiki/Elephant",
+   "license": "CC BY-SA 4.0",
+   "script": "Let's talk about baby elephants. A female elephant has a single baby, called a calf, every four or five years, and it grows inside her for about twenty-two months. Another female often stays with the mother until the baby is born. A newborn calf can often stand within half an hour. First, it wobbles around looking for its mother's milk, and it drinks about ten litres a day. Calves drink their mother's milk for their first two years. Mothers touch their babies gently with their trunks, but a calf needs a year or more to control its own trunk and learn its many uses.",
+   "key_points": [
+    "A female elephant has a single calf every four or five years, after a pregnancy of about twenty-two months.",
+    "Another female often stays with the mother until the baby is born.",
+    "A newborn calf can often stand within half an hour, and the first thing it does is look for its mother's milk.",
+    "Calves drink about ten litres of milk a day and nurse for their first two years.",
+    "Mothers touch their calves gently with their trunks, but a calf needs a year or more to control its own trunk and learn its uses."
+   ]
+  },
+  {
+   "id": "rl04",
+   "type": "rl",
+   "level": 1,
+   "topic": "Dinosaur extinction",
+   "source": "https://simple.wikipedia.org/wiki/Dinosaur",
+   "license": "CC BY-SA 4.0",
+   "script": "Why did the dinosaurs disappear? About sixty-six million years ago, at the end of the Cretaceous period, a massive meteorite hit the Earth in the Yucatan peninsula, in what is now Mexico, and this caused mass extinctions. Other impact craters, and huge volcanic activity in India, date from about the same time. These events may have reduced sunlight and made it harder for plants to make food, which badly disrupted life on Earth. Did any dinosaurs survive? Yes, because birds are descended from dinosaurs. But dinosaurs as we usually think of them were wiped out. Some fossils have been found in later rocks, but many scientists believe these bones were washed out of their original places and buried again.",
+   "key_points": [
+    "About 66 million years ago, at the end of the Cretaceous, a massive meteorite hit the Earth in the Yucatan peninsula in Mexico, causing the extinctions.",
+    "Other impact craters and massive volcanic activity in India date from about the same time.",
+    "These events may have reduced sunlight and made it harder for plants to make food, badly disrupting life on Earth.",
+    "Birds, which are descended from dinosaurs, survived, but dinosaurs as generally understood were wiped out.",
+    "Many scientists think dinosaur fossils found in later rocks were washed out of their original places and buried again."
+   ]
+  },
+  {
+   "id": "rl05",
+   "type": "rl",
+   "level": 1,
+   "topic": "Origins of the Internet",
+   "source": "https://simple.wikipedia.org/wiki/Internet",
+   "license": "CC BY-SA 4.0",
+   "script": "The Internet is the world's largest communication network for computers and other devices. It was developed in the United States by a research agency of the Department of Defense, and it was first connected in October nineteen sixty-nine, under the name Arpanet. In nineteen ninety, a British scientist named Tim Berners-Lee created the World Wide Web in Switzerland. Today, the Web is one of the Internet's most popular services, used by billions of people every day. People pay internet service providers to get online. Many websites are free to use, and some of them show advertisements to earn money. There are also ongoing debates about censorship and freedom of speech online.",
+   "key_points": [
+    "The Internet is the world's largest communication network for computers and other devices.",
+    "It was developed in the United States by a Department of Defense research agency and first connected in October 1969, when it was called ARPANET.",
+    "In 1990, British scientist Tim Berners-Lee created the World Wide Web in Switzerland; the Web is now one of the most popular services, used by billions of people every day.",
+    "People pay internet service providers for access; many websites are free, and some show advertisements to earn money.",
+    "There are ongoing debates about censorship and freedom of speech on the Internet."
+   ]
+  },
+  {
+   "id": "rl06",
+   "type": "rl",
+   "level": 2,
+   "topic": "The first wind-powered house",
+   "source": "https://en.wikipedia.org/wiki/Wind_power",
+   "license": "CC BY-SA 4.0",
+   "script": "Machines using wind to grind grain and pump water were developed by the ninth century. But when was wind first used to make electricity? In July eighteen eighty-seven, in Scotland, Professor James Blyth built a ten-metre wind turbine with cloth sails in the garden of his holiday cottage at Marykirk. It charged batteries that powered the cottage's lights, making it the first house in the world to get its electricity from the wind. Blyth offered his spare power to the people of Marykirk to light their main street, but they refused, believing electricity was the work of the devil. He later built a turbine to supply emergency power to a hospital in Montrose. However, the invention never really caught on, because it was not considered economically viable.",
+   "key_points": [
+    "Wind machines for grinding grain and pumping water existed by the ninth century, but the first wind turbine for generating electricity was built in Scotland in July 1887 by Professor James Blyth.",
+    "His ten-metre, cloth-sailed turbine at his holiday cottage in Marykirk charged batteries that lit the cottage, making it the first house in the world powered by wind electricity.",
+    "The people of Marykirk refused his offer of spare power to light their main street because they thought electricity was the work of the devil.",
+    "Blyth later built a turbine to supply emergency power to a hospital in Montrose.",
+    "The invention never really caught on because it was not considered economically viable."
+   ]
+  },
+  {
+   "id": "rl07",
+   "type": "rl",
+   "level": 2,
+   "topic": "Public transport and land use",
+   "source": "https://en.wikipedia.org/wiki/Public_transport",
+   "license": "CC BY-SA 4.0",
+   "script": "How does public transport shape cities? Dense areas with mixed land uses encourage daily public transport use, while urban sprawl is linked to only occasional use. A recent multi-city European survey found that density, reliable and affordable services, and limiting motor vehicles in high-density areas all help promote public transport. Urban space is precious, and public transport uses it more efficiently than cars, so cities can be built more compactly. If public transport planning is at the heart of city planning, it forces cities to be built compactly around stations and stops. Centres can then grow around these hubs, serving passengers' daily needs and public services, which greatly reduces sprawl. In contrast, poor land use and planning reduce people's access to jobs, education and health care.",
+   "key_points": [
+    "Dense, mixed-use areas encourage daily public transport use, whereas urban sprawl is linked to only occasional use.",
+    "A European multi-city survey found that density, reliable and affordable services, and limiting motor vehicles in high-density areas help promote public transport.",
+    "Public transport uses scarce urban space more efficiently than cars, allowing cities to be built more compactly.",
+    "Putting public transport planning at the core of urban planning makes cities compact around stations and stops, creates centres around hubs for daily needs and public services, and greatly reduces sprawl.",
+    "Inefficient land use and poor planning reduce access to jobs, education and health care."
+   ]
+  },
+  {
+   "id": "rl08",
+   "type": "rl",
+   "level": 2,
+   "topic": "The changing purpose of museums",
+   "source": "https://en.wikipedia.org/wiki/Museum",
+   "license": "CC BY-SA 4.0",
+   "script": "The purpose of museums has changed greatly over time. In the nineteenth century, museums focused on scientific research and on organising collections, often gathered through exploration and colonialism. They were mostly for scholars, but they began opening to the public to educate and improve society. In the early twentieth century, exhibits were mostly static and aimed at scholars, often valuing the objects above the visitor's experience. In the second half of the century, reduced government funding pushed museums to rely more on private support and attract visitors to earn money, so they turned to public engagement and interactive exhibits. Today, museums aim to be accessible and inclusive. They use virtual tours and online collections to reach wider audiences, and they have become spaces for discussion and social change.",
+   "key_points": [
+    "In the nineteenth century, museums focused on scientific research and organising collections, often gathered through exploration and colonialism; they were mainly for scholars but began opening to the public to educate and improve society.",
+    "In the early twentieth century, exhibits were mostly static and aimed at scholars, often putting objects ahead of the visitor experience.",
+    "In the second half of the twentieth century, reduced government funding pushed museums to rely more on private support and on attracting visitors for revenue, so they shifted to public engagement and interactive exhibits.",
+    "In the twenty-first century, museums aim to be accessible and inclusive, using digital tools such as virtual tours and online collections to reach wider audiences.",
+    "Museums have also become spaces for discussion and social change."
+   ]
+  },
+  {
+   "id": "rl09",
+   "type": "rl",
+   "level": 2,
+   "topic": "How bees make honey",
+   "source": "https://en.wikipedia.org/wiki/Honey",
+   "license": "CC BY-SA 4.0",
+   "script": "How do bees turn nectar into honey? A foraging bee collects nectar, which is usually seventy to eighty percent water, in its honey stomach, where enzymes start breaking complex sugars into simpler ones. In the hive, it passes the nectar to hive bees. Working in relay groups, they repeatedly form bubbles of nectar between their jaws to evaporate water. This can take up to twenty minutes. The new honey is placed in honeycomb cells, but it is still so watery that yeast could grow in it. So the bees keep the hive warm with their body heat and beat their wings to move air across the honey. When the water content falls to fifteen point five to eighteen percent, fermentation stops, and the bees seal the cells with wax.",
+   "key_points": [
+    "A forager bee collects nectar, usually 70 to 80 percent water, in its honey stomach, where enzymes begin breaking complex sugars into simpler sugars.",
+    "In the hive, the nectar is passed to hive bees, which work in relay groups and repeatedly bubble it between their jaws to evaporate water, for up to twenty minutes.",
+    "The new honey is placed in honeycomb cells while it is still watery enough for yeast to grow in it.",
+    "Bees keep the hive warm with their body heat and beat their wings to move air across the honey, drawing out water.",
+    "When the water content falls to 15.5 to 18 percent, fermentation stops and the bees seal the cells with wax."
+   ]
+  },
+  {
+   "id": "rl10",
+   "type": "rl",
+   "level": 2,
+   "topic": "Composting basics",
+   "source": "https://en.wikipedia.org/wiki/Compost",
+   "license": "CC BY-SA 4.0",
+   "script": "Composting is an aerobic process, meaning it needs oxygen. It turns organic waste into a humus-like material that makes a good fertiliser. The organisms involved need four equally important ingredients. Carbon, typically from brown, dry materials, provides energy, and as microbes break it down, they produce the heat the process needs. Nitrogen, typically from green, wet materials, lets the organisms grow and reproduce. Oxygen is needed to break down the carbon, and water is needed in the right amount, without creating areas that lack oxygen. Turning the pile keeps the oxygen and moisture right. Composting works best at about twenty-five parts carbon to one part nitrogen. Above thirty to one, the pile lacks nitrogen, and below fifteen to one, some nitrogen is likely to escape as ammonia.",
+   "key_points": [
+    "Composting is an aerobic process that turns organic waste into humus-like compost, a good fertiliser.",
+    "Composting organisms need four equally important ingredients: carbon, nitrogen, oxygen and water.",
+    "Carbon supplies energy and, as microbes break it down, heat; carbon-rich materials tend to be brown and dry. Nitrogen lets organisms grow and reproduce; nitrogen-rich materials tend to be green and wet.",
+    "Oxygen is needed to break down carbon, and water must be at the right level without causing oxygen-free conditions; turning the pile maintains oxygen and moisture.",
+    "The ideal carbon-to-nitrogen ratio is about 25 to 1; above 30 to 1 the pile is nitrogen-starved, and below 15 to 1 nitrogen is likely lost as ammonia."
+   ]
+  },
+  {
+   "id": "rl11",
+   "type": "rl",
+   "level": 3,
+   "topic": "Origins of cognitive load theory",
+   "source": "https://en.wikipedia.org/wiki/Cognitive_load",
+   "license": "CC BY-SA 4.0",
+   "script": "Cognitive load theory has its roots in the beginning of cognitive science in the nineteen fifties. In a classic paper from nineteen fifty-six, Miller was perhaps the first to suggest that human working memory has inherent limits. His results suggested that people can generally hold only about seven units of information, plus or minus two, in short-term memory. In nineteen seventy-three, Simon and Chase used the term chunk to describe how people might organise information in short-term memory, a process also described as schema construction. Then, in the late nineteen eighties, Sweller developed cognitive load theory while studying problem solving. He and his colleagues found that learners often use a strategy called means-ends analysis, which uses up a lot of processing capacity, leaving less for building schemas. To prevent this unnecessary load, Sweller suggested designing instructional materials that avoid problem solving, such as worked examples and goal-free problems.",
+   "key_points": [
+    "Cognitive load theory traces back to 1950s cognitive science: Miller's 1956 paper was perhaps the first to suggest that working memory has inherent limits, about seven units plus or minus two.",
+    "In 1973, Simon and Chase used the term chunk for how people organise information in short-term memory, a process also described as schema construction.",
+    "In the late 1980s, Sweller developed cognitive load theory while studying problem solving.",
+    "He found that learners often use means-ends analysis, which uses up a lot of processing capacity and leaves less for building schemas.",
+    "To prevent this unnecessary load, he recommended instructional materials that avoid problem solving, such as worked examples and goal-free problems."
+   ]
+  },
+  {
+   "id": "rl12",
+   "type": "rl",
+   "level": 3,
+   "topic": "Gender pay gap in gig work",
+   "source": "https://en.wikipedia.org/wiki/Gig_worker",
+   "license": "CC BY-SA 4.0",
+   "script": "Is there a gender pay gap in the gig economy? The research is mixed, but many studies show that women still earn less than men on platforms, and the gap is typically similar to the gap outside the gig economy. One analysis of Uber drivers in the United States found that women earned about seven percent less than men on average. On Amazon's Mechanical Turk, where companies hire people for simple online tasks that are hard to automate, women earned about ten and a half percent less per hour. This was largely because they tended to take breaks between tasks, rather than working continuously, to handle caring responsibilities, particularly for young children. Many workers cite flexibility as a main reason for gig work, but that flexibility has limits, which may affect men and women differently. Surge pricing ties prices to demand, so it encourages workers to be online at busy times. But those times may clash with caring duties, creating a trade-off between flexibility and higher earnings.",
+   "key_points": [
+    "Evidence on the gender pay gap in platform work is mixed, but many studies find women earn less than men, by a margin similar to the gap outside the gig economy.",
+    "One US analysis found female Uber drivers earned about 7 percent less than male drivers on average.",
+    "On Amazon's Mechanical Turk, women earned about 10.5 percent less per hour, largely because they took breaks between tasks to handle caregiving, especially for young children.",
+    "Flexibility, often cited as a main reason for gig work, has limits that may affect men and women differently, mainly because of surge pricing, which ties prices to demand and encourages working at busy times.",
+    "Those busy times can conflict with caregiving, creating a trade-off between flexibility and higher earnings."
+   ]
+  },
+  {
+   "id": "rl13",
+   "type": "rl",
+   "level": 3,
+   "topic": "Latitudinal biodiversity gradient",
+   "source": "https://en.wikipedia.org/wiki/Biodiversity",
+   "license": "CC BY-SA 4.0",
+   "script": "Generally, biodiversity increases from the poles towards the tropics, so places at lower latitudes have more species than places at higher latitudes. This is known as the latitudinal gradient in species diversity. Several ecological factors may contribute to it, but the ultimate factor behind many of them is the higher average temperature at the equator compared with the poles. However, the pattern has exceptions. Although biodiversity on land declines from the equator to the poles, some studies claim this is unverified in aquatic ecosystems, especially marine ones. Parasites do not appear to follow the rule, and soil bacterial diversity is highest in temperate zones, which has been linked to carbon inputs and habitat connectivity. In twenty sixteen, an alternative explanation, the fractal biodiversity hypothesis, was proposed. It combines the size of the species pool with the fractal nature of ecosystems, and it uses three main variables: temperature, moisture and net primary production, which is how much new plant matter an ecosystem produces.",
+   "key_points": [
+    "Biodiversity generally increases from the poles to the tropics, so lower latitudes have more species; this is the latitudinal gradient in species diversity.",
+    "Several ecological factors contribute, but the ultimate factor behind many of them is the higher mean temperature at the equator than at the poles.",
+    "The pattern holds on land, but some studies say it is unverified in aquatic, especially marine, ecosystems.",
+    "There are exceptions: parasites do not follow the rule, and soil bacterial diversity peaks in temperate zones, linked to carbon inputs and habitat connectivity.",
+    "In 2016, the fractal biodiversity hypothesis offered an alternative explanation, based on species pool size, the fractal nature of ecosystems, and temperature, moisture and net primary production."
+   ]
+  },
+  {
+   "id": "rl14",
+   "type": "rl",
+   "level": 3,
+   "topic": "Long-term leakage of stored carbon dioxide",
+   "source": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
+   "license": "CC BY-SA 4.0",
+   "script": "Will carbon dioxide stored deep underground stay there? Several trapping mechanisms hold it in place. An impermeable layer of rock called a caprock can trap it, and over a very long time it can also react with the rock to form carbonate minerals. The carbon dioxide tends to rise until it meets the caprock, then spreads sideways until it finds a gap. Faults near the injection zone could let it escape into the atmosphere, potentially endangering life nearby. Too much pressure could also fracture the rock and cause an earthquake, which research suggests would be too small to damage property but could cause a leak. The Intergovernmental Panel on Climate Change says well-managed sites will likely retain over ninety-nine percent of the injected carbon dioxide for more than a thousand years. But these estimates rely on complex simulations, because field data is limited. And if very large amounts are stored, even a one percent leak over a thousand years could significantly affect the climate.",
+   "key_points": [
+    "Carbon dioxide stored underground is held by several trapping mechanisms, including an impermeable caprock and extremely slow mineral trapping as it reacts with rock to form carbonates.",
+    "Injected carbon dioxide tends to rise until it meets the caprock, then spreads sideways until it finds a gap.",
+    "Faults near the injection zone could let it leak into the atmosphere, potentially endangering nearby life; excessive pressure could fracture rock and cause earthquakes that are too small to damage property but could cause leaks.",
+    "The IPCC says well-managed sites likely retain over 99 percent of injected carbon dioxide for more than a thousand years.",
+    "Leakage estimates rely on complex simulations because field data is limited, and with very large amounts stored, even 1 percent leakage over a thousand years could significantly affect the climate."
+   ]
+  },
+  {
+   "id": "rl15",
+   "type": "rl",
+   "level": 3,
+   "topic": "Soil erosion and water pollution",
+   "source": "https://en.wikipedia.org/wiki/Soil_erosion",
+   "license": "CC BY-SA 4.0",
+   "script": "Soil erosion, especially from agriculture, is considered the leading global cause of diffuse water pollution, because of the excess sediment flowing into the world's waterways. The sediment is a pollutant itself, and it also carries other pollutants, such as attached pesticides and heavy metals. For aquatic ecosystems, the effects can be catastrophic. Silt can smother the spawning beds of fish by filling the spaces between the gravel on the stream bed. It also reduces their food supply and causes serious breathing problems when it enters their gills. The diversity of aquatic plants and algae falls, and invertebrates cannot survive and reproduce. And although a sedimentation event may be short-lived, the ecological disruption from the mass die-off often lasts long into the future. Until erosion control measures were introduced in the nineteen eighties, one of the world's most serious long-running water erosion problems was in China, on the Yellow and Yangtze Rivers.",
+   "key_points": [
+    "Soil erosion, especially from agriculture, is considered the leading global cause of diffuse water pollution because of excess sediment entering waterways.",
+    "Sediment is a pollutant itself and also carries attached pollutants such as pesticides and heavy metals.",
+    "Silt smothers fish spawning beds, reduces fish food supply and causes breathing problems in their gills; aquatic plant and algae diversity falls, and invertebrates cannot survive and reproduce.",
+    "A sedimentation event may be short-lived, but the disruption from the resulting mass die-off can last long into the future.",
+    "Until control measures in the 1980s, one of the world's most serious long-running water erosion problems was on China's Yellow and Yangtze Rivers."
+   ]
+  },
+  {
+   "id": "sgd01",
+   "type": "sgd",
+   "level": 1,
+   "topic": "Mass tourism",
+   "source": "https://en.wikipedia.org/wiki/Tourism",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Carlos",
+     "text": "I think tourism is good for cities. Tourists pay for hotels, meals and transport, so a lot of money comes into the local economy, and it creates jobs too. Look at Spain. In the nineteen sixties and seventies, mass tourism played a major role in its economic miracle."
+    },
+    {
+     "speaker": "B",
+     "name": "Emma",
+     "text": "But local people often pay the price. In cities with heavy tourism, especially in the summer months, mass tourism has become a negative experience for residents. In July twenty twenty-four, thousands of people in Barcelona joined an anti-tourism protest as housing costs were rising."
+    },
+    {
+     "speaker": "A",
+     "name": "Carlos",
+     "text": "I understand, but people also say travel broadens the mind. So tourism is good for visitors, not just for the economy."
+    },
+    {
+     "speaker": "B",
+     "name": "Emma",
+     "text": "Maybe, but it can also sour relationships between hosts and guests. And it puts extra pressure on the local environment."
+    },
+    {
+     "speaker": "C",
+     "name": "Yuki",
+     "text": "I can see both sides. In the nineteen sixties and seventies, scientists mostly talked about the harm tourism did to local communities. Since the nineteen eighties, they've recognised the positive side as well."
+    },
+    {
+     "speaker": "B",
+     "name": "Emma",
+     "text": "So you think the good outweighs the bad?"
+    },
+    {
+     "speaker": "C",
+     "name": "Yuki",
+     "text": "Not exactly. Tourism depends on a place's culture and nature. World Heritage Sites, for example, are real tourist magnets. If tourism damages the environment, it damages the very thing that brings visitors. So I agree with Carlos about the income, but Emma is right that it needs to be managed."
+    }
+   ],
+   "key_points": [
+    "Carlos (A) supports tourism: tourist spending brings income and jobs, as mass tourism did for Spain's economy in the 1960s and 1970s, and travel broadens the mind.",
+    "Emma (B) says mass tourism hurts residents, especially in summer (e.g. the 2024 Barcelona protest as housing costs rose), sours host-guest relations and puts pressure on the environment.",
+    "Yuki (C) sees both sides: early research (1960s-70s) stressed harm to host communities, and since the 1980s the benefits have been recognised too.",
+    "Yuki argues tourism depends on culture and nature (e.g. World Heritage Sites), so damaging the environment undermines tourism itself; she agrees with Carlos on the income and with Emma that tourism must be managed."
+   ]
+  },
+  {
+   "id": "sgd02",
+   "type": "sgd",
+   "level": 1,
+   "topic": "Gig work",
+   "source": "https://en.wikipedia.org/wiki/Gig_worker",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Sam",
+     "text": "I think gig work is great, mainly because it's flexible. Eighty percent of women who work on DoorDash say flexibility is their main reason. You can even refuse an order. And it's easy to start, which helps young people who are still building their skills."
+    },
+    {
+     "speaker": "B",
+     "name": "Nadia",
+     "text": "But look at what workers give up. Companies call them independent contractors, not employees, so they usually don't get overtime pay, paid sick days or health care from the company."
+    },
+    {
+     "speaker": "A",
+     "name": "Sam",
+     "text": "Some people really enjoy it. About one in five retired Americans do gig work, and almost all gig workers over sixty-five say they feel more fulfilled when they keep a job they enjoy."
+    },
+    {
+     "speaker": "B",
+     "name": "Nadia",
+     "text": "Enjoy it? The apps put pressure on them through ratings. On platforms like Uber, a low rating from customers can mean less work or being removed completely. So workers, especially women, often put up with harassment just to protect their rating."
+    },
+    {
+     "speaker": "C",
+     "name": "Leo",
+     "text": "The flexibility is real, but limited. With surge pricing, pay goes up when demand is high, so people must choose between flexibility and higher earnings. And many do it out of need. Seventy percent of new Uber drivers said rising living costs were their main reason for joining."
+    },
+    {
+     "speaker": "A",
+     "name": "Sam",
+     "text": "So what's your answer?"
+    },
+    {
+     "speaker": "C",
+     "name": "Leo",
+     "text": "Gig work is unlikely to disappear, so let's make it fairer. Since January twenty twenty-five, Singapore has given gig workers injury insurance and the right to bargain together. That keeps the flexibility and adds protection."
+    }
+   ],
+   "key_points": [
+    "Sam (A) values gig work's flexibility (the main reason for 80% of women on DoorDash), the right to refuse orders and easy entry for young people; about one in five retired Americans do gig work, and almost all gig workers over 65 say keeping a job they enjoy makes them feel more fulfilled.",
+    "Nadia (B) says workers lose out: as independent contractors they usually get no overtime, sick pay or company health care, and customer ratings pressure them (especially women) into tolerating harassment.",
+    "Leo (C) says the flexibility is real but limited: surge pricing forces a trade-off between flexibility and earnings, and many work out of need (70% of new Uber drivers cited rising living costs).",
+    "Leo takes a middle position: gig work will not disappear, so it should be made fairer, as Singapore did from 2025 with injury insurance and collective bargaining, keeping flexibility while adding protection."
+   ]
+  },
+  {
+   "id": "sgd03",
+   "type": "sgd",
+   "level": 1,
+   "topic": "City life versus country life",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Ravi",
+     "text": "I think city life is better. Cities offer more jobs, better education and specialist services. Some older people even move to cities to be near doctors and hospitals. And people in cities are more productive than people in the countryside."
+    },
+    {
+     "speaker": "B",
+     "name": "Grace",
+     "text": "But city life has a cost. Living costs are higher, and many people feel stressed and isolated. A big study in Sweden found that people who live in cities have a twenty percent higher chance of developing depression."
+    },
+    {
+     "speaker": "A",
+     "name": "Ravi",
+     "text": "Maybe, but city people are more active. In the United States, people in rural areas exercise less and have higher rates of obesity."
+    },
+    {
+     "speaker": "B",
+     "name": "Grace",
+     "text": "That doesn't help poor migrants. In many cases, they come from the countryside for work, but they can't find a job or pay for a house, so they end up in slums."
+    },
+    {
+     "speaker": "C",
+     "name": "Omar",
+     "text": "You're both partly right. On average, health is better in cities than in rural areas, but people in slums suffer much more from disease and early death. So the real question is how cities are planned."
+    },
+    {
+     "speaker": "B",
+     "name": "Grace",
+     "text": "Planned in what way?"
+    },
+    {
+     "speaker": "C",
+     "name": "Omar",
+     "text": "Walkable neighbourhoods, with homes, shops and offices mixed together, and affordable housing. Walkable communities have a thirty-eight percent higher economic output per person than less walkable cities. And United Nations agencies prefer infrastructure to be in place before a city grows, not after."
+    },
+    {
+     "speaker": "B",
+     "name": "Grace",
+     "text": "I still prefer the countryside, but good planning would help."
+    }
+   ],
+   "key_points": [
+    "Ravi (A) prefers cities: more jobs, better education and specialist services such as doctors and hospitals, higher productivity, and (in the US) more physical activity than in rural areas.",
+    "Grace (B) stresses the costs: higher living costs, stress and isolation, a 20% higher chance of depression (Swedish study), and poor migrants who cannot find work or housing ending up in slums.",
+    "Omar (C) says both are partly right: health is better in cities on average, but slum dwellers suffer far more disease and early death, so planning is the real issue.",
+    "Omar recommends walkable, mixed-use neighbourhoods with affordable housing (38% higher economic output per person) and building infrastructure before cities grow; Grace still prefers the countryside but agrees planning would help."
+   ]
+  },
+  {
+   "id": "sgd04",
+   "type": "sgd",
+   "level": 1,
+   "topic": "Investing in public transport",
+   "source": "https://en.wikipedia.org/wiki/Public_transport",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Anna",
+     "text": "I think our city should spend much more on buses and trains. Public transport is better for the environment. One American study found it uses about half the fuel that cars do, and subways can cut a city's carbon dioxide emissions by around half."
+    },
+    {
+     "speaker": "B",
+     "name": "Tom",
+     "text": "But subways are very expensive. Building one costs about two hundred million dollars per kilometre. And one study found that better access to public transport made no real difference to the number of cars in the long term."
+    },
+    {
+     "speaker": "A",
+     "name": "Anna",
+     "text": "Maybe, but it's also much safer. People in communities built around public transport have about one fifth of the crash injuries and deaths of car-based communities."
+    },
+    {
+     "speaker": "B",
+     "name": "Tom",
+     "text": "Safer on the roads, perhaps, but a Dutch study found higher crime rates on public transport than in cars."
+    },
+    {
+     "speaker": "C",
+     "name": "Mei",
+     "text": "What matters most to me is who uses it. Children, older people without cars, people without a driving licence and wheelchair users all rely on it. In poorer areas, it gives people transport they couldn't otherwise afford."
+    },
+    {
+     "speaker": "B",
+     "name": "Tom",
+     "text": "I agree, but is it worth the money everywhere?"
+    },
+    {
+     "speaker": "C",
+     "name": "Mei",
+     "text": "Not everywhere, and there I partly agree with you. People use it daily in dense areas where homes, shops and jobs are mixed, but only now and then in spread-out suburbs. So we should build it together with better city planning."
+    },
+    {
+     "speaker": "A",
+     "name": "Anna",
+     "text": "Fine, but I still think we should start investing now."
+    }
+   ],
+   "key_points": [
+    "Anna (A) wants much more investment: public transport uses about half the fuel of cars, subways can roughly halve a city's carbon dioxide emissions, and transit-based communities have about one fifth of the crash casualties.",
+    "Tom (B) doubts the value: subways cost about 200 million dollars per kilometre, better access did not reduce car numbers in the long term, and a Dutch study found more crime on public transport than in cars.",
+    "Mei (C) stresses who it serves: children, older people without cars, people without a licence, wheelchair users, and people in poorer areas who could not otherwise afford transport.",
+    "Mei partly agrees with Tom: it is used daily in dense, mixed-use areas but only occasionally in sprawl, so it should be built with better planning; Anna still wants to invest now."
+   ]
+  },
+  {
+   "id": "sgd05",
+   "type": "sgd",
+   "level": 1,
+   "topic": "Returning museum objects",
+   "source": "https://en.wikipedia.org/wiki/Museum",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Sofia",
+     "text": "I think museums should give back objects taken from other countries. Take the Moai, the stone figures from Easter Island. Since eighteen sixty-eight, several have been taken to big Western museums. The islanders want them back, because they see them as ancestors and family."
+    },
+    {
+     "speaker": "B",
+     "name": "Daniel",
+     "text": "I understand, but it isn't always simple. In the United States, a law requires museums to return Native American remains, but they face problems like incomplete records and limited resources. Sometimes it's hard even to know which community the remains belong to."
+    },
+    {
+     "speaker": "A",
+     "name": "Sofia",
+     "text": "Hard, but not impossible. Greece has asked again and again for the Parthenon marbles, which Lord Elgin took in eighteen oh five. And a twenty eighteen report in France looked at African countries' claims to objects taken illegally."
+    },
+    {
+     "speaker": "B",
+     "name": "Daniel",
+     "text": "Some museums also say keeping human remains has scientific value. And Europe has a patchwork of national laws. In Germany and France, requests are judged case by case."
+    },
+    {
+     "speaker": "C",
+     "name": "Amira",
+     "text": "For me, giving things back is only part of it. People in the decolonization movement say museums are just a box of things. They show one-sided stories and leave out other points of view."
+    },
+    {
+     "speaker": "B",
+     "name": "Daniel",
+     "text": "So what would you change?"
+    },
+    {
+     "speaker": "C",
+     "name": "Amira",
+     "text": "Museums should tell the stories of groups that are often ignored, like the Black Miners Museum in Nottingham. But like Sofia, I think change is coming. There's growing pressure from the public and governments for museums to face their colonial past."
+    }
+   ],
+   "key_points": [
+    "Sofia (A) wants museums to return objects taken from other countries, e.g. the Moai (seen by Easter Islanders as ancestors and family), the Parthenon marbles Greece keeps requesting, and African objects taken illegally (2018 French report).",
+    "Daniel (B) says returning is not simple: under a US law museums must return Native American remains but face incomplete records, limited resources and unclear community links; some museums claim scientific value, and European laws vary, with case-by-case decisions.",
+    "Amira (C) says returning objects is only part of it: decolonization supporters call museums 'a box of things' with one-sided stories, so museums should also tell the stories of ignored groups (e.g. the Black Miners Museum in Nottingham).",
+    "Amira, like Sofia, expects change: there is growing pressure from the public and governments for museums to face their colonial past; Daniel stresses practical difficulties rather than rejecting returns."
+   ]
+  },
+  {
+   "id": "sgd06",
+   "type": "sgd",
+   "level": 2,
+   "topic": "Hydroelectric dams",
+   "source": "https://en.wikipedia.org/wiki/Hydroelectricity",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Lucas",
+     "text": "I think hydroelectric dams are one of the best sources of clean electricity. They burn no fuel, so generating power produces no carbon dioxide, and hydro has one of the lowest lifecycle emissions of any source. Reservoirs can also supply water for farming and control floods."
+    },
+    {
+     "speaker": "B",
+     "name": "Hana",
+     "text": "But think about what's lost. Large reservoirs flood huge areas, sometimes destroying forests, marshland and grassland, and often force people and wildlife to move. In two thousand, the World Commission on Dams estimated that dams had displaced forty to eighty million people."
+    },
+    {
+     "speaker": "A",
+     "name": "Lucas",
+     "text": "That's a real cost, but compare it with coal. Hydro produces no sulfur dioxide or nitrogen oxides, and it avoids the dangers of coal mining and the health effects of coal pollution."
+    },
+    {
+     "speaker": "B",
+     "name": "Hana",
+     "text": "It still harms rivers. Turbines kill fish, for example seventy percent of the eels that pass through die immediately. And dam failures can be catastrophic. When the Banqiao Dam in China failed in nineteen seventy-five, the flood killed twenty-six thousand people."
+    },
+    {
+     "speaker": "C",
+     "name": "Kofi",
+     "text": "You're both right, but it depends on location. In tropical rainforest, flooded plants rot and release methane. If the reservoir is large for its power output and the forest wasn't cleared, it may emit more greenhouse gas than an oil-fired plant. In Canada and northern Europe, emissions are typically two to eight percent of a fossil fuel plant's."
+    },
+    {
+     "speaker": "A",
+     "name": "Lucas",
+     "text": "So location matters. Anything else?"
+    },
+    {
+     "speaker": "C",
+     "name": "Kofi",
+     "text": "Climate change. One study of the Colorado River suggests that a two degree rise in temperature, with ten percent less precipitation, might cut river run-off by up to forty percent. That's why the International Energy Agency has called for strong sustainability standards for all hydropower."
+    },
+    {
+     "speaker": "B",
+     "name": "Hana",
+     "text": "Standards would help, but I'd still build fewer large dams."
+    }
+   ],
+   "key_points": [
+    "Lucas (A) supports dams: no fuel and no carbon dioxide during generation, very low lifecycle emissions, irrigation and flood control, and none of coal's air pollution or mining hazards.",
+    "Hana (B) opposes large dams: reservoirs flood forests and grassland and displace people and wildlife (40-80 million people by 2000), turbines kill fish (70% of eels), and failures can be catastrophic (Banqiao, 1975).",
+    "Kofi (C) says it depends on location: tropical reservoirs over uncleared forest may emit more greenhouse gas than an oil-fired plant, while those in Canada and northern Europe emit only 2-8% of a fossil plant's.",
+    "Kofi adds that climate change may sharply cut river flow (Colorado study, up to 40%) and backs the IEA's call for strong sustainability standards; Lucas accepts location matters, Hana still wants fewer large dams."
+   ]
+  },
+  {
+   "id": "sgd07",
+   "type": "sgd",
+   "level": 2,
+   "topic": "Causes of obesity",
+   "source": "https://en.wikipedia.org/wiki/Obesity",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Mark",
+     "text": "I think obesity mostly comes down to personal choices. The basic cause is that people consume more calories than their bodies use. Long-term changes that cut calories or increase exercise tend to produce some lasting weight loss, and sticking to a diet matters more than which diet you choose."
+    },
+    {
+     "speaker": "B",
+     "name": "Aisha",
+     "text": "If it were that simple, it would work for more people. Only between two and twenty percent of people who change their lifestyle manage to keep the weight off in the long term. And genes alone can't explain why obesity has risen so dramatically. So we have to look at society, not just individuals."
+    },
+    {
+     "speaker": "A",
+     "name": "Mark",
+     "text": "What in society, exactly?"
+    },
+    {
+     "speaker": "B",
+     "name": "Aisha",
+     "text": "Food prices, for a start. In the United States, farm subsidies have made the main ingredients of processed food cheap compared with fruit and vegetables. Neighbourhood design matters too. In one American study, people in the most walkable areas were two point four times more likely to get enough exercise than people in the least walkable areas."
+    },
+    {
+     "speaker": "C",
+     "name": "Lena",
+     "text": "I'd add biology. According to the Endocrine Society, obesity isn't just about extra calories. The body also adapts to a heavier weight as its new normal, which helps explain why effective treatments have been hard to find. So blaming individuals is unfair, and it has a cost. People with obesity face stereotypes and bullying, and they're paid less for the same job, about six percent less for women and three percent less for men."
+    },
+    {
+     "speaker": "A",
+     "name": "Mark",
+     "text": "Discrimination is wrong, of course. But we can't ignore the health risks. On average, obesity reduces life expectancy by six to seven years."
+    },
+    {
+     "speaker": "C",
+     "name": "Lena",
+     "text": "I'm not denying that. The fat acceptance movement mainly wants to reduce discrimination, although some members also question the link between obesity and poor health, and I wouldn't go that far. We can take the risks seriously and still treat people fairly."
+    }
+   ],
+   "key_points": [
+    "Mark (A) sees obesity as mainly personal choice: people consume more calories than they use; long-term diet and exercise changes bring some lasting weight loss, and sticking to a diet matters more than its type.",
+    "Aisha (B) blames the environment: only 2-20% keep weight off long term, genes cannot explain the dramatic rise, US farm subsidies make processed food cheap compared with fruit and vegetables, and walkable areas make enough exercise 2.4 times more likely.",
+    "Lena (C) adds a biological view: the body adapts to a heavier weight as its new normal (Endocrine Society), so blaming individuals is unfair and causes stigma: stereotypes, bullying and lower pay for the same job (about 6% less for women, 3% for men).",
+    "Mark agrees discrimination is wrong but stresses the health risk (six to seven years' lower life expectancy on average); Lena accepts the risks, supports reducing discrimination but not questioning the health link, and wants fair treatment."
+   ]
+  },
+  {
+   "id": "sgd08",
+   "type": "sgd",
+   "level": 2,
+   "topic": "The cost of recycling",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Ben",
+     "text": "I think recycling is clearly worth it, mainly because it saves so much energy. Recycling aluminium cans saves ninety-five percent of the energy needed to make new aluminium, and a paper mill uses forty percent less energy when it starts from recycled paper."
+    },
+    {
+     "speaker": "B",
+     "name": "Clara",
+     "text": "Energy is one thing, but money is another. Generally, it's more expensive for cities to recycle household waste than to send it to a landfill. One critic says it can cost a city more than twice as much. And collecting recyclables often needs a second truck."
+    },
+    {
+     "speaker": "A",
+     "name": "Ben",
+     "text": "But cities have saved money too. New York once called recycling a drain on the city, and two years later its leaders realised an efficient system could save over twenty million dollars. And a Danish study found recycling was the most efficient way to deal with household waste in eighty-three percent of cases."
+    },
+    {
+     "speaker": "B",
+     "name": "Clara",
+     "text": "Look at plastic, though. New plastic resin costs forty percent less than recycled resin, and in the United States only around six or seven percent of plastic is recycled at all."
+    },
+    {
+     "speaker": "C",
+     "name": "Hiro",
+     "text": "I think you're comparing the wrong prices. Market prices ignore pollution. Making new plastic may cause more pollution than recycling it, but that cost isn't counted. A life cycle assessment, or a carbon tax, would show the true cost."
+    },
+    {
+     "speaker": "B",
+     "name": "Clara",
+     "text": "And what about the extra truck?"
+    },
+    {
+     "speaker": "C",
+     "name": "Hiro",
+     "text": "Supporters point out that recycling paper removes the need for a logging truck, so the energy balances out. And communities save money when recycling replaces their normal waste collection instead of being added on top. The bigger problem is that most products aren't designed to be recycled in the first place."
+    }
+   ],
+   "key_points": [
+    "Ben (A) says recycling is worth it: large energy savings (95% for aluminium cans, 40% for paper), New York found an efficient system could save over 20 million dollars, and a Danish study found it the most efficient option in 83% of cases.",
+    "Clara (B) says it generally costs cities more than landfill (sometimes over twice as much), often needs a second truck, new plastic resin is 40% cheaper than recycled, and only 6-7% of US plastic is recycled.",
+    "Hiro (C) says market prices mislead because they ignore the pollution from making new materials; a life cycle assessment or a carbon tax would show the true cost.",
+    "Hiro answers Clara's points (recycling paper saves a logging truck; cities save money when recycling replaces rather than adds to normal collection) and says the bigger problem is that products are not designed for recycling."
+   ]
+  },
+  {
+   "id": "sgd09",
+   "type": "sgd",
+   "level": 2,
+   "topic": "Antibiotics in farm animals",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Pedro",
+     "text": "Farmers use antibiotics for good reasons. With the world's population growing, there's constant pressure to produce more meat. Antibiotics in feed are used to help animals grow and to prevent infections, and they do give better yields. Besides, the evidence linking farm use to resistance is limited."
+    },
+    {
+     "speaker": "B",
+     "name": "Ingrid",
+     "text": "Limited evidence isn't the same as no risk. In the United States, about eighty percent of all antibiotic use is in agriculture, and around seventy percent of those drugs are medically important. Resistant bacteria can pass into the food we eat, with potentially fatal results. That's why a World Health Organization advisory group said medically important antibiotics should be banned for both growth promotion and disease prevention in farm animals."
+    },
+    {
+     "speaker": "A",
+     "name": "Pedro",
+     "text": "My worry is that a complete ban would hurt farmers."
+    },
+    {
+     "speaker": "C",
+     "name": "Rahul",
+     "text": "Europe suggests that worry may be overstated. By two thousand four, several European countries had reduced resistance in humans by limiting antibiotics in farming, without harming animal health or raising costs. Then in two thousand six, the European Union banned antibiotics for growth promotion, and in Scandinavia there's evidence the ban lowered resistance in animal bacteria."
+    },
+    {
+     "speaker": "B",
+     "name": "Ingrid",
+     "text": "So a ban works."
+    },
+    {
+     "speaker": "C",
+     "name": "Rahul",
+     "text": "It can, but one region acting alone isn't enough. Forty countries still use antibiotics to promote growth, and worldwide, antibiotic use in livestock is predicted to rise by sixty-seven percent by twenty thirty. I'd also put vets in control, as in the United States, where since twenty seventeen, medically important antibiotics in animal feed or water need a veterinary order or prescription."
+    },
+    {
+     "speaker": "A",
+     "name": "Pedro",
+     "text": "Vets deciding case by case, I could live with that."
+    }
+   ],
+   "key_points": [
+    "Pedro (A) defends farm antibiotics: they are used to boost growth and prevent infections and give better yields amid pressure to produce more meat, and evidence linking farm use to resistance is limited.",
+    "Ingrid (B) wants a ban: about 80% of US antibiotic use is agricultural (about 70% of it medically important), resistant bacteria can reach people through food, and a WHO advisory group said these drugs should be prohibited for growth promotion and disease prevention.",
+    "Rahul (C) questions Pedro's fear for farmers: several European countries cut human resistance by limiting farm use without harming animal health or costs, and after the EU's 2006 ban on growth promoters there is evidence of lower resistance in Scandinavian animal bacteria.",
+    "Rahul agrees with Ingrid that bans can work but says action must be global (40 countries still use growth promoters; worldwide livestock use predicted to rise 67% by 2030) and wants vets in control, as in the US since 2017; Pedro accepts vet oversight."
+   ]
+  },
+  {
+   "id": "sgd10",
+   "type": "sgd",
+   "level": 2,
+   "topic": "Solar farms and land use",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Elena",
+     "text": "I think we should build large solar farms as fast as possible. Over their life cycle, solar farms emit less than fifty grams of greenhouse gases per kilowatt hour, compared with about five hundred for gas and a thousand for coal. Making panels causes some pollution, but after a carbon payback time of several years, they provide clean energy for the rest of their thirty-year life."
+    },
+    {
+     "speaker": "B",
+     "name": "Jack",
+     "text": "Emissions are low, but land is the problem. One study found that if Japan and South Korea got a large share of their electricity from solar farms by twenty fifty, panels could cover up to about five percent of their land. That could mean losing forests and farmland, and local residents may oppose it."
+    },
+    {
+     "speaker": "A",
+     "name": "Elena",
+     "text": "But worldwide, the land used for solar has minimal ecological impact."
+    },
+    {
+     "speaker": "B",
+     "name": "Jack",
+     "text": "Worldwide, maybe, but not locally. Solar panels can raise the local temperature, and in large desert installations, the effect can be stronger than an urban heat island."
+    },
+    {
+     "speaker": "C",
+     "name": "Priya",
+     "text": "I think the land problem can be reduced. Japan and South Korea already farm under solar panels or use floating solar. Grasses and flowers can be planted between panels to support pollinators. And if panels go on buildings and other built-up areas, solar's land use can drop to the level of gas power."
+    },
+    {
+     "speaker": "B",
+     "name": "Jack",
+     "text": "Rooftops I can support. But aren't materials a problem too?"
+    },
+    {
+     "speaker": "C",
+     "name": "Priya",
+     "text": "Yes. The International Energy Agency expects demand for copper to double by twenty forty, so recycling and reuse matter. Old panels are sometimes reused in developing countries, and some academics want panels designed to be easier to repair."
+    },
+    {
+     "speaker": "A",
+     "name": "Elena",
+     "text": "Fine, but none of that is a reason to slow down."
+    }
+   ],
+   "key_points": [
+    "Elena (A) wants large solar farms built fast: life-cycle emissions under 50 grams per kilowatt hour versus about 500 for gas and 1,000 for coal, clean power for the rest of a 30-year life after a carbon payback of several years, and minimal ecological impact of land use worldwide.",
+    "Jack (B) worries about land and local effects: panels could cover up to about 5% of land in Japan and South Korea by 2050, threatening forests and farmland and causing local opposition, and panels can raise local temperatures (in deserts more than an urban heat island).",
+    "Priya (C) says the land problem can be reduced: farming under panels, floating solar, pollinator plants between panels, and panels on buildings, which cut land use to the level of gas.",
+    "Priya also warns of material limits (copper demand doubling by 2040) and supports recycling, reuse and repairable panels; Jack supports rooftops, while Elena refuses to slow down."
+   ]
+  },
+  {
+   "id": "sgd11",
+   "type": "sgd",
+   "level": 3,
+   "topic": "Placebos in medical practice",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Rachel",
+     "text": "I think we're too quick to condemn placebos in everyday medicine. In one Israeli study, sixty percent of the physicians and head nurses surveyed said they had used placebos, and only five percent thought they should be strictly prohibited. Some also argue that blanket consent, where patients agree in advance to unspecified treatment, makes the practice ethical."
+    },
+    {
+     "speaker": "B",
+     "name": "David",
+     "text": "Common practice isn't the same as good practice. A placebo disguised as real medication is deceptive, and it could harm the relationship between doctor and patient in the long run. On the grounds of patient autonomy, some argue that people should always be told the name of the drug, its side effects and the other treatment options."
+    },
+    {
+     "speaker": "A",
+     "name": "Rachel",
+     "text": "But we shouldn't dismiss the patients who respond. As an editorial in the British Medical Journal pointed out, getting pain relief from a placebo doesn't mean the pain isn't real."
+    },
+    {
+     "speaker": "B",
+     "name": "David",
+     "text": "I agree, and the same editorial said that using placebos to test whether pain is real is misguided. But that doesn't justify prescribing them. Doctors and pharmacists could face charges of fraud or malpractice, and a placebo might delay the proper diagnosis of a serious condition. A committee of the British House of Commons also warned that the placebo effect is unreliable and unpredictable."
+    },
+    {
+     "speaker": "C",
+     "name": "Tomasz",
+     "text": "I'd take a middle path, and doctors themselves seem divided. In a survey of more than ten thousand American physicians, twenty-four percent would prescribe a placebo simply because a patient wanted treatment, fifty-eight percent would not, and for the rest it depended on the circumstances."
+    },
+    {
+     "speaker": "A",
+     "name": "Rachel",
+     "text": "So what's your middle path?"
+    },
+    {
+     "speaker": "C",
+     "name": "Tomasz",
+     "text": "Use the effect without the deception. Ben Goldacre argues that doctors should use the placebo effect to enhance medicines that actually work, and Edzard Ernst says a good doctor should be able to pass on a placebo effect through the compassion they show. What worries me more is alternative medicine. The placebo researcher Fabrizio Benedetti warns of a growing industry that preys on the vulnerable."
+    },
+    {
+     "speaker": "B",
+     "name": "David",
+     "text": "On that last point, I completely agree."
+    }
+   ],
+   "key_points": [
+    "Rachel (A) defends placebo use in everyday medicine: it is common (60% of surveyed Israeli physicians and head nurses; only 5% want a strict ban), blanket consent may make it ethical, and placebo pain relief does not mean the pain is unreal.",
+    "David (B) opposes disguised placebos: they are deceptive, may harm the doctor-patient relationship and patient autonomy, risk fraud or malpractice charges, may delay diagnosis of serious conditions, and the effect is unreliable and unpredictable (UK House of Commons committee).",
+    "David accepts the point about real pain but notes the same editorial called using placebos to test pain misguided, which does not justify prescribing them.",
+    "Tomasz (C) takes a middle path: doctors are divided (US survey: 24% would, 58% would not, the rest it depends), so the placebo effect should be used without deception, by enhancing effective medicines (Goldacre) and through compassion (Ernst).",
+    "Tomasz and David agree in worrying about alternative medicine preying on the vulnerable (Benedetti)."
+   ]
+  },
+  {
+   "id": "sgd12",
+   "type": "sgd",
+   "level": 3,
+   "topic": "Nudge policies",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Julia",
+     "text": "I think nudges are one of the smartest tools a government has. Richard Thaler and Cass Sunstein defined a nudge as any feature of the way choices are presented that changes behaviour predictably, without banning options or significantly changing economic incentives. Putting fruit at eye level counts as a nudge. Banning junk food doesn't. Britain set up a Behavioural Insights Team, often called the Nudge Unit, in twenty ten."
+    },
+    {
+     "speaker": "B",
+     "name": "Marcus",
+     "text": "That definition sounds harmless, but critics call nudges manipulative, and some say nudging is just a polite word for psychological manipulation. Others have charged that nudges reduce autonomy and threaten dignity. And the techniques are getting subtler. One recent study suggests that small phone vibrations can increase purchasing without people being consciously aware of it, and it asks whether that blurs the line between persuasion and coercion."
+    },
+    {
+     "speaker": "A",
+     "name": "Julia",
+     "text": "But a real nudge must be easy and cheap to avoid, so no one is forced into anything. Sunstein has answered these charges at length in his book The Ethics of Influence. And the same authors introduced the idea of sludge, meaning confusing forms or hidden fees that make it harder to do something beneficial. Removing sludge is hardly manipulation."
+    },
+    {
+     "speaker": "C",
+     "name": "Aiko",
+     "text": "My concern is less about ethics and more about evidence. Behavioural economics has a replication problem. Many studies fail when they're repeated, and a twenty twenty-four review in the Wall Street Journal reported that fewer than half of nudging experiments kept their long-term impact when they were re-tested. Even scholars in the field admit that small effect sizes and limited sample diversity make results hard to generalise."
+    },
+    {
+     "speaker": "B",
+     "name": "Marcus",
+     "text": "So nudges may be manipulative and not even work."
+    },
+    {
+     "speaker": "C",
+     "name": "Aiko",
+     "text": "That's not quite what I'm saying. They just can't be the whole answer. Much of the research relies on people from Western, educated, industrialised, rich and democratic societies. In poorer countries, reminders and nudges often aren't enough to change health behaviour, and extra measures like financial incentives or subsidised transport are frequently needed."
+    },
+    {
+     "speaker": "A",
+     "name": "Julia",
+     "text": "That's fair. I'd still use nudges, but test them properly where they'll actually be used."
+    }
+   ],
+   "key_points": [
+    "Julia (A) supports nudges as defined by Thaler and Sunstein: they change behaviour predictably without banning options or changing incentives (fruit at eye level, not junk-food bans); Britain set up a 'Nudge Unit' in 2010.",
+    "Marcus (B) raises ethical objections: critics call nudging manipulation that reduces autonomy and threatens dignity, and subtle tactics such as phone vibrations may increase buying without conscious awareness, raising the question of whether they blur persuasion and coercion.",
+    "Julia replies that real nudges must be easy and cheap to avoid, Sunstein has defended them at length, and removing 'sludge' such as confusing forms or hidden fees is not manipulation.",
+    "Aiko (C) questions the evidence rather than the ethics: many studies fail to replicate, a 2024 Wall Street Journal review found fewer than half of nudging experiments kept long-term effects, effects are small and samples narrow (mostly Western, educated, rich societies), and in poorer countries nudges often need financial incentives or subsidised transport.",
+    "Aiko rejects Marcus's conclusion that nudges simply do not work, saying only that they cannot be the whole answer; Julia agrees to keep using nudges but test them where they will be used."
+   ]
+  },
+  {
+   "id": "sgd13",
+   "type": "sgd",
+   "level": 3,
+   "topic": "Microplastics and human health",
+   "source": "https://en.wikipedia.org/wiki/Microplastics",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Sarah",
+     "text": "I find the evidence alarming. Stanford Medicine reports that microplastics are invariably found in the human body, even in babies, through the placenta and breast milk, and in the brain and heart. A twenty twenty-four study found that patients with microplastics in their arterial plaque had a higher risk of heart attack, stroke and death."
+    },
+    {
+     "speaker": "B",
+     "name": "Victor",
+     "text": "Being in the body isn't the same as causing harm. The health effects are still being tested, and although microplastics have been associated with problems like respiratory disease, we don't know if they're the cause. Several high-profile studies have been contested. Fat in human tissue can be mistaken for plastic, and coatings from laboratory gloves can rub off and cause errors."
+    },
+    {
+     "speaker": "A",
+     "name": "Sarah",
+     "text": "Even so, the authors of one of those studies say even a smaller amount of plastic in human tissue would be unacceptable. There should be none, they say. And microplastics often contain additives like bisphenol A and phthalates, which are known to disrupt hormones."
+    },
+    {
+     "speaker": "B",
+     "name": "Victor",
+     "text": "That's a value judgement, not proof of harm. When mice were fed a mixture of microplastics, researchers saw no obvious severe toxicity in organs such as the liver, heart and kidneys. And detection methods still aren't fully standardised, so results can vary a lot between laboratories."
+    },
+    {
+     "speaker": "C",
+     "name": "Nia",
+     "text": "I think you're both missing the point. Whatever the health verdict, we should focus on prevention that works. Treatment plants capture microplastics from wastewater, for example, but they end up in sludge that's often spread on farms as fertiliser, so the plastic washes into waterways anyway."
+    },
+    {
+     "speaker": "A",
+     "name": "Sarah",
+     "text": "What about cleaning up the oceans?"
+    },
+    {
+     "speaker": "C",
+     "name": "Nia",
+     "text": "The Ocean Cleanup, run by a Dutch foundation, has been dismissed by almost all microplastics experts. It only targets pieces larger than two centimetres, in the top three metres of water, while most plastic circulates much deeper. I'd rather have laws with real penalties, like England's microbead ban, which comes with fines. Japan's law specifies no penalties at all."
+    },
+    {
+     "speaker": "B",
+     "name": "Victor",
+     "text": "On prevention, I agree. It makes sense even while the evidence is uncertain."
+    }
+   ],
+   "key_points": [
+    "Sarah (A) is alarmed: microplastics are found throughout the body, even in babies (placenta, breast milk), the brain and the heart; a 2024 study linked microplastics in arterial plaque to higher risk of heart attack, stroke and death; additives such as bisphenol A and phthalates disrupt hormones.",
+    "Victor (B) says harm is not proven: health effects are still being tested, links with disease may not be causal, some high-profile studies are contested (fat mistaken for plastic, glove contamination), mice showed no obvious severe organ toxicity, and detection methods are not standardised.",
+    "Sarah counters that a contested study's authors say even smaller amounts in tissue would be unacceptable ('there should be none'); Victor calls this a value judgement, not proof.",
+    "Nia (C) wants the focus on effective prevention: treatment-plant sludge spread on farms returns microplastics to waterways, experts dismiss The Ocean Cleanup (only large pieces near the surface), and laws need real penalties (England's microbead ban with fines vs Japan's law with none).",
+    "Victor agrees with Nia that prevention makes sense even while the health evidence is uncertain."
+   ]
+  },
+  {
+   "id": "sgd14",
+   "type": "sgd",
+   "level": 3,
+   "topic": "The bilingual advantage",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Mateo",
+     "text": "I'm convinced that being bilingual is good for the brain. Studies in the early nineteen nineties confirmed that students who complete bilingual instruction perform better academically and show more cognitive flexibility, including a better ability to analyse abstract visual patterns. Bilinguals also generally do better on auditory tasks, like detecting gaps in sounds or recognising pitch patterns."
+    },
+    {
+     "speaker": "B",
+     "name": "Helen",
+     "text": "I'd be careful. There's no evidence for a bilingual advantage in executive function. Claims that highly proficient bilinguals have better executive function and a later onset of dementia have come under strong criticism, because the results keep failing to replicate. Even the idea that bilinguals are better at learning languages persisted partly because of publication bias, and current meta-analyses find no effect."
+    },
+    {
+     "speaker": "A",
+     "name": "Mateo",
+     "text": "Then look at the real world. A Swiss study linked multilingualism to higher salaries and more productive firms, and its authors say it adds ten percent to Switzerland's gross domestic product. In the United States, bilingual people were found to earn around three thousand dollars a year more."
+    },
+    {
+     "speaker": "B",
+     "name": "Helen",
+     "text": "I don't doubt the economic benefits. Bilinguals can do things monolinguals can't, such as serving customers who only speak a minority language. But that's a practical skill, not a sharper mind."
+    },
+    {
+     "speaker": "C",
+     "name": "Kenji",
+     "text": "I think the real problem is measurement. Many earlier studies didn't reliably measure the bilinguals they tested. Even Mateo's auditory studies found that a person's level of proficiency in the second language made a difference. An emerging view is that researchers need validated, detailed measures of language experience to identify the conditions under which any cognitive effects appear."
+    },
+    {
+     "speaker": "A",
+     "name": "Mateo",
+     "text": "So the advantages might be real, but only for some people?"
+    },
+    {
+     "speaker": "C",
+     "name": "Kenji",
+     "text": "Possibly, but we can't say until the measurement improves. The same goes for claims that people's personality changes when they switch languages. There's been little rigorous research on that, and François Grosjean suggests it's most probably a shift in behaviour to fit the situation."
+    },
+    {
+     "speaker": "B",
+     "name": "Helen",
+     "text": "That I agree with. Better measurement first, bold claims later."
+    }
+   ],
+   "key_points": [
+    "Mateo (A) believes bilingualism benefits the mind: early-1990s studies found students completing bilingual instruction did better academically with more cognitive flexibility, and bilinguals show better auditory processing; he also cites economic gains (10% of Swiss GDP, about 3,000 dollars a year more in the US).",
+    "Helen (B) is sceptical of cognitive claims: there is no evidence of an executive-function advantage, claims about better executive function and later dementia keep failing to replicate, and the idea that bilinguals learn languages more easily persisted partly through publication bias, with meta-analyses finding no effect.",
+    "Helen accepts the economic benefits (e.g. serving minority-language customers) but calls them a practical skill, not a sharper mind.",
+    "Kenji (C) says the core problem is measurement: earlier studies did not reliably measure their bilingual samples and proficiency matters, so validated, detailed measures of language experience are needed to find when effects appear; he applies the same caution to claims of personality change (little rigorous research; Grosjean: a behaviour shift to fit the situation).",
+    "Helen agrees with Kenji; Mateo accepts the advantages may apply only to some people."
+   ]
+  },
+  {
+   "id": "sgd15",
+   "type": "sgd",
+   "level": 3,
+   "topic": "Carbon capture and storage",
+   "source": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
+   "license": "CC BY-SA 4.0",
+   "turns": [
+    {
+     "speaker": "A",
+     "name": "Olivia",
+     "text": "I think we need a much bigger commitment to carbon capture and storage. In twenty twenty-three, it captured only about zero point one percent of global emissions, yet climate models show it capturing about a billion tonnes by twenty thirty. The International Energy Agency is calling for more commitment. It can also preserve jobs in regions that rely on emissions-intensive industry."
+    },
+    {
+     "speaker": "B",
+     "name": "Kwame",
+     "text": "That's exactly what worries me. Fossil fuel companies promote carbon capture heavily, suggesting it will let the fossil fuel era be extended. At the twenty twenty-three United Nations climate conference, at least four hundred and seventy-five carbon capture lobbyists were given access. Many environmental groups see it as an unproven, expensive distraction that keeps us dependent on fossil fuels."
+    },
+    {
+     "speaker": "A",
+     "name": "Olivia",
+     "text": "But slow progress is a reason to invest more, not less."
+    },
+    {
+     "speaker": "B",
+     "name": "Kwame",
+     "text": "Or it's a sign the concept is unlikely to succeed, as some observers conclude. And think about who lives nearby. In the United States, plants that could be fitted with capture are disproportionately in poor or minority communities, and local groups often prefer to see them shut down, with the money going into cleaner production such as renewable electricity."
+    },
+    {
+     "speaker": "C",
+     "name": "Elif",
+     "text": "I think we should judge each project by what it actually achieves. Most studies assume power plants capture eighty-five to ninety percent of their carbon dioxide, but industry representatives say real rates are closer to seventy-five. And at the Petra Nova coal plant, one study found the actual emissions cut would average only ten point eight percent over twenty years."
+    },
+    {
+     "speaker": "B",
+     "name": "Kwame",
+     "text": "Which proves my point."
+    },
+    {
+     "speaker": "C",
+     "name": "Elif",
+     "text": "Partly. It shows that accounting matters. When captured carbon is used to pump out more oil, scientific papers are roughly evenly split on whether that raises or lowers emissions. Definitions matter too. The twenty twenty-three agreement to phase down unabated coal never defined the term, so a plant capturing only thirty percent could count as abated. The Intergovernmental Panel on Climate Change talks about ninety percent or more for power plants. With clear standards, I'd support it where it genuinely works."
+    }
+   ],
+   "key_points": [
+    "Olivia (A) wants a much bigger commitment: carbon capture handled only about 0.1% of global emissions in 2023 while climate models show about a billion tonnes by 2030, the IEA calls for more commitment, and it can preserve jobs in regions with emissions-intensive industry.",
+    "Kwame (B) opposes it: fossil fuel companies promote it to extend the fossil fuel era (at least 475 lobbyists at the 2023 UN conference), environmental groups see it as an unproven, expensive distraction, and nearby poor or minority communities often prefer closure and investment in renewables.",
+    "Olivia and Kwame disagree about slow progress: for her a reason to invest more, for him a sign the concept is unlikely to succeed.",
+    "Elif (C) wants each project judged on real results and honest accounting: capture may be about 75% rather than the assumed 85-90%, Petra Nova's cut may average only 10.8% over 20 years, and studies are evenly split on capture used for oil recovery.",
+    "Elif partly agrees with Kwame but would support carbon capture under clear standards, since 'unabated' was left undefined in the 2023 agreement (30% capture could count) while the IPCC refers to 90% or more for power plants."
+   ]
+  },
+  {
+   "id": "rts01",
+   "type": "rts",
+   "level": 1,
+   "topic": "Noisy neighbour",
+   "source": "authored",
+   "license": "",
+   "situation": "Your new neighbour has played loud music until after midnight every night this week. You start work very early, so you are getting very little sleep. This morning you meet your neighbour at the front door of your building, and they greet you in a friendly way. What would you say to your neighbour?",
+   "key_points": [
+    "Goal: politely ask the neighbour to keep the music down late at night.",
+    "Greets the neighbour in a friendly way before raising the problem.",
+    "Explains the problem: loud music after midnight all week, and you start work very early.",
+    "Suggests a reasonable solution, such as turning the music down after a certain time.",
+    "Keeps a friendly, non-accusing tone suitable for a neighbour."
+   ]
+  },
+  {
+   "id": "rts02",
+   "type": "rts",
+   "level": 1,
+   "topic": "Returning a present",
+   "source": "authored",
+   "license": "",
+   "situation": "Last week you bought a pair of running shoes as a birthday present for your brother, but they are too small for him. He has not worn them, and you still have the receipt. You go back to the shop, and an assistant asks how she can help you. What would you say to the shop assistant?",
+   "key_points": [
+    "Goal: ask to exchange the shoes for a larger size, or for a refund.",
+    "Explains that the shoes were a birthday present bought last week and are too small.",
+    "Mentions that the shoes have not been worn and that you have the receipt.",
+    "Asks about the options politely, with requests such as 'Could I...' or 'Would it be possible...'."
+   ]
+  },
+  {
+   "id": "rts03",
+   "type": "rts",
+   "level": 1,
+   "topic": "Declining to look after a dog",
+   "source": "authored",
+   "license": "",
+   "situation": "Your friend is going on holiday next week and asks you to look after her dog at your flat. You would like to help, but pets are not allowed in your building, and you work long hours. Your friend is waiting for your answer. What would you say to your friend?",
+   "key_points": [
+    "Goal: kindly say no to looking after the dog while keeping the friendship.",
+    "Shows that you would like to help and apologises for saying no.",
+    "Explains both reasons: pets are not allowed in your building and you work long hours.",
+    "Suggests an alternative, such as a pet sitter, another friend, or visiting the dog at her home when you can.",
+    "Uses a warm, friendly tone."
+   ]
+  },
+  {
+   "id": "rts04",
+   "type": "rts",
+   "level": 1,
+   "topic": "Damaged borrowed camera",
+   "source": "authored",
+   "license": "",
+   "situation": "Your friend lent you her camera for your holiday. On the last day, you dropped it, and now the screen is cracked, although the camera still takes photos. Today your friend calls you and asks when she can have it back. What would you say to your friend?",
+   "key_points": [
+    "Goal: tell the friend honestly that the camera is damaged and take responsibility.",
+    "Apologises sincerely.",
+    "Explains what happened: you dropped it on the last day and the screen cracked, but it still takes photos.",
+    "Offers to pay for the repair and agrees when to return the camera.",
+    "Keeps an honest, apologetic and friendly tone."
+   ]
+  },
+  {
+   "id": "rts05",
+   "type": "rts",
+   "level": 1,
+   "topic": "Wrong food delivery",
+   "source": "authored",
+   "license": "",
+   "situation": "You ordered a vegetarian pizza for delivery and paid for it online. When the driver hands it to you and you open the box, you see that it has meat on it, and you do not eat meat. The driver is still at your door. What would you say to the driver?",
+   "key_points": [
+    "Goal: explain that the order is wrong and get a vegetarian replacement or a refund.",
+    "Explains that you ordered a vegetarian pizza, but this one has meat, which you do not eat.",
+    "Mentions that you have already paid online.",
+    "Asks what can be done, for example whether the driver can contact the restaurant.",
+    "Stays calm and polite, without blaming the driver personally."
+   ]
+  },
+  {
+   "id": "rts06",
+   "type": "rts",
+   "level": 2,
+   "topic": "Asking for an extension",
+   "source": "authored",
+   "license": "",
+   "situation": "Your essay is due in two days, but you have been ill with a high fever for most of this week, and you have a note from your doctor. You have finished only about half of the essay. You see your tutor in the corridor after class. What would you say to your tutor?",
+   "key_points": [
+    "Goal: politely ask the tutor for a short extension on the essay.",
+    "Explains the reason: a high fever for most of the week, so only about half the essay is done.",
+    "Mentions the doctor's note and offers to show it or follow the official process.",
+    "Proposes a specific, realistic new deadline.",
+    "Uses a respectful, formal register suitable for a tutor."
+   ]
+  },
+  {
+   "id": "rts07",
+   "type": "rts",
+   "level": 2,
+   "topic": "Inactive group member",
+   "source": "authored",
+   "license": "",
+   "situation": "You are working on a group presentation with three classmates. One member has missed the last two meetings and has not replied to the group messages, and the presentation is next week. Today you meet him by chance in the library. What would you say to your classmate?",
+   "key_points": [
+    "Goal: get the classmate involved again and agree on his part before next week's presentation.",
+    "Starts in a friendly way and asks if everything is all right, instead of accusing him.",
+    "Explains the problem: he missed two meetings, has not replied to messages, and the group needs his input.",
+    "Proposes a concrete next step, such as a specific task, a deadline, or the next meeting time.",
+    "Keeps a cooperative, supportive tone."
+   ]
+  },
+  {
+   "id": "rts08",
+   "type": "rts",
+   "level": 2,
+   "topic": "Unavailable library book",
+   "source": "authored",
+   "license": "",
+   "situation": "You need a particular book for an assignment that is due in ten days, but the only copy in the library has been borrowed by someone else and is not due back for three weeks. You go to the help desk to speak to the librarian. What would you say to the librarian?",
+   "key_points": [
+    "Goal: find a way to get the book, or a suitable alternative, before the assignment is due.",
+    "Explains the timing problem: the only copy is on loan for three weeks, but the assignment is due in ten days.",
+    "Asks about specific options, such as reserving or recalling the book, an electronic version, or a copy from another library.",
+    "Uses polite requests and thanks the librarian."
+   ]
+  },
+  {
+   "id": "rts09",
+   "type": "rts",
+   "level": 2,
+   "topic": "Broken heating in accommodation",
+   "source": "authored",
+   "license": "",
+   "situation": "You live in university accommodation. The heating in your room has not worked for five days, and the nights are getting very cold. You reported the problem by email on Monday, but nobody has replied or come to fix it. You now visit the accommodation office in person. What would you say to the staff member there?",
+   "key_points": [
+    "Goal: get the heating repaired as soon as possible.",
+    "Explains the problem: no heating for five days while the nights are very cold.",
+    "Mentions the email report on Monday that got no reply and no repair.",
+    "Asks for a specific action, such as a repair date or a temporary heater until it is fixed.",
+    "Stays firm but polite, without blaming the staff member personally."
+   ]
+  },
+  {
+   "id": "rts10",
+   "type": "rts",
+   "level": 2,
+   "topic": "Request to copy an assignment",
+   "source": "authored",
+   "license": "",
+   "situation": "A classmate you get on well with asks to see your finished assignment so that he can copy some of your answers. The assignment is individual work, and copying would break the university rules. You want to stay on good terms with him. What would you say to your classmate?",
+   "key_points": [
+    "Goal: refuse to share the assignment while staying on good terms.",
+    "Says no clearly but kindly, showing understanding that he may be under pressure.",
+    "Explains the reason: it is individual work and copying breaks the university rules, which puts you both at risk.",
+    "Offers other help, such as explaining difficult parts, studying together, or suggesting he ask the tutor.",
+    "Uses a friendly, non-judgemental tone."
+   ]
+  },
+  {
+   "id": "rts11",
+   "type": "rts",
+   "level": 3,
+   "topic": "Apologising for a late delivery",
+   "source": "authored",
+   "license": "",
+   "situation": "You work for a company that supplies office furniture. An important client's order should have arrived last Monday, but a problem at your warehouse has delayed it, and it will now arrive on Friday. The client phones you and is clearly annoyed about the delay. What would you say to the client?",
+   "key_points": [
+    "Goal: apologise for the late delivery and keep the client's trust.",
+    "Acknowledges the client's frustration and apologises sincerely, without making excuses.",
+    "Explains briefly that a warehouse problem caused the delay and confirms delivery on Friday.",
+    "Offers reassurance or a gesture, such as delivery updates, a discount or free delivery.",
+    "Uses a calm, professional and formal register."
+   ]
+  },
+  {
+   "id": "rts12",
+   "type": "rts",
+   "level": 3,
+   "topic": "Declining a new project",
+   "source": "authored",
+   "license": "",
+   "situation": "Your manager asks you to lead a new project that starts next week. You find the project interesting, but you are already working on two other projects with deadlines at the end of this month, and taking on more now could lower the quality of your work. What would you say to your manager?",
+   "key_points": [
+    "Goal: politely decline leading the project now while keeping a good relationship with the manager.",
+    "Thanks the manager and shows genuine interest in the project.",
+    "Explains the reason: two current projects due at the end of the month, and a risk to the quality of your work.",
+    "Proposes an alternative, such as joining after the current deadlines, taking a smaller role, or agreeing priorities together.",
+    "Uses a respectful, professional register."
+   ]
+  },
+  {
+   "id": "rts13",
+   "type": "rts",
+   "level": 3,
+   "topic": "Complaint about a meeting room",
+   "source": "authored",
+   "license": "",
+   "situation": "You booked a meeting room at a hotel for an important meeting with clients. When you arrive, the projector does not work, and the room has not been set up in the way you requested. Your clients will arrive in thirty minutes. You ask to speak to the hotel manager. What would you say to the manager?",
+   "key_points": [
+    "Goal: complain clearly and get the room ready before the clients arrive.",
+    "Describes the specific problems: the projector does not work and the room is not set up as requested.",
+    "Stresses the urgency: the clients arrive in thirty minutes.",
+    "Asks for concrete action, such as a working projector, another room, or staff to set it up now, and may raise compensation later.",
+    "Stays firm but professional and polite."
+   ]
+  },
+  {
+   "id": "rts14",
+   "type": "rts",
+   "level": 3,
+   "topic": "Negotiating a price rise",
+   "source": "authored",
+   "license": "",
+   "situation": "You are responsible for purchasing at a small company. Your main supplier has just told you that their prices will rise next month. You want to keep working with them, but your budget is tight. Your company has been a loyal customer for several years and regularly places large orders. What would you say to the supplier?",
+   "key_points": [
+    "Goal: negotiate a smaller price rise or better terms while keeping the relationship.",
+    "Acknowledges the supplier's position and says you value the partnership.",
+    "Explains your position: a tight budget, several years as a loyal customer, and regular large orders.",
+    "Proposes specific options, such as a smaller or delayed increase, a volume discount, or a longer contract.",
+    "Uses a cooperative, polite and professional register."
+   ]
+  },
+  {
+   "id": "rts15",
+   "type": "rts",
+   "level": 3,
+   "topic": "Refusing an earlier deadline",
+   "source": "authored",
+   "license": "",
+   "situation": "A long-standing client asks your team to finish their project a week earlier than agreed in the contract. Your team is already fully booked, and rushing the work would put its quality at risk. You do not want to lose this client, who is waiting for your answer on a video call. What would you say to the client?",
+   "key_points": [
+    "Goal: politely refuse the earlier deadline while keeping the client satisfied.",
+    "Thanks the client and shows understanding of why they want the project sooner.",
+    "Explains honestly that the team is fully booked and rushing would put quality at risk.",
+    "Offers an alternative, such as delivering part of the work early or giving regular progress updates.",
+    "Uses a polite, formal register and ends on a positive note."
+   ]
+  },
+  {
+   "id": "we01",
+   "type": "we",
+   "level": 1,
+   "topic": "Smartphones in daily life",
+   "source": "authored",
+   "license": "",
+   "prompt": "Smartphones are now part of almost every moment of our daily lives. Some people say they have made life much easier, while others feel they have pulled us away from family and friends. To what extent do you agree that smartphones have improved our daily lives?",
+   "key_points": [
+    "Answers the exact question: how far smartphones have improved daily life overall.",
+    "States a clear position (agree, disagree or partly agree) and keeps it to the end.",
+    "Benefits: fast communication, maps, online payments and learning anywhere.",
+    "Drawbacks: distraction, less face-to-face time with family and friends, and too much screen time.",
+    "Weighs benefits against drawbacks, backs points with everyday examples, and ends with a clear conclusion."
+   ]
+  },
+  {
+   "id": "we02",
+   "type": "we",
+   "level": 1,
+   "topic": "City versus country living",
+   "source": "authored",
+   "license": "",
+   "prompt": "Some people believe that living in a big city gives people a better life, while others think life in the countryside is better. Discuss both views and give your own opinion.",
+   "key_points": [
+    "Discusses both views: the case for city life and the case for country life.",
+    "Gives a clear personal opinion on which is better, not just a neutral list.",
+    "City side: more jobs, better schools and hospitals, and more entertainment and convenience.",
+    "Countryside side: cleaner air, less noise and traffic, lower living costs and closer communities.",
+    "Develops each side in its own paragraph with examples and links them to the final opinion."
+   ]
+  },
+  {
+   "id": "we03",
+   "type": "we",
+   "level": 1,
+   "topic": "Online shopping",
+   "source": "authored",
+   "license": "",
+   "prompt": "Many people now buy clothes, food and household goods online instead of going to shops. What are the advantages and disadvantages of online shopping? Do the advantages outweigh the disadvantages?",
+   "key_points": [
+    "Answers both questions: the advantages and disadvantages, and whether the advantages outweigh them.",
+    "Gives a clear final judgement rather than only listing points.",
+    "Advantages: convenience, saving time, wider choice and easy price comparison.",
+    "Disadvantages: products cannot be seen or tried first, delivery and return problems, online scams, and harm to local shops.",
+    "Supports main points with specific examples, such as ordering clothes that do not fit."
+   ]
+  },
+  {
+   "id": "we04",
+   "type": "we",
+   "level": 1,
+   "topic": "Traffic congestion",
+   "source": "authored",
+   "license": "",
+   "prompt": "Traffic jams are a daily problem in many large cities. What are the main causes of heavy traffic, and what can be done to reduce it?",
+   "key_points": [
+    "Answers both parts: the main causes of heavy traffic and the solutions to reduce it.",
+    "Causes, e.g. too many private cars and motorbikes, weak public transport, poor city planning, and most people travelling at the same rush hours.",
+    "Solutions, e.g. better and cheaper public transport, limits or charges on private vehicles, and flexible working hours.",
+    "Links each solution to a cause and explains how it would work, with a concrete example such as a city the writer knows.",
+    "Ends with a clear conclusion that briefly restates the main causes and solutions."
+   ]
+  },
+  {
+   "id": "we05",
+   "type": "we",
+   "level": 1,
+   "topic": "Fast food and home cooking",
+   "source": "authored",
+   "license": "",
+   "prompt": "Many busy people now eat fast food or order takeaway meals instead of cooking at home. Is this a positive or a negative development? Give reasons and examples to support your view.",
+   "key_points": [
+    "Answers the exact question: whether replacing home cooking with fast food and takeaway is positive or negative.",
+    "States a clear position and keeps it consistent from introduction to conclusion.",
+    "Positive side: saves time for busy people, is convenient, and creates jobs in restaurants and delivery.",
+    "Negative side: often less healthy, costs more over time, and means fewer family meals together.",
+    "Supports the chosen side with specific examples and responds briefly to the other side."
+   ]
+  },
+  {
+   "id": "we06",
+   "type": "we",
+   "level": 2,
+   "topic": "Purpose of university",
+   "source": "authored",
+   "license": "",
+   "prompt": "Some people think that the main purpose of a university is to prepare students for jobs. Others believe it should give students broad knowledge and the ability to think for themselves. Discuss both views and give your own opinion.",
+   "key_points": [
+    "Discusses both views: university as job preparation and university as a place for broad knowledge and independent thinking.",
+    "Gives a clear personal opinion, which may be a reasoned balance between the two.",
+    "Job view: students need practical skills, employers want work-ready graduates, and a degree is a costly investment.",
+    "Knowledge view: thinking skills last longer than specific job skills, jobs keep changing, and society needs research and informed citizens.",
+    "Uses examples such as internships or subjects like philosophy and science, and concludes clearly."
+   ]
+  },
+  {
+   "id": "we07",
+   "type": "we",
+   "level": 2,
+   "topic": "Working from home",
+   "source": "authored",
+   "license": "",
+   "prompt": "Many companies now allow employees to work from home for part or all of the week. What are the advantages and disadvantages of this for employees and employers? Overall, do you think it is a positive change?",
+   "key_points": [
+    "Answers all parts: advantages and disadvantages for both employees and employers, plus an overall judgement.",
+    "Gives a clear overall view, for example supporting a mix of home and office work.",
+    "Employees: no commute and more flexibility, but loneliness and a blurred line between work and home life.",
+    "Employers: lower office costs and access to workers from anywhere, but harder supervision, teamwork and communication.",
+    "Organises points clearly by group or by advantage and disadvantage, with concrete examples."
+   ]
+  },
+  {
+   "id": "we08",
+   "type": "we",
+   "level": 2,
+   "topic": "Young people and social media",
+   "source": "authored",
+   "license": "",
+   "prompt": "Many young people now spend a large part of their free time on social media. What problems can this cause, and what can parents and schools do to help?",
+   "key_points": [
+    "Answers both parts: the problems caused by heavy social media use and what parents and schools can do.",
+    "Problems: less time for study, sleep and exercise, pressure from comparing themselves with others, and online bullying.",
+    "Parents, e.g. clear screen-time rules, phone-free family time, talking openly about online risks, and setting a good example.",
+    "Schools: teaching safe and responsible online behaviour, and offering sports and clubs as alternatives.",
+    "Explains how each suggested action would reduce a specific problem, and ends with a clear conclusion."
+   ]
+  },
+  {
+   "id": "we09",
+   "type": "we",
+   "level": 2,
+   "topic": "Online versus classroom learning",
+   "source": "authored",
+   "license": "",
+   "prompt": "With the growth of online courses, some people believe that traditional classrooms will soon no longer be needed. To what extent do you agree or disagree with this view?",
+   "key_points": [
+    "Answers the exact question: how far online courses could make traditional classrooms unnecessary.",
+    "States a clear position, for example that online learning will support classrooms but not fully replace them.",
+    "For online learning: flexible time and place, lower costs, and access to good teachers and materials from anywhere.",
+    "For classrooms: face-to-face interaction, motivation and discipline, hands-on practice, and social skills, especially for children.",
+    "Supports arguments with specific examples and concludes by restating the position."
+   ]
+  },
+  {
+   "id": "we10",
+   "type": "we",
+   "level": 2,
+   "topic": "Salary versus job satisfaction",
+   "source": "authored",
+   "license": "",
+   "prompt": "When choosing a job, some people care most about the salary, while others think job satisfaction is more important. Discuss both views and give your own opinion.",
+   "key_points": [
+    "Discusses both views: salary as the top priority and job satisfaction as the top priority.",
+    "Gives a clear personal opinion, possibly noting that the answer depends on a person's situation.",
+    "Salary view: pays for living costs and family needs, gives financial security, and reflects the value of the work.",
+    "Satisfaction view: interest and meaning keep people motivated, reduce stress, and support long-term success and well-being.",
+    "Supports each side with realistic examples and ends with a clear conclusion."
+   ]
+  },
+  {
+   "id": "we11",
+   "type": "we",
+   "level": 3,
+   "topic": "Funding scientific research",
+   "source": "authored",
+   "license": "",
+   "prompt": "Some argue that public funding for science should go only to research with clear practical applications. Others maintain that research driven purely by curiosity deserves government support as well. Discuss both views and give your own opinion.",
+   "key_points": [
+    "Discusses both views: funding only research with clear practical uses versus also funding curiosity-driven research.",
+    "Gives a clear, reasoned opinion on how public research money should be spent.",
+    "Practical view: public money is limited, taxpayers expect visible returns, and urgent problems such as disease need solutions.",
+    "Curiosity view: useful discoveries are often unexpected, basic knowledge underpins later applications, and private companies have little reason to fund it.",
+    "Supports arguments with a relevant example or careful reasoning, paraphrasing rather than repeating the prompt."
+   ]
+  },
+  {
+   "id": "we12",
+   "type": "we",
+   "level": 3,
+   "topic": "Globalisation and local culture",
+   "source": "authored",
+   "license": "",
+   "prompt": "As trade, travel and digital media connect the world ever more closely, some fear that local cultures and traditions are being lost. To what extent do you agree that globalisation does more harm than good to local cultures?",
+   "key_points": [
+    "Answers the exact question: whether globalisation does more harm than good to local cultures.",
+    "States a clear position and keeps it consistent, with nuance if partly agreeing.",
+    "Harm side: global brands, media and food can push aside local languages, crafts, food and customs.",
+    "Benefit side: cultural exchange, tourism that funds heritage, and the internet helping communities share and preserve traditions.",
+    "Supports points with specific examples, for instance from the writer's own country, and concludes clearly."
+   ]
+  },
+  {
+   "id": "we13",
+   "type": "we",
+   "level": 3,
+   "topic": "Personal data and privacy",
+   "source": "authored",
+   "license": "",
+   "prompt": "Technology companies collect vast amounts of personal data from the people who use their services. What problems does this practice create, and what measures should be taken to protect individual privacy?",
+   "key_points": [
+    "Answers both parts: the problems of personal data collection and the measures to protect privacy.",
+    "Problems: loss of privacy, data leaks and misuse, manipulation through targeted content, and users not knowing what is collected.",
+    "Measures, e.g. strong data protection laws with real penalties, clear consent, collecting only necessary data, and users managing their own privacy settings.",
+    "Links each measure to a problem it solves and explains how it would work.",
+    "Supports points with concrete examples, such as targeted advertising or a data leak, and ends with a clear conclusion."
+   ]
+  },
+  {
+   "id": "we14",
+   "type": "we",
+   "level": 3,
+   "topic": "Environment versus economic growth",
+   "source": "authored",
+   "license": "",
+   "prompt": "Some argue that protecting the natural environment must take priority over economic growth, even if this means slower development and fewer jobs in the short term. To what extent do you agree or disagree?",
+   "key_points": [
+    "Answers the exact question: whether protecting the environment should come first, even at the cost of slower growth and fewer jobs in the short term.",
+    "States a clear position on how far the writer agrees, not only that both matter.",
+    "Environment-first case: damage such as pollution and climate change is costly or impossible to reverse, and future generations depend on healthy nature.",
+    "Growth case: poorer countries need development to reduce poverty, and wealth helps pay for cleaner technology.",
+    "Responds to the opposing side, for example by showing how green industries can create jobs, and supports points with examples."
+   ]
+  },
+  {
+   "id": "we15",
+   "type": "we",
+   "level": 3,
+   "topic": "AI in high-stakes decisions",
+   "source": "authored",
+   "license": "",
+   "prompt": "Artificial intelligence is now able to assist with high-stakes decisions such as selecting job applicants, diagnosing illnesses and approving bank loans. What are the advantages and disadvantages of relying on artificial intelligence for such decisions? Do the benefits outweigh the risks?",
+   "key_points": [
+    "Answers both questions: the advantages and disadvantages of relying on AI for important decisions, and whether the benefits outweigh the risks.",
+    "Gives a clear overall judgement, for example that AI should support, not replace, human judgement.",
+    "Advantages: speed, ability to process large amounts of data, consistency, and lower costs.",
+    "Disadvantages: bias learned from past data, decisions that are hard to explain or challenge, privacy concerns, and unclear responsibility for mistakes.",
+    "Uses at least one of the named areas (hiring, medicine or loans) as a concrete example."
+   ]
+  }
+ ]
+}

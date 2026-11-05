@@ -1,0 +1,15 @@
+.env
+data/
+node_modules/
+dist/
+.astro/
+*.log
+logs/
+.stitch/designs/
+.stitch/font-source.css
+.playwright/
+test-results/
+playwright-report/
+.env.*
+!.env.example
+CONTEXT_SYNC.md

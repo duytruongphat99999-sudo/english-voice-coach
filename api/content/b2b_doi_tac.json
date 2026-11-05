@@ -1,0 +1,184 @@
+{
+  "id": "b2b_doi_tac",
+  "name_vi": "B2B — đối tác xuyên quốc gia",
+  "emoji": "🌏",
+  "track": "b2b",
+  "order": 15,
+  "vocab": [
+    {
+      "word": "lead time",
+      "ipa": "/ˈliːd taɪm/",
+      "meaning_vi": "thời gian chuẩn bị và giao hàng",
+      "example_en": "Our standard lead time is about four weeks after the deposit.",
+      "example_vi": "Thời gian giao hàng tiêu chuẩn của chúng tôi là khoảng bốn tuần sau khi đặt cọc."
+    },
+    {
+      "word": "MOQ",
+      "ipa": "/ˌem.oʊˈkjuː/",
+      "meaning_vi": "số lượng đặt hàng tối thiểu",
+      "example_en": "We can lower the MOQ if you order three different items.",
+      "example_vi": "Chúng tôi có thể giảm số lượng tối thiểu nếu anh đặt ba mặt hàng khác nhau. (MOQ = Minimum Order Quantity)",
+      "say_as": "M O Q"
+    },
+    {
+      "word": "exclusivity agreement",
+      "ipa": "/ˌek.skluːˈsɪv.ə.t̬i əˈɡriː.mənt/",
+      "meaning_vi": "thỏa thuận độc quyền",
+      "example_en": "They asked for an exclusivity agreement for the southern region.",
+      "example_vi": "Họ đã yêu cầu một thỏa thuận phân phối độc quyền cho khu vực phía nam."
+    },
+    {
+      "word": "customs clearance",
+      "ipa": "/ˈkʌs.təmz ˈklɪr.əns/",
+      "meaning_vi": "thông quan hải quan",
+      "example_en": "My team will handle the customs clearance at the border.",
+      "example_vi": "Đội của tôi sẽ lo thủ tục thông quan hải quan ở cửa khẩu."
+    },
+    {
+      "word": "unit price",
+      "ipa": "/ˈjuː.nɪt praɪs/",
+      "meaning_vi": "đơn giá",
+      "example_en": "What is your best unit price for a full container?",
+      "example_vi": "Giá đơn chiếc tốt nhất của anh cho một container đầy là bao nhiêu?"
+    },
+    {
+      "word": "trade show",
+      "ipa": "/ˈtreɪd ʃoʊ/",
+      "meaning_vi": "hội chợ thương mại, triển lãm",
+      "example_en": "It was great meeting you at the trade show last week.",
+      "example_vi": "Rất vui được gặp anh tại hội chợ thương mại tuần trước."
+    },
+    {
+      "word": "distributor",
+      "ipa": "/dɪˈstrɪb.jə.t̬ɚ/",
+      "meaning_vi": "nhà phân phối",
+      "example_en": "We are looking for an exclusive distributor in Vietnam.",
+      "example_vi": "Chúng tôi đang tìm kiếm một nhà phân phối độc quyền tại Việt Nam."
+    },
+    {
+      "word": "shipping terms",
+      "ipa": "/ˈʃɪp.ɪŋ tɝːmz/",
+      "meaning_vi": "điều khoản giao hàng",
+      "example_en": "Let's agree on the shipping terms before we sign.",
+      "example_vi": "Hãy thống nhất về các điều khoản giao hàng trước khi ký hợp đồng."
+    },
+    {
+      "word": "touch base",
+      "ipa": "/tʌtʃ beɪs/",
+      "meaning_vi": "liên lạc lại, trao đổi nhanh",
+      "example_en": "I wanted to touch base and see if you read my email.",
+      "example_vi": "Tôi muốn liên lạc lại để xem anh đã đọc email của tôi chưa."
+    },
+    {
+      "word": "trial order",
+      "ipa": "/ˈtraɪ.əl ˈɔːr.dɚ/",
+      "meaning_vi": "đơn hàng thử nghiệm",
+      "example_en": "We can start with a small trial order of one pallet.",
+      "example_vi": "Chúng tôi có thể bắt đầu với một đơn hàng thử nghiệm nhỏ khoảng một pallet."
+    },
+    {
+      "word": "price list",
+      "ipa": "/ˈpraɪs lɪst/",
+      "meaning_vi": "bảng giá",
+      "example_en": "I will send you our updated wholesale price list tomorrow.",
+      "example_vi": "Tôi sẽ gửi cho anh bảng giá bán buôn mới cập nhật vào ngày mai."
+    },
+    {
+      "word": "payment terms",
+      "ipa": "/ˈpeɪ.mənt tɝːmz/",
+      "meaning_vi": "điều khoản thanh toán",
+      "example_en": "Our payment terms are thirty percent deposit and seventy percent before shipping.",
+      "example_vi": "Điều khoản thanh toán của chúng tôi là đặt cọc ba mươi phần trăm và bảy mươi phần trăm trước khi giao hàng."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "We spoke at the trade show about your veterinary products.",
+      "vi": "Chúng ta đã nói chuyện tại hội chợ thương mại về các sản phẩm thú y của anh.",
+      "focus_vi": "Phát âm rõ âm cuối /t/ trong 'spoke' và 'about'."
+    },
+    {
+      "en": "Our standard lead time is exactly six weeks for this item.",
+      "vi": "Thời gian chuẩn bị hàng tiêu chuẩn của chúng tôi chính xác là sáu tuần cho mặt hàng này.",
+      "focus_vi": "Phát âm rõ âm đuôi /ks/ trong 'six' và 'weeks'."
+    },
+    {
+      "en": "The distributor wants exclusivity for the entire northern region.",
+      "vi": "Nhà phân phối muốn độc quyền cho toàn bộ khu vực phía bắc.",
+      "focus_vi": "Phát âm chuẩn từ 'exclusivity' /ˌek.skluːˈsɪv.ə.t̬i/."
+    },
+    {
+      "en": "Let's discuss the unit price and the minimum order quantity.",
+      "vi": "Hãy cùng thảo luận về đơn giá và số lượng đặt hàng tối thiểu.",
+      "focus_vi": "Phát âm đúng âm /s/ trong 'discuss' và 'price'."
+    },
+    {
+      "en": "I will send you the formal quote and shipping terms tonight.",
+      "vi": "Tôi sẽ gửi cho bạn báo giá chính thức và các điều khoản giao hàng tối nay.",
+      "focus_vi": "Chú ý âm cuối /ts/ trong 'terms' và /t/ trong 'night'."
+    },
+    {
+      "en": "Can we lower the MOQ for our first trial order?",
+      "vi": "Chúng tôi có thể hạ số lượng tối thiểu cho đơn hàng thử nghiệm đầu tiên không?",
+      "focus_vi": "Phát âm rõ âm /r/ trong 'first' và 'trial order'."
+    },
+    {
+      "en": "They need to clear customs before the weekend starts.",
+      "vi": "Họ cần thông quan hải quan trước khi cuối tuần bắt đầu.",
+      "focus_vi": "Phát âm đúng âm đuôi /z/ trong 'customs' và 'starts'."
+    },
+    {
+      "en": "I want to touch base and keep this relationship warm.",
+      "vi": "Tôi muốn liên lạc lại và giữ cho mối quan hệ này tiến triển tốt.",
+      "focus_vi": "Phát âm đúng âm /tʃ/ trong 'touch' và /sh/ trong 'relationship'."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Số lượng đặt hàng tối thiểu (MOQ) cho sản phẩm này là bao nhiêu?",
+      "en_ref": "What is the minimum order quantity for this product?",
+      "hint_en": "minimum order quantity"
+    },
+    {
+      "vi": "Tôi muốn liên lạc lại để thảo luận về báo giá tôi đã gửi tuần trước.",
+      "en_ref": "I wanted to touch base to discuss the quote I sent last week.",
+      "hint_en": "touch base"
+    },
+    {
+      "vi": "Nếu chúng tôi tăng số lượng, bạn có thể giảm đơn giá xuống không?",
+      "en_ref": "If we increase the quantity, can you lower the unit price?",
+      "hint_en": "unit price"
+    },
+    {
+      "vi": "Thời gian giao hàng thông thường cho một container là bao lâu?",
+      "en_ref": "How long is the typical lead time for a full container?",
+      "hint_en": "lead time"
+    },
+    {
+      "vi": "Chúng tôi rất vui được gặp bạn tại triển lãm thương mại ở Bangkok.",
+      "en_ref": "We were very glad to meet you at the trade show in Bangkok.",
+      "hint_en": "trade show"
+    },
+    {
+      "vi": "Bạn có thể gửi cho tôi bảng giá bán buôn mới nhất của các bạn không?",
+      "en_ref": "Could you send me your latest wholesale price list?",
+      "hint_en": "price list"
+    },
+    {
+      "vi": "Chúng tôi muốn xin quyền phân phối độc quyền tại thị trường Việt Nam.",
+      "en_ref": "We would like to ask for exclusivity in the Vietnamese market.",
+      "hint_en": "exclusivity"
+    },
+    {
+      "vi": "Hãy bắt đầu với một đơn hàng thử nghiệm nhỏ để kiểm tra thị trường.",
+      "en_ref": "Let's start with a small trial order to test the market.",
+      "hint_en": "trial order"
+    }
+  ],
+  "scenario": {
+    "role": "Purchasing Manager of a European distribution company",
+    "context": "You met this potential partner at a Bangkok trade fair last month. You are now on a follow-up call to discuss importing their veterinary supplements or skincare line, and you want to negotiate the MOQ and lead time.",
+    "opener_en": "Hi there! It was great meeting you at the Bangkok trade show. Have you had time to look at our requested order size?",
+    "opener_vi": "Xin chào! Rất vui được gặp anh tại hội chợ thương mại Bangkok. Anh đã có thời gian xem qua quy mô đơn hàng đề xuất của chúng tôi chưa?"
+  }
+}

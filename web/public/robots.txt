@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /$
+Disallow: /api/
+Disallow: /coach
+Disallow: /login.html
+Disallow: /fr
+Disallow: /pte
+Disallow: /review
+Disallow: /roadmap
+Disallow: /session
+Disallow: /lesson
+Disallow: /progress
+Disallow: /presentation
+Disallow: /shadowing
+Sitemap: https://english.duytruongphatco.com/sitemap.xml

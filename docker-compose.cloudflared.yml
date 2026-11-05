@@ -1,0 +1,75 @@
+# Cloudflare tunnel RIENG cho du an nay.
+#
+# Chay:  docker compose -f docker-compose.cloudflared.yml up -d
+#
+# Vi sao la file rieng, khong gop vao docker-compose.yml:
+#   - `docker compose up` cua stack chinh khong duoc dinh toi tunnel. Rebuild
+#     web ma lam dut tunnel la mat ca app trong luc dang hoc.
+#   - Muon tat tunnel (vd chi dung localhost mot thoi gian) thi tat rieng.
+#
+# Vi sao KHONG them ingress vao tunnel `intern-dtp` co san: tunnel do dang
+# phuc vu 3 hostname that. Sua no de them mot hostname hoc tieng Anh la dat
+# ca ba vao duong dan cua mot lan sai config.
+#
+# --- Duy phai bam gi (lam mot lan, tren dashboard, KHONG code) -------------
+#  1. Cloudflare Zero Trust -> Networks -> Tunnels -> Create a tunnel
+#     - Kieu: Cloudflared. Dat ten: `learningenglish`
+#     - Copy token no dua ra, dan vao .env:
+#         CF_TUNNEL_TOKEN_LEARNINGENGLISH=eyJ...
+#  2. Trong tunnel vua tao -> Public Hostname -> Add a public hostname
+#     - Subdomain: english      Domain: duytruongphatco.com
+#     - Service: HTTP  ->  localhost:4323
+#       (network_mode: host o duoi, nen `localhost` la chinh may nay)
+#  3. Chay:  docker compose -f docker-compose.cloudflared.yml up -d
+#     Kiem:  docker logs cloudflared-learningenglish | grep -i "Registered tunnel"
+#  4. Zero Trust -> Access -> Applications -> Add an application
+#     - Self-hosted, domain `english.duytruongphatco.com`
+#     - Public learning at / is intentionally open. Private pages and /api
+#       remain protected by nginx auth_request and the signed app cookie.
+#       Do not place an Access login in front of the entire hostname if the
+#       public free edition should be reachable by everyone.
+#  5. Mo tren dien thoai bang Chrome, cho phep mic MOT lan.
+#     Mic chi chay tren HTTPS; do la ly do bat buoc phai co tunnel.
+
+name: cloudflared-learningenglish
+
+services:
+  cloudflared-learningenglish:
+    # Pin ban so. `latest` co ngay tu nhay version giua hai lan `docker pull`
+    # ma khong ai biet.
+    image: cloudflare/cloudflared:2026.7.3
+    container_name: cloudflared-learningenglish
+    restart: unless-stopped
+
+    # host chu khong phai bridge: ingress tro toi localhost:4323, ma tren
+    # bridge thi `localhost` la chinh container nay va se 404.
+    network_mode: host
+
+    command: ["tunnel", "--no-autoupdate", "run"]
+
+    environment:
+      # Truyen qua env chu khong qua tham so dong lenh: dat o command thi
+      # `docker inspect` va danh sach tien trinh cua host deu doc duoc token.
+      TUNNEL_TOKEN: ${CF_TUNNEL_TOKEN_LEARNINGENGLISH:?can dat trong .env}
+
+      # ISP Viet Nam bop UDP 7844 va cloudflared khong tu tut ve http2 —
+      # no cu retry QUIC roi dang ky lai lien tuc. Ep http2 ngay tu dau.
+      # Kiem da an chua: log phai co dong `INF Initial protocol http2`.
+      TUNNEL_TRANSPORT_PROTOCOL: http2
+
+    # CO Y KHONG dung `env_file: .env`.
+    #
+    # env_file nhet TOAN BO .env vao container — ke ca GEMINI_API_KEY va
+    # TODAY_TOKEN, hai thu cloudflared khong viec gi phai biet. Te hon:
+    # cloudflared in ra log mot dong "Environmental variables map[...]" liet ke
+    # cac bien la; TUNNEL_TOKEN thi no che thanh *****, nhung
+    # CF_TUNNEL_TOKEN_LEARNINGENGLISH la ten no khong nhan ra nen no in NGUYEN
+    # VAN token ra `docker logs`.
+    #
+    # Dong ${...} o tren duoc compose thay bang gia tri NGAY LUC DOC FILE,
+    # doc .env o thu muc nay — khong can env_file thi container van co
+    # TUNNEL_TOKEN, va chi co dung mot bien do.
+
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }

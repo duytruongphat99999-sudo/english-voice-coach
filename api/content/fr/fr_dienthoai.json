@@ -1,0 +1,206 @@
+{
+ "id": "fr_dienthoai",
+ "order": 8,
+ "emoji": "📞",
+ "name_vi": "Điện thoại & chăm sóc khách hàng",
+ "vocab": [
+  {
+   "word": "le téléphone portable",
+   "gender": "m",
+   "ipa": "/lə telefɔn pɔʁtabl/",
+   "meaning_vi": "điện thoại di động",
+   "example_fr": "J'ai oublié mon téléphone portable à la maison.",
+   "example_vi": "Tôi để quên điện thoại ở nhà.",
+   "note_vi": "Ở Québec hay nói: le cellulaire. Ở đó 'un portable' thường là máy tính xách tay."
+  },
+  {
+   "word": "le forfait",
+   "gender": "m",
+   "ipa": "/lə fɔʁfɛ/",
+   "meaning_vi": "gói cước",
+   "example_fr": "Quel forfait est le moins cher ?",
+   "example_vi": "Gói cước nào rẻ nhất?",
+   "note_vi": "Chữ t cuối câm. Ở Québec cũng hay nghe: le plan."
+  },
+  {
+   "word": "la facture",
+   "gender": "f",
+   "ipa": "/la faktyʁ/",
+   "meaning_vi": "hóa đơn",
+   "example_fr": "Je n'ai pas reçu ma facture ce mois-ci.",
+   "example_vi": "Tháng này tôi chưa nhận được hóa đơn.",
+   "note_vi": "Giống cái; chữ u đọc /y/ (chu môi, lưỡi như i)."
+  },
+  {
+   "word": "le numéro",
+   "gender": "m",
+   "ipa": "/lə nymeʁo/",
+   "meaning_vi": "số (điện thoại)",
+   "example_fr": "Quel est votre numéro de téléphone ?",
+   "example_vi": "Số điện thoại của anh/chị là gì?",
+   "note_vi": "numéro de téléphone = số điện thoại."
+  },
+  {
+   "word": "appeler",
+   "gender": "",
+   "ipa": "/aple/",
+   "meaning_vi": "gọi điện",
+   "example_fr": "Je vous appelle pour ma facture.",
+   "example_vi": "Tôi gọi cho anh/chị về hóa đơn của tôi.",
+   "note_vi": "j'appelle viết hai chữ l, nhưng nous appelons chỉ một chữ l."
+  },
+  {
+   "word": "rappeler",
+   "gender": "",
+   "ipa": "/ʁaple/",
+   "meaning_vi": "gọi lại",
+   "example_fr": "Je vous rappelle dans cinq minutes.",
+   "example_vi": "Năm phút nữa tôi gọi lại cho anh/chị.",
+   "note_vi": "re- nghĩa là 'lại': appeler (gọi) → rappeler (gọi lại)."
+  },
+  {
+   "word": "laisser un message",
+   "gender": "",
+   "ipa": "/lese œ̃ mesaʒ/",
+   "meaning_vi": "để lại lời nhắn",
+   "example_fr": "Vous pouvez laisser un message après le bip.",
+   "example_vi": "Anh/chị có thể để lại lời nhắn sau tiếng bíp.",
+   "note_vi": "message đọc /mesaʒ/, không đọc như tiếng Anh."
+  },
+  {
+   "word": "ne quittez pas",
+   "gender": "",
+   "ipa": "/nə kite pa/",
+   "meaning_vi": "xin giữ máy",
+   "example_fr": "Ne quittez pas, je vérifie votre compte.",
+   "example_vi": "Xin giữ máy, tôi kiểm tra tài khoản của anh/chị.",
+   "note_vi": "Nghĩa đen là 'đừng rời đi'; trên điện thoại nghĩa là xin giữ máy."
+  },
+  {
+   "word": "le service à la clientèle",
+   "gender": "m",
+   "ipa": "/lə sɛʁvis a la klijɑ̃tɛl/",
+   "meaning_vi": "bộ phận chăm sóc khách hàng",
+   "example_fr": "J'appelle le service à la clientèle.",
+   "example_vi": "Tôi gọi cho bộ phận chăm sóc khách hàng.",
+   "note_vi": "Ở Pháp hay nói gọn: le service client."
+  },
+  {
+   "word": "la connexion",
+   "gender": "f",
+   "ipa": "/la kɔnɛksjɔ̃/",
+   "meaning_vi": "kết nối (mạng)",
+   "example_fr": "Ma connexion Internet est très lente.",
+   "example_vi": "Mạng internet nhà tôi chậm quá.",
+   "note_vi": "Giống cái; x đọc /ks/, viết hai chữ n."
+  },
+  {
+   "word": "épeler",
+   "gender": "",
+   "ipa": "/eple/",
+   "meaning_vi": "đánh vần",
+   "example_fr": "Pouvez-vous épeler votre prénom, s'il vous plaît ?",
+   "example_vi": "Anh/chị đánh vần tên của mình giúp tôi nhé.",
+   "note_vi": "Nên tập trước cách đánh vần tên mình bằng chữ cái Pháp."
+  },
+  {
+   "word": "la panne",
+   "gender": "f",
+   "ipa": "/la pan/",
+   "meaning_vi": "sự cố, hỏng hóc",
+   "example_fr": "Il y a une panne d'Internet dans tout le quartier.",
+   "example_vi": "Cả khu phố đang bị mất mạng.",
+   "note_vi": "Giống cái. être en panne = bị hỏng, không chạy; une panne de courant = mất điện."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Je voudrais changer de forfait, s'il vous plaît.",
+   "vi": "Tôi muốn đổi gói cước ạ.",
+   "focus_vi": "'forfait' đọc /fɔʁfɛ/: chữ t cuối câm, 'ai' đọc như 'e' mở."
+  },
+  {
+   "fr": "Pouvez-vous me rappeler cet après-midi ?",
+   "vi": "Chiều nay anh/chị gọi lại cho tôi được không?",
+   "focus_vi": "'rappeler' chỉ có hai âm tiết /ʁaple/: chữ e ở giữa câm, không đọc 'ra-pơ-lê'."
+  },
+  {
+   "fr": "Vous pouvez répéter votre numéro, s'il vous plaît ?",
+   "vi": "Anh/chị đọc lại số điện thoại giúp tôi được không?",
+   "focus_vi": "'numéro' có u /y/ (chu môi, lưỡi như i), khác 'vous' có ou /u/ (giống u tiếng Việt)."
+  },
+  {
+   "fr": "Ma connexion Internet ne marche pas.",
+   "vi": "Mạng internet nhà tôi không vào được.",
+   "focus_vi": "Chữ r trong 'marche' đọc ở cuối họng, như 'gh' nhẹ; không rung lưỡi và không bỏ đi."
+  },
+  {
+   "fr": "Ne quittez pas, un agent va vous répondre.",
+   "vi": "Xin giữ máy, sẽ có nhân viên trả lời anh/chị.",
+   "focus_vi": "Nối âm 'un agent': chữ n của 'un' nối sang 'agent' thành /œ̃naʒɑ̃/."
+  },
+  {
+   "fr": "Mon téléphone portable est en panne.",
+   "vi": "Điện thoại di động của tôi bị hỏng rồi.",
+   "focus_vi": "'en' là âm mũi /ɑ̃/, nhưng 'panne' (hai chữ n) đọc /pan/: a thường rồi n, không phải âm mũi."
+  },
+  {
+   "fr": "Ma facture de téléphone est très chère.",
+   "vi": "Hóa đơn điện thoại của tôi đắt quá.",
+   "focus_vi": "'é' trong 'téléphone' đọc /e/ (miệng hẹp, như ê); 'è' trong 'très' và 'chère' đọc /ɛ/ (miệng mở, như e)."
+  },
+  {
+   "fr": "Pouvez-vous épeler votre nom de famille ?",
+   "vi": "Anh/chị đánh vần họ của mình được không?",
+   "focus_vi": "'famille' đọc /famij/: 'ille' đọc là i rồi lướt nhẹ thành âm /j/, không đọc chữ l."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Mạng nhà tôi mất từ tối qua rồi.",
+   "fr_ref": "Internet est en panne depuis hier soir.",
+   "hint_fr": "la panne"
+  },
+  {
+   "vi": "Tôi muốn đổi sang gói cước rẻ hơn.",
+   "fr_ref": "Je voudrais un forfait moins cher.",
+   "hint_fr": "le forfait"
+  },
+  {
+   "vi": "Sao tháng này hóa đơn cao vậy?",
+   "fr_ref": "Pourquoi est-ce que ma facture est si chère ce mois-ci ?",
+   "hint_fr": "la facture"
+  },
+  {
+   "vi": "Lát nữa anh gọi lại cho tôi được không?",
+   "fr_ref": "Vous pouvez me rappeler plus tard ?",
+   "hint_fr": "rappeler"
+  },
+  {
+   "vi": "Cho tôi nói chuyện với bộ phận chăm sóc khách hàng.",
+   "fr_ref": "Je voudrais parler au service à la clientèle.",
+   "hint_fr": "le service à la clientèle"
+  },
+  {
+   "vi": "Để tôi đánh vần tên cho anh nghe.",
+   "fr_ref": "Je vais épeler mon nom.",
+   "hint_fr": "épeler"
+  },
+  {
+   "vi": "Tôi để lại lời nhắn được không?",
+   "fr_ref": "Est-ce que je peux laisser un message ?",
+   "hint_fr": "laisser un message"
+  },
+  {
+   "vi": "Tôi mới đổi số điện thoại.",
+   "fr_ref": "J'ai un nouveau numéro de téléphone.",
+   "hint_fr": "le numéro"
+  }
+ ],
+ "scenario": {
+  "role": "A customer service agent at a phone and internet company, answering an incoming call.",
+  "context": "The learner calls because his home internet has not worked since yesterday and his last bill looks too high. Ask for his name and ask him to spell it, ask for his phone number, then ask what the problem is. Say 'ne quittez pas' when you check something, and offer to call him back or send a technician. Do not quote real prices or real company names. Speak slow, simple A1 French, always use 'vous', one short question at a time.",
+  "opener_fr": "Service à la clientèle, bonjour ! Comment est-ce que je peux vous aider ?",
+  "opener_vi": "Bộ phận chăm sóc khách hàng xin chào! Tôi có thể giúp gì cho anh/chị?"
+ }
+}

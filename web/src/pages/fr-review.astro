@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import FrReview from '../islands/FrReview';
+---
+
+<!--
+  Tieng Phap on bang GO lai tu (Duy chot 12/09), khong dung ReviewDeck (noi,
+  may nghe cham) — may nghe tieng Phap kem voi giong nguoi moi hoc, de no
+  cham la lich on sai. ReviewDeck van nguyen cho tieng Anh.
+-->
+<Base title="Ôn từ · Tiếng Pháp" bare lang="fr">
+  <FrReview client:only="preact" />
+</Base>

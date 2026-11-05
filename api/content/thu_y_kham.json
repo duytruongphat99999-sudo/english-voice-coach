@@ -1,0 +1,183 @@
+{
+  "id": "thu_y_kham",
+  "name_vi": "Thú y — khám & tư vấn chủ nuôi",
+  "emoji": "🐕",
+  "track": "vet",
+  "order": 13,
+  "vocab": [
+    {
+      "word": "stool",
+      "ipa": "/stuːl/",
+      "meaning_vi": "phân (của thú nuôi)",
+      "example_en": "Has his stool been loose or normal today?",
+      "example_vi": "Hôm nay phân của nó bị lỏng hay bình thường vậy bạn?"
+    },
+    {
+      "word": "appetite",
+      "ipa": "/ˈæp.ə.taɪt/",
+      "meaning_vi": "sự thèm ăn, sức ăn",
+      "example_en": "She lost her appetite after we changed her dry food.",
+      "example_vi": "Nó bị biếng ăn sau khi chúng tôi đổi hạt khô."
+    },
+    {
+      "word": "lethargic",
+      "ipa": "/ləˈθɑːr.dʒɪk/",
+      "meaning_vi": "lờ đờ, mệt mỏi thiếu sức sống",
+      "example_en": "He is very lethargic and just sleeps on the rug.",
+      "example_vi": "Nó lờ đờ lắm, cứ nằm ngủ suốt trên thảm thôi."
+    },
+    {
+      "word": "throw up",
+      "ipa": "/θroʊ ʌp/",
+      "meaning_vi": "nôn mửa",
+      "example_en": "Did your puppy throw up any of his breakfast?",
+      "example_vi": "Cún con của bạn có bị nôn tí đồ ăn sáng nào ra không?"
+    },
+    {
+      "word": "dehydrated",
+      "ipa": "/diːˈhaɪ.dreɪ.t̬ɪd/",
+      "meaning_vi": "bị mất nước",
+      "example_en": "Her gums feel dry, which means she is slightly dehydrated.",
+      "example_vi": "Nướu của nó hơi khô, nghĩa là nó đang bị mất nước nhẹ."
+    },
+    {
+      "word": "tender",
+      "ipa": "/ˈten.dɚ/",
+      "meaning_vi": "nhạy cảm, bị đau khi chạm vào",
+      "example_en": "His belly is very tender when I press here.",
+      "example_vi": "Bụng của nó rất đau khi tôi ấn vào chỗ này."
+    },
+    {
+      "word": "bland diet",
+      "ipa": "/blænd ˈdaɪ.ət/",
+      "meaning_vi": "chế độ ăn thanh đạm (dễ tiêu hóa)",
+      "example_en": "Keep him on a bland diet of boiled chicken and rice.",
+      "example_vi": "Hãy cho nó ăn chế độ thanh đạm với ức gà luộc và cơm."
+    },
+    {
+      "word": "runny",
+      "ipa": "/ˈrʌn.i/",
+      "meaning_vi": "lỏng, chảy nước (mũi/phân)",
+      "example_en": "We need to check why her stool is so runny.",
+      "example_vi": "Chúng ta cần kiểm tra xem tại sao phân của nó lại lỏng như thế."
+    },
+    {
+      "word": "parasite treatment",
+      "ipa": "/ˈper.ə.saɪt ˈtriːt.mənt/",
+      "meaning_vi": "điều trị ký sinh trùng (giun, sán)",
+      "example_en": "When was the last time he had a parasite treatment?",
+      "example_vi": "Lần gần nhất nó được điều trị ký sinh trùng là khi nào?"
+    },
+    {
+      "word": "scratch",
+      "ipa": "/skrætʃ/",
+      "meaning_vi": "gãi, cào",
+      "example_en": "Does he scratch his ears more than usual?",
+      "example_vi": "Nó có gãi tai nhiều hơn bình thường không?"
+    },
+    {
+      "word": "under the weather",
+      "ipa": "/ˈʌn.dɚ ðə ˈweð.ɚ/",
+      "meaning_vi": "mệt mỏi, không khỏe",
+      "example_en": "My cat seems a bit under the weather today.",
+      "example_vi": "Hôm nay chú mèo của tôi trông có vẻ hơi mệt mỏi."
+    },
+    {
+      "word": "booster shot",
+      "ipa": "/ˈbuː.stɚ ʃɑːt/",
+      "meaning_vi": "mũi tiêm nhắc lại",
+      "example_en": "Your dog is due for his annual booster shot next week.",
+      "example_vi": "Tuần tới chú chó của bạn đến lịch tiêm mũi nhắc lại hàng năm."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The small dog scratched its ears and refused to eat its food.",
+      "vi": "Chú chó nhỏ gãi tai và từ chối ăn thức ăn của mình.",
+      "focus_vi": "Phát âm đuôi âm /t/ trong scratched và đuôi /s/ trong ears."
+    },
+    {
+      "en": "His stool was very runny and had a strong, bad smell.",
+      "vi": "Phân của nó rất lỏng và có mùi rất hôi.",
+      "focus_vi": "Phát âm rõ âm cuối /l/ trong stool và âm /st/ trong strong."
+    },
+    {
+      "en": "She seems lethargic and just sleeps on the cold kitchen floor.",
+      "vi": "Nó trông có vẻ lờ đờ và chỉ nằm ngủ trên sàn bếp lạnh.",
+      "focus_vi": "Phát âm đúng âm /θ/ trong lethargic và đuôi /ps/ trong sleeps."
+    },
+    {
+      "en": "Please check if your puppy throws up after drinking water.",
+      "vi": "Vui lòng kiểm tra xem cún con của bạn có bị nôn sau khi uống nước không.",
+      "focus_vi": "Phát âm rõ cụm phụ âm /pl/ trong please và /θr/ trong throws."
+    },
+    {
+      "en": "I need to feel his stomach to see if it is tender.",
+      "vi": "Tôi cần sờ bụng của nó để xem nó có bị đau hay không.",
+      "focus_vi": "Phát âm đúng âm /st/ và đuôi /k/ trong stomach."
+    },
+    {
+      "en": "We must treat the parasites before giving the next booster shot.",
+      "vi": "Chúng ta phải điều trị ký sinh trùng trước khi tiêm mũi nhắc lại tiếp theo.",
+      "focus_vi": "Phát âm rõ âm đuôi /ts/ trong parasites và /t/ trong shot."
+    },
+    {
+      "en": "Keep the sick cat in a quiet room with fresh water.",
+      "vi": "Hãy giữ chú mèo bị bệnh trong một căn phòng yên tĩnh có nước sạch.",
+      "focus_vi": "Phát âm rõ âm cuối /k/ trong sick và /t/ trong quiet."
+    },
+    {
+      "en": "The vet prescribed a bland diet for his sensitive stomach.",
+      "vi": "Bác sĩ thú y đã kê một chế độ ăn thanh đạm cho cái bụng nhạy cảm của nó.",
+      "focus_vi": "Phát âm đuôi /vd/ trong prescribed và /nd/ trong bland."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Triệu chứng này bắt đầu từ khi nào vậy bạn?",
+      "en_ref": "When did these symptoms start?",
+      "hint_en": "symptoms start"
+    },
+    {
+      "vi": "Mấy ngày nay nó có ăn uống được gì không?",
+      "en_ref": "How has his appetite been these past few days?",
+      "hint_en": "appetite been"
+    },
+    {
+      "vi": "Tôi sẽ sờ bụng để xem nó có bị đau không nhé.",
+      "en_ref": "I am going to feel her belly to see if it is tender.",
+      "hint_en": "tender"
+    },
+    {
+      "vi": "Nó có hay gãi hoặc liếm chân không?",
+      "en_ref": "Does she scratch or lick her paws a lot?",
+      "hint_en": "scratch or lick"
+    },
+    {
+      "vi": "Đừng cho nó ăn gì khác ngoài thịt gà luộc và cơm trắng.",
+      "en_ref": "Do not feed him anything except boiled chicken and white rice.",
+      "hint_en": "boiled chicken"
+    },
+    {
+      "vi": "Tôi nghĩ nó chỉ bị rối loạn tiêu hóa nhẹ thôi.",
+      "en_ref": "I think she just has a mild stomach upset.",
+      "hint_en": "mild stomach upset"
+    },
+    {
+      "vi": "Bạn có nhận thấy bất kỳ sự thay đổi hành vi nào gần đây không?",
+      "en_ref": "Have you noticed any behavior changes recently?",
+      "hint_en": "behavior changes"
+    },
+    {
+      "vi": "Hãy mang mẫu phân của nó đến đây vào sáng mai nhé.",
+      "en_ref": "Please bring a sample of his stool tomorrow morning.",
+      "hint_en": "stool sample"
+    }
+  ],
+  "scenario": {
+    "role": "An anxious pet owner",
+    "context": "You are a veterinarian at your clinic. A client walks in with a golden retriever puppy that looks very tired. You need to ask about the puppy's symptoms, appetite, and stool to find out what is wrong.",
+    "opener_en": "Hello doctor, my puppy Max has been so quiet today and he did not touch his breakfast. Can you please check what is wrong with him?",
+    "opener_vi": "Chào bác sĩ, hôm nay chú cún Max nhà tôi cứ lờ đờ và không chạm vào đồ ăn sáng luôn. Bác sĩ kiểm tra xem nó bị làm sao giúp tôi với?"
+  }
+}

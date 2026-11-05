@@ -1,0 +1,185 @@
+{
+  "id": "b2b_xnk",
+  "name_vi": "B2B — xuất nhập khẩu, thanh toán",
+  "emoji": "📦",
+  "track": "b2b",
+  "order": 16,
+  "vocab": [
+    {
+      "word": "customs clearance",
+      "ipa": "/ˈkʌs.təmz ˈklɪr.əns/",
+      "meaning_vi": "thông quan hải quan",
+      "example_en": "The veterinary drugs are still stuck in customs clearance at the port.",
+      "example_vi": "Lô thuốc thú y vẫn đang bị kẹt khi làm thủ tục thông quan ở cảng."
+    },
+    {
+      "word": "packing list",
+      "ipa": "/ˈpæk.ɪŋ lɪst/",
+      "meaning_vi": "phiếu đóng gói chi tiết",
+      "example_en": "Please check if the total weight on the packing list matches the invoice.",
+      "example_vi": "Vui lòng kiểm tra xem tổng trọng lượng trên phiếu đóng gói có khớp với hóa đơn không."
+    },
+    {
+      "word": "health certificate",
+      "ipa": "/helθ sɚˈtɪf.ə.kət/",
+      "meaning_vi": "giấy chứng nhận kiểm dịch / y tế",
+      "example_en": "We need an official health certificate before importing this batch of animal feed.",
+      "example_vi": "Chúng ta cần có giấy chứng nhận kiểm dịch chính thức trước khi nhập lô thức ăn chăn nuôi này."
+    },
+    {
+      "word": "certificate of origin",
+      "ipa": "/sɚˈtɪf.ə.kət əv ˈɔːr.ə.dʒɪn/",
+      "meaning_vi": "giấy chứng nhận xuất xứ (C/O)",
+      "example_en": "The customs officer rejected our certificate of origin because of a typo.",
+      "example_vi": "Nhân viên hải quan đã bác bỏ giấy chứng nhận xuất xứ của chúng tôi vì một lỗi chính tả."
+    },
+    {
+      "word": "telegraphic transfer",
+      "ipa": "/ˌtel.əˈɡræf.ɪk ˈtræns.fɝː/",
+      "meaning_vi": "chuyển tiền điện tín (T/T)",
+      "example_en": "We always pay a thirty percent deposit by telegraphic transfer before production.",
+      "example_vi": "Chúng tôi luôn thanh toán ba mươi phần trăm tiền đặt cọc bằng chuyển khoản T/T trước khi sản xuất."
+    },
+    {
+      "word": "letter of credit",
+      "ipa": "/ˈlet.ɚ əv ˈkred.ɪt/",
+      "meaning_vi": "thư tín dụng (L/C)",
+      "example_en": "The bank is taking too long to open the letter of credit.",
+      "example_vi": "Ngân hàng đang mất quá nhiều thời gian để mở thư tín dụng L/C."
+    },
+    {
+      "word": "shipping line",
+      "ipa": "/ˈʃɪp.ɪŋ laɪn/",
+      "meaning_vi": "hãng tàu",
+      "example_en": "The shipping line just announced a two-week delay due to port congestion.",
+      "example_vi": "Hãng tàu vừa thông báo hoãn hai tuần do tắc nghẽn cảng."
+    },
+    {
+      "word": "file a claim",
+      "ipa": "/faɪl ə kleɪm/",
+      "meaning_vi": "nộp đơn khiếu nại (đòi bồi thường)",
+      "example_en": "We must file a claim because half of the skin creams arrived damaged.",
+      "example_vi": "Chúng tôi phải nộp đơn khiếu nại vì một nửa số kem dưỡng da đã bị hư hỏng khi đến nơi."
+    },
+    {
+      "word": "FOB",
+      "ipa": "/ˌef.oʊˈbiː/",
+      "meaning_vi": "giao hàng lên tàu (người bán lo đến mạn tàu)",
+      "example_en": "Our standard price is FOB Ho Chi Minh City port, not CIF.",
+      "example_vi": "Giá tiêu chuẩn của chúng tôi là FOB cảng Thành phố Hồ Chí Minh, không phải CIF.",
+      "say_as": "F O B"
+    },
+    {
+      "word": "CIF",
+      "ipa": "/ˌsiː.aɪˈef/",
+      "meaning_vi": "tiền hàng, bảo hiểm và cước phí (người bán lo đến cảng đến)",
+      "example_en": "If we buy CIF, the seller must arrange the sea freight insurance.",
+      "example_vi": "Nếu chúng ta mua CIF, người bán phải lo bảo hiểm vận chuyển đường biển.",
+      "say_as": "C I F"
+    },
+    {
+      "word": "port of discharge",
+      "ipa": "/pɔːrt əv ˈdɪs.tʃɑːrdʒ/",
+      "meaning_vi": "cảng dỡ hàng",
+      "example_en": "Make sure the port of discharge is correctly written on the bill of lading.",
+      "example_vi": "Hãy đảm bảo cảng dỡ hàng được viết chính xác trên vận đơn."
+    },
+    {
+      "word": "demurrage",
+      "ipa": "/dɪˈmɝː.ɪdʒ/",
+      "meaning_vi": "phí lưu container tại cảng (quá hạn)",
+      "example_en": "We had to pay heavy demurrage charges because of the paperwork delay.",
+      "example_vi": "Chúng tôi đã phải trả phí lưu bãi rất nặng vì sự chậm trễ của giấy tờ."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The shipping lines constantly raise their rates during the peak holiday season.",
+      "vi": "Các hãng tàu liên tục tăng giá cước trong mùa lễ cao điểm.",
+      "focus_vi": "Phát âm đuôi số nhiều /z/ trong từ \"lines\" và \"rates\"."
+    },
+    {
+      "en": "Please send the health certificate and the packing list as soon as possible.",
+      "vi": "Vui lòng gửi giấy chứng nhận kiểm dịch và phiếu đóng gói càng sớm càng tốt.",
+      "focus_vi": "Phát âm rõ âm cuối /t/ trong \"certificate\" và \"list\"."
+    },
+    {
+      "en": "The customs officers refused to clear the shipment of medical supplies yesterday.",
+      "vi": "Các nhân viên hải quan đã từ chối thông quan lô hàng thiết bị y tế vào ngày hôm qua.",
+      "focus_vi": "Phát âm đuôi /-d/ của động từ quá khứ \"refused\"."
+    },
+    {
+      "en": "We strictly require a signed and stamped certificate of origin for this batch.",
+      "vi": "Chúng tôi yêu cầu nghiêm ngặt giấy chứng nhận xuất xứ có ký tên và đóng dấu cho lô hàng này.",
+      "focus_vi": "Phát âm cụm phụ âm /str/ trong từ \"strictly\"."
+    },
+    {
+      "en": "Three damaged containers were left at the crowded port of discharge.",
+      "vi": "Ba container bị hư hỏng đã bị bỏ lại tại cảng dỡ hàng đông đúc.",
+      "focus_vi": "Phát âm âm /θ/ trong \"three\" và âm cuối /t/ trong \"left\"."
+    },
+    {
+      "en": "They will transfer the remaining balance only after they check the goods.",
+      "vi": "Họ sẽ chỉ chuyển phần số dư còn lại sau khi họ kiểm tra hàng hóa.",
+      "focus_vi": "Phát âm âm /l/ và /r/ chuẩn xác trong \"transfer\" và \"remaining\"."
+    },
+    {
+      "en": "The bank rejects the letter of credit if there is one spelling mistake.",
+      "vi": "Ngân hàng sẽ từ chối thư tín dụng nếu có một lỗi chính tả.",
+      "focus_vi": "Phát âm đuôi /ts/ trong từ \"rejects\"."
+    },
+    {
+      "en": "We must file a claim against the carrier for these broken bottles.",
+      "vi": "Chúng tôi phải nộp đơn khiếu nại hãng vận chuyển về những chiếc chai bị vỡ này.",
+      "focus_vi": "Phát âm đuôi /z/ trong từ \"bottles\" và âm /cl/ trong \"claim\"."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Chúng tôi cần nhận được tiền đặt cọc bằng chuyển khoản T/T trước khi xếp hàng lên container.",
+      "en_ref": "We need to receive the T/T deposit before loading the container.",
+      "hint_en": "T/T deposit, loading"
+    },
+    {
+      "vi": "Nếu có bất kỳ sự chậm trễ nào tại cảng, chúng tôi sẽ phải trả phí phạt lưu container.",
+      "en_ref": "If there is any delay at the port, we will have to pay demurrage.",
+      "hint_en": "delay, demurrage"
+    },
+    {
+      "vi": "Vui lòng sửa lại tên người nhận hàng trên vận đơn cho khớp với hóa đơn.",
+      "en_ref": "Please correct the consignee name on the bill of lading to match the invoice.",
+      "hint_en": "consignee, bill of lading"
+    },
+    {
+      "vi": "Hải quan yêu cầu bản gốc của giấy chứng nhận kiểm dịch động vật.",
+      "en_ref": "Customs requires the original animal health certificate.",
+      "hint_en": "original health certificate"
+    },
+    {
+      "vi": "Giá này là FOB cảng Cát Lái hay CIF cảng Sydney?",
+      "en_ref": "Is this price FOB Cat Lai port or CIF Sydney port?",
+      "hint_en": "FOB, CIF"
+    },
+    {
+      "vi": "Chúng tôi đang chuẩn bị hồ sơ để nộp đơn khiếu nại bảo hiểm cho lô hàng bị hỏng.",
+      "en_ref": "We are preparing the documents to file an insurance claim for the damaged shipment.",
+      "hint_en": "file an insurance claim"
+    },
+    {
+      "vi": "Ngân hàng của bạn đã mở thư tín dụng L/C cho đơn hàng này chưa?",
+      "en_ref": "Has your bank opened the L/C for this order yet?",
+      "hint_en": "opened the L/C"
+    },
+    {
+      "vi": "Thiếu phiếu đóng gói nên chúng tôi không thể thông quan được.",
+      "en_ref": "The packing list is missing, so we cannot clear customs.",
+      "hint_en": "packing list, clear customs"
+    }
+  ],
+  "scenario": {
+    "role": "An overseas supplier from Australia",
+    "context": "You are discussing a new import batch of medical-grade skincare creams and veterinary supplements. The shipment is currently being prepared, but there is a dispute about who handles the sea freight and the required certificates.",
+    "opener_en": "Hi there! We are finalizing the packing list for your order today. Are we shipping this under FOB or CIF terms?",
+    "opener_vi": "Xin chào! Hôm nay chúng tôi đang hoàn tất phiếu đóng gói cho đơn hàng của bạn. Chúng ta sẽ giao hàng theo điều kiện FOB hay CIF đây?"
+  }
+}

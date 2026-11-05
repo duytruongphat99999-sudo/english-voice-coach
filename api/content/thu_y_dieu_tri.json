@@ -1,0 +1,183 @@
+{
+  "id": "thu_y_dieu_tri",
+  "name_vi": "Thú y — bệnh lý & điều trị",
+  "emoji": "💉",
+  "track": "vet",
+  "order": 14,
+  "vocab": [
+    {
+      "word": "worming schedule",
+      "ipa": "/ˈwɝː.mɪŋ ˈskedʒ.uːl/",
+      "meaning_vi": "lịch tẩy giun",
+      "example_en": "We need to set up a strict worming schedule for your new puppy.",
+      "example_vi": "Chúng ta cần lập một lịch tẩy giun nghiêm ngặt cho chú chó con mới của bạn."
+    },
+    {
+      "word": "side effects",
+      "ipa": "/ˈsaɪd ɪˈfekts/",
+      "meaning_vi": "tác dụng phụ",
+      "example_en": "Some dogs feel a little sleepy as side effects of the vaccine.",
+      "example_vi": "Một số chú chó cảm thấy hơi buồn ngủ như là tác dụng phụ của vắc-xin."
+    },
+    {
+      "word": "booster shot",
+      "ipa": "/ˈbuː.stɚ ʃɑːt/",
+      "meaning_vi": "mũi tiêm nhắc lại",
+      "example_en": "Your cat needs a booster shot in three weeks to stay protected.",
+      "example_vi": "Mèo của bạn cần tiêm một mũi nhắc lại trong ba tuần nữa để được bảo vệ."
+    },
+    {
+      "word": "under anesthesia",
+      "ipa": "/ˈʌn.dɚ ˌæn.əsˈθiː.ʒə/",
+      "meaning_vi": "gây mê / dưới tác dụng của thuốc mê",
+      "example_en": "We will monitor his breathing closely while he is under anesthesia.",
+      "example_vi": "Chúng tôi sẽ theo dõi sát sao nhịp thở của nó trong khi nó đang được gây mê."
+    },
+    {
+      "word": "prescribe",
+      "ipa": "/prɪˈskraɪb/",
+      "meaning_vi": "kê đơn thuốc",
+      "example_en": "I will prescribe some mild painkillers for her recovery at home.",
+      "example_vi": "Tôi sẽ kê đơn một số thuốc giảm đau nhẹ để nó phục hồi tại nhà."
+    },
+    {
+      "word": "dosage",
+      "ipa": "/ˈdoʊ.sɪdʒ/",
+      "meaning_vi": "liều lượng",
+      "example_en": "Make sure you do not double the dosage if you miss a pill.",
+      "example_vi": "Hãy chắc chắn rằng bạn không tăng gấp đôi liều lượng nếu lỡ quên một viên."
+    },
+    {
+      "word": "ear mites",
+      "ipa": "/ɪr maɪts/",
+      "meaning_vi": "rận tai / ve tai",
+      "example_en": "These black spots in your cat's ears are actually ear mites.",
+      "example_vi": "Những đốm đen trong tai mèo của bạn thực chất là rận tai."
+    },
+    {
+      "word": "follow-up visit",
+      "ipa": "/ˈfɑːl.oʊ.ʌp ˈvɪz.ɪt/",
+      "meaning_vi": "tái khám",
+      "example_en": "Let's book a follow-up visit next Tuesday to check the stitches.",
+      "example_vi": "Hãy đặt lịch tái khám vào thứ Ba tới để kiểm tra các vết khâu."
+    },
+    {
+      "word": "risk factors",
+      "ipa": "/rɪsk ˈfæk.tɚz/",
+      "meaning_vi": "yếu tố rủi ro",
+      "example_en": "Age and weight are the main risk factors for this surgery.",
+      "example_vi": "Tuổi tác và cân nặng là những yếu tố rủi ro chính cho ca phẫu thuật này."
+    },
+    {
+      "word": "cost estimate",
+      "ipa": "/kɑːst ˈes.tə.mət/",
+      "meaning_vi": "bảng ước tính chi phí",
+      "example_en": "I can print out a detailed cost estimate for the blood tests.",
+      "example_vi": "Tôi có thể in ra bản ước tính chi phí chi tiết cho các xét nghiệm máu."
+    },
+    {
+      "word": "empty stomach",
+      "ipa": "/ˈemp.ti ˈstʌm.ək/",
+      "meaning_vi": "bụng rỗng / nhịn ăn",
+      "example_en": "Please bring your dog in on an empty stomach tomorrow morning.",
+      "example_vi": "Vui lòng dắt chó của bạn đến với cái bụng rỗng vào sáng mai."
+    },
+    {
+      "word": "skin irritation",
+      "ipa": "/skɪn ˌɪr.əˈteɪ.ʃən/",
+      "meaning_vi": "kích ứng da",
+      "example_en": "This shampoo helps soothe the skin irritation caused by fleas.",
+      "example_vi": "Dầu gội này giúp làm dịu vết kích ứng da do bọ chét gây ra."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The vet explained the risks of the surgery to the stressed owner.",
+      "vi": "Bác sĩ thú y đã giải thích các rủi ro của ca phẫu thuật cho người chủ đang lo lắng.",
+      "focus_vi": "Phát âm rõ đuôi -ed trong 'explained' và âm cuối trong 'risks'"
+    },
+    {
+      "en": "Puppies need three booster shots to build strong immunity against diseases.",
+      "vi": "Chó con cần ba mũi tiêm nhắc lại để xây dựng khả năng miễn dịch mạnh mẽ chống lại bệnh tật.",
+      "focus_vi": "Phát âm rõ đuôi số nhiều -s trong 'Puppies', 'shots', và 'diseases'"
+    },
+    {
+      "en": "We must check his heart before putting him under anesthesia today.",
+      "vi": "Chúng ta phải kiểm tra tim của nó trước khi cho nó gây mê hôm nay.",
+      "focus_vi": "Chú ý âm /θ/ trong từ 'anesthesia'"
+    },
+    {
+      "en": "This specific dosage is safe for small cats but not dogs.",
+      "vi": "Liều lượng cụ thể này thì an toàn cho mèo nhỏ chứ không phải chó.",
+      "focus_vi": "Phát âm rõ âm cuối /dʒ/ trong từ 'dosage'"
+    },
+    {
+      "en": "Please keep the stitches dry until the next follow-up visit.",
+      "vi": "Vui lòng giữ cho các vết khâu khô ráo cho đến buổi tái khám tiếp theo.",
+      "focus_vi": "Cụm phụ âm /str/ trong 'stitches' và đuôi -s"
+    },
+    {
+      "en": "There is a small risk of mild skin irritation after vaccination.",
+      "vi": "Có một rủi ro nhỏ bị kích ứng da nhẹ sau khi tiêm vắc-xin.",
+      "focus_vi": "Phát âm rõ âm cuối /sk/ trong 'risk' và /t/ trong 'irritation'"
+    },
+    {
+      "en": "He prescribes pills to treat the severe ear mite infection quickly.",
+      "vi": "Ông ấy kê đơn thuốc viên để điều trị tình trạng nhiễm trùng rận tai nặng một cách nhanh chóng.",
+      "focus_vi": "Phát âm đúng đuôi /z/ trong 'prescribes' và 'pills'"
+    },
+    {
+      "en": "Can you sign the cost estimate form before we start treatment?",
+      "vi": "Bạn có thể ký vào tờ ước tính chi phí trước khi chúng tôi bắt đầu điều trị không?",
+      "focus_vi": "Phát âm rõ âm cuối /st/ trong 'cost' và 'estimate'"
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Con chó của bạn cần nhịn ăn tối nay trước khi phẫu thuật vào ngày mai.",
+      "en_ref": "Your dog needs to have an empty stomach before tomorrow's surgery.",
+      "hint_en": "empty stomach"
+    },
+    {
+      "vi": "Tôi có thể xin bảng ước tính chi phí cho việc tẩy giun và tiêm phòng được không?",
+      "en_ref": "Can I get a cost estimate for deworming and vaccination?",
+      "hint_en": "cost estimate"
+    },
+    {
+      "vi": "Liều lượng của loại thuốc này phụ thuộc vào cân nặng của con mèo.",
+      "en_ref": "The dosage of this medicine depends on the cat's weight.",
+      "hint_en": "dosage depends on"
+    },
+    {
+      "vi": "Có bất kỳ tác dụng phụ nào sau khi tiêm mũi nhắc lại không bác sĩ?",
+      "en_ref": "Are there any side effects after the booster shot, doctor?",
+      "hint_en": "side effects, booster"
+    },
+    {
+      "vi": "Chúng ta cần đặt lịch hẹn tái khám để cắt chỉ.",
+      "en_ref": "We need to schedule a follow-up visit to remove the stitches.",
+      "hint_en": "follow-up visit"
+    },
+    {
+      "vi": "Bác sĩ thú y đã kê đơn thuốc mỡ bôi da cho chú chó của tôi.",
+      "en_ref": "The vet prescribed a skin ointment for my dog.",
+      "hint_en": "prescribed"
+    },
+    {
+      "vi": "Gây mê cho thú cưng lớn tuổi luôn đi kèm với một số rủi ro.",
+      "en_ref": "Anaesthesia for older pets always comes with some risks.",
+      "hint_en": "Anaesthesia"
+    },
+    {
+      "vi": "Lịch tẩy giun cho mèo con là mỗi tháng một lần.",
+      "en_ref": "The deworming schedule for kittens is once a month.",
+      "hint_en": "deworming schedule"
+    }
+  ],
+  "scenario": {
+    "role": "An anxious pet owner",
+    "context": "You are a veterinarian at a busy clinic. A client has brought in their 8-year-old French Bulldog, Rocky, who needs dental surgery to remove three decayed teeth. They are very worried about the cost and the risks of putting an older dog sleep.",
+    "opener_en": "Doctor, is it really safe to put Rocky under anesthesia at his age? And how much will this whole procedure cost me?",
+    "opener_vi": "Bác sĩ ơi, cho Rocky gây mê ở tuổi này có thực sự an toàn không? Và toàn bộ quá trình này sẽ tốn của tôi bao nhiêu tiền?"
+  }
+}

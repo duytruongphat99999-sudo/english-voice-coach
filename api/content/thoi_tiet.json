@@ -1,0 +1,183 @@
+{
+  "id": "thoi_tiet",
+  "name_vi": "Thời tiết",
+  "emoji": "☀️",
+  "track": "everyday",
+  "order": 8,
+  "vocab": [
+    {
+      "word": "muggy",
+      "ipa": "/ˈmʌɡ.i/",
+      "meaning_vi": "nóng ẩm, oi bức",
+      "example_en": "The weather is so muggy today, I'm sweating already.",
+      "example_vi": "Thời tiết hôm nay oi bức quá, tôi đã đổ mồ hôi rồi."
+    },
+    {
+      "word": "pour",
+      "ipa": "/pɔːr/",
+      "meaning_vi": "mưa xối xả, mưa đổ cây",
+      "example_en": "It's starting to pour, so we should wait inside.",
+      "example_vi": "Trời bắt đầu mưa xối xả rồi, chúng ta nên đợi ở trong nhà thôi."
+    },
+    {
+      "word": "stick around",
+      "ipa": "/stɪk əˈraʊnd/",
+      "meaning_vi": "kéo dài, ở lại",
+      "example_en": "This heavy rain might stick around until this evening.",
+      "example_vi": "Cơn mưa lớn này có thể sẽ kéo dài cho đến tối nay."
+    },
+    {
+      "word": "clear up",
+      "ipa": "/klɪr ʌp/",
+      "meaning_vi": "hửng nắng, tạnh ráo",
+      "example_en": "I hope the sky clears up before our outdoor meeting.",
+      "example_vi": "Tôi hy vọng trời sẽ tạnh ráo trước buổi họp ngoài trời của chúng ta."
+    },
+    {
+      "word": "soaking wet",
+      "ipa": "/ˈsoʊ.kɪŋ wet/",
+      "meaning_vi": "ướt sũng, ướt như chuột lột",
+      "example_en": "My jacket got soaking wet during my commute this morning.",
+      "example_vi": "Áo khoác của tôi đã bị ướt sũng trên đường đi làm sáng nay."
+    },
+    {
+      "word": "breathable",
+      "ipa": "/ˈbriː.ðə.bəl/",
+      "meaning_vi": "thoáng khí, mát mẻ",
+      "example_en": "You should wear breathable cotton when it gets this hot.",
+      "example_vi": "Bạn nên mặc vải cotton thoáng khí khi trời nóng như thế này."
+    },
+    {
+      "word": "humid",
+      "ipa": "/ˈhjuː.mɪd/",
+      "meaning_vi": "ẩm ướt, độ ẩm cao",
+      "example_en": "The air is so humid that my skin feels sticky.",
+      "example_vi": "Không khí ẩm đến mức da tôi có cảm giác bết dính."
+    },
+    {
+      "word": "drizzle",
+      "ipa": "/ˈdrɪz.əl/",
+      "meaning_vi": "mưa phùn, mưa lâm thâm",
+      "example_en": "It's just a light drizzle, so you don't need an umbrella.",
+      "example_vi": "Trời chỉ mưa phùn nhẹ thôi, nên bạn không cần mang ô đâu."
+    },
+    {
+      "word": "ruin plans",
+      "ipa": "/ˈruː.ɪn plænz/",
+      "meaning_vi": "làm hỏng kế hoạch",
+      "example_en": "The sudden storm might ruin our plans for the weekend.",
+      "example_vi": "Cơn bão đột ngột này có thể làm hỏng kế hoạch cuối tuần của chúng ta."
+    },
+    {
+      "word": "monsoon",
+      "ipa": "/mɑːnˈsuːn/",
+      "meaning_vi": "mùa mưa, gió mùa",
+      "example_en": "The monsoon season brings a lot of sudden downpours here.",
+      "example_vi": "Mùa mưa mang đến rất nhiều cơn mưa rào đột ngột ở đây."
+    },
+    {
+      "word": "step outside",
+      "ipa": "/step ˌaʊtˈsaɪd/",
+      "meaning_vi": "bước ra ngoài",
+      "example_en": "As soon as you step outside, the heat hits you.",
+      "example_vi": "Ngay khi bạn vừa bước ra ngoài, cái nóng đã ập vào người rồi."
+    },
+    {
+      "word": "air-conditioned",
+      "ipa": "/ˈer.kənˌdɪʃ.ənd/",
+      "meaning_vi": "có máy lạnh, điều hòa",
+      "example_en": "Let's find an air-conditioned café to escape this heat.",
+      "example_vi": "Hãy tìm một quán cà phê có máy lạnh để trốn cái nóng này đi."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The strong storm ruined our street food plans last Thursday.",
+      "vi": "Cơn bão mạnh đã làm hỏng kế hoạch ăn đồ ăn đường phố của chúng tôi vào thứ Năm tuần trước.",
+      "focus_vi": "Phát âm rõ âm đuôi /t/ trong \"street\" và âm /st/ trong \"storm\"."
+    },
+    {
+      "en": "My skin gets extremely itchy in this hot, humid weather.",
+      "vi": "Da của tôi bị ngứa cực kỳ trong thời tiết nóng và ẩm ướt này.",
+      "focus_vi": "Phát âm rõ âm cuối /s/ trong \"gets\" và âm /ð/ trong \"weather\"."
+    },
+    {
+      "en": "Please wear breathable clothes because the heat is just brutal today.",
+      "vi": "Làm ơn mặc quần áo thoáng mát vì hôm nay trời nóng rất tàn nhẫn.",
+      "focus_vi": "Phát âm đúng âm /ð/ trong \"breathable\" và âm đuôi /z/ của \"clothes\"."
+    },
+    {
+      "en": "Suddenly, massive dark clouds blocked the sun and it started pouring.",
+      "vi": "Đột nhiên, những đám mây đen khổng lồ che khuất mặt trời và trời bắt đầu mưa xối xả.",
+      "focus_vi": "Bật rõ âm đuôi /t/ của \"started\" và /t/ của \"blocked\"."
+    },
+    {
+      "en": "He slipped on the wet street and split his pants.",
+      "vi": "Anh ấy đã trượt chân trên con đường ướt và bị rách quần.",
+      "focus_vi": "Phân biệt rõ âm /sl/ trong \"slipped\" và /spl/ trong \"split\"."
+    },
+    {
+      "en": "We should stay inside until the heavy rain completely stops.",
+      "vi": "Chúng ta nên ở trong nhà cho đến khi cơn mưa lớn tạnh hẳn.",
+      "focus_vi": "Phát âm rõ cụm âm /st/ trong \"stay\" và âm đuôi /ps/ của \"stops\"."
+    },
+    {
+      "en": "I always carry a small umbrella in my black plastic bag.",
+      "vi": "Tôi luôn mang theo một chiếc ô nhỏ trong chiếc túi ni lông màu đen của mình.",
+      "focus_vi": "Bật rõ âm đuôi /k/ trong \"black\" và âm /st/ trong \"plastic\"."
+    },
+    {
+      "en": "This thick humidity makes me want to take three showers daily.",
+      "vi": "Độ ẩm dày đặc này khiến tôi muốn đi tắm ba lần mỗi ngày.",
+      "focus_vi": "Phát âm đúng âm /θ/ trong \"thick\" và \"three\"."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Trời nóng nực thế này thì mặc đồ cotton cho mát.",
+      "en_ref": "You should wear cotton clothes to stay cool in this heat.",
+      "hint_en": "cotton clothes"
+    },
+    {
+      "vi": "Cơn mưa giông bất chợt làm hỏng cả chuyến dã ngoại của chúng tôi.",
+      "en_ref": "The sudden thunderstorm completely ruined our picnic plans.",
+      "hint_en": "ruined our picnic"
+    },
+    {
+      "vi": "Bên ngoài trời đang mưa tầm tã, anh có mang ô không?",
+      "en_ref": "It is pouring outside, did you bring an umbrella?",
+      "hint_en": "pouring outside"
+    },
+    {
+      "vi": "Thời tiết Hà Nội mùa này rất ẩm ướt và khó chịu.",
+      "en_ref": "The weather in Hanoi this season is very humid and unpleasant.",
+      "hint_en": "humid and unpleasant"
+    },
+    {
+      "vi": "Chúng ta có nên dời buổi hẹn khách hàng sang tuần sau vì bão không?",
+      "en_ref": "Should we reschedule the client meeting to next week due to the storm?",
+      "hint_en": "reschedule due to"
+    },
+    {
+      "vi": "Tôi vừa bước ra khỏi phòng điều hòa là kính bị mờ ngay.",
+      "en_ref": "As soon as I stepped out of the air-conditioned room, my glasses fogged up.",
+      "hint_en": "air-conditioned room"
+    },
+    {
+      "vi": "Khách nước ngoài thường không quen với cái nóng gay gắt của Sài Gòn.",
+      "en_ref": "Foreign guests are usually not used to Saigon's intense heat.",
+      "hint_en": "intense heat"
+    },
+    {
+      "vi": "Trời chỉ mưa phùn thôi, không cần mặc áo mưa đâu.",
+      "en_ref": "It is only drizzling, you do not need to wear a raincoat.",
+      "hint_en": "only drizzling"
+    }
+  ],
+  "scenario": {
+    "role": "An international dermatologist visiting your clinic in Ho Chi Minh City",
+    "context": "You are hosting an international colleague at your medical clinic. It is currently the peak of the rainy season, and a sudden, violent downpour has just started right before you both planned to step out for dinner.",
+    "opener_en": "Wow, look at that rain! It started pouring out of nowhere. Do you think we should wait here or try to catch a taxi anyway?",
+    "opener_vi": "Ồ, nhìn cơn mưa kìa! Tự dưng trời đổ mưa xối xả. Bạn nghĩ chúng ta nên đợi ở đây hay cứ thử bắt taxi đi luôn?"
+  }
+}

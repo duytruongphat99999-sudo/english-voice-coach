@@ -1,0 +1,130 @@
+{
+  "name": "EVC - nhac hoc tieng Anh moi sang",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 30 7 * * *"
+            }
+          ]
+        }
+      },
+      "id": "cron",
+      "name": "7h30 moi sang",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-200, 0]
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:3040/today",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Today-Token",
+              "value": "={{ $env.EVC_TODAY_TOKEN }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 10000
+        }
+      },
+      "id": "fetch",
+      "name": "GET /today",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [20, 0],
+      "notes": "host.docker.internal = may Windows, vi evc-api chi bind 127.0.0.1:3040. Token doc tu bien moi truong cua n8n, KHONG hardcode vao day."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "chua-xong",
+              "operator": {
+                "type": "boolean",
+                "operation": "false"
+              },
+              "leftValue": "={{ $json.completed }}",
+              "rightValue": ""
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "filter",
+      "name": "Chua hoc hom nay?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [240, 0],
+      "notes": "Hoc roi thi im. Nhac lai khi da xong chi lam nguoi ta phot lo thong bao."
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "text",
+              "name": "text",
+              "type": "string",
+              "value": "=🗣️ *Nhiệm vụ hôm nay*\n\n{{ $json.due_count > 0 ? '📚 ' + $json.due_count + ' từ cần ôn' : '📚 Không có từ tới hạn' }}\n🎭 Tình huống: *{{ $json.suggested_scenario_vi }}*\n🔥 Streak: {{ $json.streak }} ngày\n\n~12 phút. Xong là đóng app.\nhttps://english.duytruongphatco.com"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "compose",
+      "name": "Soan tin",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [460, -100]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $env.EVC_TELEGRAM_CHAT_ID }}",
+        "text": "={{ $json.text }}",
+        "additionalFields": {
+          "parse_mode": "Markdown",
+          "disable_web_page_preview": true
+        }
+      },
+      "id": "telegram",
+      "name": "Gui Telegram",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [680, -100],
+      "credentials": {},
+      "notes": "Can tao credential Telegram trong n8n (bot token tu @BotFather). Chat id dat o bien moi truong EVC_TELEGRAM_CHAT_ID."
+    }
+  ],
+  "connections": {
+    "7h30 moi sang": {
+      "main": [[{ "node": "GET /today", "type": "main", "index": 0 }]]
+    },
+    "GET /today": {
+      "main": [[{ "node": "Chua hoc hom nay?", "type": "main", "index": 0 }]]
+    },
+    "Chua hoc hom nay?": {
+      "main": [[{ "node": "Soan tin", "type": "main", "index": 0 }], []]
+    },
+    "Soan tin": {
+      "main": [[{ "node": "Gui Telegram", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "pinData": {}
+}

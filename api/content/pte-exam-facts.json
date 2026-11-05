@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "checked_at": "2026-09-11",
+  "note": "SU THAT VE DE THI PTE ACADEMIC — nguon DUY NHAT la pearsonpte.com. KHONG lay tu blog/khoa luyen thi: ngay 11/09/2026 da thay ho van chep thong tin DE CU (vi du 'Read Aloud an ca Noi lan Doc' — sai theo de 2025). Moi truong co nguon o `sources`. File nay duoc skill pte-cap-nhat so sanh dinh ky; skill CHI DE XUAT thay doi, Duy duyet moi ghi. `weight` = so cau trung binh x so ky nang gop — la UOC LUONG THO, Pearson KHONG cong bo trong so %.",
+  "sources": {
+    "updates_2025": "https://www.pearsonpte.com/pte-updates-2025/",
+    "score_guide_2025_07": "https://www.pearsonpte.com/ctf-assets/yqwtwibiobs4/WUcBAMkYCC9Dj5vs2HfVA/941d88d07ba7c2a5007f7ce1b18eedbf/Score_Guide__Test_Taker__-_PTE_Academic_-_July_2025__web_.pdf",
+    "concordance": "https://www.pearsonpte.com/pte-academic/scoring/",
+    "practice_test": "https://www.pearsonpte.com/pte-academic/preparation/scored-practice-test/",
+    "preparation": "https://www.pearsonpte.com/pte-academic/preparation/"
+  },
+  "format_changed_on": "2025-08-07",
+  "task_count": 22,
+  "rules": {
+    "template_zero": {
+      "vi": "Câu trả lời học thuộc lòng / chuẩn bị sẵn bị coi là KHÔNG LIÊN QUAN → Content 0 → không chấm tiếp phát âm và trôi chảy → cả câu 0 điểm. Áp cho mọi dạng chấm Content, kể cả Describe Image.",
+      "quote": "Responses that contain pre-prepared or memorized material are classified as irrelevant responses.",
+      "source": "score_guide_2025_07"
+    },
+    "human_content_review": {
+      "vi": "7 dạng có người chấm Content song song với AI; nếu lệch nhau thì người thứ hai quyết. Người KHÔNG chấm phát âm hay trôi chảy.",
+      "source": "score_guide_2025_07"
+    }
+  },
+  "concordance_overall": [
+    { "pte": 24, "ielts": 4.5 },
+    { "pte": 31, "ielts": 5.0 },
+    { "pte": 39, "ielts": 5.5 },
+    { "pte": 47, "ielts": 6.0 },
+    { "pte": 55, "ielts": 6.5 },
+    { "pte": 63, "ielts": 7.0 },
+    { "pte": 71, "ielts": 7.5 },
+    { "pte": 79, "ielts": 8.0 },
+    { "pte": 86, "ielts": 8.5 },
+    { "pte": 90, "ielts": 9.0 }
+  ],
+  "tasks": [
+    { "id": "ra", "name": "Read Aloud", "name_vi": "Đọc to", "section": "speaking_writing", "items": [6, 7], "scoring": "partial", "skills": ["S"], "app": "/pte-speaking", "human_content": false,
+      "strategies_vi": ["Mỗi từ đọc thay, bỏ sót hay chèn thêm đều tính một lỗi — đọc đều, đừng dừng lại sửa giữa chừng."] },
+    { "id": "rs", "name": "Repeat Sentence", "name_vi": "Nhại câu", "section": "speaking_writing", "items": [10, 12], "scoring": "partial", "skills": ["L", "S"], "app": "/pte-drill?mode=rs", "human_content": false,
+      "strategies_vi": ["Dạng NHIỀU CÂU NHẤT đề (10–12) và góp hai kỹ năng — ưu tiên số một.", "Ngập ngừng KHÔNG mất điểm nội dung (Pearson: \"hesitations… are ignored in the scoring of content\") — quên một từ thì cứ nói tiếp cho hết câu."] },
+    { "id": "di", "name": "Describe Image", "name_vi": "Mô tả hình", "section": "speaking_writing", "items": [5, 6], "scoring": "partial", "skills": ["S"], "app": "/pte-open?type=di", "human_content": true,
+      "strategies_vi": ["KHÔNG dùng template học thuộc — Pearson lấy chính dạng này làm ví dụ cho luật 0 điểm. Tập mô tả điều thật sự có trong hình."] },
+    { "id": "rl", "name": "Retell Lecture", "name_vi": "Kể lại bài giảng", "section": "speaking_writing", "items": [2, 3], "scoring": "partial", "skills": ["L", "S"], "app": "/pte-open?type=rl", "human_content": true,
+      "strategies_vi": ["Có người chấm nội dung — không dùng template."] },
+    { "id": "asq", "name": "Answer Short Question", "name_vi": "Trả lời câu ngắn", "section": "speaking_writing", "items": [5, 6], "scoring": "correct_incorrect", "skills": ["L"], "app": "/pte-listening?type=asq", "human_content": false,
+      "strategies_vi": ["Chỉ tính vào Listening theo đề 2025."] },
+    { "id": "rts", "name": "Respond to a Situation", "name_vi": "Ứng xử tình huống", "section": "speaking_writing", "items": [2, 3], "scoring": "partial", "skills": ["S"], "app": "/pte-open?type=rts", "human_content": true, "new_2025": true,
+      "strategies_vi": ["Dạng MỚI 2025. Đọc + nghe tình huống (tối đa 60 từ), trả lời 40 giây. Có người chấm nội dung — không dùng template."] },
+    { "id": "sgd", "name": "Summarize Group Discussion", "name_vi": "Tóm tắt thảo luận nhóm", "section": "speaking_writing", "items": [2, 3], "scoring": "partial", "skills": ["L", "S"], "app": "/pte-open?type=sgd", "human_content": true, "new_2025": true,
+      "strategies_vi": ["Dạng MỚI 2025. Nghe 3 người thảo luận (tối đa 3 phút), tóm tắt bằng lời trong 2 phút. Có người chấm nội dung — không dùng template."] },
+    { "id": "swt", "name": "Summarize Written Text", "name_vi": "Tóm tắt bài đọc", "section": "speaking_writing", "items": [2, 2], "scoring": "partial", "skills": ["R", "W"], "app": "/pte-open?type=swt", "human_content": true, "strategies_vi": [] },
+    { "id": "we", "name": "Write Essay", "name_vi": "Viết luận", "section": "speaking_writing", "items": [1, 1], "scoring": "partial", "skills": ["W"], "app": "/pte-open?type=we", "human_content": true,
+      "strategies_vi": ["Dưới 120 từ là không có điểm (Form)."] },
+    { "id": "rwfib", "name": "Reading & Writing: Fill in the Blanks", "name_vi": "Điền từ (chọn)", "section": "reading", "items": [5, 6], "scoring": "partial", "skills": ["R"], "app": "/pte-reading?type=rwfib", "human_content": false,
+      "strategies_vi": ["Chỉ tính vào Reading theo đề 2025 (không phải Đọc + Viết như tài liệu cũ)."] },
+    { "id": "mcma_r", "name": "Multiple Choice, Multiple Answers (Reading)", "name_vi": "Chọn nhiều đáp án (Đọc)", "section": "reading", "items": [2, 3], "scoring": "negative", "skills": ["R"], "app": "/pte-reading?type=mcma_r", "human_content": false,
+      "strategies_vi": ["+1 mỗi đáp án đúng, −1 mỗi đáp án sai, sàn 0 — chỉ chọn khi chắc."] },
+    { "id": "rop", "name": "Reorder Paragraph", "name_vi": "Sắp xếp đoạn", "section": "reading", "items": [2, 3], "scoring": "partial", "skills": ["R"], "app": "/pte-reading?type=rop", "human_content": false,
+      "strategies_vi": ["Điểm tính theo từng CẶP LIỀN KỀ đúng — giữ được chuỗi liền mạch quan trọng hơn đoán đúng câu mở đầu."] },
+    { "id": "rfib", "name": "Fill in the Blanks (Drag and Drop)", "name_vi": "Điền từ (kéo thả)", "section": "reading", "items": [4, 5], "scoring": "partial", "skills": ["R"], "app": "/pte-reading?type=rfib", "human_content": false, "strategies_vi": [] },
+    { "id": "mcsa_r", "name": "Multiple Choice, Single Answer (Reading)", "name_vi": "Chọn một đáp án (Đọc)", "section": "reading", "items": [2, 3], "scoring": "correct_incorrect", "skills": ["R"], "app": "/pte-reading?type=mcsa_r", "human_content": false, "strategies_vi": [] },
+    { "id": "sst", "name": "Summarize Spoken Text", "name_vi": "Tóm tắt bài nghe", "section": "listening", "items": [1, 1], "scoring": "partial", "skills": ["L", "W"], "app": "/pte-open?type=sst", "human_content": true, "strategies_vi": [] },
+    { "id": "mcma_l", "name": "Multiple Choice, Multiple Answers (Listening)", "name_vi": "Chọn nhiều đáp án (Nghe)", "section": "listening", "items": [2, 3], "scoring": "negative", "skills": ["L"], "app": "/pte-listening?type=mcma_l", "human_content": false,
+      "strategies_vi": ["+1 mỗi đáp án đúng, −1 mỗi đáp án sai, sàn 0 — chỉ chọn khi chắc."] },
+    { "id": "fibl", "name": "Fill in the Blanks (Type In)", "name_vi": "Nghe điền từ", "section": "listening", "items": [2, 3], "scoring": "partial", "skills": ["L"], "app": "/pte-listening?type=fibl", "human_content": false,
+      "strategies_vi": ["Mỗi từ đúng chính tả mới được điểm."] },
+    { "id": "hcs", "name": "Highlight Correct Summary", "name_vi": "Chọn tóm tắt đúng", "section": "listening", "items": [2, 3], "scoring": "correct_incorrect", "skills": ["L", "R"], "app": "/pte-listening?type=hcs", "human_content": false, "strategies_vi": [] },
+    { "id": "mcsa_l", "name": "Multiple Choice, Single Answer (Listening)", "name_vi": "Chọn một đáp án (Nghe)", "section": "listening", "items": [2, 3], "scoring": "correct_incorrect", "skills": ["L"], "app": "/pte-listening?type=mcsa_l", "human_content": false, "strategies_vi": [] },
+    { "id": "smw", "name": "Select Missing Word", "name_vi": "Chọn từ còn thiếu", "section": "listening", "items": [1, 2], "scoring": "correct_incorrect", "skills": ["L"], "app": "/pte-listening?type=smw", "human_content": false, "strategies_vi": [] },
+    { "id": "hiw", "name": "Highlight Incorrect Words", "name_vi": "Tìm từ sai", "section": "listening", "items": [2, 3], "scoring": "negative", "skills": ["L", "R"], "app": "/pte-listening?type=hiw", "human_content": false,
+      "strategies_vi": ["+1 mỗi từ đúng, −1 mỗi từ bấm nhầm, sàn 0 — chỉ bấm khi chắc."] },
+    { "id": "wfd", "name": "Write from Dictation", "name_vi": "Nghe — gõ", "section": "listening", "items": [3, 4], "scoring": "partial", "skills": ["L", "W"], "app": "/pte-drill?mode=wfd", "human_content": false,
+      "strategies_vi": ["Mỗi từ đúng chính tả được một điểm — chính tả chính là điểm."] }
+  ]
+}

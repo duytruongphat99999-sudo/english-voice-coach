@@ -1,0 +1,142 @@
+[
+  {
+    "id": "an_uong",
+    "name_vi": "Ăn uống",
+    "emoji": "🍜",
+    "track": "everyday",
+    "order": 1
+  },
+  {
+    "id": "sinh_hoat",
+    "name_vi": "Sinh hoạt hằng ngày",
+    "emoji": "🌅",
+    "track": "everyday",
+    "order": 2
+  },
+  {
+    "id": "so_thich",
+    "name_vi": "Sở thích, giải trí",
+    "emoji": "🎬",
+    "track": "everyday",
+    "order": 3
+  },
+  {
+    "id": "gia_dinh",
+    "name_vi": "Gia đình, bạn bè",
+    "emoji": "👨‍👩‍👧",
+    "track": "everyday",
+    "order": 4
+  },
+  {
+    "id": "mua_sam",
+    "name_vi": "Mua sắm",
+    "emoji": "🛒",
+    "track": "everyday",
+    "order": 5
+  },
+  {
+    "id": "di_lai",
+    "name_vi": "Đi lại",
+    "emoji": "🛵",
+    "track": "everyday",
+    "order": 6
+  },
+  {
+    "id": "suc_khoe",
+    "name_vi": "Sức khoẻ",
+    "emoji": "🤒",
+    "track": "everyday",
+    "order": 7
+  },
+  {
+    "id": "thoi_tiet",
+    "name_vi": "Thời tiết",
+    "emoji": "☀️",
+    "track": "everyday",
+    "order": 8
+  },
+  {
+    "id": "nha_cua",
+    "name_vi": "Nhà cửa",
+    "emoji": "🏠",
+    "track": "everyday",
+    "order": 9
+  },
+  {
+    "id": "cong_viec",
+    "name_vi": "Công việc thường ngày",
+    "emoji": "💼",
+    "track": "everyday",
+    "order": 10
+  },
+  {
+    "id": "cuoi_tuan",
+    "name_vi": "Cuối tuần, du lịch",
+    "emoji": "✈️",
+    "track": "everyday",
+    "order": 11
+  },
+  {
+    "id": "dien_thoai",
+    "name_vi": "Điện thoại, internet",
+    "emoji": "📱",
+    "track": "everyday",
+    "order": 12
+  },
+  {
+    "id": "thu_y_kham",
+    "name_vi": "Thú y — khám & tư vấn chủ nuôi",
+    "emoji": "🐕",
+    "track": "vet",
+    "order": 13
+  },
+  {
+    "id": "thu_y_dieu_tri",
+    "name_vi": "Thú y — bệnh lý & điều trị",
+    "emoji": "💉",
+    "track": "vet",
+    "order": 14
+  },
+  {
+    "id": "b2b_doi_tac",
+    "name_vi": "B2B — đối tác xuyên quốc gia",
+    "emoji": "🌏",
+    "track": "b2b",
+    "order": 15
+  },
+  {
+    "id": "b2b_xnk",
+    "name_vi": "B2B — xuất nhập khẩu, thanh toán",
+    "emoji": "📦",
+    "track": "b2b",
+    "order": 16
+  },
+  {
+    "id": "da_lieu_kham",
+    "name_vi": "Da liễu — khám bệnh nhân quốc tế",
+    "emoji": "🩺",
+    "track": "derm",
+    "order": 17
+  },
+  {
+    "id": "da_lieu_phac_do",
+    "name_vi": "Da liễu — phác đồ & thuốc",
+    "emoji": "🧴",
+    "track": "derm",
+    "order": 18
+  },
+  {
+    "id": "da_lieu_thuyet_trinh",
+    "name_vi": "Da liễu — thuyết trình ca lâm sàng",
+    "emoji": "🎤",
+    "track": "derm",
+    "order": 19
+  },
+  {
+    "id": "duoc_doi_tac",
+    "name_vi": "Làm việc với hãng dược",
+    "emoji": "💊",
+    "track": "derm",
+    "order": 20
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "deal_price",
+    "name_vi": "Deal giá với khách",
+    "role": "a procurement manager at a mid-size manufacturing company",
+    "context": "The learner is a supplier's sales rep. You are asking for a better price, longer payment terms, and pushing back on the quoted unit cost. You are polite but firm, and you do not accept the first offer.",
+    "domain": "negotiation",
+    "target_phrases": [
+      "meet you halfway",
+      "ballpark figure",
+      "volume discount",
+      "payment terms",
+      "walk away",
+      "bottom line",
+      "add value",
+      "on the table"
+    ]
+  },
+  {
+    "id": "internal_meeting",
+    "name_vi": "Họp nội bộ, báo cáo tiến độ",
+    "role": "the learner's direct manager running a weekly progress meeting",
+    "context": "You ask the learner to report on their project status, blockers, and next steps. You interrupt with follow-up questions about deadlines and risks. You expect concise, structured answers.",
+    "domain": "meeting",
+    "target_phrases": [
+      "circle back",
+      "on track",
+      "blocker",
+      "action item",
+      "loop in",
+      "bandwidth",
+      "push the deadline",
+      "align on"
+    ]
+  },
+  {
+    "id": "product_pitch",
+    "name_vi": "Pitch sản phẩm cho khách hàng",
+    "role": "a potential enterprise client hearing a product pitch for the first time",
+    "context": "The learner is pitching their product to you. You are skeptical, you ask about ROI, integration effort, and how it compares to what you already use. You interrupt to ask for concrete numbers.",
+    "domain": "presentation",
+    "target_phrases": [
+      "value proposition",
+      "pain point",
+      "use case",
+      "onboarding",
+      "scale up",
+      "return on investment",
+      "stand out from",
+      "in a nutshell"
+    ]
+  },
+  {
+    "id": "client_support",
+    "name_vi": "Xử lý khách hàng đang bực",
+    "role": "an unhappy customer whose order arrived late and damaged",
+    "context": "You are frustrated but not abusive. The learner must apologize, take ownership, explain what happened, and offer a resolution. You keep pressing until you hear a concrete commitment with a date.",
+    "domain": "support",
+    "target_phrases": [
+      "I apologize for the inconvenience",
+      "look into it",
+      "get back to you",
+      "make it right",
+      "escalate",
+      "root cause",
+      "as a goodwill gesture",
+      "going forward"
+    ]
+  },
+  {
+    "id": "interview",
+    "name_vi": "Phỏng vấn xin việc",
+    "role": "a hiring manager interviewing the learner for a mid-level business role",
+    "context": "You ask behavioural and situational questions: tell me about yourself, a conflict you handled, why this company, where you see yourself. You probe for specifics whenever the answer is vague.",
+    "domain": "interview",
+    "target_phrases": [
+      "take ownership of",
+      "hands-on experience",
+      "cross-functional",
+      "stakeholder",
+      "track record",
+      "steep learning curve",
+      "results-driven",
+      "room for growth"
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "id": "da_lieu_kham",
+  "name_vi": "Da liễu — khám bệnh nhân quốc tế",
+  "emoji": "🩺",
+  "track": "derm",
+  "order": 17,
+  "vocab": [
+    {
+      "word": "flare up",
+      "ipa": "/ˌflɛr ˈʌp/",
+      "meaning_vi": "bùng phát (bệnh ngoài da)",
+      "example_en": "Does your skin flare up when you get stressed or sweaty?",
+      "example_vi": "Da của anh có bùng phát mẩn đỏ khi bị căng thẳng hay ra mồ hôi không?"
+    },
+    {
+      "word": "dry patch",
+      "ipa": "/draɪ pætʃ/",
+      "meaning_vi": "mảng da khô",
+      "example_en": "Apply this thick cream only to the dry patch on your elbow.",
+      "example_vi": "Chỉ bôi loại kem đặc này lên mảng da khô ở khuỷu tay thôi nhé."
+    },
+    {
+      "word": "break out",
+      "ipa": "/breɪk aʊt/",
+      "meaning_vi": "nổi mụn hoặc mẩn đỏ đột ngột",
+      "example_en": "I always break out after using a new brand of sunscreen.",
+      "example_vi": "Tôi luôn bị nổi mẩn sau khi dùng một nhãn hiệu kem chống nắng mới."
+    },
+    {
+      "word": "itchy",
+      "ipa": "/ˈɪtʃ.i/",
+      "meaning_vi": "ngứa",
+      "example_en": "Is the rash itchy at night, or does it just hurt?",
+      "example_vi": "Vết mẩn đỏ có bị ngứa vào ban đêm không, hay là chỉ đau thôi?"
+    },
+    {
+      "word": "spread",
+      "ipa": "/sprɛd/",
+      "meaning_vi": "lan ra",
+      "example_en": "The red spots began to spread down to my chest yesterday.",
+      "example_vi": "Mấy nốt đỏ bắt đầu lan xuống ngực tôi từ ngày hôm qua."
+    },
+    {
+      "word": "trigger",
+      "ipa": "/ˈtrɪɡ.ɚ/",
+      "meaning_vi": "yếu tố kích ứng, tác nhân gây ra",
+      "example_en": "We need to find out what triggers your sudden skin allergy.",
+      "example_vi": "Chúng ta cần tìm ra tác nhân gì gây ra đợt dị ứng da đột ngột này của anh."
+    },
+    {
+      "word": "steroid cream",
+      "ipa": "/ˈstɛr.ɔɪd kriːm/",
+      "meaning_vi": "kem bôi có chứa corticoid/steroid",
+      "example_en": "Do not use this strong steroid cream for more than five days.",
+      "example_vi": "Đừng dùng loại kem steroid mạnh này quá năm ngày nhé."
+    },
+    {
+      "word": "harmless",
+      "ipa": "/ˈhɑːrm.ləs/",
+      "meaning_vi": "lành tính, vô hại",
+      "example_en": "Don't worry, this type of skin growth is completely harmless.",
+      "example_vi": "Đừng lo, loại u nhú da này hoàn toàn lành tính thôi."
+    },
+    {
+      "word": "biopsy",
+      "ipa": "/ˈbaɪ.ɑːp.si/",
+      "meaning_vi": "sinh thiết da",
+      "example_en": "We can take a small biopsy to confirm the exact diagnosis.",
+      "example_vi": "Chúng tôi có thể lấy một mẫu sinh thiết nhỏ để xác định chính xác chẩn đoán."
+    },
+    {
+      "word": "moisturizer",
+      "ipa": "/ˈmɔɪs.tʃə.raɪ.zɚ/",
+      "meaning_vi": "kem dưỡng ẩm",
+      "example_en": "You should apply a gentle moisturizer while your skin is still damp.",
+      "example_vi": "Bạn nên thoa kem dưỡng ẩm dịu nhẹ khi da vẫn còn ẩm."
+    },
+    {
+      "word": "scab over",
+      "ipa": "/skæb ˈoʊ.vɚ/",
+      "meaning_vi": "đóng vảy, lên da non",
+      "example_en": "The blisters will dry out and scab over in a few days.",
+      "example_vi": "Các nốt mụn nước sẽ khô đi và đóng vảy trong vài ngày tới."
+    },
+    {
+      "word": "ointment",
+      "ipa": "/ˈɔɪnt.mənt/",
+      "meaning_vi": "thuốc mỡ",
+      "example_en": "This greasy ointment works much better than a light lotion.",
+      "example_vi": "Loại thuốc mỡ nhờn này hiệu quả hơn nhiều so với sữa dưỡng thể mỏng nhẹ."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The red spots spread quickly across his chest and both shoulders.",
+      "vi": "Các nốt đỏ lan nhanh khắp ngực và cả hai bên vai của anh ấy.",
+      "focus_vi": "Chú ý phát âm đuôi s trong 'spots', 'spreads', 'across', 'shoulders'"
+    },
+    {
+      "en": "Does this thick ointment make your skin feel itchy or smooth?",
+      "vi": "Loại thuốc mỡ đặc này có làm da bạn cảm thấy ngứa hay mịn màng?",
+      "focus_vi": "Phát âm chuẩn âm /θ/ trong 'thick' và 'smooth'"
+    },
+    {
+      "en": "She scratched the dry patches until they started to bleed.",
+      "vi": "Cô ấy đã gãi những mảng da khô cho đến khi chúng bắt đầu chảy máu.",
+      "focus_vi": "Bật rõ âm đuôi '-ed' phát âm là /t/ trong 'scratched'"
+    },
+    {
+      "en": "We must test this specific cream on a small spot first.",
+      "vi": "Chúng ta phải thử loại kem cụ thể này trên một vùng nhỏ trước.",
+      "focus_vi": "Phát âm rõ cụm phụ âm 'st' trong 'must', 'test', 'first'"
+    },
+    {
+      "en": "The specialist prescribed a mild steroid for the swelling on her wrist.",
+      "vi": "Bác sĩ chuyên khoa đã kê một loại steroid nhẹ cho vết sưng trên cổ tay cô ấy.",
+      "focus_vi": "Phát âm đúng cụm phụ âm 'str' trong 'steroid' và 'wrist'"
+    },
+    {
+      "en": "He struggles with severe stress, which triggers his painful eczema.",
+      "vi": "Anh ấy vật lộn với căng thẳng nghiêm trọng, thứ kích hoạt bệnh chàm gây đau đớn.",
+      "focus_vi": "Bật rõ âm đuôi /z/ trong 'struggles', 'triggers' và 'eczema'"
+    },
+    {
+      "en": "Please tell me if the rash feels worse after a hot shower.",
+      "vi": "Hãy nói cho tôi biết nếu vết mẩn đỏ cảm thấy tệ hơn sau khi tắm nước nóng.",
+      "focus_vi": "Phân biệt âm 's' trong 'feels', 'worse' và 'sh' trong 'shower'"
+    },
+    {
+      "en": "This soothing lotion should clear up the red patches on your skin.",
+      "vi": "Loại sữa dưỡng làm dịu này sẽ làm sạch các mảng đỏ trên da của bạn.",
+      "focus_vi": "Phát âm rõ âm /ð/ trong 'soothing' và âm 'sh' trong 'should'"
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Vết mẩn đỏ này xuất hiện lâu chưa và nó có ngứa nhiều không?",
+      "en_ref": "How long has this rash been here and is it very itchy?",
+      "hint_en": "rash, itchy"
+    },
+    {
+      "vi": "Nó bắt đầu từ một mảng khô nhỏ rồi lan ra cả cánh tay của tôi.",
+      "en_ref": "It started as a small dry patch and then spread to my arm.",
+      "hint_en": "dry patch, spread"
+    },
+    {
+      "vi": "Đừng lo lắng quá, cái này hoàn toàn lành tính và không phải ung thư đâu.",
+      "en_ref": "Don't worry too much, this is completely harmless and not cancer.",
+      "hint_en": "harmless, cancer"
+    },
+    {
+      "vi": "Anh có để ý thấy loại sữa tắm hay xà phòng mới nào làm nó bùng phát không?",
+      "en_ref": "Have you noticed any new body wash or soap triggering it?",
+      "hint_en": "body wash, triggering"
+    },
+    {
+      "vi": "Tôi sẽ kê cho anh một loại kem bôi nhẹ để giảm sưng và ngứa.",
+      "en_ref": "I will prescribe a mild cream to reduce the swelling and itching.",
+      "hint_en": "prescribe, mild cream"
+    },
+    {
+      "vi": "Tôi cần lấy một mẫu da nhỏ để sinh thiết cho chắc chắn.",
+      "en_ref": "I need to take a small skin sample for a biopsy to be sure.",
+      "hint_en": "skin sample, biopsy"
+    },
+    {
+      "vi": "Hãy bôi thuốc mỡ này hai lần một ngày sau khi tắm xong nhé.",
+      "en_ref": "Apply this ointment twice a day after you take a shower.",
+      "hint_en": "ointment, twice"
+    },
+    {
+      "vi": "Nó có tự hết rồi lại bị lại khi anh bị căng thẳng không?",
+      "en_ref": "Does it go away on its own and come back when you are stressed?",
+      "hint_en": "go away, stressed"
+    }
+  ],
+  "scenario": {
+    "role": "anxious foreign patient",
+    "context": "You are a dermatologist in your clinic. An international patient comes in looking very worried because they woke up with a sudden, red, itchy rash on their neck and face, fearing it is a dangerous disease.",
+    "opener_en": "Hello doctor, I woke up with this horrible red rash all over my neck. Do you think it's a dangerous allergic reaction?",
+    "opener_vi": "Chào bác sĩ, tôi thức dậy với vết mẩn đỏ kinh khủng này khắp cổ. Bác sĩ có nghĩ đây là phản ứng dị ứng nguy hiểm không?"
+  }
+}

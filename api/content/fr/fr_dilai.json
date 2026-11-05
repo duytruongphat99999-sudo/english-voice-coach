@@ -1,0 +1,206 @@
+{
+ "id": "fr_dilai",
+ "order": 4,
+ "emoji": "🚌",
+ "name_vi": "Đi lại",
+ "vocab": [
+  {
+   "word": "le bus",
+   "gender": "m",
+   "ipa": "/lə bys/",
+   "meaning_vi": "xe buýt",
+   "example_fr": "Je prends le bus pour aller au travail.",
+   "example_vi": "Tôi đi xe buýt đi làm.",
+   "note_vi": "Ở Québec hay nói l'autobus. Chữ s cuối có đọc: /bys/."
+  },
+  {
+   "word": "le métro",
+   "gender": "m",
+   "ipa": "/lə metʁo/",
+   "meaning_vi": "tàu điện ngầm",
+   "example_fr": "Je prends le métro tous les matins.",
+   "example_vi": "Sáng nào tôi cũng đi metro.",
+   "note_vi": "Đi metro: prendre le métro. é đọc khép như 'ê'."
+  },
+  {
+   "word": "l'arrêt",
+   "gender": "m",
+   "ipa": "/laʁɛ/",
+   "meaning_vi": "trạm dừng (xe buýt)",
+   "example_fr": "L'arrêt de bus est devant la banque.",
+   "example_vi": "Trạm xe buýt ở trước ngân hàng.",
+   "note_vi": "Giống đực: un arrêt. t cuối câm. Ga metro thì dùng la station."
+  },
+  {
+   "word": "le billet",
+   "gender": "m",
+   "ipa": "/lə bijɛ/",
+   "meaning_vi": "vé",
+   "example_fr": "Combien coûte le billet de métro ?",
+   "example_vi": "Vé metro giá bao nhiêu?",
+   "note_vi": "ill đọc /ij/ như 'i' kéo lướt, không có âm l; đuôi -et đọc như 'e' tiếng Việt /ɛ/, t câm."
+  },
+  {
+   "word": "la correspondance",
+   "gender": "f",
+   "ipa": "/la kɔʁɛspɔ̃dɑ̃s/",
+   "meaning_vi": "chỗ đổi tuyến, chuyến nối",
+   "example_fr": "Je dois prendre une correspondance au centre-ville.",
+   "example_vi": "Tôi phải đổi xe ở trung tâm.",
+   "note_vi": "Chữ dài, có hai âm mũi: on /ɔ̃/ và an /ɑ̃/."
+  },
+  {
+   "word": "l'horaire",
+   "gender": "m",
+   "ipa": "/lɔʁɛʁ/",
+   "meaning_vi": "lịch chạy, giờ giấc",
+   "example_fr": "Je regarde l'horaire sur mon téléphone.",
+   "example_vi": "Tôi xem lịch chạy trên điện thoại.",
+   "note_vi": "Giống đực: un horaire. h câm, không bật hơi."
+  },
+  {
+   "word": "descendre",
+   "gender": "",
+   "ipa": "/desɑ̃dʁ/",
+   "meaning_vi": "xuống (xe)",
+   "example_fr": "Je descends au prochain arrêt.",
+   "example_vi": "Tôi xuống ở trạm tới.",
+   "note_vi": "Xuống xe = descendre; lên xe = monter. sc đọc như một chữ s."
+  },
+  {
+   "word": "à gauche",
+   "gender": "",
+   "ipa": "/a ɡoʃ/",
+   "meaning_vi": "bên trái, rẽ trái",
+   "example_fr": "Au feu, tournez à gauche.",
+   "example_vi": "Tới đèn giao thông thì rẽ trái.",
+   "note_vi": "au đọc 'ô'; e cuối câm: /ɡoʃ/."
+  },
+  {
+   "word": "à droite",
+   "gender": "",
+   "ipa": "/a dʁwat/",
+   "meaning_vi": "bên phải, rẽ phải",
+   "example_fr": "La station est à droite, après la banque.",
+   "example_vi": "Ga ở bên phải, qua khỏi ngân hàng.",
+   "note_vi": "à droite (phải) đọc có t; tout droit (thẳng) thì không. Đừng lẫn."
+  },
+  {
+   "word": "tout droit",
+   "gender": "",
+   "ipa": "/tu dʁwa/",
+   "meaning_vi": "đi thẳng",
+   "example_fr": "Continuez tout droit jusqu'au parc.",
+   "example_vi": "Cứ đi thẳng tới công viên.",
+   "note_vi": "Cả hai chữ t cuối đều câm: /tu dʁwa/."
+  },
+  {
+   "word": "en face de",
+   "gender": "",
+   "ipa": "/ɑ̃ fas də/",
+   "meaning_vi": "đối diện",
+   "example_fr": "La station de métro est en face de la poste.",
+   "example_vi": "Ga metro ở đối diện bưu điện.",
+   "note_vi": "Đừng lẫn với 'devant' (ngay phía trước): 'en face de' là ở phía đối diện, thường là bên kia đường."
+  },
+  {
+   "word": "pour aller à",
+   "gender": "",
+   "ipa": "/puʁ ale a/",
+   "meaning_vi": "để đi tới (hỏi đường)",
+   "example_fr": "Pardon, pour aller à l'hôpital, s'il vous plaît ?",
+   "example_vi": "Xin lỗi, cho hỏi đường tới bệnh viện ạ?",
+   "note_vi": "à + le thành au: pour aller au métro."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Le taxi vous attend en face de l'hôtel.",
+   "vi": "Xe taxi đang đợi anh/chị ở đối diện khách sạn.",
+   "focus_vi": "Âm mũi /ɑ̃/ trong 'attend' và 'en face': hơi ra mũi, không có âm n; chữ d cuối 'attend' câm."
+  },
+  {
+   "fr": "Pour aller à la gare, s'il vous plaît ?",
+   "vi": "Cho hỏi đường ra ga tàu với ạ?",
+   "focus_vi": "Chữ r cuối 'gare' vẫn đọc, phát nhẹ ở cuống họng, không uốn lưỡi."
+  },
+  {
+   "fr": "Vous allez à la station de métro ?",
+   "vi": "Anh/chị đi ra ga metro hả?",
+   "focus_vi": "Nối âm: 'vous allez' đọc /vuzale/, chữ s thành z nối sang a."
+  },
+  {
+   "fr": "Tu prends le bus ou le métro ?",
+   "vi": "Cậu đi xe buýt hay metro?",
+   "focus_vi": "u và ou: 'bus' /bys/ chu môi, lưỡi để như 'i'; 'ou' /u/ như 'u' tiếng Việt."
+  },
+  {
+   "fr": "Continuez tout droit, ce n'est pas loin.",
+   "vi": "Cứ đi thẳng, không xa đâu.",
+   "focus_vi": "Chữ câm cuối: 'tout droit' đọc /tu dʁwa/, cả hai chữ t đều câm."
+  },
+  {
+   "fr": "Le métro est très pratique en hiver.",
+   "vi": "Mùa đông đi metro rất tiện.",
+   "focus_vi": "é và è: 'métro' /e/ khép như 'ê'; 'très' /ɛ/ mở như 'e'."
+  },
+  {
+   "fr": "J'achète un billet à la station.",
+   "vi": "Tôi mua vé ở ga.",
+   "focus_vi": "'billet' /bijɛ/: ill đọc như âm 'i' lướt, không có âm l."
+  },
+  {
+   "fr": "Quelle ligne va au centre-ville ?",
+   "vi": "Tuyến nào đi vào trung tâm vậy?",
+   "focus_vi": "gn trong 'ligne' đọc như 'nh' tiếng Việt: /liɲ/."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Xin lỗi, cho hỏi ra ga metro đi đường nào ạ?",
+   "fr_ref": "Pardon, pour aller à la station de métro, s'il vous plaît ?",
+   "hint_fr": "pour aller à"
+  },
+  {
+   "vi": "Vé xe buýt bao nhiêu tiền vậy?",
+   "fr_ref": "C'est combien, le billet de bus ?",
+   "hint_fr": "le billet"
+  },
+  {
+   "vi": "Trạm xe buýt ở đâu vậy anh?",
+   "fr_ref": "Où est l'arrêt de bus, s'il vous plaît ?",
+   "hint_fr": "l'arrêt"
+  },
+  {
+   "vi": "Tôi phải đổi tuyến ở đâu?",
+   "fr_ref": "Où est-ce que je prends la correspondance ?",
+   "hint_fr": "la correspondance"
+  },
+  {
+   "vi": "Tôi xuống ở trạm nào vậy?",
+   "fr_ref": "Je descends à quel arrêt ?",
+   "hint_fr": "descendre"
+  },
+  {
+   "vi": "Tới ngã tư thì quẹo phải hả?",
+   "fr_ref": "Au carrefour, je tourne à droite ?",
+   "hint_fr": "à droite"
+  },
+  {
+   "vi": "Tôi cứ đi thẳng hả anh?",
+   "fr_ref": "Je continue tout droit ?",
+   "hint_fr": "tout droit"
+  },
+  {
+   "vi": "Xin lỗi, nhà thuốc ở đối diện ngân hàng phải không ạ?",
+   "fr_ref": "Pardon, la pharmacie est en face de la banque ?",
+   "hint_fr": "en face de"
+  }
+ ],
+ "scenario": {
+  "role": "Friendly employee at the ticket booth of a metro station in Montréal.",
+  "context": "The learner is a Vietnamese newcomer, absolute beginner in French, who needs to get to an address downtown. He needs to buy a ticket, know whether to take the metro or the bus, where to transfer, where to get off, whether it is far, and how to walk from the stop (left, right, straight ahead). It is winter and buses may be late. Speak slow, simple A1 French with 'vous', one or two short sentences per turn. Do not state real prices, real line numbers or official transit rules; keep such details vague or clearly made up for the role-play.",
+  "opener_fr": "Bonjour, je peux vous aider ? Vous allez où ?",
+  "opener_vi": "Chào anh, tôi giúp gì được anh? Anh muốn đi đâu?"
+ }
+}

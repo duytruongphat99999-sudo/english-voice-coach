@@ -1,0 +1,11 @@
+# Free static edition. No .env, database, AI service, or API key required.
+name: english-voice-coach-public
+services:
+  web:
+    build: ./web
+    image: english-voice-coach:public
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:4324:80"
+    volumes:
+      - ./web/nginx-public.conf:/etc/nginx/conf.d/default.conf:ro

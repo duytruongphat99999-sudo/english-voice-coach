@@ -1,0 +1,183 @@
+{
+  "id": "dien_thoai",
+  "name_vi": "Điện thoại, internet",
+  "emoji": "📱",
+  "track": "everyday",
+  "order": 12,
+  "vocab": [
+    {
+      "word": "unstable connection",
+      "ipa": "/ʌnˈsteɪ.bəl kəˈnek.ʃən/",
+      "meaning_vi": "kết nối chập chờn",
+      "example_en": "My video kept freezing because of an unstable connection.",
+      "example_vi": "Video của tôi cứ bị đứng hình suốt vì kết nối chập chờn."
+    },
+    {
+      "word": "run out of battery",
+      "ipa": "/rʌn aʊt əv ˈbæt̬.ɚ.i/",
+      "meaning_vi": "hết pin",
+      "example_en": "I cannot take photos because my phone is about to run out of battery.",
+      "example_vi": "Tôi không chụp ảnh được vì điện thoại sắp hết pin rồi."
+    },
+    {
+      "word": "glitch",
+      "ipa": "/ɡlɪtʃ/",
+      "meaning_vi": "lỗi phần mềm nhỏ, lag",
+      "example_en": "The medical app has a small glitch and won't open the PDF.",
+      "example_vi": "Ứng dụng y tế bị một lỗi nhỏ và không mở được file PDF."
+    },
+    {
+      "word": "cellular data",
+      "ipa": "/ˈsel.jə.lɚ ˈdeɪ.t̬ə/",
+      "meaning_vi": "mạng di động, 3G/4G/5G",
+      "example_en": "I have to switch to cellular data because the clinic's Wi-Fi is slow.",
+      "example_vi": "Tôi phải chuyển sang dùng mạng di động vì Wi-Fi ở phòng khám chậm quá."
+    },
+    {
+      "word": "text message",
+      "ipa": "/tekst ˈmes.ɪdʒ/",
+      "meaning_vi": "tin nhắn văn bản",
+      "example_en": "Please send me a text message with the patient's phone number.",
+      "example_vi": "Vui lòng gửi cho tôi một tin nhắn văn bản có số điện thoại của bệnh nhân."
+    },
+    {
+      "word": "scroll through",
+      "ipa": "/skroʊl θruː/",
+      "meaning_vi": "lướt (mạng xã hội, tin tức)",
+      "example_en": "I often scroll through my social media feed before going to sleep.",
+      "example_vi": "Tôi thường lướt bảng tin mạng xã hội trước khi đi ngủ."
+    },
+    {
+      "word": "fast charger",
+      "ipa": "/fæst ˈtʃɑːr.dʒɚ/",
+      "meaning_vi": "sạc nhanh",
+      "example_en": "Do you have a fast charger I can borrow for ten minutes?",
+      "example_vi": "Bạn có cục sạc nhanh nào cho tôi mượn mười phút được không?"
+    },
+    {
+      "word": "scan a QR code",
+      "ipa": "/skæn ə ˌkjuːˈɑːr koʊd/",
+      "meaning_vi": "quét mã QR",
+      "example_en": "You can scan a QR code to pay for the consultation fee.",
+      "example_vi": "Bạn có thể quét mã QR để thanh toán phí khám."
+    },
+    {
+      "word": "lagging",
+      "ipa": "/ˈlæɡ.ɪŋ/",
+      "meaning_vi": "bị giật lag, chậm",
+      "example_en": "Your voice is lagging, so I missed the last part of your sentence.",
+      "example_vi": "Giọng của bạn đang bị lag nên tôi đã bỏ lỡ vế cuối câu của bạn."
+    },
+    {
+      "word": "log in",
+      "ipa": "/lɔːɡ ɪn/",
+      "meaning_vi": "đăng nhập",
+      "example_en": "I cannot log in to my bank account to transfer the money.",
+      "example_vi": "Tôi không thể đăng nhập vào tài khoản ngân hàng để chuyển tiền."
+    },
+    {
+      "word": "mute",
+      "ipa": "/mjuːt/",
+      "meaning_vi": "tắt tiếng, tắt micro",
+      "example_en": "You are on mute, so we cannot hear your presentation.",
+      "example_vi": "Bạn đang tắt mic rồi nên chúng tôi không nghe thấy bài thuyết trình của bạn."
+    },
+    {
+      "word": "screen sharing",
+      "ipa": "/skriːn ˈʃer.ɪŋ/",
+      "meaning_vi": "chia sẻ màn hình",
+      "example_en": "Let me start screen sharing so you can see the clinical photos.",
+      "example_vi": "Để tôi bắt đầu chia sẻ màn hình để bạn có thể xem các ảnh lâm sàng."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The speaker asked me to start screen sharing during the live presentation.",
+      "vi": "Diễn giả đã yêu cầu tôi bắt đầu chia sẻ màn hình trong buổi thuyết trình trực tiếp.",
+      "focus_vi": "Phát âm rõ âm đuôi /s/ trong 'speaker' và 'presentation'"
+    },
+    {
+      "en": "She scrolls through social media to check for new skincare trends.",
+      "vi": "Cô ấy lướt mạng xã hội để kiểm tra các xu hướng chăm sóc da mới.",
+      "focus_vi": "Chú ý phát âm đúng âm cuối /z/ trong 'scrolls' và 'trends'"
+    },
+    {
+      "en": "This smart app tracks the health of the dogs on the farm.",
+      "vi": "Ứng dụng thông minh này theo dõi sức khỏe của những con chó trong trang trại.",
+      "focus_vi": "Cố gắng phát âm cụm phụ âm /tr/ trong 'tracks'"
+    },
+    {
+      "en": "I scanned the code but the online payment still did not work.",
+      "vi": "Tôi đã quét mã nhưng thanh toán trực tuyến vẫn không hoạt động.",
+      "focus_vi": "Bật rõ âm cuối đuôi -ed /nd/ trong 'scanned'"
+    },
+    {
+      "en": "Please check if your phone is connected to the conference Wi-Fi.",
+      "vi": "Vui lòng kiểm tra xem điện thoại của bạn có kết nối với Wi-Fi của hội nghị không.",
+      "focus_vi": "Phát âm rõ âm cuối đuôi -ed /t/ trong 'connected'"
+    },
+    {
+      "en": "The signal strength is very weak here, so my video call stopped.",
+      "vi": "Sóng ở đây rất yếu, nên cuộc gọi video của tôi đã bị dừng.",
+      "focus_vi": "Phát âm chuẩn âm /θ/ trong từ 'strength'"
+    },
+    {
+      "en": "He plugged his phone into the wall because his battery was dead.",
+      "vi": "Anh ấy đã cắm điện thoại vào tường vì pin của anh ấy đã hết sạch.",
+      "focus_vi": "Bật rõ âm đuôi -ed /ɡd/ trong 'plugged'"
+    },
+    {
+      "en": "We had to reschedule the Zoom call because the system crashed twice.",
+      "vi": "Chúng tôi phải dời lịch cuộc gọi Zoom vì hệ thống bị sập hai lần.",
+      "focus_vi": "Phát âm rõ âm cuối đuôi -ed /ʃt/ trong 'crashed'"
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Mạng Wi-Fi ở phòng khám da liễu này không cần mật khẩu đâu.",
+      "en_ref": "The Wi-Fi at this dermatology clinic does not need a password.",
+      "hint_en": "does not need a password"
+    },
+    {
+      "vi": "Điện thoại của tôi cứ bị sập nguồn dù pin vẫn còn năm mươi phần trăm.",
+      "en_ref": "My phone keeps shutting down even though the battery is at fifty percent.",
+      "hint_en": "keeps shutting down"
+    },
+    {
+      "vi": "Tôi có thể thanh toán tiền thuốc bằng cách chuyển khoản ngân hàng trực tuyến không?",
+      "en_ref": "Can I pay for the medicine using an online bank transfer?",
+      "hint_en": "online bank transfer"
+    },
+    {
+      "vi": "Hình như bạn đang tắt mic rồi, tôi không nghe thấy bạn nói gì cả.",
+      "en_ref": "I think you are on mute, I cannot hear you at all.",
+      "hint_en": "on mute"
+    },
+    {
+      "vi": "Ứng dụng này thỉnh thoảng bị lag khi tôi cố gắng tải ảnh lâm sàng lên.",
+      "en_ref": "This app sometimes lags when I try to upload clinical photos.",
+      "hint_en": "lags when I try"
+    },
+    {
+      "vi": "Tôi vừa gửi cho bạn một tin nhắn trên Zalo kèm theo danh sách vắc-xin.",
+      "en_ref": "I just sent you a message on Zalo with the vaccine list.",
+      "hint_en": "sent you a message"
+    },
+    {
+      "vi": "Tôi cần mua một cục sạc dự phòng tốt cho chuyến công tác tuần tới.",
+      "en_ref": "I need to buy a good power bank for my business trip next week.",
+      "hint_en": "good power bank"
+    },
+    {
+      "vi": "Cuộc gọi video bị gián đoạn vì sóng di động ở vùng nông thôn rất kém.",
+      "en_ref": "The video call dropped because the mobile signal in the countryside is very poor.",
+      "hint_en": "video call dropped"
+    }
+  ],
+  "scenario": {
+    "role": "An international supplier of medical and veterinary equipment",
+    "context": "You are trying to have a video call with a supplier to discuss a shipping issue, but your internet is lagging, your screen sharing is not working, and your battery is low.",
+    "opener_en": "Hello! I can see your face but your audio is lagging badly. Can you hear me clearly on your end?",
+    "opener_vi": "Xin chào! Tôi thấy mặt bạn nhưng âm thanh của bạn bị lag rất nặng. Bạn có nghe rõ tôi nói bên phía bạn không?"
+  }
+}

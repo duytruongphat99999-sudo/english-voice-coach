@@ -1,0 +1,206 @@
+{
+ "id": "fr_gioithieu",
+ "order": 1,
+ "emoji": "🪪",
+ "name_vi": "Tự giới thiệu & giấy tờ",
+ "vocab": [
+  {
+   "word": "s'appeler",
+   "gender": "",
+   "ipa": "/saple/",
+   "meaning_vi": "tên là",
+   "example_fr": "Je m'appelle Minh, et vous ?",
+   "example_vi": "Tôi tên Minh, còn anh/chị?",
+   "note_vi": "Viết 'je m'appelle' hai chữ l, nhưng 'nous nous appelons' chỉ một chữ l."
+  },
+  {
+   "word": "le nom de famille",
+   "gender": "m",
+   "ipa": "/lə nɔ̃ də famij/",
+   "meaning_vi": "họ",
+   "example_fr": "Mon nom de famille est Nguyen.",
+   "example_vi": "Họ của tôi là Nguyễn.",
+   "note_vi": "Trên mẫu đơn, ô 'Nom' là họ chứ không phải tên. 'ille' trong famille đọc /ij/."
+  },
+  {
+   "word": "le prénom",
+   "gender": "m",
+   "ipa": "/lə pʁenɔ̃/",
+   "meaning_vi": "tên (tên gọi)",
+   "example_fr": "Quel est votre prénom, madame ?",
+   "example_vi": "Tên của chị là gì ạ?",
+   "note_vi": "Prénom là tên gọi (Minh), khác 'nom' là họ (Nguyen)."
+  },
+  {
+   "word": "venir de",
+   "gender": "",
+   "ipa": "/vəniʁ də/",
+   "meaning_vi": "đến từ",
+   "example_fr": "Je viens du Vietnam, de Hanoï.",
+   "example_vi": "Tôi đến từ Việt Nam, từ Hà Nội.",
+   "note_vi": "du Vietnam = de + le Vietnam. Nước giống cái thì dùng 'de': je viens de France."
+  },
+  {
+   "word": "la nationalité",
+   "gender": "f",
+   "ipa": "/la nasjɔnalite/",
+   "meaning_vi": "quốc tịch",
+   "example_fr": "Je suis de nationalité vietnamienne.",
+   "example_vi": "Tôi mang quốc tịch Việt Nam.",
+   "note_vi": "Danh từ đuôi -té hầu như đều là giống cái."
+  },
+  {
+   "word": "l'adresse",
+   "gender": "f",
+   "ipa": "/ladʁɛs/",
+   "meaning_vi": "địa chỉ",
+   "example_fr": "Quelle est votre adresse à Montréal ?",
+   "example_vi": "Địa chỉ của anh ở Montréal là gì?",
+   "note_vi": "Giống cái. Tiếng Pháp chỉ có một chữ d (tiếng Anh viết address)."
+  },
+  {
+   "word": "la date de naissance",
+   "gender": "f",
+   "ipa": "/la dat də nɛsɑ̃s/",
+   "meaning_vi": "ngày sinh",
+   "example_fr": "Ma date de naissance est le trois mai.",
+   "example_vi": "Tôi sinh ngày ba tháng Năm.",
+   "note_vi": "Ngày đứng trước tháng như tiếng Việt; ngày mùng một nói 'le premier'."
+  },
+  {
+   "word": "l'état civil",
+   "gender": "m",
+   "ipa": "/leta sivil/",
+   "meaning_vi": "tình trạng hôn nhân (trên giấy tờ)",
+   "example_fr": "Quel est votre état civil, monsieur ?",
+   "example_vi": "Tình trạng hôn nhân của anh thế nào?",
+   "note_vi": "Giống đực. Ô này hỏi bạn độc thân (célibataire), đã kết hôn (marié) hay sống chung như vợ chồng (conjoint de fait)."
+  },
+  {
+   "word": "la profession",
+   "gender": "f",
+   "ipa": "/la pʁɔfɛsjɔ̃/",
+   "meaning_vi": "nghề nghiệp",
+   "example_fr": "Ma profession ? Je suis cuisinier.",
+   "example_vi": "Nghề của tôi à? Tôi làm đầu bếp.",
+   "note_vi": "Nói nghề không dùng 'un/une': 'je suis cuisinier', không nói 'je suis un cuisinier'."
+  },
+  {
+   "word": "remplir un formulaire",
+   "gender": "",
+   "ipa": "/ʁɑ̃pliʁ œ̃ fɔʁmylɛʁ/",
+   "meaning_vi": "điền mẫu đơn",
+   "example_fr": "Vous devez remplir ce formulaire, monsieur.",
+   "example_vi": "Anh cần điền mẫu đơn này.",
+   "note_vi": "Le formulaire là giống đực. Chữ u trong formulaire đọc /y/ (chu môi nói 'i'), không phải 'u' tiếng Việt."
+  },
+  {
+   "word": "la signature",
+   "gender": "f",
+   "ipa": "/la siɲatyʁ/",
+   "meaning_vi": "chữ ký",
+   "example_fr": "Votre signature en bas, s'il vous plaît.",
+   "example_vi": "Anh ký ở dưới cùng giúp tôi.",
+   "note_vi": "'gn' đọc như 'nh' tiếng Việt. Động từ là signer (ký tên)."
+  },
+  {
+   "word": "le numéro d'assurance sociale",
+   "gender": "m",
+   "ipa": "/lə nymeʁo dasyʁɑ̃s sɔsjal/",
+   "meaning_vi": "số bảo hiểm xã hội (NAS)",
+   "example_fr": "Voici mon numéro d'assurance sociale.",
+   "example_vi": "Đây là số bảo hiểm xã hội của tôi.",
+   "note_vi": "Viết tắt là le NAS. Giữ kín số này, chỉ đưa khi thật cần."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Je m'appelle Minh et je viens du Vietnam.",
+   "vi": "Tôi tên Minh và tôi đến từ Việt Nam.",
+   "focus_vi": "e câm trong 'm'appelle': chữ e cuối không đọc, đọc gọn 'ma-pel', không đọc 'ma-pe-lơ'."
+  },
+  {
+   "fr": "Mon nom de famille est Nguyen, mon prénom est Minh.",
+   "vi": "Họ tôi là Nguyễn, tên tôi là Minh.",
+   "focus_vi": "Âm mũi 'on' trong 'nom' và 'prénom': đọc /ɔ̃/ ra đằng mũi, không ngậm môi đọc chữ m."
+  },
+  {
+   "fr": "Ma date de naissance est le vingt avril.",
+   "vi": "Tôi sinh ngày hai mươi tháng Tư.",
+   "focus_vi": "Âm mũi 'an' trong 'naissance': mở miệng như 'a', đẩy hơi ra mũi, không bật âm n."
+  },
+  {
+   "fr": "Votre numéro d'assurance sociale, s'il vous plaît.",
+   "vi": "Cho tôi xin số bảo hiểm xã hội của anh.",
+   "focus_vi": "u khác ou: 'numéro' là /y/ (chu môi rồi nói 'i'), còn 'vous' là /u/ như 'u' tiếng Việt."
+  },
+  {
+   "fr": "Vous devez remplir ce formulaire en entier.",
+   "vi": "Anh phải điền hết mẫu đơn này.",
+   "focus_vi": "Âm r Pháp trong 'remplir' và 'formulaire': rung nhẹ ở cuống họng, không uốn lưỡi như 'r' tiếng Việt."
+  },
+  {
+   "fr": "Signez ici, en bas de la page.",
+   "vi": "Anh ký vào đây, ở cuối trang.",
+   "focus_vi": "'gn' trong 'signez' đọc như 'nh' tiếng Việt: 'xi-nhê'."
+  },
+  {
+   "fr": "Vous avez une pièce d'identité, monsieur ?",
+   "vi": "Anh có giấy tờ tùy thân không?",
+   "focus_vi": "Nối âm 'vous avez': chữ s thành /z/ nối sang a, đọc 'vu-za-vê'."
+  },
+  {
+   "fr": "Je suis marié et ma femme est infirmière.",
+   "vi": "Tôi đã có vợ, vợ tôi là y tá.",
+   "focus_vi": "é khác è: 'marié' là é (miệng hẹp, như 'ê'), 'infirmière' là è (miệng mở, như 'e')."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Chào chị, tôi tên là Minh.",
+   "fr_ref": "Bonjour madame, je m'appelle Minh.",
+   "hint_fr": "s'appeler"
+  },
+  {
+   "vi": "Họ tôi là Nguyễn, viết không có dấu.",
+   "fr_ref": "Mon nom de famille est Nguyen, sans accent.",
+   "hint_fr": "le nom de famille"
+  },
+  {
+   "vi": "Tôi từ Việt Nam sang, mới được một tháng.",
+   "fr_ref": "Je viens du Vietnam. Je suis ici depuis un mois.",
+   "hint_fr": "venir de"
+  },
+  {
+   "vi": "Tôi mới chuyển nhà, đây là địa chỉ mới của tôi.",
+   "fr_ref": "J'ai déménagé. Voici ma nouvelle adresse.",
+   "hint_fr": "l'adresse"
+  },
+  {
+   "vi": "Tôi sinh ngày mười hai tháng Tám.",
+   "fr_ref": "Ma date de naissance est le douze août.",
+   "hint_fr": "la date de naissance"
+  },
+  {
+   "vi": "Nghề của tôi là thợ điện.",
+   "fr_ref": "Je suis électricien de profession.",
+   "hint_fr": "la profession"
+  },
+  {
+   "vi": "Chị giúp tôi điền tờ đơn này được không ạ?",
+   "fr_ref": "Vous pouvez m'aider à remplir ce formulaire ?",
+   "hint_fr": "remplir un formulaire"
+  },
+  {
+   "vi": "Tôi chưa có số bảo hiểm xã hội.",
+   "fr_ref": "Je n'ai pas encore de numéro d'assurance sociale.",
+   "hint_fr": "le numéro d'assurance sociale"
+  }
+ ],
+ "scenario": {
+  "role": "A friendly clerk at a public service counter in Montréal helping a newcomer fill in a registration form.",
+  "context": "The learner is a Vietnamese newcomer, absolute beginner (A1). Ask one question at a time: last name, first name, date of birth, nationality, address and postal code, marital status, profession; then ask for a piece of ID and his signature. Speak slowly in simple A1 French and always use vous. If he struggles, repeat more slowly or rephrase with simpler words. Do not state any real rules or requirements of Canadian institutions.",
+  "opener_fr": "Bonjour monsieur, nous allons remplir le formulaire ensemble. Quel est votre nom de famille ?",
+  "opener_vi": "Chào anh, chúng ta cùng điền mẫu đơn nhé. Họ của anh là gì?"
+ }
+}

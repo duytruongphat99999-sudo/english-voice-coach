@@ -1,0 +1,206 @@
+{
+ "id": "fr_khambenh",
+ "order": 6,
+ "emoji": "💊",
+ "name_vi": "Khám bệnh & nhà thuốc",
+ "vocab": [
+  {
+   "word": "le médecin",
+   "gender": "m",
+   "ipa": "/lə medsɛ̃/",
+   "meaning_vi": "bác sĩ",
+   "example_fr": "Le médecin arrive dans dix minutes.",
+   "example_vi": "Mười phút nữa bác sĩ tới.",
+   "note_vi": "Chữ e giữa câm: [medsɛ̃]. Nói thường ngày cũng dùng 'le docteur'."
+  },
+  {
+   "word": "se sentir",
+   "gender": "",
+   "ipa": "/sə sɑ̃tiʁ/",
+   "meaning_vi": "cảm thấy (trong người)",
+   "example_fr": "Je ne me sens pas bien depuis dimanche.",
+   "example_vi": "Từ Chủ nhật tới giờ tôi thấy trong người không khỏe.",
+   "note_vi": "Động từ phản thân: je me sens, vous vous sentez. Thấy đỡ hơn: 'je me sens mieux'."
+  },
+  {
+   "word": "la carte d'assurance maladie",
+   "gender": "f",
+   "ipa": "/la kaʁt dasyʁɑ̃s maladi/",
+   "meaning_vi": "thẻ bảo hiểm y tế",
+   "example_fr": "Vous avez votre carte d'assurance maladie ?",
+   "example_vi": "Anh/chị có mang thẻ bảo hiểm y tế không?",
+   "note_vi": "Giống cái. Tên gọi có thể khác tùy tỉnh; đi khám nhớ mang theo."
+  },
+  {
+   "word": "avoir mal à",
+   "gender": "",
+   "ipa": "/avwaʁ mal a/",
+   "meaning_vi": "bị đau (ở chỗ nào đó)",
+   "example_fr": "J'ai mal à la tête depuis hier.",
+   "example_vi": "Tôi bị đau đầu từ hôm qua.",
+   "note_vi": "à + le = au, à + les = aux: 'j'ai mal au ventre', 'j'ai mal aux dents'."
+  },
+  {
+   "word": "la fièvre",
+   "gender": "f",
+   "ipa": "/la fjɛvʁ/",
+   "meaning_vi": "sốt, cơn sốt",
+   "example_fr": "Vous avez de la fièvre, madame ?",
+   "example_vi": "Chị có bị sốt không?",
+   "note_vi": "Giống cái. Bị sốt nói là 'avoir de la fièvre'."
+  },
+  {
+   "word": "tousser",
+   "gender": "",
+   "ipa": "/tuse/",
+   "meaning_vi": "ho",
+   "example_fr": "Mon mari tousse depuis une semaine.",
+   "example_vi": "Chồng tôi ho cả tuần nay rồi.",
+   "note_vi": "Danh từ 'cơn ho' là 'la toux' [tu], chữ x câm."
+  },
+  {
+   "word": "l'ordonnance",
+   "gender": "f",
+   "ipa": "/lɔʁdɔnɑ̃s/",
+   "meaning_vi": "đơn thuốc",
+   "example_fr": "Le médecin me donne une ordonnance.",
+   "example_vi": "Bác sĩ kê cho tôi một đơn thuốc.",
+   "note_vi": "Giống cái. Ở Québec hay nói: 'la prescription'."
+  },
+  {
+   "word": "le médicament",
+   "gender": "m",
+   "ipa": "/lə medikamɑ̃/",
+   "meaning_vi": "thuốc (chữa bệnh)",
+   "example_fr": "N'oubliez pas de prendre votre médicament.",
+   "example_vi": "Đừng quên uống thuốc nhé.",
+   "note_vi": "Uống thuốc là 'prendre un médicament', không dùng 'boire'. Chữ t cuối câm."
+  },
+  {
+   "word": "l'allergie",
+   "gender": "f",
+   "ipa": "/lalɛʁʒi/",
+   "meaning_vi": "dị ứng",
+   "example_fr": "Vous avez une allergie à un médicament ?",
+   "example_vi": "Anh/chị có bị dị ứng thuốc nào không?",
+   "note_vi": "Giống cái. Cũng nói: 'Je suis allergique à...' (tôi bị dị ứng với...)."
+  },
+  {
+   "word": "le pharmacien",
+   "gender": "m",
+   "ipa": "/lə faʁmasjɛ̃/",
+   "meaning_vi": "dược sĩ",
+   "example_fr": "Demandez conseil au pharmacien.",
+   "example_vi": "Anh/chị cứ hỏi dược sĩ cho chắc.",
+   "note_vi": "Nữ: 'la pharmacienne'. 'ph' đọc [f], 'ien' là âm mũi [jɛ̃]."
+  },
+  {
+   "word": "les urgences",
+   "gender": "fpl",
+   "ipa": "/lezyʁʒɑ̃s/",
+   "meaning_vi": "phòng cấp cứu",
+   "example_fr": "Il faut aller aux urgences tout de suite.",
+   "example_vi": "Phải đi cấp cứu ngay.",
+   "note_vi": "Giống cái, số nhiều; nối âm [lezyʁʒɑ̃s]. Ở Québec hay nói số ít: 'l'urgence'."
+  },
+  {
+   "word": "fois par jour",
+   "gender": "",
+   "ipa": "/fwa paʁ ʒuʁ/",
+   "meaning_vi": "(mấy) lần mỗi ngày",
+   "example_fr": "Prenez un comprimé deux fois par jour.",
+   "example_vi": "Mỗi lần uống một viên, ngày hai lần.",
+   "note_vi": "Hỏi: 'Combien de fois par jour ?' = ngày mấy lần? Chữ s cuối 'fois' câm."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Je voudrais voir un médecin aujourd'hui.",
+   "vi": "Hôm nay tôi muốn gặp bác sĩ.",
+   "focus_vi": "médecin: chữ e thứ hai câm, đọc gọn hai âm tiết [med-sɛ̃], không đọc thành 'mê-đơ-xanh'."
+  },
+  {
+   "fr": "Où sont les urgences, s'il vous plaît ?",
+   "vi": "Cho hỏi phòng cấp cứu ở đâu ạ?",
+   "focus_vi": "les urgences: nối âm, chữ s của 'les' đọc thành [z] dính sang 'urgences': [lezyʁʒɑ̃s]."
+  },
+  {
+   "fr": "J'ai mal à la gorge et j'ai de la fièvre.",
+   "vi": "Tôi bị đau họng và bị sốt.",
+   "focus_vi": "gorge: chữ r phát ra ở cuống họng, không rung lưỡi và không được bỏ qua; đọc [ɡɔʁʒ]."
+  },
+  {
+   "fr": "Je tousse beaucoup, surtout la nuit.",
+   "vi": "Tôi ho nhiều, nhất là về đêm.",
+   "focus_vi": "surtout: 'sur' có âm [y] (chu môi, lưỡi như nói 'i'), 'tout' có âm [u] như 'u' tiếng Việt; đừng đọc cả hai thành 'u'."
+  },
+  {
+   "fr": "Ce matin, je me sens un peu mieux.",
+   "vi": "Sáng nay tôi thấy đỡ hơn một chút.",
+   "focus_vi": "sens: 'en' là âm mũi [ɑ̃], miệng mở to, chữ s cuối câm; khác 'in' trong 'matin' là [ɛ̃], miệng bè ngang."
+  },
+  {
+   "fr": "Prenez ce médicament trois fois par jour.",
+   "vi": "Uống thuốc này ngày ba lần.",
+   "focus_vi": "médicament: chữ t cuối câm, từ kết thúc bằng âm mũi [ɑ̃], không đọc n."
+  },
+  {
+   "fr": "Vous pouvez signer ce formulaire, s'il vous plaît ?",
+   "vi": "Anh/chị vui lòng ký vào mẫu đơn này.",
+   "focus_vi": "signer: 'gn' đọc như 'nh' tiếng Việt: [siɲe], gần như 'xi-nhê'."
+  },
+  {
+   "fr": "J'ai une allergie à la pénicilline.",
+   "vi": "Tôi bị dị ứng với penicillin.",
+   "focus_vi": "allergie: 'g' trước 'i' đọc [ʒ] mềm (như 's' trong tiếng Anh 'measure'), không bật 'j' như 'allergy' tiếng Anh."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Tôi thấy trong người không khỏe, tôi muốn gặp bác sĩ.",
+   "fr_ref": "Je ne me sens pas bien, je voudrais voir un médecin.",
+   "hint_fr": "se sentir"
+  },
+  {
+   "vi": "Tôi bị đau bụng từ tối qua.",
+   "fr_ref": "J'ai mal au ventre depuis hier soir.",
+   "hint_fr": "avoir mal à"
+  },
+  {
+   "vi": "Con tôi sốt từ sáng tới giờ.",
+   "fr_ref": "Mon enfant a de la fièvre depuis ce matin.",
+   "hint_fr": "la fièvre"
+  },
+  {
+   "vi": "Chị có thuốc trị ho không?",
+   "fr_ref": "Vous avez un médicament contre la toux ?",
+   "hint_fr": "le médicament"
+  },
+  {
+   "vi": "Tôi bị dị ứng đậu phộng.",
+   "fr_ref": "J'ai une allergie aux arachides.",
+   "hint_fr": "l'allergie"
+  },
+  {
+   "vi": "Thuốc này ngày uống mấy lần vậy?",
+   "fr_ref": "Je dois prendre ce médicament combien de fois par jour ?",
+   "hint_fr": "fois par jour"
+  },
+  {
+   "vi": "Tôi có đơn thuốc của bác sĩ đây.",
+   "fr_ref": "J'ai une ordonnance du médecin.",
+   "hint_fr": "l'ordonnance"
+  },
+  {
+   "vi": "Đây là thẻ bảo hiểm y tế của tôi.",
+   "fr_ref": "Voici ma carte d'assurance maladie.",
+   "hint_fr": "la carte d'assurance maladie"
+  }
+ ],
+ "scenario": {
+  "role": "A friendly family doctor at a medical clinic in Montréal.",
+  "context": "The learner is a patient who has had a sore throat, a cough and a fever for three days. Ask simple questions one at a time: where it hurts, since when, fever, allergies to medicines. Then say you are writing a prescription, explain in words how many times a day to take the medicine, and tell them to go to the pharmacy. Speak slowly in simple A1 French and always use 'vous'. Keep everything generic: no real drug names, no real medical advice, no facts about the health system.",
+  "opener_fr": "Bonjour, asseyez-vous. Qu'est-ce qui ne va pas ?",
+  "opener_vi": "Chào anh/chị, mời ngồi. Anh/chị thấy không khỏe ở đâu?"
+ }
+}

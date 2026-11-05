@@ -1,0 +1,183 @@
+{
+  "id": "mua_sam",
+  "name_vi": "Mua sắm",
+  "emoji": "🛒",
+  "track": "everyday",
+  "order": 5,
+  "vocab": [
+    {
+      "word": "run small",
+      "ipa": "/ˈrʌn ˈsmɔːl/",
+      "meaning_vi": "có phom dáng nhỏ hơn bình thường",
+      "example_en": "These Italian leather shoes run small, so you should buy a size up.",
+      "example_vi": "Đôi giày da Ý này phom hơi nhỏ, nên bạn nên mua tăng lên một size."
+    },
+    {
+      "word": "store credit",
+      "ipa": "/ˈstɔːr ˈkrɛd.ɪt/",
+      "meaning_vi": "thẻ mua hàng đổi trả (không hoàn tiền mặt)",
+      "example_en": "They do not give refunds, but they can offer you store credit.",
+      "example_vi": "Họ không hoàn tiền mặt, nhưng họ có thể đưa cho bạn thẻ mua hàng."
+    },
+    {
+      "word": "in bulk",
+      "ipa": "/ɪn ˈbʌlk/",
+      "meaning_vi": "mua số lượng lớn (để được giá sỉ)",
+      "example_en": "As a vet, I usually buy clinic supplies in bulk to save money.",
+      "example_vi": "Là một bác sĩ thú y, tôi thường mua sỉ vật tư phòng khám để tiết kiệm tiền."
+    },
+    {
+      "word": "track an order",
+      "ipa": "/træk æn ˈɔːr.dɚ/",
+      "meaning_vi": "theo dõi hành trình đơn hàng",
+      "example_en": "Can you help me track an order that was shipped last Tuesday?",
+      "example_vi": "Bạn có thể giúp tôi theo dõi đơn hàng đã được giao vào thứ Ba tuần trước không?"
+    },
+    {
+      "word": "fitting room",
+      "ipa": "/ˈfɪt.ɪŋ ˌruːm/",
+      "meaning_vi": "phòng thử đồ",
+      "example_en": "The fitting room is located right behind the main checkout counter.",
+      "example_vi": "Phòng thử đồ nằm ngay phía sau quầy thanh toán chính."
+    },
+    {
+      "word": "rip-off",
+      "ipa": "/ˈrɪp.ɔːf/",
+      "meaning_vi": "giá quá đắt, cú lừa tiền",
+      "example_en": "Paying fifty dollars for a basic T-shirt is a total rip-off.",
+      "example_vi": "Trả năm mươi đô cho một chiếc áo thun trơn đúng là một cú lừa."
+    },
+    {
+      "word": "damaged on arrival",
+      "ipa": "/ˈdæm.ɪdʒd ɑːn əˈraɪ.vəl/",
+      "meaning_vi": "bị hư hại khi vừa giao đến nơi",
+      "example_en": "The medical creams were damaged on arrival because of the heat.",
+      "example_vi": "Các tuýp kem y tế bị hỏng ngay khi giao đến do ảnh hưởng của nhiệt độ."
+    },
+    {
+      "word": "checkout counter",
+      "ipa": "/ˈtʃɛk.aʊt ˈkaʊn.tɚ/",
+      "meaning_vi": "quầy thanh toán",
+      "example_en": "Please bring these items to the checkout counter near the exit.",
+      "example_vi": "Vui lòng mang những món đồ này đến quầy thanh toán gần lối ra."
+    },
+    {
+      "word": "under warranty",
+      "ipa": "/ˈʌn.dɚ ˈwɔːr.ən.t̬i/",
+      "meaning_vi": "còn trong thời hạn bảo hành",
+      "example_en": "This laser device is still under warranty, so repairs are free.",
+      "example_vi": "Thiết bị laser này vẫn còn trong thời gian bảo hành, nên việc sửa chữa là miễn phí."
+    },
+    {
+      "word": "clearance rack",
+      "ipa": "/ˈklɪr.əns ˌræk/",
+      "meaning_vi": "quầy hàng thanh lý, xả kho",
+      "example_en": "I found this beautiful silk shirt on the clearance rack for cheap.",
+      "example_vi": "Tôi tìm thấy chiếc áo sơ mi lụa đẹp đẽ này trên quầy thanh lý với giá rẻ."
+    },
+    {
+      "word": "final sale",
+      "ipa": "/ˈfaɪ.nəl ˈseɪl/",
+      "meaning_vi": "hàng bán đứt (không được đổi trả)",
+      "example_en": "Keep in mind that all clearance items are final sale.",
+      "example_vi": "Hãy lưu ý rằng tất cả các mặt hàng thanh lý đều là hàng miễn đổi trả."
+    },
+    {
+      "word": "out of stock",
+      "ipa": "/ˌaʊt əv ˈstɑːk/",
+      "meaning_vi": "hết hàng",
+      "example_en": "I wanted to buy that sunscreen, but it is currently out of stock.",
+      "example_vi": "Tôi muốn mua loại kem chống nắng đó, nhưng hiện tại nó đang hết hàng."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "These shoes are nice, but they feel tight around my toes.",
+      "vi": "Đôi giày này đẹp đấy, nhưng chúng cảm giác hơi chật ở ngón chân tôi.",
+      "focus_vi": "Phát âm rõ âm đuôi /z/ ở từ \"shoes\" và \"toes\"."
+    },
+    {
+      "en": "The staff helped me find the straight-leg jeans.",
+      "vi": "Nhân viên đã giúp tôi tìm chiếc quần jean ống đứng.",
+      "focus_vi": "Phát âm chuẩn cụm phụ âm /str/ trong từ \"straight\"."
+    },
+    {
+      "en": "I returned the damaged package and asked for a refund.",
+      "vi": "Tôi đã trả lại gói hàng bị hỏng và yêu cầu hoàn tiền.",
+      "focus_vi": "Bật rõ âm đuôi /d/ trong \"returned\" và /t/ trong \"asked\"."
+    },
+    {
+      "en": "This leather jacket is thicker than the other one.",
+      "vi": "Chiếc áo khoác da này dày hơn chiếc áo khoác kia.",
+      "focus_vi": "Phân biệt rõ âm /ð/ trong \"leather\" và /θ/ trong \"thicker\"."
+    },
+    {
+      "en": "Please deliver the fresh milk and red apples tomorrow.",
+      "vi": "Làm ơn giao sữa tươi và táo đỏ vào ngày mai nhé.",
+      "focus_vi": "Luyện phát âm chuẩn âm /r/ và /l/ tránh bị lẫn lộn."
+    },
+    {
+      "en": "He asks for a discount because the box is cracked.",
+      "vi": "Anh ấy đòi giảm giá vì chiếc hộp đã bị nứt.",
+      "focus_vi": "Luyện âm đuôi /s/ trong \"asks\" và /kt/ trong \"cracked\"."
+    },
+    {
+      "en": "We need to inspect the shipping costs before we pay.",
+      "vi": "Chúng ta cần kiểm tra chi phí vận chuyển trước khi thanh toán.",
+      "focus_vi": "Chú ý cụm phụ âm /sp/ trong \"inspect\" và /sts/ trong \"costs\"."
+    },
+    {
+      "en": "The stores in this mall close at eight tonight.",
+      "vi": "Các cửa hàng trong trung tâm thương mại này đóng cửa lúc tám giờ tối nay.",
+      "focus_vi": "Luyện âm đuôi /z/ ở \"stores\" và /t/ ở \"eight\" và \"tonight\"."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Cái áo khoác này có cỡ lớn hơn không em?",
+      "en_ref": "Do you have this jacket in a larger size?",
+      "hint_en": "larger size"
+    },
+    {
+      "vi": "Shipper vừa giao món đồ này bị vỡ mất rồi.",
+      "en_ref": "The delivery driver just brought this, but it is broken.",
+      "hint_en": "delivery driver"
+    },
+    {
+      "vi": "Hàng này có được trả lại và hoàn tiền không?",
+      "en_ref": "Is this item eligible for a return and refund?",
+      "hint_en": "return and refund"
+    },
+    {
+      "vi": "Tôi muốn thử cái này, phòng thử đồ ở đâu vậy?",
+      "en_ref": "I want to try this on, where is the fitting room?",
+      "hint_en": "try this on"
+    },
+    {
+      "vi": "Giá này hơi đắt, bớt chút đỉnh được không bạn?",
+      "en_ref": "This price is a bit high, can you give me a discount?",
+      "hint_en": "give me a discount"
+    },
+    {
+      "vi": "Shop ơi, đơn hàng của mình bao giờ thì giao tới nơi?",
+      "en_ref": "Hi, when will my online order be delivered?",
+      "hint_en": "online order"
+    },
+    {
+      "vi": "Tôi mua sữa hộp loại lốc lớn cho rẻ.",
+      "en_ref": "I buy milk in bulk because it is cheaper.",
+      "hint_en": "in bulk"
+    },
+    {
+      "vi": "Tiệm này không cho trả lại tiền mặt, chỉ cho đổi thẻ mua hàng thôi.",
+      "en_ref": "This shop does not give refunds, only store credit.",
+      "hint_en": "store credit"
+    }
+  ],
+  "scenario": {
+    "role": "Shop assistant at a high-end clothing boutique",
+    "context": "You are shopping for a professional blazer or jacket to wear at an upcoming international conference. You need to ask about sizes, try it on, and ask about the return policy just in case it does not fit perfectly.",
+    "opener_en": "Hi there! Welcome to our boutique. Are you looking for something casual today, or do you need an outfit for a special event?",
+    "opener_vi": "Xin chào! Chào mừng bạn đến với cửa hàng của chúng tôi. Hôm nay bạn đang tìm đồ mặc thường ngày hay cần trang phục cho sự kiện đặc biệt?"
+  }
+}

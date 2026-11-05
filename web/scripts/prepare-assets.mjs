@@ -1,0 +1,30 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {resolve} from 'node:path';
+import sharp from 'sharp';
+const dir=resolve(import.meta.dirname,'..');
+const fontResponse=await fetch('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap',{headers:{'User-Agent':'Mozilla/5.0 Chrome/131.0.0.0 Safari/537.36'}});
+if(!fontResponse.ok)throw new Error('Font stylesheet unavailable');
+const css=await fontResponse.text();
+let rules='';
+mkdirSync(resolve(dir,'public/fonts'),{recursive:true});
+for(const block of css.split('/*')){
+  const subset=block.startsWith(' vietnamese')?'vietnamese':block.startsWith(' latin */')?'latin':null;
+  if(!subset)continue;
+  const weight=/font-weight: (\d+)/.exec(block)?.[1];
+  const url=/url\((https:[^)]+)\)/.exec(block)?.[1];
+  if(!weight||!url)continue;
+  const name=`be-vietnam-pro-${subset}-${weight}.woff2`;
+  const res=await fetch(url);if(!res.ok)throw new Error('Font download failed');
+  writeFileSync(resolve(dir,'public/fonts',name),Buffer.from(await res.arrayBuffer()));
+  rules+='/* '+block.replace(url,'/fonts/'+name)+'\n';
+}
+const style=resolve(dir,'src/styles/study.css');
+const original=readFileSync(style,'utf8').replace(/\/\*\s*(?:vietnamese|latin)\s*\*\/\s*@font-face\s*\{[^}]*\}\s*/g,'');
+writeFileSync(style,rules.replaceAll("'Be Vietnam Pro'","Study")+original);
+const license=await fetch('https://raw.githubusercontent.com/google/fonts/main/ofl/bevietnampro/OFL.txt');
+if(!license.ok)throw new Error('Font license unavailable');
+writeFileSync(resolve(dir,'public/fonts/OFL.txt'),await license.text());
+const svg=readFileSync(resolve(dir,'public/icon.svg'));
+for(const size of [192,512])await sharp(svg).resize(size,size).png().toFile(resolve(dir,`public/icon-${size}.png`));
+await sharp({create:{width:512,height:512,channels:4,background:'#176b57'}}).composite([{input:await sharp(svg).resize(320,320).toBuffer(),gravity:'centre'}]).png().toFile(resolve(dir,'public/icon-maskable.png'));
+console.log('Local fonts and PWA icons ready');

@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import SessionEntry from '../islands/SessionEntry';
+---
+
+<!-- bare: dang hoi thoai thi khong co thanh dieu huong duoi (spec §6.1) -->
+<Base title="Hội thoại · English Voice Coach" bare>
+  <SessionEntry client:only="preact" />
+</Base>

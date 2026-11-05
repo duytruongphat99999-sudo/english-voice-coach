@@ -1,0 +1,206 @@
+{
+ "id": "fr_thuenha",
+ "order": 3,
+ "emoji": "🏠",
+ "name_vi": "Thuê nhà",
+ "vocab": [
+  {
+   "word": "le propriétaire",
+   "gender": "m",
+   "ipa": "/lə pʁɔpʁijetɛʁ/",
+   "meaning_vi": "chủ nhà (người cho thuê)",
+   "example_fr": "Le propriétaire habite dans l'immeuble.",
+   "example_vi": "Chủ nhà sống ngay trong tòa nhà.",
+   "note_vi": "Chủ nhà là nữ: la propriétaire. Nói thân mật: le proprio."
+  },
+  {
+   "word": "le loyer",
+   "gender": "m",
+   "ipa": "/lə lwaje/",
+   "meaning_vi": "tiền thuê nhà",
+   "example_fr": "Le loyer est de mille dollars par mois.",
+   "example_vi": "Tiền nhà là một nghìn đô mỗi tháng.",
+   "note_vi": "Không liên quan 'lawyer' tiếng Anh. oy đọc 'oa-i': /lwaje/."
+  },
+  {
+   "word": "le bail",
+   "gender": "m",
+   "ipa": "/lə baj/",
+   "meaning_vi": "hợp đồng thuê nhà",
+   "example_fr": "Je signe le bail aujourd'hui.",
+   "example_vi": "Hôm nay tôi ký hợp đồng thuê nhà.",
+   "note_vi": "Đuôi -ail đọc là 'ai'. Số nhiều bất quy tắc: les baux."
+  },
+  {
+   "word": "le dépôt de garantie",
+   "gender": "m",
+   "ipa": "/lə depo də ɡaʁɑ̃ti/",
+   "meaning_vi": "tiền đặt cọc",
+   "example_fr": "Quand est-ce que je paie le dépôt de garantie ?",
+   "example_vi": "Khi nào tôi đóng tiền cọc ạ?",
+   "note_vi": "Nói gọn: le dépôt. Ở Canada, luật về tiền cọc mỗi tỉnh bang một khác, nên tìm hiểu trước khi trả tiền."
+  },
+  {
+   "word": "le chauffage",
+   "gender": "m",
+   "ipa": "/lə ʃofaʒ/",
+   "meaning_vi": "hệ thống sưởi, tiền sưởi",
+   "example_fr": "Vous pouvez monter le chauffage, s'il vous plaît ?",
+   "example_vi": "Anh/chị vặn sưởi lên giúp tôi được không?",
+   "note_vi": "ch đọc như 'sh' tiếng Anh, không phải 'ch' tiếng Việt."
+  },
+  {
+   "word": "meublé",
+   "gender": "",
+   "ipa": "/mœble/",
+   "meaning_vi": "có sẵn đồ đạc",
+   "example_fr": "Je cherche un appartement meublé.",
+   "example_vi": "Tôi đang tìm căn hộ có sẵn đồ đạc.",
+   "note_vi": "Không có đồ: non meublé. eu tròn môi, gần 'ơ'."
+  },
+  {
+   "word": "la chambre",
+   "gender": "f",
+   "ipa": "/la ʃɑ̃bʁ/",
+   "meaning_vi": "phòng ngủ",
+   "example_fr": "L'appartement a deux chambres.",
+   "example_vi": "Căn hộ có hai phòng ngủ.",
+   "note_vi": "Chỉ là phòng ngủ; phòng nói chung là la pièce."
+  },
+  {
+   "word": "la clé",
+   "gender": "f",
+   "ipa": "/la kle/",
+   "meaning_vi": "chìa khóa",
+   "example_fr": "Je peux avoir la clé samedi ?",
+   "example_vi": "Thứ bảy tôi lấy chìa khóa được không?",
+   "note_vi": "Cũng viết là la clef, đọc y hệt (chữ f câm)."
+  },
+  {
+   "word": "réparer",
+   "gender": "",
+   "ipa": "/ʁepaʁe/",
+   "meaning_vi": "sửa, sửa chữa",
+   "example_fr": "Vous pouvez réparer le robinet, s'il vous plaît ?",
+   "example_vi": "Anh/chị sửa giúp cái vòi nước được không?",
+   "note_vi": "Giống 'repair' tiếng Anh nên dễ nhớ. r Pháp phát từ cổ họng."
+  },
+  {
+   "word": "emménager",
+   "gender": "",
+   "ipa": "/ɑ̃menaʒe/",
+   "meaning_vi": "dọn vào nhà mới",
+   "example_fr": "Je vais emménager la semaine prochaine.",
+   "example_vi": "Tuần sau tôi dọn vào.",
+   "note_vi": "emménager = dọn vào; déménager = chuyển đi. Đừng nhầm."
+  },
+  {
+   "word": "c'est compris",
+   "gender": "",
+   "ipa": "/sɛ kɔ̃pʁi/",
+   "meaning_vi": "đã bao gồm (trong giá)",
+   "example_fr": "Et Internet, c'est compris ?",
+   "example_vi": "Còn Internet, có tính luôn trong đó không?",
+   "note_vi": "compris ở đây = đã bao gồm (included), không phải 'hiểu'. s cuối câm."
+  },
+  {
+   "word": "ça ne marche pas",
+   "gender": "",
+   "ipa": "/sa nə maʁʃ pa/",
+   "meaning_vi": "nó không chạy, bị hỏng",
+   "example_fr": "Ça ne marche pas, vous pouvez venir voir ?",
+   "example_vi": "Nó không chạy, anh/chị qua xem giúp được không?",
+   "note_vi": "Nói nhanh hay bỏ 'ne': ça marche pas. Dùng cho máy móc, đồ bị hỏng."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Le chauffage est compris dans le loyer.",
+   "vi": "Tiền sưởi đã tính trong tiền nhà.",
+   "focus_vi": "Âm mũi: 'dans' /ɑ̃/ mở miệng, 'compris' /ɔ̃/ tròn môi; hơi ra mũi, không bật chữ n hay m."
+  },
+  {
+   "fr": "Pouvez-vous réparer la porte, s'il vous plaît ?",
+   "vi": "Anh/chị sửa giúp cái cửa được không ạ?",
+   "focus_vi": "Chữ r trong 'réparer': phát ở cuống họng, gần như 'g' nhẹ có rung, không uốn lưỡi."
+  },
+  {
+   "fr": "Mon appartement a deux chambres et un salon.",
+   "vi": "Căn hộ của tôi có hai phòng ngủ và một phòng khách.",
+   "focus_vi": "Nối âm: 'mon appartement' đọc liền /mɔ̃napaʁtəmɑ̃/, chữ n nối sang a."
+  },
+  {
+   "fr": "Où est la clé du sous-sol ?",
+   "vi": "Chìa khóa tầng hầm ở đâu vậy?",
+   "focus_vi": "u và ou: 'du' /dy/ chu môi nhưng lưỡi để như 'i'; 'où', 'sous' /u/ là 'u' tiếng Việt."
+  },
+  {
+   "fr": "Je signe le bail samedi matin.",
+   "vi": "Sáng thứ bảy tôi ký hợp đồng thuê nhà.",
+   "focus_vi": "gn trong 'signe' đọc như 'nh' tiếng Việt: /siɲ/."
+  },
+  {
+   "fr": "Je relis le bail avec le propriétaire.",
+   "vi": "Tôi đọc lại hợp đồng với chủ nhà.",
+   "focus_vi": "'bail' đọc là 'bai' /baj/: đuôi -ail không có âm l."
+  },
+  {
+   "fr": "L'appartement est grand et très propre.",
+   "vi": "Căn hộ rộng và rất sạch sẽ.",
+   "focus_vi": "Chữ câm cuối: 'grand' không đọc d /ɡʁɑ̃/, 'appartement' không đọc t."
+  },
+  {
+   "fr": "Le chauffage électrique coûte cher en hiver.",
+   "vi": "Mùa đông, sưởi điện tốn tiền lắm.",
+   "focus_vi": "é và è: 'électrique' /elɛktʁik/ – é đầu khép như 'ê'; chữ e thứ hai tuy không có dấu nhưng đọc mở như è, giống 'e' tiếng Việt."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Tiền nhà một tháng bao nhiêu vậy anh?",
+   "fr_ref": "Le loyer, c'est combien par mois ?",
+   "hint_fr": "le loyer"
+  },
+  {
+   "vi": "Tiền sưởi với tiền điện có tính luôn chưa anh?",
+   "fr_ref": "Le chauffage et l'électricité, c'est compris ?",
+   "hint_fr": "c'est compris"
+  },
+  {
+   "vi": "Căn này có sẵn đồ đạc không anh?",
+   "fr_ref": "Est-ce que l'appartement est meublé ?",
+   "hint_fr": "meublé"
+  },
+  {
+   "vi": "Tiền cọc là bao nhiêu vậy anh?",
+   "fr_ref": "Le dépôt de garantie, c'est combien ?",
+   "hint_fr": "le dépôt de garantie"
+  },
+  {
+   "vi": "Hợp đồng thuê là một năm hả anh?",
+   "fr_ref": "Le bail est pour un an ?",
+   "hint_fr": "le bail"
+  },
+  {
+   "vi": "Khi nào tôi dọn vào được?",
+   "fr_ref": "Quand est-ce que je peux emménager ?",
+   "hint_fr": "emménager"
+  },
+  {
+   "vi": "Tôi thử rồi mà nó không chạy.",
+   "fr_ref": "J'ai essayé, mais ça ne marche pas.",
+   "hint_fr": "ça ne marche pas"
+  },
+  {
+   "vi": "Anh sửa giúp tôi cái cửa sổ được không?",
+   "fr_ref": "Vous pouvez réparer la fenêtre, s'il vous plaît ?",
+   "hint_fr": "réparer"
+  }
+ ],
+ "scenario": {
+  "role": "Landlord (le propriétaire) of a small furnished apartment in Montréal, showing it to a possible tenant.",
+  "context": "The learner is a Vietnamese newcomer, absolute beginner in French, visiting your apartment. He needs to find out the monthly rent, whether heating and electricity are included, the length of the lease, when he can move in and when he gets the key; he may also ask about a deposit or report something that does not work. If he asks about a deposit, simply say that there is no deposit for this apartment, without explaining any rule. Speak slow, simple A1 French with 'vous', one or two short sentences per turn. Invent simple details about this one apartment only (rent, rooms, floor); do not state laws, official rules or real prices for Canada.",
+  "opener_fr": "Bonjour, voici l'appartement. Vous avez des questions ?",
+  "opener_vi": "Chào anh, căn hộ đây. Anh có muốn hỏi gì không?"
+ }
+}

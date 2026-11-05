@@ -1,0 +1,184 @@
+{
+  "id": "da_lieu_phac_do",
+  "name_vi": "Da liễu — phác đồ & thuốc",
+  "emoji": "🧴",
+  "track": "derm",
+  "order": 18,
+  "vocab": [
+    {
+      "word": "apply a thin layer",
+      "ipa": "/əˈplaɪ ə θɪn ˈleɪ.ɚ/",
+      "meaning_vi": "bôi một lớp mỏng",
+      "example_en": "You need to apply a thin layer to your face every night.",
+      "example_vi": "Bạn cần bôi một lớp mỏng lên mặt mỗi tối."
+    },
+    {
+      "word": "oral medication",
+      "ipa": "/ˈɔːr.əl ˌmed.əˈkeɪ.ʃən/",
+      "meaning_vi": "thuốc uống",
+      "example_en": "We will start with oral medication because the topical cream isn't enough.",
+      "example_vi": "Chúng ta sẽ bắt đầu bằng thuốc uống vì kem bôi là chưa đủ."
+    },
+    {
+      "word": "flare up",
+      "ipa": "/ˈfler ˌʌp/",
+      "meaning_vi": "bùng phát (mụn, bệnh da liễu)",
+      "example_en": "Your acne might flare up a little bit during the first week.",
+      "example_vi": "Mụn của bạn có thể bùng phát một chút trong tuần đầu tiên."
+    },
+    {
+      "word": "dryness and peeling",
+      "ipa": "/ˈdraɪ.nəs ənd ˈpiː.lɪŋ/",
+      "meaning_vi": "khô và bong tróc",
+      "example_en": "Expect some dryness and peeling, but that is totally normal.",
+      "example_vi": "Hãy chuẩn bị tinh thần là da sẽ hơi khô và bong tróc, nhưng thế là hoàn toàn bình thường."
+    },
+    {
+      "word": "sunscreen with high SPF",
+      "ipa": "/ˈsʌn.skriːn wɪð haɪ ˌes.piːˈef/",
+      "meaning_vi": "kem chống nắng chỉ số cao",
+      "example_en": "Always use a broad-spectrum sunscreen with high SPF during this treatment.",
+      "example_vi": "Luôn dùng kem chống nắng phổ rộng chỉ số cao trong suốt quá trình điều trị này.",
+      "say_as": "sunscreen with high S P F"
+    },
+    {
+      "word": "mild cleanser",
+      "ipa": "/maɪld ˈklen.zɚ/",
+      "meaning_vi": "sữa rửa mặt dịu nhẹ",
+      "example_en": "Wash your face with a mild cleanser twice a day.",
+      "example_vi": "Rửa mặt bằng sữa rửa mặt dịu nhẹ hai lần một ngày."
+    },
+    {
+      "word": "follow-up visit",
+      "ipa": "/ˈfɑːl.oʊ.ʌp ˈvɪz.ɪt/",
+      "meaning_vi": "lịch tái khám",
+      "example_en": "Let's schedule a follow-up visit in four weeks to check your progress.",
+      "example_vi": "Chúng ta hãy hẹn lịch tái khám sau bốn tuần để kiểm tra tiến triển của bạn nhé."
+    },
+    {
+      "word": "active ingredient",
+      "ipa": "/ˈæk.tɪv ɪnˈɡriː.di.ənt/",
+      "meaning_vi": "hoạt chất",
+      "example_en": "This cream has a strong active ingredient, so use it sparingly.",
+      "example_vi": "Kem này có hoạt chất mạnh, nên hãy dùng lượng vừa phải thôi."
+    },
+    {
+      "word": "side effects",
+      "ipa": "/ˈsaɪd ɪˈfɛkts/",
+      "meaning_vi": "tác dụng phụ",
+      "example_en": "Are you experiencing any side effects from the pills?",
+      "example_vi": "Bạn có gặp tác dụng phụ nào từ thuốc uống không?"
+    },
+    {
+      "word": "pea-sized amount",
+      "ipa": "/ˈpiː.saɪzd əˈmaʊnt/",
+      "meaning_vi": "lượng bằng hạt đậu",
+      "example_en": "Only use a pea-sized amount for your entire face.",
+      "example_vi": "Chỉ dùng một lượng bằng hạt đậu cho toàn bộ khuôn mặt thôi."
+    },
+    {
+      "word": "skin barrier",
+      "ipa": "/skɪn ˈbær.i.ɚ/",
+      "meaning_vi": "hàng rào bảo vệ da",
+      "example_en": "We want to repair your skin barrier before starting retinol.",
+      "example_vi": "Chúng tôi muốn phục hồi hàng rào bảo vệ da của bạn trước khi bắt đầu dùng retinol."
+    },
+    {
+      "word": "stop usage",
+      "ipa": "/stɑːp ˈjuː.sɪdʒ/",
+      "meaning_vi": "ngừng sử dụng",
+      "example_en": "If you feel severe burning, stop usage and call me immediately.",
+      "example_vi": "Nếu bạn thấy rát dữ dội, hãy ngừng sử dụng và gọi cho tôi ngay lập tức."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "First, wash your face with a mild cleanser and pat it dry.",
+      "vi": "Đầu tiên, rửa mặt bằng sữa rửa mặt dịu nhẹ và thấm khô.",
+      "focus_vi": "Phát âm rõ âm cuối /st/ trong First và /st/ trong cleanser."
+    },
+    {
+      "en": "Apply a pea-sized amount of this topical cream every other night.",
+      "vi": "Bôi một lượng bằng hạt đậu kem bôi này cách đêm một lần.",
+      "focus_vi": "Luyện âm /pt/ trong applied và âm /z/ trong pea-sized."
+    },
+    {
+      "en": "This oral medication might cause some dryness on your lips.",
+      "vi": "Thuốc uống này có thể gây ra một chút khô môi.",
+      "focus_vi": "Chú ý âm cuối /s/ trong lips và phát âm đúng /ð/ trong This."
+    },
+    {
+      "en": "You must wear sunscreen daily because your skin will be very sensitive.",
+      "vi": "Bạn phải bôi kem chống nắng hàng ngày vì da bạn sẽ rất nhạy cảm.",
+      "focus_vi": "Phát âm rõ âm /s/ trong sunscreen và /v/ trong sensitive."
+    },
+    {
+      "en": "If the redness spreads or gets worse, please stop the treatment.",
+      "vi": "Nếu vết đỏ lan rộng hoặc tệ hơn, xin vui lòng ngừng điều trị.",
+      "focus_vi": "Bật rõ âm đuôi /ts/ trong gets và /z/ trong spreads."
+    },
+    {
+      "en": "We should see some real improvement in about six weeks.",
+      "vi": "Chúng ta sẽ thấy một số cải thiện thực sự trong khoảng sáu tuần.",
+      "focus_vi": "Phát âm chuẩn âm /ks/ trong six và /v/ trong improvement."
+    },
+    {
+      "en": "Please schedule a follow-up visit with my assistant at the desk.",
+      "vi": "Vui lòng hẹn lịch tái khám với trợ lý của tôi tại bàn lễ tân.",
+      "focus_vi": "Luyện âm cuối /sk/ trong desk và đuôi /t/ trong visit."
+    },
+    {
+      "en": "Do not scratch the rash if it starts to itch badly.",
+      "vi": "Đừng gãi vết phát ban nếu nó bắt đầu ngứa dữ dội.",
+      "focus_vi": "Phát âm rõ âm /ts/ trong starts và âm /ʃ/ trong rash."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Tôi nên bôi thuốc này bao nhiêu lần một ngày?",
+      "en_ref": "How many times a day should I apply this cream?",
+      "hint_en": "How many times"
+    },
+    {
+      "vi": "Da bạn có thể sẽ bị bong tróc một chút trong vài tuần đầu.",
+      "en_ref": "Your skin might peel a little bit during the first few weeks.",
+      "hint_en": "might peel"
+    },
+    {
+      "vi": "Nhớ bôi kem chống nắng mỗi sáng trước khi ra ngoài nhé.",
+      "en_ref": "Remember to apply sunscreen every morning before going outside.",
+      "hint_en": "Remember to apply"
+    },
+    {
+      "vi": "Nếu da bị kích ứng quá, hãy chuyển sang dùng cách ngày.",
+      "en_ref": "If your skin gets too irritated, switch to using it every other day.",
+      "hint_en": "every other day"
+    },
+    {
+      "vi": "Khi nào tôi cần quay lại tái khám?",
+      "en_ref": "When do I need to come back for a follow-up?",
+      "hint_en": "for a follow-up"
+    },
+    {
+      "vi": "Đừng dùng bất kỳ loại sữa rửa mặt mạnh nào trong thời gian này.",
+      "en_ref": "Do not use any harsh cleansers during this time.",
+      "hint_en": "harsh cleansers"
+    },
+    {
+      "vi": "Có tác dụng phụ nghiêm trọng nào mà tôi nên lưu ý không?",
+      "en_ref": "Are there any serious side effects I should watch out for?",
+      "hint_en": "watch out for"
+    },
+    {
+      "vi": "Sẽ mất khoảng một tháng để thấy kết quả rõ rệt.",
+      "en_ref": "It will take about a month to see visible results.",
+      "hint_en": "visible results"
+    }
+  ],
+  "scenario": {
+    "role": "An international patient with moderate acne and sensitive skin",
+    "context": "You are a dermatologist explaining a new treatment plan to an international patient. They are worried about side effects like redness and want to know exactly how to use the prescribed topical retinoid and moisturizer.",
+    "opener_en": "Doctor, I'm a bit scared of using this retinoid because my skin is so sensitive. How often should I apply it to avoid redness?",
+    "opener_vi": "Bác sĩ ơi, tôi hơi sợ dùng retinoid này vì da tôi rất nhạy cảm. Tôi nên bôi nó với tần suất thế nào để tránh bị đỏ da?"
+  }
+}

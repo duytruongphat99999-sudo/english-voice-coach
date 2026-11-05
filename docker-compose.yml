@@ -1,0 +1,147 @@
+# English Voice Coach — stack ca nhan, 1 nguoi dung (Duy).
+# Chay tu thu muc nay:  docker compose up -d --build
+#
+# Topology:
+#   evc-speaches (STT + TTS, CPU)  ◄── evc-api ◄── evc-web (nginx) ◄── cloudflared
+#                                       │
+#                                       └─► Gemini API (ngoai)
+#
+# Chi evc-web duoc dua ra tunnel. api va speaches chi bind 127.0.0.1 de
+# tien debug tu host, KHONG mo ra LAN.
+#
+# LUU Y khi sua code: `docker compose up -d --build evc-web` se recreate ca
+# evc-api vi depends_on. Muon dung mot minh web thi them --no-deps:
+#   docker compose up -d --build --no-deps evc-web
+
+# Pin ten project. Neu khong, compose lay ten tu thu muc (`learningenglish`)
+# — doi ten thu muc la mat dau container/volume cu.
+name: evc
+
+services:
+  # ---------------------------------------------------------------
+  # STT + TTS trong CUNG MOT container.
+  # Da verify: ghcr.io/speaches-ai/speaches:0.8.3-cpu va :latest-cpu cung
+  # digest sha256:21e3df06d842fb7802ab470dd77c25f0e8c0d22950e8d8c6ae886e851af53ef8
+  # Pin ban so de mot lan `docker pull` cua tuong lai khong am tham nang cap.
+  # ---------------------------------------------------------------
+  evc-speaches:
+    image: ghcr.io/speaches-ai/speaches:0.8.3-cpu
+    container_name: evc-speaches
+    restart: unless-stopped
+    environment:
+      TZ: ${TZ:-Asia/Ho_Chi_Minh}
+      LOOPBACK_HOST_URL: http://localhost:8000
+      # Whisper mac dinh chay float32 tren CPU. int8 nhanh hon dang ke va
+      # chenh lech do chinh xac o muc `small` khong dang ke voi giong noi ro.
+      # Do bang scripts/bench-stt.sh truoc khi doi.
+      WHISPER__COMPUTE_TYPE: int8
+      # 0 = de faster-whisper tu doan. Ghim bang so CPU da cap o duoi cho khop.
+      WHISPER__CPU_THREADS: "6"
+      # CAM DAY MODEL RA KHOI RAM. Mac dinh speaches la ttl=300, tuc nghi qua
+      # 5 phut la no unload model; lan sau phai nap lai tu dia. Do that tren
+      # log 06/09: nap lai Whisper p50 6,54s (max 9,78s), Kokoro p50 3,33s —
+      # va do chinh la con so 12,1 giay o luot cham nhat cua nguoi hoc.
+      # 42 lan unload trong khoang hai ngay.
+      #
+      # Nguon: /home/ubuntu/speaches/src/speaches/config.py:29 dat ttl mac dinh
+      # 300 kem docstring "-1: Never unload the model"; dependencies.py:63 cho
+      # KokoroModelManager dung CHUNG config.whisper.ttl (co comment
+      # "# HACK: should have its own config"), nen MOT bien nay tat luon ca hai
+      # duong unload — khong co bien KOKORO__TTL rieng.
+      #
+      # Danh doi: hai model nam thuong tru trong RAM (~1 GB). Doi lai khong con
+      # cu nghi 5 phut la phai cho them 6-10 giay.
+      WHISPER__TTL: "-1"
+    volumes:
+      # Model tai ve nam o day. KHONG dung named volume — de trong thu muc
+      # du an cho dung y "moi thu cua du an nam gon trong folder nay".
+      - ./data/hf-cache:/home/ubuntu/.cache/huggingface/hub
+    ports:
+      - "127.0.0.1:8010:8000"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://127.0.0.1:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      # Lan dau khoi dong phai import torch/onnx — cham.
+      start_period: 90s
+    # Whisper an het CPU neu tha long, lam cac container khac giat.
+    deploy:
+      resources:
+        limits:
+          cpus: "6"
+          memory: 4G
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    networks: [evc]
+
+  # ---------------------------------------------------------------
+  # API: Fastify + node:sqlite builtin (KHONG better-sqlite3 — xem api/Dockerfile)
+  # ---------------------------------------------------------------
+  evc-api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    image: evc-api:latest
+    container_name: evc-api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      PORT: "3040"
+      DB_PATH: /app/data/evc.db
+      TZ: ${TZ:-Asia/Ho_Chi_Minh}
+    depends_on:
+      evc-speaches:
+        condition: service_healthy
+    volumes:
+      # SQLite + file ghi am presentation.
+      - ./data/app:/app/data
+    ports:
+      - "127.0.0.1:3040:3040"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3040/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    networks: [evc]
+
+  # ---------------------------------------------------------------
+  # Web: Astro build static -> nginx serve + proxy /api sang evc-api.
+  # Mot origin duy nhat => khong CORS, khong can SSR adapter.
+  # ---------------------------------------------------------------
+  evc-web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    image: evc-web:latest
+    container_name: evc-web
+    restart: unless-stopped
+    environment:
+      TZ: ${TZ:-Asia/Ho_Chi_Minh}
+    depends_on:
+      evc-api:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:4323:80"
+    healthcheck:
+      # Chua dang nhap thi `/` tra 302 ve /login.html — do la trang thai DUNG.
+      # wget coi 302/401 la loi nen khong dung --spider duoc; doc dong status.
+      test: ["CMD-SHELL", "wget -q -S -O /dev/null http://127.0.0.1/ 2>&1 | grep -qE 'HTTP/1.1 (200|302|401)'"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    networks: [evc]
+
+networks:
+  evc:
+    driver: bridge

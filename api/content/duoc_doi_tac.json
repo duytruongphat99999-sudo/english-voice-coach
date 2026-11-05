@@ -1,0 +1,183 @@
+{
+  "id": "duoc_doi_tac",
+  "name_vi": "Làm việc với hãng dược",
+  "emoji": "💊",
+  "track": "derm",
+  "order": 20,
+  "vocab": [
+    {
+      "word": "clinical trial",
+      "ipa": "/ˈklɪn.ɪ.kəl ˈtraɪ.əl/",
+      "meaning_vi": "thử nghiệm lâm sàng",
+      "example_en": "Can you share the latest clinical trial results with me?",
+      "example_vi": "Bạn có thể chia sẻ kết quả thử nghiệm lâm sàng mới nhất với tôi không?"
+    },
+    {
+      "word": "active ingredient",
+      "ipa": "/ˈæk.tɪv ɪnˈɡriː.di.ənt/",
+      "meaning_vi": "hoạt chất",
+      "example_en": "What's the main active ingredient in this new cream?",
+      "example_vi": "Hoạt chất chính trong loại kem mới này là gì?"
+    },
+    {
+      "word": "free sample",
+      "ipa": "/friː ˈsæm.pəl/",
+      "meaning_vi": "mẫu thử miễn phí",
+      "example_en": "Do you have any free samples for my clinic?",
+      "example_vi": "Bạn có mẫu thử miễn phí nào cho phòng khám của tôi không?"
+    },
+    {
+      "word": "minimum order",
+      "ipa": "/ˈmɪn.ɪ.məm ˈɔːr.dɚ/",
+      "meaning_vi": "đơn hàng tối thiểu",
+      "example_en": "What's the minimum order for international shipping?",
+      "example_vi": "Đơn hàng tối thiểu cho việc vận chuyển quốc tế là bao nhiêu?"
+    },
+    {
+      "word": "shelf life",
+      "ipa": "/ʃɛlf laɪf/",
+      "meaning_vi": "hạn sử dụng",
+      "example_en": "What's the shelf life of this batch?",
+      "example_vi": "Hạn sử dụng của lô hàng này là bao lâu?"
+    },
+    {
+      "word": "side effect",
+      "ipa": "/ˈsaɪd ɪˌfɛkt/",
+      "meaning_vi": "tác dụng phụ",
+      "example_en": "Did patients report any common side effects?",
+      "example_vi": "Bệnh nhân có báo cáo tác dụng phụ phổ biến nào không?"
+    },
+    {
+      "word": "bulk discount",
+      "ipa": "/boʊlk ˈdɪs.kaʊnt/",
+      "meaning_vi": "chiết khấu mua số lượng lớn",
+      "example_en": "Do you offer a bulk discount for large clinics?",
+      "example_vi": "Bạn có chiết khấu khi mua số lượng lớn cho các phòng khám lớn không?"
+    },
+    {
+      "word": "supply chain",
+      "ipa": "/səˈplaɪ tʃeɪn/",
+      "meaning_vi": "chuỗi cung ứng",
+      "example_en": "We had some issues with the supply chain last month.",
+      "example_vi": "Tháng trước chúng tôi gặp một số vấn đề với chuỗi cung ứng."
+    },
+    {
+      "word": "distribution agreement",
+      "ipa": "/ˌdɪs.trəˈbjuː.shən əˈɡriː.mənt/",
+      "meaning_vi": "thỏa thuận phân phối",
+      "example_en": "Let's review the distribution agreement before signing.",
+      "example_vi": "Hãy xem lại thỏa thuận phân phối trước khi ký nhé."
+    },
+    {
+      "word": "lead time",
+      "ipa": "/liːd taɪm/",
+      "meaning_vi": "thời gian giao hàng",
+      "example_en": "What's the usual lead time for delivery to Vietnam?",
+      "example_vi": "Thời gian giao hàng thông thường về Việt Nam là bao lâu?"
+    },
+    {
+      "word": "storage condition",
+      "ipa": "/ˈstɔːr.ɪdʒ kənˈdɪʃ.ən/",
+      "meaning_vi": "điều kiện bảo quản",
+      "example_en": "What are the required storage conditions for this vaccine?",
+      "example_vi": "Điều kiện bảo quản cần thiết cho loại vắc-xin này là gì?"
+    },
+    {
+      "word": "not interested",
+      "ipa": "/nɑːt ˈɪn.trə.stɪd/",
+      "meaning_vi": "không quan tâm",
+      "example_en": "Thanks for stopping by, but we're not interested right now.",
+      "example_vi": "Cảm ơn bạn đã ghé qua, nhưng hiện tại chúng tôi không quan tâm."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Could you send over the clinical trial data by tomorrow?",
+      "vi": "Bạn có thể gửi dữ liệu thử nghiệm lâm sàng qua trước ngày mai không?",
+      "focus_vi": "Phát âm chuẩn âm cuối trong từ clinical và trial."
+    },
+    {
+      "en": "What is the exact active ingredient in this formulation?",
+      "vi": "Hoạt chất chính xác trong công thức này là gì?",
+      "focus_vi": "Nhấn trọng âm đúng vào từ active và ingredient."
+    },
+    {
+      "en": "We need to check the storage conditions very carefully.",
+      "vi": "Chúng ta cần kiểm tra điều kiện bảo quản thật cẩn thận.",
+      "focus_vi": "Luyện cụm phụ âm st trong storage và store."
+    },
+    {
+      "en": "Do you offer any bulk discounts for large orders?",
+      "vi": "Bạn có chiết khấu số lượng lớn cho các đơn hàng lớn không?",
+      "focus_vi": "Phát âm rõ âm s và z trong các từ discounts và orders."
+    },
+    {
+      "en": "The lead time for international shipping is three weeks.",
+      "vi": "Thời gian giao hàng quốc tế là ba tuần.",
+      "focus_vi": "Phát âm chính xác âm th trong three và weeks."
+    },
+    {
+      "en": "Are there any common side effects we should know about?",
+      "vi": "Có tác dụng phụ phổ biến nào chúng ta nên biết không?",
+      "focus_vi": "Nối âm mượt mà giữa any và common."
+    },
+    {
+      "en": "Let us test some free samples before signing the agreement.",
+      "vi": "Hãy để chúng tôi thử vài mẫu miễn phí trước khi ký thỏa thuận.",
+      "focus_vi": "Phát âm đúng âm tr trong trial và agreement."
+    },
+    {
+      "en": "Thanks for the pitch, but we are not looking for new suppliers.",
+      "vi": "Cảm ơn vì bài giới thiệu, nhưng chúng tôi không tìm nhà cung cấp mới.",
+      "focus_vi": "Phát âm rõ âm k trong looking và suppliers."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Hàng này hạn sử dụng được bao lâu vậy bạn?",
+      "en_ref": "What's the shelf life on this product?",
+      "hint_en": "shelf life"
+    },
+    {
+      "vi": "Bên bạn có gửi mẫu thử miễn phí cho phòng khám không?",
+      "en_ref": "Do you send free samples to clinics?",
+      "hint_en": "free samples"
+    },
+    {
+      "vi": "Đơn hàng tối thiểu để được giá sỉ là bao nhiêu?",
+      "en_ref": "What's the minimum order for wholesale pricing?",
+      "hint_en": "minimum order"
+    },
+    {
+      "vi": "Thời gian giao hàng từ lúc đặt đến lúc nhận là mấy tuần?",
+      "en_ref": "What's the lead time for delivery?",
+      "hint_en": "lead time"
+    },
+    {
+      "vi": "Tôi có thể xem tài liệu thử nghiệm lâm sàng ở đâu?",
+      "en_ref": "Where can I see the clinical trial documents?",
+      "hint_en": "clinical trial"
+    },
+    {
+      "vi": "Thuốc này có hay gây tác dụng phụ gì không?",
+      "en_ref": "Does this medicine cause many side effects?",
+      "hint_en": "side effects"
+    },
+    {
+      "vi": "Chúng tôi cần đọc kỹ thỏa thuận phân phối trước đã.",
+      "en_ref": "We need to review the distribution agreement first.",
+      "hint_en": "distribution agreement"
+    },
+    {
+      "vi": "Cảm ơn bạn, hiện tại phòng khám chưa có nhu cầu.",
+      "en_ref": "Thanks, but we don't need any new products right now.",
+      "hint_en": "not interested"
+    }
+  ],
+  "scenario": {
+    "role": "a pharmaceutical sales representative",
+    "context": "You are visiting a clinic to pitch a new dermatology treatment to a doctor who is also busy with medical trade. You want to present the active ingredients, offer free samples, and discuss supply terms.",
+    "opener_en": "Hi doctor, thanks for your time today. I'm here to introduce our new topical treatment with great clinical results. Would you like to see a quick sample?",
+    "opener_vi": "Chào bác sĩ, cảm ơn thời gian hôm nay của bác sĩ. Tôi đến để giới thiệu dòng điều trị bôi ngoài da mới với kết quả lâm sàng rất tốt. Bác sĩ có muốn xem mẫu thử nhanh không?"
+  }
+}

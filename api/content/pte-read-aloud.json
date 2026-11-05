@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "note": "Read Aloud — de bien tap tay tu nguon mo (Wikipedia, CC BY-SA 4.0). KHONG sinh bang LLM: du kien lay tu nguon that, cau chu viet lai de doc to duoc. LUAT VIET DE, giu dung khi noi them: (1) so viet BANG CHU ('seventeen seventy nine', khong phai '1779') vi bo cham doi so sang chu roi moi so khop; (2) KHONG dau gach noi — matchPhrase nuot dau gach thanh mot token trong khi Whisper tra ve hai, day la lop loi da sua ngay 06/09; (3) khong ky hieu phan tram, do la, va khong viet tat tran kieu MOQ; (4) CO Y day phu am cuoi, so nhieu va thi qua khu, giong bo pte-sentences.json — do la lop loi nang nhat cua nguoi Viet va la thu bai nay sinh ra de bat; (5) cap do theo DO DAI va do day hoc thuat: cap mot 35-45 tu, cap hai 50-60 tu, cap ba 60-70 tu.",
+  "passages": [
+    {
+      "id": "ra01",
+      "level": 1,
+      "topic": "Coral reefs",
+      "text": "Coral reefs are underwater ecosystems built by colonies of tiny animals called polyps. These creatures form hard structures from calcium carbonate. Reefs shelter countless fish, worms, and crustaceans, and they support at least one quarter of all marine species.",
+      "source": "https://en.wikipedia.org/wiki/Coral_reef",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra02",
+      "level": 1,
+      "topic": "Urban heat",
+      "text": "Dark surfaces in cities absorb much more sunlight than rural fields do. Concrete roads and asphalt roofs store heat through the day and release it slowly at night. Cities also lose trees, so they lose the shade and cooling those trees provide.",
+      "source": "https://en.wikipedia.org/wiki/Urban_heat_island",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra03",
+      "level": 1,
+      "topic": "Vaccines",
+      "text": "A vaccine trains the immune system to recognize and destroy harmful germs. The body remembers what it has seen before. When the real pathogen arrives later, defenses respond quickly and stop the infection before it spreads.",
+      "source": "https://en.wikipedia.org/wiki/Vaccine",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra04",
+      "level": 1,
+      "topic": "Photosynthesis",
+      "text": "Photosynthesis lets plants turn light into chemical energy. Leaves capture sunlight and use it to build sugars from carbon dioxide and water. Algae and some bacteria do the same thing, and together they feed almost every living creature on the planet.",
+      "source": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra05",
+      "level": 2,
+      "topic": "Coral reefs",
+      "text": "Tropical seas hold very few nutrients, yet coral reefs flourish there like an oasis in a desert. This puzzled scientists for decades. The answer lies in recycling. Reefs reuse nutrients far more efficiently than open water does, and their rough surfaces break up the still layer around them, so corals can catch particles drifting past in the currents.",
+      "source": "https://en.wikipedia.org/wiki/Coral_reef",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra06",
+      "level": 2,
+      "topic": "Urban heat",
+      "text": "Urban heat raises the risk of heat stroke and exhaustion, and older residents suffer most because their bodies regulate temperature poorly. Warmer cities also heat the streams and lakes nearby, which stresses fish and other aquatic species. Higher temperatures push people to run air conditioners longer, and that burns more power.",
+      "source": "https://en.wikipedia.org/wiki/Urban_heat_island",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra07",
+      "level": 2,
+      "topic": "Vaccines",
+      "text": "When most people in a community are vaccinated, a disease struggles to pass from person to person. This effect is called herd immunity, and it shields even those who cannot be vaccinated themselves, such as newborns and patients with weakened defenses. Outbreaks become rare, and when they start they fade quickly.",
+      "source": "https://en.wikipedia.org/wiki/Vaccine",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra08",
+      "level": 2,
+      "topic": "Photosynthesis",
+      "text": "Photosynthesis runs in two stages. The first depends on light: leaves capture solar energy and produce carrier molecules that store it. The second stage does not need light directly. It spends those carriers to lock carbon dioxide into sugars, and those sugars fuel the growth of stems, roots, and seeds.",
+      "source": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra09",
+      "level": 3,
+      "topic": "Coral reefs",
+      "text": "Corals reproduce in two ways during their lives. In sexual reproduction many colonies release eggs and sperm at the same moment across the whole reef, and these synchronized events usually happen at night, three to six days after a full moon. The tiny larvae that result then drift in the currents for several weeks before they settle onto a hard surface and start a new colony.",
+      "source": "https://en.wikipedia.org/wiki/Coral_reef",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra10",
+      "level": 3,
+      "topic": "Urban heat",
+      "text": "Planting trees across a city can lower air temperatures by several degrees and cut surface temperatures by even more. Painting roofs white, or coating them with reflective materials, sends sunlight back towards space instead of trapping it. Parks, gardens, and planted roofs add shade, cool the air through evaporation, and clean the dust from city streets at the same time.",
+      "source": "https://en.wikipedia.org/wiki/Urban_heat_island",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra11",
+      "level": 3,
+      "topic": "Vaccines",
+      "text": "Developing a new vaccine demands years of research and several rounds of rigorous trials before any regulator grants approval. Manufacturers must show that the product is safe and that its protection lasts, and independent scientists review every result before a license is issued. Only after that long process does the vaccine reach clinics and pharmacies for public use, and monitoring continues long after the first doses are given.",
+      "source": "https://en.wikipedia.org/wiki/Vaccine",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "ra12",
+      "level": 3,
+      "topic": "Photosynthesis",
+      "text": "A Dutch physician demonstrated in seventeen seventy nine that plants need light, not merely soil and water, in order to thrive. His experiments opened a field that still shapes biology today. Each year photosynthesis converts something like one hundred billion tons of carbon into living tissue, and that steady harvest supports almost all complex life on Earth, from the smallest insects to the largest whales.",
+      "source": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

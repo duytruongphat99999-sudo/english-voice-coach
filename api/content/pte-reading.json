@@ -1,0 +1,1871 @@
+{
+ "version": 1,
+ "note": "PTE Reading — de bien tap tay tu nguon mo (Wikipedia / Simple English Wikipedia, CC BY-SA 4.0), chuyen the: rut gon, lam gon cau, GIU chu cua tac gia o cho nao duoc. KHONG sinh bang LLM. LUAT VIET DE, giu dung khi them: (1) DAP AN LA CHU CUA BAI GOC — o trong danh dau {{1}}, {{2}}... theo dung thu tu; (2) rwfib: 4 lua chon moi o, dap an xuat hien DUNG MOT LAN, tu nhieu phai sai ro ve ngu phap (sai dang tu, sai thi) hoac ve nghia/tu di lien — KHONG dung dong nghia co the thay duoc (vd rely/depend), KHONG de gioi tu lam o trong (from/of/with thuong deu dung); (3) rfib: kho = dap an + 3 tu nhieu, tu nhieu KHONG duoc vua voi O NAO, va hai dap an khong duoc doi cho cho nhau (vd use/require); (4) rop: cau 1 dung doc lap (khong dai tu tro nguoc), moi cau sau bam cau truoc bang dai tu/tu noi/moc thoi gian de CHI MOT thu tu hop ly; (5) cap do (do that 11/09): cap 1 lay tu Simple English Wikipedia, 40-55 tu, 3 o, rop 4 cau; cap 2 Wikipedia, 60-85 tu, 4 o, rop 4-5 cau; cap 3 Wikipedia, 70-115 tu, 4-5 o, rop 5 cau — de that PTE dai hon (rwfib ~100-120 tu), cap 3 moi sat; (6) moi de ghi source + license. | THEM 12/09 — trac nghiem (mcsa_r, mcma_r): bai doc chuyen the tu nguon (khong them du kien), CAU HOI + PHUONG AN do Claude soan; moi de da cho agent lam MU 30/30 dung khoa; `answers` la chi so 0-based; `why_vi` chi hien sau khi nop. Da bo 4 con so dang ngo co trong chinh Wikipedia (nao tre 90%, Na Uy 98% thuy dien, sumo 40% bi ghi nguoc).",
+ "items": [
+  {
+   "id": "rwfib01",
+   "type": "rwfib",
+   "level": 1,
+   "topic": "Printing press",
+   "source": "https://simple.wikipedia.org/wiki/Printing_press",
+   "license": "CC BY-SA 4.0",
+   "text": "Today, printing presses are {{1}} by special computers, and the material to be printed is also prepared on computers. As a {{2}} of these changes, the cost of printing has fallen sharply. Now the price of a book depends less on how it is produced and more on other {{3}}, such as marketing.",
+   "blanks": [
+    {
+     "answer": "controlled",
+     "options": [
+      "controlled",
+      "controlling",
+      "control",
+      "controls"
+     ]
+    },
+    {
+     "answer": "consequence",
+     "options": [
+      "consequence",
+      "purpose",
+      "condition",
+      "reason"
+     ]
+    },
+    {
+     "answer": "factors",
+     "options": [
+      "factors",
+      "factories",
+      "fractions",
+      "facts"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib02",
+   "type": "rwfib",
+   "level": 1,
+   "topic": "Tea",
+   "source": "https://simple.wikipedia.org/wiki/Tea",
+   "license": "CC BY-SA 4.0",
+   "text": "Tea is a drink made by {{1}} the leaves of the Camellia sinensis plant in hot water. Other drinks made by soaking fruit or herbs in hot water, such as chamomile tea, are {{2}} herbal teas. After water, tea is the most widely {{3}} drink in the world.",
+   "blanks": [
+    {
+     "answer": "steeping",
+     "options": [
+      "steeping",
+      "steep",
+      "steeped",
+      "steeps"
+     ]
+    },
+    {
+     "answer": "called",
+     "options": [
+      "called",
+      "calling",
+      "call",
+      "calls"
+     ]
+    },
+    {
+     "answer": "consumed",
+     "options": [
+      "consumed",
+      "consuming",
+      "consumer",
+      "consumption"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib03",
+   "type": "rwfib",
+   "level": 1,
+   "topic": "Volcanoes",
+   "source": "https://simple.wikipedia.org/wiki/Volcano",
+   "license": "CC BY-SA 4.0",
+   "text": "When a volcano is active, materials come out of it, {{1}} lava, steam, ash and broken pieces of rock. When there is enough {{2}}, the volcano erupts. Some eruptions blow off the top of the volcano, while others come out at the side {{3}} of the top.",
+   "blanks": [
+    {
+     "answer": "including",
+     "options": [
+      "including",
+      "include",
+      "included",
+      "includes"
+     ]
+    },
+    {
+     "answer": "pressure",
+     "options": [
+      "pressure",
+      "pleasure",
+      "measure",
+      "treasure"
+     ]
+    },
+    {
+     "answer": "instead",
+     "options": [
+      "instead",
+      "despite",
+      "rather",
+      "apart"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib04",
+   "type": "rwfib",
+   "level": 1,
+   "topic": "Earthquakes",
+   "source": "https://simple.wikipedia.org/wiki/Earthquake",
+   "license": "CC BY-SA 4.0",
+   "text": "Scientists who study earthquakes are called seismologists. They use a machine called a seismometer, which {{1}} the shaking of the ground and records it. The strength of an earthquake is called its {{2}}. The largest earthquake ever {{3}} struck Chile in 1960.",
+   "blanks": [
+    {
+     "answer": "detects",
+     "options": [
+      "detects",
+      "protects",
+      "predicts",
+      "prevents"
+     ]
+    },
+    {
+     "answer": "magnitude",
+     "options": [
+      "magnitude",
+      "attitude",
+      "altitude",
+      "latitude"
+     ]
+    },
+    {
+     "answer": "measured",
+     "options": [
+      "measured",
+      "measure",
+      "measuring",
+      "measurement"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib05",
+   "type": "rwfib",
+   "level": 1,
+   "topic": "Honey bees",
+   "source": "https://simple.wikipedia.org/wiki/Honey_bee",
+   "license": "CC BY-SA 4.0",
+   "text": "Honey bees are flying insects that live together in {{1}} of different sizes. They are only a small {{2}} of the 20,000 known species of bee. Honey bees produce and {{3}} honey, and they build their nests from wax.",
+   "blanks": [
+    {
+     "answer": "colonies",
+     "options": [
+      "colonies",
+      "colonists",
+      "columns",
+      "comedies"
+     ]
+    },
+    {
+     "answer": "fraction",
+     "options": [
+      "fraction",
+      "friction",
+      "fiction",
+      "function"
+     ]
+    },
+    {
+     "answer": "store",
+     "options": [
+      "store",
+      "stare",
+      "story",
+      "stone"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib06",
+   "type": "rwfib",
+   "level": 2,
+   "topic": "Recycling",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "text": "Recycling is the process of {{1}} waste materials into new materials and objects. It is an alternative to conventional waste disposal that can save material and help lower greenhouse gas emissions. It can also reduce the {{2}} of fresh raw materials, which in turn reduces energy use and pollution. Recyclable materials include many kinds of glass, paper, metal, plastic and electronics. These materials are collected, then sorted, cleaned and {{3}} into new materials for {{4}} new products.",
+   "blanks": [
+    {
+     "answer": "converting",
+     "options": [
+      "converting",
+      "conversing",
+      "convincing",
+      "conveying"
+     ]
+    },
+    {
+     "answer": "consumption",
+     "options": [
+      "consumption",
+      "assumption",
+      "description",
+      "subscription"
+     ]
+    },
+    {
+     "answer": "reprocessed",
+     "options": [
+      "reprocessed",
+      "reproduced",
+      "repeated",
+      "recalled"
+     ]
+    },
+    {
+     "answer": "manufacturing",
+     "options": [
+      "manufacturing",
+      "manufactured",
+      "manufacturer",
+      "manufactures"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib07",
+   "type": "rwfib",
+   "level": 2,
+   "topic": "Sleep",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "text": "Sleep is a state of reduced mental and physical activity in which {{1}} is altered and certain sensory activity is inhibited. Although sleep differs from wakefulness in the ability to react to stimuli, it still involves active brain patterns. During sleep, the body enters a state that helps to {{2}} the immune, nervous and muscular systems. This repair work is vital for maintaining mood, memory and cognitive {{3}}. The internal circadian clock {{4}} sleep every night, when it is dark.",
+   "blanks": [
+    {
+     "answer": "consciousness",
+     "options": [
+      "consciousness",
+      "conscience",
+      "confidence",
+      "conscious"
+     ]
+    },
+    {
+     "answer": "restore",
+     "options": [
+      "restore",
+      "restrict",
+      "restrain",
+      "resolve"
+     ]
+    },
+    {
+     "answer": "function",
+     "options": [
+      "function",
+      "fiction",
+      "faction",
+      "friction"
+     ]
+    },
+    {
+     "answer": "promotes",
+     "options": [
+      "promotes",
+      "prevents",
+      "protests",
+      "proposes"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib08",
+   "type": "rwfib",
+   "level": 2,
+   "topic": "Solar power",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "text": "Solar power is the {{1}} of energy from sunlight into electricity. It can be produced directly, using photovoltaics, or indirectly, using concentrated solar power. Solar panels use the photovoltaic effect to turn light into an electric {{2}}. Concentrated solar power systems use lenses or {{3}} to focus a large area of sunlight onto a small spot, often to {{4}} a steam turbine.",
+   "blanks": [
+    {
+     "answer": "conversion",
+     "options": [
+      "conversion",
+      "conversation",
+      "conservation",
+      "confusion"
+     ]
+    },
+    {
+     "answer": "current",
+     "options": [
+      "current",
+      "currency",
+      "curve",
+      "cure"
+     ]
+    },
+    {
+     "answer": "mirrors",
+     "options": [
+      "mirrors",
+      "minors",
+      "miners",
+      "murmurs"
+     ]
+    },
+    {
+     "answer": "drive",
+     "options": [
+      "drive",
+      "drove",
+      "driving",
+      "driven"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib09",
+   "type": "rwfib",
+   "level": 2,
+   "topic": "Antimicrobial resistance",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "text": "Antimicrobial resistance occurs when microbes {{1}} ways to protect themselves from antimicrobials, the drugs used to treat infections in humans, animals and plants. Any microbe can develop resistance, including bacteria, viruses, parasites and fungi. The misuse of antimicrobials is a {{2}} driver of this resistance, although it can also occur naturally through genetic mutations. Infections caused by resistant microbes are more difficult to treat and often {{3}} costly alternative therapies, which may have more severe side {{4}}.",
+   "blanks": [
+    {
+     "answer": "evolve",
+     "options": [
+      "evolve",
+      "involve",
+      "revolve",
+      "devolve"
+     ]
+    },
+    {
+     "answer": "primary",
+     "options": [
+      "primary",
+      "primitive",
+      "private",
+      "previous"
+     ]
+    },
+    {
+     "answer": "require",
+     "options": [
+      "require",
+      "acquire",
+      "inquire",
+      "retire"
+     ]
+    },
+    {
+     "answer": "effects",
+     "options": [
+      "effects",
+      "affects",
+      "efforts",
+      "defects"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib10",
+   "type": "rwfib",
+   "level": 2,
+   "topic": "Urbanization",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "text": "Urbanization is the process by which towns and cities are formed and become larger as more people {{1}} to live and work in them. Rather than the absolute number of people in cities, urbanization refers to the {{2}} of a country's total population living in urban areas. The United Nations has {{3}} that nearly all of the world's population growth up to 2030 will take place in cities. This growth may lead to {{4}} of land, drinking water and other essential resources.",
+   "blanks": [
+    {
+     "answer": "move",
+     "options": [
+      "move",
+      "moved",
+      "moving",
+      "movement"
+     ]
+    },
+    {
+     "answer": "proportion",
+     "options": [
+      "proportion",
+      "promotion",
+      "protection",
+      "production"
+     ]
+    },
+    {
+     "answer": "projected",
+     "options": [
+      "projected",
+      "protected",
+      "rejected",
+      "injected"
+     ]
+    },
+    {
+     "answer": "shortages",
+     "options": [
+      "shortages",
+      "shortcuts",
+      "shortcomings",
+      "shorthand"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib11",
+   "type": "rwfib",
+   "level": 3,
+   "topic": "Ocean acidification",
+   "source": "https://en.wikipedia.org/wiki/Ocean_acidification",
+   "license": "CC BY-SA 4.0",
+   "text": "A lower ocean pH has a range of potentially harmful effects on marine life. Scientists have observed, for example, reduced calcification, weaker immune {{1}} and less energy for basic functions such as reproduction. These changes matter not only for the organisms {{2}} but also for people. About one billion people are wholly or partially {{3}} on the fishing, tourism and coastal protection that coral reefs provide. Ongoing acidification may {{4}} food chains linked to the oceans. Ocean acidification has happened before in the Earth's history, and the ecological collapse that {{5}} had long-lasting effects on the global climate.",
+   "blanks": [
+    {
+     "answer": "responses",
+     "options": [
+      "responses",
+      "responsibilities",
+      "reasons",
+      "residents"
+     ]
+    },
+    {
+     "answer": "themselves",
+     "options": [
+      "themselves",
+      "itself",
+      "himself",
+      "ourselves"
+     ]
+    },
+    {
+     "answer": "dependent",
+     "options": [
+      "dependent",
+      "independent",
+      "dependable",
+      "dependence"
+     ]
+    },
+    {
+     "answer": "threaten",
+     "options": [
+      "threaten",
+      "threatened",
+      "threat",
+      "threatening"
+     ]
+    },
+    {
+     "answer": "followed",
+     "options": [
+      "followed",
+      "prevented",
+      "caused",
+      "allowed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib12",
+   "type": "rwfib",
+   "level": 3,
+   "topic": "Placebos",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "text": "A placebo is a medicine or treatment that is designed to appear {{1}} to the patient but has no pharmaceutical effect. Placebos are used in clinical trials to test the {{2}} of new treatments. In a well-designed trial, the placebo cannot be told apart from the real treatment, so that neither patients nor doctors know who is receiving which. This matters because their {{3}} about a treatment can influence the results. Modern studies suggest that placebos can affect some outcomes, such as pain and nausea, but {{4}} they do not have important clinical effects. Their use in everyday medicine also raises ethical concerns, since it can introduce {{5}} into the relationship between doctor and patient.",
+   "blanks": [
+    {
+     "answer": "genuine",
+     "options": [
+      "genuine",
+      "generous",
+      "general",
+      "genetic"
+     ]
+    },
+    {
+     "answer": "efficacy",
+     "options": [
+      "efficacy",
+      "intimacy",
+      "legacy",
+      "privacy"
+     ]
+    },
+    {
+     "answer": "expectations",
+     "options": [
+      "expectations",
+      "expenses",
+      "expeditions",
+      "exceptions"
+     ]
+    },
+    {
+     "answer": "otherwise",
+     "options": [
+      "otherwise",
+      "likewise",
+      "therefore",
+      "meanwhile"
+     ]
+    },
+    {
+     "answer": "dishonesty",
+     "options": [
+      "dishonesty",
+      "disability",
+      "discount",
+      "dissection"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib13",
+   "type": "rwfib",
+   "level": 3,
+   "topic": "Plate tectonics",
+   "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "license": "CC BY-SA 4.0",
+   "text": "Plate tectonics is the scientific theory that the Earth's lithosphere is made up of a number of large plates, which have been slowly moving for billions of years. The model builds on the {{1}} of continental drift, an idea developed in the early 20th century. It came to be accepted by geoscientists only after seafloor spreading was {{2}} in the 1960s. Where plates meet, their relative motion {{3}} the type of boundary: convergent, divergent or transform. These boundaries tend to be geologically active, with earthquakes, volcanic activity and the {{4}} of mountains and ocean trenches. The plates typically move {{5}} zero and ten centimetres a year.",
+   "blanks": [
+    {
+     "answer": "concept",
+     "options": [
+      "concept",
+      "concert",
+      "content",
+      "contempt"
+     ]
+    },
+    {
+     "answer": "validated",
+     "options": [
+      "validated",
+      "violated",
+      "vacated",
+      "valued"
+     ]
+    },
+    {
+     "answer": "determines",
+     "options": [
+      "determines",
+      "terminates",
+      "dominates",
+      "deteriorates"
+     ]
+    },
+    {
+     "answer": "formation",
+     "options": [
+      "formation",
+      "information",
+      "formality",
+      "format"
+     ]
+    },
+    {
+     "answer": "between",
+     "options": [
+      "between",
+      "among",
+      "from",
+      "within"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib14",
+   "type": "rwfib",
+   "level": 3,
+   "topic": "Behavioral economics",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "text": "In the early 20th century, economists began to reject psychology and to rely instead on empirical {{1}}. Hedonic theories, which assumed that people always seek the maximum benefit, had shown little success in {{2}} human behaviour. Many economists also feared that psychology would weaken the mathematical side of their field, {{3}} it was a new discipline and was not regarded as sufficiently scientific. To make economics more accurate, they turned to {{4}} phenomena rather than theories based on the human mind. As a result, models {{5}} on psychological insights became rare.",
+   "blanks": [
+    {
+     "answer": "evidence",
+     "options": [
+      "evidence",
+      "evident",
+      "evidently",
+      "eventful"
+     ]
+    },
+    {
+     "answer": "predicting",
+     "options": [
+      "predicting",
+      "preventing",
+      "protecting",
+      "pretending"
+     ]
+    },
+    {
+     "answer": "because",
+     "options": [
+      "because",
+      "although",
+      "unless",
+      "whereas"
+     ]
+    },
+    {
+     "answer": "tangible",
+     "options": [
+      "tangible",
+      "tangled",
+      "tangential",
+      "tanned"
+     ]
+    },
+    {
+     "answer": "based",
+     "options": [
+      "based",
+      "basic",
+      "basis",
+      "basement"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rwfib15",
+   "type": "rwfib",
+   "level": 3,
+   "topic": "Multilingualism",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "text": "Multilingualism is the use of more than one language, either by an individual or by a group of speakers. When only two languages are involved, it is usually called bilingualism. It is believed that multilingual speakers {{1}} monolingual speakers in the world's population. More than half of all Europeans claim to speak at least one language other than their mother {{2}}. Being multilingual is an {{3}} for people who wish to take part in trade and international exchange. {{4}} to the ease of access to information on the internet, exposure to several languages has also become increasingly {{5}}.",
+   "blanks": [
+    {
+     "answer": "outnumber",
+     "options": [
+      "outnumber",
+      "outline",
+      "outlaw",
+      "outfit"
+     ]
+    },
+    {
+     "answer": "tongue",
+     "options": [
+      "tongue",
+      "tone",
+      "tongs",
+      "tune"
+     ]
+    },
+    {
+     "answer": "advantage",
+     "options": [
+      "advantage",
+      "adversity",
+      "advertisement",
+      "adverb"
+     ]
+    },
+    {
+     "answer": "Thanks",
+     "options": [
+      "Thanks",
+      "Despite",
+      "Instead",
+      "Regardless"
+     ]
+    },
+    {
+     "answer": "possible",
+     "options": [
+      "possible",
+      "possibly",
+      "possibility",
+      "impossible"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rfib01",
+   "type": "rfib",
+   "level": 1,
+   "topic": "Printing press",
+   "source": "https://simple.wikipedia.org/wiki/Printing_press",
+   "license": "CC BY-SA 4.0",
+   "text": "Two ideas changed the design of the printing press {{1}}. The first was the use of steam power to run the machines. The second was the {{2}} of the flat printing bed with the rotary motion of cylinders. Both ideas were developed by the German printer Friedrich Koenig, who {{3}} a steam press in 1810.",
+   "answers": [
+    "entirely",
+    "replacement",
+    "patented"
+   ],
+   "distractors": [
+    "entire",
+    "replace",
+    "patient"
+   ]
+  },
+  {
+   "id": "rfib02",
+   "type": "rfib",
+   "level": 1,
+   "topic": "Tea",
+   "source": "https://simple.wikipedia.org/wiki/Tea",
+   "license": "CC BY-SA 4.0",
+   "text": "Green tea is often made by steaming freshly picked leaves, which {{1}} them green. The leaves are then rolled and {{2}} in ovens. Oolong tea is different: it is only partly oxidized, and it is produced by withering the leaves under strong {{3}}.",
+   "answers": [
+    "keeps",
+    "dried",
+    "sunlight"
+   ],
+   "distractors": [
+    "keeping",
+    "frozen",
+    "moonlight"
+   ]
+  },
+  {
+   "id": "rfib03",
+   "type": "rfib",
+   "level": 1,
+   "topic": "Volcanoes",
+   "source": "https://simple.wikipedia.org/wiki/Volcano",
+   "license": "CC BY-SA 4.0",
+   "text": "Shield volcanoes are built from many {{1}} of runny lava. Because this lava flows easily, it {{2}} out over a wide area. This gives shield volcanoes their gently sloping sides. Although their sides are not steep, they are among the {{3}} volcanoes in the world.",
+   "answers": [
+    "layers",
+    "spreads",
+    "largest"
+   ],
+   "distractors": [
+    "steepest",
+    "layer",
+    "quickly"
+   ]
+  },
+  {
+   "id": "rfib04",
+   "type": "rfib",
+   "level": 1,
+   "topic": "Earthquakes",
+   "source": "https://simple.wikipedia.org/wiki/Earthquake",
+   "license": "CC BY-SA 4.0",
+   "text": "No one can tell exactly when an earthquake will happen. However, scientists know where earthquakes are {{1}} to occur, such as near fault lines. An earthquake under the ocean can {{2}} a huge wave called a tsunami, which can cause a lot of {{3}} when it reaches the coast.",
+   "answers": [
+    "likely",
+    "create",
+    "destruction"
+   ],
+   "distractors": [
+    "unlikely",
+    "creative",
+    "destroyed"
+   ]
+  },
+  {
+   "id": "rfib05",
+   "type": "rfib",
+   "level": 1,
+   "topic": "Honey bees",
+   "source": "https://simple.wikipedia.org/wiki/Honey_bee",
+   "license": "CC BY-SA 4.0",
+   "text": "A honey bee colony usually has only one queen. Her {{1}} lifespan is three to four years. Male bees, called drones, die soon after mating, and those that do not mate are {{2}} from the hive before winter. Female workers, which collect pollen and nectar from flowers, live for a few weeks to {{3}} months.",
+   "answers": [
+    "average",
+    "expelled",
+    "several"
+   ],
+   "distractors": [
+    "averaged",
+    "welcomed",
+    "severe"
+   ]
+  },
+  {
+   "id": "rfib06",
+   "type": "rfib",
+   "level": 2,
+   "topic": "Recycling",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "text": "Recycling is not a modern idea. In pre-industrial Europe, scrap bronze and other metals were collected and melted down for continuous {{1}}. Paper recycling was first {{2}} in 1031, when Japanese shops sold repulped paper. These early forms of recycling were {{3}} by the economic advantage of using recycled materials instead of new ones, and by the need to remove waste from increasingly {{4}} populated areas.",
+   "answers": [
+    "reuse",
+    "recorded",
+    "driven",
+    "densely"
+   ],
+   "distractors": [
+    "drove",
+    "density",
+    "reduce"
+   ]
+  },
+  {
+   "id": "rfib07",
+   "type": "rfib",
+   "level": 2,
+   "topic": "Sleep",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "text": "The use of artificial light has substantially {{1}} humanity's sleep patterns. Common sources include street lighting and the screens of digital devices such as smartphones, which {{2}} large amounts of blue light. This type of light is typically {{3}} with daytime. As a result, it disrupts the release of melatonin, the hormone needed to {{4}} the sleep cycle.",
+   "answers": [
+    "altered",
+    "emit",
+    "associated",
+    "regulate"
+   ],
+   "distractors": [
+    "admit",
+    "associate",
+    "regular"
+   ]
+  },
+  {
+   "id": "rfib08",
+   "type": "rfib",
+   "level": 2,
+   "topic": "Solar power",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "text": "Geography affects solar energy potential because some places are {{1}} than others. Areas closer to the equator generally receive more sunshine. However, solar panels that follow the position of the Sun can {{2}} increase the potential of areas farther from the equator. Land is another limitation: large solar farms {{3}} a lot of space, which is hard to find in densely populated regions. As a result, they are often built in rural {{4}}, far from major cities.",
+   "answers": [
+    "sunnier",
+    "significantly",
+    "require",
+    "areas"
+   ],
+   "distractors": [
+    "sunny",
+    "significant",
+    "requirement"
+   ]
+  },
+  {
+   "id": "rfib09",
+   "type": "rfib",
+   "level": 2,
+   "topic": "Antimicrobial resistance",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "text": "The World Health Organization considers antimicrobial resistance one of the top global threats to public health. It has been {{1}} that resistant bacteria were directly responsible for 1.27 million deaths in 2019. Experts warn that the number could {{2}} to 10 million deaths a year by 2050 unless action is taken. International initiatives therefore call for efforts to limit misuse, fund research and provide {{3}} to necessary medicines in developing countries. However, the COVID-19 pandemic {{4}} resources and attention away from the problem.",
+   "answers": [
+    "estimated",
+    "rise",
+    "access",
+    "redirected"
+   ],
+   "distractors": [
+    "estimate",
+    "excess",
+    "rose"
+   ]
+  },
+  {
+   "id": "rfib10",
+   "type": "rfib",
+   "level": 2,
+   "topic": "Urbanization",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "text": "From the rise of the first cities in Mesopotamia and Egypt until the 18th century, the vast majority of people lived in the countryside and {{1}} on farming. Towns were small, and their economic activity {{2}} mainly of trade at markets. Because farming methods changed very little, the ratio of rural to urban population remained almost {{3}} for thousands of years. Only with industrialization did large numbers of people begin to leave the land for {{4}} in cities.",
+   "answers": [
+    "depended",
+    "consisted",
+    "fixed",
+    "jobs"
+   ],
+   "distractors": [
+    "insisted",
+    "depending",
+    "fixing"
+   ]
+  },
+  {
+   "id": "rfib11",
+   "type": "rfib",
+   "level": 3,
+   "topic": "Ocean acidification",
+   "source": "https://en.wikipedia.org/wiki/Ocean_acidification",
+   "license": "CC BY-SA 4.0",
+   "text": "Ocean pH varies {{1}} on depth and location. Colder waters at higher latitudes are capable of absorbing more carbon dioxide, which can cause acidity to rise in these areas. Several other factors {{2}} the exchange of carbon dioxide between the atmosphere and the ocean, and therefore local acidification. These include ocean currents, the {{3}} of large rivers, sea ice coverage and pollution from burning fossil fuels. Because so many variables are involved, the effects of acidification are not {{4}} across the world's oceans.",
+   "answers": [
+    "depending",
+    "influence",
+    "proximity",
+    "uniform"
+   ],
+   "distractors": [
+    "dependent",
+    "influential",
+    "uniformly"
+   ]
+  },
+  {
+   "id": "rfib12",
+   "type": "rfib",
+   "level": 3,
+   "topic": "Placebos",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "text": "In a clinical trial, the placebo response is the measured response of participants who receive a placebo, while the placebo effect is the difference between that response and no treatment at all. The placebo response may include improvements due to natural {{1}}, as well as the tendency of people who feel better or worse than usual to return to their {{2}} state, a statistical effect known as regression to the mean. Measurable placebo effects may be either objective, such as lowered blood {{3}}, or subjective, such as a reduced {{4}} of pain.",
+   "answers": [
+    "healing",
+    "average",
+    "pressure",
+    "perception"
+   ],
+   "distractors": [
+    "heating",
+    "pleasure",
+    "reception"
+   ]
+  },
+  {
+   "id": "rfib13",
+   "type": "rfib",
+   "level": 3,
+   "topic": "Plate tectonics",
+   "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "license": "CC BY-SA 4.0",
+   "text": "Along convergent boundaries, the process of subduction carries the edge of one plate down under the other and into the mantle. This process {{1}} the total surface area of the Earth's crust. The lost surface, however, is {{2}} by the formation of new oceanic crust along divergent boundaries, where the seafloor spreads. In this way, the total surface area of the Earth remains {{3}}, like a slowly moving conveyor belt. Earth is the only planet known to have active plate tectonics at present, although there is {{4}} that Mars and Venus had some tectonic activity in the past.",
+   "answers": [
+    "reduces",
+    "balanced",
+    "constant",
+    "evidence"
+   ],
+   "distractors": [
+    "increases",
+    "balance",
+    "constantly"
+   ]
+  },
+  {
+   "id": "rfib14",
+   "type": "rfib",
+   "level": 3,
+   "topic": "Behavioral economics",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "text": "Behavioral economics is the study of the psychological factors that {{1}} the decisions of individuals and institutions. It is mainly concerned with the {{2}} of rationality: the ways in which real people fail to act as fully rational agents. Behavioral models typically {{3}} insights from psychology, neuroscience and microeconomic theory. Although the field is relatively young, it is growing quickly and is used {{4}} in both research and teaching.",
+   "answers": [
+    "influence",
+    "limits",
+    "integrate",
+    "increasingly"
+   ],
+   "distractors": [
+    "influential",
+    "limited",
+    "increasing"
+   ]
+  },
+  {
+   "id": "rfib15",
+   "type": "rfib",
+   "level": 3,
+   "topic": "Multilingualism",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "text": "The definition of multilingualism is a {{1}} of debate. At one end of the scale, it may be defined as the mastery of more than one language, with knowledge {{2}} to that of a native speaker. At the other end are people who know just enough phrases to get around as tourists. The linguist Vivian Cook has argued that most multilingual speakers fall somewhere {{3}} these two extremes. Modern research therefore sees multilingualism not as a simple category but as a {{4}} phenomenon, since people differ in when they learned each language, how well they speak it and how often they use it.",
+   "answers": [
+    "subject",
+    "equivalent",
+    "between",
+    "multifaceted"
+   ],
+   "distractors": [
+    "subjects",
+    "equivalence",
+    "besides"
+   ]
+  },
+  {
+   "id": "rop01",
+   "type": "rop",
+   "level": 1,
+   "topic": "Printing press",
+   "source": "https://simple.wikipedia.org/wiki/Printing_press",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "For centuries, words and pictures for whole pages were carved into blocks of wood.",
+    "In the 15th century, Johannes Gutenberg improved this process by using separate metal letters held in a frame.",
+    "These letters could be rearranged and reused to print almost any page.",
+    "Later, in the 19th century, steam power made printing presses bigger and much faster."
+   ]
+  },
+  {
+   "id": "rop02",
+   "type": "rop",
+   "level": 1,
+   "topic": "Tea",
+   "source": "https://en.wikipedia.org/wiki/Black_tea",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "To make black tea, freshly picked leaves are first withered by blowing air over them.",
+    "Next, the soft leaves are rolled or broken into pieces, which exposes their juices to the air.",
+    "This starts oxidation, a chemical reaction that turns the leaves dark and changes their taste.",
+    "Finally, the leaves are dried with hot air, which stops the reaction and makes the tea ready to brew."
+   ]
+  },
+  {
+   "id": "rop03",
+   "type": "rop",
+   "level": 1,
+   "topic": "Volcanoes",
+   "source": "https://simple.wikipedia.org/wiki/Volcano",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "Many volcanoes form when two tectonic plates collide.",
+    "When this happens, one plate, usually the oceanic plate, slides under the other.",
+    "As it sinks deeper, the heat makes the rock above it melt and form magma inside a magma chamber.",
+    "The pressure then builds up until the magma bursts through the Earth's crust."
+   ]
+  },
+  {
+   "id": "rop04",
+   "type": "rop",
+   "level": 1,
+   "topic": "Earthquakes",
+   "source": "https://simple.wikipedia.org/wiki/Earthquake",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "The Earth's tectonic plates are always moving very slowly.",
+    "Sometimes, however, two plates get stuck against each other.",
+    "When this happens, stress builds up and energy is stored in the rock around them.",
+    "An earthquake occurs when the plates suddenly break free and release this stored energy as waves."
+   ]
+  },
+  {
+   "id": "rop05",
+   "type": "rop",
+   "level": 1,
+   "topic": "Honey bees",
+   "source": "https://simple.wikipedia.org/wiki/Honey_bee",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "All honey bees use scent to coordinate their activities.",
+    "For example, a special gland on worker bees produces a scent chemical known as a pheromone.",
+    "This chemical can attract workers to a group of bees that has settled in a new place.",
+    "It can also guide lost bees back to the hive."
+   ]
+  },
+  {
+   "id": "rop06",
+   "type": "rop",
+   "level": 2,
+   "topic": "Recycling",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "Recyclable materials include many kinds of glass, paper, metal, plastic, textiles and electronics.",
+    "These materials are either taken to a recycling centre or picked up from bins outside homes.",
+    "They are then sorted, cleaned and reprocessed into new materials for manufacturing.",
+    "Ideally, this produces a fresh supply of the same material, so that used office paper becomes new office paper.",
+    "With many materials, however, this is difficult or too expensive, so they are turned into different products instead."
+   ]
+  },
+  {
+   "id": "rop07",
+   "type": "rop",
+   "level": 2,
+   "topic": "Sleep",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "The most important physical changes during sleep take place in the brain.",
+    "The brain uses significantly less energy during sleep than it does when we are awake, especially in deep sleep.",
+    "This reduction matters, because even when we are awake and resting, the brain is responsible for about 20% of the body's energy use.",
+    "Sleep therefore has a noticeable effect on the body's overall energy consumption."
+   ]
+  },
+  {
+   "id": "rop08",
+   "type": "rop",
+   "level": 2,
+   "topic": "Solar power",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "At first, photovoltaics were used only for small and medium-sized applications.",
+    "These ranged from calculators powered by a single solar cell to remote homes with their own rooftop systems.",
+    "As the cost of solar panels fell, however, much larger systems connected to the electricity grid became possible.",
+    "Since then, the capacity of grid-connected solar power has doubled about every three years.",
+    "Today, solar power is one of the cheapest sources of electricity for new installations in most countries."
+   ]
+  },
+  {
+   "id": "rop09",
+   "type": "rop",
+   "level": 2,
+   "topic": "Antimicrobial resistance",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "Antimicrobial resistance occurs when microbes evolve ways to protect themselves from the drugs used to treat infections.",
+    "One of the main causes is the misuse and overuse of these drugs in both medicine and agriculture.",
+    "Such overuse puts pressure on bacteria, so that only the resistant ones survive and multiply.",
+    "These survivors can then pass their resistance genes to other bacteria.",
+    "In this way, resistance spreads across a species and even to similar pathogens."
+   ]
+  },
+  {
+   "id": "rop10",
+   "type": "rop",
+   "level": 2,
+   "topic": "Urbanization",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "The first major change in human settlement patterns came thousands of years ago, when hunter-gatherers began to settle in villages.",
+    "Life in these villages was built on close family ties, intimate relationships and shared behaviour.",
+    "Today, however, this rural way of life is being rapidly replaced by urban culture across the world.",
+    "This new culture is marked by distant family ties, impersonal relationships and competitive behaviour."
+   ]
+  },
+  {
+   "id": "rop11",
+   "type": "rop",
+   "level": 3,
+   "topic": "Ocean acidification",
+   "source": "https://en.wikipedia.org/wiki/Ocean_acidification",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "Carbon dioxide emissions from human activities are the main cause of ocean acidification.",
+    "When the ocean absorbs this gas from the atmosphere, a chemical reaction produces carbonic acid.",
+    "The acid then releases hydrogen ions into the water.",
+    "It is the presence of these free ions that lowers the pH of the ocean.",
+    "As a result, organisms that build their shells from calcium carbonate, such as corals and molluscs, are especially at risk."
+   ]
+  },
+  {
+   "id": "rop12",
+   "type": "rop",
+   "level": 3,
+   "topic": "Placebos",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "The idea of a placebo effect was first discussed in the 18th century.",
+    "However, it only became widely known in the 20th century, when placebos became a standard part of clinical trials.",
+    "In these trials, one group of patients receives the real treatment while another receives a placebo.",
+    "Any improvement in the second group can then be compared with the results of the first group.",
+    "This comparison shows how much of a treatment's benefit comes from the medicine itself."
+   ]
+  },
+  {
+   "id": "rop13",
+   "type": "rop",
+   "level": 3,
+   "topic": "Plate tectonics",
+   "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "Tectonic plates are relatively rigid and float on a softer, flowing layer of rock beneath them.",
+    "Heat within this soft layer makes the rock move in slow convection currents.",
+    "At spreading ridges on the seafloor, new crust forms and then cools as it moves away from the ridge.",
+    "As it cools, the crust becomes denser, and eventually it sinks back into the mantle at a subduction zone.",
+    "This sinking of cold, dense crust is thought to be the strongest force driving the movement of the plates."
+   ]
+  },
+  {
+   "id": "rop14",
+   "type": "rop",
+   "level": 3,
+   "topic": "Behavioral economics",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "Early classical economists, including Adam Smith, often used psychological reasoning in their work.",
+    "In the early 1900s, however, psychology was largely removed from economics.",
+    "Economists instead began to treat people as purely rational, self-interested decision makers.",
+    "This view was challenged in the 1960s, when cognitive psychologists started to compare their models of decision-making with economic ones.",
+    "Their work eventually laid the foundation for behavioral economics, which became a distinct field in the 1970s and 1980s."
+   ]
+  },
+  {
+   "id": "rop15",
+   "type": "rop",
+   "level": 3,
+   "topic": "Multilingualism",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "paragraphs": [
+    "There is no consistent definition of what counts as a separate language.",
+    "For instance, scholars disagree about whether Scots is a language in its own right or a dialect of English.",
+    "What is considered a language can also change, often for political reasons.",
+    "One example is Serbo-Croatian, which was created as a standard language to unite many South Slavic dialects.",
+    "After the breakup of Yugoslavia, however, it was split into Serbian, Croatian, Bosnian and Montenegrin."
+   ]
+  },
+  {
+   "id": "mcsa01",
+   "type": "mcsa_r",
+   "level": 1,
+   "topic": "Penguins",
+   "source": "https://simple.wikipedia.org/wiki/Penguin",
+   "license": "CC BY-SA 4.0",
+   "text": "Most penguins lay two eggs a year, but emperor penguins lay only one. After laying the eggs, the mother soon goes to the ocean to eat. The mother and father take turns keeping the eggs, and later the chicks, warm. The parent looking after them has nothing to eat. This hungry time may last weeks or months, depending on the kind of penguin. If the other parent does not come back, the hungry one must leave the eggs and go to find food.",
+   "question": "According to the passage, what is true about the penguin parent that stays with the eggs or chicks?",
+   "options": [
+    "Its hungry time is the same length for every kind of penguin.",
+    "It goes without food while it cares for them.",
+    "It never leaves the eggs, even if the other parent stays away.",
+    "It catches fish near the nest to feed the young chicks."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Bài nói rõ con bố hoặc mẹ ở lại trông trứng hay con non thì 'has nothing to eat' – không có gì để ăn. Bẫy chính là C: nếu con kia không quay về, con đang trông phải bỏ trứng đi kiếm ăn, nên 'không bao giờ rời trứng' là sai."
+  },
+  {
+   "id": "mcsa02",
+   "type": "mcsa_r",
+   "level": 1,
+   "topic": "Chocolate",
+   "source": "https://simple.wikipedia.org/wiki/Chocolate",
+   "license": "CC BY-SA 4.0",
+   "text": "Early Mayan people in Central America and Mexico used the seeds of the cacao tree to make a drink. It tasted bitter, not sweet, and only important people could drink it. Later, the drink was made sweeter, and Spanish explorers brought it to Spain. When chocolate was also made into candy, it became a popular treat for many Europeans. At first, only rich people could buy it. Now, many people can afford it.",
+   "question": "What is the passage mainly about?",
+   "options": [
+    "Why the early Mayan people preferred bitter drinks to sweet ones",
+    "How Spanish explorers began to grow cacao trees in Spain",
+    "Why chocolate is still a treat that only rich people can buy",
+    "How chocolate went from a drink for a few to a treat for many"
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Cả đoạn kể sô-cô-la thay đổi thế nào: lúc đầu là thức uống đắng chỉ người quan trọng được uống, sau thành món ngọt được nhiều người thích và mua được. Bẫy chính là C: bài nói chỉ 'lúc đầu' người giàu mới mua được, còn 'bây giờ' nhiều người mua được."
+  },
+  {
+   "id": "mcsa03",
+   "type": "mcsa_r",
+   "level": 1,
+   "topic": "The Moon",
+   "source": "https://simple.wikipedia.org/wiki/Moon",
+   "license": "CC BY-SA 4.0",
+   "text": "Earth has an atmosphere, but the Moon does not. This makes a big difference. On Earth, most space rocks burn up in the atmosphere. The Moon has no such protection, so space rocks crash into it and make wide, shallow holes called craters. The Moon has thousands of them, and newer craters lie on top of older ones. Also, with no atmosphere for sunlight to bounce off, the Moon's sky looks black, even during the day.",
+   "question": "Which of the following can be inferred from the passage?",
+   "options": [
+    "If Earth had no atmosphere, more space rocks would reach its surface.",
+    "Most of the space rocks that fly toward the Moon burn up before landing.",
+    "The Moon's sky looks black because its surface is covered with craters.",
+    "All of the craters on the Moon were made at about the same time."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Bài nói khí quyển làm phần lớn đá không gian cháy hết trên Trái Đất, còn Mặt Trăng không có khí quyển nên bị đá rơi trúng tạo thành hố. Suy ra nếu Trái Đất không có khí quyển thì sẽ có nhiều đá rơi xuống mặt đất hơn. Bẫy chính là C: trời trên Mặt Trăng đen vì không có khí quyển, không phải vì có nhiều hố."
+  },
+  {
+   "id": "mcsa04",
+   "type": "mcsa_r",
+   "level": 1,
+   "topic": "Bicycles",
+   "source": "https://simple.wikipedia.org/wiki/Bicycle",
+   "license": "CC BY-SA 4.0",
+   "text": "In the 1860s, French inventors added pedals to the front wheel of the bicycle. Later bikes were made of metal, with a very big front wheel for more speed. This design, called the penny-farthing, was hard to ride, and any fall was long and dangerous. In 1885, John Kemp Starley invented the safety bicycle. Its two wheels were the same size, so the rider sat lower. When stopping, riders could simply put a foot down instead of getting off the bike.",
+   "question": "In the passage, what does the phrase 'put a foot down' mean?",
+   "options": [
+    "Refuse firmly to do what others want",
+    "Push hard on a pedal to go faster",
+    "Place one foot on the ground",
+    "Get off the bicycle completely"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Trong bài, khi dừng xe người đạp chỉ cần 'put a foot down' thay vì phải xuống xe, tức là đặt một chân xuống đất (vì yên xe đã thấp hơn). Bẫy chính là D: xuống xe chính là việc họ không cần làm nữa; còn A là nghĩa thành ngữ 'kiên quyết', không hợp với chuyện đạp xe."
+  },
+  {
+   "id": "mcsa05",
+   "type": "mcsa_r",
+   "level": 1,
+   "topic": "Elephants",
+   "source": "https://simple.wikipedia.org/wiki/Elephant",
+   "license": "CC BY-SA 4.0",
+   "text": "Elephants can live for about 70 years, but their teeth do not last forever. Elephants eat grass, which is very rough, so it wears their teeth down. They use their teeth one after another, not all at once. When the last back tooth falls out, the elephant dies because it cannot eat. However, in a zoo or a circus, people can keep such elephants alive by feeding them soft food.",
+   "question": "Why does the writer mention 'a zoo or a circus' in the last sentence?",
+   "options": [
+    "To argue that elephants should not be kept in zoos or circuses",
+    "To show how people can save elephants that have lost their teeth",
+    "To warn that the food given in zoos wears down elephants' teeth",
+    "To explain why elephants in zoos eat more grass than those in the wild"
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Câu cuối nói ở sở thú hay rạp xiếc, người ta giữ được mạng sống cho những con voi đã rụng hết răng bằng cách cho ăn đồ mềm. Bẫy chính là C: cỏ thô mới làm mòn răng, còn đồ ăn ở sở thú là đồ mềm."
+  },
+  {
+   "id": "mcma01",
+   "type": "mcma_r",
+   "level": 1,
+   "topic": "Olympic symbols",
+   "source": "https://simple.wikipedia.org/wiki/Olympic_Games",
+   "license": "CC BY-SA 4.0",
+   "text": "The Olympic logo is made of five rings joined together. The rings stand for the unity of five continents. In blue, yellow, black, green and red on a white background, they form the Olympic flag. The flag was officially chosen in 1914 but first flown at the 1920 Games in Antwerp, Belgium. Before each Games, the Olympic flame is lit in Olympia with the help of the sun. A torch relay carries it to the host city. The relay was first used in 1936.",
+   "question": "According to the passage, which of the following are true about the Olympic symbols?",
+   "options": [
+    "A relay carries the flame from Olympia to the host city.",
+    "The Olympic flag was flown for the first time in 1914.",
+    "The Olympic flag was designed in Antwerp, Belgium.",
+    "The rings represent the unity of five continents.",
+    "On the Olympic flag, the rings are shown on a black background.",
+    "The torch relay was first used at the 1920 Games."
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why_vi": "Bài nói rõ ngọn lửa được thắp ở Olympia rồi đoàn rước đuốc mang tới thành phố chủ nhà, và năm vòng tròn tượng trưng cho sự đoàn kết của năm châu lục. Bẫy chính là các con số: 1914 chỉ là năm lá cờ được chọn, lần đầu tung bay là 1920; còn rước đuốc bắt đầu năm 1936, không phải 1920."
+  },
+  {
+   "id": "mcma02",
+   "type": "mcma_r",
+   "level": 1,
+   "topic": "Rainforest canopy",
+   "source": "https://simple.wikipedia.org/wiki/Tropical_rainforest",
+   "license": "CC BY-SA 4.0",
+   "text": "The canopy is like a green roof over the rainforest. Its trees grow thin and straight and do not put out branches until they are very tall. They are so close together that very little light reaches the layers below. Monkeys, birds and insects live here, and many of these animals never touch the ground. The trees' roots do not go deep, because the soil is thin. Instead, they spread out along the ground to quickly take in food from dead plants and animals.",
+   "question": "According to the passage, which of the following are true about the canopy layer?",
+   "options": [
+    "Canopy trees grow many branches low down on their trunks.",
+    "The soil is thin because the trees' roots do not go deep.",
+    "Very little light gets through the canopy to the layers below.",
+    "Monkeys are the only animals that live in the canopy.",
+    "The trees in the canopy grow far apart from each other.",
+    "Canopy tree roots stay near the surface of the ground."
+   ],
+   "answers": [
+    2,
+    5
+   ],
+   "why_vi": "Cây tầng tán mọc sát nhau nên rất ít ánh sáng lọt xuống dưới, và rễ cây không đâm sâu mà lan ra sát mặt đất. Bẫy chính là đảo ngược nguyên nhân: bài nói rễ nông VÌ đất mỏng, chứ không nói đất mỏng vì rễ nông."
+  },
+  {
+   "id": "mcma03",
+   "type": "mcma_r",
+   "level": 1,
+   "topic": "Coffee types",
+   "source": "https://simple.wikipedia.org/wiki/Coffee",
+   "license": "CC BY-SA 4.0",
+   "text": "There are two main types of coffee plant: Arabica and Robusta. Arabica is the most common, and most of the world's coffee is made from its beans. Robusta can grow in places where Arabica will not grow. Compared with Arabica, Robusta is cheaper and has more caffeine, but it tastes bitter. In the past, new Arabica coffees were named after the place they were shipped from. The two oldest Arabica coffees are Mocha and Java. Today, names show the country, region and sometimes the farm.",
+   "question": "According to the passage, which of the following are true?",
+   "options": [
+    "Robusta grows in some places where Arabica cannot grow.",
+    "Robusta is the most common type of coffee in the world.",
+    "Arabica beans cost less money than Robusta beans.",
+    "Robusta beans contain more caffeine than Arabica beans.",
+    "Mocha and Java are the oldest kinds of Arabica coffee.",
+    "Today, coffee names show the place the beans were shipped from."
+   ],
+   "answers": [
+    0,
+    3,
+    4
+   ],
+   "why_vi": "Bài nói Robusta mọc được ở nơi Arabica không mọc, nhiều caffeine hơn Arabica, còn Mocha và Java là hai loại Arabica lâu đời nhất. Bẫy chính: loại phổ biến nhất là Arabica chứ không phải Robusta (người Việt dễ nhầm vì quen uống Robusta), Robusta mới là loại rẻ hơn, và đặt tên theo cảng là chuyện ngày xưa, không phải bây giờ."
+  },
+  {
+   "id": "mcma04",
+   "type": "mcma_r",
+   "level": 1,
+   "topic": "Plant-eating and meat-eating dinosaurs",
+   "source": "https://simple.wikipedia.org/wiki/Dinosaur",
+   "license": "CC BY-SA 4.0",
+   "text": "The largest dinosaurs were plant-eaters, such as Apatosaurus and Brachiosaurus. They were the largest animals ever to walk on dry land. Other plant-eaters had special weapons to fight off meat-eaters. For example, Triceratops had three horns on its head, and Stegosaurus had spikes on its tail. The meat-eaters walked on their back legs, and their tails helped them keep their balance. Some, like Tyrannosaurus, were very large, but others were small. The smaller meat-eaters may have developed into birds.",
+   "question": "Which of the following statements are supported by the passage?",
+   "options": [
+    "The biggest dinosaurs were meat-eaters such as Tyrannosaurus.",
+    "Meat-eating dinosaurs used their tails to keep their balance.",
+    "Triceratops had spikes on its tail to fight off meat-eaters.",
+    "Some plant-eaters had weapons to use against meat-eaters.",
+    "Large meat-eaters like Tyrannosaurus later developed into birds."
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "why_vi": "Bài nói khủng long ăn thịt nhờ cái đuôi để giữ thăng bằng, và một số khủng long ăn cỏ có vũ khí để chống lại khủng long ăn thịt. Bẫy chính: khủng long to nhất là loài ăn cỏ, không phải Tyrannosaurus; gai ở đuôi là của Stegosaurus, còn Triceratops có ba sừng trên đầu; và loài có thể thành chim là loài ăn thịt nhỏ, không phải loài lớn."
+  },
+  {
+   "id": "mcma05",
+   "type": "mcma_r",
+   "level": 1,
+   "topic": "Internet services",
+   "source": "https://simple.wikipedia.org/wiki/Internet",
+   "license": "CC BY-SA 4.0",
+   "text": "People use the Internet for many things, such as email, online chat and sharing files. The most used service is the World Wide Web, also called 'the Web'. It includes social media sites, blogs and wikis. Anyone can see a web page unless it needs a password or is blocked. The second biggest use is email, which is sent from one user to another. Instant messaging is similar to email, but it lets two or more people chat faster.",
+   "question": "According to the passage, which of the following are true about Internet services?",
+   "options": [
+    "Email is the most used service on the Internet.",
+    "Instant messaging only works between two people.",
+    "The Web is used more than any other Internet service.",
+    "Every web page can be seen by anyone who is online.",
+    "Instant messaging lets people chat faster than email.",
+    "An email is sent from one user to another."
+   ],
+   "answers": [
+    2,
+    4,
+    5
+   ],
+   "why_vi": "Web là dịch vụ được dùng nhiều nhất, email được gửi từ người này sang người kia, còn nhắn tin nhanh giúp chat nhanh hơn email. Bẫy chính: email chỉ đứng thứ hai chứ không phải số một, nhắn tin nhanh dùng được cho hai người trở lên, và không phải trang web nào ai cũng xem được (có trang cần mật khẩu hoặc bị chặn)."
+  },
+  {
+   "id": "mcsa06",
+   "type": "mcsa_r",
+   "level": 2,
+   "topic": "Recycling",
+   "source": "https://en.wikipedia.org/wiki/Recycling",
+   "license": "CC BY-SA 4.0",
+   "text": "Curbside collection systems differ mainly in where materials are sorted and cleaned. In mixed waste collection, recyclables are collected with ordinary waste and separated later at a central facility. As a result, a large amount of recyclable material, especially paper, becomes too dirty to reprocess. However, the city need not pay for a separate collection, and no public education is needed. In a single-stream system, recyclables are mixed together but kept apart from other waste. This greatly reduces the need for cleaning after collection, but people must be taught which materials can be recycled. At the other extreme is source separation, where each material is cleaned and sorted before collection. This produces the purest materials, but it costs more to run and requires extensive public education to prevent contamination.",
+   "question": "What can be inferred from the passage about public education in curbside recycling?",
+   "options": [
+    "It is equally necessary in every type of curbside system.",
+    "It is mainly a way to cut the costs of source separation.",
+    "The need for it grows as more sorting happens before collection.",
+    "It is needed because mixed collection leaves paper too dirty to reprocess."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Bài cho thấy: gom lẫn rồi mới phân loại thì không cần dạy dân, còn càng phân loại sẵn trước khi gom thì càng phải dạy dân nhiều. Bẫy: câu nói cần dạy dân vì giấy bị bẩn, nhưng giấy bẩn là chuyện của cách gom lẫn, mà cách này bài nói rõ là không cần dạy dân."
+  },
+  {
+   "id": "mcsa07",
+   "type": "mcsa_r",
+   "level": 2,
+   "topic": "Sleep",
+   "source": "https://en.wikipedia.org/wiki/Sleep",
+   "license": "CC BY-SA 4.0",
+   "text": "A child's brain grows very fast in the first two years of life, and most of this growth happens during the period of life when people sleep the most. The hours that children spend asleep influence how well they perform on thinking tasks. Children who sleep through the night and rarely wake up have higher cognitive achievement and easier temperaments than other children. Sleep also affects language development. In one experiment, researchers taught infants an invented language. Those who slept within four hours of learning it remembered its rules better than those who stayed awake longer. There is also a link with vocabulary: infants who sleep longer at night at 12 months have better vocabularies at 26 months.",
+   "question": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    "Sleep plays an important part in children's mental and language development.",
+    "Most of a child's brain growth takes place while learning to speak.",
+    "Staying awake after a lesson helps infants remember new language rules.",
+    "Sleep is the only factor that decides how well children perform."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Cả đoạn đều nói giấc ngủ ảnh hưởng tới não, khả năng suy nghĩ, tính khí và việc học ngôn ngữ của trẻ, nên đó là ý chính. Bẫy: câu 'thức sau khi học giúp nhớ' nói ngược thí nghiệm, vì trẻ ngủ trong vòng 4 tiếng sau khi học mới nhớ luật tốt hơn."
+  },
+  {
+   "id": "mcsa08",
+   "type": "mcsa_r",
+   "level": 2,
+   "topic": "Solar power",
+   "source": "https://en.wikipedia.org/wiki/Solar_power",
+   "license": "CC BY-SA 4.0",
+   "text": "A hybrid system combines solar power with energy storage or with other forms of generation. Hydro, wind and batteries are commonly combined with solar. Combining sources may allow a system to vary its output with demand, or at least to smooth out the ups and downs of solar power. Wind and solar are a useful pair because the two sources complement each other: their peak operating times fall at different points in the day and year. As a result, their combined output is steadier than that of either source alone. Adding solar panels on or around existing hydro reservoirs is particularly useful, since hydro is usually more flexible than wind and cheaper at scale than batteries, and existing power lines can sometimes be used.",
+   "question": "In the passage, the phrase \"complement each other\" is closest in meaning to",
+   "options": [
+    "compete with each other to supply the grid",
+    "produce their highest output at the same time",
+    "make each other's output less steady",
+    "fill the gaps in each other's power supply"
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "'Complement each other' là bù cho nhau: câu ngay sau dấu hai chấm nói gió và mặt trời mạnh nhất vào những lúc khác nhau, nên gộp lại thì điện đều hơn. Bẫy: tưởng 'bổ sung' là hai nguồn cùng mạnh một lúc, trong khi bài nói ngược lại."
+  },
+  {
+   "id": "mcsa09",
+   "type": "mcsa_r",
+   "level": 2,
+   "topic": "Antimicrobial resistance",
+   "source": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+   "license": "CC BY-SA 4.0",
+   "text": "Self-medication means taking medicines on one's own initiative or on the advice of someone who is not a medical professional. It has been identified as one of the primary reasons for the evolution of antimicrobial resistance. The practice is common in countries with limited resources, where many people turn to it out of necessity, for example when no doctor is available or when they have little time or money to see one. A further issue is the public's lack of knowledge. Resistance is a property of the microbe, not of the person it infects. Yet in published studies covering 55,225 people, 70% had heard of antibiotic resistance, but 88% of these thought it referred to some kind of physical change in the human body.",
+   "question": "Why does the writer mention the studies covering 55,225 people?",
+   "options": [
+    "To prove that self-medication is the single main cause of resistance.",
+    "To show that many people who know the term misunderstand it.",
+    "To suggest that most people have never heard of resistance.",
+    "To explain why people in poorer countries often cannot see a doctor."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Bài nói kháng thuốc là đặc điểm của vi trùng chứ không phải của người bệnh, vậy mà 88% người từng nghe về nó lại tưởng đó là thay đổi trong cơ thể người, tức là biết tên nhưng hiểu sai. Bẫy: chọn 'hầu hết chưa nghe bao giờ' là sai, vì 70% đã nghe rồi."
+  },
+  {
+   "id": "mcsa10",
+   "type": "mcsa_r",
+   "level": 2,
+   "topic": "Urbanization",
+   "source": "https://en.wikipedia.org/wiki/Urbanization",
+   "license": "CC BY-SA 4.0",
+   "text": "Urban heat islands have become a growing concern over the years. A heat island forms when built-up urban areas absorb and retain heat. In the countryside, much of the solar energy that arrives is used to evaporate water from plants and soil. Cities, however, have less vegetation and less exposed soil. Instead, most of the sun's energy is absorbed by buildings and asphalt, which leads to higher surface temperatures. Vehicles, factories and the heating and cooling units in homes release even more heat. As a result, cities are often 1 to 3 °C warmer than nearby areas. Heat islands also make the soil drier.",
+   "question": "According to the passage, which of the following helps to explain why cities are warmer than nearby areas?",
+   "options": [
+    "Buildings and asphalt reflect most of the sun's energy into the air.",
+    "Heating and cooling units in homes help to lower surface temperatures.",
+    "Less solar energy is spent evaporating water from plants and soil.",
+    "The wetter soil in cities stores more of the sun's heat."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Ở nông thôn, phần lớn nắng được dùng để làm bốc hơi nước từ cây và đất; thành phố ít cây, ít đất trống nên nắng bị nhà cửa và mặt đường hút vào, làm nóng lên. Bẫy: bài dùng 'absorbed' (hút vào) chứ không phải 'reflect' (hắt lại), và máy sưởi, máy lạnh thải thêm nhiệt chứ không làm mát."
+  },
+  {
+   "id": "mcma06",
+   "type": "mcma_r",
+   "level": 2,
+   "topic": "Glaciers",
+   "source": "https://en.wikipedia.org/wiki/Glacier",
+   "license": "CC BY-SA 4.0",
+   "text": "Glaciers need permanent snow cover, which is affected by factors such as the slope of the land, the amount of snowfall and the winds. Even at high latitudes, glacier formation is not inevitable. Parts of the Arctic, such as Banks Island, and the McMurdo Dry Valleys in Antarctica are polar deserts: despite the bitter cold, glaciers cannot form there because they receive little snowfall. Cold air, unlike warm air, cannot carry much water vapour. Even during the glacial periods of the Quaternary, the lowlands of central and northern Alaska were extremely cold, but snowfall was too light for glaciers to form. Similarly, some high, cold mountains in Bolivia, Chile and Argentina lack the precipitation needed for glaciers, as they lie near or in the very dry Atacama Desert.",
+   "question": "According to the passage, which of the following are true?",
+   "options": [
+    "Polar deserts have no glaciers because their temperatures are too high.",
+    "The slope of the land affects the snow cover glaciers need.",
+    "Cold air can carry less water vapour than warm air.",
+    "The mountains near the Atacama Desert are too low to hold snow.",
+    "Strong winds are the main reason why glaciers cannot form in polar deserts.",
+    "Parts of Alaska had no glaciers during the Quaternary glacial periods."
+   ],
+   "answers": [
+    1,
+    2,
+    5
+   ],
+   "why_vi": "Bài nói lớp tuyết mà sông băng cần bị ảnh hưởng bởi độ dốc của đất, không khí lạnh không mang được nhiều hơi nước như không khí ấm, và vùng thấp ở giữa và bắc Alaska rất lạnh nhưng ít tuyết nên không có sông băng. Bẫy chính: bài có nhắc 'gió', nhưng lý do sa mạc cực không có sông băng là ít tuyết; còn núi gần Atacama là núi cao, thiếu sông băng vì khô chứ không phải vì thấp."
+  },
+  {
+   "id": "mcma07",
+   "type": "mcma_r",
+   "level": 2,
+   "topic": "Hydropower and wind power",
+   "source": "https://en.wikipedia.org/wiki/Hydroelectricity",
+   "license": "CC BY-SA 4.0",
+   "text": "Wind power varies in predictable ways from season to season, but from day to day it is intermittent. Peak wind generation has little relationship to peak electricity use: the wind may blow hardest at night, when less power is needed, or be still during the day, when demand is highest. Sometimes weather patterns bring low wind for days or even weeks. In such cases, a hydroelectric reservoir that can store weeks of output is useful for balancing the grid, as hydropower is easy to regulate. Conversely, wind power can sometimes be used to save water for dry seasons. Norway, for example, gets most of its electricity from hydropower and trades electricity with flatland neighbours that have wind power, such as Denmark and Germany.",
+   "question": "Which of the following statements are supported by the passage?",
+   "options": [
+    "Wind power output is predictable from one day to the next.",
+    "Wind power varies in a predictable way across the seasons.",
+    "Wind generation usually peaks when electricity demand is highest.",
+    "Norway gets most of its electricity from the wind farms of its neighbours.",
+    "Hydro reservoirs can help balance the grid when wind is low."
+   ],
+   "answers": [
+    1,
+    4
+   ],
+   "why_vi": "Bài nói gió thay đổi 'dễ đoán theo mùa', và hồ chứa thủy điện giúp cân bằng lưới điện khi gió yếu nhiều ngày liền. Bẫy chính: tráo 'theo mùa' thành 'theo ngày' (theo ngày thì gió thất thường), và Na Uy lấy phần lớn điện từ thủy điện chứ không phải từ gió của nước láng giềng."
+  },
+  {
+   "id": "mcma08",
+   "type": "mcma_r",
+   "level": 2,
+   "topic": "Thomas Cook's first excursion",
+   "source": "https://en.wikipedia.org/wiki/Tourism",
+   "license": "CC BY-SA 4.0",
+   "text": "Thomas Cook was a pioneer of the travel agency business. When an extension of the Midland Counties Railway opened, he planned a trip for 540 temperance campaigners from Leicester to a rally in Loughborough. For the trip, which ran on 5 July 1841, Cook arranged for the rail company to charge one shilling per person, which included both the rail ticket and food for the journey. Because railway tickets were legal contracts between the company and the passenger, Cook could not sell them at his own price; instead, he was paid a share of the fares. This was the first privately chartered excursion train advertised to the public, although Cook acknowledged that earlier, unadvertised ones had run. Over the next three summers, he organised outings for temperance societies and Sunday school children.",
+   "question": "According to the passage, which of the following are true?",
+   "options": [
+    "The one-shilling fare covered food as well as the rail ticket.",
+    "The passengers travelled from Loughborough to a rally in Leicester.",
+    "Cook was free to sell the tickets at any price he chose.",
+    "Cook admitted that other excursion trains had run before his.",
+    "The 1841 trip was organised for a group of Sunday school children.",
+    "Cook received a share of the fares paid by the passengers."
+   ],
+   "answers": [
+    0,
+    3,
+    5
+   ],
+   "why_vi": "Giá 1 shilling gồm cả vé tàu lẫn đồ ăn; Cook được chia một phần tiền vé; và chính ông thừa nhận đã có tàu du ngoạn chạy trước đó, chỉ là không quảng cáo. Bẫy chính: Cook không được tự đặt giá vé, chuyến đi từ Leicester tới Loughborough (không phải ngược lại), và chuyến 1841 chở 540 người vận động kiêng rượu, còn trẻ em trường Chủ nhật là các chuyến sau."
+  },
+  {
+   "id": "mcma09",
+   "type": "mcma_r",
+   "level": 2,
+   "topic": "Forest pledges",
+   "source": "https://en.wikipedia.org/wiki/Deforestation",
+   "license": "CC BY-SA 4.0",
+   "text": "In 2014, about 40 countries signed the New York Declaration on Forests, a voluntary pledge to halve deforestation by 2020 and end it by 2030. However, the agreement was not legally binding, and key countries such as Brazil, China and Russia did not sign it. As a result, the effort failed, and deforestation increased between 2014 and 2020. In November 2021, at the COP26 climate summit in Glasgow, 141 countries agreed to end and reverse deforestation by 2030. Together, they contain around 85% of the world's primary tropical forests. The Glasgow declaration improved on the earlier one by including Brazil, but several nations with high deforestation rates, such as Malaysia and Paraguay, have not signed it. Like the New York Declaration, it is not legally binding.",
+   "question": "According to the passage, which of the following are true?",
+   "options": [
+    "China and Russia were among the countries that signed the 2014 pledge.",
+    "Deforestation increased in the years after the New York Declaration.",
+    "Unlike the 2014 pledge, the Glasgow pledge is legally binding.",
+    "About 141 countries signed the New York Declaration on Forests.",
+    "Brazil signed the Glasgow pledge but not the 2014 one.",
+    "Every country with a high rate of deforestation signed the Glasgow pledge."
+   ],
+   "answers": [
+    1,
+    4
+   ],
+   "why_vi": "Sau Tuyên bố New York 2014, nạn phá rừng lại tăng trong giai đoạn 2014–2020; Brazil không ký năm 2014 nhưng có tham gia thỏa thuận Glasgow. Bẫy chính: con số 141 là của Glasgow, còn New York chỉ khoảng 40 nước; và cả hai thỏa thuận đều không bắt buộc về mặt pháp lý."
+  },
+  {
+   "id": "mcma10",
+   "type": "mcma_r",
+   "level": 2,
+   "topic": "Measuring obesity",
+   "source": "https://en.wikipedia.org/wiki/Obesity",
+   "license": "CC BY-SA 4.0",
+   "text": "Among researchers, the preferred measure of obesity is body fat percentage, the proportion of a person's weight that is fat. Body mass index (BMI) is seen merely as a way to estimate it. In some countries, BMI is now regarded as outdated because it ignores differences between individuals in lean body mass, particularly muscle. People who do heavy physical work or play sports may have a high BMI despite having little fat. For example, more than half of all NFL players are classified as obese by BMI, yet their average body fat percentage, 14%, is well within the healthy range. Similarly, a study of college-aged sumo wrestlers found that many of those classed as obese by BMI were no longer classed as obese when body fat percentage was used instead.",
+   "question": "Which of the following statements are true according to the passage?",
+   "options": [
+    "BMI is now viewed as an outdated measure in most countries.",
+    "NFL players have more body fat on average than is considered healthy.",
+    "BMI ignores differences in muscle mass between individuals.",
+    "Researchers prefer body fat percentage to BMI for measuring obesity.",
+    "Using BMI, most of the sumo wrestlers were found not to be obese."
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "why_vi": "Bài nói giới nghiên cứu ưa dùng tỉ lệ mỡ cơ thể hơn BMI, và BMI bỏ qua khác biệt về khối cơ giữa người này với người khác. Bẫy chính: bài chỉ nói BMI bị coi là lỗi thời ở 'một số nước' chứ không phải 'hầu hết'; nhiều đô vật sumo hết bị xếp béo phì là khi đo bằng tỉ lệ mỡ, còn đo bằng BMI thì họ bị xếp béo phì."
+  },
+  {
+   "id": "mcsa11",
+   "type": "mcsa_r",
+   "level": 3,
+   "topic": "Ocean acidification",
+   "source": "https://en.wikipedia.org/wiki/Ocean_acidification",
+   "license": "CC BY-SA 4.0",
+   "text": "Warm-water corals are clearly in decline, with losses of 50% over the last 30 to 50 years. They face multiple threats: ocean warming, acidification, pollution and physical damage from activities such as fishing. Acidification matters because corals grow their skeletons from aragonite crystals inside internal compartments. When the surrounding seawater is less saturated with aragonite than usual, corals must work harder to maintain the right balance inside these compartments, and they build their skeletons less efficiently. Acidified water mainly reduces the corals' capacity to build dense skeletons, rather than the rate at which the skeletons lengthen. An experiment on a patch of the Great Barrier Reef that raised the pH of the seawater to near pre-industrial levels increased net calcification by 7%, while a similar experiment that lowered the pH to a level expected soon after 2050 cut it by 34%. However, a field study of reefs in Queensland and Western Australia found that corals are more resistant to pH changes than previously thought, because they regulate their internal conditions. On this view, marine heatwaves, which lead to coral bleaching, rather than acidification, are the main factor behind reef vulnerability.",
+   "question": "Why does the writer mention the field study of reefs in Queensland and Western Australia?",
+   "options": [
+    "To confirm that acidification is the greatest danger to coral reefs",
+    "To suggest that warm-water corals have stopped declining in recent years",
+    "To show that acidification may not be the main threat facing corals",
+    "To explain why acidified seawater makes coral skeletons less dense"
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Nghiên cứu ở Queensland và Tây Úc được mở đầu bằng 'However' và đi tới kết luận: sóng nhiệt biển, chứ không phải axit hóa, mới là nguyên nhân chính. Tức là tác giả đưa ra một bằng chứng ngược chiều. Bẫy chính: thấy 'more resistant' rồi tưởng san hô đã hết suy giảm, trong khi câu đầu bài nói san hô 'clearly in decline'."
+  },
+  {
+   "id": "mcsa12",
+   "type": "mcsa_r",
+   "level": 3,
+   "topic": "Placebos",
+   "source": "https://en.wikipedia.org/wiki/Placebo",
+   "license": "CC BY-SA 4.0",
+   "text": "The placebo effect is not equally strong in everyone. Differences in personality may influence how strongly people respond: those with a more optimistic outlook tend to show stronger placebo responses, while those with higher levels of anxiety are more likely to experience nocebo effects, in which a person given an inactive treatment reports negative effects or a worsening of symptoms. The way a placebo is given also matters. Studies have found that taking more pills strengthens the effect, that capsules appear to be more influential than tablets, and that injections are stronger still. The behaviour of the person giving the placebo plays a part as well: it works better when that person shows care towards the patient, is friendly and sympathetic, or has high expectations of the treatment's success. Some researchers have even tested open-label placebos, in which patients are fully aware that the treatment is inert. These trials suggest that such placebos may have positive effects compared with no treatment. However, a review pointed out that the trials involved small numbers of participants, so their results should be interpreted with caution until better-controlled studies are carried out.",
+   "question": "According to the passage, which of the following is true of open-label placebos?",
+   "options": [
+    "They work only when patients believe the treatment is real.",
+    "They have proved more effective than placebo injections.",
+    "They tend to cause nocebo effects in anxious patients.",
+    "The trials that tested them involved few participants."
+   ],
+   "answers": [
+    3
+   ],
+   "why_vi": "Bài nói rõ: một bài tổng quan nhận xét các thử nghiệm giả dược 'open-label' có ít người tham gia, nên phải đọc kết quả thận trọng. Bẫy chính: thấy 'positive effects' liền nghĩ nó đã được chứng minh mạnh hơn thuốc tiêm, hoặc gán hiệu ứng nocebo (bài chỉ nói về người hay lo âu nói chung) cho loại giả dược này."
+  },
+  {
+   "id": "mcsa13",
+   "type": "mcsa_r",
+   "level": 3,
+   "topic": "Plate tectonics",
+   "source": "https://en.wikipedia.org/wiki/Plate_tectonics",
+   "license": "CC BY-SA 4.0",
+   "text": "Beginning in the 1950s, scientists using magnetometers, instruments adapted from airborne devices developed during the Second World War to detect submarines, noticed odd magnetic variations across the ocean floor. This was not entirely surprising. The ocean floor is made of basalt, an iron-rich volcanic rock containing a strongly magnetic mineral called magnetite, and when newly formed rock cools, this mineral records the Earth's magnetic field at that time. As more of the seafloor was mapped, the variations turned out not to be random. Instead, they formed a zebra-like pattern, in which each stripe of rock with normal polarity lay next to a stripe with reversed polarity. In 1963, researchers explained this pattern by linking it to seafloor spreading and to reversals of the Earth's magnetic field. The stripes are symmetrical on either side of the crests of mid-ocean ridges. The rocks are youngest at the crest and become progressively older further away, and the youngest always have modern, normal polarity. The oceanic crust also came to be seen as a natural 'tape recording' of the history of these magnetic reversals.",
+   "question": "What does the writer mean by calling the oceanic crust a natural 'tape recording'?",
+   "options": [
+    "It produces sound signals that were first picked up by wartime devices.",
+    "It preserves a record of how the magnetic field reversed in the past.",
+    "It shows a random pattern of normal and reversed magnetic stripes.",
+    "It changes its polarity each time the Earth's magnetic field reverses."
+   ],
+   "answers": [
+    1
+   ],
+   "why_vi": "Khi đá mới nguội, khoáng chất trong đá 'ghi lại' từ trường Trái Đất lúc đó, nên các dải đá có tuổi khác nhau giữ lại lịch sử những lần từ trường đảo chiều, giống cuộn băng lưu lại quá khứ. Bẫy chính: hiểu theo nghĩa đen là âm thanh, hoặc tưởng đá tự đổi cực mỗi lần từ trường đảo."
+  },
+  {
+   "id": "mcsa14",
+   "type": "mcsa_r",
+   "level": 3,
+   "topic": "Behavioral economics",
+   "source": "https://en.wikipedia.org/wiki/Behavioral_economics",
+   "license": "CC BY-SA 4.0",
+   "text": "Behavioral development economics combines behavioral economics and development economics to study how people in low-income countries make economic decisions under the influence of cognitive biases and social norms. Non-standard economic behavior exists everywhere, but it is more pronounced in the Global South, where it interacts with higher poverty rates, financial instability and weaker formal institutions. Recent research in this field highlights how the experience of poverty itself can impair thinking and decision-making, potentially keeping people poor. Scarcity captures attention, narrowing a person's focus to immediate financial concerns and reducing their mental 'bandwidth' for other tasks. This focus may improve decisions in some contexts, for example by making people more aware of prices, but the overall effect of constant financial stress is harmful. In one experiment, low-income people in the United States showed reduced cognitive performance when presented with scenarios involving large financial stakes, while high-income people did not. Similarly, sugarcane farmers in India performed significantly worse on cognitive tasks before the harvest, when money was tight, than after it. Such findings suggest that the pressure of poverty, rather than fixed individual traits, shapes the quality of people's decisions.",
+   "question": "Which of the following best expresses the main idea of the passage?",
+   "options": [
+    "Financial pressure can itself weaken people's ability to make good decisions.",
+    "People in poor countries decide badly mainly because of fixed personal traits.",
+    "Worrying about money usually helps low-income people make more careful choices.",
+    "Non-standard economic behavior occurs only in low-income countries of the Global South."
+   ],
+   "answers": [
+    0
+   ],
+   "why_vi": "Cả bài xoay quanh một ý: chính cảnh nghèo và áp lực tiền bạc làm giảm khả năng suy nghĩ và ra quyết định. Hai nghiên cứu ở Mỹ và Ấn Độ chỉ là ví dụ minh họa. Bẫy chính: phương án đổ cho 'tính cách cố định', trong khi bài nói ngược lại: 'rather than fixed individual traits'."
+  },
+  {
+   "id": "mcsa15",
+   "type": "mcsa_r",
+   "level": 3,
+   "topic": "Multilingualism",
+   "source": "https://en.wikipedia.org/wiki/Multilingualism",
+   "license": "CC BY-SA 4.0",
+   "text": "Multilingual speakers have acquired and maintained at least one language during childhood, the so-called first language, or L1. This language, sometimes called the mother tongue, is acquired without formal education, through mechanisms that are still heavily disputed. Children who acquire two languages in this way are known as simultaneous bilinguals, although even in their case one language usually dominates the other. People who know more than one language can also lose command of some of them, a process called language attrition. Under certain conditions, people may even lose their first language completely after switching to the exclusive use of another, effectively becoming native in a language that was once secondary. This is most commonly seen among immigrant communities. The most important factor in such total loss appears to be age. In the absence of neurological problems or injury, only young children are typically at risk of forgetting their native language. Once people pass an age of around 12, which seems closely linked to the critical period, total loss is no longer typical, although their ability to express themselves may still decline if the language is never practised.",
+   "question": "Based on the passage, what is most likely to happen to a woman who emigrates at the age of 30 and stops using her first language?",
+   "options": [
+    "She will probably forget her first language completely within a few years.",
+    "She will become a native speaker of her new language, as most immigrants do.",
+    "She is unlikely to lose it fully, but may express herself less well in it.",
+    "She will keep it exactly as before unless she suffers a brain injury."
+   ],
+   "answers": [
+    2
+   ],
+   "why_vi": "Bài nói qua khoảng 12 tuổi thì mất hẳn tiếng mẹ đẻ là chuyện 'không điển hình', nhưng nếu không bao giờ dùng thì khả năng diễn đạt vẫn có thể kém đi. Người 30 tuổi rơi đúng vào trường hợp này. Bẫy chính: câu 'thường gặp ở cộng đồng nhập cư' dễ làm người đọc nghĩ người lớn nhập cư cũng hay mất hẳn tiếng mẹ đẻ, trong khi bài nói chỉ trẻ nhỏ mới có nguy cơ đó."
+  },
+  {
+   "id": "mcma11",
+   "type": "mcma_r",
+   "level": 3,
+   "topic": "Circadian rhythms",
+   "source": "https://en.wikipedia.org/wiki/Circadian_rhythm",
+   "license": "CC BY-SA 4.0",
+   "text": "For a biological rhythm to be called circadian, it must meet three general criteria. First, it must have an endogenously derived free-running period of approximately 24 hours, persisting under constant conditions such as continuous darkness. This criterion exists to distinguish circadian rhythms from simple responses to daily external cues: a rhythm cannot be described as endogenous unless it has been tested and shown to persist without periodic input from outside. In animals active during daylight, this period is generally slightly longer than 24 hours, whereas in nocturnal animals it is generally shorter. Second, the rhythm must be entrainable; in other words, it can be reset by exposure to external stimuli such as light and heat. Travel across time zones illustrates this ability, since a person usually experiences jet lag until the internal clock has been brought into line with local time. Third, the rhythm must show temperature compensation. Because differences in thermal energy affect the rates of all molecular processes in cells, an organism's clock must maintain a period of roughly 24 hours across a range of physiological temperatures.",
+   "question": "According to the passage, which of the following statements about circadian rhythms are true?",
+   "options": [
+    "A rhythm counts as endogenous only if it is shown to persist without periodic external input.",
+    "In animals that are active during the day, the free-running period is usually slightly shorter than 24 hours.",
+    "Jet lag shows that the human internal clock cannot adjust to local time.",
+    "Variations in thermal energy influence how fast molecular processes in cells take place.",
+    "Light and heat are examples of external stimuli that can reset the rhythm.",
+    "Temperature compensation allows an organism's clock to run faster in warmer conditions."
+   ],
+   "answers": [
+    0,
+    3,
+    4
+   ],
+   "why_vi": "Đoạn văn nói: nhịp chỉ được coi là 'tự sinh từ bên trong' khi đã kiểm tra và thấy nó vẫn duy trì mà không có tín hiệu lặp lại từ bên ngoài; ánh sáng và nhiệt có thể chỉnh lại nhịp; chênh lệch nhiệt năng ảnh hưởng tốc độ các quá trình phân tử trong tế bào. Bẫy chính: động vật hoạt động ban ngày có chu kỳ hơi DÀI hơn 24 giờ (không phải ngắn hơn), và 'bù nhiệt' nghĩa là đồng hồ vẫn giữ khoảng 24 giờ dù nhiệt độ đổi, chứ không chạy nhanh hơn khi ấm."
+  },
+  {
+   "id": "mcma12",
+   "type": "mcma_r",
+   "level": 3,
+   "topic": "Measuring inflation",
+   "source": "https://en.wikipedia.org/wiki/Inflation",
+   "license": "CC BY-SA 4.0",
+   "text": "Measuring inflation requires an objective way of separating changes in nominal prices from price shifts caused by changes in volume, quality or performance. If the price of a can of corn rises from $0.90 to $1.00 over a year with no change in quality, the difference represents inflation, yet a single price change like this does not represent general inflation across an economy. Overall inflation is instead measured as the price change of a large 'basket' of representative goods and services. An item's weighted price is its unit price multiplied by the number of that item the average consumer buys, and the consumer price index relies on household surveys to determine what proportion of typical spending goes on particular goods and services. To ease comparisons over time, indexes usually assign a value of 100 to the price level in a chosen 'base year'. Basket weights are normally updated every year to reflect changes in consumer behaviour, but sudden shifts can still introduce a weighting bias. During the COVID-19 pandemic, for example, the basket no longer represented actual consumption, because lockdowns meant many goods and services could not be consumed.",
+   "question": "According to the passage, which of the following statements about measuring inflation are true?",
+   "options": [
+    "A single product rising in price with no change in quality is enough to show general inflation.",
+    "An item's weighted price depends only on its unit price, not on how many units consumers buy.",
+    "Household surveys help show what share of typical spending goes on particular goods and services.",
+    "Basket weights stay unchanged for many years so that figures remain comparable.",
+    "Lockdowns during the COVID-19 pandemic left the basket unrepresentative of actual consumption."
+   ],
+   "answers": [
+    2,
+    4
+   ],
+   "why_vi": "Đoạn văn nói chỉ số giá tiêu dùng (CPI) dựa vào khảo sát hộ gia đình để biết mỗi loại hàng chiếm bao nhiêu phần chi tiêu, và trong COVID-19 lệnh phong tỏa làm 'giỏ hàng' không còn phản ánh đúng việc tiêu dùng thật. Bẫy: ví dụ lon ngô chỉ là giá của MỘT món nên không thể hiện lạm phát chung; giá có trọng số phụ thuộc cả số lượng người ta mua; trọng số giỏ hàng được cập nhật mỗi năm chứ không giữ nguyên."
+  },
+  {
+   "id": "mcma13",
+   "type": "mcma_r",
+   "level": 3,
+   "topic": "Language acquisition",
+   "source": "https://en.wikipedia.org/wiki/Language_acquisition",
+   "license": "CC BY-SA 4.0",
+   "text": "Behaviourists argued that language may be learned through a form of operant conditioning. In Verbal Behavior (1957), B. F. Skinner suggested that successfully using a sign, such as a word, in response to a given stimulus increases the probability of its use in that context. Since operant conditioning depends on reinforcement by rewards, a child would learn that a specific combination of sounds means a specific thing through repeated successful associations. A child who says 'up' when wanting to be picked up, for example, is understood and rewarded with the desired response, making the word more likely to be used in similar situations. Noam Chomsky strongly attacked this idea in a 1959 review. One argument against it is that children often ignore language corrections from adults. Moreover, children typically use an irregular form correctly, then make errors, and eventually return to the proper form: a child may learn 'gave', later say 'gived', and finally go back to 'gave'. Chomsky argued that this pattern is difficult to explain if language is acquired solely through conditioning, and that Skinner had failed to account for the central role of syntactic knowledge.",
+   "question": "According to the passage, which of the following statements are true?",
+   "options": [
+    "In Skinner's account, rewards help a child connect particular sounds with particular meanings.",
+    "Chomsky set out his criticism of behaviourism in the 1957 book Verbal Behavior.",
+    "Children generally accept and follow the language corrections that adults give them.",
+    "A child may use a verb form wrongly after first using it correctly.",
+    "Chomsky argued that Skinner placed too much emphasis on syntactic knowledge.",
+    "The pattern of 'gave', then 'gived', then 'gave' was offered as evidence for operant conditioning."
+   ],
+   "answers": [
+    0,
+    3
+   ],
+   "why_vi": "Theo Skinner, trẻ học được 'âm này nghĩa là thứ này' nhờ được thưởng (được hiểu và được đáp ứng); đoạn văn cũng nói trẻ có thể nói đúng 'gave' rồi sau đó lại nói sai 'gived'. Bẫy: sách Verbal Behavior (1957) là của Skinner, còn Chomsky phản bác trong một bài điểm sách năm 1959; và Chomsky chê Skinner BỎ QUA vai trò của ngữ pháp chứ không phải đề cao nó quá mức."
+  },
+  {
+   "id": "mcma14",
+   "type": "mcma_r",
+   "level": 3,
+   "topic": "Microplastics",
+   "source": "https://en.wikipedia.org/wiki/Microplastics",
+   "license": "CC BY-SA 4.0",
+   "text": "Secondary microplastics are small pieces of plastic that derive from the physical breakdown of larger plastic debris, both at sea and on land. Over time, a combination of physical, biological and photochemical degradation, including photo-oxidation caused by sunlight, can weaken this debris until it breaks into pieces too small to see with the naked eye. This process is known as fragmentation, and the prevalence of microplastics with uneven shapes suggests that it is a key source. One study suggested that more microplastics might be formed from biodegradable polymers than from non-biodegradable ones, in both seawater and fresh water. Other particles are released during ordinary use: fibres enter the environment through the wear and washing of synthetic clothing, while tyres, made partly of synthetic rubber, erode into tiny particles that become dust. Plastic pellets used to create other products also reach ecosystems through spillages and accidents. A 2015 review by the Norwegian Environment Agency stated that it would be beneficial to classify these sources as primary, since their emissions result from human use of materials and products rather than from fragmentation in nature.",
+   "question": "According to the passage, which of the following statements are true?",
+   "options": [
+    "Fragmentation of plastic debris happens at sea but not on land.",
+    "Sunlight can play a part in breaking down larger pieces of plastic debris.",
+    "One study found that biodegradable polymers form fewer microplastics than non-biodegradable ones.",
+    "The irregular shapes of many microplastics point to fragmentation as a major source.",
+    "Tyres wear down during use into tiny particles that become dust.",
+    "A 2015 Norwegian review recommended classifying clothing fibres and tyre particles as secondary microplastics."
+   ],
+   "answers": [
+    1,
+    3,
+    4
+   ],
+   "why_vi": "Đoạn văn nói ánh nắng (quang oxy hóa) góp phần làm rác nhựa lớn yếu đi và vỡ vụn, hình dạng méo mó của nhiều hạt vi nhựa cho thấy việc vỡ vụn là nguồn chính, và lốp xe mòn thành hạt nhỏ rồi thành bụi. Bẫy: nghiên cứu nói nhựa phân hủy sinh học có thể tạo ra NHIỀU vi nhựa hơn (không phải ít hơn), và cơ quan Na Uy muốn xếp các nguồn này vào loại 'sơ cấp' (primary) chứ không phải 'thứ cấp'."
+  },
+  {
+   "id": "mcma15",
+   "type": "mcma_r",
+   "level": 3,
+   "topic": "Game theory in biology",
+   "source": "https://en.wikipedia.org/wiki/Game_theory",
+   "license": "CC BY-SA 4.0",
+   "text": "Evolutionary game theory has been used to explain many seemingly incongruous phenomena in nature, including biological altruism. This is a situation in which an organism appears to act in a way that benefits others but is harmful to itself. It differs from traditional notions of altruism because such actions are not conscious; instead, they appear to be evolutionary adaptations that increase overall fitness. Examples range from vampire bats, which regurgitate blood obtained from a night's hunting and give it to group members that have failed to feed, to vervet monkeys, which warn their group of an approaching predator even when this endangers their own chance of survival. All of these actions appear to benefit others in the group, but at a cost to the individual. Evolutionary game theory explains such altruism through kin selection: altruists discriminate between the individuals they help and favour relatives. Hamilton's rule states that the cost to the altruist must be less than the benefit to the recipient multiplied by the coefficient of relatedness. Altruism becomes more common the more closely two organisms are related, because they share many of the same alleles.",
+   "question": "According to the passage, which of the following statements about biological altruism are true?",
+   "options": [
+    "Biological altruism is described as a conscious choice made by the organism.",
+    "Vampire bats share blood with group members that have fed successfully.",
+    "In the examples given, others benefit while the individual bears a cost.",
+    "Hamilton's rule says the recipient's benefit must be smaller than the altruist's cost.",
+    "Altruism becomes more frequent as the relatedness between two organisms increases.",
+    "Vervet monkeys warn their group of predators only when doing so is safe for themselves."
+   ],
+   "answers": [
+    2,
+    4
+   ],
+   "why_vi": "Đoạn văn nói các hành vi vị tha này giúp những con khác trong nhóm nhưng cá thể phải chịu thiệt, và hai con vật càng có họ hàng gần thì hành vi vị tha càng phổ biến. Bẫy: đây KHÔNG phải lựa chọn có ý thức; dơi hút máu chia máu cho con CHƯA kiếm được ăn; quy tắc Hamilton nói chi phí phải NHỎ hơn lợi ích (nhân với hệ số họ hàng), không phải ngược lại."
+  }
+ ]
+}

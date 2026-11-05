@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0c10" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Đăng nhập · English Voice Coach</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%97%A3%EF%B8%8F%3C/text%3E%3C/svg%3E"
+    />
+    <!--
+      Trang nay CO Y tu chua het: CSS va JS deu inline, khong nap gi tu
+      /_assets/. Nho vay nginx van gac duoc toan bo /_assets/ phia sau cua,
+      chi ho mot minh file nay.
+    -->
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html {
+        background: #0b0c10;
+        color: #f2f4f8;
+        font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        min-height: 100dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      main {
+        width: 100%;
+        max-width: 340px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+      p.sub {
+        margin: 8px 0 28px;
+        font-size: 13.5px;
+        line-height: 1.5;
+        color: #767d8e;
+      }
+      label {
+        display: block;
+        font-size: 12px;
+        color: #767d8e;
+        margin-bottom: 8px;
+      }
+      input {
+        width: 100%;
+        padding: 14px 14px;
+        font-size: 16px; /* >=16px de iOS khong tu phong to trang */
+        color: #f2f4f8;
+        background: #14161d;
+        border: 1px solid #262a35;
+        border-radius: 12px;
+        outline: none;
+      }
+      input:focus {
+        border-color: #4ade9b;
+      }
+      button {
+        width: 100%;
+        margin-top: 14px;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: inherit;
+        color: #0b0c10;
+        background: #4ade9b;
+        border: 0;
+        border-radius: 12px;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+      }
+      button:disabled {
+        opacity: 0.55;
+        cursor: wait;
+      }
+      #msg {
+        margin-top: 14px;
+        min-height: 20px;
+        font-size: 13.5px;
+        line-height: 1.45;
+        color: #f2765b;
+      }
+      .hint {
+        margin-top: 26px;
+        font-size: 12px;
+        line-height: 1.6;
+        color: #767d8e;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>English Voice Coach</h1>
+      <p class="sub">Ứng dụng riêng. Nhập mật khẩu để vào.</p>
+
+      <form id="f" autocomplete="on">
+        <!--
+          username an, gia tri co dinh: trinh duyet can mot cap user/pass thi
+          moi luu duoc mat khau. Khong co no thi lan sau van phai go tay.
+        -->
+        <input type="text" name="username" value="duy" autocomplete="username" hidden />
+
+        <label for="p">Mật khẩu</label>
+        <input
+          id="p"
+          name="password"
+          type="password"
+          autocomplete="current-password"
+          autocapitalize="off"
+          autocorrect="off"
+          spellcheck="false"
+          required
+        />
+
+        <button id="b" type="submit">Vào</button>
+      </form>
+
+      <p id="msg" role="alert"></p>
+
+      <p class="hint">
+        Sai mật khẩu mà không nhớ đã gõ gì? Trình duyệt có thể đang tự điền — xoá sạch ô trên rồi gõ
+        tay lại.
+      </p>
+    </main>
+
+    <script>
+      (function () {
+        var f = document.getElementById('f');
+        var b = document.getElementById('b');
+        var p = document.getElementById('p');
+        var msg = document.getElementById('msg');
+
+        // ?next=/review — chi nhan duong dan noi bo, tuyet doi khong nhan URL
+        // tuyet doi, neu khong trang nay thanh ban dap chuyen huong di noi khac.
+        function nextPath() {
+          var raw = new URLSearchParams(location.search).get('next') || '/coach';
+          return /^\/(?!\/)/.test(raw) ? raw : '/';
+        }
+
+        p.focus();
+
+        f.addEventListener('submit', function (e) {
+          e.preventDefault();
+          msg.textContent = '';
+          b.disabled = true;
+          b.textContent = 'Đang kiểm…';
+
+          fetch('/api/auth/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ password: p.value }),
+          })
+            .then(function (r) {
+              return r.json().then(function (j) {
+                return { ok: r.ok, j: j };
+              });
+            })
+            .then(function (res) {
+              if (res.ok) {
+                location.replace(nextPath());
+                return;
+              }
+              msg.textContent = (res.j && res.j.error) || 'Sai mật khẩu.';
+              p.select();
+            })
+            .catch(function (err) {
+              msg.textContent = 'Không nối được máy chủ: ' + err.message;
+            })
+            .finally(function () {
+              b.disabled = false;
+              b.textContent = 'Vào';
+            });
+        });
+      })();
+    </script>
+  </body>
+</html>

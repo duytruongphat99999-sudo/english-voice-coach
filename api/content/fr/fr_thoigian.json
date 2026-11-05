@@ -1,0 +1,206 @@
+{
+ "id": "fr_thoigian",
+ "order": 2,
+ "emoji": "🕒",
+ "name_vi": "Số, ngày, giờ, hẹn gặp",
+ "vocab": [
+  {
+   "word": "prendre rendez-vous",
+   "gender": "",
+   "ipa": "/pʁɑ̃dʁ ʁɑ̃devu/",
+   "meaning_vi": "đặt lịch hẹn",
+   "example_fr": "Je voudrais prendre rendez-vous avec le médecin.",
+   "example_vi": "Tôi muốn đặt lịch hẹn với bác sĩ.",
+   "note_vi": "Không có mạo từ: prendre rendez-vous. Chữ z và s trong rendez-vous đều câm."
+  },
+  {
+   "word": "annuler",
+   "gender": "",
+   "ipa": "/anyle/",
+   "meaning_vi": "hủy",
+   "example_fr": "Je dois annuler mon rendez-vous de lundi.",
+   "example_vi": "Tôi phải hủy cuộc hẹn hôm thứ Hai.",
+   "note_vi": "Hai chữ n nhưng chỉ đọc một; chữ r cuối câm: 'a-nuy-lê'."
+  },
+  {
+   "word": "déplacer",
+   "gender": "",
+   "ipa": "/deplase/",
+   "meaning_vi": "dời (lịch hẹn)",
+   "example_fr": "Est-ce que je peux déplacer mon rendez-vous ?",
+   "example_vi": "Tôi dời lịch hẹn được không ạ?",
+   "note_vi": "Cũng có thể nói 'changer' hoặc 'reporter' (hoãn sang ngày khác)."
+  },
+  {
+   "word": "l'heure",
+   "gender": "f",
+   "ipa": "/lœʁ/",
+   "meaning_vi": "giờ; tiếng đồng hồ",
+   "example_fr": "Quelle heure est-il, s'il vous plaît ?",
+   "example_vi": "Xin lỗi, mấy giờ rồi ạ?",
+   "note_vi": "Giống cái; chữ h câm. Người ta hay nói giờ kiểu hai mươi bốn tiếng: quatorze heures = hai giờ chiều."
+  },
+  {
+   "word": "le matin",
+   "gender": "m",
+   "ipa": "/lə matɛ̃/",
+   "meaning_vi": "buổi sáng",
+   "example_fr": "J'ai rendez-vous à neuf heures du matin.",
+   "example_vi": "Tôi có hẹn lúc chín giờ sáng.",
+   "note_vi": "Chữ n cuối không đọc riêng mà thành âm mũi /ɛ̃/."
+  },
+  {
+   "word": "l'après-midi",
+   "gender": "m",
+   "ipa": "/lapʁɛmidi/",
+   "meaning_vi": "buổi chiều",
+   "example_fr": "Je suis libre cet après-midi.",
+   "example_vi": "Chiều nay tôi rảnh.",
+   "note_vi": "Giống đực (giống cái cũng được chấp nhận). Chữ s trong après câm."
+  },
+  {
+   "word": "le soir",
+   "gender": "m",
+   "ipa": "/lə swaʁ/",
+   "meaning_vi": "buổi tối",
+   "example_fr": "Ce soir, je rentre à sept heures.",
+   "example_vi": "Tối nay tôi về nhà lúc bảy giờ.",
+   "note_vi": "'oi' đọc là 'oa'. 'Ce soir' = tối nay."
+  },
+  {
+   "word": "aujourd'hui",
+   "gender": "",
+   "ipa": "/oʒuʁdɥi/",
+   "meaning_vi": "hôm nay",
+   "example_fr": "Aujourd'hui, nous sommes le quinze septembre.",
+   "example_vi": "Hôm nay là ngày mười lăm tháng Chín.",
+   "note_vi": "Viết có dấu ' ở giữa; 'hui' đọc lướt gần như 'uy'."
+  },
+  {
+   "word": "demain",
+   "gender": "",
+   "ipa": "/dəmɛ̃/",
+   "meaning_vi": "ngày mai",
+   "example_fr": "Demain matin, j'ai rendez-vous à la banque.",
+   "example_vi": "Sáng mai tôi có hẹn ở ngân hàng.",
+   "note_vi": "Âm cuối /ɛ̃/ là âm mũi, không đọc chữ n. 'Après-demain' = ngày kia."
+  },
+  {
+   "word": "la semaine",
+   "gender": "f",
+   "ipa": "/la səmɛn/",
+   "meaning_vi": "tuần",
+   "example_fr": "Je travaille cinq jours par semaine.",
+   "example_vi": "Tôi làm năm ngày một tuần.",
+   "note_vi": "Chữ e đầu gần như câm, đọc nhanh 'x'men'. 'La semaine prochaine' = tuần sau."
+  },
+  {
+   "word": "en retard",
+   "gender": "",
+   "ipa": "/ɑ̃ ʁətaʁ/",
+   "meaning_vi": "trễ, muộn",
+   "example_fr": "Excusez-moi, je suis en retard de dix minutes.",
+   "example_vi": "Xin lỗi, tôi đến trễ mười phút.",
+   "note_vi": "Chữ d cuối câm. Trái nghĩa: en avance (đến sớm), à l'heure (đúng giờ)."
+  },
+  {
+   "word": "disponible",
+   "gender": "",
+   "ipa": "/dispɔnibl/",
+   "meaning_vi": "rảnh, có thể gặp",
+   "example_fr": "Vous êtes disponible jeudi à quatorze heures ?",
+   "example_vi": "Thứ Năm lúc hai giờ chiều anh có rảnh không?",
+   "note_vi": "Nghĩa như 'available' trong tiếng Anh; chữ e cuối câm."
+  }
+ ],
+ "sentences": [
+  {
+   "fr": "Je voudrais prendre rendez-vous pour lundi matin.",
+   "vi": "Tôi muốn đặt hẹn vào sáng thứ Hai.",
+   "focus_vi": "Âm mũi 'en/an' trong 'prendre' và 'rendez-vous': đọc /ɑ̃/, hơi ra mũi, không bật âm n."
+  },
+  {
+   "fr": "Mon rendez-vous est à trois heures et demie.",
+   "vi": "Cuộc hẹn của tôi lúc ba giờ rưỡi.",
+   "focus_vi": "Nối âm 'trois heures': chữ s thành /z/, đọc 'troa-zơr'."
+  },
+  {
+   "fr": "Je suis désolé, je dois annuler mon rendez-vous.",
+   "vi": "Xin lỗi, tôi phải hủy cuộc hẹn.",
+   "focus_vi": "u khác ou: 'annuler' có /y/ (chu môi nói 'i'), 'rendez-vous' có /u/ như 'u' tiếng Việt."
+  },
+  {
+   "fr": "Le mardi soir, je travaille jusqu'à minuit.",
+   "vi": "Tối thứ Ba nào tôi cũng làm đến nửa đêm.",
+   "focus_vi": "'aille' trong 'travaille' đọc như 'ai' ('tra-vai'), chữ ll không đọc thành l."
+  },
+  {
+   "fr": "Excusez-moi, madame, je suis en retard.",
+   "vi": "Xin lỗi chị, tôi đến trễ.",
+   "focus_vi": "Chữ cuối câm: 'retard' không đọc d, 'excusez' không đọc z, 'madame' không đọc e cuối."
+  },
+  {
+   "fr": "Vous êtes disponible la semaine prochaine ?",
+   "vi": "Tuần sau anh có rảnh không?",
+   "focus_vi": "e câm trong 'semaine': gần như bỏ âm e, đọc nhanh 'x'men', không đọc 'xơ-men'."
+  },
+  {
+   "fr": "Aujourd'hui, c'est le vingt juin.",
+   "vi": "Hôm nay là ngày hai mươi tháng Sáu.",
+   "focus_vi": "Âm mũi 'in': 'vingt' chỉ đọc /vɛ̃/, chữ g và t đều câm; 'juin' cũng kết thúc bằng /ɛ̃/."
+  },
+  {
+   "fr": "Je peux déplacer le rendez-vous à mercredi ?",
+   "vi": "Tôi dời hẹn sang thứ Tư được không?",
+   "focus_vi": "é khác è: 'déplacer' có âm é (miệng hẹp, như 'ê'); 'mercredi' viết không dấu nhưng chữ e đầu đọc như è (miệng mở, như 'e')."
+  }
+ ],
+ "translate": [
+  {
+   "vi": "Tôi muốn đặt lịch khám cho con trai tôi.",
+   "fr_ref": "Je voudrais prendre rendez-vous pour mon fils.",
+   "hint_fr": "prendre rendez-vous"
+  },
+  {
+   "vi": "Tôi có việc bận, tôi phải hủy hẹn ạ.",
+   "fr_ref": "Je suis occupé, je dois annuler le rendez-vous.",
+   "hint_fr": "annuler"
+  },
+  {
+   "vi": "Cho tôi dời sang thứ Sáu được không ạ?",
+   "fr_ref": "Je peux déplacer le rendez-vous à vendredi ?",
+   "hint_fr": "déplacer"
+  },
+  {
+   "vi": "Xin lỗi, bây giờ là mấy giờ ạ?",
+   "fr_ref": "Excusez-moi, quelle heure est-il ?",
+   "hint_fr": "l'heure"
+  },
+  {
+   "vi": "Buổi sáng tôi đi học tiếng Pháp.",
+   "fr_ref": "Le matin, j'ai un cours de français.",
+   "hint_fr": "le matin"
+  },
+  {
+   "vi": "Tôi chỉ rảnh buổi chiều thôi.",
+   "fr_ref": "Je suis libre seulement l'après-midi.",
+   "hint_fr": "l'après-midi"
+  },
+  {
+   "vi": "Xin lỗi, tôi đến trễ vì xe buýt.",
+   "fr_ref": "Désolé, je suis en retard à cause du bus.",
+   "hint_fr": "en retard"
+  },
+  {
+   "vi": "Ngày mai lúc mười giờ được không ạ?",
+   "fr_ref": "Demain à dix heures, c'est possible ?",
+   "hint_fr": "demain"
+  }
+ ],
+ "scenario": {
+  "role": "A receptionist at a medical clinic in Montréal answering the phone.",
+  "context": "The learner is a Vietnamese newcomer, absolute beginner (A1), calling to make an appointment with a doctor. Offer two or three time slots (day and time), ask for his name and phone number, and confirm the date and time. At some point he may want to move or cancel the appointment; help him do it. Speak slowly in simple A1 French, always use vous, say days and times clearly, and repeat more slowly if he does not understand. Do not state any real clinic rules or prices.",
+  "opener_fr": "Bonjour, ici la clinique médicale. Comment est-ce que je peux vous aider ?",
+  "opener_vi": "Xin chào, phòng khám nghe đây. Tôi có thể giúp gì cho anh ạ?"
+ }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "sinh_hoat",
+  "name_vi": "Sinh hoạt hằng ngày",
+  "emoji": "🌅",
+  "track": "everyday",
+  "order": 2,
+  "vocab": [
+    {
+      "word": "sleep in",
+      "ipa": "/sliːp ɪn/",
+      "meaning_vi": "ngủ nướng",
+      "example_en": "I usually sleep in on Sundays after a long work week.",
+      "example_vi": "Tôi thường ngủ nướng vào chủ nhật sau một tuần làm việc dài."
+    },
+    {
+      "word": "rush hour",
+      "ipa": "/ˈrʌʃ ˌaʊ.ɚ/",
+      "meaning_vi": "giờ cao điểm",
+      "example_en": "I try to leave early to miss the morning rush hour.",
+      "example_vi": "Tôi cố gắng đi sớm để tránh giờ cao điểm buổi sáng."
+    },
+    {
+      "word": "skincare routine",
+      "ipa": "/ˈskɪn.ker ruːˈtiːn/",
+      "meaning_vi": "các bước dưỡng da hàng ngày",
+      "example_en": "My evening skincare routine takes about ten minutes.",
+      "example_vi": "Các bước dưỡng da buổi tối của tôi mất khoảng mười phút."
+    },
+    {
+      "word": "grab a bite",
+      "ipa": "/ɡræb ə baɪt/",
+      "meaning_vi": "ăn vội cái gì đó",
+      "example_en": "Let's grab a quick bite before the clinic opens.",
+      "example_vi": "Chúng ta ăn vội cái gì đó trước khi phòng khám mở cửa nhé."
+    },
+    {
+      "word": "wind down",
+      "ipa": "/waɪnd daʊn/",
+      "meaning_vi": "thư giãn, nghỉ ngơi cuối ngày",
+      "example_en": "I read a book to wind down before going to sleep.",
+      "example_vi": "Tôi đọc sách để thư giãn trước khi đi ngủ."
+    },
+    {
+      "word": "do the dishes",
+      "ipa": "/duː ðə ˈdɪʃ.ɪz/",
+      "meaning_vi": "rửa bát",
+      "example_en": "We usually do the dishes together after dinner.",
+      "example_vi": "Chúng tôi thường rửa bát cùng nhau sau bữa tối."
+    },
+    {
+      "word": "hit the snooze button",
+      "ipa": "/hɪt ðə snuːz ˈbʌt.n̩/",
+      "meaning_vi": "bấm nút hoãn báo thức",
+      "example_en": "I always hit the snooze button at least twice.",
+      "example_vi": "Tôi luôn bấm nút hoãn báo thức ít nhất hai lần."
+    },
+    {
+      "word": "do chores",
+      "ipa": "/duː tʃɔːrz/",
+      "meaning_vi": "làm việc nhà",
+      "example_en": "I prefer to do most chores on Saturday morning.",
+      "example_vi": "Tôi thích làm hầu hết việc nhà vào sáng thứ Bảy."
+    },
+    {
+      "word": "commute to work",
+      "ipa": "/kəˈmjuːt tə wɝːk/",
+      "meaning_vi": "đi làm hàng ngày (khoảng đường đi)",
+      "example_en": "My commute to work takes thirty minutes by motorbike.",
+      "example_vi": "Đường đi làm của tôi mất ba mươi phút bằng xe máy."
+    },
+    {
+      "word": "stay up late",
+      "ipa": "/steɪ ʌp leɪt/",
+      "meaning_vi": "thức khuya",
+      "example_en": "I have to stay up late to finish the shipment paperwork.",
+      "example_vi": "Tôi phải thức khuya để hoàn thành giấy tờ cho lô hàng."
+    },
+    {
+      "word": "pack lunch",
+      "ipa": "/pæk lʌntʃ/",
+      "meaning_vi": "chuẩn bị hộp cơm trưa",
+      "example_en": "I pack lunch to eat healthier at the clinic.",
+      "example_vi": "Tôi chuẩn bị cơm trưa để ăn uống lành mạnh hơn ở phòng khám."
+    },
+    {
+      "word": "freshen up",
+      "ipa": "/ˈfreʃ.ən ʌp/",
+      "meaning_vi": "rửa mặt, tút tát lại bản thân",
+      "example_en": "Give me five minutes to freshen up after the flight.",
+      "example_vi": "Cho tôi năm phút để rửa mặt mũi sau chuyến bay nhé."
+    }
+  ],
+  "sentences": [
+    {
+      "en": "She scrubs her face and puts on some light sunscreen.",
+      "vi": "Cô ấy rửa sạch mặt và bôi một ít kem chống nắng mỏng nhẹ.",
+      "focus_vi": "Phát âm rõ âm đuôi /s/ trong scrubs, face, và sunscreen."
+    },
+    {
+      "en": "He rides his motorbike through the thick traffic every single morning.",
+      "vi": "Anh ấy lái xe máy qua dòng xe cộ đông đúc mỗi sáng.",
+      "focus_vi": "Phát âm đúng âm đuôi /z/ trong rides và /ks/ trong thick."
+    },
+    {
+      "en": "The dogs always bark when the alarm clock starts to ring.",
+      "vi": "Mấy chú chó luôn sủa khi chuông báo thức bắt đầu reo.",
+      "focus_vi": "Phát âm rõ âm cuối /s/ trong dogs, starts, và clock."
+    },
+    {
+      "en": "They washed the dishes and swept the dusty floor last night.",
+      "vi": "Họ đã rửa bát và quét sàn nhà đầy bụi tối qua.",
+      "focus_vi": "Lưu ý âm cuối /t/ trong washed, swept và âm /st/ trong dusty."
+    },
+    {
+      "en": "I stretch my arms and legs before getting out of bed.",
+      "vi": "Tôi vươn vai và giãn chân trước khi bước ra khỏi giường.",
+      "focus_vi": "Bật rõ âm cuối /tʃ/ trong stretch và âm /z/ trong arms, legs."
+    },
+    {
+      "en": "We specifically discussed the schedule for the next shipment yesterday.",
+      "vi": "Hôm qua chúng tôi đã thảo luận cụ thể về lịch trình cho lô hàng tới.",
+      "focus_vi": "Phát âm đúng âm /st/ trong specifically và discussed."
+    },
+    {
+      "en": "She speaks at international conferences and shares her daily skin tips.",
+      "vi": "Cô ấy phát biểu tại các hội nghị quốc tế và chia sẻ các mẹo chăm sóc da hàng ngày.",
+      "focus_vi": "Chú ý phát âm rõ âm /s/ trong speaks, conferences, và shares."
+    },
+    {
+      "en": "I first wash my hands, then clean my dirty face.",
+      "vi": "Đầu tiên tôi rửa sạch tay, sau đó rửa khuôn mặt bẩn của mình.",
+      "focus_vi": "Luyện phát âm cụm phụ âm /st/ trong first và /ndz/ trong hands."
+    }
+  ],
+  "translate": [
+    {
+      "vi": "Mấy giờ bạn thường thức dậy vào ngày trong tuần?",
+      "en_ref": "What time do you usually wake up on weekdays?",
+      "hint_en": "what time, weekdays"
+    },
+    {
+      "vi": "Tôi luôn rửa sạch mặt trước khi bôi bất cứ thứ gì lên da.",
+      "en_ref": "I always wash my face before putting anything on my skin.",
+      "hint_en": "wash my face, skin"
+    },
+    {
+      "vi": "Đường đi làm của tôi rất kẹt, nên tôi thích đi làm sớm.",
+      "en_ref": "My commute is very crowded, so I prefer to leave early.",
+      "hint_en": "commute, leave early"
+    },
+    {
+      "vi": "Tôi hiếm khi có thời gian ăn sáng tử tế ở nhà.",
+      "en_ref": "I rarely have time to eat a proper breakfast at home.",
+      "hint_en": "rarely, proper breakfast"
+    },
+    {
+      "vi": "Chồng tôi thường rửa bát sau khi tôi nấu ăn xong.",
+      "en_ref": "My husband usually does the dishes after I finish cooking.",
+      "hint_en": "does the dishes, cooking"
+    },
+    {
+      "vi": "Tôi cần ba mươi phút để chuẩn bị sẵn sàng vào buổi sáng.",
+      "en_ref": "I need thirty minutes to get ready in the morning.",
+      "hint_en": "get ready, thirty minutes"
+    },
+    {
+      "vi": "Thỉnh thoảng tôi phải thức khuya để trả lời email của đối tác.",
+      "en_ref": "Sometimes I have to stay up late to reply to partner emails.",
+      "hint_en": "stay up late, partner"
+    },
+    {
+      "vi": "Tôi thường thư giãn bằng cách xem một bộ phim ngắn trước khi đi ngủ.",
+      "en_ref": "I usually wind down by watching a short movie before bed.",
+      "hint_en": "wind down, before bed"
+    }
+  ],
+  "scenario": {
+    "role": "An international business partner",
+    "context": "You are discussing daily routines with your business partner over a casual call. They want to know your schedule to find the best time for weekly sync-up meetings.",
+    "opener_en": "Hi there! I'm trying to organize our meeting schedule. What time do you usually start your workday and when are you free?",
+    "opener_vi": "Chào bạn! Tôi đang cố gắng sắp xếp lịch họp của chúng ta. Bạn thường bắt đầu ngày làm việc lúc mấy giờ và khi nào bạn rảnh?"
+  }
+}
