@@ -4,14 +4,21 @@
 
 Học tiếng Anh cho người Việt, ưu tiên điện thoại. Miễn phí, không quảng cáo, không cần tài khoản ở khu học chung.
 
-- 26 chủ đề thực tế với 130 câu nghe có sẵn.
-- 6 chủ đề ngành điện: điện cơ bản, dụng cụ đo, giao tiếp an toàn, tủ điện, động cơ và bàn giao.
+- 48 chủ đề với 240 câu nghe có sẵn, từ nền tảng đến bài luyện học thuật nâng cao.
+- Ngành y và điện là nhánh tự chọn; người mới luôn bắt đầu bằng nền tảng A1. Có 6 chủ đề y khoa chung và 9 chủ đề ngành điện, cùng các chủ đề y/da liễu có sẵn.
 - Nghe: giấu câu trước khi nghe, hiện bản dịch và tự đánh giá trí nhớ.
 - Nói: nghe mẫu, ghi âm tối đa 45 giây, nghe lại để đối chiếu. Bản thu không gửi lên máy chủ; khu miễn phí không tự chấm phát âm.
 - Đọc: chọn nghĩa tiếng Việt, có phản hồi và đáp án khi sai.
 - Viết: chép chính tả từ âm thanh, kiểm tra và viết lại.
-- Ôn cách quãng dựa trên mức tự nhớ; tiến độ lưu riêng trong trình duyệt, có xuất/nhập tệp sao lưu.
-- PWA có thể cài lên màn hình chính. Tải khoảng 3,5 MB âm thanh một lần để học offline.
+- Hồ sơ riêng theo từng người trên thiết bị; mục tiêu PTE 55–90, thời gian học và mức bắt đầu riêng cho nghe/nói/đọc/viết. Có xuất/nhập hồ sơ và tiến độ.
+- Gợi ý theo kỹ năng yếu, ưu tiên nền tảng; tăng độ khó từng kỹ năng dựa trên thực hành. Lịch ôn dựa trên tự nhớ, không quy đổi thành điểm thi.
+- PWA có thể cài lên màn hình chính. Tải khoảng 7,2 MB âm thanh một lần để học offline.
+
+## Mục tiêu và lộ trình
+
+PTE Academic là trục chính. PTE 90 overall tương ứng IELTS 9.0 overall theo Pearson; app không cam kết thi đạt và không dùng điểm câu ngắn làm điểm PTE. Bốn kỹ năng có mức luyện độc lập A1–C2; y và điện chỉ thêm ngữ cảnh tự chọn sau nền tảng. Chi tiết cơ chế, lưu trữ, nhập/xuất và giới hạn bộ bài: [Lộ trình học cá nhân](docs/LEARNING-PATH.md).
+
+Trang **Các dạng bài PTE** mở công khai có danh mục 22 dạng; bộ luyện thi chuyên sâu và AI hiện vẫn ở khu cá nhân có mật khẩu.
 
 ## Học offline
 
@@ -91,4 +98,4 @@ Không cần khởi động lại dịch vụ model hoặc tunnel khi cập nh�
 
 ## Giấy phép và tham khảo
 
-MIT cho code dự án; font Be Vietnam Pro dùng SIL OFL, giấy phép đi kèm `web/public/fonts/OFL.txt`. Dependencies và model giữ giấy phép riêng. [Các dự án và tài liệu đã tham khảo](docs/RESEARCH.md). Không sao chép source code từ các app tham khảo. Nội dung ngành điện để học ngoại ngữ; công việc thực tế cần đào tạo chuyên môn và quy trình an toàn được phê duyệt.
+MIT cho code dự án; font Be Vietnam Pro dùng SIL OFL, giấy phép đi kèm `web/public/fonts/OFL.txt`. Dependencies và model giữ giấy phép riêng. [Các dự án và tài liệu đã tham khảo](docs/RESEARCH.md). Không sao chép source code từ các app tham khảo. Nội dung ngành y và điện để học ngoại ngữ; công việc thực tế cần đào tạo chuyên môn và quy trình an toàn được phê duyệt.

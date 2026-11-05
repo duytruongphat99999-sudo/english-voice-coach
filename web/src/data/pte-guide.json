@@ -1,0 +1,189 @@
+{
+  "checked_at": "2026-09-11",
+  "tasks": [
+    {
+      "id": "ra",
+      "name": "Read Aloud",
+      "name_vi": "Đọc to",
+      "skills": [
+        "S"
+      ]
+    },
+    {
+      "id": "rs",
+      "name": "Repeat Sentence",
+      "name_vi": "Nhại câu",
+      "skills": [
+        "L",
+        "S"
+      ]
+    },
+    {
+      "id": "di",
+      "name": "Describe Image",
+      "name_vi": "Mô tả hình",
+      "skills": [
+        "S"
+      ]
+    },
+    {
+      "id": "rl",
+      "name": "Retell Lecture",
+      "name_vi": "Kể lại bài giảng",
+      "skills": [
+        "L",
+        "S"
+      ]
+    },
+    {
+      "id": "asq",
+      "name": "Answer Short Question",
+      "name_vi": "Trả lời câu ngắn",
+      "skills": [
+        "L"
+      ]
+    },
+    {
+      "id": "rts",
+      "name": "Respond to a Situation",
+      "name_vi": "Ứng xử tình huống",
+      "skills": [
+        "S"
+      ]
+    },
+    {
+      "id": "sgd",
+      "name": "Summarize Group Discussion",
+      "name_vi": "Tóm tắt thảo luận nhóm",
+      "skills": [
+        "L",
+        "S"
+      ]
+    },
+    {
+      "id": "swt",
+      "name": "Summarize Written Text",
+      "name_vi": "Tóm tắt bài đọc",
+      "skills": [
+        "R",
+        "W"
+      ]
+    },
+    {
+      "id": "we",
+      "name": "Write Essay",
+      "name_vi": "Viết luận",
+      "skills": [
+        "W"
+      ]
+    },
+    {
+      "id": "rwfib",
+      "name": "Reading & Writing: Fill in the Blanks",
+      "name_vi": "Điền từ (chọn)",
+      "skills": [
+        "R"
+      ]
+    },
+    {
+      "id": "mcma_r",
+      "name": "Multiple Choice, Multiple Answers (Reading)",
+      "name_vi": "Chọn nhiều đáp án (Đọc)",
+      "skills": [
+        "R"
+      ]
+    },
+    {
+      "id": "rop",
+      "name": "Reorder Paragraph",
+      "name_vi": "Sắp xếp đoạn",
+      "skills": [
+        "R"
+      ]
+    },
+    {
+      "id": "rfib",
+      "name": "Fill in the Blanks (Drag and Drop)",
+      "name_vi": "Điền từ (kéo thả)",
+      "skills": [
+        "R"
+      ]
+    },
+    {
+      "id": "mcsa_r",
+      "name": "Multiple Choice, Single Answer (Reading)",
+      "name_vi": "Chọn một đáp án (Đọc)",
+      "skills": [
+        "R"
+      ]
+    },
+    {
+      "id": "sst",
+      "name": "Summarize Spoken Text",
+      "name_vi": "Tóm tắt bài nghe",
+      "skills": [
+        "L",
+        "W"
+      ]
+    },
+    {
+      "id": "mcma_l",
+      "name": "Multiple Choice, Multiple Answers (Listening)",
+      "name_vi": "Chọn nhiều đáp án (Nghe)",
+      "skills": [
+        "L"
+      ]
+    },
+    {
+      "id": "fibl",
+      "name": "Fill in the Blanks (Type In)",
+      "name_vi": "Nghe điền từ",
+      "skills": [
+        "L"
+      ]
+    },
+    {
+      "id": "hcs",
+      "name": "Highlight Correct Summary",
+      "name_vi": "Chọn tóm tắt đúng",
+      "skills": [
+        "L",
+        "R"
+      ]
+    },
+    {
+      "id": "mcsa_l",
+      "name": "Multiple Choice, Single Answer (Listening)",
+      "name_vi": "Chọn một đáp án (Nghe)",
+      "skills": [
+        "L"
+      ]
+    },
+    {
+      "id": "smw",
+      "name": "Select Missing Word",
+      "name_vi": "Chọn từ còn thiếu",
+      "skills": [
+        "L"
+      ]
+    },
+    {
+      "id": "hiw",
+      "name": "Highlight Incorrect Words",
+      "name_vi": "Tìm từ sai",
+      "skills": [
+        "L",
+        "R"
+      ]
+    },
+    {
+      "id": "wfd",
+      "name": "Write from Dictation",
+      "name_vi": "Nghe — gõ",
+      "skills": [
+        "L",
+        "W"
+      ]
+    }
+  ]
+}

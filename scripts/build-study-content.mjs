@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { curriculum } from './study-curriculum.mjs';
 const root = resolve(import.meta.dirname, '..');
 const electrical = [
   ['electrical-basics', 'Điện cơ bản', 'A2', [
@@ -46,11 +47,15 @@ const electrical = [
   ]],
 ];
 const lessons = electrical.map(([id,title,level,items]) => ({ id,title,level,category:'electrical',items:items.map(([en,vi,focus],i)=>({en,vi,focus,audio:`/audio/study/${id}-${i}.mp3`})) }));
+lessons.push(...curriculum.map(([id,title,level,category,items])=>({id,title,level,category,items:items.map(([en,vi,focus],i)=>({en,vi,focus,audio:`/audio/study/${id}-${i}.mp3`}))})));
 const index = JSON.parse(readFileSync(resolve(root,'api/content/index.json'),'utf8'));
 for (const row of index) {
   const t = JSON.parse(readFileSync(resolve(root,`api/content/${row.id}.json`),'utf8'));
   lessons.push({id:t.id,title:t.name_vi,category:t.track,level:'B1',items:t.sentences.slice(0,5).map((s,i)=>({en:s.en,vi:s.vi,focus:s.focus_vi,audio:`/audio/study/${t.id}-${i}.mp3`}))});
 }
+lessons.sort((a,b)=>['A1','A2','B1','B2','C1','C2'].indexOf(a.level)-['A1','A2','B1','B2','C1','C2'].indexOf(b.level)||Number(b.category==='foundation')-Number(a.category==='foundation'));
 mkdirSync(resolve(root,'web/src/data'),{recursive:true});
 writeFileSync(resolve(root,'web/src/data/study.json'),JSON.stringify(lessons,null,2)+'\n');
+const facts=JSON.parse(readFileSync(resolve(root,'api/content/pte-exam-facts.json'),'utf8'));
+writeFileSync(resolve(root,'web/src/data/pte-guide.json'),JSON.stringify({checked_at:facts.checked_at,tasks:facts.tasks.map(({id,name,name_vi,skills})=>({id,name,name_vi,skills}))},null,2)+'\n');
 console.log(`${lessons.length} lessons, ${lessons.reduce((n,l)=>n+l.items.length,0)} practice sentences`);

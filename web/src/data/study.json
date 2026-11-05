@@ -1,5 +1,233 @@
 [
   {
+    "id": "hello-basics",
+    "title": "Chào hỏi & giới thiệu",
+    "level": "A1",
+    "category": "foundation",
+    "items": [
+      {
+        "en": "Hello, my name is Alex.",
+        "vi": "Xin chào, tôi tên là Alex.",
+        "focus": "my name is · tên tôi là",
+        "audio": "/audio/study/hello-basics-0.mp3"
+      },
+      {
+        "en": "I am from Vietnam.",
+        "vi": "Tôi đến từ Việt Nam.",
+        "focus": "be from · đến từ",
+        "audio": "/audio/study/hello-basics-1.mp3"
+      },
+      {
+        "en": "I study English every day.",
+        "vi": "Tôi học tiếng Anh mỗi ngày.",
+        "focus": "every day · mỗi ngày",
+        "audio": "/audio/study/hello-basics-2.mp3"
+      },
+      {
+        "en": "Please speak slowly.",
+        "vi": "Vui lòng nói chậm.",
+        "focus": "slowly · chậm rãi",
+        "audio": "/audio/study/hello-basics-3.mp3"
+      },
+      {
+        "en": "Could you say that again?",
+        "vi": "Bạn có thể nói lại điều đó không?",
+        "focus": "say that again · nói lại điều đó",
+        "audio": "/audio/study/hello-basics-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "daily-basics",
+    "title": "Một ngày của bạn",
+    "level": "A1",
+    "category": "foundation",
+    "items": [
+      {
+        "en": "I get up at seven.",
+        "vi": "Tôi thức dậy lúc bảy giờ.",
+        "focus": "get up · thức dậy",
+        "audio": "/audio/study/daily-basics-0.mp3"
+      },
+      {
+        "en": "I have breakfast at home.",
+        "vi": "Tôi ăn sáng ở nhà.",
+        "focus": "have breakfast · ăn sáng",
+        "audio": "/audio/study/daily-basics-1.mp3"
+      },
+      {
+        "en": "I go to work by bus.",
+        "vi": "Tôi đi làm bằng xe buýt.",
+        "focus": "by bus · bằng xe buýt",
+        "audio": "/audio/study/daily-basics-2.mp3"
+      },
+      {
+        "en": "I read a book in the evening.",
+        "vi": "Tôi đọc sách vào buổi tối.",
+        "focus": "in the evening · vào buổi tối",
+        "audio": "/audio/study/daily-basics-3.mp3"
+      },
+      {
+        "en": "I go to bed at ten.",
+        "vi": "Tôi đi ngủ lúc mười giờ.",
+        "focus": "go to bed · đi ngủ",
+        "audio": "/audio/study/daily-basics-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "numbers-basics",
+    "title": "Số, giờ & thông tin đơn giản",
+    "level": "A1",
+    "category": "foundation",
+    "items": [
+      {
+        "en": "The class starts at nine.",
+        "vi": "Lớp học bắt đầu lúc chín giờ.",
+        "focus": "start · bắt đầu",
+        "audio": "/audio/study/numbers-basics-0.mp3"
+      },
+      {
+        "en": "There are twelve students.",
+        "vi": "Có mười hai học viên.",
+        "focus": "there are · có",
+        "audio": "/audio/study/numbers-basics-1.mp3"
+      },
+      {
+        "en": "My room number is twenty.",
+        "vi": "Số phòng của tôi là hai mươi.",
+        "focus": "room number · số phòng",
+        "audio": "/audio/study/numbers-basics-2.mp3"
+      },
+      {
+        "en": "The ticket costs five dollars.",
+        "vi": "Vé có giá năm đô la.",
+        "focus": "cost · có giá",
+        "audio": "/audio/study/numbers-basics-3.mp3"
+      },
+      {
+        "en": "Today is Monday.",
+        "vi": "Hôm nay là thứ Hai.",
+        "focus": "Monday · thứ Hai",
+        "audio": "/audio/study/numbers-basics-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "appointments-basics",
+    "title": "Sắp xếp lịch hẹn",
+    "level": "A2",
+    "category": "foundation",
+    "items": [
+      {
+        "en": "I would like to make an appointment.",
+        "vi": "Tôi muốn đặt một cuộc hẹn.",
+        "focus": "would like to · muốn một cách lịch sự",
+        "audio": "/audio/study/appointments-basics-0.mp3"
+      },
+      {
+        "en": "Are you available on Tuesday morning?",
+        "vi": "Bạn có rảnh vào sáng thứ Ba không?",
+        "focus": "available · có thời gian rảnh",
+        "audio": "/audio/study/appointments-basics-1.mp3"
+      },
+      {
+        "en": "Could we move the meeting to Friday?",
+        "vi": "Chúng ta có thể chuyển cuộc họp sang thứ Sáu không?",
+        "focus": "move a meeting · đổi lịch họp",
+        "audio": "/audio/study/appointments-basics-2.mp3"
+      },
+      {
+        "en": "Please let me know if your plans change.",
+        "vi": "Vui lòng cho tôi biết nếu kế hoạch của bạn thay đổi.",
+        "focus": "let me know · cho tôi biết",
+        "audio": "/audio/study/appointments-basics-3.mp3"
+      },
+      {
+        "en": "I will send you a reminder tomorrow.",
+        "vi": "Tôi sẽ gửi bạn một lời nhắc vào ngày mai.",
+        "focus": "reminder · lời nhắc",
+        "audio": "/audio/study/appointments-basics-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "directions-basics",
+    "title": "Hỏi đường & làm rõ ý",
+    "level": "A2",
+    "category": "foundation",
+    "items": [
+      {
+        "en": "How can I get to the library?",
+        "vi": "Tôi có thể đến thư viện bằng cách nào?",
+        "focus": "get to · đến một nơi",
+        "audio": "/audio/study/directions-basics-0.mp3"
+      },
+      {
+        "en": "Turn left after the traffic lights.",
+        "vi": "Rẽ trái sau đèn giao thông.",
+        "focus": "turn left · rẽ trái",
+        "audio": "/audio/study/directions-basics-1.mp3"
+      },
+      {
+        "en": "The building is opposite the station.",
+        "vi": "Tòa nhà nằm đối diện nhà ga.",
+        "focus": "opposite · đối diện",
+        "audio": "/audio/study/directions-basics-2.mp3"
+      },
+      {
+        "en": "Do you mean the entrance on the right?",
+        "vi": "Ý bạn là lối vào bên phải phải không?",
+        "focus": "do you mean · ý bạn là",
+        "audio": "/audio/study/directions-basics-3.mp3"
+      },
+      {
+        "en": "It takes about fifteen minutes to walk there.",
+        "vi": "Đi bộ đến đó mất khoảng mười lăm phút.",
+        "focus": "it takes · mất một khoảng thời gian",
+        "audio": "/audio/study/directions-basics-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "learning-basics",
+    "title": "Học tập & công việc cơ bản",
+    "level": "A2",
+    "category": "foundation",
+    "items": [
+      {
+        "en": "I am preparing for an English test.",
+        "vi": "Tôi đang chuẩn bị cho một bài thi tiếng Anh.",
+        "focus": "prepare for · chuẩn bị cho",
+        "audio": "/audio/study/learning-basics-0.mp3"
+      },
+      {
+        "en": "Listening is easier when I know the topic.",
+        "vi": "Nghe sẽ dễ hơn khi tôi biết chủ đề.",
+        "focus": "when · khi",
+        "audio": "/audio/study/learning-basics-1.mp3"
+      },
+      {
+        "en": "I need more practice with longer sentences.",
+        "vi": "Tôi cần luyện tập thêm với những câu dài hơn.",
+        "focus": "need more practice · cần luyện thêm",
+        "audio": "/audio/study/learning-basics-2.mp3"
+      },
+      {
+        "en": "Could you explain the main idea?",
+        "vi": "Bạn có thể giải thích ý chính không?",
+        "focus": "main idea · ý chính",
+        "audio": "/audio/study/learning-basics-3.mp3"
+      },
+      {
+        "en": "I checked my answer before I finished.",
+        "vi": "Tôi đã kiểm tra câu trả lời trước khi hoàn thành.",
+        "focus": "before · trước khi",
+        "audio": "/audio/study/learning-basics-4.mp3"
+      }
+    ]
+  },
+  {
     "id": "electrical-basics",
     "title": "Điện cơ bản",
     "level": "A2",
@@ -72,6 +300,44 @@
         "vi": "Dụng cụ này cần được hiệu chuẩn.",
         "focus": "calibrate · hiệu chuẩn",
         "audio": "/audio/study/electrical-tools-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "medical-appointments",
+    "title": "Tiếp đón tại cơ sở y tế",
+    "level": "A2",
+    "category": "medical",
+    "items": [
+      {
+        "en": "Do you have an appointment today?",
+        "vi": "Hôm nay bạn có lịch hẹn không?",
+        "focus": "appointment · lịch hẹn",
+        "audio": "/audio/study/medical-appointments-0.mp3"
+      },
+      {
+        "en": "Please confirm your name and date of birth.",
+        "vi": "Vui lòng xác nhận tên và ngày sinh của bạn.",
+        "focus": "confirm · xác nhận",
+        "audio": "/audio/study/medical-appointments-1.mp3"
+      },
+      {
+        "en": "The doctor will see you shortly.",
+        "vi": "Bác sĩ sẽ gặp bạn trong ít phút nữa.",
+        "focus": "shortly · sắp, trong ít phút",
+        "audio": "/audio/study/medical-appointments-2.mp3"
+      },
+      {
+        "en": "Would you like an interpreter?",
+        "vi": "Bạn có muốn có phiên dịch viên không?",
+        "focus": "interpreter · phiên dịch viên",
+        "audio": "/audio/study/medical-appointments-3.mp3"
+      },
+      {
+        "en": "Please let the receptionist know if you need assistance.",
+        "vi": "Vui lòng báo cho lễ tân nếu bạn cần trợ giúp.",
+        "focus": "assistance · sự trợ giúp",
+        "audio": "/audio/study/medical-appointments-4.mp3"
       }
     ]
   },
@@ -224,6 +490,82 @@
         "vi": "Chúng ta cùng xem lại danh sách kiểm tra bàn giao.",
         "focus": "handover · bàn giao",
         "audio": "/audio/study/electrical-handover-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "medical-history",
+    "title": "Hỏi thông tin & lắng nghe",
+    "level": "B1",
+    "category": "medical",
+    "items": [
+      {
+        "en": "Could you describe how you have been feeling?",
+        "vi": "Bạn có thể mô tả gần đây bạn cảm thấy thế nào không?",
+        "focus": "describe · mô tả",
+        "audio": "/audio/study/medical-history-0.mp3"
+      },
+      {
+        "en": "When did you first notice the problem?",
+        "vi": "Bạn nhận thấy vấn đề lần đầu khi nào?",
+        "focus": "first notice · nhận thấy lần đầu",
+        "audio": "/audio/study/medical-history-1.mp3"
+      },
+      {
+        "en": "Do you have a list of the medicines you take?",
+        "vi": "Bạn có danh sách các thuốc đang dùng không?",
+        "focus": "a list of · danh sách",
+        "audio": "/audio/study/medical-history-2.mp3"
+      },
+      {
+        "en": "Let me check that I have understood you correctly.",
+        "vi": "Để tôi kiểm tra xem mình đã hiểu đúng ý bạn chưa.",
+        "focus": "check understanding · kiểm tra sự hiểu đúng",
+        "audio": "/audio/study/medical-history-3.mp3"
+      },
+      {
+        "en": "Is there anything else you would like to tell the clinician?",
+        "vi": "Bạn có muốn nói thêm điều gì với nhân viên lâm sàng không?",
+        "focus": "clinician · người làm công tác lâm sàng",
+        "audio": "/audio/study/medical-history-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "medical-communication",
+    "title": "Giải thích & xác nhận thông tin",
+    "level": "B1",
+    "category": "medical",
+    "items": [
+      {
+        "en": "The clinician will explain the options before you decide.",
+        "vi": "Nhân viên lâm sàng sẽ giải thích các lựa chọn trước khi bạn quyết định.",
+        "focus": "options · các lựa chọn",
+        "audio": "/audio/study/medical-communication-0.mp3"
+      },
+      {
+        "en": "Could you explain that in simpler terms?",
+        "vi": "Bạn có thể giải thích bằng từ ngữ đơn giản hơn không?",
+        "focus": "in simpler terms · bằng cách nói đơn giản hơn",
+        "audio": "/audio/study/medical-communication-1.mp3"
+      },
+      {
+        "en": "I would like to ask a question about the consent form.",
+        "vi": "Tôi muốn hỏi về mẫu chấp thuận.",
+        "focus": "consent form · mẫu chấp thuận",
+        "audio": "/audio/study/medical-communication-2.mp3"
+      },
+      {
+        "en": "The results have not been reviewed by the doctor yet.",
+        "vi": "Kết quả chưa được bác sĩ xem xét.",
+        "focus": "not yet · vẫn chưa",
+        "audio": "/audio/study/medical-communication-3.mp3"
+      },
+      {
+        "en": "Please repeat the information so I can check my notes.",
+        "vi": "Vui lòng nhắc lại thông tin để tôi kiểm tra ghi chú.",
+        "focus": "repeat the information · nhắc lại thông tin",
+        "audio": "/audio/study/medical-communication-4.mp3"
       }
     ]
   },
@@ -984,6 +1326,500 @@
         "vi": "Thời gian giao hàng quốc tế là ba tuần.",
         "focus": "Phát âm chính xác âm th trong three và weeks.",
         "audio": "/audio/study/duoc_doi_tac-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-efficiency",
+    "title": "Đọc báo cáo hiệu suất",
+    "level": "B2",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "The report compares energy consumption before and after the upgrade.",
+        "vi": "Báo cáo so sánh mức tiêu thụ năng lượng trước và sau nâng cấp.",
+        "focus": "energy consumption · mức tiêu thụ năng lượng",
+        "audio": "/audio/study/electrical-efficiency-0.mp3"
+      },
+      {
+        "en": "The estimated savings depend on how frequently the equipment is used.",
+        "vi": "Khoản tiết kiệm ước tính phụ thuộc tần suất sử dụng thiết bị.",
+        "focus": "estimated savings · khoản tiết kiệm ước tính",
+        "audio": "/audio/study/electrical-efficiency-1.mp3"
+      },
+      {
+        "en": "A lower purchase price does not always mean a lower operating cost.",
+        "vi": "Giá mua thấp hơn không phải lúc nào cũng đồng nghĩa chi phí vận hành thấp hơn.",
+        "focus": "operating cost · chi phí vận hành",
+        "audio": "/audio/study/electrical-efficiency-2.mp3"
+      },
+      {
+        "en": "The engineer requested additional data before drawing a conclusion.",
+        "vi": "Kỹ sư yêu cầu thêm dữ liệu trước khi đưa ra kết luận.",
+        "focus": "draw a conclusion · rút ra kết luận",
+        "audio": "/audio/study/electrical-efficiency-3.mp3"
+      },
+      {
+        "en": "The proposal includes a comparison of reliability and maintenance requirements.",
+        "vi": "Đề xuất gồm so sánh độ tin cậy và yêu cầu bảo trì.",
+        "focus": "reliability · độ tin cậy",
+        "audio": "/audio/study/electrical-efficiency-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "academic-data",
+    "title": "Đọc số liệu & so sánh",
+    "level": "B2",
+    "category": "academic",
+    "items": [
+      {
+        "en": "The survey shows a steady increase in public transport use.",
+        "vi": "Khảo sát cho thấy việc sử dụng giao thông công cộng tăng đều.",
+        "focus": "steady increase · mức tăng ổn định",
+        "audio": "/audio/study/academic-data-0.mp3"
+      },
+      {
+        "en": "Although the sample was small, the results suggest a clear trend.",
+        "vi": "Mặc dù mẫu khảo sát nhỏ, kết quả cho thấy một xu hướng rõ ràng.",
+        "focus": "although · nối hai ý tương phản",
+        "audio": "/audio/study/academic-data-1.mp3"
+      },
+      {
+        "en": "The largest difference occurred between the youngest and oldest groups.",
+        "vi": "Chênh lệch lớn nhất xuất hiện giữa nhóm trẻ nhất và nhóm lớn tuổi nhất.",
+        "focus": "difference between · sự khác biệt giữa",
+        "audio": "/audio/study/academic-data-2.mp3"
+      },
+      {
+        "en": "These figures should be interpreted alongside the response rate.",
+        "vi": "Các số liệu này cần được diễn giải cùng với tỷ lệ phản hồi.",
+        "focus": "alongside · cùng với",
+        "audio": "/audio/study/academic-data-3.mp3"
+      },
+      {
+        "en": "A comparison across several years would provide a more reliable picture.",
+        "vi": "So sánh qua nhiều năm sẽ cho một bức tranh đáng tin cậy hơn.",
+        "focus": "would provide · nêu kết quả giả định",
+        "audio": "/audio/study/academic-data-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "academic-campus",
+    "title": "Nghe giảng & học đại học",
+    "level": "B2",
+    "category": "academic",
+    "items": [
+      {
+        "en": "The lecturer distinguishes between short-term memory and long-term learning.",
+        "vi": "Giảng viên phân biệt trí nhớ ngắn hạn với việc học lâu dài.",
+        "focus": "distinguish between · phân biệt giữa",
+        "audio": "/audio/study/academic-campus-0.mp3"
+      },
+      {
+        "en": "Students are expected to support their arguments with relevant evidence.",
+        "vi": "Sinh viên được yêu cầu hỗ trợ lập luận bằng bằng chứng phù hợp.",
+        "focus": "support an argument · củng cố lập luận",
+        "audio": "/audio/study/academic-campus-1.mp3"
+      },
+      {
+        "en": "The deadline has been extended because the library was closed.",
+        "vi": "Hạn nộp đã được gia hạn vì thư viện đóng cửa.",
+        "focus": "has been extended · hiện tại hoàn thành bị động",
+        "audio": "/audio/study/academic-campus-2.mp3"
+      },
+      {
+        "en": "Rather than listing facts, the essay should explain their significance.",
+        "vi": "Thay vì liệt kê sự kiện, bài luận nên giải thích ý nghĩa của chúng.",
+        "focus": "rather than · thay vì",
+        "audio": "/audio/study/academic-campus-3.mp3"
+      },
+      {
+        "en": "Taking brief notes can help you identify the structure of a lecture.",
+        "vi": "Ghi chú ngắn có thể giúp bạn nhận ra cấu trúc bài giảng.",
+        "focus": "identify the structure · nhận diện cấu trúc",
+        "audio": "/audio/study/academic-campus-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "academic-environment",
+    "title": "Môi trường & chính sách",
+    "level": "B2",
+    "category": "academic",
+    "items": [
+      {
+        "en": "Investing in energy efficiency can reduce costs as well as emissions.",
+        "vi": "Đầu tư vào hiệu quả năng lượng có thể giảm cả chi phí lẫn khí thải.",
+        "focus": "as well as · cũng như",
+        "audio": "/audio/study/academic-environment-0.mp3"
+      },
+      {
+        "en": "The proposal balances economic benefits against environmental risks.",
+        "vi": "Đề xuất cân nhắc lợi ích kinh tế với rủi ro môi trường.",
+        "focus": "balance against · cân nhắc hai mặt",
+        "audio": "/audio/study/academic-environment-1.mp3"
+      },
+      {
+        "en": "Public support depends partly on how the policy is communicated.",
+        "vi": "Sự ủng hộ của công chúng phụ thuộc một phần vào cách truyền đạt chính sách.",
+        "focus": "depends on · phụ thuộc vào",
+        "audio": "/audio/study/academic-environment-2.mp3"
+      },
+      {
+        "en": "A gradual transition may be more practical than an immediate ban.",
+        "vi": "Một sự chuyển đổi dần dần có thể thực tế hơn lệnh cấm ngay lập tức.",
+        "focus": "more practical than · so sánh tính khả thi",
+        "audio": "/audio/study/academic-environment-3.mp3"
+      },
+      {
+        "en": "The report considers both the immediate costs and the long-term effects.",
+        "vi": "Báo cáo xem xét cả chi phí trước mắt lẫn tác động lâu dài.",
+        "focus": "both and · cả hai",
+        "audio": "/audio/study/academic-environment-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "medical-handover",
+    "title": "Giao tiếp bàn giao",
+    "level": "B2",
+    "category": "medical",
+    "items": [
+      {
+        "en": "The handover should distinguish confirmed findings from concerns that require further review.",
+        "vi": "Bàn giao nên phân biệt phát hiện đã xác nhận với điều còn lo ngại cần xem xét thêm.",
+        "focus": "confirmed findings · phát hiện đã xác nhận",
+        "audio": "/audio/study/medical-handover-0.mp3"
+      },
+      {
+        "en": "The receiving team has requested clarification of the documented timeline.",
+        "vi": "Đội tiếp nhận đã yêu cầu làm rõ mốc thời gian được ghi nhận.",
+        "focus": "clarification · sự làm rõ",
+        "audio": "/audio/study/medical-handover-1.mp3"
+      },
+      {
+        "en": "Relevant information must be communicated through the approved handover process.",
+        "vi": "Thông tin liên quan phải được truyền đạt qua quy trình bàn giao được phê duyệt.",
+        "focus": "approved process · quy trình được phê duyệt",
+        "audio": "/audio/study/medical-handover-2.mp3"
+      },
+      {
+        "en": "I will confirm who is responsible for following up the outstanding report.",
+        "vi": "Tôi sẽ xác nhận ai phụ trách theo dõi báo cáo còn thiếu.",
+        "focus": "outstanding report · báo cáo còn chưa hoàn tất",
+        "audio": "/audio/study/medical-handover-3.mp3"
+      },
+      {
+        "en": "The summary records what was observed without assuming an unconfirmed diagnosis.",
+        "vi": "Bản tóm tắt ghi nhận điều đã quan sát mà không giả định chẩn đoán chưa được xác nhận.",
+        "focus": "unconfirmed diagnosis · chẩn đoán chưa xác nhận",
+        "audio": "/audio/study/medical-handover-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-analysis",
+    "title": "Thảo luận hệ thống điện",
+    "level": "C1",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "The assessment distinguishes a temporary interruption from a persistent fault in the system.",
+        "vi": "Đánh giá phân biệt gián đoạn tạm thời với sự cố dai dẳng trong hệ thống.",
+        "focus": "persistent fault · sự cố dai dẳng",
+        "audio": "/audio/study/electrical-analysis-0.mp3"
+      },
+      {
+        "en": "The proposed design prioritizes reliability while acknowledging constraints on cost and space.",
+        "vi": "Thiết kế đề xuất ưu tiên độ tin cậy đồng thời thừa nhận hạn chế chi phí và không gian.",
+        "focus": "constraints · các ràng buộc",
+        "audio": "/audio/study/electrical-analysis-1.mp3"
+      },
+      {
+        "en": "The findings remain provisional until the independent review has been completed.",
+        "vi": "Các phát hiện vẫn mang tính tạm thời cho đến khi hoàn tất đánh giá độc lập.",
+        "focus": "provisional findings · phát hiện tạm thời",
+        "audio": "/audio/study/electrical-analysis-2.mp3"
+      },
+      {
+        "en": "The specification should make the assumptions behind the capacity estimate explicit.",
+        "vi": "Bản đặc tả nên nêu rõ các giả định phía sau ước tính công suất.",
+        "focus": "capacity estimate · ước tính công suất",
+        "audio": "/audio/study/electrical-analysis-3.mp3"
+      },
+      {
+        "en": "A comparison of alternatives requires consistent definitions of performance and risk.",
+        "vi": "So sánh các phương án cần định nghĩa nhất quán về hiệu năng và rủi ro.",
+        "focus": "consistent definitions · định nghĩa nhất quán",
+        "audio": "/audio/study/electrical-analysis-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "academic-research",
+    "title": "Phân tích nghiên cứu",
+    "level": "C1",
+    "category": "academic",
+    "items": [
+      {
+        "en": "The findings are consistent with the hypothesis, although they do not establish causation.",
+        "vi": "Các phát hiện phù hợp với giả thuyết, dù chúng không xác lập quan hệ nhân quả.",
+        "focus": "establish causation · xác lập quan hệ nhân quả",
+        "audio": "/audio/study/academic-research-0.mp3"
+      },
+      {
+        "en": "A larger and more representative sample would strengthen the generalizability of the study.",
+        "vi": "Một mẫu lớn và mang tính đại diện hơn sẽ tăng khả năng khái quát hóa của nghiên cứu.",
+        "focus": "generalizability · khả năng khái quát hóa",
+        "audio": "/audio/study/academic-research-1.mp3"
+      },
+      {
+        "en": "The apparent improvement may reflect changes in measurement rather than genuine progress.",
+        "vi": "Sự cải thiện bề ngoài có thể phản ánh thay đổi trong đo lường hơn là tiến bộ thực sự.",
+        "focus": "may reflect · diễn đạt sự thận trọng",
+        "audio": "/audio/study/academic-research-2.mp3"
+      },
+      {
+        "en": "Participants who withdrew differed systematically from those who completed the trial.",
+        "vi": "Những người rút lui khác một cách có hệ thống so với những người hoàn thành thử nghiệm.",
+        "focus": "differ systematically · khác biệt có hệ thống",
+        "audio": "/audio/study/academic-research-3.mp3"
+      },
+      {
+        "en": "Further investigation is needed to determine whether the effect persists over time.",
+        "vi": "Cần nghiên cứu thêm để xác định liệu tác động có duy trì theo thời gian không.",
+        "focus": "whether · mệnh đề nghi vấn gián tiếp",
+        "audio": "/audio/study/academic-research-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "academic-discussion",
+    "title": "Tổng hợp & phản biện",
+    "level": "C1",
+    "category": "academic",
+    "items": [
+      {
+        "en": "While both speakers acknowledge the benefits, they disagree about how the costs should be distributed.",
+        "vi": "Dù cả hai diễn giả đều công nhận lợi ích, họ bất đồng về cách phân bổ chi phí.",
+        "focus": "acknowledge · thừa nhận một điểm hợp lý",
+        "audio": "/audio/study/academic-discussion-0.mp3"
+      },
+      {
+        "en": "The central issue is not the availability of information but the ability to evaluate it critically.",
+        "vi": "Vấn đề cốt lõi không phải sự sẵn có của thông tin mà là khả năng đánh giá nó một cách phản biện.",
+        "focus": "evaluate critically · đánh giá có phản biện",
+        "audio": "/audio/study/academic-discussion-1.mp3"
+      },
+      {
+        "en": "This interpretation overlooks the distinction between access and effective participation.",
+        "vi": "Cách diễn giải này bỏ qua khác biệt giữa khả năng tiếp cận và sự tham gia hiệu quả.",
+        "focus": "overlook a distinction · bỏ sót sự phân biệt",
+        "audio": "/audio/study/academic-discussion-2.mp3"
+      },
+      {
+        "en": "An effective summary preserves the main argument without reproducing every supporting detail.",
+        "vi": "Một bản tóm tắt hiệu quả giữ được lập luận chính mà không lặp lại mọi chi tiết bổ trợ.",
+        "focus": "preserve the argument · giữ lập luận chính",
+        "audio": "/audio/study/academic-discussion-3.mp3"
+      },
+      {
+        "en": "The conclusion should follow from the evidence rather than merely restate an initial assumption.",
+        "vi": "Kết luận nên xuất phát từ bằng chứng thay vì chỉ nhắc lại giả định ban đầu.",
+        "focus": "follow from · là hệ quả hợp lý của",
+        "audio": "/audio/study/academic-discussion-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "medical-research",
+    "title": "Đọc nghiên cứu y học",
+    "level": "C1",
+    "category": "medical",
+    "items": [
+      {
+        "en": "The reported association should not be interpreted as proof that one factor causes the other.",
+        "vi": "Mối liên hệ được báo cáo không nên được hiểu là bằng chứng rằng một yếu tố gây ra yếu tố kia.",
+        "focus": "association · mối liên hệ",
+        "audio": "/audio/study/medical-research-0.mp3"
+      },
+      {
+        "en": "The authors acknowledge that selection bias may limit the applicability of their findings.",
+        "vi": "Các tác giả thừa nhận sai lệch chọn mẫu có thể hạn chế tính ứng dụng của phát hiện.",
+        "focus": "selection bias · sai lệch chọn mẫu",
+        "audio": "/audio/study/medical-research-1.mp3"
+      },
+      {
+        "en": "The confidence interval indicates the uncertainty surrounding the estimated effect.",
+        "vi": "Khoảng tin cậy thể hiện sự không chắc chắn quanh tác động ước tính.",
+        "focus": "confidence interval · khoảng tin cậy",
+        "audio": "/audio/study/medical-research-2.mp3"
+      },
+      {
+        "en": "The discussion distinguishes statistical significance from practical relevance.",
+        "vi": "Phần thảo luận phân biệt ý nghĩa thống kê với sự phù hợp thực tiễn.",
+        "focus": "statistical significance · ý nghĩa thống kê",
+        "audio": "/audio/study/medical-research-3.mp3"
+      },
+      {
+        "en": "Independent replication would help establish whether the finding is robust.",
+        "vi": "Việc tái lập độc lập sẽ giúp xác định liệu phát hiện có vững chắc không.",
+        "focus": "independent replication · tái lập độc lập",
+        "audio": "/audio/study/medical-research-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-decisions",
+    "title": "Diễn đạt rủi ro kỹ thuật",
+    "level": "C2",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "A defensible recommendation must reconcile operational resilience with the limitations of the available evidence.",
+        "vi": "Một khuyến nghị có cơ sở phải dung hòa khả năng duy trì vận hành với giới hạn của bằng chứng sẵn có.",
+        "focus": "operational resilience · khả năng duy trì hoạt động",
+        "audio": "/audio/study/electrical-decisions-0.mp3"
+      },
+      {
+        "en": "The absence of recorded failures should not be conflated with proof that the underlying risk is negligible.",
+        "vi": "Việc không ghi nhận hỏng hóc không nên bị đánh đồng với bằng chứng rằng rủi ro nền tảng là không đáng kể.",
+        "focus": "negligible · không đáng kể",
+        "audio": "/audio/study/electrical-decisions-1.mp3"
+      },
+      {
+        "en": "The analysis is persuasive only to the extent that its assumptions remain valid under realistic operating conditions.",
+        "vi": "Phân tích chỉ thuyết phục trong chừng mực các giả định còn đúng dưới điều kiện vận hành thực tế.",
+        "focus": "to the extent that · trong chừng mực mà",
+        "audio": "/audio/study/electrical-decisions-2.mp3"
+      },
+      {
+        "en": "Uncertainty in projected demand warrants a qualified conclusion rather than an unreserved assurance of adequacy.",
+        "vi": "Sự không chắc chắn về nhu cầu dự kiến đòi hỏi kết luận có điều kiện thay vì bảo đảm tuyệt đối về tính đáp ứng.",
+        "focus": "qualified conclusion · kết luận có điều kiện",
+        "audio": "/audio/study/electrical-decisions-3.mp3"
+      },
+      {
+        "en": "Communicating residual risk clearly is integral to an informed decision rather than an obstacle to approval.",
+        "vi": "Truyền đạt rõ rủi ro còn lại là phần thiết yếu của quyết định có đủ thông tin, không phải trở ngại cho phê duyệt.",
+        "focus": "residual risk · rủi ro còn lại",
+        "audio": "/audio/study/electrical-decisions-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "academic-argument",
+    "title": "Sắc thái trong lập luận",
+    "level": "C2",
+    "category": "academic",
+    "items": [
+      {
+        "en": "Persuasive as the argument may appear, its underlying assumptions remain open to challenge.",
+        "vi": "Dù lập luận có vẻ thuyết phục, các giả định nền tảng của nó vẫn có thể bị chất vấn.",
+        "focus": "persuasive as it may appear · cấu trúc nhượng bộ",
+        "audio": "/audio/study/academic-argument-0.mp3"
+      },
+      {
+        "en": "The policy is defensible only insofar as its benefits are not achieved at a disproportionate social cost.",
+        "vi": "Chính sách chỉ có thể được bảo vệ trong chừng mực lợi ích không đạt được bằng một cái giá xã hội quá lớn.",
+        "focus": "insofar as · trong chừng mực mà",
+        "audio": "/audio/study/academic-argument-1.mp3"
+      },
+      {
+        "en": "To conflate a plausible explanation with a conclusive demonstration is to overstate what the evidence permits.",
+        "vi": "Đánh đồng lời giải thích có cơ sở với chứng minh dứt khoát là phóng đại điều bằng chứng cho phép.",
+        "focus": "conflate · đánh đồng hai điều khác nhau",
+        "audio": "/audio/study/academic-argument-2.mp3"
+      },
+      {
+        "en": "What is at stake is whether procedural fairness can be reconciled with the demand for rapid decisions.",
+        "vi": "Điều cần xem xét là liệu công bằng về quy trình có thể dung hòa với yêu cầu ra quyết định nhanh không.",
+        "focus": "reconcile with · dung hòa với",
+        "audio": "/audio/study/academic-argument-3.mp3"
+      },
+      {
+        "en": "A qualified endorsement acknowledges the proposal’s merits while making its limitations explicit.",
+        "vi": "Sự tán thành có điều kiện công nhận điểm mạnh của đề xuất đồng thời nêu rõ các giới hạn.",
+        "focus": "qualified endorsement · sự ủng hộ có điều kiện",
+        "audio": "/audio/study/academic-argument-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "academic-evaluation",
+    "title": "Đánh giá & diễn đạt chính xác",
+    "level": "C2",
+    "category": "academic",
+    "items": [
+      {
+        "en": "The distinction is subtle but consequential, particularly when the findings inform decisions beyond the original context.",
+        "vi": "Sự phân biệt này tinh tế nhưng quan trọng, nhất là khi kết quả được dùng cho quyết định ngoài bối cảnh ban đầu.",
+        "focus": "consequential · có hệ quả đáng kể",
+        "audio": "/audio/study/academic-evaluation-0.mp3"
+      },
+      {
+        "en": "A coherent synthesis must accommodate apparently conflicting evidence without obscuring genuine disagreements.",
+        "vi": "Một bản tổng hợp mạch lạc phải dung nạp bằng chứng có vẻ mâu thuẫn mà không che mờ bất đồng thực sự.",
+        "focus": "accommodate conflicting evidence · kết hợp bằng chứng trái chiều",
+        "audio": "/audio/study/academic-evaluation-1.mp3"
+      },
+      {
+        "en": "The author’s cautious wording signals that the claim is provisional rather than universally applicable.",
+        "vi": "Cách dùng từ thận trọng của tác giả cho thấy nhận định mang tính tạm thời thay vì áp dụng phổ quát.",
+        "focus": "provisional · tạm thời, còn cần kiểm chứng",
+        "audio": "/audio/study/academic-evaluation-2.mp3"
+      },
+      {
+        "en": "Evaluating the counterfactual requires more than assuming that the observed outcome was inevitable.",
+        "vi": "Đánh giá tình huống phản thực đòi hỏi nhiều hơn việc giả định kết quả quan sát được là tất yếu.",
+        "focus": "counterfactual · tình huống trái với điều đã xảy ra",
+        "audio": "/audio/study/academic-evaluation-3.mp3"
+      },
+      {
+        "en": "Precision involves choosing language proportionate to the strength and scope of the available evidence.",
+        "vi": "Sự chính xác bao gồm chọn ngôn ngữ tương xứng với độ mạnh và phạm vi của bằng chứng sẵn có.",
+        "focus": "proportionate to · tương xứng với",
+        "audio": "/audio/study/academic-evaluation-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "medical-ethics",
+    "title": "Đạo đức & ngôn ngữ thận trọng",
+    "level": "C2",
+    "category": "medical",
+    "items": [
+      {
+        "en": "Meaningful consent depends not merely on the disclosure of information but on its intelligibility to the person concerned.",
+        "vi": "Sự chấp thuận có ý nghĩa không chỉ phụ thuộc việc cung cấp thông tin mà còn ở khả năng người liên quan hiểu thông tin đó.",
+        "focus": "intelligibility · tính dễ hiểu",
+        "audio": "/audio/study/medical-ethics-0.mp3"
+      },
+      {
+        "en": "The account should preserve the patient’s perspective without implying that an unverified interpretation is an established fact.",
+        "vi": "Bản ghi nên giữ được góc nhìn của người bệnh mà không hàm ý rằng diễn giải chưa xác minh là sự thật đã xác lập.",
+        "focus": "established fact · sự thật đã được xác lập",
+        "audio": "/audio/study/medical-ethics-1.mp3"
+      },
+      {
+        "en": "Uncertainty should be communicated candidly and proportionately, neither concealed nor presented as evidence of negligence.",
+        "vi": "Sự không chắc chắn nên được truyền đạt thẳng thắn và đúng mức, không bị che giấu hay bị coi là bằng chứng cẩu thả.",
+        "focus": "candidly and proportionately · thẳng thắn và đúng mức",
+        "audio": "/audio/study/medical-ethics-2.mp3"
+      },
+      {
+        "en": "Respect for autonomy entails recognizing that reasonable people may weigh the same information differently.",
+        "vi": "Tôn trọng quyền tự chủ bao gồm nhận thức rằng những người hợp lý có thể cân nhắc cùng thông tin theo cách khác nhau.",
+        "focus": "entail · bao hàm, kéo theo",
+        "audio": "/audio/study/medical-ethics-3.mp3"
+      },
+      {
+        "en": "A balanced discussion makes the limits of the available evidence explicit while avoiding unwarranted reassurance.",
+        "vi": "Một cuộc thảo luận cân bằng nêu rõ giới hạn bằng chứng sẵn có đồng thời tránh trấn an thiếu cơ sở.",
+        "focus": "unwarranted reassurance · sự trấn an thiếu cơ sở",
+        "audio": "/audio/study/medical-ethics-4.mp3"
       }
     ]
   }

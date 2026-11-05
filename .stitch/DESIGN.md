@@ -2,6 +2,8 @@
 
 Audience: Vietnamese adults studying mainly on a phone. One clear daily practice, then direct access to four skills and electrical English.
 
+Updated direction: PTE Academic as the main objective. Learner setup has three steps: goal/time, independent skill starting bands, optional general/medical/electrical interest. A fresh user sees A1 foundations, never an enforced profession. Dashboard skills show individual practice levels; progression and local profile switching must remain understandable on a 320px phone. Keep the existing palette and controls. Stitch learner-setup reference: 4b43ac435db44fc3b3f81af61e495d7a.
+
 Palette: forest green #176B57, lime #D8F36A for the primary daily action, warm canvas #F6F7F2, ink #19372D, muted text #617168, borders #DCE3DA.
 
 Typography: locally hosted Be Vietnam Pro, 400–800, full Vietnamese support. Large learning sentences, concise labels. No remote font requests.

@@ -24,7 +24,7 @@ export async function downloadAudio(urls: string[], onProgress: (done:number,tot
       onProgress(++done,urls.length);
     }
   };
-  // Static MP3s need no synthesis. Four bounded downloads avoid 130 mobile RTTs.
+  // Static MP3s need no synthesis. Four workers limit mobile download overhead.
   const workers=Array.from({length:Math.min(4,urls.length)},worker);
   try{await Promise.all(workers);}
   catch(e){batch.abort();await Promise.allSettled(workers);throw e;}
