@@ -1,0 +1,990 @@
+[
+  {
+    "id": "electrical-basics",
+    "title": "Điện cơ bản",
+    "level": "A2",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "The voltage is two hundred and thirty volts.",
+        "vi": "Điện áp là hai trăm ba mươi vôn.",
+        "focus": "voltage · điện áp",
+        "audio": "/audio/study/electrical-basics-0.mp3"
+      },
+      {
+        "en": "Current flows through a closed circuit.",
+        "vi": "Dòng điện chạy qua một mạch kín.",
+        "focus": "current · dòng điện",
+        "audio": "/audio/study/electrical-basics-1.mp3"
+      },
+      {
+        "en": "Resistance is measured in ohms.",
+        "vi": "Điện trở được đo bằng ôm.",
+        "focus": "resistance · điện trở",
+        "audio": "/audio/study/electrical-basics-2.mp3"
+      },
+      {
+        "en": "This cable has a copper conductor.",
+        "vi": "Cáp này có lõi dẫn bằng đồng.",
+        "focus": "conductor · vật dẫn điện",
+        "audio": "/audio/study/electrical-basics-3.mp3"
+      },
+      {
+        "en": "The power supply is not connected.",
+        "vi": "Bộ nguồn chưa được kết nối.",
+        "focus": "power supply · bộ nguồn",
+        "audio": "/audio/study/electrical-basics-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-tools",
+    "title": "Dụng cụ & đo lường",
+    "level": "A2",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "We use a multimeter to measure voltage.",
+        "vi": "Chúng tôi dùng đồng hồ vạn năng để đo điện áp.",
+        "focus": "multimeter · đồng hồ vạn năng",
+        "audio": "/audio/study/electrical-tools-0.mp3"
+      },
+      {
+        "en": "The clamp meter measures the current.",
+        "vi": "Ampe kìm đo dòng điện.",
+        "focus": "clamp meter · ampe kìm",
+        "audio": "/audio/study/electrical-tools-1.mp3"
+      },
+      {
+        "en": "Please pass me the insulated screwdriver.",
+        "vi": "Vui lòng đưa tôi tua vít cách điện.",
+        "focus": "insulated · được cách điện",
+        "audio": "/audio/study/electrical-tools-2.mp3"
+      },
+      {
+        "en": "The reading on the display is stable.",
+        "vi": "Số đo trên màn hình ổn định.",
+        "focus": "reading · số đo",
+        "audio": "/audio/study/electrical-tools-3.mp3"
+      },
+      {
+        "en": "This tool needs to be calibrated.",
+        "vi": "Dụng cụ này cần được hiệu chuẩn.",
+        "focus": "calibrate · hiệu chuẩn",
+        "audio": "/audio/study/electrical-tools-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-safety",
+    "title": "Giao tiếp an toàn",
+    "level": "B1",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "Only authorized personnel may enter this area.",
+        "vi": "Chỉ người được phép mới được vào khu vực này.",
+        "focus": "authorized personnel · người được phép",
+        "audio": "/audio/study/electrical-safety-0.mp3"
+      },
+      {
+        "en": "The equipment is locked out for maintenance.",
+        "vi": "Thiết bị được khóa cách ly để bảo trì.",
+        "focus": "locked out · được khóa cách ly",
+        "audio": "/audio/study/electrical-safety-1.mp3"
+      },
+      {
+        "en": "Report the damaged insulation to your supervisor.",
+        "vi": "Báo lớp cách điện bị hỏng cho người giám sát.",
+        "focus": "insulation · lớp cách điện",
+        "audio": "/audio/study/electrical-safety-2.mp3"
+      },
+      {
+        "en": "Please follow the approved safety procedure.",
+        "vi": "Vui lòng tuân theo quy trình an toàn đã được phê duyệt.",
+        "focus": "procedure · quy trình",
+        "audio": "/audio/study/electrical-safety-3.mp3"
+      },
+      {
+        "en": "A qualified electrician will inspect the panel.",
+        "vi": "Một thợ điện có chuyên môn sẽ kiểm tra tủ điện.",
+        "focus": "qualified electrician · thợ điện có chuyên môn",
+        "audio": "/audio/study/electrical-safety-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-panels",
+    "title": "Tủ điện & bản vẽ",
+    "level": "B1",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "The circuit breaker has tripped.",
+        "vi": "Aptomat đã nhảy.",
+        "focus": "circuit breaker · aptomat",
+        "audio": "/audio/study/electrical-panels-0.mp3"
+      },
+      {
+        "en": "Each terminal has a clear label.",
+        "vi": "Mỗi đầu nối có nhãn rõ ràng.",
+        "focus": "terminal · đầu nối",
+        "audio": "/audio/study/electrical-panels-1.mp3"
+      },
+      {
+        "en": "The wiring diagram is inside the cabinet.",
+        "vi": "Sơ đồ đấu dây nằm trong tủ.",
+        "focus": "wiring diagram · sơ đồ đấu dây",
+        "audio": "/audio/study/electrical-panels-2.mp3"
+      },
+      {
+        "en": "This relay controls the cooling fan.",
+        "vi": "Rơ le này điều khiển quạt làm mát.",
+        "focus": "relay · rơ le",
+        "audio": "/audio/study/electrical-panels-3.mp3"
+      },
+      {
+        "en": "The earth wire is connected to the enclosure.",
+        "vi": "Dây tiếp địa được kết nối với vỏ thiết bị.",
+        "focus": "earth wire · dây tiếp địa",
+        "audio": "/audio/study/electrical-panels-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-motors",
+    "title": "Động cơ & bảo trì",
+    "level": "B1",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "The motor is making an unusual noise.",
+        "vi": "Động cơ đang phát ra tiếng ồn bất thường.",
+        "focus": "motor · động cơ",
+        "audio": "/audio/study/electrical-motors-0.mp3"
+      },
+      {
+        "en": "The bearing needs to be replaced.",
+        "vi": "Vòng bi cần được thay thế.",
+        "focus": "bearing · vòng bi",
+        "audio": "/audio/study/electrical-motors-1.mp3"
+      },
+      {
+        "en": "The maintenance team is checking the fault.",
+        "vi": "Đội bảo trì đang kiểm tra sự cố.",
+        "focus": "fault · sự cố",
+        "audio": "/audio/study/electrical-motors-2.mp3"
+      },
+      {
+        "en": "The drive displays an overload warning.",
+        "vi": "Bộ truyền động hiển thị cảnh báo quá tải.",
+        "focus": "overload · quá tải",
+        "audio": "/audio/study/electrical-motors-3.mp3"
+      },
+      {
+        "en": "Please record the results in the maintenance log.",
+        "vi": "Vui lòng ghi kết quả vào nhật ký bảo trì.",
+        "focus": "maintenance log · nhật ký bảo trì",
+        "audio": "/audio/study/electrical-motors-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "electrical-handover",
+    "title": "Bàn giao & công việc",
+    "level": "B1",
+    "category": "electrical",
+    "items": [
+      {
+        "en": "We are waiting for the inspection report.",
+        "vi": "Chúng tôi đang chờ báo cáo kiểm tra.",
+        "focus": "inspection report · báo cáo kiểm tra",
+        "audio": "/audio/study/electrical-handover-0.mp3"
+      },
+      {
+        "en": "The installation meets the project requirements.",
+        "vi": "Hệ thống lắp đặt đáp ứng yêu cầu dự án.",
+        "focus": "requirements · yêu cầu",
+        "audio": "/audio/study/electrical-handover-1.mp3"
+      },
+      {
+        "en": "Could you send the updated drawings?",
+        "vi": "Bạn có thể gửi bản vẽ cập nhật không?",
+        "focus": "updated drawings · bản vẽ cập nhật",
+        "audio": "/audio/study/electrical-handover-2.mp3"
+      },
+      {
+        "en": "The spare parts will arrive on Friday.",
+        "vi": "Phụ tùng thay thế sẽ đến vào thứ Sáu.",
+        "focus": "spare parts · phụ tùng thay thế",
+        "audio": "/audio/study/electrical-handover-3.mp3"
+      },
+      {
+        "en": "Let us review the handover checklist together.",
+        "vi": "Chúng ta cùng xem lại danh sách kiểm tra bàn giao.",
+        "focus": "handover · bàn giao",
+        "audio": "/audio/study/electrical-handover-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "an_uong",
+    "title": "Ăn uống",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "She ordered three plates of grilled pork with extra sauce.",
+        "vi": "Cô ấy đã gọi ba đĩa thịt lợn nướng kèm thêm nước sốt.",
+        "focus": "Phát âm rõ âm cuối /ts/ trong từ plates.",
+        "audio": "/audio/study/an_uong-0.mp3"
+      },
+      {
+        "en": "The street vendor serves fresh spring rolls with peanut sauce.",
+        "vi": "Người bán hàng rong phục vụ món gỏi cuốn tươi với sốt đậu phộng.",
+        "focus": "Nhấn rõ âm /s/ cuối của từ serves và rolls.",
+        "audio": "/audio/study/an_uong-1.mp3"
+      },
+      {
+        "en": "My throat feels scratchy after drinking that iced lemon tea.",
+        "vi": "Họng tôi cảm thấy ngứa ngáy sau khi uống ly trà chanh đá đó.",
+        "focus": "Phát âm chuẩn âm /θ/ trong từ throat.",
+        "audio": "/audio/study/an_uong-2.mp3"
+      },
+      {
+        "en": "We should split the bill because the steak was expensive.",
+        "vi": "Chúng ta nên chia hóa đơn vì món bít tết khá đắt đỏ.",
+        "focus": "Bật rõ cụm phụ âm /spl/ trong từ split.",
+        "audio": "/audio/study/an_uong-3.mp3"
+      },
+      {
+        "en": "He has a severe seafood allergy and starts to sneeze.",
+        "vi": "Anh ấy bị dị ứng hải sản nghiêm trọng và bắt đầu hắt hơi.",
+        "focus": "Phát âm đúng âm /z/ ở cuối từ sneeze.",
+        "audio": "/audio/study/an_uong-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "sinh_hoat",
+    "title": "Sinh hoạt hằng ngày",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "She scrubs her face and puts on some light sunscreen.",
+        "vi": "Cô ấy rửa sạch mặt và bôi một ít kem chống nắng mỏng nhẹ.",
+        "focus": "Phát âm rõ âm đuôi /s/ trong scrubs, face, và sunscreen.",
+        "audio": "/audio/study/sinh_hoat-0.mp3"
+      },
+      {
+        "en": "He rides his motorbike through the thick traffic every single morning.",
+        "vi": "Anh ấy lái xe máy qua dòng xe cộ đông đúc mỗi sáng.",
+        "focus": "Phát âm đúng âm đuôi /z/ trong rides và /ks/ trong thick.",
+        "audio": "/audio/study/sinh_hoat-1.mp3"
+      },
+      {
+        "en": "The dogs always bark when the alarm clock starts to ring.",
+        "vi": "Mấy chú chó luôn sủa khi chuông báo thức bắt đầu reo.",
+        "focus": "Phát âm rõ âm cuối /s/ trong dogs, starts, và clock.",
+        "audio": "/audio/study/sinh_hoat-2.mp3"
+      },
+      {
+        "en": "They washed the dishes and swept the dusty floor last night.",
+        "vi": "Họ đã rửa bát và quét sàn nhà đầy bụi tối qua.",
+        "focus": "Lưu ý âm cuối /t/ trong washed, swept và âm /st/ trong dusty.",
+        "audio": "/audio/study/sinh_hoat-3.mp3"
+      },
+      {
+        "en": "I stretch my arms and legs before getting out of bed.",
+        "vi": "Tôi vươn vai và giãn chân trước khi bước ra khỏi giường.",
+        "focus": "Bật rõ âm cuối /tʃ/ trong stretch và âm /z/ trong arms, legs.",
+        "audio": "/audio/study/sinh_hoat-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "so_thich",
+    "title": "Sở thích, giải trí",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "He always watches three sci-fi series on Netflix every single weekend.",
+        "vi": "Anh ấy luôn xem ba bộ phim viễn tưởng trên Netflix mỗi cuối tuần.",
+        "focus": "Phát âm đuôi /z/ ở từ \"watches\", \"series\", \"weekends\".",
+        "audio": "/audio/study/so_thich-0.mp3"
+      },
+      {
+        "en": "I can't stand playing fast-paced video games on my phone anymore.",
+        "vi": "Tôi không thể chịu nổi việc chơi game tốc độ cao trên điện thoại nữa.",
+        "focus": "Phát âm cụm phụ âm /st/ trong \"can't stand\".",
+        "audio": "/audio/study/so_thich-1.mp3"
+      },
+      {
+        "en": "Let's grab a hot coffee and talk about our crazy work schedules.",
+        "vi": "Đi uống cà phê nóng và nói chuyện về lịch làm việc điên rồ của tụi mình đi.",
+        "focus": "Phát âm đúng âm /sk/ và đuôi /z/ của \"schedules\".",
+        "audio": "/audio/study/so_thich-2.mp3"
+      },
+      {
+        "en": "She prefers reading medical journals to watching boring action movies.",
+        "vi": "Cô ấy thích đọc tạp chí y khoa hơn là xem phim hành động nhàm chán.",
+        "focus": "Luyện âm /r/ và /l/ trong \"prefers\", \"reading\", \"journals\".",
+        "audio": "/audio/study/so_thich-3.mp3"
+      },
+      {
+        "en": "We tried to squeeze in a quick workout last Thursday night.",
+        "vi": "Chúng tôi đã cố gắng tranh thủ tập thể dục một chút vào tối thứ Năm tuần trước.",
+        "focus": "Phát âm chuẩn âm /θ/ trong từ \"Thursday\".",
+        "audio": "/audio/study/so_thich-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "gia_dinh",
+    "title": "Gia đình, bạn bè",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "My oldest son looks just like his grandfather with those big ears.",
+        "vi": "Con trai lớn của tôi trông giống hệt ông nội với đôi tai to đó.",
+        "focus": "Phát âm đuôi 's' trong 'looks' và âm 'th' trong 'with'.",
+        "audio": "/audio/study/gia_dinh-0.mp3"
+      },
+      {
+        "en": "She works long hours but still makes time to play with her kids.",
+        "vi": "Cô ấy làm việc nhiều giờ liền nhưng vẫn dành thời gian chơi với con.",
+        "focus": "Phát âm đúng âm đuôi 's' trong 'works', 'makes' và 'kids'.",
+        "audio": "/audio/study/gia_dinh-1.mp3"
+      },
+      {
+        "en": "Congratulations on the new baby, she is absolutely beautiful and sweet.",
+        "vi": "Chúc mừng gia đình có em bé mới nhé, con bé thực sự rất xinh xắn và đáng yêu.",
+        "focus": "Phát âm rõ âm cuối 's' trong 'congratulations' và 'is'.",
+        "audio": "/audio/study/gia_dinh-2.mp3"
+      },
+      {
+        "en": "They had to cancel the wedding because his father got very sick.",
+        "vi": "Họ đã phải hủy đám cưới vì bố anh ấy bị bệnh nặng.",
+        "focus": "Cụm phụ âm 'cl' trong 'cancel' và âm cuối 't' trong 'got'.",
+        "audio": "/audio/study/gia_dinh-3.mp3"
+      },
+      {
+        "en": "We should grab some drinks this Friday to catch up on life.",
+        "vi": "Chúng ta nên đi uống nước thứ Sáu này để hàn huyên về cuộc sống đi.",
+        "focus": "Phát âm rõ âm đuôi 's' trong 'drinks' và âm 'tch' trong 'catch'.",
+        "audio": "/audio/study/gia_dinh-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "mua_sam",
+    "title": "Mua sắm",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "These shoes are nice, but they feel tight around my toes.",
+        "vi": "Đôi giày này đẹp đấy, nhưng chúng cảm giác hơi chật ở ngón chân tôi.",
+        "focus": "Phát âm rõ âm đuôi /z/ ở từ \"shoes\" và \"toes\".",
+        "audio": "/audio/study/mua_sam-0.mp3"
+      },
+      {
+        "en": "The staff helped me find the straight-leg jeans.",
+        "vi": "Nhân viên đã giúp tôi tìm chiếc quần jean ống đứng.",
+        "focus": "Phát âm chuẩn cụm phụ âm /str/ trong từ \"straight\".",
+        "audio": "/audio/study/mua_sam-1.mp3"
+      },
+      {
+        "en": "I returned the damaged package and asked for a refund.",
+        "vi": "Tôi đã trả lại gói hàng bị hỏng và yêu cầu hoàn tiền.",
+        "focus": "Bật rõ âm đuôi /d/ trong \"returned\" và /t/ trong \"asked\".",
+        "audio": "/audio/study/mua_sam-2.mp3"
+      },
+      {
+        "en": "This leather jacket is thicker than the other one.",
+        "vi": "Chiếc áo khoác da này dày hơn chiếc áo khoác kia.",
+        "focus": "Phân biệt rõ âm /ð/ trong \"leather\" và /θ/ trong \"thicker\".",
+        "audio": "/audio/study/mua_sam-3.mp3"
+      },
+      {
+        "en": "Please deliver the fresh milk and red apples tomorrow.",
+        "vi": "Làm ơn giao sữa tươi và táo đỏ vào ngày mai nhé.",
+        "focus": "Luyện phát âm chuẩn âm /r/ và /l/ tránh bị lẫn lộn.",
+        "audio": "/audio/study/mua_sam-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "di_lai",
+    "title": "Đi lại",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The dermatologist rushed through the rain to catch the last train.",
+        "vi": "Bác sĩ da liễu đã vội vã đi trong mưa để kịp chuyến tàu cuối cùng.",
+        "focus": "Phát âm rõ âm /ʃ/ trong rushed và /θ/ trong through",
+        "audio": "/audio/study/di_lai-0.mp3"
+      },
+      {
+        "en": "Please park your motorbike near the street and lock the wheels.",
+        "vi": "Vui lòng đỗ xe máy của bạn gần đường và khóa bánh xe lại.",
+        "focus": "Chú ý âm đuôi /k/ trong park, lock và /z/ trong wheels",
+        "audio": "/audio/study/di_lai-1.mp3"
+      },
+      {
+        "en": "He got three flat tires while driving to the rural farm.",
+        "vi": "Anh ấy bị xẹp ba bánh xe khi đang lái xe đến trang trại ở nông thôn.",
+        "focus": "Phát âm rõ /θ/ trong three và âm /r/ trong rural",
+        "audio": "/audio/study/di_lai-2.mp3"
+      },
+      {
+        "en": "She asks for directions because she missed the airport bus.",
+        "vi": "Cô ấy hỏi đường vì cô ấy đã bỏ lỡ chuyến xe buýt ra sân bay.",
+        "focus": "Cụm phụ âm /sks/ trong asks và đuôi /t/ trong missed",
+        "audio": "/audio/study/di_lai-3.mp3"
+      },
+      {
+        "en": "The taxi driver took a short cut through the crowded streets.",
+        "vi": "Tài xế taxi đã đi đường tắt qua những con phố đông đúc.",
+        "focus": "Phát âm đúng âm /ð/ trong the và cụm /str/ trong streets",
+        "audio": "/audio/study/di_lai-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "suc_khoe",
+    "title": "Sức khoẻ",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "She has a splitting headache and needs to rest.",
+        "vi": "Cô ấy bị đau đầu như búa bổ và cần được nghỉ ngơi.",
+        "focus": "Phát âm cụm /spl/ trong từ \"splitting\" và âm /s/ cuối.",
+        "audio": "/audio/study/suc_khoe-0.mp3"
+      },
+      {
+        "en": "I called in sick because my throat was extremely sore.",
+        "vi": "Tôi xin nghỉ ốm vì họng tôi bị đau rát kinh khủng.",
+        "focus": "Bật rõ âm đuôi /d/ ở \"called\" và âm /θ/ trong \"throat\".",
+        "audio": "/audio/study/suc_khoe-1.mp3"
+      },
+      {
+        "en": "The pharmacist explained the side effects of these pills.",
+        "vi": "Dược sĩ đã giải thích các tác dụng phụ của những viên thuốc này.",
+        "focus": "Phát âm đuôi /st/ ở \"pharmacist\" và âm /z/ ở \"pills\".",
+        "audio": "/audio/study/suc_khoe-2.mp3"
+      },
+      {
+        "en": "He stretches every morning to reduce his stress levels.",
+        "vi": "Anh ấy giãn cơ mỗi sáng để giảm bớt mức độ căng thẳng.",
+        "focus": "Phát âm đuôi /es/ của \"stretches\" và cụm /str/ trong \"stress\".",
+        "audio": "/audio/study/suc_khoe-3.mp3"
+      },
+      {
+        "en": "I slept badly last night and feel completely exhausted.",
+        "vi": "Đêm qua tôi ngủ không ngon và giờ cảm thấy hoàn toàn kiệt sức.",
+        "focus": "Phát âm đuôi /pt/ ở \"slept\" và đuôi /st/ ở \"exhausted\".",
+        "audio": "/audio/study/suc_khoe-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "thoi_tiet",
+    "title": "Thời tiết",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The strong storm ruined our street food plans last Thursday.",
+        "vi": "Cơn bão mạnh đã làm hỏng kế hoạch ăn đồ ăn đường phố của chúng tôi vào thứ Năm tuần trước.",
+        "focus": "Phát âm rõ âm đuôi /t/ trong \"street\" và âm /st/ trong \"storm\".",
+        "audio": "/audio/study/thoi_tiet-0.mp3"
+      },
+      {
+        "en": "My skin gets extremely itchy in this hot, humid weather.",
+        "vi": "Da của tôi bị ngứa cực kỳ trong thời tiết nóng và ẩm ướt này.",
+        "focus": "Phát âm rõ âm cuối /s/ trong \"gets\" và âm /ð/ trong \"weather\".",
+        "audio": "/audio/study/thoi_tiet-1.mp3"
+      },
+      {
+        "en": "Please wear breathable clothes because the heat is just brutal today.",
+        "vi": "Làm ơn mặc quần áo thoáng mát vì hôm nay trời nóng rất tàn nhẫn.",
+        "focus": "Phát âm đúng âm /ð/ trong \"breathable\" và âm đuôi /z/ của \"clothes\".",
+        "audio": "/audio/study/thoi_tiet-2.mp3"
+      },
+      {
+        "en": "Suddenly, massive dark clouds blocked the sun and it started pouring.",
+        "vi": "Đột nhiên, những đám mây đen khổng lồ che khuất mặt trời và trời bắt đầu mưa xối xả.",
+        "focus": "Bật rõ âm đuôi /t/ của \"started\" và /t/ của \"blocked\".",
+        "audio": "/audio/study/thoi_tiet-3.mp3"
+      },
+      {
+        "en": "He slipped on the wet street and split his pants.",
+        "vi": "Anh ấy đã trượt chân trên con đường ướt và bị rách quần.",
+        "focus": "Phân biệt rõ âm /sl/ trong \"slipped\" và /spl/ trong \"split\".",
+        "audio": "/audio/study/thoi_tiet-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "nha_cua",
+    "title": "Nhà cửa",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The landlord refused to fix the clogged kitchen sink.",
+        "vi": "Chủ nhà đã từ chối sửa cái bồn rửa bát bị tắc.",
+        "focus": "Phát âm đuôi -d trong refused, clogged và âm k cuối sink",
+        "audio": "/audio/study/nha_cua-0.mp3"
+      },
+      {
+        "en": "These three electricity bills are much higher than last month's.",
+        "vi": "Ba hóa đơn tiền điện này cao hơn nhiều so với tháng trước.",
+        "focus": "Phát âm âm /θ/ trong three và âm xì cuối month's",
+        "audio": "/audio/study/nha_cua-1.mp3"
+      },
+      {
+        "en": "She scrubbed the dirty floor until her arms felt completely sore.",
+        "vi": "Cô ấy đã cọ sạch sàn nhà bẩn cho đến khi hai tay mỏi nhừ.",
+        "focus": "Phát âm cụm /skr/ trong scrubbed và âm /l/ trong feel",
+        "audio": "/audio/study/nha_cua-2.mp3"
+      },
+      {
+        "en": "My neighbors always play extremely loud music on Thursday nights.",
+        "vi": "Hàng xóm của tôi luôn mở nhạc cực kỳ to vào các tối thứ Năm.",
+        "focus": "Phát âm âm /z/ của neighbors và /θ/ trong Thursday",
+        "audio": "/audio/study/nha_cua-3.mp3"
+      },
+      {
+        "en": "We need to sign the lease before the moving truck arrives.",
+        "vi": "Chúng ta cần ký hợp đồng thuê trước khi xe tải chuyển nhà đến.",
+        "focus": "Phát âm âm đuôi /s/ của lease và /z/ của arrives",
+        "audio": "/audio/study/nha_cua-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "cong_viec",
+    "title": "Công việc thường ngày",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "She works six days a week and feels dead tired every night.",
+        "vi": "Cô ấy làm việc sáu ngày một tuần và cảm thấy mệt rã rời mỗi tối.",
+        "focus": "Phát âm đúng đuôi s trong works, days và âm cuối trong night.",
+        "audio": "/audio/study/cong_viec-0.mp3"
+      },
+      {
+        "en": "The skin clinic was swamped with patients after the long holiday.",
+        "vi": "Phòng khám da liễu đông nghịt bệnh nhân sau kỳ nghỉ dài.",
+        "focus": "Phát âm đuôi -ed trong swamped thành âm /t/ rõ ràng.",
+        "audio": "/audio/study/cong_viec-1.mp3"
+      },
+      {
+        "en": "Can you cover my shift on Friday so I can rest?",
+        "vi": "Bạn có thể trực thay ca của tôi vào thứ Sáu để tôi nghỉ ngơi không?",
+        "focus": "Phát âm rõ cụm phụ âm /st/ trong từ rest.",
+        "audio": "/audio/study/cong_viec-2.mp3"
+      },
+      {
+        "en": "He had to call in sick because of a terrible sore throat.",
+        "vi": "Anh ấy đã phải gọi điện xin nghỉ ốm vì bị đau họng kinh khủng.",
+        "focus": "Phát âm đúng âm /θ/ trong từ throat.",
+        "audio": "/audio/study/cong_viec-3.mp3"
+      },
+      {
+        "en": "I need to catch up on paperwork before the next shipment arrives.",
+        "vi": "Tôi cần giải quyết nốt đống giấy tờ trước khi lô hàng tiếp theo tới.",
+        "focus": "Phát âm đúng âm cuối /t/ trong shipment.",
+        "audio": "/audio/study/cong_viec-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "cuoi_tuan",
+    "title": "Cuối tuần, du lịch",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "She packs three shirts and two swimsuits for the weekend beach trip.",
+        "vi": "Cô ấy xếp ba chiếc áo sơ mi và hai bộ đồ bơi cho chuyến đi biển cuối tuần.",
+        "focus": "Phát âm rõ âm cuối s/z ở từ \"packs\", \"shirts\", \"swimsuits\".",
+        "audio": "/audio/study/cuoi_tuan-0.mp3"
+      },
+      {
+        "en": "The street was crowded with tourists taking photos of the old bridge.",
+        "vi": "Con đường đông nghịt khách du lịch đang chụp ảnh cây cầu cổ.",
+        "focus": "Nhấn rõ âm đuôi /t/ trong \"street\" và âm /st/ trong \"tourists\".",
+        "audio": "/audio/study/cuoi_tuan-1.mp3"
+      },
+      {
+        "en": "We missed the flight because we stayed at the hotel bar too late.",
+        "vi": "Chúng tôi lỡ chuyến bay vì ở lại quầy bar khách sạn quá muộn.",
+        "focus": "Phát âm rõ âm đuôi /t/ ở \"flight\" và /st/ ở \"missed\".",
+        "audio": "/audio/study/cuoi_tuan-2.mp3"
+      },
+      {
+        "en": "This mountain resort has the most spectacular views in the whole province.",
+        "vi": "Khu nghỉ dưỡng trên núi này có những tầm nhìn ngoạn mục nhất trong cả tỉnh.",
+        "focus": "Bật rõ âm đuôi /ts/ trong \"resorts\" và âm đuôi /z/ trong \"views\".",
+        "audio": "/audio/study/cuoi_tuan-3.mp3"
+      },
+      {
+        "en": "Please ask the receptionist if they have any spare blankets left.",
+        "vi": "Làm ơn hỏi lễ tân xem họ còn chiếc chăn dự phòng nào không.",
+        "focus": "Phát âm rõ cụm phụ âm /sk/ trong \"ask\" và âm /t/ trong \"blankets\".",
+        "audio": "/audio/study/cuoi_tuan-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dien_thoai",
+    "title": "Điện thoại, internet",
+    "category": "everyday",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The speaker asked me to start screen sharing during the live presentation.",
+        "vi": "Diễn giả đã yêu cầu tôi bắt đầu chia sẻ màn hình trong buổi thuyết trình trực tiếp.",
+        "focus": "Phát âm rõ âm đuôi /s/ trong 'speaker' và 'presentation'",
+        "audio": "/audio/study/dien_thoai-0.mp3"
+      },
+      {
+        "en": "She scrolls through social media to check for new skincare trends.",
+        "vi": "Cô ấy lướt mạng xã hội để kiểm tra các xu hướng chăm sóc da mới.",
+        "focus": "Chú ý phát âm đúng âm cuối /z/ trong 'scrolls' và 'trends'",
+        "audio": "/audio/study/dien_thoai-1.mp3"
+      },
+      {
+        "en": "This smart app tracks the health of the dogs on the farm.",
+        "vi": "Ứng dụng thông minh này theo dõi sức khỏe của những con chó trong trang trại.",
+        "focus": "Cố gắng phát âm cụm phụ âm /tr/ trong 'tracks'",
+        "audio": "/audio/study/dien_thoai-2.mp3"
+      },
+      {
+        "en": "I scanned the code but the online payment still did not work.",
+        "vi": "Tôi đã quét mã nhưng thanh toán trực tuyến vẫn không hoạt động.",
+        "focus": "Bật rõ âm cuối đuôi -ed /nd/ trong 'scanned'",
+        "audio": "/audio/study/dien_thoai-3.mp3"
+      },
+      {
+        "en": "Please check if your phone is connected to the conference Wi-Fi.",
+        "vi": "Vui lòng kiểm tra xem điện thoại của bạn có kết nối với Wi-Fi của hội nghị không.",
+        "focus": "Phát âm rõ âm cuối đuôi -ed /t/ trong 'connected'",
+        "audio": "/audio/study/dien_thoai-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "thu_y_kham",
+    "title": "Thú y — khám & tư vấn chủ nuôi",
+    "category": "vet",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The small dog scratched its ears and refused to eat its food.",
+        "vi": "Chú chó nhỏ gãi tai và từ chối ăn thức ăn của mình.",
+        "focus": "Phát âm đuôi âm /t/ trong scratched và đuôi /s/ trong ears.",
+        "audio": "/audio/study/thu_y_kham-0.mp3"
+      },
+      {
+        "en": "His stool was very runny and had a strong, bad smell.",
+        "vi": "Phân của nó rất lỏng và có mùi rất hôi.",
+        "focus": "Phát âm rõ âm cuối /l/ trong stool và âm /st/ trong strong.",
+        "audio": "/audio/study/thu_y_kham-1.mp3"
+      },
+      {
+        "en": "She seems lethargic and just sleeps on the cold kitchen floor.",
+        "vi": "Nó trông có vẻ lờ đờ và chỉ nằm ngủ trên sàn bếp lạnh.",
+        "focus": "Phát âm đúng âm /θ/ trong lethargic và đuôi /ps/ trong sleeps.",
+        "audio": "/audio/study/thu_y_kham-2.mp3"
+      },
+      {
+        "en": "Please check if your puppy throws up after drinking water.",
+        "vi": "Vui lòng kiểm tra xem cún con của bạn có bị nôn sau khi uống nước không.",
+        "focus": "Phát âm rõ cụm phụ âm /pl/ trong please và /θr/ trong throws.",
+        "audio": "/audio/study/thu_y_kham-3.mp3"
+      },
+      {
+        "en": "I need to feel his stomach to see if it is tender.",
+        "vi": "Tôi cần sờ bụng của nó để xem nó có bị đau hay không.",
+        "focus": "Phát âm đúng âm /st/ và đuôi /k/ trong stomach.",
+        "audio": "/audio/study/thu_y_kham-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "thu_y_dieu_tri",
+    "title": "Thú y — bệnh lý & điều trị",
+    "category": "vet",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The vet explained the risks of the surgery to the stressed owner.",
+        "vi": "Bác sĩ thú y đã giải thích các rủi ro của ca phẫu thuật cho người chủ đang lo lắng.",
+        "focus": "Phát âm rõ đuôi -ed trong 'explained' và âm cuối trong 'risks'",
+        "audio": "/audio/study/thu_y_dieu_tri-0.mp3"
+      },
+      {
+        "en": "Puppies need three booster shots to build strong immunity against diseases.",
+        "vi": "Chó con cần ba mũi tiêm nhắc lại để xây dựng khả năng miễn dịch mạnh mẽ chống lại bệnh tật.",
+        "focus": "Phát âm rõ đuôi số nhiều -s trong 'Puppies', 'shots', và 'diseases'",
+        "audio": "/audio/study/thu_y_dieu_tri-1.mp3"
+      },
+      {
+        "en": "We must check his heart before putting him under anesthesia today.",
+        "vi": "Chúng ta phải kiểm tra tim của nó trước khi cho nó gây mê hôm nay.",
+        "focus": "Chú ý âm /θ/ trong từ 'anesthesia'",
+        "audio": "/audio/study/thu_y_dieu_tri-2.mp3"
+      },
+      {
+        "en": "This specific dosage is safe for small cats but not dogs.",
+        "vi": "Liều lượng cụ thể này thì an toàn cho mèo nhỏ chứ không phải chó.",
+        "focus": "Phát âm rõ âm cuối /dʒ/ trong từ 'dosage'",
+        "audio": "/audio/study/thu_y_dieu_tri-3.mp3"
+      },
+      {
+        "en": "Please keep the stitches dry until the next follow-up visit.",
+        "vi": "Vui lòng giữ cho các vết khâu khô ráo cho đến buổi tái khám tiếp theo.",
+        "focus": "Cụm phụ âm /str/ trong 'stitches' và đuôi -s",
+        "audio": "/audio/study/thu_y_dieu_tri-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "b2b_doi_tac",
+    "title": "B2B — đối tác xuyên quốc gia",
+    "category": "b2b",
+    "level": "B1",
+    "items": [
+      {
+        "en": "We spoke at the trade show about your veterinary products.",
+        "vi": "Chúng ta đã nói chuyện tại hội chợ thương mại về các sản phẩm thú y của anh.",
+        "focus": "Phát âm rõ âm cuối /t/ trong 'spoke' và 'about'.",
+        "audio": "/audio/study/b2b_doi_tac-0.mp3"
+      },
+      {
+        "en": "Our standard lead time is exactly six weeks for this item.",
+        "vi": "Thời gian chuẩn bị hàng tiêu chuẩn của chúng tôi chính xác là sáu tuần cho mặt hàng này.",
+        "focus": "Phát âm rõ âm đuôi /ks/ trong 'six' và 'weeks'.",
+        "audio": "/audio/study/b2b_doi_tac-1.mp3"
+      },
+      {
+        "en": "The distributor wants exclusivity for the entire northern region.",
+        "vi": "Nhà phân phối muốn độc quyền cho toàn bộ khu vực phía bắc.",
+        "focus": "Phát âm chuẩn từ 'exclusivity' /ˌek.skluːˈsɪv.ə.t̬i/.",
+        "audio": "/audio/study/b2b_doi_tac-2.mp3"
+      },
+      {
+        "en": "Let's discuss the unit price and the minimum order quantity.",
+        "vi": "Hãy cùng thảo luận về đơn giá và số lượng đặt hàng tối thiểu.",
+        "focus": "Phát âm đúng âm /s/ trong 'discuss' và 'price'.",
+        "audio": "/audio/study/b2b_doi_tac-3.mp3"
+      },
+      {
+        "en": "I will send you the formal quote and shipping terms tonight.",
+        "vi": "Tôi sẽ gửi cho bạn báo giá chính thức và các điều khoản giao hàng tối nay.",
+        "focus": "Chú ý âm cuối /ts/ trong 'terms' và /t/ trong 'night'.",
+        "audio": "/audio/study/b2b_doi_tac-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "b2b_xnk",
+    "title": "B2B — xuất nhập khẩu, thanh toán",
+    "category": "b2b",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The shipping lines constantly raise their rates during the peak holiday season.",
+        "vi": "Các hãng tàu liên tục tăng giá cước trong mùa lễ cao điểm.",
+        "focus": "Phát âm đuôi số nhiều /z/ trong từ \"lines\" và \"rates\".",
+        "audio": "/audio/study/b2b_xnk-0.mp3"
+      },
+      {
+        "en": "Please send the health certificate and the packing list as soon as possible.",
+        "vi": "Vui lòng gửi giấy chứng nhận kiểm dịch và phiếu đóng gói càng sớm càng tốt.",
+        "focus": "Phát âm rõ âm cuối /t/ trong \"certificate\" và \"list\".",
+        "audio": "/audio/study/b2b_xnk-1.mp3"
+      },
+      {
+        "en": "The customs officers refused to clear the shipment of medical supplies yesterday.",
+        "vi": "Các nhân viên hải quan đã từ chối thông quan lô hàng thiết bị y tế vào ngày hôm qua.",
+        "focus": "Phát âm đuôi /-d/ của động từ quá khứ \"refused\".",
+        "audio": "/audio/study/b2b_xnk-2.mp3"
+      },
+      {
+        "en": "We strictly require a signed and stamped certificate of origin for this batch.",
+        "vi": "Chúng tôi yêu cầu nghiêm ngặt giấy chứng nhận xuất xứ có ký tên và đóng dấu cho lô hàng này.",
+        "focus": "Phát âm cụm phụ âm /str/ trong từ \"strictly\".",
+        "audio": "/audio/study/b2b_xnk-3.mp3"
+      },
+      {
+        "en": "Three damaged containers were left at the crowded port of discharge.",
+        "vi": "Ba container bị hư hỏng đã bị bỏ lại tại cảng dỡ hàng đông đúc.",
+        "focus": "Phát âm âm /θ/ trong \"three\" và âm cuối /t/ trong \"left\".",
+        "audio": "/audio/study/b2b_xnk-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "da_lieu_kham",
+    "title": "Da liễu — khám bệnh nhân quốc tế",
+    "category": "derm",
+    "level": "B1",
+    "items": [
+      {
+        "en": "The red spots spread quickly across his chest and both shoulders.",
+        "vi": "Các nốt đỏ lan nhanh khắp ngực và cả hai bên vai của anh ấy.",
+        "focus": "Chú ý phát âm đuôi s trong 'spots', 'spreads', 'across', 'shoulders'",
+        "audio": "/audio/study/da_lieu_kham-0.mp3"
+      },
+      {
+        "en": "Does this thick ointment make your skin feel itchy or smooth?",
+        "vi": "Loại thuốc mỡ đặc này có làm da bạn cảm thấy ngứa hay mịn màng?",
+        "focus": "Phát âm chuẩn âm /θ/ trong 'thick' và 'smooth'",
+        "audio": "/audio/study/da_lieu_kham-1.mp3"
+      },
+      {
+        "en": "She scratched the dry patches until they started to bleed.",
+        "vi": "Cô ấy đã gãi những mảng da khô cho đến khi chúng bắt đầu chảy máu.",
+        "focus": "Bật rõ âm đuôi '-ed' phát âm là /t/ trong 'scratched'",
+        "audio": "/audio/study/da_lieu_kham-2.mp3"
+      },
+      {
+        "en": "We must test this specific cream on a small spot first.",
+        "vi": "Chúng ta phải thử loại kem cụ thể này trên một vùng nhỏ trước.",
+        "focus": "Phát âm rõ cụm phụ âm 'st' trong 'must', 'test', 'first'",
+        "audio": "/audio/study/da_lieu_kham-3.mp3"
+      },
+      {
+        "en": "The specialist prescribed a mild steroid for the swelling on her wrist.",
+        "vi": "Bác sĩ chuyên khoa đã kê một loại steroid nhẹ cho vết sưng trên cổ tay cô ấy.",
+        "focus": "Phát âm đúng cụm phụ âm 'str' trong 'steroid' và 'wrist'",
+        "audio": "/audio/study/da_lieu_kham-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "da_lieu_phac_do",
+    "title": "Da liễu — phác đồ & thuốc",
+    "category": "derm",
+    "level": "B1",
+    "items": [
+      {
+        "en": "First, wash your face with a mild cleanser and pat it dry.",
+        "vi": "Đầu tiên, rửa mặt bằng sữa rửa mặt dịu nhẹ và thấm khô.",
+        "focus": "Phát âm rõ âm cuối /st/ trong First và /st/ trong cleanser.",
+        "audio": "/audio/study/da_lieu_phac_do-0.mp3"
+      },
+      {
+        "en": "Apply a pea-sized amount of this topical cream every other night.",
+        "vi": "Bôi một lượng bằng hạt đậu kem bôi này cách đêm một lần.",
+        "focus": "Luyện âm /pt/ trong applied và âm /z/ trong pea-sized.",
+        "audio": "/audio/study/da_lieu_phac_do-1.mp3"
+      },
+      {
+        "en": "This oral medication might cause some dryness on your lips.",
+        "vi": "Thuốc uống này có thể gây ra một chút khô môi.",
+        "focus": "Chú ý âm cuối /s/ trong lips và phát âm đúng /ð/ trong This.",
+        "audio": "/audio/study/da_lieu_phac_do-2.mp3"
+      },
+      {
+        "en": "You must wear sunscreen daily because your skin will be very sensitive.",
+        "vi": "Bạn phải bôi kem chống nắng hàng ngày vì da bạn sẽ rất nhạy cảm.",
+        "focus": "Phát âm rõ âm /s/ trong sunscreen và /v/ trong sensitive.",
+        "audio": "/audio/study/da_lieu_phac_do-3.mp3"
+      },
+      {
+        "en": "If the redness spreads or gets worse, please stop the treatment.",
+        "vi": "Nếu vết đỏ lan rộng hoặc tệ hơn, xin vui lòng ngừng điều trị.",
+        "focus": "Bật rõ âm đuôi /ts/ trong gets và /z/ trong spreads.",
+        "audio": "/audio/study/da_lieu_phac_do-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "da_lieu_thuyet_trinh",
+    "title": "Da liễu — thuyết trình ca lâm sàng",
+    "category": "derm",
+    "level": "B1",
+    "items": [
+      {
+        "en": "Please take a close look at the red spots on this slide.",
+        "vi": "Xin vui lòng nhìn kỹ vào các nốt đỏ trên slide này.",
+        "focus": "Phát âm đuôi /s/ trong spots và slide bắt đầu bằng /sl/.",
+        "audio": "/audio/study/da_lieu_thuyet_trinh-0.mp3"
+      },
+      {
+        "en": "The patient first noticed the itchy skin three weeks ago.",
+        "vi": "Bệnh nhân lần đầu tiên nhận thấy da bị ngứa ba tuần trước.",
+        "focus": "Phát âm rõ âm /st/ trong first và âm /θ/ trong three.",
+        "audio": "/audio/study/da_lieu_thuyet_trinh-1.mp3"
+      },
+      {
+        "en": "We did a quick biopsy to rule out other diseases.",
+        "vi": "Chúng tôi đã làm sinh thiết nhanh để loại trừ các bệnh khác.",
+        "focus": "Chú ý âm cuối /ks/ trong quick và /z/ trong diseases.",
+        "audio": "/audio/study/da_lieu_thuyet_trinh-2.mp3"
+      },
+      {
+        "en": "She applied the strong cream and the rash cleared up.",
+        "vi": "Cô ấy đã bôi loại kem mạnh và vết phát ban đã biến mất.",
+        "focus": "Bật rõ cụm phụ âm /str/ trong strong và đuôi /d/ trong cleared.",
+        "audio": "/audio/study/da_lieu_thuyet_trinh-3.mp3"
+      },
+      {
+        "en": "Let's discuss the differential diagnosis for this specific case.",
+        "vi": "Hãy cùng thảo luận về chẩn đoán phân biệt cho trường hợp cụ thể này.",
+        "focus": "Chú ý âm /s/ trong discuss và cụm /sp/ trong specific.",
+        "audio": "/audio/study/da_lieu_thuyet_trinh-4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "duoc_doi_tac",
+    "title": "Làm việc với hãng dược",
+    "category": "derm",
+    "level": "B1",
+    "items": [
+      {
+        "en": "Could you send over the clinical trial data by tomorrow?",
+        "vi": "Bạn có thể gửi dữ liệu thử nghiệm lâm sàng qua trước ngày mai không?",
+        "focus": "Phát âm chuẩn âm cuối trong từ clinical và trial.",
+        "audio": "/audio/study/duoc_doi_tac-0.mp3"
+      },
+      {
+        "en": "What is the exact active ingredient in this formulation?",
+        "vi": "Hoạt chất chính xác trong công thức này là gì?",
+        "focus": "Nhấn trọng âm đúng vào từ active và ingredient.",
+        "audio": "/audio/study/duoc_doi_tac-1.mp3"
+      },
+      {
+        "en": "We need to check the storage conditions very carefully.",
+        "vi": "Chúng ta cần kiểm tra điều kiện bảo quản thật cẩn thận.",
+        "focus": "Luyện cụm phụ âm st trong storage và store.",
+        "audio": "/audio/study/duoc_doi_tac-2.mp3"
+      },
+      {
+        "en": "Do you offer any bulk discounts for large orders?",
+        "vi": "Bạn có chiết khấu số lượng lớn cho các đơn hàng lớn không?",
+        "focus": "Phát âm rõ âm s và z trong các từ discounts và orders.",
+        "audio": "/audio/study/duoc_doi_tac-3.mp3"
+      },
+      {
+        "en": "The lead time for international shipping is three weeks.",
+        "vi": "Thời gian giao hàng quốc tế là ba tuần.",
+        "focus": "Phát âm chính xác âm th trong three và weeks.",
+        "audio": "/audio/study/duoc_doi_tac-4.mp3"
+      }
+    ]
+  }
+]

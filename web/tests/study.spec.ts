@@ -11,6 +11,15 @@ test('answer normalization preserves words and recall uses confidence',()=>{
   const second=scheduleRecall(first,true,0);expect(second.interval).toBe(2);
   expect(scheduleRecall(second,false,0).due).toBe(600000);
 });
+test('slow JavaScript cannot swallow the first start action',async({page})=>{
+  let release!:()=>void;
+  const held=new Promise<void>(resolve=>{release=resolve;});
+  await page.route('**/_assets/StudyApp*.js',async route=>{await held;await route.continue();});
+  await page.goto('/',{waitUntil:'domcontentloaded'});
+  const start=page.getByRole('button',{name:'Bắt đầu 5 phút'});
+  await expect(start).toBeDisabled();release();await expect(start).toBeEnabled();await start.click();
+  await expect(page.getByRole('button',{name:'Phát câu mẫu',exact:true})).toBeVisible();
+});
 test('130 audio files and all public content are available',async({request})=>{
   expect(lessons).toHaveLength(26);expect(lessons.filter(l=>l.category==='electrical')).toHaveLength(6);
   for(const l of lessons)for(const i of l.items){const r=await request.get(i.audio!);expect(r.ok(),i.audio).toBeTruthy();expect(r.headers()['content-type']).toContain('audio/');expect((await r.body()).length).toBeGreaterThan(500);}
