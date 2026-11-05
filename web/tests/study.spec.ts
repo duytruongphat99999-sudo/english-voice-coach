@@ -62,7 +62,8 @@ test('reading explains a wrong answer and highlights the right one',async({page}
   await expect(page.getByRole('status')).toContainText('Chưa đúng');await expect(page.locator('.read-options .correct')).toHaveText(lessons[0].items[0].vi);
   await page.getByRole('button',{name:'Câu tiếp theo'}).click();await expect(page.locator('.english-sentence')).toHaveText(lessons[0].items[1].en);
 });
-test('speaking records locally and releases the microphone',async({page,context})=>{
+test('speaking records locally and releases the microphone',async({page,context,browserName})=>{
+  test.skip(browserName==='webkit','Chromium fake microphone flags do not apply to WebKit; physical-device recording requires a real microphone.');
   await context.grantPermissions(['microphone']);await page.goto('/?view=lesson&id=electrical-basics&mode=speak');
   await page.getByRole('button',{name:'Thu âm câu của bạn'}).click();await expect(page.getByRole('button',{name:/Dừng thu/})).toBeVisible();
   await page.waitForTimeout(600);await page.getByRole('button',{name:/Dừng thu/}).click();

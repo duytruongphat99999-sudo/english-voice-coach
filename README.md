@@ -58,7 +58,7 @@ Cloudflare tunnel tùy chọn dùng `docker-compose.cloudflared.yml`. Public hos
 cd web
 npm run build
 npm run check
-npx playwright install chromium
+npx playwright install chromium webkit
 npm test
 npm audit --omit=dev
 # Windows local mặc định dùng Chrome đã cài; CI dùng Chromium.
@@ -72,7 +72,7 @@ npm test
 npm audit --omit=dev
 ```
 
-GitHub Actions kiểm tra build, kiểu dữ liệu, 4 kích thước màn hình, nghe/nói/đọc/viết, ghi tiến độ, cache offline, audio range và ranh giới dữ liệu cá nhân. Giả lập trình duyệt không thay thế kiểm tra iPhone/Android thật, bàn phím, quyền mic và cài PWA.
+GitHub Actions kiểm tra Chromium và WebKit, build, kiểu dữ liệu, 4 kích thước màn hình, nghe/nói/đọc/viết, ghi tiến độ, cache offline, audio range và ranh giới dữ liệu cá nhân. Giả lập trình duyệt không thay thế kiểm tra iPhone/Android thật, bàn phím, quyền mic và cài PWA.
 
 ## Nội dung và âm thanh
 
