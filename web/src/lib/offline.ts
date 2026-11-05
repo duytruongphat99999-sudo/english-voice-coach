@@ -8,14 +8,26 @@ export async function downloadAudio(urls: string[], onProgress: (done:number,tot
   if (!('caches' in window) || !('serviceWorker' in navigator)) throw new Error('Cần HTTPS và trình duyệt hỗ trợ lưu offline.');
   await Promise.race([navigator.serviceWorker.ready, new Promise((_, reject)=>setTimeout(()=>reject(new Error('Chưa sẵn sàng offline. Tải lại trang rồi thử lại.')),15000))]);
   const cache = await caches.open(AUDIO_CACHE);
-  for (let i=0;i<urls.length;i++) {
-    signal.throwIfAborted();
-    if (!await cache.match(urls[i])) {
-      const res = await fetch(urls[i],{signal});
-      if (!res.ok || !res.headers.get('Content-Type')?.startsWith('audio/')) throw new Error('Không tải được âm thanh. Kiểm tra mạng rồi thử lại.');
-      await cache.put(urls[i],res);
+  const batch = new AbortController();
+  const cancel=()=>batch.abort(signal.reason);
+  signal.addEventListener('abort',cancel,{once:true});
+  let cursor=0,done=0;
+  const worker=async()=>{
+    while(cursor<urls.length){
+      signal.throwIfAborted();batch.signal.throwIfAborted();
+      const url=urls[cursor++];
+      if(!await cache.match(url)){
+        const res=await fetch(url,{signal:batch.signal});
+        if(!res.ok||!res.headers.get('Content-Type')?.startsWith('audio/'))throw new Error('Không tải được âm thanh. Kiểm tra mạng rồi thử lại.');
+        await cache.put(url,res);
+      }
+      onProgress(++done,urls.length);
     }
-    onProgress(i+1,urls.length);
-  }
+  };
+  // Static MP3s need no synthesis. Four bounded downloads avoid 130 mobile RTTs.
+  const workers=Array.from({length:Math.min(4,urls.length)},worker);
+  try{await Promise.all(workers);}
+  catch(e){batch.abort();await Promise.allSettled(workers);throw e;}
+  finally{signal.removeEventListener('abort',cancel);}
   try { await navigator.storage?.persist?.(); } catch { /* Optional */ }
 }
