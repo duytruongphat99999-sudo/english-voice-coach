@@ -19,7 +19,14 @@ writeFileSync(resolve(dir,'sw.js'),`
 const SHELL='evc-study-shell-${hash}';
 const AUDIO='evc-study-audio-v1';
 const CORE=${JSON.stringify(core)};
-self.addEventListener('install',event=>event.waitUntil(caches.open(SHELL).then(c=>c.addAll(CORE))));
+self.addEventListener('install',event=>event.waitUntil((async()=>{
+  const cache=await caches.open(SHELL);
+  await cache.addAll(CORE.filter(url=>url!=='/'));
+  // Use the explicit, versioned document rather than a CDN-cached homepage.
+  const page=await fetch('/index.html?evc-build=${hash}',{cache:'reload'});
+  if(!page.ok||!page.headers.get('Content-Type')?.includes('text/html'))throw new Error('Offline document unavailable');
+  await cache.put('/',page);
+})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
   const keys=await caches.keys();
   await Promise.all(keys.filter(k=>k.startsWith('evc-study-shell-')&&k!==SHELL).map(k=>caches.delete(k)));
@@ -32,7 +39,7 @@ self.addEventListener('fetch',event=>{
   if(url.pathname==='/'||url.pathname==='/index.html'){
     event.respondWith((async()=>{
       try{const res=await fetch(req);if(res.ok&&!res.redirected)return res;}catch{}
-      return (await caches.open(SHELL)).match('/')||Response.error();
+      return (await (await caches.open(SHELL)).match('/'))||Response.error();
     })());return;
   }
   if(url.pathname.startsWith('/audio/study/')){
