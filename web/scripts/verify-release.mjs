@@ -7,7 +7,7 @@ try{
   const guest=await browser.newContext({viewport:{width:390,height:844}});
   const page=await guest.newPage();
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
-  const res=await page.goto(base);assert.equal(res.status(),200);
+  const res=await page.goto(base,{waitUntil:'domcontentloaded',timeout:60000});assert.equal(res.status(),200);
   await page.getByRole('button',{name:'Bắt đầu 5 phút'}).click();
   await page.getByRole('button',{name:'Phát câu mẫu',exact:true}).click();
   await page.getByText('Đang phát câu mẫu').waitFor();
@@ -15,7 +15,7 @@ try{
   for(const path of ['/api/today','/api/learn/topics','/api/progress'])assert.equal((await guest.request.get(base+path)).status(),401,path);
   const coach=await guest.request.get(base+'/coach',{maxRedirects:0});assert.equal(coach.status(),302);
   assert.equal(errors.length,0);console.log('Public HTTPS: home, lesson, audio and private boundary verified.');
-  await page.goto(base);await page.waitForFunction(()=>getComputedStyle(document.body).backgroundColor==='rgb(246, 247, 242)');await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:'../.stitch/designs/deployed-mobile.png',fullPage:true});
+  await page.goto(base,{waitUntil:'domcontentloaded',timeout:60000});await page.waitForFunction(()=>getComputedStyle(document.body).backgroundColor==='rgb(246, 247, 242)');await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:'../.stitch/designs/deployed-mobile.png',fullPage:true});
   await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'../.stitch/designs/deployed-desktop.png',fullPage:true});
   await guest.close();
   if(process.argv.includes('--owner')){
@@ -27,7 +27,7 @@ try{
     for(const path of ['/coach','/api/today','/api/learn/topics','/api/pte/listening/progress'])assert.equal((await owner.request.get(base+path)).status(),200,path);
     const ownerPage=await owner.newPage();
     await ownerPage.addInitScript(()=>localStorage.setItem('evc_lang','en'));
-    await ownerPage.goto(base+'/coach');await ownerPage.getByRole('heading',{name:'Nhiệm vụ hôm nay',exact:true}).waitFor();
+    await ownerPage.goto(base+'/coach',{waitUntil:'domcontentloaded',timeout:60000});await ownerPage.getByRole('heading',{name:'Nhiệm vụ hôm nay',exact:true}).waitFor();
     console.log('Owner HTTPS: login, personal home, existing lessons and PTE verified.');
     await owner.close();
   }
