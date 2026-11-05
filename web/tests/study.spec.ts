@@ -30,6 +30,7 @@ for(const width of [320,390,768,1440])test(`layout is readable without overflow 
   await expect(page.getByRole('heading',{level:1})).toContainText('Mỗi ngày');
   await page.getByRole('button',{name:'Bắt đầu 5 phút'}).click();
   await expect(page.getByRole('heading',{level:1})).toHaveText('Điện cơ bản');
+  expect(await page.evaluate(()=>getComputedStyle(document.body).backgroundColor)).toBe('rgb(246, 247, 242)');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
   const file=`test-results/lesson-${width}.png`;await page.screenshot({path:file,fullPage:true});
   expect(errors).toEqual([]);
@@ -78,6 +79,7 @@ test('offline download survives reload, plays ranges and never caches private pa
   expect(cached).not.toContain('/coach');expect(cached).not.toContain('/api/today');expect(cached.filter(p=>p.startsWith('/audio/study/'))).toHaveLength(130);
   await context.setOffline(true);await page.goto('/?view=lesson&id=electrical-basics&mode=listen');
   await expect(page.getByText('Đang offline')).toBeVisible();
+  expect(await page.evaluate(()=>getComputedStyle(document.body).backgroundColor)).toBe('rgb(246, 247, 242)');
   await page.getByRole('button',{name:'Phát câu mẫu',exact:true}).click();
   await expect(page.getByText('Đang phát câu mẫu')).toBeVisible();
   const range=await page.evaluate(async()=>{const r=await fetch('/audio/study/electrical-basics-0.mp3',{headers:{Range:'bytes=0-99'}});return {status:r.status,length:(await r.arrayBuffer()).byteLength};});expect(range).toEqual({status:206,length:100});
