@@ -1,8 +1,9 @@
-import {chromium} from 'playwright';
+import {chromium,webkit} from 'playwright';
 import {readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
 const base=process.argv[2]||'https://english.duytruongphatco.com';
-const browser=await chromium.launch({headless:true,channel:'chrome'});
+const engine=process.argv.includes('--webkit')?webkit:chromium;
+const browser=await engine.launch({headless:true,...(engine===chromium?{channel:'chrome'}:{})});
 try{
   const guest=await browser.newContext({viewport:{width:390,height:844}});
   const page=await guest.newPage();

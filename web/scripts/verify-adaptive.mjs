@@ -18,6 +18,8 @@ try{
   assert.equal(await page.locator('.daily-card h2').innerText(),'Chào hỏi & giới thiệu');
   assert.match(await page.locator('.skill-listen strong').innerText(),/B1/);
   assert.match(await page.locator('.skill-write strong').innerText(),/A1/);
+  const closeNotice=page.getByRole('button',{name:'Đóng thông báo'});
+  if(await closeNotice.count())await closeNotice.click();
   await page.evaluate(()=>document.fonts.ready);
   await page.screenshot({path:resolve(import.meta.dirname,'../../.stitch/designs/personalized-phone.png'),fullPage:true});
   if(process.argv.includes('--offline')){
