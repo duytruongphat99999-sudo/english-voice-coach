@@ -1,8 +1,8 @@
-import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
+import {readFileSync,writeFileSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
 const dir=resolve(import.meta.dirname,'../dist');
-const html=readFileSync(resolve(dir,'index.html'),'utf8');
+let html=readFileSync(resolve(dir,'index.html'),'utf8');
 const assets=[...new Set([...html.matchAll(/(?:src|href|component-url|renderer-url)="(\/_assets\/[^"?#]+)"/g)].map(m=>m[1]))];
 // Follow module imports; only public app dependencies are precached.
 for(let i=0;i<assets.length;i++){
@@ -12,8 +12,10 @@ for(let i=0;i<assets.length;i++){
     const path='/_assets/'+m[1].slice(2);if(!assets.includes(path))assets.push(path);
   }
 }
-const fonts=readdirSync(resolve(dir,'fonts')).filter(f=>f.endsWith('.woff2')).map(f=>'/fonts/'+f);
-const core=['/','/manifest.webmanifest','/icon.svg','/icon-192.png','/icon-512.png','/icon-maskable.png',...fonts,...assets];
+// Start the hydration dependency graph alongside the document, not after CSS.
+html=html.replace('</head>',assets.filter(url=>url.endsWith('.js')).map(url=>`<link rel="modulepreload" href="${url}">`).join('')+'</head>');
+writeFileSync(resolve(dir,'index.html'),html);
+const core=['/','/manifest.webmanifest','/icon.svg','/icon-192.png','/icon-512.png','/icon-maskable.png',...assets];
 const hash=createHash('sha256').update(html).digest('hex').slice(0,12);
 writeFileSync(resolve(dir,'sw.js'),`
 const SHELL='evc-study-shell-${hash}';
@@ -26,6 +28,7 @@ self.addEventListener('install',event=>event.waitUntil((async()=>{
   const page=await fetch('/index.html?evc-build=${hash}',{cache:'reload'});
   if(!page.ok||!page.headers.get('Content-Type')?.includes('text/html'))throw new Error('Offline document unavailable');
   await cache.put('/',page);
+  await self.skipWaiting();
 })()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
   const keys=await caches.keys();
@@ -38,8 +41,12 @@ self.addEventListener('fetch',event=>{
   // Personal pages and all APIs ALWAYS go to the server.
   if(url.pathname==='/'||url.pathname==='/index.html'){
     event.respondWith((async()=>{
+      // This versioned shell includes all its dependencies. A stalled mobile
+      // connection must never block an already installed public learning app.
+      const cached=await (await caches.open(SHELL)).match('/');
+      if(cached)return cached;
       try{const res=await fetch(req);if(res.ok&&!res.redirected)return res;}catch{}
-      return (await (await caches.open(SHELL)).match('/'))||Response.error();
+      return Response.error();
     })());return;
   }
   if(url.pathname.startsWith('/audio/study/')){

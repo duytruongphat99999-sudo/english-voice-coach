@@ -1,7 +1,7 @@
 ---
 import StudyApp from '../islands/StudyApp';
-import '../styles/global.css';
-import '../styles/study.css';
+import globalStyles from '../styles/global.css?inline';
+import studyStyles from '../styles/study.css?inline';
 ---
 
 <!doctype html>
@@ -19,6 +19,7 @@ import '../styles/study.css';
   <link rel="icon" type="image/svg+xml" href="/icon.svg" />
   <link rel="apple-touch-icon" href="/icon-192.png" />
   <title>English Voice Coach · Học tiếng Anh miễn phí mỗi ngày</title>
+  <style is:inline set:html={globalStyles + studyStyles} />
 </head><body class="public-study">
   <a class="skip-link" href="#study-content">Đến nội dung học</a>
   <StudyApp client:load />

@@ -32,3 +32,23 @@ node scripts/verify-release.mjs https://english.duytruongphatco.com --owner
 ```
 
 This reads the local ignored `.env` password, verifies login/read-only routes, and never prints credentials. The production data remains on the self-hosted machine, outside Git.
+
+## Mobile startup fix — 2026-11-06
+
+The origin returned HTML in about 3 ms, while public requests varied between 0.5 and 7 seconds. A fresh Chrome session sometimes stalled for over 20 seconds on styles or hydration modules. Disabling QUIC in a diagnostic browser improved the result, but did not establish a zone-wide transport fault. The public first screen previously fetched two blocking stylesheets and up to ten font subsets/weights, followed by the hydration dependency graph. The service worker also waited indefinitely for a stalled network navigation before using its cached shell.
+
+The public page now embeds its styles, uses system fonts, and preloads its public JavaScript dependencies. The installed, versioned shell opens directly from cache. A newly installed worker activates after its document and all public dependencies have been cached. Private pages and APIs continue to bypass the worker; audio cache and range playback are unchanged.
+
+A hostname-scoped response-header rule named **English Coach - avoid stalled HTTP3** was tested with both removal of `Alt-Svc` and `Alt-Svc: clear`. Public responses still advertised HTTP/3, so this diagnostic rule was disabled. Do not treat it as an enforced HTTP/2 policy. No zone-wide protocol setting was changed.
+
+Verification on public HTTPS after deployment: three fresh Chrome processes entered a lesson in 776–876 ms; three WebKit sessions in 655–971 ms. Installed offline reloads were 135–338 ms across both engines. These are measurements on the deployment machine's network, not a guarantee for every phone or connection. Local checks passed 51 tests; one WebKit microphone test is intentionally skipped because recording needs real hardware.
+
+Repeat the public startup and offline checks without special transport flags:
+
+```sh
+cd web
+node scripts/verify-startup.mjs https://english.duytruongphatco.com
+node scripts/verify-startup.mjs https://english.duytruongphatco.com --webkit
+```
+
+Cloudflare's protocol diagnostic reference: https://developers.cloudflare.com/speed/optimization/protocol/troubleshooting/protocol-troubleshooting/

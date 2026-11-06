@@ -6,7 +6,7 @@ Updated direction: PTE Academic as the main objective. Learner setup has three s
 
 Palette: forest green #176B57, lime #D8F36A for the primary daily action, warm canvas #F6F7F2, ink #19372D, muted text #617168, borders #DCE3DA.
 
-Typography: locally hosted Be Vietnam Pro, 400–800, full Vietnamese support. Large learning sentences, concise labels. No remote font requests.
+Typography: native system font stack with Vietnamese support. Large learning sentences, concise labels. No font downloads on the public app, keeping the first screen and controls independent of font transfers on mobile networks.
 
 Layout: four-tab bottom navigation on phones; sidebar and restrained bento grouping on desktop. Circuit line art distinguishes the electrical course; waveform marks listening and the brand. Rounded 12–20px cards, no gradients, no stock photos, no fake progress. Minimum 44px action targets, focus indicators, reduced motion and safe areas.
 
