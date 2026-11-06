@@ -52,3 +52,20 @@ node scripts/verify-startup.mjs https://english.duytruongphatco.com --webkit
 ```
 
 Cloudflare's protocol diagnostic reference: https://developers.cloudflare.com/speed/optimization/protocol/troubleshooting/protocol-troubleshooting/
+
+## Chrome-specific blank page follow-up — 2026-11-06
+
+The user reported that the root URL still stayed blank in Chrome while Edge opened quickly. Fresh automated Chrome profiles and the actual Edge profile did not reproduce the failure, including a diagnostic forced-HTTP/3 run. Those measurements were insufficient to confirm a fix for the affected Chrome session.
+
+As a reversible isolation step, **HTTP/3 (with QUIC)** was switched **Off** under Cloudflare **Speed → Settings → Protocol Optimization** for the `duytruongphatco.com` zone. HTTP/2 stays enabled. This is a zone-wide protocol setting, not a hostname rule. HTTPS, authentication, DNS targets, and origin tunnel configuration were not changed. The earlier ineffective response-header rule remains disabled.
+
+After the setting changed, public responses no longer contained `Alt-Svc: h3`. The user performed a Chrome hard reload and confirmed **“Đã hiện giao diện nhanh”**. Three fresh Chrome contexts then entered lessons in 745–778 ms over HTTP/2; the existing browser also reloaded successfully five times. Offline reloads remained 137–197 ms. Because the user's successful test included a hard reload, it supports a Chrome connection/cache-session issue but does not by itself prove QUIC was the sole cause.
+
+Keep HTTP/3 off while this workaround is needed. Before re-enabling it, validate the affected user's regular Chrome session, not just a fresh headless profile. Cloudflare documents Chrome/QUIC stalls and zone-wide HTTP/3 disablement as a diagnostic step in the reference above.
+
+Verify the actual transport as well as app readiness:
+
+```sh
+cd web
+node scripts/verify-startup.mjs https://english.duytruongphatco.com --expect-http2
+```
